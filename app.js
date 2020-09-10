@@ -1,9 +1,138 @@
 const fs = require('fs');
 console.log("hello world");
 
+class Item {}
+
+class Champion {
+    static makeFromObj(obj) {
+        return new Champion(obj.stats, obj.id, obj.key, obj.name, obj.title, obj.blurb, obj.info, obj.image, obj.tags, obj.partype);
+    }
+    constructor(stats, id, key, name, title, blurb, info, image, tags, partype) {
+        // use random info they give us because why not
+        this.id = id;
+        this.key = key;
+        this.name = name;
+        this.title = title;
+        this.blurb = blurb;
+        this.info = info;
+        this.image = image;
+        this.tags = tags;
+        this.partype = partype; // ???
+
+        this.inventoryItemLimit = 6;
+        this._items = [];
+
+        // set all the base stat info
+
+        let {hp,hpperlevel,mp,mpperlevel,movespeed,armor,armorperlevel,spellblock,spellblockperlevel,attackrange,hpregen,hpregenperlevel,mpregen,mpregenperlevel,crit,critperlevel,attackdamage,attackdamageperlevel,attackspeedperlevel,attackspeed } = stats;
+        this.baseStats = {};
+        this.baseStats.hp = hp;
+        this.baseStats.hpPerLevel = hpperlevel;
+        this.baseStats.mp = mp;
+        this.baseStats.mpPerLevel = mpperlevel;
+        this.baseStats.moveSpeed = movespeed;
+        this.baseStats.armor = armor;
+        this.baseStats.armorPerLevel = armorperlevel;
+        this.baseStats.spellBlock = spellblock;
+        this.baseStats.spellBlockPerLevel = spellblockperlevel;
+        this.baseStats.attackRange = attackrange;
+        this.baseStats.hpRegen = hpregen;
+        this.baseStats.hpRegenPerLevel = hpregenperlevel;
+        this.baseStats.mpRegen = mpregen;
+        this.baseStats.mpRegenPerLevel = mpregenperlevel;
+        this.baseStats.crit = crit;
+        this.baseStats.critPerLevel = critperlevel;
+        this.baseStats.attackDamage = attackdamage;
+        this.baseStats.attackDamagePerLevel = attackdamageperlevel;
+        this.baseStats.attackSpeedPerLevel = attackspeedperlevel;
+        this.baseStats.attackSpeed = attackspeed;
+
+        // calculate stats
+        this.level = 1;
+        this.setStatsForLevel();
+    }
+    setStatsForLevel() {
+        // conspicously missing is ability power ...
+        this.attackRange = this.baseStats.attackRange;
+        this.moveSpeed = this.baseStats.moveSpeed;
+
+        let diff = this.level - 1;
+        this.hp = this.baseStats.hp + (this.baseStats.hpPerLevel * diff);
+        this.mp = this.baseStats.mp + (this.baseStats.mpPerLevel * diff);
+
+        this.hpRegen = this.baseStats.hpRegen + (this.baseStats.hpRegenPerLevel * diff);
+        this.mpRegen = this.baseStats.mpRegen + (this.baseStats.mpRegenPerLevel * diff);
+
+
+        this.crit = this.baseStats.crit + (this.baseStats.critPerLevel * diff);
+        this.attackDamage = this.baseStats.attackDamage + (this.baseStats.attackDamagePerLevel * diff);
+        this.attackSpeed = this.baseStats.attackSpeed + (this.baseStats.attackSpeedPerLevel * diff);
+
+
+        this.armor = this.baseStats.armor + (this.baseStats.armorPerLevel * diff);
+        this.spellBlock = this.baseStats.spellBlock + (this.baseStats.spellBlockPerLevel * diff);
+    }
+    get level() {
+        return this._level;
+    }
+    set level(level) {
+        if(level < 1) level = 1;
+        if (level > 18) level = 18;
+        this._level = level;
+    }
+
+    get items() {
+        return this._items;
+    }
+
+    addItem(item) {
+        // todo:: check for boots ???
+        if (this._items.length > this.inventoryItemLimit) throw new Error(`can only hold ${this.inventoryItemLimit} items`);
+        if (!(item instanceof Item)) throw new Error(`Can only add items to item list, ${item} is not an item`);
+        this._items.push(item);
+    }
+    removeItem(name) {
+        // todo:: implement
+    }
+}
+
+async function findAllPartypes() {
+    let parTypeValues = await new Promise(async (resolve, reject) => {
+        fs.readFile('./champions.json', 'utf8', (err, data) => {
+            let obj = JSON.parse(data);
+            if (err) {
+                console.error(err)
+                reject(err);
+            }
+            let parTypes = new Set();
+            Object.entries(obj.data).forEach((entryArray) => parTypes.add(entryArray[1].partype));
+            resolve(parTypes.values());
+        });
+    });
+    console.log(parTypeValues);
+}
+
+// findAllPartypes();
+// par types
+// 'Blood Well',
+//     'Mana',
+//     'Energy',
+//     'None',
+//     'Rage',
+//     'Courage',
+//     'Shield',
+//     'Fury',
+//     'Ferocity',
+//     'Heat',
+//     'Grit',
+//     'Crimson Rush',
+//     'Flow'
+
+
+
 
 async function main() {
-    let champions = await new Promise(async (resolve, reject) => {
+    let championData = await new Promise(async (resolve, reject) => {
         fs.readFile('./champions.json', 'utf8', (err, data) => {
             let obj = JSON.parse(data);
             if (err) {
@@ -13,20 +142,24 @@ async function main() {
             // console.log(data);
             // console.log(obj);
             // console.log(obj.data.Zyra);
-            resolve(obj.data.Zyra)
+            resolve(obj.data)
         });
     });
-    console.log(champions);
-    // fs.readFile('./champions.json', 'utf8' , (err, data) => {
-    //     let obj = JSON.parse(data);
-    //     if (err) {
-    //         console.error(err)
-    //         return
-    //     }
-    //     console.log(data);
-    //     console.log(obj);
-    //     console.log(obj.data.Zyra);
-    // })
+
+    // make champion dictionary
+    let championMap = new Map();
+    Object.entries(championData).forEach(([name, data]) => championMap.set(name, Champion.makeFromObj(data)));
+    // console.log(championMap);
+
+    // get stats for Zoe at Level 10
+    let zoe = championMap.get("Zoe");
+    zoe.level = 10;
+    zoe.setStatsForLevel();
+    console.log(zoe);
+
+
+
+
 }
 main();
 
@@ -88,34 +221,4 @@ main();
 
 
 
-
-
-
-class Champion {
-    makeFromObj(obj) {
-        return new Champion(obj.stats);
-    }
-    constructor(stats) {
-        let {hp,hpperlevel,mp,mpperlevel,movespeed,armor,armorperlevel,spellblock,spellblockperlevel,attackrange,hpregen,hpregenperlevel,mpregen,mpregenperlevel,crit,critperlevel,attackdamage,attackdamageperlevel,attackspeedperlevel,attackspeed } = stats;
-        this.hp = hp;
-        this.hpperlevel = hpperlevel;
-        this.mp = mp;
-        this.mpperlevel = mpperlevel;
-        this.movespeed = movespeed;
-        this.armor = armor;
-        this.armorperlevel = armorperlevel;
-        this.spellblock = spellblock;
-        this.spellblockperlevel = spellblockperlevel;
-        this.attackrange = attackrange;
-        this.hpregen = hpregen;
-        this.hpregenperlevel = hpregenperlevel;
-        this.mpregen = mpregen;
-        this.mpregenperlevel = mpregenperlevel;
-        this.crit = crit;
-        this.critperlevel = critperlevel;
-        this.attackdamage = attackdamage;
-        this.attackdamageperlevel = attackdamageperlevel;
-        this.attackspeedperlevel = attackspeedperlevel;
-        this.attackspeed = attackspeed;
-    }
-}
+// make enum for partype
