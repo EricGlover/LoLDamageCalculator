@@ -49,7 +49,6 @@ class Champion {
 
         // calculate stats
         this.level = 1;
-        this.setStatsForLevel();
     }
     setStatsForLevel() {
         // conspicously missing is ability power ...
@@ -79,6 +78,7 @@ class Champion {
         if(level < 1) level = 1;
         if (level > 18) level = 18;
         this._level = level;
+        this.setStatsForLevel();
     }
 
     get items() {
@@ -93,6 +93,27 @@ class Champion {
     }
     removeItem(name) {
         // todo:: implement
+    }
+    /**
+     * if armor >= 0 then 100 / ( 100 + armor )
+     * else 2 - ( 100 / ( 100 - armor) )
+     *
+     * same for MR
+     *
+     * **/
+    takePhysicalDamage(damage) {
+        let multiplier  = 100 / (100 + this.armor)
+        if(this.armor < 0) {
+            multiplier = 2 - (100 / (100 - this.armor));
+        }
+        this.hp -= damage * multiplier;
+    }
+    takeMagicDamage(damage) {
+        let multiplier  = 100 / (100 + this.spellBlock)
+        if(this.spellBlock < 0) {
+            multiplier = 2 - (100 / (100 - this.spellBlock));
+        }
+        this.hp -= damage * multiplier;
     }
 }
 
@@ -129,11 +150,9 @@ async function findAllPartypes() {
 //     'Flow'
 
 
-
-
-async function main() {
+async function loadChampions() {
     let championData = await new Promise(async (resolve, reject) => {
-        fs.readFile('./champions.json', 'utf8', (err, data) => {
+        fs.readFile('./data/champions.json', 'utf8', (err, data) => {
             let obj = JSON.parse(data);
             if (err) {
                 console.error(err)
@@ -150,16 +169,50 @@ async function main() {
     let championMap = new Map();
     Object.entries(championData).forEach(([name, data]) => championMap.set(name, Champion.makeFromObj(data)));
     // console.log(championMap);
+    return championMap;
+}
 
+/**
+ * if armor >= 0 then 100 / ( 100 + armor )
+ * else 2 - ( 100 / ( 100 - armor) )
+ *
+ * same for MR
+ *
+ *
+ *
+ * @param attacker
+ * @param defender
+ * @returns {number}
+ */
+function howManyAutosToKill(attacker, defender) {
+    let autos = 0;
+    while(defender.hp > 0) {
+        defender.takePhysicalDamage(attacker.attackDamage);
+        autos++;
+    }
+    return autos;
+}
+
+async function main() {
+    let championMap = await loadChampions();
     // get stats for Zoe at Level 10
     let zoe = championMap.get("Zoe");
+    let ashe = championMap.get("Ashe");
+    let braum = championMap.get("Braum");
+
+    // console.log(ashe);
+    // console.log(braum);
+    for (let i = 1; i <= 18; i++) {
+        braum.level = i;
+        console.log(`${howManyAutosToKill(ashe, braum)} autos for lvl ${ashe.level} ashe to kill level ${braum.level} braum`);
+    }
+
+    return;
+
+
     zoe.level = 10;
     zoe.setStatsForLevel();
     console.log(zoe);
-
-
-
-
 }
 main();
 
