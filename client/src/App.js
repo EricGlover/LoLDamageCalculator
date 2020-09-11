@@ -7,7 +7,16 @@ import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import ComboSegment from './Components/ComboSegment';
 
 let ogStuff = {};
-ogStuff.choosableAbilities = [{name: "dark binding"}, {name: "tormented soil"} ];
+ogStuff.choosableAbilities = [
+  {
+    name: "dark binding",
+    key: "Q"
+  }, 
+  {
+    name: "tormented soil",
+    key: "W"
+  } 
+];
 function App() {
   const [stuff, setStuff] = useState(ogStuff);
   const [selectedAbilities, setSelectedAbilites] = useState([]);
