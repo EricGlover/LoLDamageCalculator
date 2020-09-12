@@ -45,9 +45,14 @@ class Ability {
 
 class Champion {
     static makeFromObj(obj) {
-        return new Champion(obj.stats, obj.id, obj.key, obj.name, obj.title, obj.blurb, obj.info, obj.image, obj.tags, obj.partype);
+        // console.log(obj);
+        // throw new Error("what the fuck are you on Ashlyn");
+        let image = Image.makeFromObj(obj.image);
+        let abilities = obj.spells.map(abilityData => Ability.makeFromObj(abilityData));
+        return new Champion(obj.stats, abilities, obj.id, obj.key, obj.name, obj.title, obj.blurb, obj.info, image, obj.tags, obj.partype);
     }
-    constructor(stats, id, key, name, title, blurb, info, image, tags, partype) {
+    constructor(stats, abilities, id, key, name, title, blurb, info, image, tags, partype) {
+        this.abilities = abilities;
         // use random info they give us because why not
         this.id = id;
         this.key = key;
