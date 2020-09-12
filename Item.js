@@ -1,5 +1,5 @@
 
-// item datas format
+// item data format
 // "basic": {
 //     "name": "",
 //         "rune": {

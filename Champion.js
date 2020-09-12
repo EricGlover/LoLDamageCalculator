@@ -1,3 +1,48 @@
+class Image {
+    constructor(full, sprite, group, x, y, w, h) {
+        this.full = full;
+        this.sprite = sprite;
+        this.group = group;
+        this.x = x;
+        this.y = y;
+        this.w = w;
+        this.h = h;
+    }
+
+    static makeFromObj(obj) {
+        return new Image(obj.full, obj.sprite, obj.group, obj.x, obj.y, obj.w, obj.h);
+    }
+}
+
+class Ability {
+    /**
+     *
+     * @param id string
+     * @param name string
+     * @param description string
+     * @param tooltip string
+     * @param cooldown array<float>
+     * @param cost array<float?>
+     * @param range array<int>
+     * @param image Image
+     */
+    constructor(id, name, description, tooltip, cooldown, cost, range, image) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.tooltip = tooltip;
+        this.cooldown = cooldown;
+        this.cost = cost;
+        this.range = range;
+        this.image = image;
+    }
+
+    static makeFromObj(obj) {
+        return new Ability(obj.id, obj.name, obj.description, obj.tooltip, obj.cooldown, obj.cost, obj.range, obj.image);
+    }
+}
+
+
 class Champion {
     static makeFromObj(obj) {
         return new Champion(obj.stats, obj.id, obj.key, obj.name, obj.title, obj.blurb, obj.info, obj.image, obj.tags, obj.partype);
