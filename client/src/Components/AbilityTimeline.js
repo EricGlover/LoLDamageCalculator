@@ -1,18 +1,32 @@
 import React from "react";
-import { Steps } from "antd";
+import { Button, Steps } from "antd";
 
 function AbilityTimeline ({props}){
-    const {selectedAbilities, setSelectedAbilites} = props;
+    const {selectedAbilities, setSelectedAbilites, currentStep, setCurrentStep, onChange} = props;
     const {Step} = Steps;
+    function onRemoveAbility(index){
+        setSelectedAbilites(selectedAbilities.slice(0,index).concat(selectedAbilities.slice(index+1)));
+    }
+    
     return(
-    <div style={{paddingRight: "40px"}}>
-        <Steps current={selectedAbilities.length-1}>
-         {selectedAbilities.map(ability=>(
+    <div id="AbilityTimeline" style={{paddingRight: "40px", overflow:"auto"}}>
+        <Steps 
+            current={currentStep}
+            onChange={onChange}
+            >
+         {selectedAbilities.map((ability, index)=>(
          <Step 
-            title={ability.key}
-            description={ability.name}
+         title={ability.key}
+            description=
+            {
+                <div>
+                  <Button shape="circle" size="small" danger="true" onClick={()=>onRemoveAbility(index)}>X</Button>  
+                    {ability.name}
+                </div>
+                
+            }
             //icon can be provided: could use AA, Q, ect. or ability icon from league
-
+            // subTitle={<Button shape="circle" size="small" danger="true" onClick={()=>onRemoveAbility(index)}>X</Button>}
             />
          ))}
         </Steps>

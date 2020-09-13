@@ -1,0 +1,54 @@
+{
+    "Name":"Bard",
+    "Abilities":{
+        "Q":{
+            "name": "Cosmic Binding",
+            "key": "",
+            "cost": "60 MANA",
+            "damageType": "",
+            "targetRange": "850",
+            "speed":"1500",
+            "castTime":" 0.25",
+            "coolDown":"11 / 10 / 9 / 8 / 7",
+            "magicDamage":"80 / 125 / 170 / 215 / 260 (+ 65% AP)",
+            "disableDuration":"1 / 1.2 / 1.4 / 1.6 / 1.8"
+        },
+        "W":{
+            "name": "Caretaker's Shrine",
+            "key": "",
+            "cost": "70 MANA",
+            "damageType": "",
+            "targetRange": " 800",
+            "speed":"1500",
+            "castTime":" 0.25",
+            "coolDown":"14",
+            "minimumHeal":"30 / 60 / 90 / 120 / 150 (+ 30% AP)",
+            "maximumHeal":"55 / 95 / 135 / 175 / 215 (+ 60% AP)"
+        },
+        "E":{
+            "name":"Magical Journey",
+            "key": "",
+            "cost": "",
+            "castTime": "",
+            "speed" : "",
+            "coolDown": "22 / 20.5 / 19 / 17.5 / 16"
+
+        },
+        "R":{},
+        "P":{
+            "name": "Traveler's Call",
+            "part1":{
+                "name": "Ancient Chimes",
+                "perMeep": "MS, 12% Maximum Mana"
+            },
+            "part2":{
+                "name":"Meeps",
+                "maxCharges": "0=1/10=2/30=3/50=4/65=5/80=6/90=7/95=8/100=9",
+                "chargeRate":"0=8/2-=7/40=6/55=5/70=4",
+                "targetingInput": "passive",
+                "damage" : "40 (+ 12 per 5 chimes collected) (+ 30% AP)",
+                "damageType": "magic"
+            }
+        }
+    }
+}
