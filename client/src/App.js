@@ -10,11 +10,13 @@ let ogStuff = {};
 ogStuff.choosableAbilities = [
   {
     name: "dark binding",
-    key: "Q"
+    key: "Q",
+    damage: 50
   }, 
   {
     name: "tormented soil",
-    key: "W"
+    key: "W",
+    damage: 100
   } 
 ];
 function App() {
