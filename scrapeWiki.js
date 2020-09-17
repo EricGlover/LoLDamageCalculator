@@ -94,9 +94,51 @@ async function printToFile(fileName, data) {
     })
 }
 
+// we already have the basic champion file, use this for the names
+async function loadChampionNames() {
+    return new Promise(async (resolve, reject) => {
+        fs.readFile('./data/champions.json', 'utf8', (err, data) => {
+            let obj = JSON.parse(data);
+            if (err) {
+                console.error(err)
+                reject(err);
+            }
+            resolve(Object.keys(obj.data));
+        });
+    });
+}
+
+async function scrapeChampion(championName, browser) {
+    const abilityNames = await getChampionAbilityNames(championName, browser);
+    const abilities = [];
+    for (const [_, name] of Object.entries(abilityNames)) {
+        console.log(name);
+        let data = await getAbility(name, championName, browser);
+        abilities.push(data);
+    }
+    await printToFile(championName, JSON.stringify(abilities, null, 2));
+}
+
+async function scrapeAllChampions() {
+    const browser = await puppeteer.launch();
+
+    let championNames = await loadChampionNames();
+    for(const [_, name] of Object.entries(championNames)) {
+        await scrapeChampion(name, browser);
+    }
+    await browser.close();
+}
+
 
 async function main() {
+    await scrapeAllChampions();
+    return;
     const browser = await puppeteer.launch();
+
+    let championNames = await loadChampionNames();
+    for(const [_, name] of Object.entries(championNames)) {
+        await scrapeChampion(name);
+    }
     let championName = "Caitlyn";
     const abilityNames = await getChampionAbilityNames(championName, browser);
     const abilities = [];
