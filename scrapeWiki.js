@@ -38,7 +38,7 @@ async function main() {
         const exporter = new Exporter();
 
         // console.log(await importer.loadChampionNames());
-        // todo:: redo that formatting champion stuff 
+        // todo:: redo that formatting champion stuff
         // todo:: find all the errors
         const championNames = await importer.loadChampionNames();
         const abilities = await scraper.scrapeChampionsAbilities(championNames);
