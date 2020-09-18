@@ -5,6 +5,7 @@ import {Divider, Row, Col} from 'antd';
 import Grid from 'antd/lib/card/Grid';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import ComboSegment from './Components/ComboSegment';
+import LeftWindow from './Components/LeftWindow';
 
 let ogStuff = {};
 ogStuff.choosableAbilities = [
@@ -27,6 +28,7 @@ function App() {
   <Row>
     <Col span="12">
         hello
+        <LeftWindow></LeftWindow>
         {selectedAbilities[0] ? selectedAbilities[0].name : 'no selection'}
     </Col>
     <Col span="12">
