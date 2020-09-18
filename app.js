@@ -10,12 +10,14 @@ router.get("/champion/caitlyn", (req, res) => {
     let championName = "Caitlyn";
     try {
         let str = fs.readFileSync(`./data/championFormatted/${championName}.json`);
-        let obj = JSON.parse(str);
-        res.json(obj);
+        res.send(str);
+        // let obj = JSON.parse(str);
+        // res.json(obj);
     } catch(e) {
         console.error(e);
+        res.send("error");
     }
-    res.send(req.params.name);
+    // res.send(req.params.name);
 });
 
 router.get("/champion/:name", (req, res) => {
