@@ -11,7 +11,7 @@ router.get("/champion/caitlyn", (req, res) => {
     try {
         let str = fs.readFileSync(`./data/championFormatted/${championName}.json`);
         // let obj = JSON.parse(str);
-        res.send(str);
+        res.json(str);
     } catch(e) {
         console.error(e);
     }
