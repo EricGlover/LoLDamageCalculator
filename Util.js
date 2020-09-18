@@ -1,5 +1,5 @@
 class Util {
-    async static loadFullChampionDetails() {
+    static async loadFullChampionDetails() {
         const championData = [];
         const basePath = "./data/champions";
         const dir = await fs.promises.opendir(basePath);
@@ -22,7 +22,9 @@ class Util {
         return str.split("/").map(str => Number.parseInt(str.trim()));
     }
 
-    async static getChampionNames() {
+    static async getChampionNames() {
         return (await loadFullChampionDetails()).map(c => c.name);
     }
 }
+
+module.exports = Util;

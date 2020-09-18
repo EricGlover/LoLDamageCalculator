@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
+const Ability = require('./Ability.js');
 
 
 async function getTemplate(browser) {
@@ -163,8 +164,9 @@ async function scrapeAllChampions() {
 
 
 async function main() {
+    let browser;
     try {
-        // const browser = await puppeteer.launch();
+        // browser = await puppeteer.launch();
         // get templates and raw wiki data
         // await getTemplate(browser);
         // await scrapeAllChampions();
@@ -173,11 +175,16 @@ async function main() {
 
         // read from file
         const championName = "Caitlyn";
-        let data = fs.readFileSync(`./data/wikiData/${championName}`);
+        let data = fs.readFileSync(`./data/wikiData/${championName}.json`);
         let abilityDataArr = JSON.parse(data);
-        // start with Q
-        let ability = Ability.makeFromObj(abilityDataArr[0]);
-        console.log(ability);
+        let abilities = [];
+        abilityDataArr.forEach(abilityName => {
+            let ability = Ability.makeFromWikiData(abilityName);
+            abilities.push(ability);
+        })
+
+        console.log(abilities);
+        abilities.forEach(ab => console.log(ab.leveling));
     } catch(e) {
         console.error(e);
     } finally {
