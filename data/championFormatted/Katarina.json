@@ -1,0 +1,190 @@
+{
+  "abilities": [
+    {
+      "name": "Bouncing Blade",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "description": "Active: Katarina throws a Dagger at the target enemy that bounces to up to 2 nearby enemies, dealing magic damage to each target.",
+      "leveling": "Magic Damage:75 / 105 / 135 / 165 / 195 (+ 30% AP)",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        75,
+        105,
+        135,
+        165,
+        195
+      ],
+      "ratios": [
+        {
+          "value": 30,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Preparation",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ],
+      "description": "Active: Katarina tosses a Dagger into the air above her current location, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosting and a decaying <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed until it lands after 1.25 seconds.",
+      "leveling": "Bonus Movement speed:50 / 60 / 70 / 80 / 90%",
+      "skill": "W",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        50,
+        60,
+        70,
+        80,
+        90
+      ],
+      "ratios": [],
+      "castTime": null
+    },
+    {
+      "name": "Shunpo",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        14,
+        12,
+        11,
+        9,
+        8
+      ],
+      "description": "Active: Katarina instantly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinks to the target location around the target non-<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f1/Ward_icon.png/revision/latest/scale-to-width-down/20?cb=20180828001331\" \t alt=\"Ward icon\"  \tclass=\"\" \t \tdata-image-key=\"Ward_icon.png\" \tdata-image-name=\"Ward icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ward unit or Dagger, dealing magic damage to the nearest enemy in range.",
+      "leveling": "Magic Damage:15 / 30 / 45 / 60 / 75 (+ 50% AD) (+ 25% AP)",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "ratios": [
+        {
+          "value": 50,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Death Lotus",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        90,
+        60,
+        45
+      ],
+      "description": "Active: Katarina rapidly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> spins in place for 2.5 seconds, throwing a dagger every 0.166 seconds to up to 3 nearby enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bf/Grievous_Wounds_icon.png/revision/latest/scale-to-width-down/20?cb=20150204013501\" \t alt=\"Grievous Wounds icon\"  \tclass=\"\" \t \tdata-image-key=\"Grievous_Wounds_icon.png\" \tdata-image-name=\"Grievous Wounds icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> grievously wounding them by 60% for 3 seconds.",
+      "leveling": "Magic Damage Per Dagger:»25 / 31.25 / 37.5 / 43.75 / 50 (+ 22% bonus AD) (+ 19% AP)«Total Single-Target Damage:375 / 468.75 / 562.5 / 656.25 / 750 (+ 330% bonus AD) (+ 285% AP)",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        25,
+        31.25,
+        37.5,
+        43.75,
+        50
+      ],
+      "ratios": [
+        {
+          "value": 22,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    }
+  ],
+  "id": "Katarina",
+  "key": "55",
+  "name": "Katarina",
+  "title": "the Sinister Blade",
+  "blurb": "Decisive in judgment and lethal in combat, Katarina is a Noxian assassin of the highest caliber. Eldest daughter to the legendary General Du Couteau, she made her talents known with swift kills against unsuspecting enemies. Her fiery ambition has driven...",
+  "info": {
+    "attack": 4,
+    "defense": 3,
+    "magic": 9,
+    "difficulty": 8
+  },
+  "image": {
+    "full": "Katarina.png",
+    "sprite": "champion1.png",
+    "group": "champion",
+    "x": 144,
+    "y": 96,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Assassin",
+    "Mage"
+  ],
+  "partype": "None",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 602,
+    "hpPerLevel": 94,
+    "mp": 0,
+    "mpPerLevel": 0,
+    "moveSpeed": 340,
+    "armor": 27.88,
+    "armorPerLevel": 3.5,
+    "spellBlock": 32.1,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 125,
+    "hpRegen": 7.5,
+    "hpRegenPerLevel": 0.7,
+    "mpRegen": 0,
+    "mpRegenPerLevel": 0,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 58,
+    "attackDamagePerLevel": 3.2,
+    "attackSpeedPerLevel": 2.74,
+    "attackSpeed": 0.658
+  },
+  "_level": 1,
+  "attackRange": 125,
+  "moveSpeed": 340,
+  "hp": 602,
+  "mp": 0,
+  "hpRegen": 7.5,
+  "mpRegen": 0,
+  "crit": 0,
+  "attackDamage": 58,
+  "attackSpeed": 0.658,
+  "armor": 27.88,
+  "spellBlock": 32.1
+}

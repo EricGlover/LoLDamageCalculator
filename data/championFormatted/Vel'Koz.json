@@ -1,0 +1,63 @@
+{
+  "abilities": null,
+  "id": "Velkoz",
+  "key": "161",
+  "name": "Vel'Koz",
+  "title": "the Eye of the Void",
+  "blurb": "It is unclear if Vel'Koz was the first Void-spawn to emerge on Runeterra, but there has certainly never been another to match his level of cruel, calculating sentience. While his kin devour or defile everything around them, he seeks instead to...",
+  "info": {
+    "attack": 2,
+    "defense": 2,
+    "magic": 10,
+    "difficulty": 8
+  },
+  "image": {
+    "full": "Velkoz.png",
+    "sprite": "champion4.png",
+    "group": "champion",
+    "x": 48,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Mage"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 520,
+    "hpPerLevel": 88,
+    "mp": 469,
+    "mpPerLevel": 21,
+    "moveSpeed": 340,
+    "armor": 21.88,
+    "armorPerLevel": 3.5,
+    "spellBlock": 30,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 525,
+    "hpRegen": 5.5,
+    "hpRegenPerLevel": 0.55,
+    "mpRegen": 8,
+    "mpRegenPerLevel": 0.8,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 54.9379,
+    "attackDamagePerLevel": 3.1416,
+    "attackSpeedPerLevel": 1.36,
+    "attackSpeed": 0.625
+  },
+  "_level": 1,
+  "attackRange": 525,
+  "moveSpeed": 340,
+  "hp": 520,
+  "mp": 469,
+  "hpRegen": 5.5,
+  "mpRegen": 8,
+  "crit": 0,
+  "attackDamage": 54.9379,
+  "attackSpeed": 0.625,
+  "armor": 21.88,
+  "spellBlock": 30
+}

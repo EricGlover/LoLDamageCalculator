@@ -1,0 +1,172 @@
+{
+  "abilities": [
+    {
+      "name": "Bloodlust",
+      "cost": [
+        100
+      ],
+      "costType": "Current Fury",
+      "coolDown": [
+        12
+      ],
+      "description": "Passive: Tryndamere permanently has bonus attack damage, and gains additional bonus attack damage per <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 1% of his missing health.",
+      "leveling": "Bonus AD:»5 / 10 / 15 / 20 / 25 AD«Bonus AD Per Missing Health:»0.15 / 0.2 / 0.25 / 0.3 / 0.35 AD«Maximum Bonus AD:20 / 30 / 40 / 50 / 60 AD",
+      "skill": "Q",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        5,
+        10,
+        15,
+        20,
+        25
+      ],
+      "ratios": [],
+      "castTime": null
+    },
+    {
+      "name": "Mocking Shout",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        14
+      ],
+      "description": "Active: Tryndamere reduces the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> attack damage of all nearby enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions for 4 seconds.",
+      "leveling": "AD Reduction:20 / 35 / 50 / 65 / 80 AD",
+      "skill": "W",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        20,
+        35,
+        50,
+        65,
+        80
+      ],
+      "ratios": [],
+      "castTime": 0.3
+    },
+    {
+      "name": "Spinning Slash",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "description": "Active: Tryndamere <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction, dealing <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> physical damage to enemies in his path and gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 2 Fury per enemy hit.",
+      "leveling": "Physical Damage:80 / 110 / 140 / 170 / 200 (+ 130% bonus AD) (+ 80% AP)",
+      "skill": "E",
+      "damageType": "physical",
+      "isProjectile": "",
+      "flatDamage": [
+        80,
+        110,
+        140,
+        170,
+        200
+      ],
+      "ratios": [
+        {
+          "value": 130,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Undying Rage",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        110,
+        100,
+        90
+      ],
+      "description": "Active: Tryndamere instantly gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Fury and becomes immune to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> death for 5 seconds, during which his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> health cannot fall below a certain amount.",
+      "leveling": "Fury Gained:50 / 75 / 100\nMinimum Health:30 / 50 / 70",
+      "skill": "R",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        50,
+        75,
+        100,
+        30,
+        50
+      ],
+      "ratios": [],
+      "castTime": null
+    }
+  ],
+  "id": "Tryndamere",
+  "key": "23",
+  "name": "Tryndamere",
+  "title": "the Barbarian King",
+  "blurb": "Fueled by unbridled fury and rage, Tryndamere once carved his way through the Freljord, openly challenging the greatest warriors of the north to prepare himself for even darker days ahead. The wrathful barbarian has long sought revenge for the...",
+  "info": {
+    "attack": 10,
+    "defense": 5,
+    "magic": 2,
+    "difficulty": 5
+  },
+  "image": {
+    "full": "Tryndamere.png",
+    "sprite": "champion4.png",
+    "group": "champion",
+    "x": 144,
+    "y": 0,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Fighter",
+    "Assassin"
+  ],
+  "partype": "Fury",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 625.64,
+    "hpPerLevel": 98,
+    "mp": 100,
+    "mpPerLevel": 0,
+    "moveSpeed": 345,
+    "armor": 33,
+    "armorPerLevel": 3.1,
+    "spellBlock": 32.1,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 125,
+    "hpRegen": 8.5,
+    "hpRegenPerLevel": 0.9,
+    "mpRegen": 0,
+    "mpRegenPerLevel": 0,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 69,
+    "attackDamagePerLevel": 3.7,
+    "attackSpeedPerLevel": 2.9,
+    "attackSpeed": 0.67
+  },
+  "_level": 1,
+  "attackRange": 125,
+  "moveSpeed": 345,
+  "hp": 625.64,
+  "mp": 100,
+  "hpRegen": 8.5,
+  "mpRegen": 0,
+  "crit": 0,
+  "attackDamage": 69,
+  "attackSpeed": 0.67,
+  "armor": 33,
+  "spellBlock": 32.1
+}

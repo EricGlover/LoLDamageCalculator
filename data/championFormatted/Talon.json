@@ -1,0 +1,63 @@
+{
+  "abilities": null,
+  "id": "Talon",
+  "key": "91",
+  "name": "Talon",
+  "title": "the Blade's Shadow",
+  "blurb": "Talon is the knife in the darkness, a merciless killer able to strike without warning and escape before any alarm is raised. He carved out a dangerous reputation on the brutal streets of Noxus, where he was forced to fight, kill, and steal to survive...",
+  "info": {
+    "attack": 9,
+    "defense": 3,
+    "magic": 1,
+    "difficulty": 7
+  },
+  "image": {
+    "full": "Talon.png",
+    "sprite": "champion3.png",
+    "group": "champion",
+    "x": 336,
+    "y": 96,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Assassin"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 588,
+    "hpPerLevel": 95,
+    "mp": 377.2,
+    "mpPerLevel": 37,
+    "moveSpeed": 335,
+    "armor": 30,
+    "armorPerLevel": 3.5,
+    "spellBlock": 39,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 125,
+    "hpRegen": 8.5,
+    "hpRegenPerLevel": 0.75,
+    "mpRegen": 7.6,
+    "mpRegenPerLevel": 0.8,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 68,
+    "attackDamagePerLevel": 3.1,
+    "attackSpeedPerLevel": 2.9,
+    "attackSpeed": 0.625
+  },
+  "_level": 1,
+  "attackRange": 125,
+  "moveSpeed": 335,
+  "hp": 588,
+  "mp": 377.2,
+  "hpRegen": 8.5,
+  "mpRegen": 7.6,
+  "crit": 0,
+  "attackDamage": 68,
+  "attackSpeed": 0.625,
+  "armor": 30,
+  "spellBlock": 39
+}

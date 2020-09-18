@@ -1,7 +1,22 @@
 const express = require("express");
 const app = express();
+const fs = require('fs');
 const port = process.env.PORT || 8080;
 let router = express.Router();
+
+
+
+router.get("/champion/caitlyn", (req, res) => {
+    let championName = "Caitlyn";
+    try {
+        let str = fs.readFileSync(`./data/championFormatted/${championName}.json`);
+        // let obj = JSON.parse(str);
+        res.send(str);
+    } catch(e) {
+        console.error(e);
+    }
+    res.send(req.params.name);
+});
 
 router.get("/champion/:name", (req, res) => {
     let championName = req.params.name;

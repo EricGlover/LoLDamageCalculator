@@ -1,0 +1,63 @@
+{
+  "abilities": null,
+  "id": "Zed",
+  "key": "238",
+  "name": "Zed",
+  "title": "the Master of Shadows",
+  "blurb": "Utterly ruthless and without mercy, Zed is the leader of the Order of Shadow, an organization he created with the intent of militarizing Ionia's magical and martial traditions to drive out Noxian invaders. During the war, desperation led him to unlock...",
+  "info": {
+    "attack": 9,
+    "defense": 2,
+    "magic": 1,
+    "difficulty": 7
+  },
+  "image": {
+    "full": "Zed.png",
+    "sprite": "champion4.png",
+    "group": "champion",
+    "x": 240,
+    "y": 96,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Assassin"
+  ],
+  "partype": "Energy",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 584,
+    "hpPerLevel": 85,
+    "mp": 200,
+    "mpPerLevel": 0,
+    "moveSpeed": 345,
+    "armor": 32,
+    "armorPerLevel": 3.5,
+    "spellBlock": 32.1,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 125,
+    "hpRegen": 7,
+    "hpRegenPerLevel": 0.65,
+    "mpRegen": 50,
+    "mpRegenPerLevel": 0,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 63,
+    "attackDamagePerLevel": 3.4,
+    "attackSpeedPerLevel": 3.3,
+    "attackSpeed": 0.651
+  },
+  "_level": 1,
+  "attackRange": 125,
+  "moveSpeed": 345,
+  "hp": 584,
+  "mp": 200,
+  "hpRegen": 7,
+  "mpRegen": 50,
+  "crit": 0,
+  "attackDamage": 63,
+  "attackSpeed": 0.651,
+  "armor": 32,
+  "spellBlock": 32.1
+}

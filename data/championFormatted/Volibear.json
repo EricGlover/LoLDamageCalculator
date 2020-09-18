@@ -1,0 +1,181 @@
+{
+  "abilities": [
+    {
+      "name": "Thundering Smash",
+      "cost": [
+        50
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "description": "Active: Volibear drops on all fours, becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted and gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed for 4 seconds, doubled when moving towards <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions.",
+      "leveling": "Bonus Movement Speed:»10 / 14 / 18 / 22 / 26%«Increased Movement Speed:20 / 28 / 36 / 44 / 52%",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        10,
+        14,
+        18,
+        22,
+        26
+      ],
+      "ratios": [],
+      "castTime": null
+    },
+    {
+      "name": "Frenzied Maul",
+      "cost": [
+        30,
+        35,
+        40,
+        45,
+        50
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        5
+      ],
+      "description": "Active: Volibear strikes the target enemy, dealing physical damage, applying on-hit and on-attack effects, and Wounding them for 8 seconds.",
+      "leveling": "Physical Damage:»10 / 35 / 60 / 85 / 110 (+ 100% AD) (+ 6% of his bonus health)«Increased Damage:15 / 52.5 / 90 / 127.5 / 165 (+ 150% AD) (+ 9% of his bonus health)",
+      "skill": "W",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        10,
+        35,
+        60,
+        85,
+        110
+      ],
+      "ratios": [
+        {
+          "value": 100,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Sky Splitter",
+      "cost": [
+        60
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        15
+      ],
+      "description": "Active: Volibear summons a lightning bolt to strike at the target location after a 2-second delay. Enemies can see the cast location indicator after a 1-second delay. If Volibear is within the lightning strike, he <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields himself for 15% of his maximum health (+ 80% AP) for 3 seconds.",
+      "leveling": "Magic Damage:»80 / 110 / 140 / 170 / 200 (+ 80% AP) (+ 11 / 12 / 13 / 14 / 15% of target's maximum health)«Capped Damage:150 / 250 / 350 / 450 / 550",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        80,
+        110,
+        140,
+        170,
+        200
+      ],
+      "ratios": [
+        {
+          "value": 80,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Stormbringer",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        160,
+        140,
+        120
+      ],
+      "description": "Active: Volibear gains Stormbringer for 12 seconds and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leaps to the target location with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b1/Cc-immune_icon.png/revision/latest/scale-to-width-down/20?cb=20200327223512\" \t alt=\"Cc-immune icon\"  \tclass=\"\" \t \tdata-image-key=\"Cc-immune_icon.png\" \tdata-image-name=\"Cc-immune icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> immunity to crowd control as well as granting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of the area in a 500 radius during it. If <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Thundering_Smash.png/revision/latest/scale-to-width-down/20?cb=20200512213235\" \t alt=\"Thundering Smash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Thundering_Smash.png\" \tdata-image-name=\"Thundering Smash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Thundering Smash is active when Stormbringer is cast, its duration is paused during the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leap.",
+      "leveling": "Bonus Health:200 / 300 / 400 / 500 / 600",
+      "skill": "R",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        200,
+        300,
+        400,
+        500,
+        600
+      ],
+      "ratios": [],
+      "castTime": null
+    }
+  ],
+  "id": "Volibear",
+  "key": "106",
+  "name": "Volibear",
+  "title": "the Relentless Storm",
+  "blurb": "To those who still revere him, the Volibear is the storm made manifest. Destructive, wild, and stubbornly resolute, he existed before mortals walked the Freljord's tundra, and is fiercely protective of the lands that he and his demi-god kin created...",
+  "info": {
+    "attack": 7,
+    "defense": 7,
+    "magic": 4,
+    "difficulty": 3
+  },
+  "image": {
+    "full": "Volibear.png",
+    "sprite": "champion4.png",
+    "group": "champion",
+    "x": 240,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 580,
+    "hpPerLevel": 90,
+    "mp": 350,
+    "mpPerLevel": 50,
+    "moveSpeed": 340,
+    "armor": 31,
+    "armorPerLevel": 4,
+    "spellBlock": 32,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 150,
+    "hpRegen": 9,
+    "hpRegenPerLevel": 0.75,
+    "mpRegen": 6.25,
+    "mpRegenPerLevel": 0.5,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 60,
+    "attackDamagePerLevel": 3,
+    "attackSpeedPerLevel": 2,
+    "attackSpeed": 0.625
+  },
+  "_level": 1,
+  "attackRange": 150,
+  "moveSpeed": 340,
+  "hp": 580,
+  "mp": 350,
+  "hpRegen": 9,
+  "mpRegen": 6.25,
+  "crit": 0,
+  "attackDamage": 60,
+  "attackSpeed": 0.625,
+  "armor": 31,
+  "spellBlock": 32
+}

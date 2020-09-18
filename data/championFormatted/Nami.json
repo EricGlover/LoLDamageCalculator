@@ -1,0 +1,195 @@
+{
+  "abilities": [
+    {
+      "name": "Aqua Prison",
+      "cost": [
+        60
+      ],
+      "costType": "mana",
+      "coolDown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "description": "Active: Nami sends a bubble towards the target area that lands after 1 second, dealing magic damage to all enemies hit, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t><img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> suspending them for 1.5 seconds.",
+      "leveling": "Magic Damage:75 / 130 / 185 / 240 / 295 (+ 50% AP)",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        75,
+        130,
+        185,
+        240,
+        295
+      ],
+      "ratios": [
+        {
+          "value": 50,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Ebb and Flow",
+      "cost": [
+        70,
+        85,
+        100,
+        115,
+        130
+      ],
+      "costType": "mana",
+      "coolDown": [
+        10
+      ],
+      "description": "Active: Nami unleashes a stream of water onto the target <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion or herself, which then bounces to nearby unaffected champions up to twice, alternating between enemies and allies and herself.",
+      "leveling": "Heal:»60 / 85 / 110 / 135 / 160 (+ 30% AP)«Minimum Heal:42 / 59.5 / 77 / 94.5 / 112 (+ 21% AP)Magic Damage:»70 / 110 / 150 / 190 / 230 (+ 50% AP)«Minimum Damage:49 / 77 / 105 / 133 / 161 (+ 35% AP)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        60,
+        85,
+        110,
+        135,
+        160
+      ],
+      "ratios": [
+        {
+          "value": 30,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Tidecaller's Blessing",
+      "cost": [
+        55,
+        60,
+        65,
+        70,
+        75
+      ],
+      "costType": "mana",
+      "coolDown": [
+        11
+      ],
+      "description": "Active: Nami blesses the target allied champion or herself for 6 seconds, causing the target's next three basic attacks or abilities to each deal bonus magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow their target for 1 second.",
+      "leveling": "Bonus Magic Damage Per Hit:»25 / 40 / 55 / 70 / 85 (+ 20% AP)«Total Bonus Magic Damage:75 / 120 / 165 / 210 / 255 (+ 60% AP)\nSlow:15 / 20 / 25 / 30 / 35% (+ 5% per 100 AP)",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        25,
+        40,
+        55,
+        70,
+        85
+      ],
+      "ratios": [
+        {
+          "value": 20,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Tidal Wave",
+      "cost": [
+        100
+      ],
+      "costType": "mana",
+      "coolDown": [
+        120,
+        110,
+        100
+      ],
+      "description": "Active: Nami summons a tidal wave that surges forth in the target direction, dealing magic damage to all enemies hit, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking them up for 0.5 seconds and then <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them for 2 −  4 (based on distance traveled) seconds.",
+      "leveling": "Magic Damage:150 / 250 / 350 (+ 60% AP)\nSlow:50 / 60 / 70%",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        150,
+        250,
+        350,
+        60,
+        50
+      ],
+      "ratios": [
+        {
+          "value": 60,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.5
+    }
+  ],
+  "id": "Nami",
+  "key": "267",
+  "name": "Nami",
+  "title": "the Tidecaller",
+  "blurb": "A headstrong young vastaya of the seas, Nami was the first of the Marai tribe to leave the waves and venture onto dry land, when their ancient accord with the Targonians was broken. With no other option, she took it upon herself to complete the sacred...",
+  "info": {
+    "attack": 4,
+    "defense": 3,
+    "magic": 7,
+    "difficulty": 5
+  },
+  "image": {
+    "full": "Nami.png",
+    "sprite": "champion2.png",
+    "group": "champion",
+    "x": 336,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Support",
+    "Mage"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 475,
+    "hpPerLevel": 74,
+    "mp": 365,
+    "mpPerLevel": 43,
+    "moveSpeed": 335,
+    "armor": 29,
+    "armorPerLevel": 4,
+    "spellBlock": 30,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 550,
+    "hpRegen": 5.5,
+    "hpRegenPerLevel": 0.55,
+    "mpRegen": 11.5,
+    "mpRegenPerLevel": 0.4,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 51.208,
+    "attackDamagePerLevel": 3.1,
+    "attackSpeedPerLevel": 2.61,
+    "attackSpeed": 0.644
+  },
+  "_level": 1,
+  "attackRange": 550,
+  "moveSpeed": 335,
+  "hp": 475,
+  "mp": 365,
+  "hpRegen": 5.5,
+  "mpRegen": 11.5,
+  "crit": 0,
+  "attackDamage": 51.208,
+  "attackSpeed": 0.644,
+  "armor": 29,
+  "spellBlock": 30
+}

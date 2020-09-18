@@ -1,0 +1,194 @@
+{
+  "abilities": [
+    {
+      "name": "Shield of Daybreak",
+      "cost": [
+        45,
+        50,
+        55,
+        60,
+        65
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        5
+      ],
+      "description": "Active: Leona illuminates her shield, causing her next basic attack within 6 seconds to gain <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 50 bonus range and, after a 0.25-second cast time, deal bonus magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun the target for 1 second.",
+      "leveling": "Bonus Magic Damage:10 / 35 / 60 / 85 / 110 (+ 30% AP)",
+      "skill": "Q",
+      "damageType": "magic",
+      "isProjectile": "",
+      "flatDamage": [
+        10,
+        35,
+        60,
+        85,
+        110
+      ],
+      "ratios": [
+        {
+          "value": 30,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Eclipse",
+      "cost": [
+        60
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "description": "Active: Leona radiates a solar eclipse around herself for 3 seconds, taking reduced pre-mitigation damage from each tick of damage, up to a maximum of 50% reduction. Leona also gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus magic resistance.",
+      "leveling": "Flat Damage Reduction:8 / 12 / 16 / 20 / 24\nBonus Armor:20 / 25 / 30 / 35 / 40 (+ 20% bonus armor)\nBonus Magic Resistance:20 / 25 / 30 / 35 / 40 (+ 20% bonus magic resistance)",
+      "skill": "W",
+      "damageType": "magic",
+      "isProjectile": "",
+      "flatDamage": [
+        8,
+        12,
+        16,
+        20,
+        24
+      ],
+      "ratios": [
+        {
+          "value": 20,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Zenith Blade",
+      "cost": [
+        60
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        12,
+        10,
+        9,
+        7,
+        6
+      ],
+      "description": "Active: Leona projects a solar image of her sword in the target direction, dealing magic damage to all enemies hit.",
+      "leveling": "Magic Damage:50 / 90 / 130 / 170 / 210 (+ 40% AP)",
+      "skill": "E",
+      "damageType": "magic",
+      "isProjectile": "true",
+      "flatDamage": [
+        50,
+        90,
+        130,
+        170,
+        210
+      ],
+      "ratios": [
+        {
+          "value": 40,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Solar Flare",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        90,
+        75,
+        60
+      ],
+      "description": "Active: Leona calls down a beam of solar energy to the target location which strikes after a 0.625-second delay, dealing magic damage to all enemies struck and granting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of the area in a 350 radius for 3.8 seconds.",
+      "leveling": "Magic Damage:100 / 175 / 250 (+ 80% AP)",
+      "skill": "R",
+      "damageType": "magic",
+      "isProjectile": "",
+      "flatDamage": [
+        100,
+        175,
+        250,
+        80
+      ],
+      "ratios": [
+        {
+          "value": 80,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    }
+  ],
+  "id": "Leona",
+  "key": "89",
+  "name": "Leona",
+  "title": "the Radiant Dawn",
+  "blurb": "Imbued with the fire of the sun, Leona is a holy warrior of the Solari who defends Mount Targon with her Zenith Blade and the Shield of Daybreak. Her skin shimmers with starfire while her eyes burn with the power of the celestial Aspect within her...",
+  "info": {
+    "attack": 4,
+    "defense": 8,
+    "magic": 3,
+    "difficulty": 4
+  },
+  "image": {
+    "full": "Leona.png",
+    "sprite": "champion2.png",
+    "group": "champion",
+    "x": 144,
+    "y": 0,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Tank",
+    "Support"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 576.16,
+    "hpPerLevel": 87,
+    "mp": 302.2,
+    "mpPerLevel": 40,
+    "moveSpeed": 335,
+    "armor": 47,
+    "armorPerLevel": 3.6,
+    "spellBlock": 32.1,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 125,
+    "hpRegen": 8.5,
+    "hpRegenPerLevel": 0.85,
+    "mpRegen": 6,
+    "mpRegenPerLevel": 0.8,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 60.04,
+    "attackDamagePerLevel": 3,
+    "attackSpeedPerLevel": 2.9,
+    "attackSpeed": 0.625
+  },
+  "_level": 1,
+  "attackRange": 125,
+  "moveSpeed": 335,
+  "hp": 576.16,
+  "mp": 302.2,
+  "hpRegen": 8.5,
+  "mpRegen": 6,
+  "crit": 0,
+  "attackDamage": 60.04,
+  "attackSpeed": 0.625,
+  "armor": 47,
+  "spellBlock": 32.1
+}

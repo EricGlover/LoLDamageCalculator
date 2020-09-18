@@ -1,0 +1,200 @@
+{
+  "abilities": [
+    {
+      "name": "Terrify",
+      "cost": [
+        65
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        15,
+        14,
+        14,
+        13,
+        13
+      ],
+      "description": "Passive: While Fiddlesticks has been out of combat for at least 2.5 seconds and is unseen by the enemy team, or is pretending to be an <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/53/A_Harmless_Scarecrow.png/revision/latest/scale-to-width-down/20?cb=20200318130329\" \t alt=\"A Harmless Scarecrow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"A_Harmless_Scarecrow.png\" \tdata-image-name=\"A Harmless Scarecrow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Effigy, Fiddlesticks' next damaging ability <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Flee_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223937\" \t alt=\"Flee icon\"  \tclass=\"\" \t \tdata-image-key=\"Flee_icon.png\" \tdata-image-name=\"Flee icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> fears all targets struck.",
+      "leveling": "Fear Duration:1 / 1.25 / 1.5 / 1.75 / 2",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "false",
+      "flatDamage": [
+        1,
+        1.25,
+        1.5,
+        1.75,
+        2
+      ],
+      "ratios": [],
+      "castTime": 0.35
+    },
+    {
+      "name": "Bountiful Harvest",
+      "cost": [
+        60,
+        65,
+        70,
+        75,
+        80
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        9,
+        8,
+        8,
+        7,
+        7
+      ],
+      "description": "Active: At the time of cast, Fiddlesticks <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Focused_Resolve.png/revision/latest/scale-to-width-down/20?cb=20130929122918\" \t alt=\"Focused Resolve\"  \tclass=\"\" \t \tdata-image-key=\"Focused_Resolve.png\" \tdata-image-name=\"Focused Resolve.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> tethers itself to all nearby enemies, then <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reveals itself for up to 2 seconds, harvesting their souls.",
+      "leveling": "Damage per Tick:»15 / 22.5 / 30 / 37.5 / 45 (+ 8.75% AP)«Last Tick of Damage:»15 / 22.5 / 30 / 37.5 / 45 (+ 8.75% AP) (+ 12 / 14.5 / 17 / 19.5 / 22% of target's missing health)«Total Magic Damage:120 / 180 / 240 / 300 / 360 (+ 70% AP) (+ 12 / 14.5 / 17 / 19.5 / 22% of target's missing health)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        15,
+        22.5,
+        30,
+        37.5,
+        45
+      ],
+      "ratios": [
+        {
+          "value": 8.75,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Reap",
+      "cost": [
+        40,
+        45,
+        50,
+        55,
+        60
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "description": "Active: Fiddlesticks slashes all enemies in the target area with its scythe, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing enemies hit for 1.25 seconds.",
+      "leveling": "Magic Damage:70 / 105 / 140 / 175 / 210 (+ 50% AP)\nSlow:30 / 35 / 40 / 45 / 50%",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        70,
+        105,
+        140,
+        175,
+        210
+      ],
+      "ratios": [
+        {
+          "value": 50,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.4
+    },
+    {
+      "name": "Crowstorm",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        140,
+        125,
+        110,
+        95,
+        80
+      ],
+      "description": "Active: After <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channeling for 1.5 seconds, Fiddlesticks <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinks to the target location with a murder of crows flying wildly around it for 5 seconds, dealing magic damage to nearby enemies every 0.25 seconds.",
+      "leveling": "Damage per Tick:»31.25 / 43.75 / 56.25 / 68.75 / 81.25 (+ 11.25% AP)«Total Magic Damage:625 / 875 / 1125 / 1375 / 1625 (+ 225% AP)",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        31.25,
+        43.75,
+        56.25,
+        68.75,
+        81.25
+      ],
+      "ratios": [
+        {
+          "value": 11.25,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    }
+  ],
+  "id": "Fiddlesticks",
+  "key": "9",
+  "name": "Fiddlesticks",
+  "title": "the Ancient Fear",
+  "blurb": "Something has awoken in Runeterra. Something ancient. Something terrible. The ageless horror known as Fiddlesticks stalks the edges of mortal society, drawn to areas thick with paranoia where it feeds upon terrorized victims. Wielding a jagged scythe...",
+  "info": {
+    "attack": 2,
+    "defense": 3,
+    "magic": 9,
+    "difficulty": 9
+  },
+  "image": {
+    "full": "Fiddlesticks.png",
+    "sprite": "champion0.png",
+    "group": "champion",
+    "x": 384,
+    "y": 96,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Mage",
+    "Support"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 580.4,
+    "hpPerLevel": 92,
+    "mp": 500,
+    "mpPerLevel": 28,
+    "moveSpeed": 335,
+    "armor": 34,
+    "armorPerLevel": 3.5,
+    "spellBlock": 30,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 480,
+    "hpRegen": 5.5,
+    "hpRegenPerLevel": 0.6,
+    "mpRegen": 8,
+    "mpRegenPerLevel": 0.8,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 55.36,
+    "attackDamagePerLevel": 2.625,
+    "attackSpeedPerLevel": 2.11,
+    "attackSpeed": 0.625
+  },
+  "_level": 1,
+  "attackRange": 480,
+  "moveSpeed": 335,
+  "hp": 580.4,
+  "mp": 500,
+  "hpRegen": 5.5,
+  "mpRegen": 8,
+  "crit": 0,
+  "attackDamage": 55.36,
+  "attackSpeed": 0.625,
+  "armor": 34,
+  "spellBlock": 30
+}

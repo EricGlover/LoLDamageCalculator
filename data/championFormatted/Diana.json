@@ -1,0 +1,200 @@
+{
+  "abilities": [
+    {
+      "name": "Crescent Strike",
+      "cost": [
+        50
+      ],
+      "costType": "mana",
+      "coolDown": [
+        8,
+        7,
+        7,
+        6,
+        6
+      ],
+      "description": "Active: Diana unleashes a bolt of lunar energy that travels in a counter-clockwise arc before exploding at the target location, dealing magic damage to enemies hit and afflicting them with Moonlight for 3 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them for the duration.",
+      "leveling": "Magic Damage:60 / 95 / 130 / 165 / 200 (+ 70% AP)",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        60,
+        95,
+        130,
+        165,
+        200
+      ],
+      "ratios": [
+        {
+          "value": 70,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Pale Cascade",
+      "cost": [
+        40,
+        45,
+        50,
+        55,
+        60
+      ],
+      "costType": "mana",
+      "coolDown": [
+        15,
+        13,
+        12,
+        10,
+        9
+      ],
+      "description": "Active: Diana <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields herself for up to 5 seconds and creates three spheres that orbit her for the duration, detonating upon contact with an enemy and dealing magic damage to nearby enemies upon detonation.",
+      "leveling": "Shield Strength:»30 / 45 / 60 / 75 / 90 (+ 30% AP) (+ 10% bonus health)«Total Shield Strength:60 / 90 / 120 / 150 / 180 (+ 60% AP) (+ 20% bonus health)Magic Damage per Orb:»18 / 30 / 42 / 54 / 66 (+ 15% AP)«Total Magic Damage:54 / 90 / 126 / 162 / 198 (+ 45% AP)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        30,
+        45,
+        60,
+        75,
+        90
+      ],
+      "ratios": [
+        {
+          "value": 30,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Lunar Rush",
+      "cost": [
+        40,
+        45,
+        50,
+        55,
+        60
+      ],
+      "costType": "mana",
+      "coolDown": [
+        22,
+        20,
+        18,
+        16,
+        14
+      ],
+      "description": "Active: Diana <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target enemy's location, dealing them magic damage and consuming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b6/Crescent_Strike.png/revision/latest/scale-to-width-down/20?cb=20191210192244\" \t alt=\"Crescent Strike\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crescent_Strike.png\" \tdata-image-name=\"Crescent Strike.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Moonlight from all enemies. If the target is within 400 range, Diana will dash through their location.",
+      "leveling": "Magic Damage:40 / 60 / 80 / 100 / 120 (+ 40% AP)",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        40,
+        60,
+        80,
+        100,
+        120
+      ],
+      "ratios": [
+        {
+          "value": 40,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Moonfall",
+      "cost": [
+        100
+      ],
+      "costType": "mana",
+      "coolDown": [
+        100,
+        95,
+        90,
+        85,
+        80
+      ],
+      "description": "Active: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Reveals, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> draws in, and successively <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows all nearby enemies for 2 seconds.",
+      "leveling": "Slow:40 / 45 / 50 / 55 / 60%",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        40,
+        45,
+        50,
+        55,
+        60
+      ],
+      "ratios": [],
+      "castTime": 0.25
+    }
+  ],
+  "id": "Diana",
+  "key": "131",
+  "name": "Diana",
+  "title": "Scorn of the Moon",
+  "blurb": "Bearing her crescent moonblade, Diana fights as a warrior of the Lunari—a faith all but quashed in the lands around Mount Targon. Clad in shimmering armor the color of winter snow at night, she is a living embodiment of the silver moon's power. Imbued...",
+  "info": {
+    "attack": 7,
+    "defense": 6,
+    "magic": 8,
+    "difficulty": 4
+  },
+  "image": {
+    "full": "Diana.png",
+    "sprite": "champion0.png",
+    "group": "champion",
+    "x": 48,
+    "y": 96,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Fighter",
+    "Mage"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 570,
+    "hpPerLevel": 95,
+    "mp": 375,
+    "mpPerLevel": 25,
+    "moveSpeed": 345,
+    "armor": 31,
+    "armorPerLevel": 3.6,
+    "spellBlock": 32.1,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 150,
+    "hpRegen": 7.5,
+    "hpRegenPerLevel": 0.85,
+    "mpRegen": 8,
+    "mpRegenPerLevel": 0.8,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 57,
+    "attackDamagePerLevel": 3,
+    "attackSpeedPerLevel": 2.25,
+    "attackSpeed": 0.625
+  },
+  "_level": 1,
+  "attackRange": 150,
+  "moveSpeed": 345,
+  "hp": 570,
+  "mp": 375,
+  "hpRegen": 7.5,
+  "mpRegen": 8,
+  "crit": 0,
+  "attackDamage": 57,
+  "attackSpeed": 0.625,
+  "armor": 31,
+  "spellBlock": 32.1
+}

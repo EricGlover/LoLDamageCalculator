@@ -1,0 +1,187 @@
+{
+  "abilities": [
+    {
+      "name": "Jaws of the Beast",
+      "cost": [
+        50,
+        60,
+        70,
+        80,
+        90
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        6
+      ],
+      "description": "Active: Warwick <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Bear_Stance.png/revision/latest/scale-to-width-down/20?cb=20171223035155\" \t alt=\"Bear Stance\"  \tclass=\"\" \t \tdata-image-key=\"Bear_Stance.png\" \tdata-image-name=\"Bear Stance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> lunges at the target enemy, biting them after 0.265 seconds to deal them magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heal himself for a portion of the post-mitigation damage dealt by the ability.",
+      "leveling": "Magic Damage:120% AD (+ 100% AP) (+ 6 / 7 / 8 / 9 / 10% of target's maximum health)\nHealing Percentage:30 / 45 / 60 / 75 / 90%",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        120,
+        100,
+        6,
+        7,
+        8
+      ],
+      "ratios": [
+        {
+          "value": 100,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Blood Hunt",
+      "cost": [
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        120,
+        105,
+        90,
+        75,
+        60
+      ],
+      "description": "Passive: While alive, Warwick senses all enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions who are damaged by an allied unit to below <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 50% of their maximum health, marking them as Blood Hunted. Warwick sees a \"blood trail\" highlighting the shortest path to the Blood Hunted targets, and he gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed while following it.",
+      "leveling": "Bonus Movement Speed:»35 / 40 / 45 / 50 / 55%«Enhanced Movement Speed:87.5 / 100 / 112.5 / 125 / 137.5%",
+      "skill": "W",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        35,
+        40,
+        45,
+        50,
+        55
+      ],
+      "ratios": [],
+      "castTime": 0.5
+    },
+    {
+      "name": "Primal Howl",
+      "cost": [
+        40
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ],
+      "description": "Active: Warwick reduces all incoming damage received for 2.5 seconds. Primal Howl can be recast after 1 second.",
+      "leveling": "Damage Reduction:35 / 40 / 45 / 50 / 55%",
+      "skill": "E",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        35,
+        40,
+        45,
+        50,
+        55
+      ],
+      "ratios": [],
+      "castTime": null
+    },
+    {
+      "name": "Infinite Duress",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        110,
+        100,
+        90,
+        80,
+        70
+      ],
+      "description": "Active: Warwick <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leaps in the target direction, during which he is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b1/Cc-immune_icon.png/revision/latest/scale-to-width-down/20?cb=20200327223512\" \t alt=\"Cc-immune icon\"  \tclass=\"\" \t \tdata-image-key=\"Cc-immune_icon.png\" \tdata-image-name=\"Cc-immune icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> immune to crowd control.",
+      "leveling": "Total Magic Damage:175 / 262.5 / 350 / 437.5 / 525 (+ 167% bonus AD)",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        175,
+        262.5,
+        350,
+        437.5,
+        525
+      ],
+      "ratios": [
+        {
+          "value": 167,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.1
+    }
+  ],
+  "id": "Warwick",
+  "key": "19",
+  "name": "Warwick",
+  "title": "the Uncaged Wrath of Zaun",
+  "blurb": "Warwick is a monster who hunts the gray alleys of Zaun. Transformed by agonizing experiments, his body is fused with an intricate system of chambers and pumps, machinery filling his veins with alchemical rage. Bursting out of the shadows, he preys upon...",
+  "info": {
+    "attack": 9,
+    "defense": 5,
+    "magic": 3,
+    "difficulty": 3
+  },
+  "image": {
+    "full": "Warwick.png",
+    "sprite": "champion4.png",
+    "group": "champion",
+    "x": 288,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 550,
+    "hpPerLevel": 85,
+    "mp": 280,
+    "mpPerLevel": 35,
+    "moveSpeed": 335,
+    "armor": 33,
+    "armorPerLevel": 3.2,
+    "spellBlock": 32.1,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 125,
+    "hpRegen": 4,
+    "hpRegenPerLevel": 0.75,
+    "mpRegen": 7.466,
+    "mpRegenPerLevel": 0.575,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 65,
+    "attackDamagePerLevel": 3,
+    "attackSpeedPerLevel": 2.3,
+    "attackSpeed": 0.638
+  },
+  "_level": 1,
+  "attackRange": 125,
+  "moveSpeed": 335,
+  "hp": 550,
+  "mp": 280,
+  "hpRegen": 4,
+  "mpRegen": 7.466,
+  "crit": 0,
+  "attackDamage": 65,
+  "attackSpeed": 0.638,
+  "armor": 33,
+  "spellBlock": 32.1
+}

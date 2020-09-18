@@ -1,0 +1,63 @@
+{
+  "abilities": null,
+  "id": "Viktor",
+  "key": "112",
+  "name": "Viktor",
+  "title": "the Machine Herald",
+  "blurb": "The herald of a new age of technology, Viktor has devoted his life to the advancement of humankind. An idealist who seeks to lift the people of Zaun to a new level of understanding, he believes that only by embracing a glorious evolution of technology...",
+  "info": {
+    "attack": 2,
+    "defense": 4,
+    "magic": 10,
+    "difficulty": 9
+  },
+  "image": {
+    "full": "Viktor.png",
+    "sprite": "champion4.png",
+    "group": "champion",
+    "x": 144,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Mage"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 530,
+    "hpPerLevel": 90,
+    "mp": 405,
+    "mpPerLevel": 25,
+    "moveSpeed": 335,
+    "armor": 23,
+    "armorPerLevel": 4,
+    "spellBlock": 30,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 525,
+    "hpRegen": 8,
+    "hpRegenPerLevel": 0.65,
+    "mpRegen": 8,
+    "mpRegenPerLevel": 0.8,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 53,
+    "attackDamagePerLevel": 3,
+    "attackSpeedPerLevel": 2.11,
+    "attackSpeed": 0.658
+  },
+  "_level": 1,
+  "attackRange": 525,
+  "moveSpeed": 335,
+  "hp": 530,
+  "mp": 405,
+  "hpRegen": 8,
+  "mpRegen": 8,
+  "crit": 0,
+  "attackDamage": 53,
+  "attackSpeed": 0.658,
+  "armor": 23,
+  "spellBlock": 30
+}

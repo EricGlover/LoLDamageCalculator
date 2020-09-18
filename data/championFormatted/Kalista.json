@@ -1,0 +1,178 @@
+{
+  "abilities": [
+    {
+      "name": "Pierce",
+      "cost": [
+        50,
+        55,
+        60,
+        65,
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        8
+      ],
+      "description": "Active: Kalista hurls a spear in the target direction that deals physical damage to the first enemy hit.",
+      "leveling": "Physical Damage:20 / 85 / 150 / 215 / 280 (+ 100% AD)",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "True",
+      "flatDamage": [
+        20,
+        85,
+        150,
+        215,
+        280
+      ],
+      "ratios": [
+        {
+          "value": 100,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Sentinel",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        30
+      ],
+      "description": "Passive - Soul-Marked: While Kalista and her <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4f/Black_Spear_item.png/revision/latest/scale-to-width-down/20?cb=20171221235741\" \t alt=\"Black Spear item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Black_Spear_item.png\" \tdata-image-name=\"Black Spear item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Oathsworn are linked, their basic attacks and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9b/Pierce.png/revision/latest/scale-to-width-down/20?cb=20141104220116\" \t alt=\"Pierce\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Pierce.png\" \tdata-image-name=\"Pierce.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Pierce apply a Soul-Mark to their targets.",
+      "leveling": "Bonus Magic Damage:»14 / 15 / 16 / 17 / 18% of target's maximum health«Maximum Non-Champion Damage:100 / 125 / 150 / 175 / 200",
+      "skill": "W",
+      "damageType": "magic",
+      "isProjectile": "",
+      "flatDamage": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "ratios": [],
+      "castTime": 0.5
+    },
+    {
+      "name": "Rend",
+      "cost": [
+        30
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        14,
+        12,
+        11,
+        9,
+        8
+      ],
+      "description": "Passive: Kalista's basic attacks on-hit and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9b/Pierce.png/revision/latest/scale-to-width-down/20?cb=20141104220116\" \t alt=\"Pierce\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Pierce.png\" \tdata-image-name=\"Pierce.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Pierce each lodge a spear in the target for 4 seconds, stacking up to 254 times.",
+      "leveling": "Physical Damage:»20 / 30 / 40 / 50 / 60 (+ 60% AD)«Damage per Additional Spear:10 / 14 / 19 / 25 / 32 (+ 19.8 / 23.748 / 27.498 / 31.248 / 34.998% AD)\nSlow:10 / 18 / 26 / 34 / 42%",
+      "skill": "E",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        20,
+        30,
+        40,
+        50,
+        60
+      ],
+      "ratios": [
+        {
+          "value": 60,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Fate's Call",
+      "cost": [
+        100
+      ],
+      "costType": "mana",
+      "coolDown": [
+        150,
+        120,
+        90
+      ],
+      "description": "Active: Kalista invokes her <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4f/Black_Spear_item.png/revision/latest/scale-to-width-down/20?cb=20171221235741\" \t alt=\"Black Spear item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Black_Spear_item.png\" \tdata-image-name=\"Black Spear item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> link, retrieving her Oathsworn and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Remove_Scurvy.png/revision/latest/scale-to-width-down/20?cb=20150707190028\" \t alt=\"Remove Scurvy\"  \tclass=\"\" \t \tdata-image-key=\"Remove_Scurvy.png\" \tdata-image-name=\"Remove Scurvy.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> cleansing them from all <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crowd control while rendering them <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c1/Cosmic_Radiance.png/revision/latest/scale-to-width-down/20?cb=20160608034537\" \t alt=\"Cosmic Radiance\"  \tclass=\"\" \t \tdata-image-key=\"Cosmic_Radiance.png\" \tdata-image-name=\"Cosmic Radiance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invulnerable and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable for 4 seconds.",
+      "leveling": "Knockup Duration:1.5 / 1.75 / 2",
+      "skill": "R",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        1.5,
+        1.75,
+        2
+      ],
+      "ratios": [],
+      "castTime": null
+    }
+  ],
+  "id": "Kalista",
+  "key": "429",
+  "name": "Kalista",
+  "title": "the Spear of Vengeance",
+  "blurb": "A specter of wrath and retribution, Kalista is the undying spirit of vengeance, an armored nightmare summoned from the Shadow Isles to hunt deceivers and traitors. The betrayed may cry out in blood to be avenged, but Kalista only answers those willing...",
+  "info": {
+    "attack": 8,
+    "defense": 2,
+    "magic": 4,
+    "difficulty": 7
+  },
+  "image": {
+    "full": "Kalista.png",
+    "sprite": "champion1.png",
+    "group": "champion",
+    "x": 432,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Marksman"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 534,
+    "hpPerLevel": 100,
+    "mp": 250,
+    "mpPerLevel": 45,
+    "moveSpeed": 325,
+    "armor": 21,
+    "armorPerLevel": 4,
+    "spellBlock": 30,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 525,
+    "hpRegen": 3.75,
+    "hpRegenPerLevel": 0.55,
+    "mpRegen": 6.3,
+    "mpRegenPerLevel": 0.4,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 69,
+    "attackDamagePerLevel": 3.5,
+    "attackSpeedPerLevel": 4,
+    "attackSpeed": 0.694
+  },
+  "_level": 1,
+  "attackRange": 525,
+  "moveSpeed": 325,
+  "hp": 534,
+  "mp": 250,
+  "hpRegen": 3.75,
+  "mpRegen": 6.3,
+  "crit": 0,
+  "attackDamage": 69,
+  "attackSpeed": 0.694,
+  "armor": 21,
+  "spellBlock": 30
+}

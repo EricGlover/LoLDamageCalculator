@@ -1,0 +1,63 @@
+{
+  "abilities": null,
+  "id": "Khazix",
+  "key": "121",
+  "name": "Kha'Zix",
+  "title": "the Voidreaver",
+  "blurb": "The Void grows, and the Void adapts—in none of its myriad spawn are these truths more apparent than Kha'Zix. Evolution drives the core of this mutating horror, born to survive and to slay the strong. Where it struggles to do so, it grows new, more...",
+  "info": {
+    "attack": 9,
+    "defense": 4,
+    "magic": 3,
+    "difficulty": 6
+  },
+  "image": {
+    "full": "Khazix.png",
+    "sprite": "champion1.png",
+    "group": "champion",
+    "x": 336,
+    "y": 96,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Assassin"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 572.8,
+    "hpPerLevel": 85,
+    "mp": 327.2,
+    "mpPerLevel": 40,
+    "moveSpeed": 350,
+    "armor": 36,
+    "armorPerLevel": 3,
+    "spellBlock": 32.1,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 125,
+    "hpRegen": 7.5,
+    "hpRegenPerLevel": 0.75,
+    "mpRegen": 7.59,
+    "mpRegenPerLevel": 0.5,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 63,
+    "attackDamagePerLevel": 3.1,
+    "attackSpeedPerLevel": 2.7,
+    "attackSpeed": 0.668
+  },
+  "_level": 1,
+  "attackRange": 125,
+  "moveSpeed": 350,
+  "hp": 572.8,
+  "mp": 327.2,
+  "hpRegen": 7.5,
+  "mpRegen": 7.59,
+  "crit": 0,
+  "attackDamage": 63,
+  "attackSpeed": 0.668,
+  "armor": 36,
+  "spellBlock": 32.1
+}

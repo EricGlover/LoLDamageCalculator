@@ -1,0 +1,196 @@
+{
+  "abilities": [
+    {
+      "name": "Noxious Blast",
+      "cost": [
+        50,
+        60,
+        70,
+        80,
+        90
+      ],
+      "costType": "mana",
+      "coolDown": [
+        3
+      ],
+      "description": "Active: After a 0.4-second delay, Cassiopeia blasts the target area with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Poison_icon.png/revision/latest/scale-to-width-down/20?cb=20150129035607\" \t alt=\"Poison icon\"  \tclass=\"\" \t \tdata-image-key=\"Poison_icon.png\" \tdata-image-name=\"Poison icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Noxious Poison, dealing magic damage every second for 3 seconds to all enemies it hits.",
+      "leveling": "Total Magic Damage:»75 / 110 / 145 / 180 / 215 (+ 90% AP)«Damage Per Second:25 / 36.67 / 48.33 / 60 / 71.67 (+ 30% AP)",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "false",
+      "flatDamage": [
+        75,
+        110,
+        145,
+        180,
+        215
+      ],
+      "ratios": [
+        {
+          "value": 90,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Miasma",
+      "cost": [
+        70,
+        80,
+        90,
+        100,
+        110
+      ],
+      "costType": "mana",
+      "coolDown": [
+        24,
+        22,
+        20,
+        18,
+        16
+      ],
+      "description": "Active: Cassiopeia spits forth eight bolts of venom in an arc at the target area, leaving toxic clouds of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Poison_icon.png/revision/latest/scale-to-width-down/20?cb=20150129035607\" \t alt=\"Poison icon\"  \tclass=\"\" \t \tdata-image-key=\"Poison_icon.png\" \tdata-image-name=\"Poison icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Debilitating Poison where they hit the ground for 5 seconds.",
+      "leveling": "Damage Per Second:»20 / 25 / 30 / 35 / 40 (+ 15% AP)«Maximum Damage:100 / 125 / 150 / 175 / 200 (+ 75% AP)Slow:40 / 50 / 60 / 70 / 80%",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        20,
+        25,
+        30,
+        35,
+        40
+      ],
+      "ratios": [
+        {
+          "value": 15,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Twin Fang",
+      "cost": [
+        50
+      ],
+      "costType": "mana",
+      "coolDown": [
+        0
+      ],
+      "description": "Active: Cassiopeia launches her fangs at the target enemy, dealing 52 − 120 (based on level) (+ 10% AP) magic damage. If Twin Fang kills its target, or the target is killed mid-flight, its <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> mana cost is refunded.",
+      "leveling": "Bonus Magic Damage:10 / 30 / 50 / 70 / 90 (+ 60% AP)\nHealing:»12 / 14 / 16 / 18 / 20% AP«Reduced Healing:3 / 3.5 / 4 / 4.5 / 5% AP",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        10,
+        30,
+        50,
+        70,
+        90
+      ],
+      "ratios": [
+        {
+          "value": 60,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.125
+    },
+    {
+      "name": "Petrifying Gaze",
+      "cost": [
+        100
+      ],
+      "costType": "mana",
+      "coolDown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "description": "Active: Cassiopeia blasts enemies in a cone in the target direction, dealing magic damage to all enemies hit.",
+      "leveling": "Magic Damage:150 / 200 / 250 / 300 / 350 (+ 50% AP)",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "False",
+      "flatDamage": [
+        150,
+        200,
+        250,
+        300,
+        350
+      ],
+      "ratios": [
+        {
+          "value": 50,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.5
+    }
+  ],
+  "id": "Cassiopeia",
+  "key": "69",
+  "name": "Cassiopeia",
+  "title": "the Serpent's Embrace",
+  "blurb": "Cassiopeia is a deadly creature bent on manipulating others to her sinister will. Youngest and most beautiful daughter of the noble Du Couteau family of Noxus, she ventured deep into the crypts beneath Shurima in search of ancient power. There, she was...",
+  "info": {
+    "attack": 2,
+    "defense": 3,
+    "magic": 9,
+    "difficulty": 10
+  },
+  "image": {
+    "full": "Cassiopeia.png",
+    "sprite": "champion0.png",
+    "group": "champion",
+    "x": 336,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Mage"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 560,
+    "hpPerLevel": 90,
+    "mp": 350,
+    "mpPerLevel": 40,
+    "moveSpeed": 328,
+    "armor": 18,
+    "armorPerLevel": 3.5,
+    "spellBlock": 32,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 550,
+    "hpRegen": 5.5,
+    "hpRegenPerLevel": 0.5,
+    "mpRegen": 8,
+    "mpRegenPerLevel": 0.8,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 53,
+    "attackDamagePerLevel": 3,
+    "attackSpeedPerLevel": 1.5,
+    "attackSpeed": 0.647
+  },
+  "_level": 1,
+  "attackRange": 550,
+  "moveSpeed": 328,
+  "hp": 560,
+  "mp": 350,
+  "hpRegen": 5.5,
+  "mpRegen": 8,
+  "crit": 0,
+  "attackDamage": 53,
+  "attackSpeed": 0.647,
+  "armor": 18,
+  "spellBlock": 32
+}

@@ -1,0 +1,196 @@
+{
+  "abilities": [
+    {
+      "name": "Tiger Stance",
+      "cost": [
+        45
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        6
+      ],
+      "description": "Stance: Udyr's basic attacks generate Tiger stacks on-hit, up to 3. At 3 stacks, Udyr's next basic attack is a Tiger Strike, which deals <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> bonus physical damage over 2 seconds as well as instantly dealing any remaining damage from any previous Tiger Strikes on the target.",
+      "leveling": "Total Bonus Physical Damage:»30 / 60 / 90 / 120 / 150 / 180 (+ 110 / 125 / 140 / 155 / 170 / 185% AD)«Damage Per Half-Second:7.5 / 15 / 22.5 / 30 / 37.5 / 45 (+ 27.5 / 31.25 / 35 / 38.75 / 42.5 / 46.25% AD)",
+      "skill": "Q",
+      "damageType": "physical",
+      "isProjectile": "",
+      "flatDamage": [
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "ratios": [
+        {
+          "value": 110,
+          "type": "bonus ad"
+        },
+        {
+          "value": 125,
+          "type": "bonus ad"
+        },
+        {
+          "value": 140,
+          "type": "bonus ad"
+        },
+        {
+          "value": 155,
+          "type": "bonus ad"
+        },
+        {
+          "value": 170,
+          "type": "bonus ad"
+        },
+        {
+          "value": 185,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Turtle Stance",
+      "cost": [
+        45
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        6
+      ],
+      "description": "Stance: Udyr's basic attacks generate Turtle stacks on-hit, up to 3. At 3 stacks, Udyr's next basic attack <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals him for <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 2.5% − 5% (based on missing health) of his maximum health.",
+      "leveling": "Shield Strength:60 / 95 / 130 / 165 / 200 / 235 (+ 50% AP)",
+      "skill": "W",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        60,
+        95,
+        130,
+        165,
+        200
+      ],
+      "ratios": [
+        {
+          "value": 50,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Bear Stance",
+      "cost": [
+        45
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        6
+      ],
+      "description": "Stance: Udyr's basic attacks are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Excessive_Force_2.png/revision/latest/scale-to-width-down/20?cb=20160608034953\" \t alt=\"Excessive Force 2\"  \tclass=\"\" \t \tdata-image-key=\"Excessive_Force_2.png\" \tdata-image-name=\"Excessive Force 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unstoppable and they <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun his target for 1 second. The stun cannot occur on the same target more than once every few seconds.",
+      "leveling": "Bonus Movement Speed:15 / 20 / 25 / 30 / 35 / 40%\nBonus Movement Speed Duration:2 / 2.25 / 2.5 / 2.75 / 3 / 3.25",
+      "skill": "E",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        15,
+        20,
+        25,
+        30,
+        35
+      ],
+      "ratios": [],
+      "castTime": null
+    },
+    {
+      "name": "Phoenix Stance",
+      "cost": [
+        45
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        6
+      ],
+      "description": "Stance: Udyr's basic attacks generate Phoenix stacks on-hit, up to 3. At 3 stacks, Udyr's next basic attack unleashes fire in a cone in front of him that deals <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> magic damage to all enemies hit.",
+      "leveling": "Cone Damage:60 / 110 / 160 / 210 / 260 / 310 (+ 70% AP)",
+      "skill": "R",
+      "damageType": "magic",
+      "isProjectile": "",
+      "flatDamage": [
+        60,
+        110,
+        160,
+        210,
+        260
+      ],
+      "ratios": [
+        {
+          "value": 70,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    }
+  ],
+  "id": "Udyr",
+  "key": "77",
+  "name": "Udyr",
+  "title": "the Spirit Walker",
+  "blurb": "Udyr is more than a man; he is a vessel for the untamed power of four primal animal spirits. When tapping into the spirits' bestial natures, Udyr can harness their unique strengths: The tiger grants him speed and ferocity, the turtle resilience, the...",
+  "info": {
+    "attack": 8,
+    "defense": 7,
+    "magic": 4,
+    "difficulty": 7
+  },
+  "image": {
+    "full": "Udyr.png",
+    "sprite": "champion4.png",
+    "group": "champion",
+    "x": 288,
+    "y": 0,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 594,
+    "hpPerLevel": 99,
+    "mp": 271,
+    "mpPerLevel": 30,
+    "moveSpeed": 350,
+    "armor": 34,
+    "armorPerLevel": 4,
+    "spellBlock": 32.1,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 125,
+    "hpRegen": 6,
+    "hpRegenPerLevel": 0.75,
+    "mpRegen": 7.5,
+    "mpRegenPerLevel": 0.45,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 66,
+    "attackDamagePerLevel": 5,
+    "attackSpeedPerLevel": 2.67,
+    "attackSpeed": 0.658
+  },
+  "_level": 1,
+  "attackRange": 125,
+  "moveSpeed": 350,
+  "hp": 594,
+  "mp": 271,
+  "hpRegen": 6,
+  "mpRegen": 7.5,
+  "crit": 0,
+  "attackDamage": 66,
+  "attackSpeed": 0.658,
+  "armor": 34,
+  "spellBlock": 32.1
+}

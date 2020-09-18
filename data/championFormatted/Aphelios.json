@@ -1,0 +1,63 @@
+{
+  "abilities": null,
+  "id": "Aphelios",
+  "key": "523",
+  "name": "Aphelios",
+  "title": "the Weapon of the Faithful",
+  "blurb": "Emerging from moonlight's shadow with weapons drawn, Aphelios kills the enemies of his faith in brooding silence—speaking only through the certainty of his aim, and the firing of each gun. Though fueled by a poison that renders him mute, he is guided by...",
+  "info": {
+    "attack": 6,
+    "defense": 2,
+    "magic": 1,
+    "difficulty": 10
+  },
+  "image": {
+    "full": "Aphelios.png",
+    "sprite": "champion0.png",
+    "group": "champion",
+    "x": 336,
+    "y": 0,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Marksman"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 530,
+    "hpPerLevel": 88,
+    "mp": 348,
+    "mpPerLevel": 42,
+    "moveSpeed": 325,
+    "armor": 28,
+    "armorPerLevel": 3,
+    "spellBlock": 26,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 550,
+    "hpRegen": 3.25,
+    "hpRegenPerLevel": 0.55,
+    "mpRegen": 6.5,
+    "mpRegenPerLevel": 0.4,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 57,
+    "attackDamagePerLevel": 2,
+    "attackSpeedPerLevel": 2.1,
+    "attackSpeed": 0.64
+  },
+  "_level": 1,
+  "attackRange": 550,
+  "moveSpeed": 325,
+  "hp": 530,
+  "mp": 348,
+  "hpRegen": 3.25,
+  "mpRegen": 6.5,
+  "crit": 0,
+  "attackDamage": 57,
+  "attackSpeed": 0.64,
+  "armor": 28,
+  "spellBlock": 26
+}

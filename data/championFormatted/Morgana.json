@@ -1,0 +1,197 @@
+{
+  "abilities": [
+    {
+      "name": "Dark Binding",
+      "cost": [
+        50,
+        55,
+        60,
+        65,
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        10
+      ],
+      "description": "Active: Morgana releases a sphere of dark magic that travels in the target direction, dealing magic damage to the first enemy hit and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooting them for a duration.",
+      "leveling": "Magic Damage:80 / 135 / 190 / 245 / 300 (+ 90% AP)\nRoot Duration:2 / 2.25 / 2.5 / 2.75 / 3",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        80,
+        135,
+        190,
+        245,
+        300
+      ],
+      "ratios": [
+        {
+          "value": 90,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Tormented Shadow",
+      "cost": [
+        70,
+        85,
+        100,
+        115,
+        130
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        12
+      ],
+      "description": "Active: Morgana infects the target area for 5 seconds, causing enemies within to take magic damage every half second, increased by 0% − 170% (based on target's missing health). The first tick of damage is dealt instantly to enemies in the area at the time of cast. The total damage is increased by 50% against non-epic monsters.",
+      "leveling": "Minimum Damage Per Half Second:»6 / 12 / 18 / 24 / 30 (+ 7% AP)«Maximum Damage Per Half Second:16.2 / 32.4 / 48.6 / 64.8 / 81 (+ 18.9% AP)\nMinimum Total Damage:»60 / 120 / 180 / 240 / 300 (+ 70% AP)«Maximum Total Damage:162 / 324 / 486 / 648 / 810 (+ 189% AP)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        6,
+        12,
+        18,
+        24,
+        30
+      ],
+      "ratios": [
+        {
+          "value": 7,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Black Shield",
+      "cost": [
+        80
+      ],
+      "costType": "mana",
+      "coolDown": [
+        26,
+        24,
+        22,
+        20,
+        18
+      ],
+      "description": "Active: Morgana <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields the target allied <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion or herself for up to 5 seconds, which absorbs magic damage and grants <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b1/Cc-immune_icon.png/revision/latest/scale-to-width-down/20?cb=20200327223512\" \t alt=\"Cc-immune icon\"  \tclass=\"\" \t \tdata-image-key=\"Cc-immune_icon.png\" \tdata-image-name=\"Cc-immune icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crowd control immunity while the shield holds.",
+      "leveling": "Magic Damage Shield:80 / 135 / 190 / 245 / 300 (+ 70% AP)",
+      "skill": "E",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        80,
+        135,
+        190,
+        245,
+        300
+      ],
+      "ratios": [
+        {
+          "value": 70,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Soul Shackles",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        120,
+        115,
+        110,
+        105,
+        100
+      ],
+      "description": "Active: Morgana latches <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Focused_Resolve.png/revision/latest/scale-to-width-down/20?cb=20130929122918\" \t alt=\"Focused Resolve\"  \tclass=\"\" \t \tdata-image-key=\"Focused_Resolve.png\" \tdata-image-name=\"Focused Resolve.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> chains of energy onto nearby enemy champions during the cast time, dealing them magic damage.",
+      "leveling": "Magic Damage:»150 / 187.5 / 225 / 262.5 / 300 (+ 70% AP)«Total Magic Damage:300 / 375 / 450 / 525 / 600 (+ 140% AP)",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "False",
+      "flatDamage": [
+        150,
+        187.5,
+        225,
+        262.5,
+        300
+      ],
+      "ratios": [
+        {
+          "value": 70,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.35
+    }
+  ],
+  "id": "Morgana",
+  "key": "25",
+  "name": "Morgana",
+  "title": "the Fallen",
+  "blurb": "Conflicted between her celestial and mortal natures, Morgana bound her wings to embrace humanity, and inflicts her pain and bitterness upon the dishonest and the corrupt. She rejects laws and traditions she believes are unjust, and fights for truth from...",
+  "info": {
+    "attack": 1,
+    "defense": 6,
+    "magic": 8,
+    "difficulty": 1
+  },
+  "image": {
+    "full": "Morgana.png",
+    "sprite": "champion2.png",
+    "group": "champion",
+    "x": 288,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Mage",
+    "Support"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 560,
+    "hpPerLevel": 90,
+    "mp": 340,
+    "mpPerLevel": 60,
+    "moveSpeed": 335,
+    "armor": 25,
+    "armorPerLevel": 3.8,
+    "spellBlock": 30,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 450,
+    "hpRegen": 5.5,
+    "hpRegenPerLevel": 0.4,
+    "mpRegen": 11,
+    "mpRegenPerLevel": 0.4,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 56,
+    "attackDamagePerLevel": 3.5,
+    "attackSpeedPerLevel": 1.53,
+    "attackSpeed": 0.625
+  },
+  "_level": 1,
+  "attackRange": 450,
+  "moveSpeed": 335,
+  "hp": 560,
+  "mp": 340,
+  "hpRegen": 5.5,
+  "mpRegen": 11,
+  "crit": 0,
+  "attackDamage": 56,
+  "attackSpeed": 0.625,
+  "armor": 25,
+  "spellBlock": 30
+}

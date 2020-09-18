@@ -1,0 +1,182 @@
+{
+  "abilities": [
+    {
+      "name": "Lay Waste",
+      "cost": [
+        20,
+        26,
+        32,
+        38,
+        44
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        1
+      ],
+      "description": "Active: Karthus creates a blast at the target location, briefly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing the area and detonating after a 0.528 seconds to 0.759 seconds delay, dealing magic damage to all enemies within, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Critical_magic_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20190827073648\" \t alt=\"Critical magic strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_magic_strike_icon.png\" \tdata-image-name=\"Critical magic strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> doubled when hitting only one target.",
+      "leveling": "Magic Damage:»50 / 70 / 90 / 110 / 130 (+ 30% AP)«Enhanced Damage:100 / 140 / 180 / 220 / 260 (+ 60% AP)",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        50,
+        70,
+        90,
+        110,
+        130
+      ],
+      "ratios": [
+        {
+          "value": 30,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Wall of Pain",
+      "cost": [
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        15
+      ],
+      "description": "Active: Karthus summons a passable wall of energy at the target location perpendicular to his facing for 5 seconds, granting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight around its pillars and center.",
+      "leveling": "Wall Length:800 / 900 / 1000 / 1100 / 1200",
+      "skill": "W",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        800,
+        900,
+        1000,
+        1100,
+        1200
+      ],
+      "ratios": [],
+      "castTime": 0.25
+    },
+    {
+      "name": "Defile",
+      "cost": [
+        30,
+        42,
+        54,
+        66,
+        78
+      ],
+      "costType": "Mana per second",
+      "coolDown": [
+        null
+      ],
+      "description": "Passive: Karthus restores <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> mana whenever he kills an enemy.",
+      "leveling": "Mana Restored:20 / 27 / 34 / 41 / 48",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        20,
+        27,
+        34,
+        41,
+        48
+      ],
+      "ratios": [],
+      "castTime": null
+    },
+    {
+      "name": "Requiem",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        200,
+        190,
+        180,
+        170,
+        160
+      ],
+      "description": "Active: Karthus <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels for 3 seconds then deals magic damage to all targetable enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions upon its completion.",
+      "leveling": "Magic Damage:200 / 275 / 350 / 425 / 500 (+ 75% AP)",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        200,
+        275,
+        350,
+        425,
+        500
+      ],
+      "ratios": [
+        {
+          "value": 75,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    }
+  ],
+  "id": "Karthus",
+  "key": "30",
+  "name": "Karthus",
+  "title": "the Deathsinger",
+  "blurb": "The harbinger of oblivion, Karthus is an undying spirit whose haunting songs are a prelude to the horror of his nightmarish appearance. The living fear the eternity of undeath, but Karthus sees only beauty and purity in its embrace, a perfect union of...",
+  "info": {
+    "attack": 2,
+    "defense": 2,
+    "magic": 10,
+    "difficulty": 7
+  },
+  "image": {
+    "full": "Karthus.png",
+    "sprite": "champion1.png",
+    "group": "champion",
+    "x": 48,
+    "y": 96,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Mage"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 550,
+    "hpPerLevel": 87,
+    "mp": 467,
+    "mpPerLevel": 30.5,
+    "moveSpeed": 335,
+    "armor": 20.88,
+    "armorPerLevel": 3.5,
+    "spellBlock": 30,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 450,
+    "hpRegen": 6.5,
+    "hpRegenPerLevel": 0.55,
+    "mpRegen": 8,
+    "mpRegenPerLevel": 0.8,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 45.66,
+    "attackDamagePerLevel": 3.25,
+    "attackSpeedPerLevel": 2.11,
+    "attackSpeed": 0.625
+  },
+  "_level": 1,
+  "attackRange": 450,
+  "moveSpeed": 335,
+  "hp": 550,
+  "mp": 467,
+  "hpRegen": 6.5,
+  "mpRegen": 8,
+  "crit": 0,
+  "attackDamage": 45.66,
+  "attackSpeed": 0.625,
+  "armor": 20.88,
+  "spellBlock": 30
+}

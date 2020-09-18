@@ -1,0 +1,181 @@
+{
+  "abilities": [
+    {
+      "name": "Conquering Sands",
+      "cost": [
+        70
+      ],
+      "costType": "mana",
+      "coolDown": [
+        15,
+        13,
+        11,
+        9,
+        7
+      ],
+      "description": "Active: Azir orders all Sand Soldiers to dash toward the target location, dealing magic damage to all enemies they pass through and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 25% for 1 second.",
+      "leveling": "Magic Damage:70 / 90 / 110 / 130 / 150 (+ 30% AP)",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "Special",
+      "flatDamage": [
+        70,
+        90,
+        110,
+        130,
+        150
+      ],
+      "ratios": [
+        {
+          "value": 30,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Arise!",
+      "cost": [
+        40
+      ],
+      "costType": "mana + 1 Sand Soldier",
+      "coolDown": [
+        1
+      ],
+      "description": "Passive: Azir periodically stocks a Sand Soldier, up to a maximum of 2. He also gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed, doubled for 5 seconds if he summons a third concurrent soldier.",
+      "leveling": "Bonus Attack Speed:»15 / 25 / 35 / 45 / 55%«Increased Attack Speed:30 / 50 / 70 / 90 / 110%",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "False",
+      "flatDamage": [
+        15,
+        25,
+        35,
+        45,
+        55
+      ],
+      "ratios": [],
+      "castTime": 0.25
+    },
+    {
+      "name": "Shifting Sands",
+      "cost": [
+        60
+      ],
+      "costType": "mana",
+      "coolDown": [
+        19,
+        18,
+        17,
+        16,
+        15
+      ],
+      "description": "Active: Azir <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields himself for 1.5 seconds and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target Sand Soldiers, dealing magic damage to enemies he passes through.",
+      "leveling": "Shield Strength:80 / 120 / 160 / 200 / 240 (+ 70% AP)Magic Damage:60 / 90 / 120 / 150 / 180 (+ 40% AP)",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        80,
+        120,
+        160,
+        200,
+        240
+      ],
+      "ratios": [
+        {
+          "value": 70,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Emperor's Divide",
+      "cost": [
+        100
+      ],
+      "costType": "mana",
+      "coolDown": [
+        120,
+        105,
+        90
+      ],
+      "description": "Active: Azir calls forth a phalanx of soldiers from behind him, charging forward in the target direction.",
+      "leveling": "Width:6 / 6.5 / 7 / 7.5 / 8 soldiers",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "Special",
+      "flatDamage": [
+        6,
+        6.5,
+        7,
+        7.5,
+        8
+      ],
+      "ratios": [],
+      "castTime": 0.5
+    }
+  ],
+  "id": "Azir",
+  "key": "268",
+  "name": "Azir",
+  "title": "the Emperor of the Sands",
+  "blurb": "Azir was a mortal emperor of Shurima in a far distant age, a proud man who stood at the cusp of immortality. His hubris saw him betrayed and murdered at the moment of his greatest triumph, but now, millennia later, he has been reborn as an Ascended...",
+  "info": {
+    "attack": 6,
+    "defense": 3,
+    "magic": 8,
+    "difficulty": 9
+  },
+  "image": {
+    "full": "Azir.png",
+    "sprite": "champion0.png",
+    "group": "champion",
+    "x": 0,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Mage",
+    "Marksman"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 552,
+    "hpPerLevel": 92,
+    "mp": 480,
+    "mpPerLevel": 21,
+    "moveSpeed": 335,
+    "armor": 19.04,
+    "armorPerLevel": 3,
+    "spellBlock": 30,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 525,
+    "hpRegen": 7,
+    "hpRegenPerLevel": 0.75,
+    "mpRegen": 8,
+    "mpRegenPerLevel": 0.8,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 52,
+    "attackDamagePerLevel": 2.8,
+    "attackSpeedPerLevel": 3,
+    "attackSpeed": 0.625
+  },
+  "_level": 1,
+  "attackRange": 525,
+  "moveSpeed": 335,
+  "hp": 552,
+  "mp": 480,
+  "hpRegen": 7,
+  "mpRegen": 8,
+  "crit": 0,
+  "attackDamage": 52,
+  "attackSpeed": 0.625,
+  "armor": 19.04,
+  "spellBlock": 30
+}

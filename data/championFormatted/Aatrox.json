@@ -1,0 +1,203 @@
+{
+  "abilities": [
+    {
+      "name": "The Darkin Blade",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        14,
+        12,
+        10,
+        8,
+        6
+      ],
+      "description": "Aatrox can activate The Darkin Blade three times before the ability goes on cooldown, with a 1 second static <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown between casts. If Aatrox does not recast the ability within 4 seconds, the ability goes on cooldown.",
+      "leveling": "Physical Damage:»10 / 30 / 50 / 70 / 90 (+ 60 / 65 / 70 / 75 / 80% AD)«Sweetspot Damage:15 / 45 / 75 / 105 / 135 (+ 90 / 97.5 / 105 / 112.5 / 120% AD)",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        10,
+        30,
+        50,
+        70,
+        90
+      ],
+      "ratios": [
+        {
+          "value": 60,
+          "type": "bonus ad"
+        },
+        {
+          "value": 65,
+          "type": "bonus ad"
+        },
+        {
+          "value": 70,
+          "type": "bonus ad"
+        },
+        {
+          "value": 75,
+          "type": "bonus ad"
+        },
+        {
+          "value": 80,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.6
+    },
+    {
+      "name": "Infernal Chains",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        26,
+        23,
+        20,
+        17,
+        14
+      ],
+      "description": "Active: Aatrox smashes the ground in the target direction, creating a chain that stops on the first enemy hit, dealing physical damage, doubled against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 25% for 1.5 seconds.",
+      "leveling": "Physical Damage:»30 / 40 / 50 / 60 / 70 (+ 40% AD)«Minion Damage:60 / 80 / 100 / 120 / 140 (+ 80% AD)",
+      "skill": "W",
+      "damageType": "Physical",
+      "isProjectile": "True",
+      "flatDamage": [
+        30,
+        40,
+        50,
+        60,
+        70
+      ],
+      "ratios": [
+        {
+          "value": 40,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Umbral Dash",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ],
+      "description": "Passive: Aatrox <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals for a percentage of the non-periodic post-mitigation damage he deals against enemy champions.",
+      "leveling": "Healing:20 / 22.5 / 25 / 27.5 / 30%",
+      "skill": "E",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        20,
+        22.5,
+        25,
+        27.5,
+        30
+      ],
+      "ratios": [],
+      "castTime": null
+    },
+    {
+      "name": "World Ender",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "description": "Active: Aatrox unleashes his true demonic form, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Flee_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223937\" \t alt=\"Flee icon\"  \tclass=\"\" \t \tdata-image-key=\"Flee_icon.png\" \tdata-image-name=\"Flee icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> fearing nearby enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by up to 99% for 3 seconds. For the next 10 seconds, Aatrox is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted and gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed, decaying by 10% of the current bonus every 0.25 seconds.",
+      "leveling": "Bonus Movement Speed:60 / 70 / 80 / 90 / 100%",
+      "skill": "R",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "ratios": [],
+      "castTime": 0.25
+    }
+  ],
+  "id": "Aatrox",
+  "key": "266",
+  "name": "Aatrox",
+  "title": "the Darkin Blade",
+  "blurb": "Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery. But after centuries of imprisonment, Aatrox was the first to find...",
+  "info": {
+    "attack": 8,
+    "defense": 4,
+    "magic": 3,
+    "difficulty": 4
+  },
+  "image": {
+    "full": "Aatrox.png",
+    "sprite": "champion0.png",
+    "group": "champion",
+    "x": 0,
+    "y": 0,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "partype": "Blood Well",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 580,
+    "hpPerLevel": 90,
+    "mp": 0,
+    "mpPerLevel": 0,
+    "moveSpeed": 345,
+    "armor": 38,
+    "armorPerLevel": 3.25,
+    "spellBlock": 32.1,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 175,
+    "hpRegen": 3,
+    "hpRegenPerLevel": 1,
+    "mpRegen": 0,
+    "mpRegenPerLevel": 0,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 60,
+    "attackDamagePerLevel": 5,
+    "attackSpeedPerLevel": 2.5,
+    "attackSpeed": 0.651
+  },
+  "_level": 1,
+  "attackRange": 175,
+  "moveSpeed": 345,
+  "hp": 580,
+  "mp": 0,
+  "hpRegen": 3,
+  "mpRegen": 0,
+  "crit": 0,
+  "attackDamage": 60,
+  "attackSpeed": 0.651,
+  "armor": 38,
+  "spellBlock": 32.1
+}

@@ -1,0 +1,211 @@
+{
+  "abilities": [
+    {
+      "name": "Decimate",
+      "cost": [
+        30,
+        35,
+        40,
+        45,
+        50
+      ],
+      "costType": "mana",
+      "coolDown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ],
+      "description": "Active: Darius hefts his axe for 0.75 seconds, and then swings it around himself, dealing physical damage to nearby enemies, reduced to 35% against enemies hit by the handle.",
+      "leveling": "Blade Physical Damage:»50 / 80 / 110 / 140 / 170 (+ 100 / 110 / 120 / 130 / 140% AD)«Handle Physical Damage:17.5 / 28 / 38.5 / 49 / 59.5 (+ 35 / 38.5 / 42 / 45.5 / 49% AD)",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        50,
+        80,
+        110,
+        140,
+        170
+      ],
+      "ratios": [
+        {
+          "value": 100,
+          "type": "bonus ad"
+        },
+        {
+          "value": 110,
+          "type": "bonus ad"
+        },
+        {
+          "value": 120,
+          "type": "bonus ad"
+        },
+        {
+          "value": 130,
+          "type": "bonus ad"
+        },
+        {
+          "value": 140,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Crippling Strike",
+      "cost": [
+        40
+      ],
+      "costType": "mana",
+      "coolDown": [
+        7,
+        6,
+        6,
+        5,
+        5
+      ],
+      "description": "Active: Darius'  next basic attack within 4 seconds becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Excessive_Force_2.png/revision/latest/scale-to-width-down/20?cb=20160608034953\" \t alt=\"Excessive Force 2\"  \tclass=\"\" \t \tdata-image-key=\"Excessive_Force_2.png\" \tdata-image-name=\"Excessive Force 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unstoppable, gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 25 bonus range, deals bonus physical damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows the target by 90% for 1 second.",
+      "leveling": "Bonus Physical Damage:40 / 45 / 50 / 55 / 60% AD",
+      "skill": "W",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        40,
+        45,
+        50,
+        55,
+        60
+      ],
+      "ratios": [],
+      "castTime": null
+    },
+    {
+      "name": "Apprehend",
+      "cost": [
+        70,
+        60,
+        50,
+        40,
+        30
+      ],
+      "costType": "mana",
+      "coolDown": [
+        24,
+        21,
+        18,
+        15,
+        12
+      ],
+      "description": "Passive: Darius gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Armor_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_penetration_icon.png\" \tdata-image-name=\"Armor penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> armor penetration.",
+      "leveling": "Armor Penetration:15 / 20 / 25 / 30 / 35%",
+      "skill": "E",
+      "damageType": "",
+      "isProjectile": "False",
+      "flatDamage": [
+        15,
+        20,
+        25,
+        30,
+        35
+      ],
+      "ratios": [],
+      "castTime": 0.25
+    },
+    {
+      "name": "Noxian Guillotine",
+      "cost": [
+        100,
+        100,
+        0
+      ],
+      "costType": "mana",
+      "coolDown": [
+        120,
+        100,
+        80
+      ],
+      "description": "Active: Darius attempts to execute the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Bear_Stance.png/revision/latest/scale-to-width-down/20?cb=20171223035155\" \t alt=\"Bear Stance\"  \tclass=\"\" \t \tdata-image-key=\"Bear_Stance.png\" \tdata-image-name=\"Bear Stance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leaping towards them to deal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c0/Hybrid_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20171001102450\" \t alt=\"Hybrid penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration_icon.png\" \tdata-image-name=\"Hybrid penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> true damage, increased by 0% −  100% (based on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8f/Hemorrhage.png/revision/latest/scale-to-width-down/20?cb=20191111171216\" \t alt=\"Hemorrhage\"  \tclass=\"\" \t \tdata-image-key=\"Hemorrhage.png\" \tdata-image-name=\"Hemorrhage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hemorrhage stacks).",
+      "leveling": "True Damage:»100 / 200 / 300 (+ 75% bonus AD)«Bonus Damage Per Stack:»20 / 40 / 60 (+ 15% bonus AD)«Maximum True Damage:200 / 400 / 600 (+ 150% bonus AD)",
+      "skill": "R",
+      "damageType": "True",
+      "isProjectile": "",
+      "flatDamage": [
+        100,
+        200,
+        300,
+        75,
+        20
+      ],
+      "ratios": [
+        {
+          "value": 75,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.3667
+    }
+  ],
+  "id": "Darius",
+  "key": "122",
+  "name": "Darius",
+  "title": "the Hand of Noxus",
+  "blurb": "There is no greater symbol of Noxian might than Darius, the nation's most feared and battle-hardened commander. Rising from humble origins to become the Hand of Noxus, he cleaves through the empire's enemies—many of them Noxians themselves. Knowing that...",
+  "info": {
+    "attack": 9,
+    "defense": 5,
+    "magic": 1,
+    "difficulty": 2
+  },
+  "image": {
+    "full": "Darius.png",
+    "sprite": "champion0.png",
+    "group": "champion",
+    "x": 0,
+    "y": 96,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 582.24,
+    "hpPerLevel": 100,
+    "mp": 263,
+    "mpPerLevel": 37.5,
+    "moveSpeed": 340,
+    "armor": 39,
+    "armorPerLevel": 4,
+    "spellBlock": 32.1,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 175,
+    "hpRegen": 10,
+    "hpRegenPerLevel": 0.95,
+    "mpRegen": 6.6,
+    "mpRegenPerLevel": 0.35,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 64,
+    "attackDamagePerLevel": 5,
+    "attackSpeedPerLevel": 1,
+    "attackSpeed": 0.625
+  },
+  "_level": 1,
+  "attackRange": 175,
+  "moveSpeed": 340,
+  "hp": 582.24,
+  "mp": 263,
+  "hpRegen": 10,
+  "mpRegen": 6.6,
+  "crit": 0,
+  "attackDamage": 64,
+  "attackSpeed": 0.625,
+  "armor": 39,
+  "spellBlock": 32.1
+}

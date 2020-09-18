@@ -1,0 +1,63 @@
+{
+  "abilities": null,
+  "id": "Rakan",
+  "key": "497",
+  "name": "Rakan",
+  "title": "The Charmer",
+  "blurb": "As mercurial as he is charming, Rakan is an infamous vastayan troublemaker and the greatest battle-dancer in Lhotlan tribal history. To the humans of the Ionian highlands, his name has long been synonymous with wild festivals, uncontrollable parties...",
+  "info": {
+    "attack": 2,
+    "defense": 4,
+    "magic": 8,
+    "difficulty": 5
+  },
+  "image": {
+    "full": "Rakan.png",
+    "sprite": "champion3.png",
+    "group": "champion",
+    "x": 96,
+    "y": 0,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Support"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 540,
+    "hpPerLevel": 85,
+    "mp": 315,
+    "mpPerLevel": 50,
+    "moveSpeed": 335,
+    "armor": 32,
+    "armorPerLevel": 3.9,
+    "spellBlock": 32.1,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 300,
+    "hpRegen": 5,
+    "hpRegenPerLevel": 0.5,
+    "mpRegen": 8.75,
+    "mpRegenPerLevel": 0.5,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 62,
+    "attackDamagePerLevel": 3.5,
+    "attackSpeedPerLevel": 3,
+    "attackSpeed": 0.635
+  },
+  "_level": 1,
+  "attackRange": 300,
+  "moveSpeed": 335,
+  "hp": 540,
+  "mp": 315,
+  "hpRegen": 5,
+  "mpRegen": 8.75,
+  "crit": 0,
+  "attackDamage": 62,
+  "attackSpeed": 0.635,
+  "armor": 32,
+  "spellBlock": 32.1
+}

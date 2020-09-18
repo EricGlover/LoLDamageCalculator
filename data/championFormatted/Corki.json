@@ -1,0 +1,63 @@
+{
+  "abilities": null,
+  "id": "Corki",
+  "key": "42",
+  "name": "Corki",
+  "title": "the Daring Bombardier",
+  "blurb": "The yordle pilot Corki loves two things above all others: flying, and his glamorous mustache... though not necessarily in that order. After leaving Bandle City, he settled in Piltover and fell in love with the wondrous machines he found there. He...",
+  "info": {
+    "attack": 8,
+    "defense": 3,
+    "magic": 6,
+    "difficulty": 6
+  },
+  "image": {
+    "full": "Corki.png",
+    "sprite": "champion0.png",
+    "group": "champion",
+    "x": 432,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Marksman"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 518,
+    "hpPerLevel": 87,
+    "mp": 350.16,
+    "mpPerLevel": 34,
+    "moveSpeed": 325,
+    "armor": 28,
+    "armorPerLevel": 3.5,
+    "spellBlock": 30,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 550,
+    "hpRegen": 5.5,
+    "hpRegenPerLevel": 0.55,
+    "mpRegen": 7.424,
+    "mpRegenPerLevel": 0.55,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 55,
+    "attackDamagePerLevel": 2.5,
+    "attackSpeedPerLevel": 2.3,
+    "attackSpeed": 0.638
+  },
+  "_level": 1,
+  "attackRange": 550,
+  "moveSpeed": 325,
+  "hp": 518,
+  "mp": 350.16,
+  "hpRegen": 5.5,
+  "mpRegen": 7.424,
+  "crit": 0,
+  "attackDamage": 55,
+  "attackSpeed": 0.638,
+  "armor": 28,
+  "spellBlock": 30
+}

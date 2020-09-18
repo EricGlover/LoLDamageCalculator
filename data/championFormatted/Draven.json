@@ -1,0 +1,63 @@
+{
+  "abilities": null,
+  "id": "Draven",
+  "key": "119",
+  "name": "Draven",
+  "title": "the Glorious Executioner",
+  "blurb": "In Noxus, warriors known as Reckoners face one another in arenas where blood is spilled and strength tested—but none has ever been as celebrated as Draven. A former soldier, he found that the crowds uniquely appreciated his flair for the dramatic, and...",
+  "info": {
+    "attack": 9,
+    "defense": 3,
+    "magic": 1,
+    "difficulty": 8
+  },
+  "image": {
+    "full": "Draven.png",
+    "sprite": "champion0.png",
+    "group": "champion",
+    "x": 96,
+    "y": 96,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Marksman"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 605,
+    "hpPerLevel": 90,
+    "mp": 360.56,
+    "mpPerLevel": 39,
+    "moveSpeed": 330,
+    "armor": 29,
+    "armorPerLevel": 3.3,
+    "spellBlock": 30,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 550,
+    "hpRegen": 3.75,
+    "hpRegenPerLevel": 0.7,
+    "mpRegen": 8.042,
+    "mpRegenPerLevel": 0.65,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 60,
+    "attackDamagePerLevel": 3.61,
+    "attackSpeedPerLevel": 2.7,
+    "attackSpeed": 0.679
+  },
+  "_level": 1,
+  "attackRange": 550,
+  "moveSpeed": 330,
+  "hp": 605,
+  "mp": 360.56,
+  "hpRegen": 3.75,
+  "mpRegen": 8.042,
+  "crit": 0,
+  "attackDamage": 60,
+  "attackSpeed": 0.679,
+  "armor": 29,
+  "spellBlock": 30
+}
