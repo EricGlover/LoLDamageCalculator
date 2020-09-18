@@ -1,0 +1,954 @@
+[
+  {
+    "1": {
+      "value": "Winter's Bite",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Winter's Bite."
+    },
+    "champion": {
+      "value": "Braum",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "Q",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "1000",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "55 / 60 / 65 / 70 / 75",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "10 / 9 / 8 / 7 / 6",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Winter's Bite.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Active: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/28/Braum_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402215539\" \t alt=\"Braum OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Braum_OriginalSquare.png\" \tdata-image-name=\"Braum OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Braum propels freezing ice from his shield, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing and dealing magic damage to the first target hit. Applies a stack of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3b/Concussive_Blows.png/revision/latest/scale-to-width-down/20?cb=20170818001543\" \t alt=\"Concussive Blows\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Concussive_Blows.png\" \tdata-image-name=\"Concussive Blows.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Concussive Blows.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Braum propels ice from his shield in the target direction, dealing magic damage to the first enemy hit and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 70% decaying over 2 seconds.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Magic Damage:60 / 110 / 160 / 210 / 260 (+ 2.5% of Braum's maximum health)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Single target",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "True",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Winter's Bite will cast from wherever Braum is at the end of the cast time.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "Braum QVideo.ogv",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Stand Behind Me",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Stand Behind Me."
+    },
+    "champion": {
+      "value": "Braum",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "W",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "650",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "false",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "40",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "12 / 11 / 10 / 9 / 8",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Stand Behind Me.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Active: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/28/Braum_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402215539\" \t alt=\"Braum OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Braum_OriginalSquare.png\" \tdata-image-name=\"Braum OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Braum <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to a target allied <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minion. On arrival, both of them gain <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> magic resistance for a few seconds.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Braum <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target ally's location, positioning himself between their location and the closest enemy champion, and granting himself and the ally <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus magic resistance for 3 seconds.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Self Bonus Armor:»10 / 14 / 18 / 22 / 26 (+ 36% bonus armor)«Self Bonus MR:10 / 14 / 18 / 22 / 26 (+ 36% bonus magic resistance)\nAlly Bonus Armor:»10 / 14 / 18 / 22 / 26 (+ 12% bonus armor)«Ally Bonus MR:10 / 14 / 18 / 22 / 26 (+ 12% bonus magic resistance)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Stand Behind Me can be self cast to instantly grant Braum the bonus resistances.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ef/Unbreakable.png/revision/latest/scale-to-width-down/20?cb=20170818001617\" \t alt=\"Unbreakable\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Unbreakable.png\" \tdata-image-name=\"Unbreakable.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Unbreakable can be cast while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashing.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Self / Unit",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self, Allies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Stand Behind Me can also be used on allied <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions, but cannot be used on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f1/Ward_icon.png/revision/latest/scale-to-width-down/20?cb=20180828001331\" \t alt=\"Ward icon\"  \tclass=\"\" \t \tdata-image-key=\"Ward_icon.png\" \tdata-image-name=\"Ward icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> wards.\n If there are no nearby enemy champions, Braum will position himself on the far side of his target.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "Braum WVideo.ogv",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Unbreakable",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Unbreakable."
+    },
+    "champion": {
+      "value": "Braum",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "E",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "180°",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "false",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "30 / 35 / 40 / 45 / 50",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "18 / 16 / 14 / 12 / 10",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Unbreakable.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Active: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/28/Braum_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402215539\" \t alt=\"Braum OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Braum_OriginalSquare.png\" \tdata-image-name=\"Braum OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Braum raises his shield in a direction for several seconds, intercepting all projectiles causing them to hit him and be destroyed. He negates the damage of the first attack completely and reduces the damage of all subsequent attacks from this direction.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Braum raises his shield in the target direction for a few seconds, creating a barrier that intercepts incoming enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Projectile.png/revision/latest/scale-to-width-down/20?cb=20150816082407\" \t alt=\"Projectile\"  \tclass=\"\" \t \tdata-image-key=\"Projectile.png\" \tdata-image-name=\"Projectile.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> projectiles and reduces the damage Braum takes through the shield. The first instance of damage blocked by his shield is negated completely.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Damage reduction:30 / 32.5 / 35 / 37.5 / 40%Duration:3 / 3.25 / 3.5 / 3.75 / 4",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "While his shield is raised, Braum also gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 10% bonus movement speed and is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Unbreakable has no effect on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> turret shots.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Definitions\n Incoming: Damage sources coming from somewhere facing the shield. Those coming from different sides are not affected.\n Projectiles: Sped up entities not classified as a unit (<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters, etc.)\n Intercepting: A projectile hitting Braum because he is standing in front of the intended target. In addition to being redirected, an intercepted projectile is also destroyed after hitting Braum (although this is only applicable to pass-through projectiles).\n\n Moving units are not intercepted under any circumstance, including <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes. Champion summoned units are not classified as units until they hit the ground (e.g. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/88/Sapling_Toss.png/revision/latest/scale-to-width-down/20?cb=20170818191752\" \t alt=\"Sapling Toss\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sapling_Toss.png\" \tdata-image-name=\"Sapling Toss.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sapling Toss) and thus will interact with Unbreakable whilst en route.\n Projectiles whose effects trigger on collision will still trigger - dealing damage, applying debuffs, creating area of effects and marking the target as 'hit'.\n Abilities that deal area of effect damage on-collision will only damage Braum.\n If <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2a/Spinning_Axe.png/revision/latest/scale-to-width-down/20?cb=20130929122741\" \t alt=\"Spinning Axe\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spinning_Axe.png\" \tdata-image-name=\"Spinning Axe.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spinning Axe hits Braum, regardless of if its the first hit on the damage reduction or not, it will always bounce back and not be destroyed. This happens even if Braum intercepts the attack for an ally though the axe will bounce back from Braum and not the intended target.\n Projectile-based ground-targeted abilities that only occur upon successfully hitting the ground (<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Miasma.png/revision/latest/scale-to-width-down/20?cb=20160616202407\" \t alt=\"Miasma\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Miasma.png\" \tdata-image-name=\"Miasma.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Miasma, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cb/Aqua_Prison.png/revision/latest/scale-to-width-down/20?cb=20130929123105\" \t alt=\"Aqua Prison\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Aqua_Prison.png\" \tdata-image-name=\"Aqua Prison.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Aqua Prison, etc.) will apply their full effects to Braum but will be destroyed without affecting any other ally.\n Projectiles that cannot hit Braum or his allies (such as an enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Prismatic_Barrier.png/revision/latest/scale-to-width-down/20?cb=20160608031819\" \t alt=\"Prismatic Barrier\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Prismatic_Barrier.png\" \tdata-image-name=\"Prismatic Barrier.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Prismatic Barrier) will not be intercepted.[2]\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/65/Soraka_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402221143\" \t alt=\"Soraka OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Soraka_OriginalSquare.png\" \tdata-image-name=\"Soraka OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Soraka's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cd/Starcall.png/revision/latest/scale-to-width-down/20?cb=20170818194914\" \t alt=\"Starcall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Starcall.png\" \tdata-image-name=\"Starcall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Starcall's Rejuvenation projectile is however blocked.\n\n The damage reduction will affect any source of damage whose origin is in front of the shield. This includes:\n All intercepted projectiles.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2d/Melee_role.png/revision/latest/scale-to-width-down/20?cb=20170624104045\" \t alt=\"Melee role\"  \tclass=\"\" \t \tdata-image-key=\"Melee_role.png\" \tdata-image-name=\"Melee role.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Melee and non-projectile-based <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Ranged_role.png/revision/latest/scale-to-width-down/20?cb=20170624104039\" \t alt=\"Ranged role\"  \tclass=\"\" \t \tdata-image-key=\"Ranged_role.png\" \tdata-image-name=\"Ranged role.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ranged attacks.\n Instantaneous direction-targeted abilities (e.g. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/57/Arcanopulse.png/revision/latest/scale-to-width-down/20?cb=20180616010113\" \t alt=\"Arcanopulse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Arcanopulse.png\" \tdata-image-name=\"Arcanopulse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Arcanopulse, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/06/Final_Spark.png/revision/latest/scale-to-width-down/20?cb=20160608031648\" \t alt=\"Final Spark\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Final_Spark.png\" \tdata-image-name=\"Final Spark.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Final Spark, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Life_Form_Disintegration_Ray.png/revision/latest/scale-to-width-down/20?cb=20170818195631\" \t alt=\"Life Form Disintegration Ray\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Life_Form_Disintegration_Ray.png\" \tdata-image-name=\"Life Form Disintegration Ray.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Lifeform Disintegration Ray.)\n Instantaneously-placed ground-targeted abilities (e.g. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/29/Lay_Waste.png/revision/latest/scale-to-width-down/20?cb=20170818190306\" \t alt=\"Lay Waste\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Lay_Waste.png\" \tdata-image-name=\"Lay Waste.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Lay Waste, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/90/Pillar_of_Flame.png/revision/latest/scale-to-width-down/20?cb=20160419192941\" \t alt=\"Pillar of Flame\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Pillar_of_Flame.png\" \tdata-image-name=\"Pillar of Flame.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Pillar of Flame, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/38/Rupture.png/revision/latest/scale-to-width-down/20?cb=20160608020307\" \t alt=\"Rupture\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rupture.png\" \tdata-image-name=\"Rupture.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rupture) relative to the ability's center and not the caster's.\n Point-blank area-of-effects (e.g. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c1/Ground_Slam.png/revision/latest/scale-to-width-down/20?cb=20171223032108\" \t alt=\"Ground Slam\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ground_Slam.png\" \tdata-image-name=\"Ground Slam.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ground Slam, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b3/Tantrum.png/revision/latest/scale-to-width-down/20?cb=20171129224902\" \t alt=\"Tantrum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tantrum.png\" \tdata-image-name=\"Tantrum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tantrum, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Time_Bomb.png/revision/latest/scale-to-width-down/20?cb=20150210202805\" \t alt=\"Time Bomb\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Time_Bomb.png\" \tdata-image-name=\"Time Bomb.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Time Bomb not targeted at Braum)\n Instantaneous targeted abilities (e.g. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3e/Malefic_Visions.png/revision/latest/scale-to-width-down/20?cb=20170217194900\" \t alt=\"Malefic Visions\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Malefic_Visions.png\" \tdata-image-name=\"Malefic Visions.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Malefic Visions, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/66/Transfusion.png/revision/latest/scale-to-width-down/20?cb=20160616212740\" \t alt=\"Transfusion\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Transfusion.png\" \tdata-image-name=\"Transfusion.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Transfusion, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Time_Bomb.png/revision/latest/scale-to-width-down/20?cb=20150210202805\" \t alt=\"Time Bomb\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Time_Bomb.png\" \tdata-image-name=\"Time Bomb.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Time Bomb targeted at Braum) and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/57/Poison_Trail.png/revision/latest/scale-to-width-down/20?cb=20141023220615\" \t alt=\"Poison Trail\"  \tclass=\"\" \t \tdata-image-key=\"Poison_Trail.png\" \tdata-image-name=\"Poison Trail.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> AoE DoT (e.g. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9b/Spirit_Fire.png/revision/latest/scale-to-width-down/20?cb=20170818192458\" \t alt=\"Spirit Fire\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spirit_Fire.png\" \tdata-image-name=\"Spirit Fire.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spirit Fire, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f3/Tormented_Shadow.png/revision/latest/scale-to-width-down/20?cb=20190306100900\" \t alt=\"Tormented Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tormented_Shadow.png\" \tdata-image-name=\"Tormented Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tormented Shadow, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/57/Poison_Trail.png/revision/latest/scale-to-width-down/20?cb=20141023220615\" \t alt=\"Poison Trail\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Poison_Trail.png\" \tdata-image-name=\"Poison Trail.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Poison Trail).\n\n The damage reduction only benefits Braum.\n If <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Audacious_Charge.png/revision/latest/scale-to-width-down/20?cb=20170915205300\" \t alt=\"Audacious Charge\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Audacious_Charge.png\" \tdata-image-name=\"Audacious Charge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Audacious Charge would path <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1f/Xin_Zhao_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20180207001445\" \t alt=\"Xin Zhao OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Xin_Zhao_OriginalSquare.png\" \tdata-image-name=\"Xin Zhao OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Xin Zhao through Unbreakable, only Braum will take reduced damage.\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Blaze.png/revision/latest/scale-to-width-down/20?cb=20160420084402\" \t alt=\"Blaze\"  \tclass=\"\" \t \tdata-image-key=\"Blaze.png\" \tdata-image-name=\"Blaze.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Damage over time is calculated per tick but the full damage reduction will still only apply to a single tick.\n If the damage mitigated by Unbreakable exceeds a minimum threshold it is represented with floating text similar to the damage mitigated by shields ('-X')\n This floating text is always shown for the single fully-reduced damage source.\n\n For the purposes of abilities like <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Backstab.png/revision/latest/scale-to-width-down/20?cb=20160608033432\" \t alt=\"Backstab\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Backstab.png\" \tdata-image-name=\"Backstab.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Backstab, Braum's facing direction is the direction he's moving in (not the direction his face or the shield are looking in).\n This is a documented game engine limitation.\n\n If Braum is protected by a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> spell shield, both it and the one-time-use full damage reduction can be consumed by a single blockable spell.\n The one-time-use full damage reduction will not be consumed if the damage source is nothing but <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Hybrid_penetration.png/revision/latest/scale-to-width-down/20?cb=20170514081634\" \t alt=\"Hybrid penetration\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration.png\" \tdata-image-name=\"Hybrid penetration.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> true damage.\n\n Unbreakable will grant assist credit if the enemy whose projectile is blocked from is killed within 10 seconds.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "Braum EVideo.ogv",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Glacial Fissure",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Glacial Fissure."
+    },
+    "champion": {
+      "value": "Braum",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "R",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "1250",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.5",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "100",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "140 / 130 / 120 / 110 / 100",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Glacial Fissure.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Active: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/28/Braum_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402215539\" \t alt=\"Braum OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Braum_OriginalSquare.png\" \tdata-image-name=\"Braum OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Braum slams the ground, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking up enemies nearby and in a line in front of him. A fissure is left along the line that <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows enemies.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Braum leaps into the air and slams his shield into the ground, creating a fissure in the target direction that deals magic damage to enemies as well as those around him.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Magic Damage:150 / 225 / 300 / 375 / 450 (+ 60% AP)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "The first target hit is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked up for at least 0.3 seconds, increased if they are further away from Braum. All other enemies hit are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked up for 0.3 seconds.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Maximum Knockup Duration:1 / 1.25 / 1.5",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "A field of ice then remains at the fissure's location for 4 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing enemies within every 0.25 seconds.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "Slow:40 / 45 / 50 / 55 / 60%",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "spellaoe",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "True",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* No additional details.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "Braum RVideo.ogv",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  }
+]

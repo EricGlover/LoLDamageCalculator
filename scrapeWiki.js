@@ -2,8 +2,8 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 
 
-async function getTemplate() {
-    const browser = await puppeteer.launch();
+async function getTemplate(browser) {
+    console.log("Fetching template");
     const page = await browser.newPage();
     await page.goto("https://leagueoflegends.fandom.com/wiki/Template:Ability_data");
     const table = await page.$("table.article-table.grid");
@@ -17,12 +17,14 @@ async function getTemplate() {
             return row;
         }).filter(row => row.length > 0);
     });
+    await page.close();
+
     const dataObj = {};
     data.forEach(row => {
         dataObj[row[0]] = {value: row[1], description: row[2]}
     })
-    console.log(dataObj);
-    await browser.close();
+    await printToFile('template', JSON.stringify(dataObj, null, 2));
+    console.log("Template data written");
 }
 
 async function sleep(time) {
@@ -109,54 +111,80 @@ async function loadChampionNames() {
 }
 
 async function scrapeChampion(championName, browser) {
+    console.log(`fetching champion abilities for ${championName}`);
     const abilityNames = await getChampionAbilityNames(championName, browser);
+
     const abilities = [];
+
     for (const [_, name] of Object.entries(abilityNames)) {
         console.log(name);
+        console.log(`Fetching ability ${name}`);
         let data = await getAbility(name, championName, browser);
         abilities.push(data);
     }
+    console.log(`writing data to file`);
     await printToFile(championName, JSON.stringify(abilities, null, 2));
 }
 
+/**
+ * Error to fix
+ Summon Tibbers,Command Tibbers
+ going to https://leagueoflegends.fandom.com/wiki/Template:Data_Annie/Summon_Tibbers%2CCommand_Tibbers
+ (node:81459) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '$$eval' of null
+ at getAbility (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/scrapeWiki.js:68:28)
+ at runMicrotasks (<anonymous>)
+ at processTicksAndRejections (internal/process/task_queues.js:97:5)
+ at async scrapeChampion (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/scrapeWiki.js:116:20)
+ at async scrapeAllChampions (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/scrapeWiki.js:127:9)
+ at async main (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/scrapeWiki.js:134:5)
+ (node:81459) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+ (node:81459) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+ */
 async function scrapeAllChampions() {
     const browser = await puppeteer.launch();
+    let championNames = null;
+    try {
+        championNames = await loadChampionNames();
+    } catch(e) {
+        console.error("Error fetching champion names");
+        throw e;
+    }
 
-    let championNames = await loadChampionNames();
     for(const [_, name] of Object.entries(championNames)) {
-        await scrapeChampion(name, browser);
+        try {
+            await scrapeChampion(name, browser);
+        } catch(e) {
+            console.error(`Error scraping data for ${name}`)
+        }
     }
     await browser.close();
 }
 
 
+
 async function main() {
-    await scrapeAllChampions();
-    return;
-    const browser = await puppeteer.launch();
+    try {
+        // const browser = await puppeteer.launch();
+        // get templates and raw wiki data
+        // await getTemplate(browser);
+        // await scrapeAllChampions();
+        // await browser.close();
+        // format wiki data into useful entities
 
-    let championNames = await loadChampionNames();
-    for(const [_, name] of Object.entries(championNames)) {
-        await scrapeChampion(name);
+        // read from file
+        const championName = "Caitlyn";
+        let data = fs.readFileSync(`./data/wikiData/${championName}`);
+        let abilityDataArr = JSON.parse(data);
+        // start with Q
+        let ability = Ability.makeFromObj(abilityDataArr[0]);
+        console.log(ability);
+    } catch(e) {
+        console.error(e);
+    } finally {
+        if(browser) {
+            await browser.close();
+        }
     }
-    let championName = "Caitlyn";
-    const abilityNames = await getChampionAbilityNames(championName, browser);
-    const abilities = [];
-    for (const [_, name] of Object.entries(abilityNames)) {
-        console.log(name);
-        let data = await getAbility(name, championName, browser);
-        abilities.push(data);
-    }
-    await printToFile(championName, JSON.stringify(abilities, null, 2));
-
-    // return;
-    // abilityNames.forEach(async abilityName => {
-    //     let data = await getAbility(abilityName, championName, browser);
-    //     abilities.push(data);
-    // })
-    console.log(abilities);
-    // getAbility( "90 Caliber Net", "Caitlyn");
-    browser.close();
 }
 
 main();
