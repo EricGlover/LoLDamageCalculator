@@ -1,0 +1,145 @@
+[
+  {
+    "name": "Piltover Peacemaker",
+    "cost": [
+      50,
+      60,
+      70,
+      80,
+      90
+    ],
+    "costType": "mana",
+    "coolDown": [
+      10,
+      9,
+      8,
+      7,
+      6
+    ],
+    "description": "Active: Caitlyn fires a projectile in the target direction that deals physical damage to the first enemy it passes through, after which it expands in width but deals only 60% damage to all enemies it passes thereafter.",
+    "leveling": "Physical Damage:»50 / 90 / 130 / 170 / 210 (+ 130 / 140 / 150 / 160 / 170% AD)«Reduced Damage:30 / 54 / 78 / 102 / 126 (+ 78 / 84 / 90 / 96 / 102% AD)",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "True",
+    "flatDamage": [
+      50,
+      90,
+      130,
+      170,
+      210
+    ],
+    "ratios": [
+      {
+        "value": 130,
+        "type": "bonus ad"
+      },
+      {
+        "value": 140,
+        "type": "bonus ad"
+      },
+      {
+        "value": 150,
+        "type": "bonus ad"
+      },
+      {
+        "value": 160,
+        "type": "bonus ad"
+      },
+      {
+        "value": 170,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.625
+  },
+  {
+    "name": "Yordle Snap Trap",
+    "cost": [
+      20
+    ],
+    "costType": "Mana + 1 Charge",
+    "coolDown": [
+      null
+    ],
+    "description": "Passive: Caitlyn periodically stocks a Yordle Snap Trap charge, up to a maximum amount.",
+    "leveling": "Maximum Traps:3 / 3 / 4 / 4 / 5",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      3,
+      3,
+      4,
+      4,
+      5
+    ],
+    "ratios": [],
+    "castTime": 0.25
+  },
+  {
+    "name": "90 Caliber Net",
+    "cost": [
+      75
+    ],
+    "costType": "mana",
+    "coolDown": [
+      16,
+      14,
+      13,
+      11,
+      10
+    ],
+    "description": "Active: Caitlyn fires a net in the target direction and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> recoils 400 units in the opposite direction, dealing magic damage to the first enemy hit and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 50% for 1 second.",
+    "leveling": "Magic damage:70 / 110 / 150 / 190 / 230 (+ 80% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      70,
+      110,
+      150,
+      190,
+      230
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.15
+  },
+  {
+    "name": "Ace in the Hole",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      90,
+      82,
+      75,
+      67,
+      60
+    ],
+    "description": "Active: Caitlyn locks onto the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels for 1 second, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20150808161653\" \t alt=\"True Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"True_Sight_icon.png\" \tdata-image-name=\"True Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing herself to enemies.",
+    "leveling": "Physical damage:300 / 412.5 / 525 / 637.5 / 750 (+ 200% bonus AD)",
+    "skill": "R",
+    "damageType": "Physical",
+    "isProjectile": "True",
+    "flatDamage": [
+      300,
+      412.5,
+      525,
+      637.5,
+      750
+    ],
+    "ratios": [
+      {
+        "value": 200,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.375
+  }
+]

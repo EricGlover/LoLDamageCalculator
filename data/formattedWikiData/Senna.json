@@ -1,0 +1,129 @@
+[
+  {
+    "name": "Piercing Darkness",
+    "cost": [
+      70,
+      80,
+      90,
+      100,
+      110
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      15
+    ],
+    "description": "Active: Senna fires a spectral laser in the direction of the target unit, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing herself and allied <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions in a line, and dealing physical damage to enemies in a thinner line.",
+    "leveling": "Healing:40 / 60 / 80 / 100 / 120 (+ 40% bonus AD) (+ 25% AP)\nPhysical Damage:40 / 70 / 100 / 130 / 160 (+ 40% bonus AD)",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "False",
+    "flatDamage": [
+      40,
+      60,
+      80,
+      100,
+      120
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.4
+  },
+  {
+    "name": "Last Embrace",
+    "cost": [
+      50,
+      55,
+      60,
+      65,
+      70
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      11
+    ],
+    "description": "Active: Senna throws a globule of Black Mist in the target direction, dealing physical damage and sticking onto the first enemy hit for 1 second.",
+    "leveling": "Physical Damage:70 / 115 / 160 / 205 / 250 (+ 70% bonus AD)",
+    "skill": "W",
+    "damageType": "Physical",
+    "isProjectile": "True",
+    "flatDamage": [
+      70,
+      115,
+      160,
+      205,
+      250
+    ],
+    "ratios": [
+      {
+        "value": 70,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Curse of the Black Mist",
+    "cost": [
+      70
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      26,
+      24,
+      23,
+      21,
+      20
+    ],
+    "description": "Active: Senna surrounds herself with an aura of mist and gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Ambush_2.png/revision/latest/scale-to-width-down/20?cb=20171221051757\" \t alt=\"Ambush 2\"  \tclass=\"\" \t \tdata-image-key=\"Ambush_2.png\" \tdata-image-name=\"Ambush 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> camouflage for a duration. If Senna breaks the camouflage, she can regain it until after 1.75 seconds of not performing actions that break stealth.",
+    "leveling": "Effect Duration:6 / 6.5 / 7 / 7.5 / 8",
+    "skill": "E",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      6,
+      6.5,
+      7,
+      7.5,
+      8
+    ],
+    "ratios": [],
+    "castTime": 1
+  },
+  {
+    "name": "Dawning Shadow",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      160,
+      150,
+      140,
+      130,
+      120
+    ],
+    "description": "Active: Senna <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reveals herself before firing two beams of spectral light in the target direction, granting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of the area briefly along its path. The center beam deals physical damage to enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions hit.",
+    "leveling": "Physical Damage:250 / 312.5 / 375 / 437.5 / 500 (+ 100% bonus AD) (+ 50% AP)",
+    "skill": "R",
+    "damageType": "physical",
+    "isProjectile": "true",
+    "flatDamage": [
+      250,
+      312.5,
+      375,
+      437.5,
+      500
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 1
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "name": "Chomp",
+    "cost": [
+      30
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      4
+    ],
+    "description": "Active: Trundle's next basic attack becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Excessive_Force_2.png/revision/latest/scale-to-width-down/20?cb=20160608034953\" \t alt=\"Excessive Force 2\"  \tclass=\"\" \t \tdata-image-key=\"Excessive_Force_2.png\" \tdata-image-name=\"Excessive Force 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unstoppable, deals <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> bonus physical damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows the target by 75% for 0.1 seconds.",
+    "leveling": "Bonus Physical Damage:20 / 40 / 60 / 80 / 100 (+ 10 / 20 / 30 / 40 / 50% AD)",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      20,
+      40,
+      60,
+      80,
+      100
+    ],
+    "ratios": [
+      {
+        "value": 10,
+        "type": "bonus ad"
+      },
+      {
+        "value": 20,
+        "type": "bonus ad"
+      },
+      {
+        "value": 30,
+        "type": "bonus ad"
+      },
+      {
+        "value": 40,
+        "type": "bonus ad"
+      },
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Frozen Domain",
+    "cost": [
+      40
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      15
+    ],
+    "description": "Active: Trundle coats the target area in ice for 8 seconds. While inside, he gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed, and 25% increased <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing from all sources.",
+    "leveling": "Bonus Attack Speed:20 / 40 / 60 / 80 / 100%\nBonus Movement Speed:20 / 28 / 36 / 44 / 52%",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      20,
+      40,
+      60,
+      80,
+      100
+    ],
+    "ratios": [],
+    "castTime": null
+  },
+  {
+    "name": "Pillar of Ice",
+    "cost": [
+      75
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      24,
+      22,
+      20,
+      18,
+      16
+    ],
+    "description": "Active: Trundle projects a pillar of ice at the target location for 6 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking back all units directly over it 225 units on cast, acting as impassable terrain for the duration and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing enemies around it.",
+    "leveling": "Slow:20 / 30 / 40 / 50 / 60%",
+    "skill": "E",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "ratios": [],
+    "castTime": null
+  },
+  {
+    "name": "Subjugate",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      120,
+      110,
+      100,
+      90,
+      80
+    ],
+    "description": "Active: Trundle starts draining the life force out of the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing for a percentage of their maximum health, dealing the same amount as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> magic damage, stealing 40% of their <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Armor_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_penetration_icon.png\" \tdata-image-name=\"Armor penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Magic_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203538\" \t alt=\"Magic penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_penetration_icon.png\" \tdata-image-name=\"Magic penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> magic resistance, and increasing in size by 18% as well as reducing his target's size by 9.9%. Half of the total damage and stealing is applied instantly, and the other half, as well as the size modifiers, are applied over the next 4 seconds, even if the target has <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> died.",
+    "leveling": "Total Magic Damage:»20 / 23.75 / 27.5 / 31.25 / 35% (+ 2% per 100 AP) of the target's maximum health«Initial Magic Damage:»10 / 11.875 / 13.75 / 15.625 / 17.5% (+ 1% per 100 AP) of the target's maximum health«Magic Damage Per Second:2.5 / 2.96875 / 3.4375 / 3.90625 / 4.375% (+ 0.25% per 100 AP) of the target's maximum health",
+    "skill": "R",
+    "damageType": "magic",
+    "isProjectile": "",
+    "flatDamage": [
+      20,
+      23.75,
+      27.5,
+      31.25,
+      35
+    ],
+    "ratios": [
+      {
+        "value": 2,
+        "type": "bonus ad"
+      },
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  }
+]

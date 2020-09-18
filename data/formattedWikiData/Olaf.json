@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Undertow",
+    "cost": [
+      60
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      7
+    ],
+    "description": "Active: Olaf throws an axe to the target location, dealing physical damage to all enemies it passes through and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them for 1.5 − 2.5 (based on distance traveled) seconds.",
+    "leveling": "Physical Damage:80 / 125 / 170 / 215 / 260 (+ 100% bonus AD)\nSlow:29 / 33 / 37 / 41 / 45%",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "special",
+    "flatDamage": [
+      80,
+      125,
+      170,
+      215,
+      260
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Vicious Strikes",
+    "cost": [
+      30
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      16
+    ],
+    "description": "Active: For 6 seconds, Olaf gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed, bonus <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Life_steal_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Life steal icon\"  \tclass=\"\" \t \tdata-image-key=\"Life_steal_icon.png\" \tdata-image-name=\"Life steal icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> life steal, and 0% − 50% (based on missing health) enhanced <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing from all sources.",
+    "leveling": "Bonus Attack Speed:55 / 65 / 75 / 85 / 95%\nLife Steal:14 / 16 / 18 / 20 / 22%",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      55,
+      65,
+      75,
+      85,
+      95
+    ],
+    "ratios": [],
+    "castTime": null
+  },
+  {
+    "name": "Reckless Swing",
+    "cost": [
+      21,
+      34,
+      48,
+      61,
+      75
+    ],
+    "costType": "Health",
+    "coolDown": [
+      11,
+      10,
+      9,
+      8,
+      7
+    ],
+    "description": "Active: Olaf strikes thunder onto the target enemy, dealing them <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c0/Hybrid_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20171001102450\" \t alt=\"Hybrid penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration_icon.png\" \tdata-image-name=\"Hybrid penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> true damage.",
+    "leveling": "True Damage:70 / 115 / 160 / 205 / 250 (+ 50% AD)",
+    "skill": "E",
+    "damageType": "True",
+    "isProjectile": "",
+    "flatDamage": [
+      70,
+      115,
+      160,
+      205,
+      250
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Ragnarok",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      100,
+      90,
+      80
+    ],
+    "description": "Passive: Olaf gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus magic resistance while Ragnarok is inactive.",
+    "leveling": "Bonus Resistances:20 / 30 / 40",
+    "skill": "R",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      20,
+      30,
+      40
+    ],
+    "ratios": [],
+    "castTime": null
+  }
+]

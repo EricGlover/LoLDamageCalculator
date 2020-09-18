@@ -55,7 +55,7 @@ class Ability {
 
     static makeFromWikiData(obj) {
         // extracting damage
-        console.log(obj);
+        // console.log(obj);
 
         const v = {};
         Object.entries(obj).forEach(([key, val]) => {

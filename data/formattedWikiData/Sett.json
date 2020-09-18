@@ -1,0 +1,166 @@
+[
+  {
+    "name": "Knuckle Down",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      9,
+      8,
+      7,
+      6,
+      5
+    ],
+    "description": "Active: Sett gains Looking for a Fight for 1.5 seconds and empowers his next two basic attacks within 5 seconds to deal bonus physical damage. The empowered attacks are guaranteed to be a Left Punch followed by a Right Punch, resetting his current <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/54/Pit_Grit.png/revision/latest/scale-to-width-down/20?cb=20200107124206\" \t alt=\"Pit Grit\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Pit_Grit.png\" \tdata-image-name=\"Pit Grit.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Pit Grit state (if applicable) and ignoring the usual time-out period for a follow-up right punch.",
+    "leveling": "Bonus Physical Damage:»10 / 20 / 30 / 40 / 50 (+ 1% (+ 1 / 1.5 / 2 / 2.5 / 3% per 100 AD) of target's maximum health)«Total Bonus Damage:20 / 40 / 60 / 80 / 100 (+ 2% (+ 2 / 3 / 4 / 5 / 6% per 100 AD) of target's maximum health)",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "ratios": [
+      {
+        "value": 1,
+        "type": "bonus ad"
+      },
+      {
+        "value": 1,
+        "type": "bonus ad"
+      },
+      {
+        "value": 1.5,
+        "type": "bonus ad"
+      },
+      {
+        "value": 2,
+        "type": "bonus ad"
+      },
+      {
+        "value": 2.5,
+        "type": "bonus ad"
+      },
+      {
+        "value": 3,
+        "type": "bonus ad"
+      },
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Haymaker",
+    "cost": [
+      100
+    ],
+    "costType": "Current Grit",
+    "coolDown": [
+      18,
+      16,
+      15,
+      13,
+      12
+    ],
+    "description": "Passive: Sett stores 100% of post-mitigation damage taken as Grit on his secondary resource bar, up to 50% of his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> maximum health. Each instance of stored Grit decays by 30% every second after 4 seconds.",
+    "leveling": "Physical / True Damage:80 / 100 / 120 / 140 / 160 (+ 25% (+ 10% per 100 bonus AD) of expended Grit)",
+    "skill": "W",
+    "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical damage / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Hybrid_penetration.png/revision/latest/scale-to-width-down/20?cb=20170514081634\" \t alt=\"Hybrid penetration\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration.png\" \tdata-image-name=\"Hybrid penetration.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> True damage",
+    "isProjectile": "false",
+    "flatDamage": [
+      80,
+      100,
+      120,
+      140,
+      160
+    ],
+    "ratios": [
+      {
+        "value": 25,
+        "type": "bonus ad"
+      },
+      {
+        "value": 10,
+        "type": "bonus ad"
+      },
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.75
+  },
+  {
+    "name": "Facebreaker",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      16,
+      14,
+      13,
+      11,
+      10
+    ],
+    "description": "Active: Sett <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> pulls in enemies at his front and back in the target direction, dealing them physical damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 50% for 0.5 seconds.",
+    "leveling": "Physical Damage:50 / 70 / 90 / 110 / 130 (+ 60% AD)",
+    "skill": "E",
+    "damageType": "Physical",
+    "isProjectile": "False",
+    "flatDamage": [
+      50,
+      70,
+      90,
+      110,
+      130
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.3
+  },
+  {
+    "name": "The Show Stopper",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      120,
+      110,
+      100,
+      90,
+      80
+    ],
+    "description": "Active: Sett <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5f/Suppression_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223943\" \t alt=\"Suppression icon\"  \tclass=\"\" \t \tdata-image-key=\"Suppression_icon.png\" \tdata-image-name=\"Suppression icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> suppresses the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Unstoppable_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164427\" \t alt=\"Unstoppable icon\"  \tclass=\"\" \t \tdata-image-key=\"Unstoppable_icon.png\" \tdata-image-name=\"Unstoppable icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement immunity a fixed distance toward and past them, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/You_and_Me%21.png/revision/latest/scale-to-width-down/20?cb=20190426210438\" \t alt=\"You and Me!\"  \tclass=\"\" \t \tdata-image-key=\"You_and_Me%21.png\" \tdata-image-name=\"You and Me!.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> attaching the target to him when he reaches them and carrying them for 1.5 seconds before slamming them into the ground.",
+    "leveling": "Physical Damage:»200 / 250 / 300 / 350 / 400 (+ 100% bonus AD) (+ 40 / 45 / 50 / 55 / 60% of primary target's bonus health)«Minimum Physical Damage:120 / 150 / 180 / 210 / 240 (+ 60% bonus AD) (+ 24 / 27 / 30 / 33 / 36% of primary target's bonus health)",
+    "skill": "R",
+    "damageType": "physical",
+    "isProjectile": "",
+    "flatDamage": [
+      200,
+      250,
+      300,
+      350,
+      400
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  }
+]

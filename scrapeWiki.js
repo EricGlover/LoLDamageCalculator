@@ -87,11 +87,17 @@ async function getAbility(ability, champion, browser) {
     return dataObj;
 }
 
-
 // save the data to an output file
 async function printToFile(fileName, data) {
     return new Promise(resolve => {
         fs.writeFile(`./data/wikiData/${fileName}.json`, data, function() {
+            resolve();
+        });
+    })
+}
+async function printToFilePath(filePath, data) {
+    return new Promise(resolve => {
+        fs.writeFile(filePath, data, function() {
             resolve();
         });
     })
@@ -142,15 +148,9 @@ async function scrapeChampion(championName, browser) {
  (node:81459) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
  */
 async function scrapeAllChampions() {
-    const browser = await puppeteer.launch();
-    let championNames = null;
-    try {
-        championNames = await loadChampionNames();
-    } catch(e) {
-        console.error("Error fetching champion names");
-        throw e;
-    }
+    let championNames = await getChampionNames();
 
+    const browser = await puppeteer.launch();
     for(const [_, name] of Object.entries(championNames)) {
         try {
             await scrapeChampion(name, browser);
@@ -161,11 +161,52 @@ async function scrapeAllChampions() {
     await browser.close();
 }
 
+async function getChampionNames() {
+    const browser = await puppeteer.launch();
+    let championNames = null;
+    try {
+        championNames = await loadChampionNames();
+        return championNames;
+    } catch(e) {
+        console.error("Error fetching champion names");
+        throw e;
+    } finally {
+        browser.close();
+    }
+}
 
+async function saveAbilityData(championName) {
+    try {
+        // read from file
+        console.log(`looking for ./data/wikiData/${championName}.json`);
+        let data = fs.readFileSync(`./data/wikiData/${championName}.json`);
+        let abilityDataArr = JSON.parse(data);
+        let abilities = [];
+        abilityDataArr.forEach(abilityName => {
+            let ability = Ability.makeFromWikiData(abilityName);
+            abilities.push(ability);
+        })
+        return await printToFilePath(`./data/formattedWikiData/${championName}.json`, JSON.stringify(abilities, null, 2));
+    } catch(e) {
+        console.error(e);
+    }
+}
 
 async function main() {
     let browser;
     try {
+        const championNames = await getChampionNames();
+        console.log("champion names loaded");
+        for(const [_, name] of Object.entries(championNames)) {
+            try {
+                await saveAbilityData(name);
+            } catch(e) {
+                console.error(`Error saving data for ${name}`)
+            }
+        }
+
+
+
         // browser = await puppeteer.launch();
         // get templates and raw wiki data
         // await getTemplate(browser);
@@ -174,17 +215,16 @@ async function main() {
         // format wiki data into useful entities
 
         // read from file
-        const championName = "Caitlyn";
-        let data = fs.readFileSync(`./data/wikiData/${championName}.json`);
-        let abilityDataArr = JSON.parse(data);
-        let abilities = [];
-        abilityDataArr.forEach(abilityName => {
-            let ability = Ability.makeFromWikiData(abilityName);
-            abilities.push(ability);
-        })
-
-        console.log(abilities);
-        abilities.forEach(ab => console.log(ab.leveling));
+        // let data = fs.readFileSync(`./data/wikiData/${championName}.json`);
+        // let abilityDataArr = JSON.parse(data);
+        // let abilities = [];
+        // abilityDataArr.forEach(abilityName => {
+        //     let ability = Ability.makeFromWikiData(abilityName);
+        //     abilities.push(ability);
+        // })
+        //
+        // console.log(abilities);
+        // abilities.forEach(ab => console.log(ab.leveling));
     } catch(e) {
         console.error(e);
     } finally {

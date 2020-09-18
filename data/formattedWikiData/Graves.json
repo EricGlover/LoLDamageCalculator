@@ -1,0 +1,133 @@
+[
+  {
+    "name": "End of the Line",
+    "cost": [
+      60
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12,
+      11,
+      10,
+      9,
+      8
+    ],
+    "description": "Active: Graves fires a round in the target direction that deals physical damage to all enemies it passes through and leaves behind a powder trail.",
+    "leveling": "Initial Physical Damage:45 / 60 / 75 / 90 / 105 (+ 80% bonus AD)",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "Special",
+    "flatDamage": [
+      45,
+      60,
+      75,
+      90,
+      105
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Smoke Screen",
+    "cost": [
+      70,
+      75,
+      80,
+      85,
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      26,
+      24,
+      22,
+      20,
+      18
+    ],
+    "description": "Active: Graves fires a smoke canister at the target location that, upon impact, deals magic damage to enemies in the area and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows them by 50% for 0.5 seconds.",
+    "leveling": "Magic Damage:60 / 110 / 160 / 210 / 260 (+ 60% AP)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "true",
+    "flatDamage": [
+      60,
+      110,
+      160,
+      210,
+      260
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Quickdraw",
+    "cost": [
+      40
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      16,
+      15,
+      14,
+      13,
+      12
+    ],
+    "description": "Active: Graves <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resetting his basic attack timer and reloading one shell while gaining a stack of True Grit for 4 seconds, stacking up to 8 times. Dashing towards an enemy grants 2 stacks of True Grit.",
+    "leveling": "Bonus Armor:»8 / 11 / 14 / 17 / 20«Maximum Armor:64 / 88 / 112 / 136 / 160",
+    "skill": "E",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      8,
+      11,
+      14,
+      17,
+      20
+    ],
+    "ratios": [],
+    "castTime": null
+  },
+  {
+    "name": "Collateral Damage",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      120,
+      105,
+      90,
+      75,
+      60
+    ],
+    "description": "Active: Graves fires an explosive shell in the target direction which deals physical damage to all enemies hit while also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> recoiling in the opposite direction.",
+    "leveling": "Physical Damage:»250 / 325 / 400 / 475 / 550 (+ 150% bonus AD)«Explosion Physical Damage:200 / 260 / 320 / 380 / 440 (+ 120% bonus AD)",
+    "skill": "R",
+    "damageType": "Physical",
+    "isProjectile": "True",
+    "flatDamage": [
+      250,
+      325,
+      400,
+      475,
+      550
+    ],
+    "ratios": [
+      {
+        "value": 150,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  }
+]

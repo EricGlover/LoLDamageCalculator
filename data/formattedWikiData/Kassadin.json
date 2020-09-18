@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Null Sphere",
+    "cost": [
+      70,
+      75,
+      80,
+      85,
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      11,
+      10,
+      10,
+      9,
+      9
+    ],
+    "description": "Active: Kassadin fires an orb of void energy at the target enemy, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> disrupting their ongoing <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels.",
+    "leveling": "Magic Damage:65 / 95 / 125 / 155 / 185 (+ 70% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      65,
+      95,
+      125,
+      155,
+      185
+    ],
+    "ratios": [
+      {
+        "value": 70,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Nether Blade",
+    "cost": [
+      1
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      7
+    ],
+    "description": "Passive: Kassadin's basic attacks deal 20 (+ 10% AP) bonus magic damage.",
+    "leveling": "Increased Bonus Magic Damage:70 / 95 / 120 / 145 / 170 (+ 80% AP)\nMana Restored:»4 / 4.5 / 5 / 5.5 / 6% of missing mana«Mana Restored Against Champions:20 / 22.5 / 25 / 27.5 / 30% of missing mana",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      70,
+      95,
+      120,
+      145,
+      170
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Force Pulse",
+    "cost": [
+      60,
+      65,
+      70,
+      75,
+      80
+    ],
+    "costType": "Mana + 6 Charges",
+    "coolDown": [
+      5
+    ],
+    "description": "Passive: Kassadin gains a Void Energy stack each time a nearby champion, including himself, uses an ability, up to 6. At 6 stacks, Kassadin gains the ability to cast Force Pulse.",
+    "leveling": "Magic Damage:80 / 105 / 130 / 155 / 180 (+ 80% AP)Slow:50 / 60 / 70 / 80 / 90%",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "False",
+    "flatDamage": [
+      80,
+      105,
+      130,
+      155,
+      180
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Riftwalk",
+    "cost": [
+      50,
+      100,
+      200,
+      400,
+      800
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      5,
+      4,
+      3,
+      2,
+      2
+    ],
+    "description": "Active: Kassadin <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinks to the target location, dealing magic damage to all nearby enemies on arrival.",
+    "leveling": "Magic Damage:80 / 90 / 100 / 110 / 120 (+ 40% AP) (+ 2% maximum mana)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      80,
+      90,
+      100,
+      110,
+      120
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  }
+]

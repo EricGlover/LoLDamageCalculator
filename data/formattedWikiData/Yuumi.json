@@ -1,0 +1,151 @@
+[
+  {
+    "name": "Prowling Projectile",
+    "cost": [
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      13,
+      12,
+      10,
+      9,
+      7,
+      6
+    ],
+    "description": "Active: Yuumi fires an errant missile in the target direction that deals <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> magic damage to the first enemy hit.",
+    "leveling": "Magic Damage:40 / 70 / 100 / 130 / 160 / 190 (+ 30% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      40,
+      70,
+      100,
+      130,
+      160
+    ],
+    "ratios": [
+      {
+        "value": 30,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "You and Me!",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Passive: The Anchor gains either a flat and percentage amount of their <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus Attack Damage or a flat and percentage amount of their <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0a/Ability_power_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203441\" \t alt=\"Ability power icon\"  \tclass=\"\" \t \tdata-image-key=\"Ability_power_icon.png\" \tdata-image-name=\"Ability power icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> Ability Power, based on whichever was initially higher. The percentage bonus of You and Me! also benefits of its flat bonus.",
+    "leveling": "Bonus Attack Damage:7.2 / 8.4 / 9.6 / 10.8 / 12 (+ 12 / 14 / 16 / 18 / 20% bonus AD)\nBonus Ability Power:12 / 14 / 16 / 18 / 20 (+ 12 / 14 / 16 / 18 / 20% AP)",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      7.2,
+      8.4,
+      9.6,
+      10.8,
+      12
+    ],
+    "ratios": [
+      {
+        "value": 12,
+        "type": "bonus ad"
+      },
+      {
+        "value": 14,
+        "type": "bonus ad"
+      },
+      {
+        "value": 16,
+        "type": "bonus ad"
+      },
+      {
+        "value": 18,
+        "type": "bonus ad"
+      },
+      {
+        "value": 20,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Zoomies",
+    "cost": [
+      40,
+      45,
+      50,
+      55,
+      60
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12,
+      11,
+      10,
+      9,
+      8
+    ],
+    "description": "Active: Yuumi <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals herself and gains 15% (+ 10% per 100 AP) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed for 3 seconds.",
+    "leveling": "Heal:70 / 105 / 140 / 175 / 210 (+ 40% AP)\nBonus Attack Speed:25 / 30 / 35 / 40 / 45%",
+    "skill": "E",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      70,
+      105,
+      140,
+      175,
+      210
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Final Chapter",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      130,
+      120,
+      110,
+      100,
+      90
+    ],
+    "description": "Active: Yuumi and Book <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channel for 3.5 seconds, launching 7 waves in the target direction over the duration each dealing magic damage. Enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions hit take only 50% damage from subsequent waves, and when struck with three waves, they are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooted for 1.75 seconds, this can only occur once per target.",
+    "leveling": "Magic Damage Per Wave:»60 / 70 / 80 / 90 / 100 (+ 20% AP)«Reduced Damage Per Wave:»30 / 35 / 40 / 45 / 50 (+ 10% AP)«Maximum Champion Damage:»240 / 280 / 320 / 360 / 400 (+ 80% AP)«Maximum Non-Champion Damage:420 / 490 / 560 / 630 / 700 (+ 140% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "ratios": [
+      {
+        "value": 20,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  }
+]

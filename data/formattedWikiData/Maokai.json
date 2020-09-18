@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Bramble Smash",
+    "cost": [
+      60
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      8,
+      7,
+      6,
+      5,
+      5
+    ],
+    "description": "Active: Maokai releases an arcane shockwave that travels forth in a line in the target direction, dealing magic damage to all enemies it passes through and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 99% for 0.25 seconds.",
+    "leveling": "Magic Damage:70 / 115 / 160 / 205 / 250 (+ 40% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      70,
+      115,
+      160,
+      205,
+      250
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.3889
+  },
+  {
+    "name": "Twisted Advance",
+    "cost": [
+      60
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      13,
+      12,
+      11,
+      10,
+      9
+    ],
+    "description": "Active: Maokai <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target enemy while being <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable, dealing magic damage on arrival and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooting them for a duration.",
+    "leveling": "Magic Damage:70 / 95 / 120 / 145 / 170 (+ 40% AP)\nRoot Duration:1 / 1.1 / 1.2 / 1.3 / 1.4",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      70,
+      95,
+      120,
+      145,
+      170
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Sapling Toss",
+    "cost": [
+      60,
+      65,
+      70,
+      75,
+      80
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      10
+    ],
+    "description": "Active: Maokai flings an <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable Sapling to the target location, remaining there for 30 seconds and granting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight around itself.",
+    "leveling": "Magic Damage:25 / 50 / 75 / 100 / 125 (+ 7 / 7.25 / 7.5 / 7.75 / 8% (+ 1% per 100 AP) of target's maximum health)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "true",
+    "flatDamage": [
+      25,
+      50,
+      75,
+      100,
+      125
+    ],
+    "ratios": [
+      {
+        "value": 7,
+        "type": "bonus ad"
+      },
+      {
+        "value": 7.25,
+        "type": "bonus ad"
+      },
+      {
+        "value": 7.5,
+        "type": "bonus ad"
+      },
+      {
+        "value": 7.75,
+        "type": "bonus ad"
+      },
+      {
+        "value": 8,
+        "type": "bonus ad"
+      },
+      {
+        "value": 1,
+        "type": "bonus ad"
+      },
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Nature's Grasp",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      120,
+      100,
+      80
+    ],
+    "description": "Active: Maokai summons a colossal wall of 5 thorny brambles that slowly advances in the target direction, accelerating over time, each stopping at the first enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion they collide with.",
+    "leveling": "Magic Damage:150 / 225 / 300 (+ 75% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      150,
+      225,
+      300,
+      75
+    ],
+    "ratios": [
+      {
+        "value": 75,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.5
+  }
+]

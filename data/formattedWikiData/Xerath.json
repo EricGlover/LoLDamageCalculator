@@ -1,0 +1,136 @@
+[
+  {
+    "name": "Arcanopulse",
+    "cost": [
+      80,
+      90,
+      100,
+      110,
+      120
+    ],
+    "costType": "mana",
+    "coolDown": [
+      9,
+      8,
+      7,
+      6,
+      5
+    ],
+    "description": "Active: Xerath <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charges for up to 3 seconds to increase Arcanopulse's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> range while being gradually <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed over the duration, by up to 50%. Arcanopulse can be recast at any time within its duration.",
+    "leveling": "Mana Refunded:40 / 45 / 50 / 55 / 60",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "False",
+    "flatDamage": [
+      40,
+      45,
+      50,
+      55,
+      60
+    ],
+    "ratios": [],
+    "castTime": null
+  },
+  {
+    "name": "Eye of Destruction",
+    "cost": [
+      70,
+      80,
+      90,
+      100,
+      110
+    ],
+    "costType": "mana",
+    "coolDown": [
+      14,
+      13,
+      12,
+      11,
+      10
+    ],
+    "description": "Active: Xerath calls down a blast of arcane energy upon the target location which strikes after a 0.5-second delay, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing the area, and dealing magic damage to all enemies within and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 25% for 2.5 seconds.",
+    "leveling": "Magic Damage:60 / 90 / 120 / 150 / 180 (+ 60% AP)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      60,
+      90,
+      120,
+      150,
+      180
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Shocking Orb",
+    "cost": [
+      60,
+      65,
+      70,
+      75,
+      80
+    ],
+    "costType": "mana",
+    "coolDown": [
+      13,
+      12,
+      12,
+      11,
+      11
+    ],
+    "description": "Active: Xerath fires an orb of energy in the target direction, dealing magic damage to the first enemy hit and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning them for 0.5 − 2 (based on distance the orb traveled) seconds.",
+    "leveling": "Magic Damage:80 / 110 / 140 / 170 / 200 (+ 45% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      80,
+      110,
+      140,
+      170,
+      200
+    ],
+    "ratios": [
+      {
+        "value": 45,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Rite of the Arcane",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      130,
+      122,
+      115,
+      107,
+      100
+    ],
+    "description": "Active: Xerath unleashes his true power, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channeling and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing himself for up to 10 seconds, during which he gains a wider field of view, though not a larger <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> vision range, and is granted the ability to recast Rite of the Arcane to send a barrage multiple times within its duration after a 0.5-second delay of the activation.",
+    "leveling": "Number of Barrages:3 / 3.5 / 4 / 4.5 / 5",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "False",
+    "flatDamage": [
+      3,
+      3.5,
+      4,
+      4.5,
+      5
+    ],
+    "ratios": [],
+    "castTime": null
+  }
+]

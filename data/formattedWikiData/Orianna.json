@@ -1,0 +1,129 @@
+[
+  {
+    "name": "Command: Attack",
+    "cost": [
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      6,
+      5,
+      4,
+      3,
+      3
+    ],
+    "description": "Active: Orianna commands <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b0/Clockwork_Windup.png/revision/latest/scale-to-width-down/20?cb=20130929123140\" \t alt=\"Clockwork Windup\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clockwork_Windup.png\" \tdata-image-name=\"Clockwork Windup.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> The Ball to fly to the target location and remain there, dealing magic damage to all enemies it passes through, reduced to 100% − 40% (based on enemies hit).",
+    "leveling": "Magic Damage:»60 / 90 / 120 / 150 / 180 (+ 50% AP)«Minimum Damage:24 / 36 / 48 / 60 / 72 (+ 20% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "special",
+    "flatDamage": [
+      60,
+      90,
+      120,
+      150,
+      180
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Command: Dissonance",
+    "cost": [
+      70,
+      80,
+      90,
+      100,
+      110
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      7
+    ],
+    "description": "Active: Orianna commands <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b0/Clockwork_Windup.png/revision/latest/scale-to-width-down/20?cb=20130929123140\" \t alt=\"Clockwork Windup\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clockwork_Windup.png\" \tdata-image-name=\"Clockwork Windup.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> The Ball to emit an electric pulse around its current location, dealing magic damage to all enemies around it and leaving an electric field on the area for 3 seconds.",
+    "leveling": "Magic Damage:60 / 105 / 150 / 195 / 240 (+ 70% AP)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      60,
+      105,
+      150,
+      195,
+      240
+    ],
+    "ratios": [
+      {
+        "value": 70,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Command: Protect",
+    "cost": [
+      60
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      9
+    ],
+    "description": "Passive: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b0/Clockwork_Windup.png/revision/latest/scale-to-width-down/20?cb=20130929123140\" \t alt=\"Clockwork Windup\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clockwork_Windup.png\" \tdata-image-name=\"Clockwork Windup.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> The Ball grants whomever it is attached to bonus <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> magic resistance.",
+    "leveling": "Bonus Resistances:10 / 15 / 20 / 25 / 30",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      10,
+      15,
+      20,
+      25,
+      30
+    ],
+    "ratios": [],
+    "castTime": null
+  },
+  {
+    "name": "Command: Shockwave",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      110,
+      102,
+      95,
+      87,
+      80
+    ],
+    "description": "Active: Orianna commands <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b0/Clockwork_Windup.png/revision/latest/scale-to-width-down/20?cb=20130929123140\" \t alt=\"Clockwork Windup\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clockwork_Windup.png\" \tdata-image-name=\"Clockwork Windup.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> The Ball to unleash a shockwave around itself, dealing magic damage to all nearby enemies and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> pulling them 350 units towards The Ball.",
+    "leveling": "Magic Damage:200 / 237.5 / 275 / 312.5 / 350 (+ 80% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      200,
+      237.5,
+      275,
+      312.5,
+      350
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.5
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Pulverize",
+    "cost": [
+      65,
+      70,
+      75,
+      80,
+      85
+    ],
+    "costType": "mana",
+    "coolDown": [
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "description": "Active: Alistar slams the ground beneath him, dealing magic damage to all nearby enemies and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking them up simultaneously for 1 second.",
+    "leveling": "Magic Damage:60 / 105 / 150 / 195 / 240 (+ 50% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      60,
+      105,
+      150,
+      195,
+      240
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Headbutt",
+    "cost": [
+      65,
+      70,
+      75,
+      80,
+      85
+    ],
+    "costType": "mana",
+    "coolDown": [
+      14,
+      13,
+      12,
+      11,
+      10
+    ],
+    "description": "Active: Alistar <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target enemy's location. If the target is still within a certain radius when the dash ends uninterrupted, he deals them magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocks them back in relation to his original location over 0.75 seconds whilst also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning them for 1 second.",
+    "leveling": "Magic Damage:55 / 110 / 165 / 220 / 275 (+ 70% AP)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      55,
+      110,
+      165,
+      220,
+      275
+    ],
+    "ratios": [
+      {
+        "value": 70,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Trample",
+    "cost": [
+      50,
+      60,
+      70,
+      80,
+      90
+    ],
+    "costType": "mana",
+    "coolDown": [
+      12,
+      11,
+      11,
+      10,
+      10
+    ],
+    "description": "Active: Alistar becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted and tramples the ground around him every 0.5 seconds for 5 seconds, dealing magic damage to all nearby enemies and gaining a Trample stack every time the ability damages at least one enemy champion.",
+    "leveling": "Magic Damage Per Tick:»8 / 11 / 14 / 17 / 20 (+ 4% AP)«Total Magic Damage:80 / 110 / 140 / 170 / 200 (+ 40% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      8,
+      11,
+      14,
+      17,
+      20
+    ],
+    "ratios": [
+      {
+        "value": 4,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Unbreakable Will",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      120,
+      100,
+      80
+    ],
+    "description": "Active: Alistar <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Remove_Scurvy.png/revision/latest/scale-to-width-down/20?cb=20150707190028\" \t alt=\"Remove Scurvy\"  \tclass=\"\" \t \tdata-image-key=\"Remove_Scurvy.png\" \tdata-image-name=\"Remove Scurvy.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> cleanses himself of all <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crowd control. For the next 7 seconds, Alistar reduces incoming damage received.",
+    "leveling": "Damage Reduction:55 / 65 / 75%",
+    "skill": "R",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      55,
+      65,
+      75
+    ],
+    "ratios": [],
+    "castTime": 0.25
+  }
+]
