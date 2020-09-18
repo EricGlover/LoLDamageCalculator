@@ -1,0 +1,63 @@
+{
+  "abilities": null,
+  "id": "Vladimir",
+  "key": "8",
+  "name": "Vladimir",
+  "title": "the Crimson Reaper",
+  "blurb": "A fiend with a thirst for mortal blood, Vladimir has influenced the affairs of Noxus since the empire's earliest days. In addition to unnaturally extending his life, his mastery of hemomancy allows him to control the minds and bodies of others as easily...",
+  "info": {
+    "attack": 2,
+    "defense": 6,
+    "magic": 8,
+    "difficulty": 7
+  },
+  "image": {
+    "full": "Vladimir.png",
+    "sprite": "champion4.png",
+    "group": "champion",
+    "x": 192,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Mage"
+  ],
+  "partype": "Crimson Rush",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 537,
+    "hpPerLevel": 96,
+    "mp": 2,
+    "mpPerLevel": 0,
+    "moveSpeed": 330,
+    "armor": 23,
+    "armorPerLevel": 3.3,
+    "spellBlock": 30,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 450,
+    "hpRegen": 7,
+    "hpRegenPerLevel": 0.6,
+    "mpRegen": 0,
+    "mpRegenPerLevel": 0,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 55,
+    "attackDamagePerLevel": 3,
+    "attackSpeedPerLevel": 2,
+    "attackSpeed": 0.658
+  },
+  "_level": 1,
+  "attackRange": 450,
+  "moveSpeed": 330,
+  "hp": 537,
+  "mp": 2,
+  "hpRegen": 7,
+  "mpRegen": 0,
+  "crit": 0,
+  "attackDamage": 55,
+  "attackSpeed": 0.658,
+  "armor": 23,
+  "spellBlock": 30
+}

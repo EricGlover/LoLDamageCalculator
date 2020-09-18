@@ -1,0 +1,63 @@
+{
+  "abilities": null,
+  "id": "Shen",
+  "key": "98",
+  "name": "Shen",
+  "title": "the Eye of Twilight",
+  "blurb": "Among the secretive, Ionian warriors known as the Kinkou, Shen serves as their leader, the Eye of Twilight. He longs to remain free from the confusion of emotion, prejudice, and ego, and walks the unseen path of dispassionate judgment between the spirit...",
+  "info": {
+    "attack": 3,
+    "defense": 9,
+    "magic": 3,
+    "difficulty": 4
+  },
+  "image": {
+    "full": "Shen.png",
+    "sprite": "champion3.png",
+    "group": "champion",
+    "x": 192,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Tank"
+  ],
+  "partype": "Energy",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 540,
+    "hpPerLevel": 85,
+    "mp": 400,
+    "mpPerLevel": 0,
+    "moveSpeed": 340,
+    "armor": 34,
+    "armorPerLevel": 3,
+    "spellBlock": 32.1,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 125,
+    "hpRegen": 8.5,
+    "hpRegenPerLevel": 0.75,
+    "mpRegen": 50,
+    "mpRegenPerLevel": 0,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 60,
+    "attackDamagePerLevel": 3,
+    "attackSpeedPerLevel": 3,
+    "attackSpeed": 0.751
+  },
+  "_level": 1,
+  "attackRange": 125,
+  "moveSpeed": 340,
+  "hp": 540,
+  "mp": 400,
+  "hpRegen": 8.5,
+  "mpRegen": 50,
+  "crit": 0,
+  "attackDamage": 60,
+  "attackSpeed": 0.751,
+  "armor": 34,
+  "spellBlock": 32.1
+}

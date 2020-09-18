@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Winter's Bite",
+    "cost": [
+      55,
+      60,
+      65,
+      70,
+      75
+    ],
+    "costType": "mana",
+    "coolDown": [
+      10,
+      9,
+      8,
+      7,
+      6
+    ],
+    "description": "Active: Braum propels ice from his shield in the target direction, dealing magic damage to the first enemy hit and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 70% decaying over 2 seconds.",
+    "leveling": "Magic Damage:60 / 110 / 160 / 210 / 260 (+ 2.5% of Braum's maximum health)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      60,
+      110,
+      160,
+      210,
+      260
+    ],
+    "ratios": [
+      {
+        "value": 2.5,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Stand Behind Me",
+    "cost": [
+      40
+    ],
+    "costType": "mana",
+    "coolDown": [
+      12,
+      11,
+      10,
+      9,
+      8
+    ],
+    "description": "Active: Braum <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target ally's location, positioning himself between their location and the closest enemy champion, and granting himself and the ally <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus magic resistance for 3 seconds.",
+    "leveling": "Self Bonus Armor:»10 / 14 / 18 / 22 / 26 (+ 36% bonus armor)«Self Bonus MR:10 / 14 / 18 / 22 / 26 (+ 36% bonus magic resistance)\nAlly Bonus Armor:»10 / 14 / 18 / 22 / 26 (+ 12% bonus armor)«Ally Bonus MR:10 / 14 / 18 / 22 / 26 (+ 12% bonus magic resistance)",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      10,
+      14,
+      18,
+      22,
+      26
+    ],
+    "ratios": [
+      {
+        "value": 36,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Unbreakable",
+    "cost": [
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      18,
+      16,
+      14,
+      12,
+      10
+    ],
+    "description": "Active: Braum raises his shield in the target direction for a few seconds, creating a barrier that intercepts incoming enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Projectile.png/revision/latest/scale-to-width-down/20?cb=20150816082407\" \t alt=\"Projectile\"  \tclass=\"\" \t \tdata-image-key=\"Projectile.png\" \tdata-image-name=\"Projectile.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> projectiles and reduces the damage Braum takes through the shield. The first instance of damage blocked by his shield is negated completely.",
+    "leveling": "Damage reduction:30 / 32.5 / 35 / 37.5 / 40%Duration:3 / 3.25 / 3.5 / 3.75 / 4",
+    "skill": "E",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      30,
+      32.5,
+      35,
+      37.5,
+      40
+    ],
+    "ratios": [],
+    "castTime": null
+  },
+  {
+    "name": "Glacial Fissure",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      140,
+      130,
+      120,
+      110,
+      100
+    ],
+    "description": "Active: Braum leaps into the air and slams his shield into the ground, creating a fissure in the target direction that deals magic damage to enemies as well as those around him.",
+    "leveling": "Magic Damage:150 / 225 / 300 / 375 / 450 (+ 60% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      150,
+      225,
+      300,
+      375,
+      450
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.5
+  }
+]

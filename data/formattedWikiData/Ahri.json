@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Orb of Deception",
+    "cost": [
+      65,
+      70,
+      75,
+      80,
+      85
+    ],
+    "costType": "mana",
+    "coolDown": [
+      7
+    ],
+    "description": "Active: Ahri sends her orb in the target direction, dealing magic damage to all enemies it passes through. At maximum range, it homes back to Ahri, dealing the same in true damage to enemies hit on its way back.",
+    "leveling": "Damage Per Pass:»40 / 65 / 90 / 115 / 140 (+ 35% AP)«Total Mixed Damage:80 / 130 / 180 / 230 / 280 (+ 70% AP)",
+    "skill": "Q",
+    "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Hybrid_penetration.png/revision/latest/scale-to-width-down/20?cb=20170514081634\" \t alt=\"Hybrid penetration\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration.png\" \tdata-image-name=\"Hybrid penetration.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> True",
+    "isProjectile": "True",
+    "flatDamage": [
+      40,
+      65,
+      90,
+      115,
+      140
+    ],
+    "ratios": [
+      {
+        "value": 35,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Fox-Fire",
+    "cost": [
+      40
+    ],
+    "costType": "mana",
+    "coolDown": [
+      9,
+      8,
+      7,
+      6,
+      5
+    ],
+    "description": "Active: Ahri gains 40% bonus movement speed that decays over 1.5 seconds and summons three spectral flames which orbit her for up to 5 seconds.",
+    "leveling": "Magic Damage:»40 / 65 / 90 / 115 / 140 (+ 30% AP)«Minion Damage:80 / 130 / 180 / 230 / 280 (+ 60% AP)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      40,
+      65,
+      90,
+      115,
+      140
+    ],
+    "ratios": [
+      {
+        "value": 30,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Charm",
+    "cost": [
+      70
+    ],
+    "costType": "mana",
+    "coolDown": [
+      12
+    ],
+    "description": "Active: Ahri blows a kiss in the target direction that deals magic damage to the first enemy hit, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ae/Knockdown_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223937\" \t alt=\"Knockdown icon\"  \tclass=\"\" \t \tdata-image-key=\"Knockdown_icon.png\" \tdata-image-name=\"Knockdown icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking them down and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/27/Charm_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223934\" \t alt=\"Charm icon\"  \tclass=\"\" \t \tdata-image-key=\"Charm_icon.png\" \tdata-image-name=\"Charm icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charming and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 65%.",
+    "leveling": "Magic damage:60 / 90 / 120 / 150 / 180 (+ 40% AP)Charm Duration:1.4 / 1.55 / 1.7 / 1.85 / 2",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      60,
+      90,
+      120,
+      150,
+      180
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Spirit Rush",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      130,
+      105,
+      80
+    ],
+    "description": "Active: Ahri <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target location and then fires energy bolts to up to 3 <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible targets, dealing magic damage. Spirit Rush can be recast twice more at a 1 second static cooldown between casts within 10 seconds of the activation at no additional cost.",
+    "leveling": "Magic damage:60 / 90 / 120 (+ 35% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      60,
+      90,
+      120,
+      35
+    ],
+    "ratios": [
+      {
+        "value": 35,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  }
+]

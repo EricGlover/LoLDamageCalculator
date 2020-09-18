@@ -1,0 +1,63 @@
+{
+  "abilities": null,
+  "id": "Annie",
+  "key": "1",
+  "name": "Annie",
+  "title": "the Dark Child",
+  "blurb": "Dangerous, yet disarmingly precocious, Annie is a child mage with immense pyromantic power. Even in the shadows of the mountains north of Noxus, she is a magical outlier. Her natural affinity for fire manifested early in life through unpredictable...",
+  "info": {
+    "attack": 2,
+    "defense": 3,
+    "magic": 10,
+    "difficulty": 6
+  },
+  "image": {
+    "full": "Annie.png",
+    "sprite": "champion0.png",
+    "group": "champion",
+    "x": 288,
+    "y": 0,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Mage"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 524,
+    "hpPerLevel": 88,
+    "mp": 418,
+    "mpPerLevel": 25,
+    "moveSpeed": 335,
+    "armor": 19.22,
+    "armorPerLevel": 4,
+    "spellBlock": 30,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 625,
+    "hpRegen": 5.5,
+    "hpRegenPerLevel": 0.55,
+    "mpRegen": 8,
+    "mpRegenPerLevel": 0.8,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 50.41,
+    "attackDamagePerLevel": 2.625,
+    "attackSpeedPerLevel": 1.36,
+    "attackSpeed": 0.579
+  },
+  "_level": 1,
+  "attackRange": 625,
+  "moveSpeed": 335,
+  "hp": 524,
+  "mp": 418,
+  "hpRegen": 5.5,
+  "mpRegen": 8,
+  "crit": 0,
+  "attackDamage": 50.41,
+  "attackSpeed": 0.579,
+  "armor": 19.22,
+  "spellBlock": 30
+}

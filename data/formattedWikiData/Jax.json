@@ -1,0 +1,133 @@
+[
+  {
+    "name": "Leap Strike",
+    "cost": [
+      65
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      8,
+      7,
+      7,
+      6,
+      6
+    ],
+    "description": "Active: Jax <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target unit's location.",
+    "leveling": "Physical Damage:65 / 105 / 145 / 185 / 225 (+ 100% bonus AD) (+ 60% AP)",
+    "skill": "Q",
+    "damageType": "physical",
+    "isProjectile": "",
+    "flatDamage": [
+      65,
+      105,
+      145,
+      185,
+      225
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Empower",
+    "cost": [
+      30
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      7,
+      6,
+      5,
+      4,
+      3
+    ],
+    "description": "Active: Jax's next basic attack on non-<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> structures or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f6/Leap_Strike.png/revision/latest/scale-to-width-down/20?cb=20171223030831\" \t alt=\"Leap Strike\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Leap_Strike.png\" \tdata-image-name=\"Leap Strike.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Leap Strike within 10 seconds deals bonus magic damage. If Empower is used on a basic attack, it will have <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 50 bonus range.",
+    "leveling": "Magic Damage:40 / 75 / 110 / 145 / 180 (+ 60% AP)",
+    "skill": "W",
+    "damageType": "magic",
+    "isProjectile": "",
+    "flatDamage": [
+      40,
+      75,
+      110,
+      145,
+      180
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Counter Strike",
+    "cost": [
+      50,
+      60,
+      70,
+      80,
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      14,
+      12,
+      11,
+      9,
+      8
+    ],
+    "description": "Active: Jax enters Evasion, a defensive stance, for 2 seconds, causing all non-<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> turret basic attacks against him to be <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/66/Counter_Strike.png/revision/latest/scale-to-width-down/20?cb=20171223030746\" \t alt=\"Counter Strike\"  \tclass=\"\" \t \tdata-image-key=\"Counter_Strike.png\" \tdata-image-name=\"Counter Strike.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dodged. Jax also takes 25% reduced damage from all champion area of effect abilities. Counter Strike can be recast after 1 second.",
+    "leveling": "Minimum Physical Damage:»55 / 80 / 105 / 130 / 155 (+ 50% bonus AD)«Maximum Physical Damage:110 / 160 / 210 / 260 / 310 (+ 100% bonus AD)",
+    "skill": "E",
+    "damageType": "physical",
+    "isProjectile": "",
+    "flatDamage": [
+      55,
+      80,
+      105,
+      130,
+      155
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Grandmaster's Might",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      80
+    ],
+    "description": "Passive: Jax's basic attacks on-hit grant a stack for 2.5 seconds. At 2 stacks, Jax's next basic attack on-hit deals bonus magic damage, consuming all stacks.",
+    "leveling": "Magic damage:100 / 140 / 180 (+ 70% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      100,
+      140,
+      180,
+      70
+    ],
+    "ratios": [
+      {
+        "value": 70,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  }
+]

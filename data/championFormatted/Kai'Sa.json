@@ -1,0 +1,63 @@
+{
+  "abilities": null,
+  "id": "Kaisa",
+  "key": "145",
+  "name": "Kai'Sa",
+  "title": "Daughter of the Void",
+  "blurb": "Claimed by the Void when she was only a child, Kai'Sa managed to survive through sheer tenacity and strength of will. Her experiences have made her a deadly hunter and, to some, the harbinger of a future they would rather not live to see. Having entered...",
+  "info": {
+    "attack": 8,
+    "defense": 5,
+    "magic": 3,
+    "difficulty": 6
+  },
+  "image": {
+    "full": "Kaisa.png",
+    "sprite": "champion1.png",
+    "group": "champion",
+    "x": 384,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Marksman"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 600,
+    "hpPerLevel": 88,
+    "mp": 344.88,
+    "mpPerLevel": 38,
+    "moveSpeed": 335,
+    "armor": 28,
+    "armorPerLevel": 3,
+    "spellBlock": 30,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 525,
+    "hpRegen": 3.5,
+    "hpRegenPerLevel": 0.55,
+    "mpRegen": 8.2,
+    "mpRegenPerLevel": 0.45,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 59,
+    "attackDamagePerLevel": 2,
+    "attackSpeedPerLevel": 1.8,
+    "attackSpeed": 0.644
+  },
+  "_level": 1,
+  "attackRange": 525,
+  "moveSpeed": 335,
+  "hp": 600,
+  "mp": 344.88,
+  "hpRegen": 3.5,
+  "mpRegen": 8.2,
+  "crit": 0,
+  "attackDamage": 59,
+  "attackSpeed": 0.644,
+  "armor": 28,
+  "spellBlock": 30
+}

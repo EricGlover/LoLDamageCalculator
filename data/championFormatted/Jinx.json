@@ -1,0 +1,63 @@
+{
+  "abilities": null,
+  "id": "Jinx",
+  "key": "222",
+  "name": "Jinx",
+  "title": "the Loose Cannon",
+  "blurb": "A manic and impulsive criminal from Zaun, Jinx lives to wreak havoc without care for the consequences. With an arsenal of deadly weapons, she unleashes the loudest blasts and brightest explosions to leave a trail of mayhem and panic in her wake. Jinx...",
+  "info": {
+    "attack": 9,
+    "defense": 2,
+    "magic": 4,
+    "difficulty": 6
+  },
+  "image": {
+    "full": "Jinx.png",
+    "sprite": "champion1.png",
+    "group": "champion",
+    "x": 336,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Marksman"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 610,
+    "hpPerLevel": 86,
+    "mp": 245,
+    "mpPerLevel": 45,
+    "moveSpeed": 325,
+    "armor": 28,
+    "armorPerLevel": 3.5,
+    "spellBlock": 30,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 525,
+    "hpRegen": 3.75,
+    "hpRegenPerLevel": 0.5,
+    "mpRegen": 6.7,
+    "mpRegenPerLevel": 1,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 57,
+    "attackDamagePerLevel": 3.4,
+    "attackSpeedPerLevel": 1,
+    "attackSpeed": 0.625
+  },
+  "_level": 1,
+  "attackRange": 525,
+  "moveSpeed": 325,
+  "hp": 610,
+  "mp": 245,
+  "hpRegen": 3.75,
+  "mpRegen": 6.7,
+  "crit": 0,
+  "attackDamage": 57,
+  "attackSpeed": 0.625,
+  "armor": 28,
+  "spellBlock": 30
+}

@@ -1,0 +1,195 @@
+{
+  "abilities": [
+    {
+      "name": "Double Daggers",
+      "cost": [
+        50
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "description": "Active: Xayah throws two feather-blades in the target direction with quick succession, dealing <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> physical damage to all enemies hit and leaving two Feathers on the ground.",
+      "leveling": "Damage Per Blade:»45 / 65 / 85 / 105 / 125 (+ 50% bonus AD)«Maximum Total Damage:90 / 130 / 170 / 210 / 250 (+ 100% bonus AD)",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "special",
+      "flatDamage": [
+        45,
+        65,
+        85,
+        105,
+        125
+      ],
+      "ratios": [
+        {
+          "value": 50,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Deadly Plumage",
+      "cost": [
+        60,
+        55,
+        50,
+        45,
+        40
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        20,
+        19,
+        18,
+        17,
+        16
+      ],
+      "description": "Active: Xayah creates a storm of blades for 4 seconds that grants her <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed and causes her basic attacks to strike the target an additional time for 20% damage.",
+      "leveling": "Bonus Attack Speed:35 / 40 / 45 / 50 / 55%",
+      "skill": "W",
+      "damageType": "Physical",
+      "isProjectile": "true",
+      "flatDamage": [
+        35,
+        40,
+        45,
+        50,
+        55
+      ],
+      "ratios": [],
+      "castTime": null
+    },
+    {
+      "name": "Bladecaller",
+      "cost": [
+        40
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "description": "Active: Xayah calls all Feathers back to her, dealing physical damage to enemies they pass through, increased by 0% − 50% (based on critical chance). <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Minions take 50% damage. Bladecaller can only hit enemies once per Feather.",
+      "leveling": "Physical Damage Per Feather:»55 / 65 / 75 / 85 / 95 (+ 60% bonus AD)«Minion Damage Per Feather:27.5 / 32.5 / 37.5 / 42.5 / 47.5 (+ 30% bonus AD)",
+      "skill": "E",
+      "damageType": "Physical",
+      "isProjectile": "True",
+      "flatDamage": [
+        55,
+        65,
+        75,
+        85,
+        95
+      ],
+      "ratios": [
+        {
+          "value": 60,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Featherstorm",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        160,
+        152,
+        145,
+        137,
+        130
+      ],
+      "description": "Active: Xayah leaps into the air, becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted for 1.5 seconds, then rains down daggers in a cone in the target direction which deal physical damage to enemies hit and leave behind a line of 5 Feathers.",
+      "leveling": "Physical Damage:125 / 187.5 / 250 / 312.5 / 375 (+ 100% bonus AD)",
+      "skill": "R",
+      "damageType": "Physical",
+      "isProjectile": "special",
+      "flatDamage": [
+        125,
+        187.5,
+        250,
+        312.5,
+        375
+      ],
+      "ratios": [
+        {
+          "value": 100,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    }
+  ],
+  "id": "Xayah",
+  "key": "498",
+  "name": "Xayah",
+  "title": "the Rebel",
+  "blurb": "Deadly and precise, Xayah is a vastayan revolutionary waging a personal war to save her people. She uses her speed, guile, and razor-sharp feather blades to cut down anyone who stands in her way. Xayah fights alongside her partner and lover, Rakan, to...",
+  "info": {
+    "attack": 10,
+    "defense": 6,
+    "magic": 1,
+    "difficulty": 5
+  },
+  "image": {
+    "full": "Xayah.png",
+    "sprite": "champion4.png",
+    "group": "champion",
+    "x": 336,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Marksman"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 590,
+    "hpPerLevel": 88,
+    "mp": 340,
+    "mpPerLevel": 40,
+    "moveSpeed": 325,
+    "armor": 25,
+    "armorPerLevel": 3,
+    "spellBlock": 30,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 525,
+    "hpRegen": 3.25,
+    "hpRegenPerLevel": 0.75,
+    "mpRegen": 8.25,
+    "mpRegenPerLevel": 0.75,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 60,
+    "attackDamagePerLevel": 3.5,
+    "attackSpeedPerLevel": 3.3,
+    "attackSpeed": 0.625
+  },
+  "_level": 1,
+  "attackRange": 525,
+  "moveSpeed": 325,
+  "hp": 590,
+  "mp": 340,
+  "hpRegen": 3.25,
+  "mpRegen": 8.25,
+  "crit": 0,
+  "attackDamage": 60,
+  "attackSpeed": 0.625,
+  "armor": 25,
+  "spellBlock": 30
+}

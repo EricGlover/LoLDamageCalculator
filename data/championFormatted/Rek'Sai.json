@@ -1,0 +1,63 @@
+{
+  "abilities": null,
+  "id": "RekSai",
+  "key": "421",
+  "name": "Rek'Sai",
+  "title": "the Void Burrower",
+  "blurb": "An apex predator, Rek'Sai is a merciless Void-spawn that tunnels beneath the ground to ambush and devour unsuspecting prey. Her insatiable hunger has laid waste to entire regions of the once-great empire of Shurima—merchants, traders, even armed...",
+  "info": {
+    "attack": 8,
+    "defense": 5,
+    "magic": 2,
+    "difficulty": 3
+  },
+  "image": {
+    "full": "RekSai.png",
+    "sprite": "champion3.png",
+    "group": "champion",
+    "x": 192,
+    "y": 0,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Fighter"
+  ],
+  "partype": "Rage",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 570,
+    "hpPerLevel": 85,
+    "mp": 100,
+    "mpPerLevel": 0,
+    "moveSpeed": 335,
+    "armor": 36,
+    "armorPerLevel": 3.75,
+    "spellBlock": 32.1,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 175,
+    "hpRegen": 7.5,
+    "hpRegenPerLevel": 0.65,
+    "mpRegen": 0,
+    "mpRegenPerLevel": 0,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 64,
+    "attackDamagePerLevel": 3,
+    "attackSpeedPerLevel": 2,
+    "attackSpeed": 0.667
+  },
+  "_level": 1,
+  "attackRange": 175,
+  "moveSpeed": 335,
+  "hp": 570,
+  "mp": 100,
+  "hpRegen": 7.5,
+  "mpRegen": 0,
+  "crit": 0,
+  "attackDamage": 64,
+  "attackSpeed": 0.667,
+  "armor": 36,
+  "spellBlock": 32.1
+}

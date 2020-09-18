@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Light Binding",
+    "cost": [
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      11,
+      10,
+      10,
+      9,
+      9
+    ],
+    "description": "Active: Lux releases a sphere of light in the target direction that deals magic damage to the first two enemies hit and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> roots them for 2 seconds.",
+    "leveling": "Magic Damage:80 / 125 / 170 / 215 / 260 (+ 60% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      80,
+      125,
+      170,
+      215,
+      260
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Prismatic Barrier",
+    "cost": [
+      60,
+      65,
+      70,
+      75,
+      80
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      14,
+      13,
+      12,
+      11,
+      10
+    ],
+    "description": "Active: Lux launches her wand in the target direction which returns to her after reaching maximum range.",
+    "leveling": "Shield Strength:45 / 65 / 85 / 105 / 125 (+ 35% AP)",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "special",
+    "flatDamage": [
+      45,
+      65,
+      85,
+      105,
+      125
+    ],
+    "ratios": [
+      {
+        "value": 35,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Lucent Singularity",
+    "cost": [
+      70,
+      80,
+      90,
+      100,
+      110
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      10,
+      9,
+      9,
+      8,
+      8
+    ],
+    "description": "Active: Lux sends an anomaly of twisted light to the target area for up to 5 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing enemies inside and granting a 600 radius <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> vision around it. Lucent Singularity can be recast at no delay.",
+    "leveling": "Slow:25 / 30 / 35 / 40 / 45%",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      25,
+      30,
+      35,
+      40,
+      45
+    ],
+    "ratios": [],
+    "castTime": 0.25
+  },
+  {
+    "name": "Final Spark",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      80,
+      70,
+      60,
+      50,
+      40
+    ],
+    "description": "Active: Lux fires a massive laser of light in a line in the target direction that deals magic damage to all enemies hit, briefly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing enemies as well as the surrounding area.",
+    "leveling": "Magic Damage:300 / 350 / 400 / 450 / 500 (+ 100% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "False",
+    "flatDamage": [
+      300,
+      350,
+      400,
+      450,
+      500
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 1
+  }
+]

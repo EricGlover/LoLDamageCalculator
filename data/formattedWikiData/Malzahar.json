@@ -1,0 +1,129 @@
+[
+  {
+    "name": "Call of the Void",
+    "cost": [
+      80
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      6
+    ],
+    "description": "Active: Malzahar opens two portals that are each 200 units perpendicular from the target location, granting a small area of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight around them. After a 0.4-second delay, all enemies between the portals take magic damage and are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> silenced for a duration.",
+    "leveling": "Magic Damage:70 / 105 / 140 / 175 / 210 (+ 65% AP)\nSilence Duration:1 / 1.25 / 1.5 / 1.75 / 2",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      70,
+      105,
+      140,
+      175,
+      210
+    ],
+    "ratios": [
+      {
+        "value": 65,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Void Swarm",
+    "cost": [
+      40,
+      45,
+      50,
+      55,
+      60
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      8
+    ],
+    "description": "Passive: Malzahar gains a stack of Zz'Rot Swarm when he casts another ability, up to a maximum of 2.",
+    "leveling": "Voidling Duration:8 / 8 / 9 / 9 / 10",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      8,
+      8,
+      9,
+      9,
+      10
+    ],
+    "ratios": [],
+    "castTime": null
+  },
+  {
+    "name": "Malefic Visions",
+    "cost": [
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      15,
+      13,
+      11,
+      9,
+      7
+    ],
+    "description": "Active: Malzahar infects the target enemy's mind, dealing them magic damage every half second over 4 seconds. Damaging a target with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5f/Call_of_the_Void.png/revision/latest/scale-to-width-down/20?cb=20170308195023\" \t alt=\"Call of the Void\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Call_of_the_Void.png\" \tdata-image-name=\"Call of the Void.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Call of the Void or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4e/Nether_Grasp.png/revision/latest/scale-to-width-down/20?cb=20160420053221\" \t alt=\"Nether Grasp\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Nether_Grasp.png\" \tdata-image-name=\"Nether Grasp.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Nether Grasp will refresh the duration of Malefic Visions.",
+    "leveling": "Total Magic Damage:»80 / 115 / 150 / 185 / 220 (+ 80% AP)«Magic Damage Per Half Second:10 / 14.375 / 18.75 / 23.125 / 27.5 (+ 10% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      80,
+      115,
+      150,
+      185,
+      220
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Nether Grasp",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      140,
+      125,
+      110,
+      95,
+      80
+    ],
+    "description": "Active: Malzahar forms a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Focused_Resolve.png/revision/latest/scale-to-width-down/20?cb=20130929122918\" \t alt=\"Focused Resolve\"  \tclass=\"\" \t \tdata-image-key=\"Focused_Resolve.png\" \tdata-image-name=\"Focused Resolve.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> tether between him and the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ae/Knockdown_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223937\" \t alt=\"Knockdown icon\"  \tclass=\"\" \t \tdata-image-key=\"Knockdown_icon.png\" \tdata-image-name=\"Knockdown icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking them down. Malzahar then <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels for 2.5 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5f/Suppression_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223943\" \t alt=\"Suppression icon\"  \tclass=\"\" \t \tdata-image-key=\"Suppression_icon.png\" \tdata-image-name=\"Suppression icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> suppressing and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing the target and dealing them magic damage every 0.25 seconds.",
+    "leveling": "Total Magic Damage:»125 / 162.5 / 200 / 237.5 / 275 (+ 80% AP)«Damage Per Quarter-Second:12.5 / 16.25 / 20 / 23.75 / 27.5 (+ 8% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "False",
+    "flatDamage": [
+      125,
+      162.5,
+      200,
+      237.5,
+      275
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  }
+]

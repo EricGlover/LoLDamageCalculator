@@ -1,5 +1,7 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
+const Ability = require('./Ability.js');
+const Champion = require('./Champion.js');
 
 
 async function getTemplate(browser) {
@@ -86,11 +88,17 @@ async function getAbility(ability, champion, browser) {
     return dataObj;
 }
 
-
 // save the data to an output file
 async function printToFile(fileName, data) {
     return new Promise(resolve => {
         fs.writeFile(`./data/wikiData/${fileName}.json`, data, function() {
+            resolve();
+        });
+    })
+}
+async function printToFilePath(filePath, data) {
+    return new Promise(resolve => {
+        fs.writeFile(filePath, data, function() {
             resolve();
         });
     })
@@ -141,15 +149,9 @@ async function scrapeChampion(championName, browser) {
  (node:81459) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
  */
 async function scrapeAllChampions() {
-    const browser = await puppeteer.launch();
-    let championNames = null;
-    try {
-        championNames = await loadChampionNames();
-    } catch(e) {
-        console.error("Error fetching champion names");
-        throw e;
-    }
+    let championNames = await getChampionNames();
 
+    const browser = await puppeteer.launch();
     for(const [_, name] of Object.entries(championNames)) {
         try {
             await scrapeChampion(name, browser);
@@ -160,11 +162,108 @@ async function scrapeAllChampions() {
     await browser.close();
 }
 
+async function getChampionNames() {
+    const browser = await puppeteer.launch();
+    let championNames = null;
+    try {
+        championNames = await loadChampionNames();
+        return championNames;
+    } catch(e) {
+        console.error("Error fetching champion names");
+        throw e;
+    } finally {
+        browser.close();
+    }
+}
 
+async function loadAbilities(championName) {
+    let data = fs.readFileSync(`./data/formattedWikiData/${championName}.json`);
+    return JSON.parse(data);
+}
+
+async function saveAbilityData(championName) {
+    try {
+        // read from file
+        console.log(`looking for ./data/wikiData/${championName}.json`);
+        let data = fs.readFileSync(`./data/wikiData/${championName}.json`);
+        let abilityDataArr = JSON.parse(data);
+        let abilities = [];
+        abilityDataArr.forEach(abilityName => {
+            let ability = Ability.makeFromWikiData(abilityName);
+            abilities.push(ability);
+        })
+        return await printToFilePath(`./data/formattedWikiData/${championName}.json`, JSON.stringify(abilities, null, 2));
+    } catch(e) {
+        console.error(e);
+    }
+}
+
+async function saveChampionAbilities() {
+    const championNames = await getChampionNames();
+    console.log("champion names loaded");
+    for(const [_, name] of Object.entries(championNames)) {
+        try {
+            await saveAbilityData(name);
+        } catch(e) {
+            console.error(`Error saving data for ${name}`)
+        }
+    }
+}
+
+async function loadFullChampionDetails() {
+    const championData = [];
+    const basePath = "./data/champions";
+    const dir = await fs.promises.opendir(basePath);
+    for await (const dirent of dir) {
+        if(dirent.isFile()) {
+            console.log(`reading ${dirent.name}`);
+            let data = fs.readFileSync(basePath + `/${dirent.name}`);
+            let obj = JSON.parse(data);
+            championData.push(Object.values(obj.data)[0]);
+        }
+    }
+    let championMap = new Map();
+    championData.map(data => {
+        let champion = Champion.makeFromObj(data);
+        championMap.set(champion.name, champion);
+    })
+    return championMap;
+}
 
 async function main() {
+    let browser;
     try {
-        // const browser = await puppeteer.launch();
+        const championMap = await loadFullChampionDetails();
+        for(const [name, champion] of championMap.entries()) {
+            if(!champion) {
+                console.log(name, champion);
+            } else {
+                try {
+                    champion.abilities = await loadAbilities(name);
+                } catch(e) {
+                    console.error(e);
+                    console.error(`no ability file for ${name}`);
+                    champion.abilities = null;
+                }
+
+                let fileName = name.trim().split(" ").join("_");
+                await printToFilePath(`./data/championFormatted/${fileName}.json`, JSON.stringify(champion, null, 2))
+            }
+        }
+
+        // const championNames = await getChampionNames();
+        // console.log("champion names loaded");
+        // for(const [_, name] of Object.entries(championNames)) {
+        //     try {
+        //         await saveAbilityData(name);
+        //     } catch(e) {
+        //         console.error(`Error saving data for ${name}`)
+        //     }
+        // }
+
+
+
+        // browser = await puppeteer.launch();
         // get templates and raw wiki data
         // await getTemplate(browser);
         // await scrapeAllChampions();
@@ -172,12 +271,16 @@ async function main() {
         // format wiki data into useful entities
 
         // read from file
-        const championName = "Caitlyn";
-        let data = fs.readFileSync(`./data/wikiData/${championName}`);
-        let abilityDataArr = JSON.parse(data);
-        // start with Q
-        let ability = Ability.makeFromObj(abilityDataArr[0]);
-        console.log(ability);
+        // let data = fs.readFileSync(`./data/wikiData/${championName}.json`);
+        // let abilityDataArr = JSON.parse(data);
+        // let abilities = [];
+        // abilityDataArr.forEach(abilityName => {
+        //     let ability = Ability.makeFromWikiData(abilityName);
+        //     abilities.push(ability);
+        // })
+        //
+        // console.log(abilities);
+        // abilities.forEach(ab => console.log(ab.leveling));
     } catch(e) {
         console.error(e);
     } finally {

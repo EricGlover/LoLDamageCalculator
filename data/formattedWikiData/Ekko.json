@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Timewinder",
+    "cost": [
+      50,
+      60,
+      70,
+      80,
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      9,
+      8,
+      8,
+      7,
+      7
+    ],
+    "description": "Active: Ekko throws a temporal grenade in the target direction, dealing magic damage to enemies along its path.",
+    "leveling": "Outward Magic Damage:60 / 75 / 90 / 105 / 120 (+ 30% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      60,
+      75,
+      90,
+      105,
+      120
+    ],
+    "ratios": [
+      {
+        "value": 30,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Parallel Convergence",
+    "cost": [
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      22,
+      20,
+      18,
+      16,
+      14
+    ],
+    "description": "Passive: Ekko's basic attacks deal 3% (+ 3% per 100 AP) of the target's missing health bonus magic damage to targets below <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 30% of their maximum health. The damage has a minimum threshold of 15 and is capped at 150 against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+    "leveling": "Shield Strength:80 / 100 / 120 / 140 / 160 (+ 150% AP)",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "False",
+    "flatDamage": [
+      80,
+      100,
+      120,
+      140,
+      160
+    ],
+    "ratios": [
+      {
+        "value": 150,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Phase Dive",
+    "cost": [
+      40,
+      45,
+      50,
+      55,
+      60
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      9,
+      8,
+      8,
+      7,
+      7
+    ],
+    "description": "Active: Ekko <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction, then causes his next basic attack within 3 seconds to have <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 300 bonus range and make him <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blink within 125 range of the target after a 0.25 seconds cast time, dealing bonus magic damage.",
+    "leveling": "Bonus Magic Damage:50 / 75 / 100 / 125 / 150 (+ 40% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      50,
+      75,
+      100,
+      125,
+      150
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Chronobreak",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      110,
+      95,
+      80,
+      65,
+      50
+    ],
+    "description": "Passive: Upon learning Chronobreak or if its current cooldown is lower than 4 seconds, Ekko spawns a time-delayed afterimage of himself that tracks where he was 4 seconds ago.",
+    "leveling": "Magic Damage:150 / 225 / 300 / 375 / 450 (+ 150% AP)Self-Heal:100 / 125 / 150 / 175 / 200 (+ 60% AP) (increased by 3% per 1% of health lost in the past 4 seconds)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      150,
+      225,
+      300,
+      375,
+      450
+    ],
+    "ratios": [
+      {
+        "value": 150,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.5
+  }
+]

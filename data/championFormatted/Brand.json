@@ -1,0 +1,202 @@
+{
+  "abilities": [
+    {
+      "name": "Sear",
+      "cost": [
+        50
+      ],
+      "costType": "mana",
+      "coolDown": [
+        8,
+        7,
+        7,
+        6,
+        6
+      ],
+      "description": "Active: Brand launches a fireball in the target direction that deals magic damage to the first enemy it hits.",
+      "leveling": "Magic Damage:80 / 110 / 140 / 170 / 200 (+ 55% AP)",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        80,
+        110,
+        140,
+        170,
+        200
+      ],
+      "ratios": [
+        {
+          "value": 55,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Pillar of Flame",
+      "cost": [
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "costType": "mana",
+      "coolDown": [
+        10,
+        9,
+        9,
+        8,
+        8
+      ],
+      "description": "Active: After a 0.625-second delay, Brand erupts the target area in flames, dealing magic damage to enemies within.",
+      "leveling": "Magic Damage:75 / 120 / 165 / 210 / 255 (+ 60% AP)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        75,
+        120,
+        165,
+        210,
+        255
+      ],
+      "ratios": [
+        {
+          "value": 60,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Conflagration",
+      "cost": [
+        70,
+        75,
+        80,
+        85,
+        90
+      ],
+      "costType": "mana",
+      "coolDown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "description": "Active: Brand sets the target enemy aflame, dealing magic damage.",
+      "leveling": "Magic Damage:70 / 95 / 120 / 145 / 170 (+ 45% AP)",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "False",
+      "flatDamage": [
+        70,
+        95,
+        120,
+        145,
+        170
+      ],
+      "ratios": [
+        {
+          "value": 45,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Pyroclasm",
+      "cost": [
+        100
+      ],
+      "costType": "mana",
+      "coolDown": [
+        105,
+        90,
+        75
+      ],
+      "description": "Active: Brand launches a fireball at the target enemy that bounces between nearby enemies up to four times, dealing magic damage each time.",
+      "leveling": "Magic Damage:»100 / 200 / 300 (+ 25% AP)«Total Single-Target Damage:300 / 600 / 900 (+ 75% AP)",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        100,
+        200,
+        300,
+        25,
+        300
+      ],
+      "ratios": [
+        {
+          "value": 25,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    }
+  ],
+  "id": "Brand",
+  "key": "63",
+  "name": "Brand",
+  "title": "the Burning Vengeance",
+  "blurb": "Once a tribesman of the icy Freljord named Kegan Rodhe, the creature known as Brand is a lesson in the temptation of greater power. Seeking one of the legendary World Runes, Kegan betrayed his companions and seized it for himself—and, in an instant, the...",
+  "info": {
+    "attack": 2,
+    "defense": 2,
+    "magic": 9,
+    "difficulty": 4
+  },
+  "image": {
+    "full": "Brand.png",
+    "sprite": "champion0.png",
+    "group": "champion",
+    "x": 144,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Mage"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 519.68,
+    "hpPerLevel": 88,
+    "mp": 469,
+    "mpPerLevel": 21,
+    "moveSpeed": 340,
+    "armor": 21.88,
+    "armorPerLevel": 3.5,
+    "spellBlock": 30,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 550,
+    "hpRegen": 5.5,
+    "hpRegenPerLevel": 0.55,
+    "mpRegen": 10.665,
+    "mpRegenPerLevel": 0.6,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 57.04,
+    "attackDamagePerLevel": 3,
+    "attackSpeedPerLevel": 1.36,
+    "attackSpeed": 0.625
+  },
+  "_level": 1,
+  "attackRange": 550,
+  "moveSpeed": 340,
+  "hp": 519.68,
+  "mp": 469,
+  "hpRegen": 5.5,
+  "mpRegen": 10.665,
+  "crit": 0,
+  "attackDamage": 57.04,
+  "attackSpeed": 0.625,
+  "armor": 21.88,
+  "spellBlock": 30
+}

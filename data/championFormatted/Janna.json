@@ -1,0 +1,207 @@
+{
+  "abilities": [
+    {
+      "name": "Howling Gale",
+      "cost": [
+        60,
+        80,
+        100,
+        120,
+        140
+      ],
+      "costType": "mana",
+      "coolDown": [
+        12
+      ],
+      "description": "Active: Janna summons a whirlwind at her current location which charges up over 3 seconds. Its range, speed, damage, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knockup duration increase for each second it is left charging. Howling Gale can be recast after a short delay.",
+      "leveling": "Minimum Magic Damage:60 / 85 / 110 / 135 / 160 (+ 35% AP)Bonus Magic Damage Per Second:»15 / 20 / 25 / 30 / 35 (+ 10% AP)«Maximum Magic Damage:105 / 145 / 185 / 225 / 265 (+ 65% AP)",
+      "skill": "Q",
+      "damageType": "magic",
+      "isProjectile": "true",
+      "flatDamage": [
+        60,
+        85,
+        110,
+        135,
+        160
+      ],
+      "ratios": [
+        {
+          "value": 35,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Zephyr",
+      "cost": [
+        50,
+        60,
+        70,
+        80,
+        90
+      ],
+      "costType": "mana",
+      "coolDown": [
+        8,
+        7,
+        7,
+        6,
+        6
+      ],
+      "description": "Passive: While Zephyr is not on cooldown, Janna is aided by an air elemental who <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosts her and grants her <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed.",
+      "leveling": "Bonus Movement Speed:6 / 7 / 8 / 9 / 10% (+ 2% per 100 AP)",
+      "skill": "W",
+      "damageType": "magic",
+      "isProjectile": "true",
+      "flatDamage": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "ratios": [
+        {
+          "value": 2,
+          "type": "bonus ad"
+        },
+        {
+          "value": 100,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.245
+    },
+    {
+      "name": "Eye of the Storm",
+      "cost": [
+        70,
+        80,
+        90,
+        100,
+        110
+      ],
+      "costType": "mana",
+      "coolDown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "description": "Active: Janna <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields the target allied champion or herself for 5 seconds, decaying over the duration after 0.75 seconds.",
+      "leveling": "Shield Strength:80 / 115 / 150 / 185 / 220 (+ 70% AP)",
+      "skill": "E",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        80,
+        115,
+        150,
+        185,
+        220
+      ],
+      "ratios": [
+        {
+          "value": 70,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Monsoon",
+      "cost": [
+        100
+      ],
+      "costType": "mana",
+      "coolDown": [
+        150,
+        135,
+        120
+      ],
+      "description": "Active: Janna <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels for 3 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking back all nearby enemies at the time of cast to up to 875 units (but not through terrain) over 0.5 seconds based on their proximity to her.",
+      "leveling": "Heal Per Half Second:»50 / 75 / 100 (+ 25% AP)«Total Heal:300 / 450 / 600 (+ 150% AP)",
+      "skill": "R",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        50,
+        75,
+        100,
+        25,
+        300
+      ],
+      "ratios": [
+        {
+          "value": 25,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    }
+  ],
+  "id": "Janna",
+  "key": "40",
+  "name": "Janna",
+  "title": "the Storm's Fury",
+  "blurb": "Armed with the power of Runeterra's gales, Janna is a mysterious, elemental wind spirit who protects the dispossessed of Zaun. Some believe she was brought into existence by the pleas of Runeterra's sailors who prayed for fair winds as they navigated...",
+  "info": {
+    "attack": 3,
+    "defense": 5,
+    "magic": 7,
+    "difficulty": 7
+  },
+  "image": {
+    "full": "Janna.png",
+    "sprite": "champion1.png",
+    "group": "champion",
+    "x": 96,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Support",
+    "Mage"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 500,
+    "hpPerLevel": 70,
+    "mp": 350,
+    "mpPerLevel": 64,
+    "moveSpeed": 315,
+    "armor": 28,
+    "armorPerLevel": 3.8,
+    "spellBlock": 30,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 550,
+    "hpRegen": 5.5,
+    "hpRegenPerLevel": 0.55,
+    "mpRegen": 11.5,
+    "mpRegenPerLevel": 0.4,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 46,
+    "attackDamagePerLevel": 1.5,
+    "attackSpeedPerLevel": 2.95,
+    "attackSpeed": 0.625
+  },
+  "_level": 1,
+  "attackRange": 550,
+  "moveSpeed": 315,
+  "hp": 500,
+  "mp": 350,
+  "hpRegen": 5.5,
+  "mpRegen": 11.5,
+  "crit": 0,
+  "attackDamage": 46,
+  "attackSpeed": 0.625,
+  "armor": 28,
+  "spellBlock": 30
+}

@@ -1,0 +1,198 @@
+{
+  "abilities": [
+    {
+      "name": "Volcanic Rupture",
+      "cost": [
+        45
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        9,
+        8,
+        8,
+        7,
+        7
+      ],
+      "description": "Active:  Ornn slams the ground, sending a fissure in the target direction that stops at maximum range or 200 units behind a hit enemy champion, dealing physical damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing enemies hit by 40% for 2 seconds.",
+      "leveling": "Physical Damage:20 / 45 / 70 / 95 / 120 (+ 110% AD)",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "true",
+      "flatDamage": [
+        20,
+        45,
+        70,
+        95,
+        120
+      ],
+      "ratios": [
+        {
+          "value": 110,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Bellows Breath",
+      "cost": [
+        45,
+        50,
+        55,
+        60,
+        65
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        12,
+        11,
+        11,
+        10,
+        10
+      ],
+      "description": "Active: Ornn marches with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Unstoppable_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164427\" \t alt=\"Unstoppable icon\"  \tclass=\"\" \t \tdata-image-key=\"Unstoppable_icon.png\" \tdata-image-name=\"Unstoppable icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement immunity in the target direction with 35% reduced <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> movement speed for 0.75 seconds.",
+      "leveling": "Total Magic Damage:»12 / 13 / 14 / 15 / 16% of target's maximum health«Damage Per Instance:2.4 / 2.6 / 2.8 / 3 / 3.2% of target's maximum health",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "False",
+      "flatDamage": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "ratios": [],
+      "castTime": null
+    },
+    {
+      "name": "Searing Charge",
+      "cost": [
+        35,
+        40,
+        45,
+        50,
+        55
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "description": "Active: Ornn <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charges in the target direction, dealing physical damage to enemies he passes through, stopping upon colliding with terrain.",
+      "leveling": "Physical Damage:80 / 125 / 170 / 215 / 260 (+ 40% bonus armor) (+ 40% bonus magic resistance)",
+      "skill": "E",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        80,
+        125,
+        170,
+        215,
+        260
+      ],
+      "ratios": [
+        {
+          "value": 40,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.35
+    },
+    {
+      "name": "Call of the Forge God",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        140,
+        120,
+        100
+      ],
+      "description": "Active: Ornn sounds his horn over the cast time, after which an elemental is summoned at maximum range from the target direction that stampedes towards his casting position for 3000 range at increasing speed, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing enemies hit for 2 seconds. The <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow scales with the distance traveled by the elemental, with a minimum of 10%.",
+      "leveling": "Magic Damage:»125 / 175 / 225 (+ 20% AP)«Total Magic Damage:250 / 350 / 450 (+ 40% AP)Maximum Slow:40 / 60 / 80%",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        125,
+        175,
+        225,
+        20,
+        250
+      ],
+      "ratios": [
+        {
+          "value": 20,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.5
+    }
+  ],
+  "id": "Ornn",
+  "key": "516",
+  "name": "Ornn",
+  "title": "The Fire below the Mountain",
+  "blurb": "Ornn is the Freljordian spirit of forging and craftsmanship. He works in the solitude of a massive smithy, hammered out from the lava caverns beneath the volcano Hearth-Home. There he stokes bubbling cauldrons of molten rock to purify ores and fashion...",
+  "info": {
+    "attack": 5,
+    "defense": 9,
+    "magic": 3,
+    "difficulty": 5
+  },
+  "image": {
+    "full": "Ornn.png",
+    "sprite": "champion2.png",
+    "group": "champion",
+    "x": 288,
+    "y": 96,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Tank",
+    "Fighter"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 590,
+    "hpPerLevel": 95,
+    "mp": 340.6,
+    "mpPerLevel": 45,
+    "moveSpeed": 335,
+    "armor": 33,
+    "armorPerLevel": 4,
+    "spellBlock": 32.1,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 175,
+    "hpRegen": 9,
+    "hpRegenPerLevel": 0.9,
+    "mpRegen": 8.01,
+    "mpRegenPerLevel": 0.6,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 69,
+    "attackDamagePerLevel": 3.5,
+    "attackSpeedPerLevel": 2,
+    "attackSpeed": 0.625
+  },
+  "_level": 1,
+  "attackRange": 175,
+  "moveSpeed": 335,
+  "hp": 590,
+  "mp": 340.6,
+  "hpRegen": 9,
+  "mpRegen": 8.01,
+  "crit": 0,
+  "attackDamage": 69,
+  "attackSpeed": 0.625,
+  "armor": 33,
+  "spellBlock": 32.1
+}

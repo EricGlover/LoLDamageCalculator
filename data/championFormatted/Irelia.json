@@ -1,0 +1,201 @@
+{
+  "abilities": [
+    {
+      "name": "Bladesurge",
+      "cost": [
+        20
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "description": "Passive: Enemy champions and large monsters hit by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2e/Flawless_Duet.png/revision/latest/scale-to-width-down/20?cb=20180411161012\" \t alt=\"Flawless Duet\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flawless_Duet.png\" \tdata-image-name=\"Flawless Duet.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flawless Duet and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5f/Vanguard%27s_Edge.png/revision/latest/scale-to-width-down/20?cb=20180411161131\" \t alt=\"Vanguard&amp;#039;s Edge\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Vanguard%27s_Edge.png\" \tdata-image-name=\"Vanguard&#39;s Edge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Vanguard's Edge's initial barrage are marked for 5 seconds.",
+      "leveling": "Physical Damage:»5 / 25 / 45 / 65 / 85 (+ 60% AD)«Minion Bonus Damage:»55 / 75 / 95 / 115 / 135«Minion Total Damage:60 / 100 / 140 / 180 / 220 (+ 60% AD)\nHeal:12 / 14 / 16 / 18 / 20% AD",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        5,
+        25,
+        45,
+        65,
+        85
+      ],
+      "ratios": [
+        {
+          "value": 60,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Defiant Dance",
+      "cost": [
+        70,
+        75,
+        80,
+        85,
+        90
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ],
+      "description": "Active: Irelia <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charges for up to 1.5 seconds, during which she reduces incoming physical damage by 50% (+ 7% per 100 AP) and increases Defiant Dance's damage over the duration. Defiant Dance can be recast at any time within its duration and cannot be <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> interrupted by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crowd control.",
+      "leveling": "Minimum Damage:»10 / 25 / 40 / 55 / 70 (+ 50% AD) (+ 40% AP)«Maximum Damage:20 / 50 / 80 / 110 / 140 (+ 100% AD) (+ 80% AP)",
+      "skill": "W",
+      "damageType": "Physical",
+      "isProjectile": "false",
+      "flatDamage": [
+        10,
+        25,
+        40,
+        55,
+        70
+      ],
+      "ratios": [
+        {
+          "value": 50,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Flawless Duet",
+      "cost": [
+        50
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        18,
+        16,
+        15,
+        13,
+        12
+      ],
+      "description": "Active: Irelia sends a blade to the target location for 3.5 seconds, after which she sends out a second blade at her position, though not if she is channeling <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f1/Defiant_Dance.png/revision/latest/scale-to-width-down/20?cb=20180411160954\" \t alt=\"Defiant Dance\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Defiant_Dance.png\" \tdata-image-name=\"Defiant Dance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Defiant Dance or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport. Flawless Duet can be recast after 0.15 seconds.",
+      "leveling": "Magic Damage:80 / 125 / 170 / 215 / 260 (+ 80% AP)",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        80,
+        125,
+        170,
+        215,
+        260
+      ],
+      "ratios": [
+        {
+          "value": 80,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Vanguard's Edge",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        140,
+        130,
+        120,
+        110,
+        100
+      ],
+      "description": "Active: Irelia launches a barrage of blades in the target direction, expanding outward upon hitting an enemy champion and dealing magic damage to all enemies hit.",
+      "leveling": "Barrage Damage:125 / 187.5 / 250 / 312.5 / 375 (+ 70% AP)",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "true",
+      "flatDamage": [
+        125,
+        187.5,
+        250,
+        312.5,
+        375
+      ],
+      "ratios": [
+        {
+          "value": 70,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.4
+    }
+  ],
+  "id": "Irelia",
+  "key": "39",
+  "name": "Irelia",
+  "title": "the Blade Dancer",
+  "blurb": "The Noxian occupation of Ionia produced many heroes, none more unlikely than young Irelia of Navori. Trained in the ancient dances of her province, she adapted her art for war, using the graceful and carefully practised movements to levitate a host of...",
+  "info": {
+    "attack": 7,
+    "defense": 4,
+    "magic": 5,
+    "difficulty": 5
+  },
+  "image": {
+    "full": "Irelia.png",
+    "sprite": "champion1.png",
+    "group": "champion",
+    "x": 0,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Fighter",
+    "Assassin"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 580,
+    "hpPerLevel": 95,
+    "mp": 350,
+    "mpPerLevel": 30,
+    "moveSpeed": 335,
+    "armor": 36,
+    "armorPerLevel": 3,
+    "spellBlock": 32,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 200,
+    "hpRegen": 8.5,
+    "hpRegenPerLevel": 0.85,
+    "mpRegen": 8,
+    "mpRegenPerLevel": 0.8,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 63,
+    "attackDamagePerLevel": 4,
+    "attackSpeedPerLevel": 2.5,
+    "attackSpeed": 0.656
+  },
+  "_level": 1,
+  "attackRange": 200,
+  "moveSpeed": 335,
+  "hp": 580,
+  "mp": 350,
+  "hpRegen": 8.5,
+  "mpRegen": 8,
+  "crit": 0,
+  "attackDamage": 63,
+  "attackSpeed": 0.656,
+  "armor": 36,
+  "spellBlock": 32
+}

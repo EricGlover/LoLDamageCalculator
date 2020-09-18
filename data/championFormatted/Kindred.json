@@ -1,0 +1,187 @@
+{
+  "abilities": [
+    {
+      "name": "Dance of Arrows",
+      "cost": [
+        35
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        9
+      ],
+      "description": "Active: Lamb <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 25% (+ 5% per <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f5/Mark_of_the_Kindred.png/revision/latest/scale-to-width-down/20?cb=20170818190657\" \t alt=\"Mark of the Kindred\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mark_of_the_Kindred.png\" \tdata-image-name=\"Mark of the Kindred.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mark) bonus attack speed for 4 seconds and firing up to three arrows to nearby <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible targets after dashing, each one dealing physical damage. Lamb's current attack target at any proximity will be prioritized by one of the arrows.",
+      "leveling": "Physical Damage:60 / 80 / 100 / 120 / 140 (+ 65% bonus AD)",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "True",
+      "flatDamage": [
+        60,
+        80,
+        100,
+        120,
+        140
+      ],
+      "ratios": [
+        {
+          "value": 65,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Wolf's Frenzy",
+      "cost": [
+        40
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "description": "Passive: As Kindred move and attack, they build up to 100 stacks of Hunter's Vigor. At full stacks, Lamb's next basic attack <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals her for up to 49 − 100 (based on level), based on Kindred's missing health.",
+      "leveling": "Magic Damage:25 / 30 / 35 / 40 / 45 (+ 20% bonus AD) (+ 1.5% (+ 1% per <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f5/Mark_of_the_Kindred.png/revision/latest/scale-to-width-down/20?cb=20170818190657\" \t alt=\"Mark of the Kindred\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mark_of_the_Kindred.png\" \tdata-image-name=\"Mark of the Kindred.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mark) of target's current health)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "False",
+      "flatDamage": [
+        25,
+        30,
+        35,
+        40,
+        45
+      ],
+      "ratios": [
+        {
+          "value": 20,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Mounting Dread",
+      "cost": [
+        50
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "description": "Active: Lamb applies a mark to the target enemy for 4 seconds and cripples them, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 50% for 1 second.",
+      "leveling": "Bonus Physical Damage:80 / 100 / 120 / 140 / 160 (+ 80% bonus AD) (+ 8% (+ 0.5% per <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f5/Mark_of_the_Kindred.png/revision/latest/scale-to-width-down/20?cb=20170818190657\" \t alt=\"Mark of the Kindred\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mark_of_the_Kindred.png\" \tdata-image-name=\"Mark of the Kindred.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mark) of target's missing health)",
+      "skill": "E",
+      "damageType": "Physical",
+      "isProjectile": "True",
+      "flatDamage": [
+        80,
+        100,
+        120,
+        140,
+        160
+      ],
+      "ratios": [
+        {
+          "value": 80,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Lamb's Respite",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        180,
+        165,
+        150,
+        135,
+        120
+      ],
+      "description": "Active: Lamb blesses the ground under herself for 4 seconds and enters a 0.264 seconds cast time. All units inside the zone cannot be reduced below <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 10% of their maximum health, and will become <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c1/Cosmic_Radiance.png/revision/latest/scale-to-width-down/20?cb=20160608034537\" \t alt=\"Cosmic Radiance\"  \tclass=\"\" \t \tdata-image-key=\"Cosmic_Radiance.png\" \tdata-image-name=\"Cosmic Radiance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invulnerable for the remaining duration when they reach or are at the threshold, during which they also cannot be <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healed, but can still <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/31/Health_regeneration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203536\" \t alt=\"Health regeneration icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_regeneration_icon.png\" \tdata-image-name=\"Health regeneration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> regenerate health.",
+      "leveling": "Heal:250 / 287.5 / 325 / 362.5 / 400",
+      "skill": "R",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        250,
+        287.5,
+        325,
+        362.5,
+        400
+      ],
+      "ratios": [],
+      "castTime": null
+    }
+  ],
+  "id": "Kindred",
+  "key": "203",
+  "name": "Kindred",
+  "title": "The Eternal Hunters",
+  "blurb": "Separate, but never parted, Kindred represents the twin essences of death. Lamb's bow offers a swift release from the mortal realm for those who accept their fate. Wolf hunts down those who run from their end, delivering violent finality within his...",
+  "info": {
+    "attack": 8,
+    "defense": 2,
+    "magic": 2,
+    "difficulty": 4
+  },
+  "image": {
+    "full": "Kindred.png",
+    "sprite": "champion1.png",
+    "group": "champion",
+    "x": 384,
+    "y": 96,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Marksman"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 540,
+    "hpPerLevel": 85,
+    "mp": 300,
+    "mpPerLevel": 35,
+    "moveSpeed": 325,
+    "armor": 29,
+    "armorPerLevel": 3.5,
+    "spellBlock": 30,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 500,
+    "hpRegen": 7,
+    "hpRegenPerLevel": 0.55,
+    "mpRegen": 7,
+    "mpRegenPerLevel": 0.4,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 65,
+    "attackDamagePerLevel": 2.5,
+    "attackSpeedPerLevel": 3.5,
+    "attackSpeed": 0.625
+  },
+  "_level": 1,
+  "attackRange": 500,
+  "moveSpeed": 325,
+  "hp": 540,
+  "mp": 300,
+  "hpRegen": 7,
+  "mpRegen": 7,
+  "crit": 0,
+  "attackDamage": 65,
+  "attackSpeed": 0.625,
+  "armor": 29,
+  "spellBlock": 30
+}

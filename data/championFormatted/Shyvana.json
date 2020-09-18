@@ -1,0 +1,179 @@
+{
+  "abilities": [
+    {
+      "name": "Twin Bite",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ],
+      "description": "Active: Shyvana's next basic attack within 6 seconds causes her to strike again after 0.25 seconds, dealing bonus physical damage.",
+      "leveling": "Bonus Physical Damage:20 / 35 / 50 / 65 / 80% AD",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        20,
+        35,
+        50,
+        65,
+        80
+      ],
+      "ratios": [],
+      "castTime": null
+    },
+    {
+      "name": "Burnout",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        12
+      ],
+      "description": "Active: Shyvana surrounds herself in flames for 3 seconds, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed and dealing magic damage to surrounding enemies each second.",
+      "leveling": "Initial Movement Speed:30 / 35 / 40 / 45 / 50%Magic Damage Per Second:20 / 32.5 / 45 / 57.5 / 70 (+ 20% bonus AD)",
+      "skill": "W",
+      "damageType": "magic",
+      "isProjectile": "",
+      "flatDamage": [
+        30,
+        35,
+        40,
+        45,
+        50
+      ],
+      "ratios": [
+        {
+          "value": 20,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null
+    },
+    {
+      "name": "Flame Breath",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "description": "Active: Shyvana unleashes a fireball in the target direction, stopping upon colliding with an enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion and dealing magic damage to all enemies hit and marking them for 5 seconds.",
+      "leveling": "Magic Damage:60 / 100 / 140 / 180 / 220 (+ 30% AD) (+ 70% AP)",
+      "skill": "E",
+      "damageType": "magic",
+      "isProjectile": "true",
+      "flatDamage": [
+        60,
+        100,
+        140,
+        180,
+        220
+      ],
+      "ratios": [
+        {
+          "value": 30,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25
+    },
+    {
+      "name": "Dragon's Descent",
+      "cost": [
+        2
+      ],
+      "costType": "Fury every 0.5 seconds",
+      "coolDown": [
+        null
+      ],
+      "description": "Passive - Fury: Dragon's Descent has no cooldown or initial cost but can only be activated while Shyvana has <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 100 Fury. Shyvana passively generates Fury per second while she is alive and in human form, 2 Fury per basic attack on-hit in either form, and 100 Fury when Dragon's Descent is first learned.",
+      "leveling": "Passive Fury Generation:1 / 1.25 / 1.5 / 1.75 / 2",
+      "skill": "R",
+      "damageType": "magic",
+      "isProjectile": "",
+      "flatDamage": [
+        1,
+        1.25,
+        1.5,
+        1.75,
+        2
+      ],
+      "ratios": [],
+      "castTime": 0.25
+    }
+  ],
+  "id": "Shyvana",
+  "key": "102",
+  "name": "Shyvana",
+  "title": "the Half-Dragon",
+  "blurb": "Shyvana is a creature with the magic of a rune shard burning within her heart. Though she often appears humanoid, she can take her true form as a fearsome dragon, incinerating her foes with fiery breath. Having saved the life of the crown prince Jarvan...",
+  "info": {
+    "attack": 8,
+    "defense": 6,
+    "magic": 3,
+    "difficulty": 4
+  },
+  "image": {
+    "full": "Shyvana.png",
+    "sprite": "champion3.png",
+    "group": "champion",
+    "x": 240,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Fighter",
+    "Tank"
+  ],
+  "partype": "Fury",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 595,
+    "hpPerLevel": 95,
+    "mp": 100,
+    "mpPerLevel": 0,
+    "moveSpeed": 350,
+    "armor": 38,
+    "armorPerLevel": 3.35,
+    "spellBlock": 32.1,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 125,
+    "hpRegen": 8.5,
+    "hpRegenPerLevel": 0.8,
+    "mpRegen": 0,
+    "mpRegenPerLevel": 0,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 66,
+    "attackDamagePerLevel": 3.4,
+    "attackSpeedPerLevel": 2.5,
+    "attackSpeed": 0.658
+  },
+  "_level": 1,
+  "attackRange": 125,
+  "moveSpeed": 350,
+  "hp": 595,
+  "mp": 100,
+  "hpRegen": 8.5,
+  "mpRegen": 0,
+  "crit": 0,
+  "attackDamage": 66,
+  "attackSpeed": 0.658,
+  "armor": 38,
+  "spellBlock": 32.1
+}

@@ -1,0 +1,63 @@
+{
+  "abilities": null,
+  "id": "Shaco",
+  "key": "35",
+  "name": "Shaco",
+  "title": "the Demon Jester",
+  "blurb": "Crafted long ago as a plaything for a lonely prince, the enchanted marionette Shaco now delights in murder and mayhem. Corrupted by dark magic and the loss of his beloved charge, the once-kind puppet finds pleasure only in the misery of the poor souls...",
+  "info": {
+    "attack": 8,
+    "defense": 4,
+    "magic": 6,
+    "difficulty": 9
+  },
+  "image": {
+    "full": "Shaco.png",
+    "sprite": "champion3.png",
+    "group": "champion",
+    "x": 144,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Assassin"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 587,
+    "hpPerLevel": 89,
+    "mp": 297.2,
+    "mpPerLevel": 40,
+    "moveSpeed": 350,
+    "armor": 30,
+    "armorPerLevel": 3.5,
+    "spellBlock": 32.1,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 125,
+    "hpRegen": 8.5,
+    "hpRegenPerLevel": 0.55,
+    "mpRegen": 7.156,
+    "mpRegenPerLevel": 0.45,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 63,
+    "attackDamagePerLevel": 3,
+    "attackSpeedPerLevel": 3,
+    "attackSpeed": 0.694
+  },
+  "_level": 1,
+  "attackRange": 125,
+  "moveSpeed": 350,
+  "hp": 587,
+  "mp": 297.2,
+  "hpRegen": 8.5,
+  "mpRegen": 7.156,
+  "crit": 0,
+  "attackDamage": 63,
+  "attackSpeed": 0.694,
+  "armor": 30,
+  "spellBlock": 32.1
+}

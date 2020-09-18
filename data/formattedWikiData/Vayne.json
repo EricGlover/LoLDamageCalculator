@@ -1,0 +1,115 @@
+[
+  {
+    "name": "Tumble",
+    "cost": [
+      30
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      4,
+      3,
+      3,
+      2,
+      2
+    ],
+    "description": "Active: Vayne <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction, though not through terrain, and her next basic attack within 7 seconds deals <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> bonus physical damage.",
+    "leveling": "Bonus Physical Damage:60 / 65 / 70 / 75 / 80% AD",
+    "skill": "Q",
+    "damageType": "physical",
+    "isProjectile": "",
+    "flatDamage": [
+      60,
+      65,
+      70,
+      75,
+      80
+    ],
+    "ratios": [],
+    "castTime": null
+  },
+  {
+    "name": "Silver Bolts",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Passive: Vayne's basic attacks and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/66/Condemn.png/revision/latest/scale-to-width-down/20?cb=20171223035713\" \t alt=\"Condemn\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Condemn.png\" \tdata-image-name=\"Condemn.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Condemn apply a stack of Silver Bolts for 3.5 seconds, up to 3 times. Attacking a new enemy removes all stacks from the previous target.",
+    "leveling": "Bonus True Damage:4 / 6.5 / 9 / 11.5 / 14% of target's maximum healthMinimum True Damage:50 / 65 / 80 / 95 / 110",
+    "skill": "W",
+    "damageType": "true",
+    "isProjectile": "",
+    "flatDamage": [
+      4,
+      6.5,
+      9,
+      11.5,
+      14
+    ],
+    "ratios": [],
+    "castTime": null
+  },
+  {
+    "name": "Condemn",
+    "cost": [
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "description": "Active: Vayne fires a heavy bolt at the target enemy, dealing physical damage, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking them back 475 units, and applying a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/12/Silver_Bolts.png/revision/latest/scale-to-width-down/20?cb=20171223035808\" \t alt=\"Silver Bolts\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Silver_Bolts.png\" \tdata-image-name=\"Silver Bolts.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Silver Bolts stack.",
+    "leveling": "Physical Damage:50 / 85 / 120 / 155 / 190 (+ 50% bonus AD)",
+    "skill": "E",
+    "damageType": "physical",
+    "isProjectile": "true",
+    "flatDamage": [
+      50,
+      85,
+      120,
+      155,
+      190
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Final Hour",
+    "cost": [
+      80
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      100,
+      92,
+      85,
+      77,
+      70
+    ],
+    "description": "Active: Vayne arms herself with her crossbow, gaining bonus attack damage and tripling <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/86/Night_Hunter.png/revision/latest/scale-to-width-down/20?cb=20171223035755\" \t alt=\"Night Hunter\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Night_Hunter.png\" \tdata-image-name=\"Night Hunter.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Night Hunter's bonus for a duration.",
+    "leveling": "Duration:8 / 9 / 10 / 11 / 12\nBonus AD:35 / 42.5 / 50 / 57.5 / 65",
+    "skill": "R",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "ratios": [],
+    "castTime": null
+  }
+]

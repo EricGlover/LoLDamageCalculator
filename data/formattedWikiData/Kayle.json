@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Radiant Blast",
+    "cost": [
+      70,
+      75,
+      80,
+      85,
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12,
+      11,
+      10,
+      9,
+      8
+    ],
+    "description": "Active: Kayle conjures a portal in front of her that faces the target direction. After a 0.25 second delay, a celestial sword launches forward from it.",
+    "leveling": "Magic Damage:60 / 100 / 140 / 180 / 220 (+ 60% bonus AD) (+ 50% AP)\nSlow:26 / 32 / 38 / 44 / 50%",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "true",
+    "flatDamage": [
+      60,
+      100,
+      140,
+      180,
+      220
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Celestial Blessing",
+    "cost": [
+      90,
+      100,
+      110,
+      120,
+      130
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      15
+    ],
+    "description": "Active: Kayle and the target allied champion are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healed and gain bonus movement speed for 2 seconds.",
+    "leveling": "Heal:60 / 90 / 120 / 150 / 180 (+ 30% AP)\nBonus Movement Speed:24 / 28 / 32 / 36 / 40% (+ 8% per 100 AP)",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      60,
+      90,
+      120,
+      150,
+      180
+    ],
+    "ratios": [
+      {
+        "value": 30,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Starfire Spellblade",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      8,
+      7,
+      7,
+      6,
+      6
+    ],
+    "description": "Passive: Kayle's basic attacks deal bonus magic damage on-hit. The fire waves from <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/57/Divine_Ascent.png/revision/latest/scale-to-width-down/20?cb=20190219193922\" \t alt=\"Divine Ascent\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Divine_Ascent.png\" \tdata-image-name=\"Divine Ascent.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Divine Ascent deal damage equal to this value.",
+    "leveling": "Passive Damage:15 / 20 / 25 / 30 / 35 (+ 10% bonus AD) (+ 25% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "true",
+    "flatDamage": [
+      15,
+      20,
+      25,
+      30,
+      35
+    ],
+    "ratios": [
+      {
+        "value": 10,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Divine Judgment",
+    "cost": [
+      100,
+      75,
+      50,
+      25,
+      0
+    ],
+    "costType": "mana",
+    "coolDown": [
+      160,
+      140,
+      120,
+      100,
+      80
+    ],
+    "description": "Active: At the start of the cast time, Kayle grants herself or the target allied champion <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c1/Cosmic_Radiance.png/revision/latest/scale-to-width-down/20?cb=20160608034537\" \t alt=\"Cosmic Radiance\"  \tclass=\"\" \t \tdata-image-key=\"Cosmic_Radiance.png\" \tdata-image-name=\"Cosmic Radiance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invulnerability for a few seconds, conjuring swords of holy fire, and highlighting the area around the target.",
+    "leveling": "Duration:2 / 2.25 / 2.5 / 2.75 / 3",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      2,
+      2.25,
+      2.5,
+      2.75,
+      3
+    ],
+    "ratios": [],
+    "castTime": 1.5
+  }
+]

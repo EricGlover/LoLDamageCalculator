@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Consume",
+    "cost": [
+      60
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12,
+      11,
+      10,
+      9,
+      8
+    ],
+    "description": "Active: Willump takes a bite out of the target enemy, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing himself. The heal is increased by 50% when below <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 50% of maximum health.",
+    "leveling": "Champion Damage:60 / 100 / 140 / 180 / 220 (+ 65% AP) (+ 5% bonus health)\nBase Healing from Champions:»60 / 88 / 116 / 144 / 172 (+ 72% AP) (+ 8% bonus health)«Empowered Healing from Champions:90 / 132 / 174 / 216 / 258 (+ 108% AP) (+ 12% bonus health)",
+    "skill": "Q",
+    "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Hybrid_penetration.png/revision/latest/scale-to-width-down/20?cb=20170514081634\" \t alt=\"Hybrid penetration\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration.png\" \tdata-image-name=\"Hybrid penetration.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> True damage / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic damage",
+    "isProjectile": "",
+    "flatDamage": [
+      60,
+      100,
+      140,
+      180,
+      220
+    ],
+    "ratios": [
+      {
+        "value": 65,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.3
+  },
+  {
+    "name": "Biggest Snowball Ever!",
+    "cost": [
+      50,
+      55,
+      60,
+      65,
+      70
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      14
+    ],
+    "description": "Active: Willump <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Remove_Scurvy.png/revision/latest/scale-to-width-down/20?cb=20150707190028\" \t alt=\"Remove Scurvy\"  \tclass=\"\" \t \tdata-image-key=\"Remove_Scurvy.png\" \tdata-image-name=\"Remove Scurvy.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> breaks free of active <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing effects, becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted, gains a slightly larger field of view, and conjures a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Biggest_Snowball_Ever%21_Minimap.png/revision/latest/scale-to-width-down/20?cb=20180815030908\" \t alt=\"Biggest Snowball Ever! Minimap\"  \tclass=\"\" \t \tdata-image-key=\"Biggest_Snowball_Ever%21_Minimap.png\" \tdata-image-name=\"Biggest Snowball Ever! Minimap.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> snowball that he <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> begins rolling in the direction of the cursor for up to 10 seconds, increasing in power over 5 seconds, while automatically navigating his movement. Its size radius also increases to 75 − 200 (based on charge time) units. He can steer with a slow turn rate that increases over time; changing direction resets the turn rate.",
+    "leveling": "Minimum Explosion Damage:»36 / 45 / 54 / 63 / 72 (+ 30% AP)«Maximum Explosion Damage:180 / 225 / 270 / 315 / 360 (+ 150% AP)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "False",
+    "flatDamage": [
+      36,
+      45,
+      54,
+      63,
+      72
+    ],
+    "ratios": [
+      {
+        "value": 30,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Snowball Barrage",
+    "cost": [
+      50,
+      55,
+      60,
+      65,
+      70
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      14
+    ],
+    "description": "Active: Nunu swiftly throws a volley of 3 snowballs in the target direction over 0.4 seconds, each snowball shattering upon hitting an enemy, dealing magic damage to enemies in a cone.",
+    "leveling": "Damage Per Snowball:»16 / 24 / 32 / 40 / 48 (+ 6% AP)«Damage Per Volley:»48 / 72 / 96 / 120 / 144 (+ 18% AP)«Total Magic Damage:144 / 216 / 288 / 360 / 432 (+ 54% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "true",
+    "flatDamage": [
+      16,
+      24,
+      32,
+      40,
+      48
+    ],
+    "ratios": [
+      {
+        "value": 6,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Absolute Zero",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      110,
+      105,
+      100,
+      95,
+      90
+    ],
+    "description": "Active: Nunu and Willump start <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channeling, sapping heat from the surrounding area for 3 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing enemies within by 0% − 95% (based on channel time), as well as gaining a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shield. The affected area is hidden if the duo is not <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible to the enemy team. Absolute Zero can be recast after 0.5 seconds.",
+    "leveling": "Shield:65 / 70 / 75 / 80 / 85 (+ 150% AP) (+ 30 / 35 / 40 / 45 / 50% bonus health)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      65,
+      70,
+      75,
+      80,
+      85
+    ],
+    "ratios": [
+      {
+        "value": 150,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  }
+]

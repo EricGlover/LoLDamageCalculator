@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Five Point Strike",
+    "cost": [
+      120,
+      115,
+      110,
+      105,
+      100
+    ],
+    "costType": "energy",
+    "coolDown": [
+      1
+    ],
+    "description": "Active: Akali throws a flurry of kunais in the target direction, dealing magic damage to enemies hit. Enemies hit at maximum range are also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed by 50% for 0.5 seconds.",
+    "leveling": "Magic Damage:30 / 55 / 80 / 105 / 130 (+ 65% AD) (+ 60% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      30,
+      55,
+      80,
+      105,
+      130
+    ],
+    "ratios": [
+      {
+        "value": 65,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25
+  },
+  {
+    "name": "Twilight Shroud",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      20
+    ],
+    "description": "Active: Akali restores <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7d/Energy_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203447\" \t alt=\"Energy icon\"  \tclass=\"\" \t \tdata-image-key=\"Energy_icon.png\" \tdata-image-name=\"Energy icon.png\" \t \t width=\"15\"  \t height=\"16\"  \t \t \t \t> 80 energy, gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed that decays over 2 seconds, and detonates a smoke bomb a fixed distance away in the target direction, creating a circular shroud that expands over the next 5 seconds into a ring. The shroud does not permeate terrain.",
+    "leveling": "Bonus Movement Speed:30 / 35 / 40 / 45 / 50%\nShroud Duration:5 / 5.5 / 6 / 6.5 / 7",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "ratios": [],
+    "castTime": 0.3
+  },
+  {
+    "name": "Shuriken Flip",
+    "cost": [
+      30
+    ],
+    "costType": "energy",
+    "coolDown": [
+      16,
+      14,
+      13,
+      11,
+      10
+    ],
+    "description": "Active: Akali <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> flips in the opposite direction and fires a shuriken in the target direction that stops upon hitting an enemy, dealing them magic damage.",
+    "leveling": "Magic Damage:50 / 85 / 120 / 155 / 190 (+ 35% AD) (+ 50% AP)",
+    "skill": "E",
+    "damageType": "magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      50,
+      85,
+      120,
+      155,
+      190
+    ],
+    "ratios": [
+      {
+        "value": 35,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.4
+  },
+  {
+    "name": "Perfect Execution",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      100,
+      90,
+      80,
+      70,
+      60
+    ],
+    "description": "Active: Akali <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes 675 −  825 (based on distance from target) units towards the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion, dealing physical damage to all enemies in her path.",
+    "leveling": "Physical Damage:125 / 175 / 225 / 275 / 325 (+ 50% bonus AD)",
+    "skill": "R",
+    "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      125,
+      175,
+      225,
+      275,
+      325
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  }
+]

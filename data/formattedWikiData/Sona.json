@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Hymn of Valor",
+    "cost": [
+      75,
+      80,
+      85,
+      90,
+      95
+    ],
+    "costType": "mana",
+    "coolDown": [
+      8,
+      7,
+      6,
+      4
+    ],
+    "description": "Active: Sona sends out bolts of sound that deal magic damage to the two nearest <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible enemies, prioritizing champions.",
+    "leveling": "Magic Damage:40 / 70 / 100 / 130 / 160 (+ 40% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      40,
+      70,
+      100,
+      130,
+      160
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Aria of Perseverance",
+    "cost": [
+      105,
+      110,
+      115,
+      120,
+      125
+    ],
+    "costType": "mana",
+    "coolDown": [
+      10,
+      9,
+      7,
+      6
+    ],
+    "description": "Active: Sona <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals herself and the most wounded nearby allied champion.",
+    "leveling": "Heal:30 / 50 / 70 / 90 / 110 (+ 20% AP)",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      30,
+      50,
+      70,
+      90,
+      110
+    ],
+    "ratios": [
+      {
+        "value": 20,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Song of Celerity",
+    "cost": [
+      90
+    ],
+    "costType": "mana",
+    "coolDown": [
+      12,
+      10,
+      9,
+      7
+    ],
+    "description": "Active: Sona gains 20% (+ 2% per 100 AP) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed for 3 seconds, extended to up to 7 seconds if she doesn't take damage.",
+    "leveling": "Aura Bonus Movement Speed:10 / 11 / 12 / 13 / 14% (+ 2% per 100 AP)",
+    "skill": "E",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "ratios": [
+      {
+        "value": 2,
+        "type": "bonus ad"
+      },
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null
+  },
+  {
+    "name": "Crescendo",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      140,
+      120,
+      100
+    ],
+    "description": "Passive: Reduces the base <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown of Sona's basic abilities.",
+    "leveling": "Basic Ability Base Cooldown Reduction:10 / 25 / 40%",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      10,
+      25,
+      40
+    ],
+    "ratios": [],
+    "castTime": 0.2
+  }
+]

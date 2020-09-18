@@ -1,0 +1,63 @@
+{
+  "abilities": null,
+  "id": "MissFortune",
+  "key": "21",
+  "name": "Miss Fortune",
+  "title": "the Bounty Hunter",
+  "blurb": "A Bilgewater captain famed for her looks but feared for her ruthlessness, Sarah Fortune paints a stark figure among the hardened criminals of the port city. As a child, she witnessed the reaver king Gangplank murder her family—an act she brutally...",
+  "info": {
+    "attack": 8,
+    "defense": 2,
+    "magic": 5,
+    "difficulty": 1
+  },
+  "image": {
+    "full": "MissFortune.png",
+    "sprite": "champion2.png",
+    "group": "champion",
+    "x": 144,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Marksman"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 570,
+    "hpPerLevel": 93,
+    "mp": 325.84,
+    "mpPerLevel": 35,
+    "moveSpeed": 325,
+    "armor": 28,
+    "armorPerLevel": 3,
+    "spellBlock": 30,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 550,
+    "hpRegen": 3.75,
+    "hpRegenPerLevel": 0.65,
+    "mpRegen": 8.042,
+    "mpRegenPerLevel": 0.65,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 52,
+    "attackDamagePerLevel": 2.7,
+    "attackSpeedPerLevel": 3,
+    "attackSpeed": 0.656
+  },
+  "_level": 1,
+  "attackRange": 550,
+  "moveSpeed": 325,
+  "hp": 570,
+  "mp": 325.84,
+  "hpRegen": 3.75,
+  "mpRegen": 8.042,
+  "crit": 0,
+  "attackDamage": 52,
+  "attackSpeed": 0.656,
+  "armor": 28,
+  "spellBlock": 30
+}
