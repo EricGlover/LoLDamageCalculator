@@ -3,10 +3,17 @@ const fs = require('fs');
 const Ability = require('./Ability.js');
 const Champion = require('./Champion.js');
 
+class WikiScraperError {
+    constructor(e, info) {
+        this.e = e;
+        this.info = info;
+    }
+}
 class WikiScraper {
     constructor() {
         this.browser = null;
         this.templatePage = "https://leagueoflegends.fandom.com/wiki/Template:Ability_data";
+        this.errors = [];
     }
     async getBrowser() {
         if(this.browser === null) {
@@ -49,15 +56,24 @@ class WikiScraper {
 
     async scrapeChampionAbilities(championName) {
         console.log(`fetching champion abilities for ${championName}`);
-        const abilityNames = await this.scrapeChampionAbilityNames(championName);
-
+        let abilityNames;
+        try {
+            abilityNames = await this.scrapeChampionAbilityNames(championName);
+        } catch(e) {
+            this.errors.push(new WikiScraperError(e, {fn: 'scrapeChampionAbilities', championName, info: 'error getting ability names'}))
+            throw e;
+        }
         const abilities = [];
-
         for (const [_, name] of Object.entries(abilityNames)) {
-            // console.log(name);
-            console.log(`Fetching ability ${name}`);
-            let data = await this.scrapeAbility(name, championName);
-            abilities.push(data);
+            try {
+                // console.log(name);
+                console.log(`Fetching ability ${name}`);
+                let data = await this.scrapeAbility(name, championName);
+                abilities.push(data);
+            } catch (e) {
+                console.error(`error scraping ${name} for ${championName}`)
+                this.errors.push(new WikiScraperError(e, {fn: 'scrapeChampionAbilities', championName, name, info: 'error scraping Ability'}));
+            }
         }
         return abilities;
     }
@@ -111,9 +127,28 @@ class WikiScraper {
                 let abilities = await this.scrapeChampionAbilities(name, browser);
                 allAbilities.push(abilities);
             } catch(e) {
-                console.error(`Error scraping data for ${name}`)
+                console.error(`Error scraping data for ${name}`);
+                this.errors.push(new WikiScraperError(e, {fn: 'scrapeChampionsAbilities', name}));
             }
         }
+        return allAbilities;
+    }
+    async scrapeChampionsAbilitiesParallel(championNames) {
+        const allAbilities = [];
+        const browser = await this.getBrowser();
+        const calls = [];
+        for(const [_, name] of Object.entries(championNames)) {
+            calls.push(this.scrapeChampionAbilities(name, browser));
+            // try {
+            //     let abilities = await
+            //     allAbilities.push(abilities);
+            // } catch(e) {
+            //     console.error(`Error scraping data for ${name}`);
+            //     this.errors.push(e);
+            // }
+        }
+        const results = await Promise.allSettled(calls);
+        console.log(results[0]);
         return allAbilities;
     }
 

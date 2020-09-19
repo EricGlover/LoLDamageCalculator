@@ -29,7 +29,6 @@ async function printToFilePath(filePath, data) {
         });
     })
 }
-
 async function main() {
     let browser;
     try {
@@ -40,9 +39,11 @@ async function main() {
         // console.log(await importer.loadChampionNames());
         // todo:: redo that formatting champion stuff
         // todo:: find all the errors
-        const championNames = await importer.loadChampionNames();
+        let championNames = await importer.loadChampionNames();
+        championNames = championNames.slice(0,20);
         const abilities = await scraper.scrapeChampionsAbilities(championNames);
-        console.log(abilities);
+        // console.log(abilities);
+        console.log(scraper.errors);
         await scraper.cleanUp();
         return;
 
