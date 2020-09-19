@@ -1,0 +1,155 @@
+[
+  WikiScraperError {
+    e: TypeError: Cannot read property '$$eval' of null
+        at WikiScraper.scrapeAbility (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:89:32)
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (internal/process/task_queues.js:97:5)
+        at async WikiScraper.scrapeChampionAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:71:28)
+        at async WikiScraper.scrapeChampionsAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:127:33)
+        at async main (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/scrapeWiki.js:44:27),
+    info: {
+      fn: 'scrapeChampionAbilities',
+      championName: 'Annie',
+      name: 'Summon Tibbers,Command Tibbers',
+      info: 'error scraping Ability'
+    }
+  },
+  WikiScraperError {
+    e: TypeError: Cannot read property '$$eval' of null
+        at WikiScraper.scrapeAbility (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:89:32)
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (internal/process/task_queues.js:97:5)
+        at async WikiScraper.scrapeChampionAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:71:28)
+        at async WikiScraper.scrapeChampionsAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:127:33)
+        at async main (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/scrapeWiki.js:44:27),
+    info: {
+      fn: 'scrapeChampionAbilities',
+      championName: 'Aphelios',
+      name: 'Weapons of the Faithful,Moonshot,Onslaught,Binding Eclipse,Duskwave,Sentry',
+      info: 'error scraping Ability'
+    }
+  },
+  WikiScraperError {
+    e: TypeError: Cannot read property '$$eval' of null
+        at WikiScraper.scrapeAbility (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:89:32)
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (internal/process/task_queues.js:97:5)
+        at async WikiScraper.scrapeChampionAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:71:28)
+        at async WikiScraper.scrapeChampionsAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:127:33)
+        at async main (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/scrapeWiki.js:44:27),
+    info: {
+      fn: 'scrapeChampionAbilities',
+      championName: 'Ashe',
+      name: "Ranger's Focus,Ranger's Focus 2",
+      info: 'error scraping Ability'
+    }
+  },
+  WikiScraperError {
+    e: TypeError: Cannot read property '$$eval' of null
+        at WikiScraper.scrapeChampionAbilityNames (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:214:39)
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (internal/process/task_queues.js:97:5)
+        at async WikiScraper.scrapeChampionAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:61:28)
+        at async WikiScraper.scrapeChampionsAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:127:33)
+        at async main (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/scrapeWiki.js:44:27),
+    info: {
+      fn: 'scrapeChampionAbilities',
+      championName: 'AurelionSol',
+      info: 'error getting ability names'
+    }
+  },
+  WikiScraperError {
+    e: TypeError: Cannot read property '$$eval' of null
+        at WikiScraper.scrapeChampionAbilityNames (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:214:39)
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (internal/process/task_queues.js:97:5)
+        at async WikiScraper.scrapeChampionAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:61:28)
+        at async WikiScraper.scrapeChampionsAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:127:33)
+        at async main (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/scrapeWiki.js:44:27),
+    info: { fn: 'scrapeChampionsAbilities', name: 'AurelionSol' }
+  },
+  WikiScraperError {
+    e: TypeError: Cannot read property '$$eval' of null
+        at WikiScraper.scrapeAbility (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:89:32)
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (internal/process/task_queues.js:97:5)
+        at async WikiScraper.scrapeChampionAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:71:28)
+        at async WikiScraper.scrapeChampionsAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:127:33)
+        at async main (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/scrapeWiki.js:44:27),
+    info: {
+      fn: 'scrapeChampionAbilities',
+      championName: 'Camille',
+      name: 'Precision Protocol,Precision Protocol 2,Precision Protocol 3',
+      info: 'error scraping Ability'
+    }
+  },
+  WikiScraperError {
+    e: TypeError: Cannot read property '$$eval' of null
+        at WikiScraper.scrapeAbility (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:89:32)
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (internal/process/task_queues.js:97:5)
+        at async WikiScraper.scrapeChampionAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:71:28)
+        at async WikiScraper.scrapeChampionsAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:127:33)
+        at async main (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/scrapeWiki.js:44:27),
+    info: {
+      fn: 'scrapeChampionAbilities',
+      championName: 'Camille',
+      name: 'Hookshot,Wall Dive',
+      info: 'error scraping Ability'
+    }
+  },
+  WikiScraperError {
+    e: TypeError: Cannot read property '$$eval' of null
+        at WikiScraper.scrapeChampionAbilityNames (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:214:39)
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (internal/process/task_queues.js:97:5)
+        at async WikiScraper.scrapeChampionAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:61:28)
+        at async WikiScraper.scrapeChampionsAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:127:33)
+        at async main (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/scrapeWiki.js:44:27),
+    info: {
+      fn: 'scrapeChampionAbilities',
+      championName: 'Chogath',
+      info: 'error getting ability names'
+    }
+  },
+  WikiScraperError {
+    e: TypeError: Cannot read property '$$eval' of null
+        at WikiScraper.scrapeChampionAbilityNames (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:214:39)
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (internal/process/task_queues.js:97:5)
+        at async WikiScraper.scrapeChampionAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:61:28)
+        at async WikiScraper.scrapeChampionsAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:127:33)
+        at async main (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/scrapeWiki.js:44:27),
+    info: { fn: 'scrapeChampionsAbilities', name: 'Chogath' }
+  },
+  WikiScraperError {
+    e: TypeError: Cannot read property '$$eval' of null
+        at WikiScraper.scrapeAbility (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:89:32)
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (internal/process/task_queues.js:97:5)
+        at async WikiScraper.scrapeChampionAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:71:28)
+        at async WikiScraper.scrapeChampionsAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:127:33)
+        at async main (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/scrapeWiki.js:44:27),
+    info: {
+      fn: 'scrapeChampionAbilities',
+      championName: 'Corki',
+      name: 'Valkyrie,Special Delivery',
+      info: 'error scraping Ability'
+    }
+  },
+  WikiScraperError {
+    e: TypeError: Cannot read property '$$eval' of null
+        at WikiScraper.scrapeAbility (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:89:32)
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (internal/process/task_queues.js:97:5)
+        at async WikiScraper.scrapeChampionAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:71:28)
+        at async WikiScraper.scrapeChampionsAbilities (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/WikiScraper.js:127:33)
+        at async main (/Users/ericglover/Desktop/Programming/LoLDamageCalculator/scrapeWiki.js:44:27),
+    info: {
+      fn: 'scrapeChampionAbilities',
+      championName: 'Corki',
+      name: 'Missile Barrage,Big One',
+      info: 'error scraping Ability'
+    }
+  }
+]
