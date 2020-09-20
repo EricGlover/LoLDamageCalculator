@@ -50,8 +50,10 @@
       ],
       "ratios": [
         {
-          "value": 100,
-          "type": "bonus ad"
+          "value": [
+            100
+          ],
+          "type": "ad"
         }
       ],
       "castTime": 0.4,
@@ -93,24 +95,34 @@
       ],
       "ratios": [
         {
-          "value": 11,
-          "type": "bonus ad"
+          "value": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "type": "maximum health"
         },
         {
-          "value": 12,
-          "type": "bonus ad"
+          "value": [
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5
+          ],
+          "type": "maximum health"
         },
         {
-          "value": 13,
-          "type": "bonus ad"
-        },
-        {
-          "value": 14,
-          "type": "bonus ad"
-        },
-        {
-          "value": 15,
-          "type": "bonus ad"
+          "value": [
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5
+          ],
+          "type": "maximum health"
         }
       ],
       "castTime": 0.5,
@@ -196,8 +208,22 @@
       ],
       "ratios": [
         {
-          "value": 80,
-          "type": "bonus ad"
+          "value": [
+            80
+          ],
+          "type": "ad"
+        },
+        {
+          "value": [
+            40
+          ],
+          "type": "ad"
+        },
+        {
+          "value": [
+            40
+          ],
+          "type": "ad"
         }
       ],
       "castTime": 0.75,

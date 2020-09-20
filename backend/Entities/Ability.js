@@ -84,34 +84,47 @@ class Ability {
             // console.error("leveling null ? ", v);
             console.error("leveling null ? ");
         } else {
+            let numberRgx = /\d+\.?\d*/g;
+
+
             // extract leveling data
             // let s = "Physical Damage:»50 / 90 / 130 / 170 / 210 (+ 130 / 140 / 150 / 160 / 170% AD)";
-            let numberRgx = /\d+\.?\d*/g;
-            let ratioRegex = /\([^\)]+\)/g;
-            let ratioStr = null;
-            let ratioType = null;
-            if(ratioRegex.test(leveling)) {
-                ratioStr = leveling.match(ratioRegex)[0];
-                if (/bonus ad/) {
-                    ratioType = 'bonus ad';
-                }else if(/ad/i.test(ratioStr)) {
-                    ratioType = 'ad';
-                } else if (/ap/i.test(ratioStr)) {
-                    ratioType = 'ap';
-                }
-            }
-            ratios = [];
-            if(ratioStr && numberRgx.test(ratioStr)) {
-                try {
-                    ratios = ratioStr.match(numberRgx).map(n => new Ratio(Number.parseFloat(n), ratioType));
-                } catch(e) {
-                    ratios = [];
-                    console.error(`${e}\n\n ${ratioStr} ${leveling}`);
-                    console.error(ratioStr.match(numberRgx), numberRgx.test(ratioStr));
-                }
-
-            }
-             flatDamage = leveling.match(numberRgx).slice(0, 5).map(n => Number.parseFloat(n));
+            // let numberRgx = /\d+\.?\d*/g;
+            // let ratioRegex = /\([^\)]+\)/g;
+            // let ratioStr = null;
+            // let ratioType = null;
+            // let adReg = /ad/i;
+            // let bonusAdReg = /bonus ad/i;
+            // let apReg = /ap/i;
+            // let bonusApReg = /bonus ap/i;
+            // let armorReg = /armor/i;
+            // let bonusArmorReg = /bonus armor/i;
+            // let mrReg = /magic resistance/i;
+            // let bonusMrReg = /bonus magic resistance/i;
+            // let maxHealthReg = /maximum health/i;
+            // if(ratioRegex.test(leveling)) {
+            //     ratioStr = leveling.match(ratioRegex)[0];
+            //     if (/bonus ad/) {
+            //         ratioType = 'bonus ad';
+            //     }else if(/ad/i.test(ratioStr)) {
+            //         ratioType = 'ad';
+            //     } else if (/ap/i.test(ratioStr)) {
+            //         ratioType = 'ap';
+            //     }
+            // }
+            // ratios = [];
+            // if(ratioStr && numberRgx.test(ratioStr)) {
+            //     try {
+            //         ratios = ratioStr.match(numberRgx).map(n => new Ratio(Number.parseFloat(n), ratioType));
+            //     } catch(e) {
+            //         ratios = [];
+            //         console.error(`${e}\n\n ${ratioStr} ${leveling}`);
+            //         console.error(ratioStr.match(numberRgx), numberRgx.test(ratioStr));
+            //     }
+            //
+            // }
+            ratios = formatter.makeRatioFromLevelingDescription(leveling);
+            flatDamage = leveling.match(numberRgx).slice(0, 5).map(n => Number.parseFloat(n));
         }
         let castTime = Number.parseFloat(v['cast time']);
         let levelings = [];

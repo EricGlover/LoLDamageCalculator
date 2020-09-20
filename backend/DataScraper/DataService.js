@@ -1,3 +1,6 @@
+const Importer = require('./Importer.js');
+const Exporter = require('./Exporter.js');
+const Ability = require('../Entities/Ability.js');
 
 class DataService {
     async formatChampions() {
@@ -38,7 +41,6 @@ class DataService {
             const exporter = new Exporter();
 
             for (let [name, abilityData] of map.entries()) {
-                // abilityData =map.get('Nasus');
                 const formatted = [];
                 try {
                     console.log(name);
@@ -50,7 +52,6 @@ class DataService {
                     continue;
                 }
                 await exporter.saveFormattedAbilityData(name, formatted);
-                // return;
             }
             console.log("formatted ability data saved.");
         } catch(e) {

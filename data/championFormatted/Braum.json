@@ -59,8 +59,10 @@
       ],
       "ratios": [
         {
-          "value": 2.5,
-          "type": "bonus ad"
+          "value": [
+            2.5
+          ],
+          "type": "maximum health"
         }
       ],
       "castTime": 0.25,
@@ -102,8 +104,28 @@
       ],
       "ratios": [
         {
-          "value": 36,
-          "type": "bonus ad"
+          "value": [
+            36
+          ],
+          "type": "bonus armor"
+        },
+        {
+          "value": [
+            36
+          ],
+          "type": "bonus magic resistance"
+        },
+        {
+          "value": [
+            12
+          ],
+          "type": "bonus armor"
+        },
+        {
+          "value": [
+            12
+          ],
+          "type": "bonus magic resistance"
         }
       ],
       "castTime": null,
@@ -191,8 +213,10 @@
       ],
       "ratios": [
         {
-          "value": 60,
-          "type": "bonus ad"
+          "value": [
+            60
+          ],
+          "type": "ap"
         }
       ],
       "castTime": 0.5,

@@ -24,12 +24,18 @@ class WikiScraper {
         this.templatePage = "https://leagueoflegends.fandom.com/wiki/Template:Ability_data";
         this.errors = [];
     }
+
     async cleanUp() {
         if(this.browser) {
             await this.browser.close();
             this.browser = null;
         }
     }
+
+    async scrapeItemData() {
+
+    }
+
     async scrapeTemplate() {
         console.log("Fetching template");
         const browser = await this._getBrowser();
@@ -56,6 +62,7 @@ class WikiScraper {
         // await printToFile('template', JSON.stringify(dataObj, null, 2));
         // console.log("Template data written");
     }
+
     /**
      * Get champion abilities from the wiki data page on that champion
      * championUrl is to their data template page

@@ -51,7 +51,12 @@
         90,
         110
       ],
-      "ratios": [],
+      "ratios": [
+        {
+          "value": [],
+          "type": ""
+        }
+      ],
       "castTime": null,
       "icon": "Siphoning Strike.png",
       "icons": [
@@ -131,8 +136,10 @@
       ],
       "ratios": [
         {
-          "value": 60,
-          "type": "bonus ad"
+          "value": [
+            60
+          ],
+          "type": "ap"
         }
       ],
       "castTime": 0.25,

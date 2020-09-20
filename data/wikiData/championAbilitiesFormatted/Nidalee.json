@@ -54,8 +54,16 @@
     ],
     "ratios": [
       {
-        "value": 50,
-        "type": "bonus ad"
+        "value": [
+          50
+        ],
+        "type": "ap"
+      },
+      {
+        "value": [
+          150
+        ],
+        "type": "ap"
       }
     ],
     "castTime": 0.25,
@@ -101,8 +109,16 @@
     ],
     "ratios": [
       {
-        "value": 5,
-        "type": "bonus ad"
+        "value": [
+          5
+        ],
+        "type": "ap"
+      },
+      {
+        "value": [
+          20
+        ],
+        "type": "ap"
       }
     ],
     "castTime": 0.25,
@@ -145,8 +161,16 @@
     ],
     "ratios": [
       {
-        "value": 32.5,
-        "type": "bonus ad"
+        "value": [
+          32.5
+        ],
+        "type": "ap"
+      },
+      {
+        "value": [
+          65
+        ],
+        "type": "ap"
       }
     ],
     "castTime": 0.25,

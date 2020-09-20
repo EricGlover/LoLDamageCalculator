@@ -54,8 +54,20 @@
       ],
       "ratios": [
         {
-          "value": 100,
-          "type": "bonus ad"
+          "value": [
+            100
+          ],
+          "type": "ap"
+        },
+        {
+          "value": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "type": "maximum health"
         }
       ],
       "castTime": null,
@@ -186,7 +198,9 @@
       ],
       "ratios": [
         {
-          "value": 167,
+          "value": [
+            167
+          ],
           "type": "bonus ad"
         }
       ],

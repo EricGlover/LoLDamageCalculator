@@ -130,8 +130,16 @@
       ],
       "ratios": [
         {
-          "value": 50,
-          "type": "bonus ad"
+          "value": [
+            50
+          ],
+          "type": "ap"
+        },
+        {
+          "value": [
+            50
+          ],
+          "type": "bonus armor"
         }
       ],
       "castTime": null,
