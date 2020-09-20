@@ -1,0 +1,1192 @@
+[
+  {
+    "1": {
+      "value": "Prophet of an Elder God",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Prophet of an Elder God."
+    },
+    "champion": {
+      "value": "Illaoi",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "I",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "1000",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "20 − 12 (based on level)",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Prophet of an Elder God.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Illaoi and the Vessels she creates spawn Tentacles on nearby impassible terrain. Tentacles swing at spirits, Vessels, and victims of Illaoi's Harsh lesson. Tentacles deal physical damage to enemies hit, and will heal Illaoi if they damage a champion.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Innate: Periodically, Illaoi spawns a Tentacle on a nearby impassable terrain if no other Tentacles are nearby. Tentacles fully spawn after a 2 second delay and are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable in the meantime.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Tentacles deal 10 − 180 (based on level) (+ 120% AD) (+ 40% AP) physical damage to all enemies struck when commanded to attack by her abilities. Each Tentacle also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals Illaoi for 5% of her missing health if it hits at least one enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion. See Pet Details for more details.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Passive",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Physical",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Area of effect",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "Special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "False",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Tentacles do not spawn in the Nexus Obelisk's attack range and on ally invulnerable <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> structures.\n Impassable terrain also includes player-made terrain and terrain that is passable by a team but not by the other, for example base gates.\n The Tentacle will continue its spawn animation and be able to start an attack, after the animation ends, even if Illaoi or a Vessel are not nearby.\n If Illaoi uses <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d3/Harsh_Lesson.png/revision/latest/scale-to-width-down/20?cb=20171221041202\" \t alt=\"Harsh Lesson\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Harsh_Lesson.png\" \tdata-image-name=\"Harsh Lesson.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Harsh Lesson during Tentacles' spawn animation, they won't attack but the SFX of the attack will still be heard.\n If this happens, after the Tentacle finishes its spawn animation, it will be unable to start an attack for its remaining attack SFX.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Tentacle Smash",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Tentacle Smash."
+    },
+    "champion": {
+      "value": "Illaoi",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "Q",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "825",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "210",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.75",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "40 / 45 / 50 / 55 / 60",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "10 / 9 / 8 / 7 / 6",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "false",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Increases the damage dealt by Tentacles. When activated, Illaoi smashes down a Tentacle that deals physical damage.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Passive: Tentacles deal increased damage.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Damage Increase:10 / 15 / 20 / 25 / 30%",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "Tentacle Smash.png",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Active: Illaoi slams her idol into the ground, summoning a Tentacle that slams down in the target direction, dealing physical damage before disappearing.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Physical",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Area of effect",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "False",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Getting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displaced during the cast time will not change the indicator on the ground, but it will change the damaged area, while still being directed towards the previous pointed location.\n If Illaoi is not <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible, the slam will be seen but it will not be heard.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Harsh Lesson",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Harsh Lesson."
+    },
+    "champion": {
+      "value": "Illaoi",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "W",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "30",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "4",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Harsh Lesson.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Illaoi leaps to her target, dealing physical damage and causing nearby Tentacles to also swing at the target.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Illaoi's next basic attack within 6 seconds gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 225 bonus range and causes her to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leap to her target's location if they're beyond her normal basic attack range.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "The attack deals bonus physical damage, with a minimum threshold, and capped at 300 against non-champions, and commands all Tentacles in range to attack her target. The minimum bonus damage can also be applied against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> turrets.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Bonus Physical Damage:3 / 3.5 / 4 / 4.5 / 5% (+ 2% per 100 AD) of target's maximum health\nMinimum Physical Damage:20 / 30 / 40 / 50 / 60",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Harsh Lesson <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resets Illaoi's basic attack timer.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "Harsh Lesson can be activated during Illaoi's other abilities, other than while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ec/Test_of_Spirit.png/revision/latest/scale-to-width-down/20?cb=20171221041654\" \t alt=\"Test of Spirit\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Test_of_Spirit.png\" \tdata-image-name=\"Test of Spirit.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> pulling a Spirit.",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "None",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Physical",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "spell",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "Special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Since the attack applies both on-hit effects and spell effects, it will trigger <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/Muramana_item.png/revision/latest/scale-to-width-down/20?cb=20171221224035\" \t alt=\"Muramana item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Muramana_item.png\" \tdata-image-name=\"Muramana item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Muramana twice.\n The bonus damage doesn't apply <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Life_steal_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Life steal icon\"  \tclass=\"\" \t \tdata-image-key=\"Life_steal_icon.png\" \tdata-image-name=\"Life steal icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> life steal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing but it does apply <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f2/Spell_vamp_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203541\" \t alt=\"Spell vamp icon\"  \tclass=\"\" \t \tdata-image-key=\"Spell_vamp_icon.png\" \tdata-image-name=\"Spell vamp icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> spell vamp.\n Harsh Lesson is made of two different abilities which are decided by Illaoi's range to the target, being either <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2d/Melee_role.png/revision/latest/scale-to-width-down/20?cb=20170624104045\" \t alt=\"Melee role\"  \tclass=\"\" \t \tdata-image-key=\"Melee_role.png\" \tdata-image-name=\"Melee role.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> melee or within <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dash range.\n The close range ability:\n Is an <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Excessive_Force_2.png/revision/latest/scale-to-width-down/20?cb=20160608034953\" \t alt=\"Excessive Force 2\"  \tclass=\"\" \t \tdata-image-key=\"Excessive_Force_2.png\" \tdata-image-name=\"Excessive Force 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unstoppable basic attack.\n Can be used while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Grounded_icon.png/revision/latest/scale-to-width-down/20?cb=20160509000039\" \t alt=\"Grounded icon\"  \tclass=\"\" \t \tdata-image-key=\"Grounded_icon.png\" \tdata-image-name=\"Grounded icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> grounded or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooted. If Illaoi attack commands and then casts Harsh Lesson, she will use the close range Harsh Lesson even if the target is beyond her melee range.\n Starting the attack before triggering <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/Guardian_Angel_item.png/revision/latest/scale-to-width-down/20?cb=20171221184244\" \t alt=\"Guardian Angel item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Guardian_Angel_item.png\" \tdata-image-name=\"Guardian Angel item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Guardian Angel's passive and hitting while she's in it will not cause the Tentacles to slam.\n Starting the attack before the target becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable will still cause the Tentacles to slam the target.\n Does trigger <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2e/Hail_of_Blades_rune.png/revision/latest/scale-to-width-down/20?cb=20180505140825\" \t alt=\"Hail of Blades rune\"  \tclass=\"\" \t \tdata-image-key=\"Hail_of_Blades_rune.png\" \tdata-image-name=\"Hail of Blades rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hail of Blades.\n Triggers <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Kircheis_Shard_item.png/revision/latest/scale-to-width-down/20?cb=20171221190419\" \t alt=\"Kircheis Shard item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Kircheis_Shard_item.png\" \tdata-image-name=\"Kircheis Shard item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Energized effects on-hit.\n Using it at the same time with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Ravenous_Hydra_item.png/revision/latest/scale-to-width-down/20?cb=20171221230725\" \t alt=\"Ravenous Hydra item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ravenous_Hydra_item.png\" \tdata-image-name=\"Ravenous Hydra item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ravenous Hydra will perform an unusual dunk.\n If the empowered attack duration ends during the attack animation, the attack won't be empowered.\n\n The dash range ability:\n Is not unstoppable, meaning effects that can interrupt the dash will cancel the attack and put the ability on cooldown. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flash and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b5/Zhonya%27s_Hourglass_item.png/revision/latest/scale-to-width-down/20?cb=20171222002747\" \t alt=\"Zhonya&amp;#039;s Hourglass item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zhonya%27s_Hourglass_item.png\" \tdata-image-name=\"Zhonya&#39;s Hourglass item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Zhonya's Hourglass cannot be used during the dash.\n Cannot be used while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Grounded_icon.png/revision/latest/scale-to-width-down/20?cb=20160509000039\" \t alt=\"Grounded icon\"  \tclass=\"\" \t \tdata-image-key=\"Grounded_icon.png\" \tdata-image-name=\"Grounded icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> grounded or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooted because Illaoi loses the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack range.\n Starting the attack before the target becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable will not make Tentacles slam.\n Does not trigger <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2e/Hail_of_Blades_rune.png/revision/latest/scale-to-width-down/20?cb=20180505140825\" \t alt=\"Hail of Blades rune\"  \tclass=\"\" \t \tdata-image-key=\"Hail_of_Blades_rune.png\" \tdata-image-name=\"Hail of Blades rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hail of Blades.\n Triggers <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Kircheis_Shard_item.png/revision/latest/scale-to-width-down/20?cb=20171221190419\" \t alt=\"Kircheis Shard item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Kircheis_Shard_item.png\" \tdata-image-name=\"Kircheis Shard item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Energized effects during the jump.\n Having enough attack speed will perform an unusual dunk.\n Having increased size will increase the range of her Harsh Lesson but the indicator range will not change.\n If the empowered attack duration ends during the dash, the buff will linger until the attack has finished.\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shields will block the bonus damage but will not prevent the Tentacle slam, unless a dash range Harsh Lesson has been used, in which case the bonus damage is not blocked but the spell shield is still consumed.\n Parries (<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/66/Counter_Strike.png/revision/latest/scale-to-width-down/20?cb=20171223030746\" \t alt=\"Counter Strike\"  \tclass=\"\" \t \tdata-image-key=\"Counter_Strike.png\" \tdata-image-name=\"Counter Strike.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dodge, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5e/Spirit%27s_Refuge.png/revision/latest/scale-to-width-down/20?cb=20170217191016\" \t alt=\"Spirit&amp;#039;s Refuge\"  \tclass=\"\" \t \tdata-image-key=\"Spirit%27s_Refuge.png\" \tdata-image-name=\"Spirit&#39;s Refuge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> block, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/81/Blind_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224954\" \t alt=\"Blind icon\"  \tclass=\"\" \t \tdata-image-key=\"Blind_icon.png\" \tdata-image-name=\"Blind icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blind) will block the damage and will not trigger <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/87/Prophet_of_an_Elder_God.png/revision/latest/scale-to-width-down/20?cb=20171221041357\" \t alt=\"Prophet of an Elder God\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Prophet_of_an_Elder_God.png\" \tdata-image-name=\"Prophet of an Elder God.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tentacle slams, with the exception of:\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5e/Spirit%27s_Refuge.png/revision/latest/scale-to-width-down/20?cb=20170217191016\" \t alt=\"Spirit&amp;#039;s Refuge\"  \tclass=\"\" \t \tdata-image-key=\"Spirit%27s_Refuge.png\" \tdata-image-name=\"Spirit&#39;s Refuge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Block when using a close range Harsh Lesson, which triggers <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/87/Prophet_of_an_Elder_God.png/revision/latest/scale-to-width-down/20?cb=20171221041357\" \t alt=\"Prophet of an Elder God\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Prophet_of_an_Elder_God.png\" \tdata-image-name=\"Prophet of an Elder God.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tentacle slams.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/81/Blind_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224954\" \t alt=\"Blind icon\"  \tclass=\"\" \t \tdata-image-key=\"Blind_icon.png\" \tdata-image-name=\"Blind icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Blind when using a dash range Harsh Lesson, which triggers <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/87/Prophet_of_an_Elder_God.png/revision/latest/scale-to-width-down/20?cb=20171221041357\" \t alt=\"Prophet of an Elder God\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Prophet_of_an_Elder_God.png\" \tdata-image-name=\"Prophet of an Elder God.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tentacle slams.\n\n If the target dies at the moment Harsh Lesson hits the target, it will be consumed and put on cooldown, without making Tentacles slam.\n The Tentacle attacking because of Harsh Lesson is considered to be part of it, and thus will not grant additional stacks of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Conqueror_rune.png/revision/latest/scale-to-width-down/20?cb=20180314225947\" \t alt=\"Conqueror rune\"  \tclass=\"\" \t \tdata-image-key=\"Conqueror_rune.png\" \tdata-image-name=\"Conqueror rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Conqueror, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0a/Electrocute_rune.png/revision/latest/scale-to-width-down/20?cb=20171126182032\" \t alt=\"Electrocute rune\"  \tclass=\"\" \t \tdata-image-key=\"Electrocute_rune.png\" \tdata-image-name=\"Electrocute rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Electrocute, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/79/Phase_Rush_rune.png/revision/latest/scale-to-width-down/20?cb=20171126182204\" \t alt=\"Phase Rush rune\"  \tclass=\"\" \t \tdata-image-key=\"Phase_Rush_rune.png\" \tdata-image-name=\"Phase Rush rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Phase Rush and Tribute.\n Using it together with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/22/Dead_Man%27s_Plate_item.png/revision/latest/scale-to-width-down/20?cb=20171221062439\" \t alt=\"Dead Man&amp;#039;s Plate item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dead_Man%27s_Plate_item.png\" \tdata-image-name=\"Dead Man&#39;s Plate item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dead Man's Plate will grant an additional stack of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Conqueror_rune.png/revision/latest/scale-to-width-down/20?cb=20180314225947\" \t alt=\"Conqueror rune\"  \tclass=\"\" \t \tdata-image-key=\"Conqueror_rune.png\" \tdata-image-name=\"Conqueror rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Conqueror.\n Harsh Lesson's bonus damage applies before <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2f/Blade_of_the_Ruined_King_item.png/revision/latest/scale-to-width-down/20?cb=20171221055759\" \t alt=\"Blade of the Ruined King item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blade_of_the_Ruined_King_item.png\" \tdata-image-name=\"Blade of the Ruined King item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Blade of the Ruined King's damage.\n Harsh Lesson triggers <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Bone_Plating_rune.png/revision/latest/scale-to-width-down/20?cb=20180209233224\" \t alt=\"Bone Plating rune\"  \tclass=\"\" \t \tdata-image-key=\"Bone_Plating_rune.png\" \tdata-image-name=\"Bone Plating rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bone Plating and one of its plates with the same attack.\n Attack moving while charging <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Hexflash.png/revision/latest/scale-to-width-down/20?cb=20180514003331\" \t alt=\"Hexflash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hexflash.png\" \tdata-image-name=\"Hexflash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hexflash will delay the attack.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Test of Spirit",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Test of Spirit."
+    },
+    "champion": {
+      "value": "Illaoi",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "E",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "900",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "100",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "1500",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "1900",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "35 / 40 / 45 / 50 / 55",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "16 / 15 / 14 / 13 / 12",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Test of Spirit.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Illaoi rips the spirit from a foe's body, forcing it to stand before her. Spirits echo a percentage of the damage they take to the original target. If killed, or if the target gets too far from the spirit, the target will become a Vessel and begin spawning Tentacles.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Illaoi fires a projectile in the target direction, stopping at the first enemy hit. If the enemy is a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion, their Spirit is pulled in front of Illaoi over 0.75 seconds. The target is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Focused_Resolve.png/revision/latest/scale-to-width-down/20?cb=20130929122918\" \t alt=\"Focused Resolve\"  \tclass=\"\" \t \tdata-image-key=\"Focused_Resolve.png\" \tdata-image-name=\"Focused Resolve.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> tethered to the Spirit for 7 seconds, and is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20150808161653\" \t alt=\"True Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"True_Sight_icon.png\" \tdata-image-name=\"True Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealed while the tether remains.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "The Spirit has the target's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> current health, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> magic resist, and redirects a portion of the pre-mitigation damage received to the tethered champion.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Damage Transmission:25 / 30 / 35 / 40 / 45% (+ 8% per 100 AD)",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "When the Spirit is killed or the target moves too far away, the tether is severed, marking the target as a Vessel for 10 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing the area around them for a few seconds, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 80% for 1.5 seconds once the tether returns back to them. Each Tentacle autonomously attacks the closest Vessel  or Spirit once every 5.5 / 4.5 / 3.5 (based on level) seconds.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "Vessel.png",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "Enemies made a Vessel also spawn a Tentacle near themselves every 5 / 4 / 3 (based on level) seconds. Tentacles can spawn exceptionally closer to each other than when spawned by Illaoi.",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "Vessels can dispel the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3e/Malefic_Visions.png/revision/latest/scale-to-width-down/20?cb=20170217194900\" \t alt=\"Malefic Visions\"  \tclass=\"\" \t \tdata-image-key=\"Malefic_Visions.png\" \tdata-image-name=\"Malefic Visions.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> debuff by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Damage_rating.png/revision/latest/scale-to-width-down/20?cb=20170514053710\" \t alt=\"Damage rating\"  \tclass=\"\" \t \tdata-image-key=\"Damage_rating.png\" \tdata-image-name=\"Damage rating.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> taking down Illaoi.",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Physical / Magic / True (Redirected damage)",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "Special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "True",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Spirits are classified as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Command_Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20170204131432\" \t alt=\"Command Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Command_Hallucinate.png\" \tdata-image-name=\"Command Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> clones:\n Spirits can only be targeted by Illaoi's team and neutral monsters. The Spirit's allies cannot target it.\n Spirits take 50% damage from turrets and do not cause turrets to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6c/Ohmwrecker_item.png/revision/latest/scale-to-width-down/20?cb=20171221224934\" \t alt=\"Ohmwrecker item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ohmwrecker_item.png\" \tdata-image-name=\"Ohmwrecker item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Warm Up their attacks.\n Spirits cannot be <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healed or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shielded (<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Summon_Aery_rune.png/revision/latest/scale-to-width-down/20?cb=20171126182228\" \t alt=\"Summon Aery rune\"  \tclass=\"\" \t \tdata-image-key=\"Summon_Aery_rune.png\" \tdata-image-name=\"Summon Aery rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Summon Aery excluded).\n The Spirit levels up when the Vessel does. Doing so will increase the Spirit's health, armor, and magic resist, and additionally extend its lifetime by 1 second.\n\n Redirected damage is calculated by taking the pre-mitigation damage, applying Test of Spirit's damage modifier, and then capping it to the Spirit's current health. This damage will then be affected by damage modifiers (resistances and other effects) of the Vessel.\n If the Spirit's damage modifier is lower than the Vessel's, it will cause an increase in total redirected damage, else it will cause a decrease.\n If the Spirit's damage modifier is higher than Test of Spirit's, it will cause an increase in total redirected damage, else it will cause a decrease.\n Illaoi needs 937.5 / 875 / 812.5 / 750 / 687.5 total AD to reach 100% redirected damage. As per above, the damage is still dependent on the Spirit's and Vessel's damage modifiers and may not always be able to deal 100% of the target's current health as total redirected damage.\n The damage displayed as being received by the Spirit is not representative of the damage redirected to the Vessel, as the combat text shown adjacent to the Spirit uses the Spirit's resistances.\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shields may only prevent the initial spirit grab and the slow upon becoming a Vessel. Spell shields will not prevent becoming a Vessel or Tentacles from attacking.\n The spirit pull is not considered a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crowd control effect and will not be blocked by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b1/Cc-immune_icon.png/revision/latest/scale-to-width-down/20?cb=20200327223512\" \t alt=\"Cc-immune icon\"  \tclass=\"\" \t \tdata-image-key=\"Cc-immune_icon.png\" \tdata-image-name=\"Cc-immune icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crowd control immunity, with the exception of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/79/Morgana_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20190226165233\" \t alt=\"Morgana OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Morgana_OriginalSquare.png\" \tdata-image-name=\"Morgana OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Morgana's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/22/Black_Shield.png/revision/latest/scale-to-width-down/20?cb=20160608032305\" \t alt=\"Black Shield\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Black_Shield.png\" \tdata-image-name=\"Black Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Black Shield.\n If the target becomes a Vessel within range of a dormant Tentacle, that Tentacle will skip its first attack.\n The tentacle model of the first cast is connected to Illaoi's body and will stop moving when Illaoi does (e.g <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2f/Sleep_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223939\" \t alt=\"Sleep icon\"  \tclass=\"\" \t \tdata-image-key=\"Sleep_icon.png\" \tdata-image-name=\"Sleep icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sleep, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> airborne). However, the projectile will not, and will be able to hit enemies away from its model position. It will also not be seen by enemies if Illaoi is not <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible, but it will be heard if the tentacle passes through their vision.\n Using <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flash during the cast time will change Illaoi's position but the tentacle will still be directed towards the previous pointed location.\n Grabbing the Spirit of a champion that has their resource bar white (i.e <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Flow_resource.png/revision/latest/scale-to-width-down/20?cb=20170519003743\" \t alt=\"Flow resource\"  \tclass=\"\" \t \tdata-image-key=\"Flow_resource.png\" \tdata-image-name=\"Flow resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flow) will make the Spirit's lifetime (the white bar below the lifebar) disappear.\n Grabbing the Spirit of a target that is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Ambush_2.png/revision/latest/scale-to-width-down/20?cb=20171221051757\" \t alt=\"Ambush 2\"  \tclass=\"\" \t \tdata-image-key=\"Ambush_2.png\" \tdata-image-name=\"Ambush 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> camouflaged while they are being revealed by a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1b/Control_Ward_item.png/revision/latest/scale-to-width-down/20?cb=20171221061340\" \t alt=\"Control Ward item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Control_Ward_item.png\" \tdata-image-name=\"Control Ward item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Control Ward will make the Spirit also invisible.\n Only Illaoi can see who's been Vesseled, with their model covered in watery effects. The Vessel itself will instead have its screen covered in watery effects.\n The Vessel status effect is a debuff that doesn't persist through death.\n If the enemy champion is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Revival_icon.png/revision/latest/scale-to-width-down/20?cb=20170714051127\" \t alt=\"Revival icon\"  \tclass=\"\" \t \tdata-image-key=\"Revival_icon.png\" \tdata-image-name=\"Revival icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resurrecting when the conditions for becoming a Vessel are met, then they will not revive as a Vessel.\n Runes consider the Spirit as a champion for their effects and stat-tracking.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/29/Predator_rune.png/revision/latest/scale-to-width-down/20?cb=20171126181955\" \t alt=\"Predator rune\"  \tclass=\"\" \t \tdata-image-key=\"Predator_rune.png\" \tdata-image-name=\"Predator rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Predator only reflects double bonus damage, not taking into account actual damage done to the Spirit (e.g if <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/29/Predator_rune.png/revision/latest/scale-to-width-down/20?cb=20171126181955\" \t alt=\"Predator rune\"  \tclass=\"\" \t \tdata-image-key=\"Predator_rune.png\" \tdata-image-name=\"Predator rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Predator would deal 60 bonus damage, what would get reflected is 120 damage).\n\n Transferred damage will apply on-damage effects, such as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/87/Black_Cleaver_item.png/revision/latest/scale-to-width-down/20?cb=20171221235723\" \t alt=\"Black Cleaver item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Black_Cleaver_item.png\" \tdata-image-name=\"Black Cleaver item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Black Cleaver, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7b/Morellonomicon_item.png/revision/latest/scale-to-width-down/20?cb=20180220141954\" \t alt=\"Morellonomicon item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Morellonomicon_item.png\" \tdata-image-name=\"Morellonomicon item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Morellonomicon, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3d/Executioner%27s_Calling_item.png/revision/latest/scale-to-width-down/20?cb=20171221180015\" \t alt=\"Executioner&amp;#039;s Calling item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Executioner%27s_Calling_item.png\" \tdata-image-name=\"Executioner&#39;s Calling item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Executioner's Calling, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/fc/Aspect_of_the_Dragon_buff.png/revision/latest/scale-to-width-down/20?cb=20191119112436\" \t alt=\"Aspect of the Dragon buff\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Aspect_of_the_Dragon_buff.png\" \tdata-image-name=\"Aspect of the Dragon buff.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Aspect of the Dragon burn damage and the healing from <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1c/Death%27s_Dance_item.png/revision/latest/scale-to-width-down/20?cb=20171221062459\" \t alt=\"Death&amp;#039;s Dance item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Death%27s_Dance_item.png\" \tdata-image-name=\"Death&#39;s Dance item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Death's Dance or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Hextech_Gunblade_item.png/revision/latest/scale-to-width-down/20?cb=20171221185631\" \t alt=\"Hextech Gunblade item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hextech_Gunblade_item.png\" \tdata-image-name=\"Hextech Gunblade item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hextech Gunblade.\n Transferred damage will not doubly apply on-hit or on-spell effects versus the target (e.g. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/fd/Liandry%27s_Torment_item.png/revision/latest/scale-to-width-down/20?cb=20171221222423\" \t alt=\"Liandry&amp;#039;s Torment item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Liandry%27s_Torment_item.png\" \tdata-image-name=\"Liandry&#39;s Torment item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Liandry's Torment, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/79/Phase_Rush_rune.png/revision/latest/scale-to-width-down/20?cb=20171126182204\" \t alt=\"Phase Rush rune\"  \tclass=\"\" \t \tdata-image-key=\"Phase_Rush_rune.png\" \tdata-image-name=\"Phase Rush rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Phase Rush stacks). These effects are only applied versus the Spirit.\n Attacking the Vessel and its Spirit simultaneously will only apply one stack of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/87/Black_Cleaver_item.png/revision/latest/scale-to-width-down/20?cb=20171221235723\" \t alt=\"Black Cleaver item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Black_Cleaver_item.png\" \tdata-image-name=\"Black Cleaver item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Black Cleaver to the Vessel.\n\n Once the Spirit vanishes, whether defeated or not, Illaoi will get <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/28/Phage_item.png/revision/latest/scale-to-width-down/20?cb=20171221225324\" \t alt=\"Phage item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Phage_item.png\" \tdata-image-name=\"Phage item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rage's full movement speed bonus and 1 creep score in-game (not included in the post-game counter).\n The Spirit is immune to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis (i.e. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/37/Bard_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402215420\" \t alt=\"Bard OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Bard_OriginalSquare.png\" \tdata-image-name=\"Bard OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bard's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b9/Tempered_Fate.png/revision/latest/scale-to-width-down/20?cb=20150224202956\" \t alt=\"Tempered Fate\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tempered_Fate.png\" \tdata-image-name=\"Tempered Fate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tempered Fate).\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/94/Fiora_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150725010749\" \t alt=\"Fiora OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Fiora_OriginalSquare.png\" \tdata-image-name=\"Fiora OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Fiora's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/de/Riposte.png/revision/latest/scale-to-width-down/20?cb=20150721193218\" \t alt=\"Riposte\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Riposte.png\" \tdata-image-name=\"Riposte.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Riposte can be used to prevent becoming a Vessel if used before the Spirit is killed or while leaving the tether's range.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Sion_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402221054\" \t alt=\"Sion OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sion_OriginalSquare.png\" \tdata-image-name=\"Sion OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sion's Spirit cannot be spawned during <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Glory_in_Death.png/revision/latest/scale-to-width-down/20?cb=20170818194247\" \t alt=\"Glory in Death\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Glory_in_Death.png\" \tdata-image-name=\"Glory in Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Glory in Death. Spirits created before Sion's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Omen_of_Death.png/revision/latest/scale-to-width-down/20?cb=20130929123503\" \t alt=\"Omen of Death\"  \tclass=\"\" \t \tdata-image-key=\"Omen_of_Death.png\" \tdata-image-name=\"Omen of Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> zombie state will remain active.\n If the target that had its Spirit pulled from them is taken into the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d8/Realm_of_Death.png/revision/latest/scale-to-width-down/20?cb=20190527181328\" \t alt=\"Realm of Death\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Realm_of_Death.png\" \tdata-image-name=\"Realm of Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Realm of Death, the tether will break, but they will not be made into a Vessel.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Leap of Faith",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Leap of Faith."
+    },
+    "champion": {
+      "value": "Illaoi",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "R",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "450",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.5",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "100",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "120 / 107.5 / 95 / 82.5 / 70",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Leap of Faith.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Illaoi smashes her idol into the ground, dealing physical damage to nearby enemies. A Tentacle spawns for each enemy champion hit.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Illaoi leaps into the air with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Unstoppable_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164427\" \t alt=\"Unstoppable icon\"  \tclass=\"\" \t \tdata-image-key=\"Unstoppable_icon.png\" \tdata-image-name=\"Unstoppable icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement immunity before slamming her idol into the ground, dealing physical damage to nearby enemies. For each enemy champion hit, a Tentacle is summoned for 8 seconds (up to a maximum of 6 summons).",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Physical Damage:150 / 200 / 250 / 300 / 350 (+ 50% bonus AD)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "For the duration, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d3/Harsh_Lesson.png/revision/latest/scale-to-width-down/20?cb=20171221041202\" \t alt=\"Harsh Lesson\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Harsh_Lesson.png\" \tdata-image-name=\"Harsh Lesson.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Harsh Lesson's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown is halved, all Tentacles awakened by Illaoi are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable, will not show their hitboxes, nor go dormant, and will take half the amount of time to make an attack.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Physical",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "spellaoe",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "Special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flash can be used during the cast time, with the ability being used at the new location.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Command_Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20170204131432\" \t alt=\"Command Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Command_Hallucinate.png\" \tdata-image-name=\"Command Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Clones also count as champions for the summoning of the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/87/Prophet_of_an_Elder_God.png/revision/latest/scale-to-width-down/20?cb=20171221041357\" \t alt=\"Prophet of an Elder God\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Prophet_of_an_Elder_God.png\" \tdata-image-name=\"Prophet of an Elder God.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tentacle.\n Illaoi spawns the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/87/Prophet_of_an_Elder_God.png/revision/latest/scale-to-width-down/20?cb=20171221041357\" \t alt=\"Prophet of an Elder God\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Prophet_of_an_Elder_God.png\" \tdata-image-name=\"Prophet of an Elder God.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tentacle 725 range away from her, unless there's a natural wall blocking the way making the Tentacle spawn on it, based on:\n The direction she's facing.\n She will always face at the nearest <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible enemy champion, in Leap of Faith's range, the instant she leaps.\n If there's no enemy champion nearby, she faces in the direction of the cursor.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flashing mid-animation will change the spawning direction to where the cursor is pointed, regardless of the nearest enemy champion.\n\n How many champions she hits.\n 1+ champions: one <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/87/Prophet_of_an_Elder_God.png/revision/latest/scale-to-width-down/20?cb=20171221041357\" \t alt=\"Prophet of an Elder God\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Prophet_of_an_Elder_God.png\" \tdata-image-name=\"Prophet of an Elder God.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tentacle at 0 degrees.\n 2+ champions: one <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/87/Prophet_of_an_Elder_God.png/revision/latest/scale-to-width-down/20?cb=20171221041357\" \t alt=\"Prophet of an Elder God\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Prophet_of_an_Elder_God.png\" \tdata-image-name=\"Prophet of an Elder God.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tentacle at 60 degrees.\n 3+ champions: one <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/87/Prophet_of_an_Elder_God.png/revision/latest/scale-to-width-down/20?cb=20171221041357\" \t alt=\"Prophet of an Elder God\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Prophet_of_an_Elder_God.png\" \tdata-image-name=\"Prophet of an Elder God.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tentacle at 300 degrees.\n 4+ champions: one <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/87/Prophet_of_an_Elder_God.png/revision/latest/scale-to-width-down/20?cb=20171221041357\" \t alt=\"Prophet of an Elder God\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Prophet_of_an_Elder_God.png\" \tdata-image-name=\"Prophet of an Elder God.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tentacle at 120 degrees.\n 5+ champions: one <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/87/Prophet_of_an_Elder_God.png/revision/latest/scale-to-width-down/20?cb=20171221041357\" \t alt=\"Prophet of an Elder God\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Prophet_of_an_Elder_God.png\" \tdata-image-name=\"Prophet of an Elder God.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tentacle at 240 degrees.\n 6+ champions: one <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/87/Prophet_of_an_Elder_God.png/revision/latest/scale-to-width-down/20?cb=20171221041357\" \t alt=\"Prophet of an Elder God\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Prophet_of_an_Elder_God.png\" \tdata-image-name=\"Prophet of an Elder God.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tentacle at 180 degrees.\n\n If there are no walls nearby, spawning the last <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/87/Prophet_of_an_Elder_God.png/revision/latest/scale-to-width-down/20?cb=20171221041357\" \t alt=\"Prophet of an Elder God\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Prophet_of_an_Elder_God.png\" \tdata-image-name=\"Prophet of an Elder God.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tentacle will form a perfect hexagon.\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shields will block the ability's damage but will not prevent Tentacles from spawning.\n If Illaoi is near a Tentacle that is about to spawn, it will spawn buffed by Leap of Faith even if Illaoi is no longer nearby.\n Going into <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis (i.e - by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Revival_icon.png/revision/latest/scale-to-width-down/20?cb=20170714051127\" \t alt=\"Revival icon\"  \tclass=\"\" \t \tdata-image-key=\"Revival_icon.png\" \tdata-image-name=\"Revival icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resurrection) during the leap will not stop the ability from dealing damage or spawning Tentacles.\n Using <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d3/Harsh_Lesson.png/revision/latest/scale-to-width-down/20?cb=20171221041202\" \t alt=\"Harsh Lesson\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Harsh_Lesson.png\" \tdata-image-name=\"Harsh Lesson.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Harsh Lesson after Illaoi drops down will command Tentacles to instantly attack, regardless if they were already attacking. Their old attack will keep on going and will hit while the second attack is on its animation attack.\n Using <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d3/Harsh_Lesson.png/revision/latest/scale-to-width-down/20?cb=20171221041202\" \t alt=\"Harsh Lesson\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Harsh_Lesson.png\" \tdata-image-name=\"Harsh Lesson.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Harsh Lesson an instant before Leap of Faith's buff finishes will delay the Tentacle's attack.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "\"There are kind and gentle gods. Mine isn't one of those.\"",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  }
+]

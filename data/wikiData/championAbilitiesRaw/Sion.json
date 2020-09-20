@@ -1,0 +1,1209 @@
+[
+  {
+    "1": {
+      "value": "Glory in Death",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Glory in Death."
+    },
+    "champion": {
+      "value": "Sion",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "I",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Glory in Death.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Innate: Upon <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> death, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Sion_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402221054\" \t alt=\"Sion OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sion_OriginalSquare.png\" \tdata-image-name=\"Sion OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sion <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Omen_of_Death.png/revision/latest/scale-to-width-down/20?cb=20130929123503\" \t alt=\"Omen of Death\"  \tclass=\"\" \t \tdata-image-key=\"Omen_of_Death.png\" \tdata-image-name=\"Omen of Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reanimates with his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> health decaying increasingly fast. His basic attacks become very rapid, gain <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Life_steal_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Life steal icon\"  \tclass=\"\" \t \tdata-image-key=\"Life_steal_icon.png\" \tdata-image-name=\"Life steal icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 100% lifesteal and deal 10% enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> maximum health as physical damage <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/16/Wit%27s_End_item.png/revision/latest/scale-to-width-down/20?cb=20171222002310\" \t alt=\"Wit&amp;#039;s End item\"  \tclass=\"\" \t \tdata-image-key=\"Wit%27s_End_item.png\" \tdata-image-name=\"Wit&#39;s End item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> on-hit, capped against monsters. His abilities are replaced by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Death_Surge.png/revision/latest/scale-to-width-down/20?cb=20141001175051\" \t alt=\"Death Surge\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Death_Surge.png\" \tdata-image-name=\"Death Surge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Death Surge, which grants a burst of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> movement speed.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Innate: Upon taking <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> fatal damage, Sion goes into <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis for 1.5 seconds, after which he <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Omen_of_Death.png/revision/latest/scale-to-width-down/20?cb=20130929123503\" \t alt=\"Omen of Death\"  \tclass=\"\" \t \tdata-image-key=\"Omen_of_Death.png\" \tdata-image-name=\"Omen of Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reanimates and enters a frenzy, restoring himself to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 100% maximum health but losing 2 − 19 (based on level) health every 0.264 seconds, increasing by「 70% of the base value 」「 1.4 − 13.3 (based on level) health 」per subsequent tick.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Sion can freely move and use basic attacks during this time, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Life_steal_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Life steal icon\"  \tclass=\"\" \t \tdata-image-key=\"Life_steal_icon.png\" \tdata-image-name=\"Life steal icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 100% life steal, attacking at <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 1.75 attack speed, and dealing 10% of the target’s maximum health bonus physical damage on-hit, capped at 75 against non-champions.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "While Glory in Death is active, Sion's active abilities are replaced with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Death_Surge.png/revision/latest/scale-to-width-down/20?cb=20141001175051\" \t alt=\"Death Surge\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Death_Surge.png\" \tdata-image-name=\"Death Surge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Death Surge.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Passive",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "physical",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "proc",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Glory in Death is currently the only targetable <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Omen_of_Death.png/revision/latest/scale-to-width-down/20?cb=20130929123503\" \t alt=\"Omen of Death\"  \tclass=\"\" \t \tdata-image-key=\"Omen_of_Death.png\" \tdata-image-name=\"Omen of Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> zombie state.\n Glory in Death cannot last more than 60 seconds. Reaching the time will cause Sion to instantly die, regardless of his remaining health.\n Upon Death, Sion will drop non-permanent status effects (buffs and debuffs) that do not inherently persist through death before transitioning into Glory in Death:\n These effects include undisplayed statuses, for example the 'already stunned by this'-flag of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/37/Veigar_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402222337\" \t alt=\"Veigar OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Veigar_OriginalSquare.png\" \tdata-image-name=\"Veigar OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Veigar's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/81/Event_Horizon.png/revision/latest/scale-to-width-down/20?cb=20171223040100\" \t alt=\"Event Horizon\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Event_Horizon.png\" \tdata-image-name=\"Event Horizon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Event Horizon or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1c/Viktor_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402222333\" \t alt=\"Viktor OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Viktor_OriginalSquare.png\" \tdata-image-name=\"Viktor OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Viktor's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Gravity_Field.png/revision/latest/scale-to-width-down/20?cb=20170818195846\" \t alt=\"Gravity Field\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gravity_Field.png\" \tdata-image-name=\"Gravity Field.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gravity Field.\n Some item passives do not persist through death and will be lost for the initial few seconds of Glory in Death.\n An example for a debuff that does persist through death is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9a/Brand_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402215533\" \t alt=\"Brand OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Brand_OriginalSquare.png\" \tdata-image-name=\"Brand OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Brand's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Blaze.png/revision/latest/scale-to-width-down/20?cb=20160420084402\" \t alt=\"Blaze\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blaze.png\" \tdata-image-name=\"Blaze.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Blaze.\n\n Glory in Death will still trigger if Sion is killed by the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d2/Nexus_Obelisk.png/revision/latest/scale-to-width-down/20?cb=20200128025852\" \t alt=\"Nexus Obelisk\"  \tclass=\"\" \t \tdata-image-key=\"Nexus_Obelisk.png\" \tdata-image-name=\"Nexus Obelisk.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Nexus Obelisk.\n Upon death, the current cooldowns of Sion's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8e/Summoner_spell_icon.png/revision/latest/scale-to-width-down/20?cb=20181118191801\" \t alt=\"Summoner spell icon\"  \tclass=\"\" \t \tdata-image-key=\"Summoner_spell_icon.png\" \tdata-image-name=\"Summoner spell icon.png\" \t \t width=\"20\"  \t height=\"11\"  \t \t \t \t> summoner spells are increased to 4 seconds. Afterwards, he is still unable to use them until he respawns or after a lock-out effect (excluding <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crowd control except <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis) unlocks them.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Revival_icon.png/revision/latest/scale-to-width-down/20?cb=20170714051127\" \t alt=\"Revival icon\"  \tclass=\"\" \t \tdata-image-key=\"Revival_icon.png\" \tdata-image-name=\"Revival icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Resurrection buffs always take priority when Sion falls to 0 health.\n Sion's death timer starts ticking when he first <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dies and not when Glory in Death's duration ends.\n If Sion lives longer than his death timer lasts for, he will not revive until Glory in Death has ended. When it has ended, he will revive instantly, which can result in some odd interactions and bugs at times.\n\n Glory in Death does not trigger on clones of Sion, such as with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ec/Test_of_Spirit.png/revision/latest/scale-to-width-down/20?cb=20171221041654\" \t alt=\"Test of Spirit\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Test_of_Spirit.png\" \tdata-image-name=\"Test of Spirit.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Test of Spirit.\n All <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Projectile.png/revision/latest/scale-to-width-down/20?cb=20150816082407\" \t alt=\"Projectile\"  \tclass=\"\" \t \tdata-image-key=\"Projectile.png\" \tdata-image-name=\"Projectile.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> projectiles targeting Sion are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Bullet_strikethrough.png/revision/latest/scale-to-width-down/20?cb=20200405040932\" \t alt=\"Bullet strikethrough\"  \tclass=\"\" \t \tdata-image-key=\"Bullet_strikethrough.png\" \tdata-image-name=\"Bullet strikethrough.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> destroyed at the start of becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable.\n Projectiles created after the fact will still travel to Sion, but only affect him if he's no longer untargetable.\n If a projectile is targeting Sion at the end of Glory in Death and he revives instantly, it will not be destroyed.\n\n\n At the start of Glory in Death, Sion's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d2/Mana_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230506\" \t alt=\"Mana resource\"  \tclass=\"\" \t \tdata-image-key=\"Mana_resource.png\" \tdata-image-name=\"Mana resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> mana drops to 0, but will still be affected by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Mana_regeneration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Mana regeneration icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_regeneration_icon.png\" \tdata-image-name=\"Mana regeneration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> mana regeneration.\n During Glory in Death Sion: \n Has all sources of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> self-healing reduced by 100% with the exception of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Life_steal_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Life steal icon\"  \tclass=\"\" \t \tdata-image-key=\"Life_steal_icon.png\" \tdata-image-name=\"Life steal icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> life steal and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f2/Spell_vamp_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203541\" \t alt=\"Spell vamp icon\"  \tclass=\"\" \t \tdata-image-key=\"Spell_vamp_icon.png\" \tdata-image-name=\"Spell vamp icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> spell vamp.\n This includes item passives such as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Hextech_Gunblade_item.png/revision/latest/scale-to-width-down/20?cb=20171221185631\" \t alt=\"Hextech Gunblade item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hextech_Gunblade_item.png\" \tdata-image-name=\"Hextech Gunblade item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hextech Gunblade and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2f/Blade_of_the_Ruined_King_item.png/revision/latest/scale-to-width-down/20?cb=20171221055759\" \t alt=\"Blade of the Ruined King item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blade_of_the_Ruined_King_item.png\" \tdata-image-name=\"Blade of the Ruined King item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Blade of the Ruined King's special lifesteal-affected on-hit, as well as runes such as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/24/Ravenous_Hunter_rune.png/revision/latest/scale-to-width-down/20?cb=20171027170107\" \t alt=\"Ravenous Hunter rune\"  \tclass=\"\" \t \tdata-image-key=\"Ravenous_Hunter_rune.png\" \tdata-image-name=\"Ravenous Hunter rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ravenous Hunter.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6f/Spirit_Visage_item.png/revision/latest/scale-to-width-down/20?cb=20171221233355\" \t alt=\"Spirit Visage item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spirit_Visage_item.png\" \tdata-image-name=\"Spirit Visage item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spirit Visage's unique passive is unaffected and furthermore 'lowers' this reduction to 70% due to the way it factors in.\n\n Can:\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Critically strike.\n Use all item actives, except <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7f/Refillable_Potion_item.png/revision/latest/scale-to-width-down/20?cb=20171221230812\" \t alt=\"Refillable Potion item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Refillable_Potion_item.png\" \tdata-image-name=\"Refillable Potion item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Refillable Potion and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/87/Corrupting_Potion_item.png/revision/latest/scale-to-width-down/20?cb=20171221061355\" \t alt=\"Corrupting Potion item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Corrupting_Potion_item.png\" \tdata-image-name=\"Corrupting Potion item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Corrupting Potion.\n Use <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ee/Magical_Journey.png/revision/latest/scale-to-width-down/20?cb=20150224202933\" \t alt=\"Magical Journey\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Magical_Journey.png\" \tdata-image-name=\"Magical Journey.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magical Journey.\n Be dragged and carried by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e9/Fate%27s_Call.png/revision/latest/scale-to-width-down/20?cb=20141104220726\" \t alt=\"Fate&amp;#039;s Call\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Fate%27s_Call.png\" \tdata-image-name=\"Fate&#39;s Call.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Fate's Call.\n Sion will not lose health during this time.\n\n\n Cannot:\n Channel <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall.\n Enter <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Revival_icon.png/revision/latest/scale-to-width-down/20?cb=20170714051127\" \t alt=\"Revival icon\"  \tclass=\"\" \t \tdata-image-key=\"Revival_icon.png\" \tdata-image-name=\"Revival icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resurrection (e.g. via <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/Guardian_Angel_item.png/revision/latest/scale-to-width-down/20?cb=20171221184244\" \t alt=\"Guardian Angel item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Guardian_Angel_item.png\" \tdata-image-name=\"Guardian Angel item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Guardian Angel).\n Use <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8e/Summoner_spell_icon.png/revision/latest/scale-to-width-down/20?cb=20181118191801\" \t alt=\"Summoner spell icon\"  \tclass=\"\" \t \tdata-image-key=\"Summoner_spell_icon.png\" \tdata-image-name=\"Summoner spell icon.png\" \t \t width=\"20\"  \t height=\"11\"  \t \t \t \t> summoner spells.\n Take <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cb/Abyssal_Voyage.png/revision/latest/scale-to-width-down/20?cb=20150623185325\" \t alt=\"Abyssal Voyage\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Abyssal_Voyage.png\" \tdata-image-name=\"Abyssal Voyage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Abyssal Voyage nor <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/44/Dark_Passage.png/revision/latest/scale-to-width-down/20?cb=20130929123336\" \t alt=\"Dark Passage\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dark_Passage.png\" \tdata-image-name=\"Dark Passage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dark Passage.\n Be targeted by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a5/Chronoshift.png/revision/latest/scale-to-width-down/20?cb=20150210202548\" \t alt=\"Chronoshift\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Chronoshift.png\" \tdata-image-name=\"Chronoshift.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Chronoshift, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3d/Devour.png/revision/latest/scale-to-width-down/20?cb=20150623185326\" \t alt=\"Devour\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Devour.png\" \tdata-image-name=\"Devour.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Devour, nor <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Umbral_Trespass.png/revision/latest/scale-to-width-down/20?cb=20170817201059\" \t alt=\"Umbral Trespass\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Umbral_Trespass.png\" \tdata-image-name=\"Umbral Trespass.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Umbral Trespass.\n He cannot be targeted by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e9/Fate%27s_Call.png/revision/latest/scale-to-width-down/20?cb=20141104220726\" \t alt=\"Fate&amp;#039;s Call\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Fate%27s_Call.png\" \tdata-image-name=\"Fate&#39;s Call.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Fate's Call while in the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis portion of Glory in Death.\n\n Be taken into the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d8/Realm_of_Death.png/revision/latest/scale-to-width-down/20?cb=20190527181328\" \t alt=\"Realm of Death\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Realm_of_Death.png\" \tdata-image-name=\"Realm of Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Realm of Death.\n Be affected by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/44/Fear_Beyond_Death_2.png/revision/latest/scale-to-width-down/20?cb=20171221051936\" \t alt=\"Fear Beyond Death 2\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Fear_Beyond_Death_2.png\" \tdata-image-name=\"Fear Beyond Death 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Fear Beyond Death (recast), <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e7/Curse_of_the_Black_Mist.png/revision/latest/scale-to-width-down/20?cb=20191029180733\" \t alt=\"Curse of the Black Mist\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Curse_of_the_Black_Mist.png\" \tdata-image-name=\"Curse of the Black Mist.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Curse of the Black Mist, nor <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/ca/Lamb%27s_Respite.png/revision/latest/scale-to-width-down/20?cb=20170818190645\" \t alt=\"Lamb&amp;#039;s Respite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Lamb%27s_Respite.png\" \tdata-image-name=\"Lamb&#39;s Respite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Lamb's Respite.\n Have his spirit be pulled by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ec/Test_of_Spirit.png/revision/latest/scale-to-width-down/20?cb=20171221041654\" \t alt=\"Test of Spirit\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Test_of_Spirit.png\" \tdata-image-name=\"Test of Spirit.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Test of Spirit.\n Pick up the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b0/Eye_of_the_Herald_item.png/revision/latest/scale-to-width-down/20?cb=20170730183027\" \t alt=\"Eye of the Herald item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Eye_of_the_Herald_item.png\" \tdata-image-name=\"Eye of the Herald item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Eye of the Herald.\n\n\n Trying to cast item actives during the initial stasis will buffer their casts instead, unless Sion issues another command before being able to act again.\n Exception: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f9/Quicksilver_Sash_item.png/revision/latest/scale-to-width-down/20?cb=20171221225953\" \t alt=\"Quicksilver Sash item\"  \tclass=\"\" \t \tdata-image-key=\"Quicksilver_Sash_item.png\" \tdata-image-name=\"Quicksilver Sash item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Quicksilver can be used during the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis after death, but has no effect.\n\n Sion's attack speed during Glory in Death is fixed at 1.75 and it's unaffected by attack speed bonuses and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Cripple_icon.png/revision/latest/scale-to-width-down/20?cb=20171202000853\" \t alt=\"Cripple icon\"  \tclass=\"\" \t \tdata-image-key=\"Cripple_icon.png\" \tdata-image-name=\"Cripple icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> cripples for the duration.\n Buffs that allow for the normal 2.5 attack speed cap to be surpassed, such as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f2/Lethal_Tempo_rune.png/revision/latest/scale-to-width-down/20?cb=20171126182145\" \t alt=\"Lethal Tempo rune\"  \tclass=\"\" \t \tdata-image-key=\"Lethal_Tempo_rune.png\" \tdata-image-name=\"Lethal Tempo rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Lethal Tempo and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2e/Hail_of_Blades_rune.png/revision/latest/scale-to-width-down/20?cb=20180505140825\" \t alt=\"Hail of Blades rune\"  \tclass=\"\" \t \tdata-image-key=\"Hail_of_Blades_rune.png\" \tdata-image-name=\"Hail of Blades rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hail of Blades, will also break the upper limit of the 1.75 cap, but not the lower one. This means that while these buffs are active, Sion can exceed 1.75 attack speed, but cannot fall below it.\n After the effect ends, the attack speed cap will not revert to 1.75 but to 2.5. However Sion will still not be able to go below 1.75 attack speed.\n\n Buffs from jungle monsters Sion gains during Glory in Death (<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Crest_of_Cinders_buff.png/revision/latest/scale-to-width-down/20?cb=20191119112522\" \t alt=\"Crest of Cinders buff\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crest_of_Cinders_buff.png\" \tdata-image-name=\"Crest of Cinders buff.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crest of Cinders, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6f/Crest_of_Insight_buff.png/revision/latest/scale-to-width-down/20?cb=20191119112549\" \t alt=\"Crest of Insight buff\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crest_of_Insight_buff.png\" \tdata-image-name=\"Crest of Insight buff.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crest of Insight) will not be lost once the duration ends.\n By surviving for the full duration of 60 seconds, Sion will have suffered 36.4k − 345.5k (based on level) in health costs.\n After Glory in Death ends, the corpse of Sion will retain unit collision despite being dead on the ground.\n Even though its visuals are present, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9e/Dark_Harvest_rune.png/revision/latest/scale-to-width-down/20?cb=20171126182324\" \t alt=\"Dark Harvest rune\"  \tclass=\"\" \t \tdata-image-key=\"Dark_Harvest_rune.png\" \tdata-image-name=\"Dark Harvest rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dark Harvest can never be gained from Sion under the effect of Glory in Death.\n The effect that heals Sion back to full health at the start of Glory in Death cannot be modified by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bf/Grievous_Wounds_icon.png/revision/latest/scale-to-width-down/20?cb=20150204013501\" \t alt=\"Grievous Wounds icon\"  \tclass=\"\" \t \tdata-image-key=\"Grievous_Wounds_icon.png\" \tdata-image-name=\"Grievous Wounds icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing reductions and does not count towards the 'Damage Healed' statistic at the end of game lobby.\n Glory in Death's on-hit effect also applies against structures other than <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> turrets. *",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Decimating Smash",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Decimating Smash."
+    },
+    "champion": {
+      "value": "Sion",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "Q",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Range_center.png/revision/latest/scale-to-width-down/20?cb=20150616134211\" \t alt=\"Range center\"  \tclass=\"\" \t \tdata-image-key=\"Range_center.png\" \tdata-image-name=\"Range center.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 500 −  850 (based on channel time)",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "45",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "10 / 9 / 8 / 7 / 6",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Decimating Smash.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Active: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Sion_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402221054\" \t alt=\"Sion OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sion_OriginalSquare.png\" \tdata-image-name=\"Sion OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sion <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charges a powerful swing in an area in front of himself that will deal physical damage to enemies when released. If <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channeled for at least 1 second, enemies will also be <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked up and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunned.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Sion <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charges for up to 2 seconds to swing in the target direction, increasing Decimating Smash's range every 0.25 seconds, up to 1 second, and its damage every 0.25 seconds, up to a maximum bonus for the base damage and up to 200% bonus for the scaling damage. Decimating Smash can be recast at any time within its duration, and automatically does so at its end.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Max. Base Damage Increase:133.33 / 150 / 166.67 / 183.33 / 200%\nMinimum Damage:»30 / 50 / 70 / 90 / 110 (+ 45 / 52.5 / 60 / 67.5 / 75% AD)«Maximum Damage:70 / 135 / 200 / 265 / 330 (+ 135 / 157.5 / 180 / 202.5 / 225% AD)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "If the channel is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> interrupted, Decimating Smash goes on a 2-second <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Recast: Sion flails his axe, dealing physical damage to all enemies in the target area and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 50% for 0.25 seconds. Decimating Smash deals 60% damage against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "Minimum Minion Damage:»18 / 30 / 42 / 54 / 66 (+ 27 / 31.5 / 36 / 40.5 / 45% AD)«Maximum Minion Damage:42 / 81 / 120 / 159 / 198 (+ 81 / 94.5 / 108 / 121.5 / 135% AD)",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "If Decimating Smash was charged for at least 1 second, Sion instead slams his axe down, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking up all enemies hit for 0.5 − 1 (based on channel time) seconds and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning them for 1.25 − 2.25 (based on channel time) seconds.",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Physical",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Area of effect",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "False",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7b/Sion_hitbox_area.png/revision/latest/scale-to-width-down/180?cb=20200610135934\" \t alt=\"Sion hitbox area\"  \tclass=\"thumbimage \" \t \tdata-image-key=\"Sion_hitbox_area.png\" \tdata-image-name=\"Sion hitbox area.png\" \t \t width=\"180\"  \t height=\"161\"  \t \t \t \t>  \t \t\t \t\t\t \t\t \t\t \t\t \t\t\tFor the target to be hit, their center needs to be inside the red or blue areas (based on charge time), and their edge must hit the yellow part of the cone. If their edge also hits the white part of the cone they will be excluded from being hit. Cone is at 16 degrees and starts 800 range behind Sion's center. White cone has a radius of 720, while yellow cone has a radius of 1550. \t\t \t \n Sion himself remains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/77/Lockout_icon.png/revision/latest/scale-to-width-down/20?cb=20200726194309\" \t alt=\"Lockout icon\"  \tclass=\"\" \t \tdata-image-key=\"Lockout_icon.png\" \tdata-image-name=\"Lockout icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> locked out of all actions for 0.25 seconds when releasing Decimating Smash.\n Trying to cast <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Soul_Furnace.png/revision/latest/scale-to-width-down/20?cb=20170818194329\" \t alt=\"Soul Furnace\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Soul_Furnace.png\" \tdata-image-name=\"Soul Furnace.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Soul Furnace will buffer the cast until Sion is no longer locked out or otherwise prevented from casting it, while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a8/Roar_of_the_Slayer.png/revision/latest/scale-to-width-down/20?cb=20170818194259\" \t alt=\"Roar of the Slayer\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Roar_of_the_Slayer.png\" \tdata-image-name=\"Roar of the Slayer.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Roar of the Slayer and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8a/Unstoppable_Onslaught.png/revision/latest/scale-to-width-down/20?cb=20170818194344\" \t alt=\"Unstoppable Onslaught\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Unstoppable_Onslaught.png\" \tdata-image-name=\"Unstoppable Onslaught.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Unstoppable Onslaught will not buffer.\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Unstoppable_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164427\" \t alt=\"Unstoppable icon\"  \tclass=\"\" \t \tdata-image-key=\"Unstoppable_icon.png\" \tdata-image-name=\"Unstoppable icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Displacement immunity will prevent both the knock up and the stun.\n Since the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun duration is longer than the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> airborne duration, and both start at the same time, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/33/Tenacity_icon.png/revision/latest/scale-to-width-down/20?cb=20170515203541\" \t alt=\"Tenacity icon\"  \tclass=\"\" \t \tdata-image-key=\"Tenacity_icon.png\" \tdata-image-name=\"Tenacity icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tenacity is still fully effective against Decimating Smash up to a cap.\n This virtual cap is 60%-55.5% <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/33/Tenacity_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203541\" \t alt=\"Tenacity icon\"  \tclass=\"\" \t \tdata-image-key=\"Tenacity_icon.png\" \tdata-image-name=\"Tenacity icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> Tenacity based on channel time beyond 1 second. Every value below this cap will lower the CC duration with no diminished returns.\n\n A flash of the axe and change in brightness of the indicator on the ground indicates when the 1 second time frame is reached.\n The damage of Decimating Smash is calculated when it is released. Gaining AD or upgrading the ability during its channel will update the damage of the coming hit. \n Even though the cooldown starts when the ability is released, it will not be changed by gaining or losing CDR, or upgrading the ability, during the cast time.\n\n The indicator is visible to the enemy only if they <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> see Sion himself.\n If the channel is released before 1 second, enemies may see a particle at the far end of the hitbox, if it itself isn't outside of their <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> vision.\n If the channel is released after 1 second, the only remaining indication is the visual effects and audio that plays on any units the spell strikes (these play on-target), provided the enemy does have <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> vision on those.\n\n Forced movement without a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun component (or the stun being <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Remove_Scurvy.png/revision/latest/scale-to-width-down/20?cb=20150707190028\" \t alt=\"Remove Scurvy\"  \tclass=\"\" \t \tdata-image-key=\"Remove_Scurvy.png\" \tdata-image-name=\"Remove Scurvy.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> cleansed previously) will not stop Sion from starting or continuing to channel. Its direction will not change with Sion's travel, however the location will update with him.\n The location of the indicator updates at the beginning of the ability, at 1 second and at release.\n\n The indicator of the ability is slightly shorter at its front than the hitbox of the ability is for <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b0/Sion_OriginalCircle.png/revision/latest/scale-to-width-down/20?cb=20171112102953\" \t alt=\"Sion OriginalCircle\"  \tclass=\"\" \t \tdata-image-key=\"Sion_OriginalCircle.png\" \tdata-image-name=\"Sion OriginalCircle.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Original Sion, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Sion_MechaZeroCircle.png/revision/latest/scale-to-width-down/20?cb=20171111215438\" \t alt=\"Sion MechaZeroCircle\"  \tclass=\"\" \t \tdata-image-key=\"Sion_MechaZeroCircle.png\" \tdata-image-name=\"Sion MechaZeroCircle.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mecha Zero Sion and related skins and chromas, while on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/39/Sion_WorldbreakerCircle.png/revision/latest/scale-to-width-down/20?cb=20200317221646\" \t alt=\"Sion WorldbreakerCircle\"  \tclass=\"\" \t \tdata-image-key=\"Sion_WorldbreakerCircle.png\" \tdata-image-name=\"Sion WorldbreakerCircle.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Worldbreaker Sion, the indicator is slightly thinner at the front than the hitbox is, instead.\n The following table refers for interactions while Sion is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channeling:\n\n\n\n Type\n Charge channel\n\n\n Attacking\n Disabled\n\n\n Abilities\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Soul_Furnace.png/revision/latest/scale-to-width-down/20?cb=20170818194329\" \t alt=\"Soul Furnace\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Soul_Furnace.png\" \tdata-image-name=\"Soul Furnace.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Soul Furnace and its <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/99/Soul_Furnace_2.png/revision/latest/scale-to-width-down/20?cb=20170818194310\" \t alt=\"Soul Furnace 2\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Soul_Furnace_2.png\" \tdata-image-name=\"Soul Furnace 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> recast are usable. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a8/Roar_of_the_Slayer.png/revision/latest/scale-to-width-down/20?cb=20170818194259\" \t alt=\"Roar of the Slayer\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Roar_of_the_Slayer.png\" \tdata-image-name=\"Roar of the Slayer.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Roar of the Slayer and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8a/Unstoppable_Onslaught.png/revision/latest/scale-to-width-down/20?cb=20170818194344\" \t alt=\"Unstoppable Onslaught\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Unstoppable_Onslaught.png\" \tdata-image-name=\"Unstoppable Onslaught.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Unstoppable Onslaught are disabled. This ability recasts to end channel.\n\n\n Movement\n Disabled\n\n\n Items\n Usable\n N/A\n\n\n Disabled\n All items are disabled\n\n\n Interrupted by\n N/A\n\n\n\n Consumables\n Disabled\n\n\n Spells\n Usable\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cc/Barrier.png/revision/latest/scale-to-width-down/20?cb=20180514002510\" \t alt=\"Barrier\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Barrier.png\" \tdata-image-name=\"Barrier.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Barrier <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Clarity.png/revision/latest/scale-to-width-down/20?cb=20180514002750\" \t alt=\"Clarity\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clarity.png\" \tdata-image-name=\"Clarity.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Clarity <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cleanse.png/revision/latest/scale-to-width-down/20?cb=20180514002812\" \t alt=\"Cleanse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cleanse.png\" \tdata-image-name=\"Cleanse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cleanse <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Exhaust.png/revision/latest/scale-to-width-down/20?cb=20180514003128\" \t alt=\"Exhaust\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Exhaust.png\" \tdata-image-name=\"Exhaust.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Exhaust <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ghost <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Heal.png/revision/latest/scale-to-width-down/20?cb=20180514003319\" \t alt=\"Heal\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Heal.png\" \tdata-image-name=\"Heal.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Heal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/Ignite.png/revision/latest/scale-to-width-down/20?cb=20180514003345\" \t alt=\"Ignite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ignite.png\" \tdata-image-name=\"Ignite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ignite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Smite.png/revision/latest/scale-to-width-down/20?cb=20180514003641\" \t alt=\"Smite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Smite.png\" \tdata-image-name=\"Smite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Smite\n\n\n Disabled\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flash <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall\n\n\n Interrupted by\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Hexflash.png/revision/latest/scale-to-width-down/20?cb=20180514003331\" \t alt=\"Hexflash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hexflash.png\" \tdata-image-name=\"Hexflash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hexflash (Recasts)\n\n\n\n Interrupted by\n Death<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Silencing effects",
+      "description": "Charge channel"
+    },
+    "Charge channel": {},
+    "Disabled": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Soul_Furnace.png/revision/latest/scale-to-width-down/20?cb=20170818194329\" \t alt=\"Soul Furnace\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Soul_Furnace.png\" \tdata-image-name=\"Soul Furnace.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Soul Furnace and its <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/99/Soul_Furnace_2.png/revision/latest/scale-to-width-down/20?cb=20170818194310\" \t alt=\"Soul Furnace 2\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Soul_Furnace_2.png\" \tdata-image-name=\"Soul Furnace 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> recast are usable. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a8/Roar_of_the_Slayer.png/revision/latest/scale-to-width-down/20?cb=20170818194259\" \t alt=\"Roar of the Slayer\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Roar_of_the_Slayer.png\" \tdata-image-name=\"Roar of the Slayer.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Roar of the Slayer and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8a/Unstoppable_Onslaught.png/revision/latest/scale-to-width-down/20?cb=20170818194344\" \t alt=\"Unstoppable Onslaught\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Unstoppable_Onslaught.png\" \tdata-image-name=\"Unstoppable Onslaught.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Unstoppable Onslaught are disabled. This ability recasts to end channel.": {},
+    "N/A": {},
+    "All items are disabled": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cc/Barrier.png/revision/latest/scale-to-width-down/20?cb=20180514002510\" \t alt=\"Barrier\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Barrier.png\" \tdata-image-name=\"Barrier.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Barrier <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Clarity.png/revision/latest/scale-to-width-down/20?cb=20180514002750\" \t alt=\"Clarity\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clarity.png\" \tdata-image-name=\"Clarity.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Clarity <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cleanse.png/revision/latest/scale-to-width-down/20?cb=20180514002812\" \t alt=\"Cleanse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cleanse.png\" \tdata-image-name=\"Cleanse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cleanse <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Exhaust.png/revision/latest/scale-to-width-down/20?cb=20180514003128\" \t alt=\"Exhaust\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Exhaust.png\" \tdata-image-name=\"Exhaust.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Exhaust <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ghost <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Heal.png/revision/latest/scale-to-width-down/20?cb=20180514003319\" \t alt=\"Heal\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Heal.png\" \tdata-image-name=\"Heal.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Heal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/Ignite.png/revision/latest/scale-to-width-down/20?cb=20180514003345\" \t alt=\"Ignite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ignite.png\" \tdata-image-name=\"Ignite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ignite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Smite.png/revision/latest/scale-to-width-down/20?cb=20180514003641\" \t alt=\"Smite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Smite.png\" \tdata-image-name=\"Smite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Smite": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flash <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Hexflash.png/revision/latest/scale-to-width-down/20?cb=20180514003331\" \t alt=\"Hexflash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hexflash.png\" \tdata-image-name=\"Hexflash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hexflash (Recasts)": {},
+    "Death<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Silencing effects": {},
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Soul Furnace",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Soul Furnace."
+    },
+    "champion": {
+      "value": "Sion",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "W",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Range_center.png/revision/latest/scale-to-width-down/20?cb=20150616134211\" \t alt=\"Range center\"  \tclass=\"\" \t \tdata-image-key=\"Range_center.png\" \tdata-image-name=\"Range center.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 550",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "65 / 70 / 75 / 80 / 85",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "15 / 14 / 13 / 12 / 11",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "false",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Passive: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Sion_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402221054\" \t alt=\"Sion OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sion_OriginalSquare.png\" \tdata-image-name=\"Sion OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sion gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus health whenever he kills a unit.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "Active: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Sion_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402221054\" \t alt=\"Sion OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sion_OriginalSquare.png\" \tdata-image-name=\"Sion OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sion gains a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shield, which he can detonate 3-6 seconds later to deal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> magic damage to nearby enemies.",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Passive: Sion permanently gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 4 bonus health whenever he kills an enemy, increased to 15 bonus health against large enemies and enemy champion <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Damage_rating.png/revision/latest/scale-to-width-down/20?cb=20170514053710\" \t alt=\"Damage rating\"  \tclass=\"\" \t \tdata-image-key=\"Damage_rating.png\" \tdata-image-name=\"Damage rating.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> takedowns.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "Soul Furnace.png",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Active: Sion <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields himself for up to 6 seconds. Soul Furnace can be recast after 3 seconds for as long as the shield is not destroyed.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Shield Strength:50 / 75 / 100 / 125 / 150 (+ 40% AP) (+ 8 / 9 / 10 / 11 / 12% maximum health)",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "Soul Furnace 2.png",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Recast: Soul Furnace's shield is detonated to deal magic damage to enemies around Sion, capped at 400 against minions and monsters.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "Magic Damage:40 / 65 / 90 / 115 / 140 (+ 40% AP) (+ 10 / 11 / 12 / 13 / 14% of target's maximum health)",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "Soul Furnace detonates automatically when the shield expires after 6 seconds.",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "Both of Soul Furnace's casts can be activated during Sion's other abilities, other than the release of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Decimating_Smash.png/revision/latest/scale-to-width-down/20?cb=20170818194232\" \t alt=\"Decimating Smash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Decimating_Smash.png\" \tdata-image-name=\"Decimating Smash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Decimating Smash.",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "None",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self, Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "spellaoe",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* A buff icon in the HUD will show the current shield strength, so that the player can better calculate the timing of the second cast.\n The initial shown value does not interact with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/15?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t><img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/15?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> shield strength modifiers. Whenever the shield takes damage, it updates to the proper current shield amount, however.\n\nThe initial cast counts as an ability activation for the purposes of on-cast effects such as Spellblade, charging <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder, and stacking <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Force_Pulse.png/revision/latest/scale-to-width-down/20?cb=20170818190412\" \t alt=\"Force Pulse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Force_Pulse.png\" \tdata-image-name=\"Force Pulse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Force Pulse.\nDetonating the ability manually does not.\n\n Gaining or losing AP or health, or ranking up the skill while the shield is active will not change its shield value but it will change the damage of the shield's detonation.\n The cooldown of Soul Furnace begins once the shield is removed.\n Gaining or losing <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> CDR between the first cast and breaking of the shield will affect the resuming cooldown accordingly.\n\n Soul Furnace also automatically detonates if Sion is killed without the shield being destroyed, e.g. by dying to the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d2/Nexus_Obelisk.png/revision/latest/scale-to-width-down/20?cb=20200128025852\" \t alt=\"Nexus Obelisk\"  \tclass=\"\" \t \tdata-image-key=\"Nexus_Obelisk.png\" \tdata-image-name=\"Nexus Obelisk.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Nexus Obelisk, even if Sion could not have detonated it manually yet.\n Soul Furnace's bonus health can be obtained by any of Sion's damage sources (basic attacks, abilities, summoner spells, item actives).\n This does not include last hits transferred to Sion artificially, through effects such as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/51/Relic_Shield_item.png/revision/latest/scale-to-width-down/20?cb=20191119104307\" \t alt=\"Relic Shield item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Relic_Shield_item.png\" \tdata-image-name=\"Relic Shield item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spoils of War.\n If the gold efficiency of a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Ruby_Crystal_item.png/revision/latest/scale-to-width-down/20?cb=20171221231159\" \t alt=\"Ruby Crystal item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ruby_Crystal_item.png\" \tdata-image-name=\"Ruby Crystal item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ruby Crystal is considered 100%, each last hit or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Damage_rating.png/revision/latest/scale-to-width-down/20?cb=20170514053710\" \t alt=\"Damage rating\"  \tclass=\"\" \t \tdata-image-key=\"Damage_rating.png\" \tdata-image-name=\"Damage rating.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> takedown after Soul Furnace has been learned can be considered worth an extra <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/10/Gold.png/revision/latest/scale-to-width-down/20?cb=20181122055358\" \t alt=\"Gold\"  \tclass=\"\" \t \tdata-image-key=\"Gold.png\" \tdata-image-name=\"Gold.png\" \t \t width=\"20\"  \t height=\"15\"  \t \t \t \t> 10.6 or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/10/Gold.png/revision/latest/scale-to-width-down/20?cb=20181122055358\" \t alt=\"Gold\"  \tclass=\"\" \t \tdata-image-key=\"Gold.png\" \tdata-image-name=\"Gold.png\" \t \t width=\"20\"  \t height=\"15\"  \t \t \t \t> 40g.\n\n Sion must learn Soul Furnace before he can stack up its passive.\n Sion does not gain bonus health from units that enter <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Revival_icon.png/revision/latest/scale-to-width-down/20?cb=20170714051127\" \t alt=\"Revival icon\"  \tclass=\"\" \t \tdata-image-key=\"Revival_icon.png\" \tdata-image-name=\"Revival icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resurrection after being killed.\n Killing the following unit types grants Sion 15 bonus health:\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Champions (kills and assists)\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Large minions and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> large monsters (including both summoned and pit <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Rift_HeraldSquare.png/revision/latest/scale-to-width-down/20?cb=20171112190027\" \t alt=\"Rift HeraldSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rift_HeraldSquare.png\" \tdata-image-name=\"Rift HeraldSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rift Herald)\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e7/Summon-_Tibbers.png/revision/latest/scale-to-width-down/20?cb=20170818001022\" \t alt=\"Summon- Tibbers\"  \tclass=\"\" \t \tdata-image-key=\"Summon-_Tibbers.png\" \tdata-image-name=\"Summon- Tibbers.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Large pets - Explicitly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e7/Summon-_Tibbers.png/revision/latest/scale-to-width-down/20?cb=20170818001022\" \t alt=\"Summon- Tibbers\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Summon-_Tibbers.png\" \tdata-image-name=\"Summon- Tibbers.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tibbers, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f2/Daisy%21.png/revision/latest/scale-to-width-down/20?cb=20170818003633\" \t alt=\"Daisy!\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Daisy%21.png\" \tdata-image-name=\"Daisy!.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Daisy and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/06/Eulogy_of_the_Isles.png/revision/latest/scale-to-width-down/20?cb=20170818200231\" \t alt=\"Eulogy of the Isles\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Eulogy_of_the_Isles.png\" \tdata-image-name=\"Eulogy of the Isles.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> The Maiden\n\n Killing the following unit types grants Sion 4 bonus health:\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Minions and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> small monsters\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f1/Ward_icon.png/revision/latest/scale-to-width-down/20?cb=20180828001331\" \t alt=\"Ward icon\"  \tclass=\"\" \t \tdata-image-key=\"Ward_icon.png\" \tdata-image-name=\"Ward icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Wards and other champion summoned units (e.g. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/21/Noxious_Trap.png/revision/latest/scale-to-width-down/20?cb=20171221034223\" \t alt=\"Noxious Trap\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Noxious_Trap.png\" \tdata-image-name=\"Noxious Trap.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Noxious Trap, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4e/Powder_Keg.png/revision/latest/scale-to-width-down/20?cb=20150707190027\" \t alt=\"Powder Keg\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Powder_Keg.png\" \tdata-image-name=\"Powder Keg.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Powder Keg, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/ba/Dark_Procession.png/revision/latest/scale-to-width-down/20?cb=20170818200209\" \t alt=\"Dark Procession\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dark_Procession.png\" \tdata-image-name=\"Dark Procession.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dark Procession)\n All <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e7/Summon-_Tibbers.png/revision/latest/scale-to-width-down/20?cb=20170818001022\" \t alt=\"Summon- Tibbers\"  \tclass=\"\" \t \tdata-image-key=\"Summon-_Tibbers.png\" \tdata-image-name=\"Summon- Tibbers.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> pets, with the exceptions of those listed above and below\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Command_Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20170204131432\" \t alt=\"Command Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Command_Hallucinate.png\" \tdata-image-name=\"Command Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Clones\n\n Killing the following unit types grants Sion no bonus health:\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Turrets (including <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4f/Shurima%27s_Legacy.png/revision/latest/scale-to-width-down/20?cb=20170818001505\" \t alt=\"Shurima&amp;#039;s Legacy\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shurima%27s_Legacy.png\" \tdata-image-name=\"Shurima&#39;s Legacy.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sun Disk) and other structures\n Jungle plants (which do not grant kill credit unless the attacker has <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5b/Umbral_Glaive_item.png/revision/latest/scale-to-width-down/20?cb=20191106214005\" \t alt=\"Umbral Glaive item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Umbral_Glaive_item.png\" \tdata-image-name=\"Umbral Glaive item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Umbral Glaive, in which case Sion does gain 4 health by killing them).\n Units destroyed by 'trampling' such as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0d/Zyra_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160526214642\" \t alt=\"Zyra OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zyra_OriginalSquare.png\" \tdata-image-name=\"Zyra OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Zyra's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/da/Rampant_Growth.png/revision/latest/scale-to-width-down/20?cb=20170818200552\" \t alt=\"Rampant Growth\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rampant_Growth.png\" \tdata-image-name=\"Rampant Growth.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> seeds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/16/Zac_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160417012331\" \t alt=\"Zac OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zac_OriginalSquare.png\" \tdata-image-name=\"Zac OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Zac's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/59/Cell_Division.png/revision/latest/scale-to-width-down/20?cb=20170818200403\" \t alt=\"Cell Division\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cell_Division.png\" \tdata-image-name=\"Cell Division.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> goo or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0b/Rek%27Sai_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160526213622\" \t alt=\"Rek&amp;#039;Sai OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rek%27Sai_OriginalSquare.png\" \tdata-image-name=\"Rek&#39;Sai OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rek'Sai's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d0/Tunnel.png/revision/latest/scale-to-width-down/20?cb=20141212015652\" \t alt=\"Tunnel\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tunnel.png\" \tdata-image-name=\"Tunnel.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> tunnels.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Roar of the Slayer",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Roar of the Slayer."
+    },
+    "champion": {
+      "value": "Sion",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "E",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/71/Range_model.png/revision/latest/scale-to-width-down/20?cb=20150616134216\" \t alt=\"Range model\"  \tclass=\"\" \t \tdata-image-key=\"Range_model.png\" \tdata-image-name=\"Range model.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 780 / 1400",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Range_center.png/revision/latest/scale-to-width-down/20?cb=20150616134211\" \t alt=\"Range center\"  \tclass=\"\" \t \tdata-image-key=\"Range_center.png\" \tdata-image-name=\"Range center.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 80",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/71/Range_model.png/revision/latest/scale-to-width-down/20?cb=20150616134216\" \t alt=\"Range model\"  \tclass=\"\" \t \tdata-image-key=\"Range_model.png\" \tdata-image-name=\"Range model.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 160",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "1800",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "35 / 40 / 45 / 50 / 55",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "12 / 11 / 10 / 9 / 8",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Roar of the Slayer.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Active: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Sion_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402221054\" \t alt=\"Sion OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sion_OriginalSquare.png\" \tdata-image-name=\"Sion OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sion fires a short range shockwave that deals magic damage, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Armor_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_penetration_icon.png\" \tdata-image-name=\"Armor penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> reduces the armor of the first enemy struck. If this enemy is a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minion or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monster, it will be <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked back further, dealing the effect to all enemies that it passes through.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Sion bellows in the target direction, dealing magic damage to the first enemy hit, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them for 2.5 seconds as well as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Armor_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_penetration_icon.png\" \tdata-image-name=\"Armor penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> reducing their armor by 20% for 4 seconds.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Magic Damage:65 / 100 / 135 / 170 / 205 (+ 55% AP)Slow:40 / 45 / 50 / 55 / 60%",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "If the target is a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minion or non-epic <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monster, it is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunned for 0.75 seconds and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked back, in the same line, up to 1300 units away from Sion, dealing the same damage and applying the same effects to all enemies it passes through as well as briefly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing the area it goes through. Projectile enemies are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c1/Cosmic_Radiance.png/revision/latest/scale-to-width-down/20?cb=20160608034537\" \t alt=\"Cosmic Radiance\"  \tclass=\"\" \t \tdata-image-key=\"Cosmic_Radiance.png\" \tdata-image-name=\"Cosmic Radiance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invulnerable to minion damage and take their damage once they are stopped if they would die to the Bellow's Breath's damage, by either colliding with terrain, reaching the end of their trajectory, or being <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ae/Knockdown_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223937\" \t alt=\"Knockdown icon\"  \tclass=\"\" \t \tdata-image-key=\"Knockdown_icon.png\" \tdata-image-name=\"Knockdown icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked down.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Area of effect",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "Special",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Unlike the intial single-target projectile, a thrown minion or monster is not blocked by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/61/Wind_Wall.png/revision/latest/scale-to-width-down/20?cb=20131122024151\" \t alt=\"Wind Wall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Wind_Wall.png\" \tdata-image-name=\"Wind Wall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Wind Wall or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ef/Unbreakable.png/revision/latest/scale-to-width-down/20?cb=20170818001617\" \t alt=\"Unbreakable\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Unbreakable.png\" \tdata-image-name=\"Unbreakable.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Unbreakable.\n The initial projectile cannot hit targets whose <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Range_center.png/revision/latest/scale-to-width-down/20?cb=20150616134211\" \t alt=\"Range center\"  \tclass=\"\" \t \tdata-image-key=\"Range_center.png\" \tdata-image-name=\"Range center.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> center is behind Sion, but can hit targets whose center is beyond the maximum travel distance, as long as their <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/71/Range_model.png/revision/latest/scale-to-width-down/20?cb=20150616134216\" \t alt=\"Range model\"  \tclass=\"\" \t \tdata-image-key=\"Range_model.png\" \tdata-image-name=\"Range model.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> hitbox overlaps.\n Gaining or losing AP, or upgrading the ability while its projectile is traveling will change its damage for every future hit. This applies to both the intial single-target projectile, as well as the minion-projectile.\n Roar of the Slayer will cast from wherever Sion is at the end of the cast time.\n PENDING FOR TEST: Non-champions will also take damage from Roar of the Slayer after being overridden by another <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Unstoppable Onslaught",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Unstoppable Onslaught."
+    },
+    "champion": {
+      "value": "Sion",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "R",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "100",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "140 / 100 / 60",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Unstoppable Onslaught.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Active: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Sion_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402221054\" \t alt=\"Sion OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sion_OriginalSquare.png\" \tdata-image-name=\"Sion OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sion <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charges in a direction, becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b1/Cc-immune_icon.png/revision/latest/scale-to-width-down/20?cb=20200327223512\" \t alt=\"Cc-immune icon\"  \tclass=\"\" \t \tdata-image-key=\"Cc-immune_icon.png\" \tdata-image-name=\"Cc-immune icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cc-immune and ramping up speed over time. He can steer this charge slightly. When he collides with an enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion or terrain, or ends the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charge otherwise, he slams the ground to deal physical damage in an area and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knock up enemies directly hit. Damage and CC duration increase with the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channel time.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Sion <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charges forward in the direction of the cursor for up to 8 seconds, during which he is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b1/Cc-immune_icon.png/revision/latest/scale-to-width-down/20?cb=20200327223512\" \t alt=\"Cc-immune icon\"  \tclass=\"\" \t \tdata-image-key=\"Cc-immune_icon.png\" \tdata-image-name=\"Cc-immune icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> immune to crowd control, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted, and able to steer at a slow turn rate while automatically navigating his movement.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "The charge uses Sion's movement speed at the time of cast and is unaffected by external sources for the duration, including movement speed caps, while also gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 40 bonus movement speed every 0.1 seconds, capping at 950 total movement speed.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "Unstoppable Onslaught 2.png",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Upon reaching the end of the duration, Sion <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Bear_Stance.png/revision/latest/scale-to-width-down/20?cb=20171223035155\" \t alt=\"Bear Stance\"  \tclass=\"\" \t \tdata-image-key=\"Bear_Stance.png\" \tdata-image-name=\"Bear Stance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leaps forward 200-units, landing after 0.55 seconds and slamming the ground around him. Colliding with an enemy champion or terrain will stop Unstoppable Onslaught prematurely. Running into terrain will also self-<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun Sion for 0.5 seconds.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "Both the charge and slam deal physical damage to all enemies and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> turrets struck, with the base damage increasing by 0% − 166.67% (based on time since the initial cast), the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus AD ratio increasing by 0% − 100% (based on time since the initial cast), and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them for 3 seconds.",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "Minimum Physical Damage:»150 / 300 / 450 (+ 40% bonus AD)«Maximum Physical Damage:400 / 800 / 1200 (+ 80% bonus AD)\nSlow:40 / 45 / 50%",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "When colliding with at least one enemy champion, Sion will additionally <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> pull all enemies around him over 0.5 seconds, after which they're <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunned for 0.25 −  1.75 (based on time since the initial cast) seconds, increased to 0.75 −  1.75 (based on time since the initial cast) if hit by the leap.",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self, Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Physical",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Area of effect",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* When Sion casts Unstoppable Onslaught a global warning can be heard.\n Unstoppable Onslaught can be activated twice or held down and released on both normal cast and quick cast. There is no other difference between normal cast and quick cast for this ability, either.\nThe initial cast counts as an ability activation for the purposes of on-cast effects such as Spellblade, charging <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder, and stacking <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Force_Pulse.png/revision/latest/scale-to-width-down/20?cb=20170818190412\" \t alt=\"Force Pulse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Force_Pulse.png\" \tdata-image-name=\"Force Pulse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Force Pulse.\nThe recast does not.\n\n After reaching maximum damage and stun duration (at 3 seconds) Sion will transition from using his haste animation to his unique charging one.\n Reaching the threshold on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Sion_MechaZeroCircle.png/revision/latest/scale-to-width-down/20?cb=20171111215438\" \t alt=\"Sion MechaZeroCircle\"  \tclass=\"\" \t \tdata-image-key=\"Sion_MechaZeroCircle.png\" \tdata-image-name=\"Sion MechaZeroCircle.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mecha Zero Sion changes his particle effects instead, most notably the 'Boosters' behind the vehicle.\n The turning angle is not based on time and can easily be seen in practice when a Sion charges in-place due to bugs.\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/dd/Nami_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220700\" \t alt=\"Nami OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Nami_OriginalSquare.png\" \tdata-image-name=\"Nami OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Nami's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b8/Surging_Tides.png/revision/latest/scale-to-width-down/20?cb=20130929123107\" \t alt=\"Surging Tides\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Surging_Tides.png\" \tdata-image-name=\"Surging Tides.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Surging Tides is the only known effect that can affect Sion's movement speed during the charge and that can place him above the normal MS value. However, without further multipliers, surpassing the 950 movement speed cap will require <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/dd/Nami_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220700\" \t alt=\"Nami OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Nami_OriginalSquare.png\" \tdata-image-name=\"Nami OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Nami to have over 2150 ability power.\n Sion does not always crash with terrain immediately upon touching it, enabling the player to turn beyond his maximum turning angle.\n Casting the ability at point blank of a terrain will most often automatically change the charge's direction.\n This is not usually possible with player-generated terrain.\n\n Unstoppable Onslaught cannot charge through but can leap over player-created terrain (i.e <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/28/Crystallize.png/revision/latest/scale-to-width-down/20?cb=20160420184144\" \t alt=\"Crystallize\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crystallize.png\" \tdata-image-name=\"Crystallize.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crystallize).\n Sion loses the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b1/Cc-immune_icon.png/revision/latest/scale-to-width-down/20?cb=20200327223512\" \t alt=\"Cc-immune icon\"  \tclass=\"\" \t \tdata-image-key=\"Cc-immune_icon.png\" \tdata-image-name=\"Cc-immune icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crowd control immunity after finishing the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Bear_Stance.png/revision/latest/scale-to-width-down/20?cb=20171223035155\" \t alt=\"Bear Stance\"  \tclass=\"\" \t \tdata-image-key=\"Bear_Stance.png\" \tdata-image-name=\"Bear Stance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leap.\n Sion is not immune to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crowd control applied by his allies during Unstoppable Onslaught. For example, a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a6/Blast_ConeSquare.png/revision/latest/scale-to-width-down/20?cb=20170119022005\" \t alt=\"Blast ConeSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blast_ConeSquare.png\" \tdata-image-name=\"Blast ConeSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Blast Cone triggered by an ally will cause the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channel to be <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> interrupted.\n An allied <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/37/Bard_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402215420\" \t alt=\"Bard OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Bard_OriginalSquare.png\" \tdata-image-name=\"Bard OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bard's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b9/Tempered_Fate.png/revision/latest/scale-to-width-down/20?cb=20150224202956\" \t alt=\"Tempered Fate\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tempered_Fate.png\" \tdata-image-name=\"Tempered Fate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tempered Fate will be resisted however.\n If it hits Sion the exact moment he casts Unstoppable Onslaught, he will not resist the effect and will initiate the slam immediately while in <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis.\n\n\n Unstoppable Onslaught cannot strike the same non-champion twice in less than 1 second.\n PENDING FOR TEST The distance between Sion's center and the center of the ground slam scales slightly with movement speed. This is suspected because running into a wall within half a second of charge time after starting at multiple thousands of movement speed shows a considerable difference, however this could also be due to a bug.\n PENDING FOR TEST The leap appears to always have the same speed regardless of Sion's, at roughly 750.\n Moving the cursor onto HUD elements (e.g mini map / champion portraits) does not jeopardize the cast and steering of Unstoppable Onslaught. The targeting will act as if the ground was targeted below the display element.\n Even though the cooldown of Unstoppable Onslaught starts at the end of the effect, gaining or losing cooldown reduction, or upgrading the ability during the effect, will not change the resuming cooldown.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Remove_Scurvy.png/revision/latest/scale-to-width-down/20?cb=20150707190028\" \t alt=\"Remove Scurvy\"  \tclass=\"\" \t \tdata-image-key=\"Remove_Scurvy.png\" \tdata-image-name=\"Remove Scurvy.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Removing the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> airborne before 0.5 seconds will not prevent the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun from being applied.\n Preventing the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> airborne from being applied (i.e <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Unstoppable_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164427\" \t alt=\"Unstoppable icon\"  \tclass=\"\" \t \tdata-image-key=\"Unstoppable_icon.png\" \tdata-image-name=\"Unstoppable icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unstoppability) also prevents the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun.\n\n The following table refers for interactions while Sion is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channeling:\n\n\n\n Type\n Channel\n\n\n Attacking\n Disabled\n\n\n Abilities\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Soul_Furnace.png/revision/latest/scale-to-width-down/20?cb=20170818194329\" \t alt=\"Soul Furnace\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Soul_Furnace.png\" \tdata-image-name=\"Soul Furnace.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Soul Furnace and its <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/99/Soul_Furnace_2.png/revision/latest/scale-to-width-down/20?cb=20170818194310\" \t alt=\"Soul Furnace 2\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Soul_Furnace_2.png\" \tdata-image-name=\"Soul Furnace 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> recast are usable. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Decimating_Smash.png/revision/latest/scale-to-width-down/20?cb=20170818194232\" \t alt=\"Decimating Smash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Decimating_Smash.png\" \tdata-image-name=\"Decimating Smash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Decimating Smash and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a8/Roar_of_the_Slayer.png/revision/latest/scale-to-width-down/20?cb=20170818194259\" \t alt=\"Roar of the Slayer\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Roar_of_the_Slayer.png\" \tdata-image-name=\"Roar of the Slayer.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Roar of the Slayer are disabled. This ability recasts to end channel.\n\n\n Movement\n Allowed, but cannot input movement commands.\n\n\n Items\n Usable\n N/A\n\n\n Disabled\n All items are disabled\n\n\n Interrupted by\n N/A\n\n\n\n Consumables\n Disabled\n\n\n Spells\n Usable\n N/A\n\n\n Disabled\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cc/Barrier.png/revision/latest/scale-to-width-down/20?cb=20180514002510\" \t alt=\"Barrier\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Barrier.png\" \tdata-image-name=\"Barrier.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Barrier <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Clarity.png/revision/latest/scale-to-width-down/20?cb=20180514002750\" \t alt=\"Clarity\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clarity.png\" \tdata-image-name=\"Clarity.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Clarity <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cleanse.png/revision/latest/scale-to-width-down/20?cb=20180514002812\" \t alt=\"Cleanse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cleanse.png\" \tdata-image-name=\"Cleanse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cleanse <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Exhaust.png/revision/latest/scale-to-width-down/20?cb=20180514003128\" \t alt=\"Exhaust\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Exhaust.png\" \tdata-image-name=\"Exhaust.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Exhaust <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ghost <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Heal.png/revision/latest/scale-to-width-down/20?cb=20180514003319\" \t alt=\"Heal\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Heal.png\" \tdata-image-name=\"Heal.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Heal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/Ignite.png/revision/latest/scale-to-width-down/20?cb=20180514003345\" \t alt=\"Ignite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ignite.png\" \tdata-image-name=\"Ignite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ignite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Smite.png/revision/latest/scale-to-width-down/20?cb=20180514003641\" \t alt=\"Smite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Smite.png\" \tdata-image-name=\"Smite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Smite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flash <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Hexflash.png/revision/latest/scale-to-width-down/20?cb=20180514003331\" \t alt=\"Hexflash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hexflash.png\" \tdata-image-name=\"Hexflash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hexflash <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4d/Mark.png/revision/latest/scale-to-width-down/20?cb=20180514003608\" \t alt=\"Mark\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mark.png\" \tdata-image-name=\"Mark.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mark <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dash\n\n\n Interrupted by\n N/A\n\n\n\n Interrupted by\n Death\n\n If Unstoppable Onslaught's channel is interrupted despite the immunity to crowd control or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Decimating_Smash.png/revision/latest/scale-to-width-down/20?cb=20170818194232\" \t alt=\"Decimating Smash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Decimating_Smash.png\" \tdata-image-name=\"Decimating Smash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Decimating Smash is cast within 0.25 seconds after starting the charge, it will also initiate the leap. If the channel ends due to collision or death, there is no <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Bear_Stance.png/revision/latest/scale-to-width-down/20?cb=20171223035155\" \t alt=\"Bear Stance\"  \tclass=\"\" \t \tdata-image-key=\"Bear_Stance.png\" \tdata-image-name=\"Bear Stance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leap and the effect occurs immediately.",
+      "description": "Channel"
+    },
+    "Channel": {},
+    "Disabled": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Soul_Furnace.png/revision/latest/scale-to-width-down/20?cb=20170818194329\" \t alt=\"Soul Furnace\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Soul_Furnace.png\" \tdata-image-name=\"Soul Furnace.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Soul Furnace and its <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/99/Soul_Furnace_2.png/revision/latest/scale-to-width-down/20?cb=20170818194310\" \t alt=\"Soul Furnace 2\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Soul_Furnace_2.png\" \tdata-image-name=\"Soul Furnace 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> recast are usable. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Decimating_Smash.png/revision/latest/scale-to-width-down/20?cb=20170818194232\" \t alt=\"Decimating Smash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Decimating_Smash.png\" \tdata-image-name=\"Decimating Smash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Decimating Smash and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a8/Roar_of_the_Slayer.png/revision/latest/scale-to-width-down/20?cb=20170818194259\" \t alt=\"Roar of the Slayer\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Roar_of_the_Slayer.png\" \tdata-image-name=\"Roar of the Slayer.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Roar of the Slayer are disabled. This ability recasts to end channel.": {},
+    "Allowed, but cannot input movement commands.": {},
+    "N/A": {},
+    "All items are disabled": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cc/Barrier.png/revision/latest/scale-to-width-down/20?cb=20180514002510\" \t alt=\"Barrier\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Barrier.png\" \tdata-image-name=\"Barrier.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Barrier <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Clarity.png/revision/latest/scale-to-width-down/20?cb=20180514002750\" \t alt=\"Clarity\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clarity.png\" \tdata-image-name=\"Clarity.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Clarity <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cleanse.png/revision/latest/scale-to-width-down/20?cb=20180514002812\" \t alt=\"Cleanse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cleanse.png\" \tdata-image-name=\"Cleanse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cleanse <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Exhaust.png/revision/latest/scale-to-width-down/20?cb=20180514003128\" \t alt=\"Exhaust\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Exhaust.png\" \tdata-image-name=\"Exhaust.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Exhaust <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ghost <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Heal.png/revision/latest/scale-to-width-down/20?cb=20180514003319\" \t alt=\"Heal\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Heal.png\" \tdata-image-name=\"Heal.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Heal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/Ignite.png/revision/latest/scale-to-width-down/20?cb=20180514003345\" \t alt=\"Ignite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ignite.png\" \tdata-image-name=\"Ignite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ignite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Smite.png/revision/latest/scale-to-width-down/20?cb=20180514003641\" \t alt=\"Smite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Smite.png\" \tdata-image-name=\"Smite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Smite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flash <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Hexflash.png/revision/latest/scale-to-width-down/20?cb=20180514003331\" \t alt=\"Hexflash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hexflash.png\" \tdata-image-name=\"Hexflash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hexflash <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4d/Mark.png/revision/latest/scale-to-width-down/20?cb=20180514003608\" \t alt=\"Mark\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mark.png\" \tdata-image-name=\"Mark.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mark <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dash": {},
+    "Death": {},
+    "flavorsound": {
+      "value": "\"Chaaaaaaaarge!\"",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  }
+]

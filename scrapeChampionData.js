@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
-const Champion = require("./Champion.js");
+const Champion = require("./backend/Entities/Champion.js");
 
 
 // we already have the basic champion file, use this for the names

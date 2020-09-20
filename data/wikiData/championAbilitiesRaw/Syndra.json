@@ -1,0 +1,1192 @@
+[
+  {
+    "1": {
+      "value": "Transcendent",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Transcendent."
+    },
+    "champion": {
+      "value": "Syndra",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "I",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Transcendent.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Spells gain extra effects at max rank. Dark Sphere: Sphere's lifetime is increased to 8 seconds. Force of Will: Deals 20% bonus true damage. Scatter the Weak: Spell width increased by 50%. Unleashed Power: Range increased by 75.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Innate: Each of Syndra's abilities gain an additional effect at maximum rank.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Passive",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* The earliest possible champion level required for Transcendent to take effect is level 9, as this is the lowest level at which a basic ability can reach rank 5.\n Syndra's abilities gain additional visual effects when they reach rank 5. Her spells will also gain a red colored tint outlining the VFX.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Dark_Sphere.png/revision/latest/scale-to-width-down/20?cb=20130929123317\" \t alt=\"Dark Sphere\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dark_Sphere.png\" \tdata-image-name=\"Dark Sphere.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dark Sphere will cause fractures to appear in the earth when it is used.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Scatter_the_Weak.png/revision/latest/scale-to-width-down/20?cb=20130929123320\" \t alt=\"Scatter the Weak\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Scatter_the_Weak.png\" \tdata-image-name=\"Scatter the Weak.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Scatter the Weak gains a wider cone.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Dark Sphere",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Dark Sphere."
+    },
+    "champion": {
+      "value": "Syndra",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "Q",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "800",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Range_center.png/revision/latest/scale-to-width-down/20?cb=20150616134211\" \t alt=\"Range center\"  \tclass=\"\" \t \tdata-image-key=\"Range_center.png\" \tdata-image-name=\"Range center.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 180",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "60 / 65 / 70 / 75 / 80",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "4",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Dark Sphere.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Syndra conjures a Dark Sphere dealing magic damage. The sphere remains and can be manipulated by her other powers.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: After 0.6 seconds, Syndra conjures a Dark Sphere at the target location, dealing magic damage to all enemies hit, which then remains for 6 seconds.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Magic Damage:70 / 105 / 140 / 175 / 210 (+ 65% AP)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/fe/Transcendent.png/revision/latest/scale-to-width-down/20?cb=20130929123321\" \t alt=\"Transcendent\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Transcendent.png\" \tdata-image-name=\"Transcendent.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Transcendent Bonus: Dark Sphere deals 25% bonus damage against champions.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Bonus Damage:»52.5 (+ 16.25% AP)«Total Damage:262.5 (+ 81.25% AP)",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Ground",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Aoe",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Dark Sphere can be conjured inside terrain, but cannot be thrown there with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d2/Force_of_Will.png/revision/latest/scale-to-width-down/20?cb=20130929123319\" \t alt=\"Force of Will\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Force_of_Will.png\" \tdata-image-name=\"Force of Will.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Force of Will.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Force of Will",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Force of Will."
+    },
+    "champion": {
+      "value": "Syndra",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "W",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Range_center.png/revision/latest/scale-to-width-down/20?cb=20150616134211\" \t alt=\"Range center\"  \tclass=\"\" \t \tdata-image-key=\"Range_center.png\" \tdata-image-name=\"Range center.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 925 / 950",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Range_center.png/revision/latest/scale-to-width-down/20?cb=20150616134211\" \t alt=\"Range center\"  \tclass=\"\" \t \tdata-image-key=\"Range_center.png\" \tdata-image-name=\"Range center.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 225",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "60 / 70 / 80 / 90 / 100",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "12 / 11 / 10 / 9 / 8",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Force of Will.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Syndra picks up and throws a Dark Sphere or enemy minion dealing magic damage and slowing the Movement Speed of enemies.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Syndra telekinetically grabs the nearest <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Dark_Sphere.png/revision/latest/scale-to-width-down/20?cb=20130929123317\" \t alt=\"Dark Sphere\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dark_Sphere.png\" \tdata-image-name=\"Dark Sphere.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dark Sphere, enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minion or non-epic <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monster within 400 range from the target location for 5 seconds, or if not found it grabs the nearest Dark Sphere. If a Dark Sphere is grabbed, its duration is refreshed; if a minion or monster is grabbed, it is put in <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis. Force of Will can be recast at no delay.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "Force of Will 2.png",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Recast: Syndra throws the grabbed target towards the target area, granting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of the projectile's surroundings as they fall. Enemies struck, including the grabbed target, take magic damage and are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed for 1.5 seconds.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Magic Damage:70 / 110 / 150 / 190 / 230 (+ 70% AP)Slow:25 / 30 / 35 / 40 / 45%",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/fe/Transcendent.png/revision/latest/scale-to-width-down/20?cb=20130929123321\" \t alt=\"Transcendent\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Transcendent.png\" \tdata-image-name=\"Transcendent.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Transcendent Bonus: Force of Will deals <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c0/Hybrid_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20171001102450\" \t alt=\"Hybrid penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration_icon.png\" \tdata-image-name=\"Hybrid penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 20% bonus true damage.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "Bonus True Damage:»46 (+ 14% AP)«Total Mixed Damage:276 (+ 84% AP)",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Unit / Ground",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Aoe",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "false",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* The initial cast does not count as an ability activation for the purposes of on-cast effects such as Spellblade, charging <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder, and stacking <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Force_Pulse.png/revision/latest/scale-to-width-down/20?cb=20170818190412\" \t alt=\"Force Pulse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Force_Pulse.png\" \tdata-image-name=\"Force Pulse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Force Pulse.\nDetonating the ability manually does.\n\n Force of Will does not destroy in-flight <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Projectile.png/revision/latest/scale-to-width-down/20?cb=20150816082407\" \t alt=\"Projectile\"  \tclass=\"\" \t \tdata-image-key=\"Projectile.png\" \tdata-image-name=\"Projectile.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> projectiles for the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minion or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monster grabbed.\n Syndra can grab <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e7/Summon-_Tibbers.png/revision/latest/scale-to-width-down/20?cb=20170818001022\" \t alt=\"Summon- Tibbers\"  \tclass=\"\" \t \tdata-image-key=\"Summon-_Tibbers.png\" \tdata-image-name=\"Summon- Tibbers.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> pets, such as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e1/Shaco_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220937\" \t alt=\"Shaco OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shaco_OriginalSquare.png\" \tdata-image-name=\"Shaco OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shaco's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Jack_in_the_Box.png/revision/latest/scale-to-width-down/20?cb=20160608033612\" \t alt=\"Jack in the Box\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Jack_in_the_Box.png\" \tdata-image-name=\"Jack in the Box.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Jack in the Box.\n Casting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall will cause Syndra to cancel Force of Will autonomously and drop anything she is holding.\n Grabbing prioritizes Dark Spheres.\n Once upgraded to maximum rank Force of Will gains a total damage increase of (20 + enemy's MR ÷ 5)%.\n Enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e7/Summon-_Tibbers.png/revision/latest/scale-to-width-down/20?cb=20170818001022\" \t alt=\"Summon- Tibbers\"  \tclass=\"\" \t \tdata-image-key=\"Summon-_Tibbers.png\" \tdata-image-name=\"Summon- Tibbers.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> pets that passively have an effect on their surroundings will continue to affect the area around them while they are being held. For example, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/Annie_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150404100758\" \t alt=\"Annie OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Annie_OriginalSquare.png\" \tdata-image-name=\"Annie OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Annie's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e7/Summon-_Tibbers.png/revision/latest/scale-to-width-down/20?cb=20170818001022\" \t alt=\"Summon- Tibbers\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Summon-_Tibbers.png\" \tdata-image-name=\"Summon- Tibbers.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tibbers will continue to inflict burn damage on surrounding units while being held.\n Grabbing a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Dark_Sphere.png/revision/latest/scale-to-width-down/20?cb=20130929123317\" \t alt=\"Dark Sphere\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dark_Sphere.png\" \tdata-image-name=\"Dark Sphere.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dark Sphere will cause the duration on it to refresh, but only on the first cast, not when it is thrown.\n Force of Will has additional effects when targeting the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/85/Blue_SentinelSquare.png/revision/latest/scale-to-width-down/20?cb=20140620025405\" \t alt=\"Blue SentinelSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blue_SentinelSquare.png\" \tdata-image-name=\"Blue SentinelSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Blue Sentinel and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e7/Red_BramblebackSquare.png/revision/latest/scale-to-width-down/20?cb=20140620025406\" \t alt=\"Red BramblebackSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Red_BramblebackSquare.png\" \tdata-image-name=\"Red BramblebackSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Red Brambleback. Throwing the former will refund 10 <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d2/Mana_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230506\" \t alt=\"Mana resource\"  \tclass=\"\" \t \tdata-image-key=\"Mana_resource.png\" \tdata-image-name=\"Mana resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> mana to Syndra upon cast and will reduce the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown of Force of Will by 1 second, while throwing the latter will apply the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Crest_of_Cinders_buff.png/revision/latest/scale-to-width-down/20?cb=20191119112522\" \t alt=\"Crest of Cinders buff\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crest_of_Cinders_buff.png\" \tdata-image-name=\"Crest of Cinders buff.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crest of Cinders burn to any affected units in the area of effect.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Scatter the Weak",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Scatter the Weak."
+    },
+    "champion": {
+      "value": "Syndra",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "E",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/71/Range_model.png/revision/latest/scale-to-width-down/20?cb=20150616134216\" \t alt=\"Range model\"  \tclass=\"\" \t \tdata-image-key=\"Range_model.png\" \tdata-image-name=\"Range model.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 700 / 800",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/71/Range_model.png/revision/latest/scale-to-width-down/20?cb=20150616134216\" \t alt=\"Range model\"  \tclass=\"\" \t \tdata-image-key=\"Range_model.png\" \tdata-image-name=\"Range model.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 40° / 60°",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "2500",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "50",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "18 / 17 / 16 / 15 / 14",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Scatter the Weak.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Syndra knocks enemies and Dark Spheres back dealing magic damage. Enemies hit by Dark Spheres become stunned.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Syndra <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocks back all enemies in a cone in the target direction for 400 units and up to 800 units away from her based on proximity, dealing magic damage.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Magic Damage:85 / 130 / 175 / 220 / 265 (+ 60% AP)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Dark_Sphere.png/revision/latest/scale-to-width-down/20?cb=20130929123317\" \t alt=\"Dark Sphere\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dark_Sphere.png\" \tdata-image-name=\"Dark Sphere.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dark Spheres can also be knocked back for 1000 units and up to 1300 units away from Syndra based on proximity, knocking back all enemies they collide with for 100 units and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them for 1.5 seconds, and dealing Scatter the Weak's damage if they were not affected by the initial cast.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/fe/Transcendent.png/revision/latest/scale-to-width-down/20?cb=20130929123321\" \t alt=\"Transcendent\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Transcendent.png\" \tdata-image-name=\"Transcendent.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Transcendent Bonus: Scatter the Weak's area of effect is 50% wider.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Aoe",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "special",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Scatter the Weak is blocked by the portion of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/61/Wind_Wall.png/revision/latest/scale-to-width-down/20?cb=20131122024151\" \t alt=\"Wind Wall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Wind_Wall.png\" \tdata-image-name=\"Wind Wall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Wind Wall it collides with. Spheres thrown will stop upon colliding with the wall.\n Enemies and spheres will be knocked into the direction directly away from Syndra, and the knock back has no dispersion.\n Conjuring a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Dark_Sphere.png/revision/latest/scale-to-width-down/20?cb=20130929123317\" \t alt=\"Dark Sphere\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dark_Sphere.png\" \tdata-image-name=\"Dark Sphere.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dark Sphere at max range or close to or inside the edge of Scatter the Weak's conic-area of effect will knock back the sphere immediately once it has formed. This considers the sphere's center.*\n Scatter the Weak will knock back Spheres even farther if they are inside terrain, up until they reach open space. If the terrain they're inside in cannot be surpassed, the Spheres will be knocked in the opposite direction.\n Scatter the Weak will cast from wherever Syndra is at the end of the cast time.\n Once Scatter the Weak has been learned, an arrow directly in front of every <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Dark_Sphere.png/revision/latest/scale-to-width-down/20?cb=20130929123317\" \t alt=\"Dark Sphere\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dark_Sphere.png\" \tdata-image-name=\"Dark Sphere.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dark Sphere will appear to signify the direction the sphere will be knocked towards, each one corresponding to Syndra's position. This is only visible to Syndra.\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Dark_Sphere_directional_arrows.png/revision/latest/scale-to-width-down/250?cb=20200714042406\" \t alt=\"Dark Sphere directional arrows\"  \tclass=\"\" \t \tdata-image-key=\"Dark_Sphere_directional_arrows.png\" \tdata-image-name=\"Dark Sphere directional arrows.png\" \t \t width=\"250\"  \t height=\"168\"  \t \t \t \t>",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Unleashed Power",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Unleashed Power."
+    },
+    "champion": {
+      "value": "Syndra",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "R",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Range_center.png/revision/latest/scale-to-width-down/20?cb=20150616134211\" \t alt=\"Range center\"  \tclass=\"\" \t \tdata-image-key=\"Range_center.png\" \tdata-image-name=\"Range center.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 675 / 750",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "100",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "120 / 110 / 100 / 90 / 80",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Unleashed Power.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Syndra bombards an enemy Champion with all of her Dark Spheres.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Syndra grabs up to 4 nearby <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Dark_Sphere.png/revision/latest/scale-to-width-down/20?cb=20130929123317\" \t alt=\"Dark Sphere\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dark_Sphere.png\" \tdata-image-name=\"Dark Sphere.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dark Spheres and the three orbiting around her and hurls them at the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion, dealing magic damage per sphere.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Magic Damage per Sphere:90 / 115 / 140 / 165 / 190 (+ 20% AP)Minimum Damage:»270 / 345 / 420 / 495 / 570 (+ 60% AP)«Maximum Damage:630 / 805 / 980 / 1155 / 1330 (+ 140% AP)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "The <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Dark_Sphere.png/revision/latest/scale-to-width-down/20?cb=20130929123317\" \t alt=\"Dark Sphere\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dark_Sphere.png\" \tdata-image-name=\"Dark Sphere.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dark Spheres will then remain on the ground for 6 seconds.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/fe/Transcendent.png/revision/latest/scale-to-width-down/20?cb=20130929123321\" \t alt=\"Transcendent\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Transcendent.png\" \tdata-image-name=\"Transcendent.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Transcendent Bonus: Unleashed Power's cast range is increased.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Unit",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "spell",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "Special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "true",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "true",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Unleashed Power has a brief cast time before it activates, but Syndra does not have to remain in place while the spheres apply their damage. She can walk away as soon as the casting has completed, as the spheres only begin dealing their damage after the casting time.\n Each one of the sphere hits is considered a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Disintegrate.png/revision/latest/scale-to-width-down/20?cb=20130929122652\" \t alt=\"Disintegrate\"  \tclass=\"\" \t \tdata-image-key=\"Disintegrate.png\" \tdata-image-name=\"Disintegrate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> single target spell, triggering <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/Muramana_item.png/revision/latest/scale-to-width-down/20?cb=20171221224035\" \t alt=\"Muramana item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Muramana_item.png\" \tdata-image-name=\"Muramana item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Muramana's shock each time.\n Casting Unleashed Power on a target that becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable while the spheres are in flight will cause them to deal no damage.\n Spheres already in flight will still travel if Syndra's target dies, but any remaining sphere will not. However, their duration will still get reset.\n A Dark Sphere summoned very shortly before Unleashed Power will be used as one of the spheres that get thrown. \n Depending on how many spheres are on the map and how far away the enemy is upon casting Unleashed Power it is possible that Syndra would conjure the sphere behind her as if she was going to throw it, but she won't.\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shield will only block the damage of a single sphere.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  }
+]
