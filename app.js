@@ -7,19 +7,7 @@ const Importer = require('./backend/DataScraper/Importer.js');
 const importer = new Importer();
 
 
-router.get("/champion/caitlyn", (req, res) => {
-    let championName = "Caitlyn";
-    try {
-        let str = fs.readFileSync(`./data/championFormatted/${championName}.json`);
-        res.send(str);
-    } catch(e) {
-        console.error(e);
-        res.send("error");
-    }
-});
-
-// router.get("/champion")
-
+// get all champion data
 router.get("/champion", async (req, res) => {
     let details = req.query.details === 'true';
     let champions = await importer.importAllFormattedChampions();
@@ -34,6 +22,7 @@ router.get("/champion", async (req, res) => {
     res.json(responseData);
 });
 
+// get champion data by name
 router.get("/champion/:name", (req, res) => {
     let championName = req.params.name;
     let champion = importer.importFormattedChampionData(championName);
@@ -41,7 +30,6 @@ router.get("/champion/:name", (req, res) => {
 });
 
 app.use('/', router);
-
 app.listen(port, (res, req) => {
     console.log(`Running on port ${port}`);
 });

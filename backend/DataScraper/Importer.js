@@ -35,11 +35,20 @@ class Importer {
         return championMap;
     }
 
+    /**
+     *
+     * @param name
+     * @returns {object}
+     */
     importFormattedChampionData(name) {
         let obj = fs.readFileSync(`./data/championFormatted/${name}.json`);
         return JSON.parse(obj);
     }
 
+    /**
+     *
+     * @returns {Promise<Map<string, array<object>>>}
+     */
     async importFormattedAbilityData() {
         const basePath = this.wikiAbilitiesFormattedDir;
         const dir = await fs.promises.opendir(basePath);
@@ -68,6 +77,10 @@ class Importer {
         return championMap;
     }
 
+    /**
+     *
+     * @returns {Promise<Map<string, array<object>>>}
+     */
     async importRawAbilityData() {
         const basePath = this.wikiAbilitiesRawDir;
         const dir = await fs.promises.opendir(basePath);
@@ -97,12 +110,21 @@ class Importer {
         return championMap;
     }
 
+    /**
+     *
+     * @param championName
+     * @returns {Promise<object>}
+     */
     async loadAbilities(championName) {
         let data = fs.readFileSync(`${this.formattedAbilitiesDir}/${championName}.json`);
         return JSON.parse(data);
     }
 
-    // we already have the basic champion file, use this for the names
+
+    /**
+     * we already have the basic champion file, use this for the names
+     * @returns {Promise<array<string>>}
+     */
     async loadChampionNames() {
         if(this.championNames) return this.championNames;
 
