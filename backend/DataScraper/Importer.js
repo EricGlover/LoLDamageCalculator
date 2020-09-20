@@ -10,6 +10,29 @@ class Importer {
         this.formattedAbilitiesDir = './data/formattedWikiData';
         this.dataDragonChampions = `./data/champions.json`;
         this.dataDragonChampionDetailsDir = `./data/champions`;
+        this.formattedChampions = `./data/championFormatted/`;
+    }
+
+    /**
+     *
+     * @returns {Promise<Map<string, object>>}
+     */
+    async importAllFormattedChampions() {
+        const championMap = new Map();
+        // const championMap = {};
+        const basePath = this.formattedChampions;
+        const dir = await fs.promises.opendir(`./data/championFormatted/`);
+        for await (const dirent of dir) {
+            if(dirent.isFile()) {
+                console.log(`reading ${dirent.name}`);
+                let data = fs.readFileSync(basePath + `/${dirent.name}`);
+                let championName = dirent.name.replace('.json', '');
+                let obj = JSON.parse(data);
+                championMap.set(championName, obj);
+                // championMap[championName] = obj;
+            }
+        }
+        return championMap;
     }
 
     importFormattedChampionData(name) {

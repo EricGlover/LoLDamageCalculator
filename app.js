@@ -12,21 +12,26 @@ router.get("/champion/caitlyn", (req, res) => {
     try {
         let str = fs.readFileSync(`./data/championFormatted/${championName}.json`);
         res.send(str);
-        // let obj = JSON.parse(str);
-        // res.json(obj);
     } catch(e) {
         console.error(e);
         res.send("error");
     }
-    // res.send(req.params.name);
+});
+
+router.get("/champion", async (req, res) => {
+    let champions = await importer.importAllFormattedChampions();
+    let obj = {};
+    [...champions.entries()].forEach(([name, val]) => obj[name] = val);
+    // console.log(champions);
+    res.json(obj);
+
+    // let champions = await importer.importAllFormattedChampions();
+    // res.json(champions);
 });
 
 router.get("/champion/:name", (req, res) => {
-    // res.send(req.params.name);
-    // return;
     let championName = req.params.name;
     let champion = importer.importFormattedChampionData(championName);
-
     res.json(champion);
 });
 
