@@ -6,7 +6,7 @@ const { AutoComplete, Avatar } = require("antd");
 function LeftWindow ({props}){
     const [value, setValue] = useState('')
     const [options, setOptions] = useState([]);
-    const {selectedChampion, setSelectedChampion} = props;
+    const {selectedChampion, fetchAndSetSelectedChampion} = props;
 
 
 
@@ -18,7 +18,7 @@ function LeftWindow ({props}){
     },[]);
     
    const onAutoCompleteSelectChampion = data=>{
-       setSelectedChampion({name:data})
+    fetchAndSetSelectedChampion({name:data})
        let newOptions = championNames.map(championSTR=>{
         return {label: championSTR, value: championSTR};
     }) 
@@ -35,7 +35,7 @@ function LeftWindow ({props}){
     };
     const onChampClick=(championName)=>{
         //todo make axios call for specific champion
-        setSelectedChampion({name:championName})
+        fetchAndSetSelectedChampion({name:championName})
         console.log(championName)
     }
     return(<div>
@@ -174,7 +174,7 @@ const championNames = [
     "Yorick",
     "Bard",
     "Braum",
-    "Nunu & Willump",
+    "Nunu",
     "Gangplank",
     "Tristana",
     "Corki",
