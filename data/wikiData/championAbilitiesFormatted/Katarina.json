@@ -8,7 +8,7 @@
     "coolDown": [
       null
     ],
-    "description": "Innate: Whenever an enemy champion dies within 3 seconds of Katarina damaging them, her abilities' current <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldowns are reduced by 15 seconds.",
+    "description": "Innate: Whenever an enemy champion dies within 3 seconds of Katarina damaging them, her abilities' current  cooldowns are reduced by 15 seconds.",
     "leveling": null,
     "skill": "I",
     "damageType": "Magic",
@@ -23,8 +23,8 @@
     ],
     "levelings": [],
     "descriptions": [
-      "Innate: Whenever an enemy champion dies within 3 seconds of Katarina damaging them, her abilities' current <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldowns are reduced by 15 seconds.",
-      "Innate - Sinister Steel: Whenever Katarina retrieves a Dagger, she uses it to slash through all nearby enemies, dealing 68 − 240 (based on level) (+ 100% bonus AD) (+ 55 / 66 / 77 / 88% (based on level) AP) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> magic damage and reducing <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/72/Shunpo.png/revision/latest/scale-to-width-down/20?cb=20170818190450\" \t alt=\"Shunpo\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shunpo.png\" \tdata-image-name=\"Shunpo.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shunpo's current <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown by 78 / 84 / 90 / 96% (based on level).",
+      "Innate: Whenever an enemy champion dies within 3 seconds of Katarina damaging them, her abilities' current  cooldowns are reduced by 15 seconds.",
+      "Innate - Sinister Steel: Whenever Katarina retrieves a Dagger, she uses it to slash through all nearby enemies, dealing 68 − 240 (based on level) (+ 100% bonus AD) (+ 55 / 66 / 77 / 88% (based on level) AP)  magic damage and reducing  Shunpo's current  cooldown by 78 / 84 / 90 / 96% (based on level).",
       "Daggers take 1 second to land, and will disappear after being on the ground for 4 seconds."
     ]
   },
@@ -70,7 +70,7 @@
     "descriptions": [
       "Active: Katarina throws a Dagger at the target enemy that bounces to up to 2 nearby enemies, dealing magic damage to each target.",
       "The Dagger then lands on the ground 350 units opposite from where it struck the target.",
-      "The Dagger bounces to targets regardless of having <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of them or not."
+      "The Dagger bounces to targets regardless of having  sight of them or not."
     ]
   },
   {
@@ -86,7 +86,7 @@
       12,
       11
     ],
-    "description": "Active: Katarina tosses a Dagger into the air above her current location, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosting and a decaying <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed until it lands after 1.25 seconds.",
+    "description": "Active: Katarina tosses a Dagger into the air above her current location, gaining  ghosting and a decaying  bonus movement speed until it lands after 1.25 seconds.",
     "leveling": "Bonus Movement speed:50 / 60 / 70 / 80 / 90%",
     "skill": "W",
     "damageType": "",
@@ -108,7 +108,7 @@
       "Bonus Movement speed:50 / 60 / 70 / 80 / 90%"
     ],
     "descriptions": [
-      "Active: Katarina tosses a Dagger into the air above her current location, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosting and a decaying <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed until it lands after 1.25 seconds."
+      "Active: Katarina tosses a Dagger into the air above her current location, gaining  ghosting and a decaying  bonus movement speed until it lands after 1.25 seconds."
     ]
   },
   {
@@ -124,7 +124,7 @@
       9,
       8
     ],
-    "description": "Active: Katarina instantly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinks to the target location around the target non-<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f1/Ward_icon.png/revision/latest/scale-to-width-down/20?cb=20180828001331\" \t alt=\"Ward icon\"  \tclass=\"\" \t \tdata-image-key=\"Ward_icon.png\" \tdata-image-name=\"Ward icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ward unit or Dagger, dealing magic damage to the nearest enemy in range.",
+    "description": "Active: Katarina instantly  blinks to the target location around the target non- ward unit or Dagger, dealing magic damage to the nearest enemy in range.",
     "leveling": "Magic Damage:15 / 30 / 45 / 60 / 75 (+ 50% AD) (+ 25% AP)",
     "skill": "E",
     "damageType": "Magic",
@@ -151,8 +151,8 @@
       "Magic Damage:15 / 30 / 45 / 60 / 75 (+ 50% AD) (+ 25% AP)"
     ],
     "descriptions": [
-      "Active: Katarina instantly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinks to the target location around the target non-<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f1/Ward_icon.png/revision/latest/scale-to-width-down/20?cb=20180828001331\" \t alt=\"Ward icon\"  \tclass=\"\" \t \tdata-image-key=\"Ward_icon.png\" \tdata-image-name=\"Ward icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ward unit or Dagger, dealing magic damage to the nearest enemy in range.",
-      "Shunpo <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resets Katarina's basic attack timer.",
+      "Active: Katarina instantly  blinks to the target location around the target non- ward unit or Dagger, dealing magic damage to the nearest enemy in range.",
+      "Shunpo  resets Katarina's basic attack timer.",
       "Upon blinking, Katarina remains unable to act via a cast time for 0.15 seconds."
     ]
   },
@@ -167,7 +167,7 @@
       60,
       45
     ],
-    "description": "Active: Katarina rapidly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> spins in place for 2.5 seconds, throwing a dagger every 0.166 seconds to up to 3 nearby enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bf/Grievous_Wounds_icon.png/revision/latest/scale-to-width-down/20?cb=20150204013501\" \t alt=\"Grievous Wounds icon\"  \tclass=\"\" \t \tdata-image-key=\"Grievous_Wounds_icon.png\" \tdata-image-name=\"Grievous Wounds icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> grievously wounding them by 60% for 3 seconds.",
+    "description": "Active: Katarina rapidly  spins in place for 2.5 seconds, throwing a dagger every 0.166 seconds to up to 3 nearby enemy  champions, dealing magic damage and  grievously wounding them by 60% for 3 seconds.",
     "leveling": "Magic Damage Per Dagger:»25 / 31.25 / 37.5 / 43.75 / 50 (+ 22% bonus AD) (+ 19% AP)«Total Single-Target Damage:375 / 468.75 / 562.5 / 656.25 / 750 (+ 330% bonus AD) (+ 285% AP)",
     "skill": "R",
     "damageType": "Magic",
@@ -194,8 +194,8 @@
       "Magic Damage Per Dagger:»25 / 31.25 / 37.5 / 43.75 / 50 (+ 22% bonus AD) (+ 19% AP)«Total Single-Target Damage:375 / 468.75 / 562.5 / 656.25 / 750 (+ 330% bonus AD) (+ 285% AP)"
     ],
     "descriptions": [
-      "Active: Katarina rapidly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> spins in place for 2.5 seconds, throwing a dagger every 0.166 seconds to up to 3 nearby enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bf/Grievous_Wounds_icon.png/revision/latest/scale-to-width-down/20?cb=20150204013501\" \t alt=\"Grievous Wounds icon\"  \tclass=\"\" \t \tdata-image-key=\"Grievous_Wounds_icon.png\" \tdata-image-name=\"Grievous Wounds icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> grievously wounding them by 60% for 3 seconds.",
-      "A nearby enemy champion is required to cast this ability. Katarina does not need to have <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of the target to hit them, and she will prioritize the closest ones."
+      "Active: Katarina rapidly  spins in place for 2.5 seconds, throwing a dagger every 0.166 seconds to up to 3 nearby enemy  champions, dealing magic damage and  grievously wounding them by 60% for 3 seconds.",
+      "A nearby enemy champion is required to cast this ability. Katarina does not need to have  sight of the target to hit them, and she will prioritize the closest ones."
     ]
   }
 ]

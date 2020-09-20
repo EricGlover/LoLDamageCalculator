@@ -9,7 +9,7 @@
       "coolDown": [
         null
       ],
-      "description": "Innate: Every time Twisted Fate kills an enemy, he gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/10/Gold.png/revision/latest/scale-to-width-down/20?cb=20181122055358\" \t alt=\"Gold\"  \tclass=\"\" \t \tdata-image-key=\"Gold.png\" \tdata-image-name=\"Gold.png\" \t \t width=\"20\"  \t height=\"15\"  \t \t \t \t>1 − 6 (based on probability).",
+      "description": "Innate: Every time Twisted Fate kills an enemy, he gains 1 − 6 (based on probability).",
       "leveling": null,
       "skill": "I",
       "damageType": "",
@@ -23,8 +23,8 @@
       ],
       "levelings": [],
       "descriptions": [
-        "Innate: Every time Twisted Fate kills an enemy, he gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/10/Gold.png/revision/latest/scale-to-width-down/20?cb=20181122055358\" \t alt=\"Gold\"  \tclass=\"\" \t \tdata-image-key=\"Gold.png\" \tdata-image-name=\"Gold.png\" \t \t width=\"20\"  \t height=\"15\"  \t \t \t \t>1 − 6 (based on probability).",
-        "Since his dice is loaded, Twisted Fate has an increased chance of gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/10/Gold.png/revision/latest/scale-to-width-down/20?cb=20181122055358\" \t alt=\"Gold\"  \tclass=\"\" \t \tdata-image-key=\"Gold.png\" \tdata-image-name=\"Gold.png\" \t \t width=\"20\"  \t height=\"15\"  \t \t \t \t> 6."
+        "Innate: Every time Twisted Fate kills an enemy, he gains 1 − 6 (based on probability).",
+        "Since his dice is loaded, Twisted Fate has an increased chance of gaining  6."
       ]
     },
     {
@@ -88,7 +88,7 @@
         6,
         6
       ],
-      "description": "Active: Twisted Fate cycles through <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d9/Blue_Card.png/revision/latest/scale-to-width-down/20?cb=20171221051418\" \t alt=\"Blue Card\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blue_Card.png\" \tdata-image-name=\"Blue Card.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t><img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/93/Red_Card.png/revision/latest/scale-to-width-down/20?cb=20171221051531\" \t alt=\"Red Card\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Red_Card.png\" \tdata-image-name=\"Red Card.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t><img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Gold_Card.png/revision/latest/scale-to-width-down/20?cb=20171221051432\" \t alt=\"Gold Card\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gold_Card.png\" \tdata-image-name=\"Gold Card.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> three cards for 6 seconds, hovering each for 0.5 seconds at a time. Choosing one by reactivating Pick a Card converts Twisted Fate's next basic attack within 6 seconds to have a 0.25-second cast time, deal magic damage, and apply an additional effect based on the card selected. The attack applies both on-hit and spell effects, but cannot <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critically strike.",
+      "description": "Active: Twisted Fate cycles through  three cards for 6 seconds, hovering each for 0.5 seconds at a time. Choosing one by reactivating Pick a Card converts Twisted Fate's next basic attack within 6 seconds to have a 0.25-second cast time, deal magic damage, and apply an additional effect based on the card selected. The attack applies both on-hit and spell effects, but cannot  critically strike.",
       "leveling": "Magic Damage:40 / 60 / 80 / 100 / 120 (+ 100% AD) (+ 90% AP)\nMana Restored:50 / 75 / 100 / 125 / 150",
       "skill": "W",
       "damageType": "Magic",
@@ -120,11 +120,11 @@
         "Magic Damage:15 / 22.5 / 30 / 37.5 / 45 (+ 100% AD) (+ 50% AP)\nStun Duration:1 / 1.25 / 1.5 / 1.75 / 2"
       ],
       "descriptions": [
-        "Active: Twisted Fate cycles through <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d9/Blue_Card.png/revision/latest/scale-to-width-down/20?cb=20171221051418\" \t alt=\"Blue Card\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blue_Card.png\" \tdata-image-name=\"Blue Card.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t><img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/93/Red_Card.png/revision/latest/scale-to-width-down/20?cb=20171221051531\" \t alt=\"Red Card\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Red_Card.png\" \tdata-image-name=\"Red Card.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t><img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Gold_Card.png/revision/latest/scale-to-width-down/20?cb=20171221051432\" \t alt=\"Gold Card\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gold_Card.png\" \tdata-image-name=\"Gold Card.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> three cards for 6 seconds, hovering each for 0.5 seconds at a time. Choosing one by reactivating Pick a Card converts Twisted Fate's next basic attack within 6 seconds to have a 0.25-second cast time, deal magic damage, and apply an additional effect based on the card selected. The attack applies both on-hit and spell effects, but cannot <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critically strike.",
-        "Recast - <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d9/Blue_Card.png/revision/latest/scale-to-width-down/20?cb=20171221051418\" \t alt=\"Blue Card\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blue_Card.png\" \tdata-image-name=\"Blue Card.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Blue Card: Restores <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> mana.",
-        "Recast - <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/93/Red_Card.png/revision/latest/scale-to-width-down/20?cb=20171221051531\" \t alt=\"Red Card\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Red_Card.png\" \tdata-image-name=\"Red Card.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Red Card: Deals magic damage around the target and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows all enemies hit for 2.5 seconds.",
-        "Recast - <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Gold_Card.png/revision/latest/scale-to-width-down/20?cb=20171221051432\" \t alt=\"Gold Card\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gold_Card.png\" \tdata-image-name=\"Gold Card.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gold Card: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Stuns the target.",
-        "Pick a Card's recast can be used while affected by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crowd control."
+        "Active: Twisted Fate cycles through  three cards for 6 seconds, hovering each for 0.5 seconds at a time. Choosing one by reactivating Pick a Card converts Twisted Fate's next basic attack within 6 seconds to have a 0.25-second cast time, deal magic damage, and apply an additional effect based on the card selected. The attack applies both on-hit and spell effects, but cannot  critically strike.",
+        "Recast -  Blue Card: Restores  mana.",
+        "Recast -  Red Card: Deals magic damage around the target and  slows all enemies hit for 2.5 seconds.",
+        "Recast -  Gold Card:  Stuns the target.",
+        "Pick a Card's recast can be used while affected by  crowd control."
       ]
     },
     {
@@ -136,7 +136,7 @@
       "coolDown": [
         null
       ],
-      "description": "Passive: Twisted Fate gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed.",
+      "description": "Passive: Twisted Fate gains  bonus attack speed.",
       "leveling": "Bonus Attack Speed:20 / 25 / 30 / 35 / 40%",
       "skill": "E",
       "damageType": "Magic",
@@ -159,9 +159,9 @@
         "Bonus Magic Damage:65 / 90 / 115 / 140 / 165 (+ 50% AP)"
       ],
       "descriptions": [
-        "Passive: Twisted Fate gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed.",
+        "Passive: Twisted Fate gains  bonus attack speed.",
         "Twisted Fate gains a stack of Stacked Deck on-hit, up to a maximum of three.",
-        "At 3 stacks, his next basic attack against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> non-structures consumes the stacks on-hit to deal bonus magic damage."
+        "At 3 stacks, his next basic attack against  non-structures consumes the stacks on-hit to deal bonus magic damage."
       ]
     },
     {
@@ -177,7 +177,7 @@
         135,
         120
       ],
-      "description": "Active: Twisted Fate summons an identifying eyeball above all targetable enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions for a few seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20150808161653\" \t alt=\"True Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"True_Sight_icon.png\" \tdata-image-name=\"True Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them for the duration. Destiny can be recast after 0.5 seconds.",
+      "description": "Active: Twisted Fate summons an identifying eyeball above all targetable enemy  champions for a few seconds,  revealing them for the duration. Destiny can be recast after 0.5 seconds.",
       "leveling": "Duration:6 / 7 / 8 / 9 / 10",
       "skill": "R",
       "damageType": "",
@@ -200,8 +200,8 @@
         "Duration:6 / 7 / 8 / 9 / 10"
       ],
       "descriptions": [
-        "Active: Twisted Fate summons an identifying eyeball above all targetable enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions for a few seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20150808161653\" \t alt=\"True Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"True_Sight_icon.png\" \tdata-image-name=\"True Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them for the duration. Destiny can be recast after 0.5 seconds.",
-        "Recast: Twisted Fate <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels for 1.5 seconds and then <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinks to the target location upon completion, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Bullet_strikethrough.png/revision/latest/scale-to-width-down/20?cb=20200405040932\" \t alt=\"Bullet strikethrough\"  \tclass=\"\" \t \tdata-image-key=\"Bullet_strikethrough.png\" \tdata-image-name=\"Bullet strikethrough.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> destroying all <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Projectile.png/revision/latest/scale-to-width-down/20?cb=20150816082407\" \t alt=\"Projectile\"  \tclass=\"\" \t \tdata-image-key=\"Projectile.png\" \tdata-image-name=\"Projectile.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> projectiles targeting him in the process."
+        "Active: Twisted Fate summons an identifying eyeball above all targetable enemy  champions for a few seconds,  revealing them for the duration. Destiny can be recast after 0.5 seconds.",
+        "Recast: Twisted Fate  channels for 1.5 seconds and then  blinks to the target location upon completion,  destroying all  projectiles targeting him in the process."
       ]
     }
   ],

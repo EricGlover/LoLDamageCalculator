@@ -13,7 +13,7 @@
       "coolDown": [
         7
       ],
-      "description": "Active: Lulu and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f3/Pix%2C_Faerie_Companion.png/revision/latest/scale-to-width-down/20?cb=20130929123029\" \t alt=\"Pix, Faerie Companion\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Pix%2C_Faerie_Companion.png\" \tdata-image-name=\"Pix, Faerie Companion.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Pix each fire a magic bolt towards the target point, dealing magic damage to the first enemy they pass through, reduced to 70% against enemies thereafter, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 80%, decaying over 2 seconds.",
+      "description": "Active: Lulu and  Pix each fire a magic bolt towards the target point, dealing magic damage to the first enemy they pass through, reduced to 70% against enemies thereafter, and  slowing them by 80%, decaying over 2 seconds.",
       "leveling": "Magic Damage:80 / 125 / 170 / 215 / 260 (+ 50% AP)\nReduced Damage:56 / 87.5 / 119 / 150.5 / 182 (+ 35% AP)",
       "skill": "Q",
       "damageType": "Magic",
@@ -40,8 +40,8 @@
         "Magic Damage:80 / 125 / 170 / 215 / 260 (+ 50% AP)\nReduced Damage:56 / 87.5 / 119 / 150.5 / 182 (+ 35% AP)"
       ],
       "descriptions": [
-        "Active: Lulu and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f3/Pix%2C_Faerie_Companion.png/revision/latest/scale-to-width-down/20?cb=20130929123029\" \t alt=\"Pix, Faerie Companion\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Pix%2C_Faerie_Companion.png\" \tdata-image-name=\"Pix, Faerie Companion.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Pix each fire a magic bolt towards the target point, dealing magic damage to the first enemy they pass through, reduced to 70% against enemies thereafter, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 80%, decaying over 2 seconds.",
-        "If an enemy is hit by both bolts, the second bolt will deal no damage if the first bolt dealt full damage to them, or 30% damage if the first bolt hit another enemy before them. The second hit will refresh the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow."
+        "Active: Lulu and  Pix each fire a magic bolt towards the target point, dealing magic damage to the first enemy they pass through, reduced to 70% against enemies thereafter, and  slowing them by 80%, decaying over 2 seconds.",
+        "If an enemy is hit by both bolts, the second bolt will deal no damage if the first bolt dealt full damage to them, or 30% damage if the first bolt hit another enemy before them. The second hit will refresh the  slow."
       ]
     },
     {
@@ -57,7 +57,7 @@
         13,
         12
       ],
-      "description": "Enemy Cast: Lulu launches a spell on the target enemy champion, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> polymorphing them into a harmless critter.",
+      "description": "Enemy Cast: Lulu launches a spell on the target enemy champion,  polymorphing them into a harmless critter.",
       "leveling": "Polymorph Duration:1.25 / 1.5 / 1.75 / 2 / 2.25",
       "skill": "W",
       "damageType": "",
@@ -80,9 +80,9 @@
         "Bonus Attack Speed:25 / 30 / 35 / 40 / 45%Duration:3 / 3.25 / 3.5 / 3.75 / 4"
       ],
       "descriptions": [
-        "Enemy Cast: Lulu launches a spell on the target enemy champion, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> polymorphing them into a harmless critter.",
-        "The polymorphed target is also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ed/Disarm_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223935\" \t alt=\"Disarm icon\"  \tclass=\"\" \t \tdata-image-key=\"Disarm_icon.png\" \tdata-image-name=\"Disarm icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> disarmed and has their base movement speed reduced by 60.",
-        "Ally Cast: Lulu instantly casts erratic magic upon the target ally champion or herself, giving the target <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 30% (+ 5% per 100 AP) bonus movement speed for the next few seconds."
+        "Enemy Cast: Lulu launches a spell on the target enemy champion,  polymorphing them into a harmless critter.",
+        "The polymorphed target is also  disarmed and has their base movement speed reduced by 60.",
+        "Ally Cast: Lulu instantly casts erratic magic upon the target ally champion or herself, giving the target  bonus attack speed and  30% (+ 5% per 100 AP) bonus movement speed for the next few seconds."
       ]
     },
     {
@@ -98,7 +98,7 @@
       "coolDown": [
         8
       ],
-      "description": "Enemy Cast: Lulu sends <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f3/Pix%2C_Faerie_Companion.png/revision/latest/scale-to-width-down/20?cb=20130929123029\" \t alt=\"Pix, Faerie Companion\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Pix%2C_Faerie_Companion.png\" \tdata-image-name=\"Pix, Faerie Companion.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Pix to the target enemy for 4 seconds, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20150808161653\" \t alt=\"True Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"True_Sight_icon.png\" \tdata-image-name=\"True Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them for the same duration.",
+      "description": "Enemy Cast: Lulu sends  Pix to the target enemy for 4 seconds, dealing magic damage and  revealing them for the same duration.",
       "leveling": "Magic Damage:80 / 120 / 160 / 200 / 240 (+ 40% AP)",
       "skill": "E",
       "damageType": "Magic",
@@ -126,8 +126,8 @@
         "Shield Strength:80 / 120 / 160 / 200 / 240 (+ 60% AP)"
       ],
       "descriptions": [
-        "Enemy Cast: Lulu sends <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f3/Pix%2C_Faerie_Companion.png/revision/latest/scale-to-width-down/20?cb=20130929123029\" \t alt=\"Pix, Faerie Companion\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Pix%2C_Faerie_Companion.png\" \tdata-image-name=\"Pix, Faerie Companion.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Pix to the target enemy for 4 seconds, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20150808161653\" \t alt=\"True Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"True_Sight_icon.png\" \tdata-image-name=\"True Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them for the same duration.",
-        "Ally Cast: Lulu sends <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f3/Pix%2C_Faerie_Companion.png/revision/latest/scale-to-width-down/20?cb=20130929123029\" \t alt=\"Pix, Faerie Companion\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Pix%2C_Faerie_Companion.png\" \tdata-image-name=\"Pix, Faerie Companion.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Pix to the target ally for 6 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shielding them for 2.5 seconds if they are a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion."
+        "Enemy Cast: Lulu sends  Pix to the target enemy for 4 seconds, dealing magic damage and  revealing them for the same duration.",
+        "Ally Cast: Lulu sends  Pix to the target ally for 6 seconds,  shielding them for 2.5 seconds if they are a  champion."
       ]
     },
     {
@@ -141,7 +141,7 @@
         95,
         80
       ],
-      "description": "Active: Lulu enlarges the target allied <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion or herself for 7 seconds, granting them <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus health, 40% increased size and an aura that <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows nearby enemies for the duration. On-activation, nearby enemies around the target are also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked up for 0.75 seconds.",
+      "description": "Active: Lulu enlarges the target allied  champion or herself for 7 seconds, granting them  bonus health, 40% increased size and an aura that  slows nearby enemies for the duration. On-activation, nearby enemies around the target are also  knocked up for 0.75 seconds.",
       "leveling": "Bonus Health:300 / 450 / 600 (+ 50% AP)Slow:30 / 45 / 60%",
       "skill": "R",
       "damageType": "",
@@ -168,7 +168,7 @@
         "Bonus Health:300 / 450 / 600 (+ 50% AP)Slow:30 / 45 / 60%"
       ],
       "descriptions": [
-        "Active: Lulu enlarges the target allied <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion or herself for 7 seconds, granting them <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus health, 40% increased size and an aura that <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows nearby enemies for the duration. On-activation, nearby enemies around the target are also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked up for 0.75 seconds.",
+        "Active: Lulu enlarges the target allied  champion or herself for 7 seconds, granting them  bonus health, 40% increased size and an aura that  slows nearby enemies for the duration. On-activation, nearby enemies around the target are also  knocked up for 0.75 seconds.",
         "The slow persists for 0.25 seconds after the enemy leaves range or Wild Growth ends."
       ]
     }

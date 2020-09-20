@@ -25,7 +25,7 @@
       "levelings": [],
       "descriptions": [
         "Innate: Whenever Ahri hits an enemy with one of her abilities, she gains a stack of Essence Theft, and can gain up to 3 stacks per ability cast.",
-        "Upon reaching 9 stacks, her next ability <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals her for 3 / 5 / 9 / 18 (based on level) (+ 9% AP) for each enemy hit."
+        "Upon reaching 9 stacks, her next ability  heals her for 3 / 5 / 9 / 18 (based on level) (+ 9% AP) for each enemy hit."
       ]
     },
     {
@@ -113,9 +113,9 @@
       ],
       "descriptions": [
         "Active: Ahri gains 40% bonus movement speed that decays over 1.5 seconds and summons three spectral flames which orbit her for up to 5 seconds.",
-        "After 0.25 seconds, each flame targets a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible enemy, or after 0.4 seconds targets the closest visible enemy in range, dealing magic damage. The damage is doubled against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions below 20% maximum health.",
+        "After 0.25 seconds, each flame targets a  visible enemy, or after 0.4 seconds targets the closest visible enemy in range, dealing magic damage. The damage is doubled against  minions below 20% maximum health.",
         "Subsequent flames on a single target deal 30% damage.",
-        "Flames prioritize enemy champions hit by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/04/Charm.png/revision/latest/scale-to-width-down/20?cb=20130929122630\" \t alt=\"Charm\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Charm.png\" \tdata-image-name=\"Charm.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Charm, then enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions, then low-health minions that can be killed with Fox-Fire, and then the target of Ahri's last basic attack within 3 seconds."
+        "Flames prioritize enemy champions hit by  Charm, then enemy  champions, then low-health minions that can be killed with Fox-Fire, and then the target of Ahri's last basic attack within 3 seconds."
       ]
     },
     {
@@ -127,7 +127,7 @@
       "coolDown": [
         12
       ],
-      "description": "Active: Ahri blows a kiss in the target direction that deals magic damage to the first enemy hit, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ae/Knockdown_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223937\" \t alt=\"Knockdown icon\"  \tclass=\"\" \t \tdata-image-key=\"Knockdown_icon.png\" \tdata-image-name=\"Knockdown icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking them down and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/27/Charm_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223934\" \t alt=\"Charm icon\"  \tclass=\"\" \t \tdata-image-key=\"Charm_icon.png\" \tdata-image-name=\"Charm icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charming and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 65%.",
+      "description": "Active: Ahri blows a kiss in the target direction that deals magic damage to the first enemy hit,  knocking them down and  charming and  slowing them by 65%.",
       "leveling": "Magic damage:60 / 90 / 120 / 150 / 180 (+ 40% AP)Charm Duration:1.4 / 1.55 / 1.7 / 1.85 / 2",
       "skill": "E",
       "damageType": "Magic",
@@ -154,7 +154,7 @@
         "Magic damage:60 / 90 / 120 / 150 / 180 (+ 40% AP)Charm Duration:1.4 / 1.55 / 1.7 / 1.85 / 2"
       ],
       "descriptions": [
-        "Active: Ahri blows a kiss in the target direction that deals magic damage to the first enemy hit, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ae/Knockdown_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223937\" \t alt=\"Knockdown icon\"  \tclass=\"\" \t \tdata-image-key=\"Knockdown_icon.png\" \tdata-image-name=\"Knockdown icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking them down and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/27/Charm_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223934\" \t alt=\"Charm icon\"  \tclass=\"\" \t \tdata-image-key=\"Charm_icon.png\" \tdata-image-name=\"Charm icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charming and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 65%.",
+        "Active: Ahri blows a kiss in the target direction that deals magic damage to the first enemy hit,  knocking them down and  charming and  slowing them by 65%.",
         "An enemy hit by Charm is rendered vulnerable for 3 seconds, taking 20% bonus damage from Ahri's abilities."
       ]
     },
@@ -169,7 +169,7 @@
         105,
         80
       ],
-      "description": "Active: Ahri <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target location and then fires energy bolts to up to 3 <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible targets, dealing magic damage. Spirit Rush can be recast twice more at a 1 second static cooldown between casts within 10 seconds of the activation at no additional cost.",
+      "description": "Active: Ahri  dashes to the target location and then fires energy bolts to up to 3  visible targets, dealing magic damage. Spirit Rush can be recast twice more at a 1 second static cooldown between casts within 10 seconds of the activation at no additional cost.",
       "leveling": "Magic damage:60 / 90 / 120 (+ 35% AP)",
       "skill": "R",
       "damageType": "Magic",
@@ -196,8 +196,8 @@
         "Maximum single target damage:»180 / 270 / 360 (+ 105% AP)«Maximum damage:540 / 810 / 1080 (+ 315% AP)"
       ],
       "descriptions": [
-        "Active: Ahri <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target location and then fires energy bolts to up to 3 <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible targets, dealing magic damage. Spirit Rush can be recast twice more at a 1 second static cooldown between casts within 10 seconds of the activation at no additional cost.",
-        "Recast: Ahri <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes, mimicking the first cast's effects."
+        "Active: Ahri  dashes to the target location and then fires energy bolts to up to 3  visible targets, dealing magic damage. Spirit Rush can be recast twice more at a 1 second static cooldown between casts within 10 seconds of the activation at no additional cost.",
+        "Recast: Ahri  dashes, mimicking the first cast's effects."
       ]
     }
   ],

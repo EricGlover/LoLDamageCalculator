@@ -24,7 +24,7 @@
       "levelings": [],
       "descriptions": [
         "Innate: Riven gains a Charge for 6 seconds every time she uses an ability, stacking up to 3 times and refreshing on subsequent ability casts. Riven's basic attacks consume a Charge to deal 30% − 60% (based on level) AD bonus physical damage.",
-        "Runic Blade is affected by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critical strike modifiers."
+        "Runic Blade is affected by  critical strike modifiers."
       ]
     },
     {
@@ -80,10 +80,10 @@
       ],
       "descriptions": [
         "Riven can activate Broken Wings three times before the ability goes on cooldown. If Riven does not recast the ability within 4 seconds, the ability goes on cooldown.",
-        "Each of the three casts has Riven slash with her sword, dealing physical damage to all enemies struck, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resetting her basic attack timer, and ordering her to basic attack the target of Broken Wings if there are any.",
-        "First Cast: Riven <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes up to 225 units towards the target enemy or in the direction she is currently facing, affecting all enemies around the target area 100 units away. This cast cannot cross terrain.",
+        "Each of the three casts has Riven slash with her sword, dealing physical damage to all enemies struck,  resetting her basic attack timer, and ordering her to basic attack the target of Broken Wings if there are any.",
+        "First Cast: Riven  dashes up to 225 units towards the target enemy or in the direction she is currently facing, affecting all enemies around the target area 100 units away. This cast cannot cross terrain.",
         "Second Cast: Riven mimics the first cast's effects.",
-        "Third Cast: Riven mimics the first cast's effects in an expanded radius while also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking back all affected enemies 75 units over 0.75 seconds. This cast can cross terrain."
+        "Third Cast: Riven mimics the first cast's effects in an expanded radius while also  knocking back all affected enemies 75 units over 0.75 seconds. This cast can cross terrain."
       ]
     },
     {
@@ -99,7 +99,7 @@
         8,
         7
       ],
-      "description": "Active: Riven's sword emits a burst of runic energy that shocks nearby enemies, dealing physical damage and applying a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun for 0.75 seconds.",
+      "description": "Active: Riven's sword emits a burst of runic energy that shocks nearby enemies, dealing physical damage and applying a  stun for 0.75 seconds.",
       "leveling": "Physical Damage:55 / 85 / 115 / 145 / 175 (+ 100% bonus AD)",
       "skill": "W",
       "damageType": "physical",
@@ -126,7 +126,7 @@
         "Physical Damage:55 / 85 / 115 / 145 / 175 (+ 100% bonus AD)"
       ],
       "descriptions": [
-        "Active: Riven's sword emits a burst of runic energy that shocks nearby enemies, dealing physical damage and applying a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun for 0.75 seconds."
+        "Active: Riven's sword emits a burst of runic energy that shocks nearby enemies, dealing physical damage and applying a  stun for 0.75 seconds."
       ]
     },
     {
@@ -142,7 +142,7 @@
         9,
         8
       ],
-      "description": "Active: Riven <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target location (but not through terrain) while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shielding herself for 1.5 seconds.",
+      "description": "Active: Riven  dashes to the target location (but not through terrain) while  shielding herself for 1.5 seconds.",
       "leveling": "Shield Strength:95 / 125 / 155 / 185 / 215 (+ 100% bonus AD)",
       "skill": "E",
       "damageType": "",
@@ -169,8 +169,8 @@
         "Shield Strength:95 / 125 / 155 / 185 / 215 (+ 100% bonus AD)"
       ],
       "descriptions": [
-        "Active: Riven <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target location (but not through terrain) while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shielding herself for 1.5 seconds.",
-        "Other abilities can be cast during the dash, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Broken_Wings.png/revision/latest/scale-to-width-down/20?cb=20171223033604\" \t alt=\"Broken Wings\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Broken_Wings.png\" \tdata-image-name=\"Broken Wings.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Broken Wings may be cast during <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/97/Ki_Burst.png/revision/latest/scale-to-width-down/20?cb=20171223033616\" \t alt=\"Ki Burst\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ki_Burst.png\" \tdata-image-name=\"Ki Burst.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ki Burst or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/58/Blade_of_the_Exile.png/revision/latest/scale-to-width-down/20?cb=20171223033551\" \t alt=\"Blade of the Exile\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blade_of_the_Exile.png\" \tdata-image-name=\"Blade of the Exile.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Blade of the Exile cast times if they're used at the end or briefly after the dash.*",
+        "Active: Riven  dashes to the target location (but not through terrain) while  shielding herself for 1.5 seconds.",
+        "Other abilities can be cast during the dash, and  Broken Wings may be cast during  Ki Burst or  Blade of the Exile cast times if they're used at the end or briefly after the dash.*",
         "Valor will cast at max range if cast beyond that."
       ]
     },
@@ -185,7 +185,7 @@
         90,
         60
       ],
-      "description": "Active: Riven mends her broken blade and empowers it for 15 seconds, gaining 20% AD <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack damage, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 75 bonus range on her basic attacks, and increased range on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Broken_Wings.png/revision/latest/scale-to-width-down/20?cb=20171223033604\" \t alt=\"Broken Wings\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Broken_Wings.png\" \tdata-image-name=\"Broken Wings.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Broken Wings and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/97/Ki_Burst.png/revision/latest/scale-to-width-down/20?cb=20171223033616\" \t alt=\"Ki Burst\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ki_Burst.png\" \tdata-image-name=\"Ki Burst.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ki Burst. After 0.5 seconds, she gains the ability to cast <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6d/Wind_Slash.png/revision/latest/scale-to-width-down/20?cb=20171223033700\" \t alt=\"Wind Slash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Wind_Slash.png\" \tdata-image-name=\"Wind Slash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Wind Slash once for the duration.",
+      "description": "Active: Riven mends her broken blade and empowers it for 15 seconds, gaining 20% AD  bonus attack damage,  75 bonus range on her basic attacks, and increased range on  Broken Wings and  Ki Burst. After 0.5 seconds, she gains the ability to cast  Wind Slash once for the duration.",
       "leveling": null,
       "skill": "R",
       "damageType": "",
@@ -199,7 +199,7 @@
       ],
       "levelings": [],
       "descriptions": [
-        "Active: Riven mends her broken blade and empowers it for 15 seconds, gaining 20% AD <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack damage, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 75 bonus range on her basic attacks, and increased range on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Broken_Wings.png/revision/latest/scale-to-width-down/20?cb=20171223033604\" \t alt=\"Broken Wings\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Broken_Wings.png\" \tdata-image-name=\"Broken Wings.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Broken Wings and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/97/Ki_Burst.png/revision/latest/scale-to-width-down/20?cb=20171223033616\" \t alt=\"Ki Burst\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ki_Burst.png\" \tdata-image-name=\"Ki Burst.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ki Burst. After 0.5 seconds, she gains the ability to cast <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6d/Wind_Slash.png/revision/latest/scale-to-width-down/20?cb=20171223033700\" \t alt=\"Wind Slash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Wind_Slash.png\" \tdata-image-name=\"Wind Slash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Wind Slash once for the duration."
+        "Active: Riven mends her broken blade and empowers it for 15 seconds, gaining 20% AD  bonus attack damage,  75 bonus range on her basic attacks, and increased range on  Broken Wings and  Ki Burst. After 0.5 seconds, she gains the ability to cast  Wind Slash once for the duration."
       ]
     }
   ],

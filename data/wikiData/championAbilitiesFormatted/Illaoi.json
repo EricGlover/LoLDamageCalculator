@@ -8,7 +8,7 @@
     "coolDown": [
       null
     ],
-    "description": "Innate: Periodically, Illaoi spawns a Tentacle on a nearby impassable terrain if no other Tentacles are nearby. Tentacles fully spawn after a 2 second delay and are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable in the meantime.",
+    "description": "Innate: Periodically, Illaoi spawns a Tentacle on a nearby impassable terrain if no other Tentacles are nearby. Tentacles fully spawn after a 2 second delay and are  untargetable in the meantime.",
     "leveling": null,
     "skill": "I",
     "damageType": "Physical",
@@ -22,8 +22,8 @@
     ],
     "levelings": [],
     "descriptions": [
-      "Innate: Periodically, Illaoi spawns a Tentacle on a nearby impassable terrain if no other Tentacles are nearby. Tentacles fully spawn after a 2 second delay and are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable in the meantime.",
-      "Tentacles deal 10 − 180 (based on level) (+ 120% AD) (+ 40% AP) physical damage to all enemies struck when commanded to attack by her abilities. Each Tentacle also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals Illaoi for 5% of her missing health if it hits at least one enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion. See Pet Details for more details."
+      "Innate: Periodically, Illaoi spawns a Tentacle on a nearby impassable terrain if no other Tentacles are nearby. Tentacles fully spawn after a 2 second delay and are  untargetable in the meantime.",
+      "Tentacles deal 10 − 180 (based on level) (+ 120% AD) (+ 40% AP) physical damage to all enemies struck when commanded to attack by her abilities. Each Tentacle also  heals Illaoi for 5% of her missing health if it hits at least one enemy  champion. See Pet Details for more details."
     ]
   },
   {
@@ -79,7 +79,7 @@
     "coolDown": [
       4
     ],
-    "description": "Active: Illaoi's next basic attack within 6 seconds gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 225 bonus range and causes her to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leap to her target's location if they're beyond her normal basic attack range.",
+    "description": "Active: Illaoi's next basic attack within 6 seconds gains  225 bonus range and causes her to  leap to her target's location if they're beyond her normal basic attack range.",
     "leveling": "Bonus Physical Damage:3 / 3.5 / 4 / 4.5 / 5% (+ 2% per 100 AD) of target's maximum health\nMinimum Physical Damage:20 / 30 / 40 / 50 / 60",
     "skill": "W",
     "damageType": "Physical",
@@ -110,10 +110,10 @@
       "Bonus Physical Damage:3 / 3.5 / 4 / 4.5 / 5% (+ 2% per 100 AD) of target's maximum health\nMinimum Physical Damage:20 / 30 / 40 / 50 / 60"
     ],
     "descriptions": [
-      "Active: Illaoi's next basic attack within 6 seconds gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 225 bonus range and causes her to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leap to her target's location if they're beyond her normal basic attack range.",
-      "The attack deals bonus physical damage, with a minimum threshold, and capped at 300 against non-champions, and commands all Tentacles in range to attack her target. The minimum bonus damage can also be applied against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> turrets.",
-      "Harsh Lesson <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resets Illaoi's basic attack timer.",
-      "Harsh Lesson can be activated during Illaoi's other abilities, other than while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ec/Test_of_Spirit.png/revision/latest/scale-to-width-down/20?cb=20171221041654\" \t alt=\"Test of Spirit\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Test_of_Spirit.png\" \tdata-image-name=\"Test of Spirit.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> pulling a Spirit."
+      "Active: Illaoi's next basic attack within 6 seconds gains  225 bonus range and causes her to  leap to her target's location if they're beyond her normal basic attack range.",
+      "The attack deals bonus physical damage, with a minimum threshold, and capped at 300 against non-champions, and commands all Tentacles in range to attack her target. The minimum bonus damage can also be applied against  turrets.",
+      "Harsh Lesson  resets Illaoi's basic attack timer.",
+      "Harsh Lesson can be activated during Illaoi's other abilities, other than while  pulling a Spirit."
     ]
   },
   {
@@ -133,7 +133,7 @@
       13,
       12
     ],
-    "description": "Active: Illaoi fires a projectile in the target direction, stopping at the first enemy hit. If the enemy is a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion, their Spirit is pulled in front of Illaoi over 0.75 seconds. The target is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Focused_Resolve.png/revision/latest/scale-to-width-down/20?cb=20130929122918\" \t alt=\"Focused Resolve\"  \tclass=\"\" \t \tdata-image-key=\"Focused_Resolve.png\" \tdata-image-name=\"Focused Resolve.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> tethered to the Spirit for 7 seconds, and is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20150808161653\" \t alt=\"True Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"True_Sight_icon.png\" \tdata-image-name=\"True Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealed while the tether remains.",
+    "description": "Active: Illaoi fires a projectile in the target direction, stopping at the first enemy hit. If the enemy is a  champion, their Spirit is pulled in front of Illaoi over 0.75 seconds. The target is  tethered to the Spirit for 7 seconds, and is  revealed while the tether remains.",
     "leveling": "Damage Transmission:25 / 30 / 35 / 40 / 45% (+ 8% per 100 AD)",
     "skill": "E",
     "damageType": "Physical / Magic / True (Redirected damage)",
@@ -165,11 +165,11 @@
       "Damage Transmission:25 / 30 / 35 / 40 / 45% (+ 8% per 100 AD)"
     ],
     "descriptions": [
-      "Active: Illaoi fires a projectile in the target direction, stopping at the first enemy hit. If the enemy is a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion, their Spirit is pulled in front of Illaoi over 0.75 seconds. The target is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Focused_Resolve.png/revision/latest/scale-to-width-down/20?cb=20130929122918\" \t alt=\"Focused Resolve\"  \tclass=\"\" \t \tdata-image-key=\"Focused_Resolve.png\" \tdata-image-name=\"Focused Resolve.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> tethered to the Spirit for 7 seconds, and is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20150808161653\" \t alt=\"True Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"True_Sight_icon.png\" \tdata-image-name=\"True Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealed while the tether remains.",
-      "The Spirit has the target's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> current health, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> magic resist, and redirects a portion of the pre-mitigation damage received to the tethered champion.",
-      "When the Spirit is killed or the target moves too far away, the tether is severed, marking the target as a Vessel for 10 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing the area around them for a few seconds, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 80% for 1.5 seconds once the tether returns back to them. Each Tentacle autonomously attacks the closest Vessel  or Spirit once every 5.5 / 4.5 / 3.5 (based on level) seconds.",
+      "Active: Illaoi fires a projectile in the target direction, stopping at the first enemy hit. If the enemy is a  champion, their Spirit is pulled in front of Illaoi over 0.75 seconds. The target is  tethered to the Spirit for 7 seconds, and is  revealed while the tether remains.",
+      "The Spirit has the target's  current health,  armor and  magic resist, and redirects a portion of the pre-mitigation damage received to the tethered champion.",
+      "When the Spirit is killed or the target moves too far away, the tether is severed, marking the target as a Vessel for 10 seconds,  revealing the area around them for a few seconds, and  slowing them by 80% for 1.5 seconds once the tether returns back to them. Each Tentacle autonomously attacks the closest Vessel  or Spirit once every 5.5 / 4.5 / 3.5 (based on level) seconds.",
       "Enemies made a Vessel also spawn a Tentacle near themselves every 5 / 4 / 3 (based on level) seconds. Tentacles can spawn exceptionally closer to each other than when spawned by Illaoi.",
-      "Vessels can dispel the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3e/Malefic_Visions.png/revision/latest/scale-to-width-down/20?cb=20170217194900\" \t alt=\"Malefic Visions\"  \tclass=\"\" \t \tdata-image-key=\"Malefic_Visions.png\" \tdata-image-name=\"Malefic Visions.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> debuff by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Damage_rating.png/revision/latest/scale-to-width-down/20?cb=20170514053710\" \t alt=\"Damage rating\"  \tclass=\"\" \t \tdata-image-key=\"Damage_rating.png\" \tdata-image-name=\"Damage rating.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> taking down Illaoi."
+      "Vessels can dispel the  debuff by  taking down Illaoi."
     ]
   },
   {
@@ -185,7 +185,7 @@
       82,
       70
     ],
-    "description": "Active: Illaoi leaps into the air with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Unstoppable_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164427\" \t alt=\"Unstoppable icon\"  \tclass=\"\" \t \tdata-image-key=\"Unstoppable_icon.png\" \tdata-image-name=\"Unstoppable icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement immunity before slamming her idol into the ground, dealing physical damage to nearby enemies. For each enemy champion hit, a Tentacle is summoned for 8 seconds (up to a maximum of 6 summons).",
+    "description": "Active: Illaoi leaps into the air with  displacement immunity before slamming her idol into the ground, dealing physical damage to nearby enemies. For each enemy champion hit, a Tentacle is summoned for 8 seconds (up to a maximum of 6 summons).",
     "leveling": "Physical Damage:150 / 200 / 250 / 300 / 350 (+ 50% bonus AD)",
     "skill": "R",
     "damageType": "Physical",
@@ -212,8 +212,8 @@
       "Physical Damage:150 / 200 / 250 / 300 / 350 (+ 50% bonus AD)"
     ],
     "descriptions": [
-      "Active: Illaoi leaps into the air with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Unstoppable_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164427\" \t alt=\"Unstoppable icon\"  \tclass=\"\" \t \tdata-image-key=\"Unstoppable_icon.png\" \tdata-image-name=\"Unstoppable icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement immunity before slamming her idol into the ground, dealing physical damage to nearby enemies. For each enemy champion hit, a Tentacle is summoned for 8 seconds (up to a maximum of 6 summons).",
-      "For the duration, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d3/Harsh_Lesson.png/revision/latest/scale-to-width-down/20?cb=20171221041202\" \t alt=\"Harsh Lesson\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Harsh_Lesson.png\" \tdata-image-name=\"Harsh Lesson.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Harsh Lesson's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown is halved, all Tentacles awakened by Illaoi are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable, will not show their hitboxes, nor go dormant, and will take half the amount of time to make an attack."
+      "Active: Illaoi leaps into the air with  displacement immunity before slamming her idol into the ground, dealing physical damage to nearby enemies. For each enemy champion hit, a Tentacle is summoned for 8 seconds (up to a maximum of 6 summons).",
+      "For the duration,  Harsh Lesson's  cooldown is halved, all Tentacles awakened by Illaoi are  untargetable, will not show their hitboxes, nor go dormant, and will take half the amount of time to make an attack."
     ]
   }
 ]

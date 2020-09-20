@@ -1,4 +1,6 @@
 const Util = require('../Util.js');
+const Formatter = require('./../DataScraper/Formatter.js');
+const formatter = new Formatter();
 
 const isInts = arr => arr.forEach(n => {
     if(Number.isNaN(Number.parseInt(n))) {
@@ -115,7 +117,7 @@ class Ability {
         let levelings = [];
         ['leveling', 'leveling2', 'leveling3', 'leveling4', 'leveling5'].forEach(prop => {
             if(v[prop] ) {
-                levelings.push(v[prop]);
+                levelings.push(formatter.stripTags(v[prop]));
             }
         })
         let icons = [];
@@ -127,7 +129,7 @@ class Ability {
         let descriptions = [];
         ['description', 'description2', 'description3', 'description4', 'description5'].forEach(prop => {
             if(v[prop] ) {
-                descriptions.push(v[prop]);
+                descriptions.push(formatter.stripTags(v[prop]));
             }
         })
 
@@ -136,7 +138,7 @@ class Ability {
             Util.toNumberArr(v.cost),
             v.costtype,
             Util.toNumberArr(v.cooldown),
-            v.description,
+            formatter.stripTags(v.description),
             leveling,
             v.skill,
             v.damagetype,

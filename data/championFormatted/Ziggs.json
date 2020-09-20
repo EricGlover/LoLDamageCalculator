@@ -24,7 +24,7 @@
       "levelings": [],
       "descriptions": [
         "Innate: Ziggs'  basic attack is periodically empowered to deal 20 − 160 (based on level) (+ 50% AP) bonus magic damage,「 increased by 150% against structures. 」「 increased to 50 − 400 (based on level) (+ 125% AP) against structures. 」",
-        "Ziggs reduces Short Fuse's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown by 4 / 5 / 6 (based on level) seconds whenever he uses an ability."
+        "Ziggs reduces Short Fuse's  cooldown by 4 / 5 / 6 (based on level) seconds whenever he uses an ability."
       ]
     },
     {
@@ -89,7 +89,7 @@
         14,
         12
       ],
-      "description": "Active: Ziggs flings an explosive charge towards the target area, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing its surroundings, and exploding after 4 seconds. Satchel Charge can be recast at no delay.",
+      "description": "Active: Ziggs flings an explosive charge towards the target area,  revealing its surroundings, and exploding after 4 seconds. Satchel Charge can be recast at no delay.",
       "leveling": "Magic Damage:70 / 105 / 140 / 175 / 210 (+ 50% AP)",
       "skill": "W",
       "damageType": "magic",
@@ -117,11 +117,11 @@
         "Demolition Threshold:25 / 27.5 / 30 / 32.5 / 35% of turret's maximum health"
       ],
       "descriptions": [
-        "Active: Ziggs flings an explosive charge towards the target area, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing its surroundings, and exploding after 4 seconds. Satchel Charge can be recast at no delay.",
-        "When exploding, the Satchel Charge deals magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocks back all surrounding enemies by 250 units. If Ziggs is within the explosion radius, he <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes up to 500 units away.",
-        "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2f/Satchel_Charge_Turret_Explosion_Indicator.png/revision/latest/scale-to-width-down/20?cb=20171130024522\" \t alt=\"Satchel Charge Turret Explosion Indicator\"  \tclass=\"\" \t \tdata-image-key=\"Satchel_Charge_Turret_Explosion_Indicator.png\" \tdata-image-name=\"Satchel Charge Turret Explosion Indicator.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Turret Explosion: Satchel Charge's explosion can <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Critical_magic_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20190827073648\" \t alt=\"Critical magic strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_magic_strike_icon.png\" \tdata-image-name=\"Critical magic strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> demolish <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> turrets below a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> percentile health threshold.",
+        "Active: Ziggs flings an explosive charge towards the target area,  revealing its surroundings, and exploding after 4 seconds. Satchel Charge can be recast at no delay.",
+        "When exploding, the Satchel Charge deals magic damage and  knocks back all surrounding enemies by 250 units. If Ziggs is within the explosion radius, he  dashes up to 500 units away.",
+        " Turret Explosion: Satchel Charge's explosion can  demolish  turrets below a  percentile health threshold.",
         "Recast: Ziggs detonates Satchel Charge early. If recast while in flight, the ability will detonate immediately upon landing.",
-        "Ziggs does not <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dash if he is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> immobilized or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Grounded_icon.png/revision/latest/scale-to-width-down/20?cb=20160509000039\" \t alt=\"Grounded icon\"  \tclass=\"\" \t \tdata-image-key=\"Grounded_icon.png\" \tdata-image-name=\"Grounded icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> grounded."
+        "Ziggs does not  dash if he is  immobilized or  grounded."
       ]
     },
     {
@@ -165,7 +165,7 @@
       ],
       "descriptions": [
         "Active: Ziggs scatters a cluster of 11 proximity mines over the target area, lasting for up to 10 seconds.",
-        "Mines explode on contact with an enemy, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them for 1.5 seconds and dealing magic damage. Targets detonating more than one mine take 40% damage from subsequent mines."
+        "Mines explode on contact with an enemy,  slowing them for 1.5 seconds and dealing magic damage. Targets detonating more than one mine take 40% damage from subsequent mines."
       ]
     },
     {
@@ -181,7 +181,7 @@
         82,
         70
       ],
-      "description": "Active: Ziggs hurls a massive bomb at the target area, granting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight within a 350 unit radius as it travels to its destination.",
+      "description": "Active: Ziggs hurls a massive bomb at the target area, granting  sight within a 350 unit radius as it travels to its destination.",
       "leveling": "Magic Damage:»200 / 250 / 300 / 350 / 400 (+ 73.33% AP)«Increased Damage:300 / 375 / 450 / 525 / 600 (+ 110% AP)",
       "skill": "R",
       "damageType": "magic",
@@ -209,7 +209,7 @@
         "Magic Damage:»200 / 250 / 300 / 350 / 400 (+ 73.33% AP)«Increased Damage:300 / 375 / 450 / 525 / 600 (+ 110% AP)"
       ],
       "descriptions": [
-        "Active: Ziggs hurls a massive bomb at the target area, granting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight within a 350 unit radius as it travels to its destination.",
+        "Active: Ziggs hurls a massive bomb at the target area, granting  sight within a 350 unit radius as it travels to its destination.",
         "Upon reaching the location, it explodes, dealing magic damage to all enemies caught in the blast, increased by 50% in the epicenter."
       ]
     }

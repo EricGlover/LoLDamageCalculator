@@ -8,7 +8,7 @@
     "coolDown": [
       null
     ],
-    "description": "Innate: Twitch's basic attacks <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Poison_icon.png/revision/latest/scale-to-width-down/20?cb=20150129035607\" \t alt=\"Poison icon\"  \tclass=\"\" \t \tdata-image-key=\"Poison_icon.png\" \tdata-image-name=\"Poison icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> poison his target with Deadly Venom, each attack adding one stack and refreshing its duration on-hit.",
+    "description": "Innate: Twitch's basic attacks  poison his target with Deadly Venom, each attack adding one stack and refreshing its duration on-hit.",
     "leveling": null,
     "skill": "I",
     "damageType": "True",
@@ -22,8 +22,8 @@
     ],
     "levelings": [],
     "descriptions": [
-      "Innate: Twitch's basic attacks <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Poison_icon.png/revision/latest/scale-to-width-down/20?cb=20150129035607\" \t alt=\"Poison icon\"  \tclass=\"\" \t \tdata-image-key=\"Poison_icon.png\" \tdata-image-name=\"Poison icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> poison his target with Deadly Venom, each attack adding one stack and refreshing its duration on-hit.",
-      "Each Deadly Venom stack deals 1 / 2 / 3 / 4 / 5 (based on level) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c0/Hybrid_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20171001102450\" \t alt=\"Hybrid penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration_icon.png\" \tdata-image-name=\"Hybrid penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> true damage per second over 6 seconds, stacking up to 6 times for a maximum of 6 / 12 / 18 / 24 / 30 (based on level) true damage per second."
+      "Innate: Twitch's basic attacks  poison his target with Deadly Venom, each attack adding one stack and refreshing its duration on-hit.",
+      "Each Deadly Venom stack deals 1 / 2 / 3 / 4 / 5 (based on level)  true damage per second over 6 seconds, stacking up to 6 times for a maximum of 6 / 12 / 18 / 24 / 30 (based on level) true damage per second."
     ]
   },
   {
@@ -35,7 +35,7 @@
     "coolDown": [
       16
     ],
-    "description": "Active: After a 1 second delay, Twitch becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Ambush_2.png/revision/latest/scale-to-width-down/20?cb=20171221051757\" \t alt=\"Ambush 2\"  \tclass=\"\" \t \tdata-image-key=\"Ambush_2.png\" \tdata-image-name=\"Ambush 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> camouflaged for a duration. Entering stealth cancels Twitch's current basic attack. Attacking or casting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f6/Venom_Cask.png/revision/latest/scale-to-width-down/20?cb=20140422003617\" \t alt=\"Venom Cask\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Venom_Cask.png\" \tdata-image-name=\"Venom Cask.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Venom Cask or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5f/Contaminate.png/revision/latest/scale-to-width-down/20?cb=20160921035402\" \t alt=\"Contaminate\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Contaminate.png\" \tdata-image-name=\"Contaminate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Contaminate breaks the stealth immediately.",
+    "description": "Active: After a 1 second delay, Twitch becomes  camouflaged for a duration. Entering stealth cancels Twitch's current basic attack. Attacking or casting  Venom Cask or  Contaminate breaks the stealth immediately.",
     "leveling": "Stealth Duration:10 / 11 / 12 / 13 / 14",
     "skill": "Q",
     "damageType": "",
@@ -60,10 +60,10 @@
       "Bonus Attack Speed:30 / 35 / 40 / 45 / 50%"
     ],
     "descriptions": [
-      "Active: After a 1 second delay, Twitch becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Ambush_2.png/revision/latest/scale-to-width-down/20?cb=20171221051757\" \t alt=\"Ambush 2\"  \tclass=\"\" \t \tdata-image-key=\"Ambush_2.png\" \tdata-image-name=\"Ambush 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> camouflaged for a duration. Entering stealth cancels Twitch's current basic attack. Attacking or casting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f6/Venom_Cask.png/revision/latest/scale-to-width-down/20?cb=20140422003617\" \t alt=\"Venom Cask\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Venom_Cask.png\" \tdata-image-name=\"Venom Cask.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Venom Cask or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5f/Contaminate.png/revision/latest/scale-to-width-down/20?cb=20160921035402\" \t alt=\"Contaminate\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Contaminate.png\" \tdata-image-name=\"Contaminate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Contaminate breaks the stealth immediately.",
-      "While stealthed, Twitch gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 10% bonus movement speed, increased to 30% when he moves toward enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions within a 1000-range radius who cannot see him.",
-      "Upon breaking stealth Twitch gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed for 5 seconds.",
-      "Ambush's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown is reset if an enemy champion dies while poisoned by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7e/Deadly_Venom.png/revision/latest/scale-to-width-down/20?cb=20140410202532\" \t alt=\"Deadly Venom\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Deadly_Venom.png\" \tdata-image-name=\"Deadly Venom.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Deadly Venom."
+      "Active: After a 1 second delay, Twitch becomes  camouflaged for a duration. Entering stealth cancels Twitch's current basic attack. Attacking or casting  Venom Cask or  Contaminate breaks the stealth immediately.",
+      "While stealthed, Twitch gains  10% bonus movement speed, increased to 30% when he moves toward enemy  champions within a 1000-range radius who cannot see him.",
+      "Upon breaking stealth Twitch gains  bonus attack speed for 5 seconds.",
+      "Ambush's  cooldown is reset if an enemy champion dies while poisoned by  Deadly Venom."
     ]
   },
   {
@@ -79,7 +79,7 @@
       10,
       9
     ],
-    "description": "Active: Twitch hurls a cask of venom at the target location, infecting all enemies hit with a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7e/Deadly_Venom.png/revision/latest/scale-to-width-down/20?cb=20140410202532\" \t alt=\"Deadly Venom\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Deadly_Venom.png\" \tdata-image-name=\"Deadly Venom.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Deadly Venom stack and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing the area.",
+    "description": "Active: Twitch hurls a cask of venom at the target location, infecting all enemies hit with a  Deadly Venom stack and  revealing the area.",
     "leveling": "Slow:25 / 30 / 35 / 40 / 45%",
     "skill": "W",
     "damageType": "",
@@ -101,8 +101,8 @@
       "Slow:25 / 30 / 35 / 40 / 45%"
     ],
     "descriptions": [
-      "Active: Twitch hurls a cask of venom at the target location, infecting all enemies hit with a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7e/Deadly_Venom.png/revision/latest/scale-to-width-down/20?cb=20140410202532\" \t alt=\"Deadly Venom\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Deadly_Venom.png\" \tdata-image-name=\"Deadly Venom.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Deadly Venom stack and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing the area.",
-      "The area then becomes contaminated for 3 seconds, applying a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7e/Deadly_Venom.png/revision/latest/scale-to-width-down/20?cb=20140410202532\" \t alt=\"Deadly Venom\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Deadly_Venom.png\" \tdata-image-name=\"Deadly Venom.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Deadly Venom stack each second and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing all enemies within."
+      "Active: Twitch hurls a cask of venom at the target location, infecting all enemies hit with a  Deadly Venom stack and  revealing the area.",
+      "The area then becomes contaminated for 3 seconds, applying a  Deadly Venom stack each second and  slowing all enemies within."
     ]
   },
   {
@@ -122,7 +122,7 @@
       9,
       8
     ],
-    "description": "Active: Twitch sends out a lethal toxin to each nearby enemy afflicted by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7e/Deadly_Venom.png/revision/latest/scale-to-width-down/20?cb=20140410202532\" \t alt=\"Deadly Venom\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Deadly_Venom.png\" \tdata-image-name=\"Deadly Venom.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Deadly Venom, dealing physical damage, increased for each stack on the target.",
+    "description": "Active: Twitch sends out a lethal toxin to each nearby enemy afflicted by  Deadly Venom, dealing physical damage, increased for each stack on the target.",
     "leveling": "Base Physical Damage:20 / 30 / 40 / 50 / 60\nBonus Damage Per Stack:»15 / 20 / 25 / 30 / 35 (+ 35% bonus AD) (+ 33.3% AP)«Minimum Damage:»35 / 50 / 65 / 80 / 95 (+ 35% bonus AD) (+ 33.3% AP)«Maximum Damage:110 / 150 / 190 / 230 / 270 (+ 210% bonus AD) (+ 199.8% AP)",
     "skill": "E",
     "damageType": "Physical",
@@ -149,8 +149,8 @@
       "Base Physical Damage:20 / 30 / 40 / 50 / 60\nBonus Damage Per Stack:»15 / 20 / 25 / 30 / 35 (+ 35% bonus AD) (+ 33.3% AP)«Minimum Damage:»35 / 50 / 65 / 80 / 95 (+ 35% bonus AD) (+ 33.3% AP)«Maximum Damage:110 / 150 / 190 / 230 / 270 (+ 210% bonus AD) (+ 199.8% AP)"
     ],
     "descriptions": [
-      "Active: Twitch sends out a lethal toxin to each nearby enemy afflicted by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7e/Deadly_Venom.png/revision/latest/scale-to-width-down/20?cb=20140410202532\" \t alt=\"Deadly Venom\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Deadly_Venom.png\" \tdata-image-name=\"Deadly Venom.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Deadly Venom, dealing physical damage, increased for each stack on the target.",
-      "Contaminate can be cast regardless of having <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of targets or not."
+      "Active: Twitch sends out a lethal toxin to each nearby enemy afflicted by  Deadly Venom, dealing physical damage, increased for each stack on the target.",
+      "Contaminate can be cast regardless of having  sight of targets or not."
     ]
   },
   {
@@ -162,7 +162,7 @@
     "coolDown": [
       90
     ],
-    "description": "Active: Twitch gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 300 bonus attack range for 5 seconds, during which his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cd/Basic_Attack.png/revision/latest/scale-to-width-down/20?cb=20200517010633\" \t alt=\"Basic Attack\"  \tclass=\"\" \t \tdata-image-key=\"Basic_Attack.png\" \tdata-image-name=\"Basic Attack.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> basic attacks are replaced by bolts that travel slightly further than his attack range in a straight line, damaging every enemy in their path.",
+    "description": "Active: Twitch gains  bonus attack damage and  300 bonus attack range for 5 seconds, during which his  basic attacks are replaced by bolts that travel slightly further than his attack range in a straight line, damaging every enemy in their path.",
     "leveling": "Bonus AD:20 / 25 / 30 / 35 / 40",
     "skill": "R",
     "damageType": "Physical",
@@ -184,8 +184,8 @@
       "Bonus AD:20 / 25 / 30 / 35 / 40"
     ],
     "descriptions": [
-      "Active: Twitch gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 300 bonus attack range for 5 seconds, during which his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cd/Basic_Attack.png/revision/latest/scale-to-width-down/20?cb=20200517010633\" \t alt=\"Basic Attack\"  \tclass=\"\" \t \tdata-image-key=\"Basic_Attack.png\" \tdata-image-name=\"Basic Attack.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> basic attacks are replaced by bolts that travel slightly further than his attack range in a straight line, damaging every enemy in their path.",
-      "The bolts deal 100% − 60% (based on enemy hit) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> physical damage, apply on-hit effects to and can <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critically strike against each individual target."
+      "Active: Twitch gains  bonus attack damage and  300 bonus attack range for 5 seconds, during which his  basic attacks are replaced by bolts that travel slightly further than his attack range in a straight line, damaging every enemy in their path.",
+      "The bolts deal 100% − 60% (based on enemy hit)  physical damage, apply on-hit effects to and can  critically strike against each individual target."
     ]
   }
 ]

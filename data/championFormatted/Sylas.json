@@ -9,7 +9,7 @@
       "coolDown": [
         null
       ],
-      "description": "Innate: Casting an ability grants an Unshackled stack for 4 seconds, with the duration refreshing on subsequent ability uses. Sylas can have up to three Unshackled stacks at a time. While Sylas has stacks of Unshackled, he gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 80% bonus attack speed.",
+      "description": "Innate: Casting an ability grants an Unshackled stack for 4 seconds, with the duration refreshing on subsequent ability uses. Sylas can have up to three Unshackled stacks at a time. While Sylas has stacks of Unshackled, he gains  80% bonus attack speed.",
       "leveling": null,
       "skill": "I",
       "damageType": "Magic",
@@ -23,10 +23,10 @@
       ],
       "levelings": [],
       "descriptions": [
-        "Innate: Casting an ability grants an Unshackled stack for 4 seconds, with the duration refreshing on subsequent ability uses. Sylas can have up to three Unshackled stacks at a time. While Sylas has stacks of Unshackled, he gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 80% bonus attack speed.",
-        "Unshackled: Sylas' next basic attack is modified to whirl his chains around him, becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Excessive_Force_2.png/revision/latest/scale-to-width-down/20?cb=20160608034953\" \t alt=\"Excessive Force 2\"  \tclass=\"\" \t \tdata-image-key=\"Excessive_Force_2.png\" \tdata-image-name=\"Excessive Force 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unstoppable, dealing 130% AD (+ 25% AP) magic damage to his primary target and 40% AD (+ 20% AP) magic damage to nearby secondary targets and consuming an Unshackled stack.",
-        "Damage to secondary targets executes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions below 25 health.",
-        "The empowered attack applies on-hit effects to the primary target but disables Sylas' <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critical strikes' bonus damage. Spell effects only apply when there are secondary targets.*"
+        "Innate: Casting an ability grants an Unshackled stack for 4 seconds, with the duration refreshing on subsequent ability uses. Sylas can have up to three Unshackled stacks at a time. While Sylas has stacks of Unshackled, he gains  80% bonus attack speed.",
+        "Unshackled: Sylas' next basic attack is modified to whirl his chains around him, becoming  unstoppable, dealing 130% AD (+ 25% AP) magic damage to his primary target and 40% AD (+ 20% AP) magic damage to nearby secondary targets and consuming an Unshackled stack.",
+        "Damage to secondary targets executes  minions below 25 health.",
+        "The empowered attack applies on-hit effects to the primary target but disables Sylas'  critical strikes' bonus damage. Spell effects only apply when there are secondary targets.*"
       ]
     },
     {
@@ -46,7 +46,7 @@
         7,
         6
       ],
-      "description": "Active: Sylas lashes out two lines that converge to the target location and extend beyond it up to a maximum range, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing enemies hit for 1.5 seconds.",
+      "description": "Active: Sylas lashes out two lines that converge to the target location and extend beyond it up to a maximum range, dealing magic damage and  slowing enemies hit for 1.5 seconds.",
       "leveling": "Magic Damage:40 / 60 / 80 / 100 / 120 (+ 40% AP)\nSlow:15 / 20 / 25 / 30 / 35%",
       "skill": "Q",
       "damageType": "Magic",
@@ -74,8 +74,8 @@
         "Detonation Damage:»60 / 115 / 170 / 225 / 280 (+ 80% AP)«Non-Champion Detonation Damage:24 / 46 / 68 / 90 / 112 (+ 32% AP)\nMaximum Champion Damage:»100 / 175 / 250 / 325 / 400 (+ 120% AP)«Maximum Non-Champion Damage:64 / 106 / 148 / 190 / 232 (+ 72% AP)"
       ],
       "descriptions": [
-        "Active: Sylas lashes out two lines that converge to the target location and extend beyond it up to a maximum range, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing enemies hit for 1.5 seconds.",
-        "After a 0.6-second delay, the chains' intersection detonates, dealing magic damage to enemies within. Against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters the detonation deals 60% reduced damage."
+        "Active: Sylas lashes out two lines that converge to the target location and extend beyond it up to a maximum range, dealing magic damage and  slowing enemies hit for 1.5 seconds.",
+        "After a 0.6-second delay, the chains' intersection detonates, dealing magic damage to enemies within. Against  minions and  monsters the detonation deals 60% reduced damage."
       ]
     },
     {
@@ -95,7 +95,7 @@
         8,
         7
       ],
-      "description": "Active: Sylas <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rushes at the target enemy with a powerful strike, dealing magic damage.",
+      "description": "Active: Sylas  rushes at the target enemy with a powerful strike, dealing magic damage.",
       "leveling": "Magic Damage:65 / 100 / 135 / 170 / 205 (+ 85% AP)",
       "skill": "W",
       "damageType": "Magic",
@@ -123,8 +123,8 @@
         "Heal:»30 / 60 / 90 / 120 / 150 (+ 50% AP)«Maximum Heal:60 / 120 / 180 / 240 / 300 (+ 100% AP)"
       ],
       "descriptions": [
-        "Active: Sylas <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rushes at the target enemy with a powerful strike, dealing magic damage.",
-        "If Kingslayer damaged an enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion, Sylas is also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healed, increased by 0% − 100% (based on Sylas' missing health)."
+        "Active: Sylas  rushes at the target enemy with a powerful strike, dealing magic damage.",
+        "If Kingslayer damaged an enemy  champion, Sylas is also  healed, increased by 0% − 100% (based on Sylas' missing health)."
       ]
     },
     {
@@ -140,7 +140,7 @@
         11,
         10
       ],
-      "description": "Active: Sylas <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction.",
+      "description": "Active: Sylas  dashes in the target direction.",
       "leveling": null,
       "skill": "E",
       "damageType": "",
@@ -154,8 +154,8 @@
       ],
       "levelings": [],
       "descriptions": [
-        "Active: Sylas <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction.",
-        "For the next 3.5 seconds, Sylas may cast <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ec/Abduct.png/revision/latest/scale-to-width-down/20?cb=20190109233625\" \t alt=\"Abduct\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Abduct.png\" \tdata-image-name=\"Abduct.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Abduct after a 0.2-second delay from casting Abscond."
+        "Active: Sylas  dashes in the target direction.",
+        "For the next 3.5 seconds, Sylas may cast  Abduct after a 0.2-second delay from casting Abscond."
       ]
     },
     {
@@ -171,7 +171,7 @@
         55,
         40
       ],
-      "description": "Active: Sylas launches his chains towards the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion to gain a copy of their ultimate ability. Sylas cannot select the same champion again for a set duration, and can hold the hijacked ultimate for 90 seconds, during which he can recast Hijack.",
+      "description": "Active: Sylas launches his chains towards the target enemy  champion to gain a copy of their ultimate ability. Sylas cannot select the same champion again for a set duration, and can hold the hijacked ultimate for 90 seconds, during which he can recast Hijack.",
       "leveling": null,
       "skill": "R",
       "damageType": "",
@@ -185,9 +185,9 @@
       ],
       "levelings": [],
       "descriptions": [
-        "Active: Sylas launches his chains towards the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion to gain a copy of their ultimate ability. Sylas cannot select the same champion again for a set duration, and can hold the hijacked ultimate for 90 seconds, during which he can recast Hijack.",
+        "Active: Sylas launches his chains towards the target enemy  champion to gain a copy of their ultimate ability. Sylas cannot select the same champion again for a set duration, and can hold the hijacked ultimate for 90 seconds, during which he can recast Hijack.",
         "Recast: Sylas can cast his hijacked ultimate ability at no cost, scaling based on Hijack's rank and his own statistics.",
-        "All Hijacked ultimates and abilities that do not scale with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0a/Ability_power_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203441\" \t alt=\"Ability power icon\"  \tclass=\"\" \t \tdata-image-key=\"Ability_power_icon.png\" \tdata-image-name=\"Ability power icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> ability power have their <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> attack damage ratios converted to ability power ratios, scaling with 0.6% AP per 1% total AD, and 0.4% AP per 1% bonus AD respectively."
+        "All Hijacked ultimates and abilities that do not scale with  ability power have their  attack damage ratios converted to ability power ratios, scaling with 0.6% AP per 1% total AD, and 0.4% AP per 1% bonus AD respectively."
       ]
     }
   ],

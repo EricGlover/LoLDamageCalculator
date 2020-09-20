@@ -67,7 +67,7 @@
     ],
     "descriptions": [
       "Active: After 0.6 seconds, Syndra conjures a Dark Sphere at the target location, dealing magic damage to all enemies hit, which then remains for 6 seconds.",
-      "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/fe/Transcendent.png/revision/latest/scale-to-width-down/20?cb=20130929123321\" \t alt=\"Transcendent\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Transcendent.png\" \tdata-image-name=\"Transcendent.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Transcendent Bonus: Dark Sphere deals 25% bonus damage against champions."
+      " Transcendent Bonus: Dark Sphere deals 25% bonus damage against champions."
     ]
   },
   {
@@ -87,7 +87,7 @@
       9,
       8
     ],
-    "description": "Active: Syndra telekinetically grabs the nearest <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Dark_Sphere.png/revision/latest/scale-to-width-down/20?cb=20130929123317\" \t alt=\"Dark Sphere\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dark_Sphere.png\" \tdata-image-name=\"Dark Sphere.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dark Sphere, enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minion or non-epic <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monster within 400 range from the target location for 5 seconds, or if not found it grabs the nearest Dark Sphere. If a Dark Sphere is grabbed, its duration is refreshed; if a minion or monster is grabbed, it is put in <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis. Force of Will can be recast at no delay.",
+    "description": "Active: Syndra telekinetically grabs the nearest  Dark Sphere, enemy  minion or non-epic  monster within 400 range from the target location for 5 seconds, or if not found it grabs the nearest Dark Sphere. If a Dark Sphere is grabbed, its duration is refreshed; if a minion or monster is grabbed, it is put in  stasis. Force of Will can be recast at no delay.",
     "leveling": "Magic Damage:70 / 110 / 150 / 190 / 230 (+ 70% AP)Slow:25 / 30 / 35 / 40 / 45%",
     "skill": "W",
     "damageType": "magic",
@@ -116,9 +116,9 @@
       "Bonus True Damage:»46 (+ 14% AP)«Total Mixed Damage:276 (+ 84% AP)"
     ],
     "descriptions": [
-      "Active: Syndra telekinetically grabs the nearest <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Dark_Sphere.png/revision/latest/scale-to-width-down/20?cb=20130929123317\" \t alt=\"Dark Sphere\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dark_Sphere.png\" \tdata-image-name=\"Dark Sphere.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dark Sphere, enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minion or non-epic <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monster within 400 range from the target location for 5 seconds, or if not found it grabs the nearest Dark Sphere. If a Dark Sphere is grabbed, its duration is refreshed; if a minion or monster is grabbed, it is put in <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis. Force of Will can be recast at no delay.",
-      "Recast: Syndra throws the grabbed target towards the target area, granting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of the projectile's surroundings as they fall. Enemies struck, including the grabbed target, take magic damage and are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed for 1.5 seconds.",
-      "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/fe/Transcendent.png/revision/latest/scale-to-width-down/20?cb=20130929123321\" \t alt=\"Transcendent\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Transcendent.png\" \tdata-image-name=\"Transcendent.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Transcendent Bonus: Force of Will deals <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c0/Hybrid_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20171001102450\" \t alt=\"Hybrid penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration_icon.png\" \tdata-image-name=\"Hybrid penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 20% bonus true damage."
+      "Active: Syndra telekinetically grabs the nearest  Dark Sphere, enemy  minion or non-epic  monster within 400 range from the target location for 5 seconds, or if not found it grabs the nearest Dark Sphere. If a Dark Sphere is grabbed, its duration is refreshed; if a minion or monster is grabbed, it is put in  stasis. Force of Will can be recast at no delay.",
+      "Recast: Syndra throws the grabbed target towards the target area, granting  sight of the projectile's surroundings as they fall. Enemies struck, including the grabbed target, take magic damage and are  slowed for 1.5 seconds.",
+      " Transcendent Bonus: Force of Will deals  20% bonus true damage."
     ]
   },
   {
@@ -134,7 +134,7 @@
       15,
       14
     ],
-    "description": "Active: Syndra <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocks back all enemies in a cone in the target direction for 400 units and up to 800 units away from her based on proximity, dealing magic damage.",
+    "description": "Active: Syndra  knocks back all enemies in a cone in the target direction for 400 units and up to 800 units away from her based on proximity, dealing magic damage.",
     "leveling": "Magic Damage:85 / 130 / 175 / 220 / 265 (+ 60% AP)",
     "skill": "E",
     "damageType": "magic",
@@ -161,9 +161,9 @@
       "Magic Damage:85 / 130 / 175 / 220 / 265 (+ 60% AP)"
     ],
     "descriptions": [
-      "Active: Syndra <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocks back all enemies in a cone in the target direction for 400 units and up to 800 units away from her based on proximity, dealing magic damage.",
-      "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Dark_Sphere.png/revision/latest/scale-to-width-down/20?cb=20130929123317\" \t alt=\"Dark Sphere\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dark_Sphere.png\" \tdata-image-name=\"Dark Sphere.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dark Spheres can also be knocked back for 1000 units and up to 1300 units away from Syndra based on proximity, knocking back all enemies they collide with for 100 units and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them for 1.5 seconds, and dealing Scatter the Weak's damage if they were not affected by the initial cast.",
-      "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/fe/Transcendent.png/revision/latest/scale-to-width-down/20?cb=20130929123321\" \t alt=\"Transcendent\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Transcendent.png\" \tdata-image-name=\"Transcendent.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Transcendent Bonus: Scatter the Weak's area of effect is 50% wider."
+      "Active: Syndra  knocks back all enemies in a cone in the target direction for 400 units and up to 800 units away from her based on proximity, dealing magic damage.",
+      " Dark Spheres can also be knocked back for 1000 units and up to 1300 units away from Syndra based on proximity, knocking back all enemies they collide with for 100 units and  stunning and  revealing them for 1.5 seconds, and dealing Scatter the Weak's damage if they were not affected by the initial cast.",
+      " Transcendent Bonus: Scatter the Weak's area of effect is 50% wider."
     ]
   },
   {
@@ -179,7 +179,7 @@
       90,
       80
     ],
-    "description": "Active: Syndra grabs up to 4 nearby <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Dark_Sphere.png/revision/latest/scale-to-width-down/20?cb=20130929123317\" \t alt=\"Dark Sphere\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dark_Sphere.png\" \tdata-image-name=\"Dark Sphere.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dark Spheres and the three orbiting around her and hurls them at the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion, dealing magic damage per sphere.",
+    "description": "Active: Syndra grabs up to 4 nearby  Dark Spheres and the three orbiting around her and hurls them at the target enemy  champion, dealing magic damage per sphere.",
     "leveling": "Magic Damage per Sphere:90 / 115 / 140 / 165 / 190 (+ 20% AP)Minimum Damage:»270 / 345 / 420 / 495 / 570 (+ 60% AP)«Maximum Damage:630 / 805 / 980 / 1155 / 1330 (+ 140% AP)",
     "skill": "R",
     "damageType": "magic",
@@ -206,9 +206,9 @@
       "Magic Damage per Sphere:90 / 115 / 140 / 165 / 190 (+ 20% AP)Minimum Damage:»270 / 345 / 420 / 495 / 570 (+ 60% AP)«Maximum Damage:630 / 805 / 980 / 1155 / 1330 (+ 140% AP)"
     ],
     "descriptions": [
-      "Active: Syndra grabs up to 4 nearby <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Dark_Sphere.png/revision/latest/scale-to-width-down/20?cb=20130929123317\" \t alt=\"Dark Sphere\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dark_Sphere.png\" \tdata-image-name=\"Dark Sphere.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dark Spheres and the three orbiting around her and hurls them at the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion, dealing magic damage per sphere.",
-      "The <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Dark_Sphere.png/revision/latest/scale-to-width-down/20?cb=20130929123317\" \t alt=\"Dark Sphere\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dark_Sphere.png\" \tdata-image-name=\"Dark Sphere.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dark Spheres will then remain on the ground for 6 seconds.",
-      "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/fe/Transcendent.png/revision/latest/scale-to-width-down/20?cb=20130929123321\" \t alt=\"Transcendent\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Transcendent.png\" \tdata-image-name=\"Transcendent.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Transcendent Bonus: Unleashed Power's cast range is increased."
+      "Active: Syndra grabs up to 4 nearby  Dark Spheres and the three orbiting around her and hurls them at the target enemy  champion, dealing magic damage per sphere.",
+      "The  Dark Spheres will then remain on the ground for 6 seconds.",
+      " Transcendent Bonus: Unleashed Power's cast range is increased."
     ]
   }
 ]

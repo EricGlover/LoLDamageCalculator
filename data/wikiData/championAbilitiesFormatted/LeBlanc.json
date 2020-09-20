@@ -8,7 +8,7 @@
     "coolDown": [
       null
     ],
-    "description": "Innate: When LeBlanc reaches <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> below 40% maximum health, she creates a controllable <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Command_Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20170204131432\" \t alt=\"Command Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Command_Hallucinate.png\" \tdata-image-name=\"Command Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> clone of herself, after which they both instantly become <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d8/Twilight_Shroud_old2.png/revision/latest/scale-to-width-down/20?cb=20180716212930\" \t alt=\"Twilight Shroud old2\"  \tclass=\"\" \t \tdata-image-key=\"Twilight_Shroud_old2.png\" \tdata-image-name=\"Twilight Shroud old2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invisible for 1 second.",
+    "description": "Innate: When LeBlanc reaches  below 40% maximum health, she creates a controllable  clone of herself, after which they both instantly become  invisible for 1 second.",
     "leveling": null,
     "skill": "I",
     "damageType": "",
@@ -23,7 +23,7 @@
     ],
     "levelings": [],
     "descriptions": [
-      "Innate: When LeBlanc reaches <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> below 40% maximum health, she creates a controllable <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Command_Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20170204131432\" \t alt=\"Command Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Command_Hallucinate.png\" \tdata-image-name=\"Command Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> clone of herself, after which they both instantly become <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d8/Twilight_Shroud_old2.png/revision/latest/scale-to-width-down/20?cb=20180716212930\" \t alt=\"Twilight Shroud old2\"  \tclass=\"\" \t \tdata-image-key=\"Twilight_Shroud_old2.png\" \tdata-image-name=\"Twilight Shroud old2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invisible for 1 second.",
+      "Innate: When LeBlanc reaches  below 40% maximum health, she creates a controllable  clone of herself, after which they both instantly become  invisible for 1 second.",
       "The clone can basic attack but deals no damage, lasts for 8 seconds, and starts running 1900 units towards a random place in front of LeBlanc decided the moment it spawns.",
       "Mirror Image can only occur once every few seconds."
     ]
@@ -70,7 +70,7 @@
     ],
     "descriptions": [
       "Active: LeBlanc projects an orb at the target enemy, dealing magic damage and marking them for 3.5 seconds.",
-      "The mark will be <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Critical_magic_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20190827073648\" \t alt=\"Critical magic strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_magic_strike_icon.png\" \tdata-image-name=\"Critical magic strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> consumed once LeBlanc damages the marked target with an ability, dealing the same damage again."
+      "The mark will be  consumed once LeBlanc damages the marked target with an ability, dealing the same damage again."
     ]
   },
   {
@@ -90,7 +90,7 @@
       12,
       10
     ],
-    "description": "Active: LeBlanc <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target location, dealing magic damage to all nearby enemies upon arrival and leaving a return pad at the cast location for 4 seconds. Distortion can be recast after 0.2 seconds of the dash's completion.",
+    "description": "Active: LeBlanc  dashes to the target location, dealing magic damage to all nearby enemies upon arrival and leaving a return pad at the cast location for 4 seconds. Distortion can be recast after 0.2 seconds of the dash's completion.",
     "leveling": "Magic Damage:75 / 115 / 155 / 195 / 235 (+ 60% AP)",
     "skill": "W",
     "damageType": "Magic",
@@ -118,8 +118,8 @@
       "Magic Damage:75 / 115 / 155 / 195 / 235 (+ 60% AP)"
     ],
     "descriptions": [
-      "Active: LeBlanc <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target location, dealing magic damage to all nearby enemies upon arrival and leaving a return pad at the cast location for 4 seconds. Distortion can be recast after 0.2 seconds of the dash's completion.",
-      "Recast: LeBlanc <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinks to Distortion's return pad, regardless of range."
+      "Active: LeBlanc  dashes to the target location, dealing magic damage to all nearby enemies upon arrival and leaving a return pad at the cast location for 4 seconds. Distortion can be recast after 0.2 seconds of the dash's completion.",
+      "Recast: LeBlanc  blinks to Distortion's return pad, regardless of range."
     ]
   },
   {
@@ -135,7 +135,7 @@
       11,
       11
     ],
-    "description": "Active: LeBlanc flings an illusory chain in the target direction, dealing magic damage to the first enemy it hits and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Focused_Resolve.png/revision/latest/scale-to-width-down/20?cb=20130929122918\" \t alt=\"Focused Resolve\"  \tclass=\"\" \t \tdata-image-key=\"Focused_Resolve.png\" \tdata-image-name=\"Focused Resolve.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> tethering LeBlanc to them for 1.5 seconds.",
+    "description": "Active: LeBlanc flings an illusory chain in the target direction, dealing magic damage to the first enemy it hits and  tethering LeBlanc to them for 1.5 seconds.",
     "leveling": "Magic Damage:40 / 60 / 80 / 100 / 120 (+ 30% AP)",
     "skill": "E",
     "damageType": "Magic",
@@ -163,8 +163,8 @@
       "Delayed Damage:»70 / 110 / 150 / 190 / 230 (+ 70% AP)«Total Damage:110 / 170 / 230 / 290 / 350 (+ 100% AP)"
     ],
     "descriptions": [
-      "Active: LeBlanc flings an illusory chain in the target direction, dealing magic damage to the first enemy it hits and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Focused_Resolve.png/revision/latest/scale-to-width-down/20?cb=20130929122918\" \t alt=\"Focused Resolve\"  \tclass=\"\" \t \tdata-image-key=\"Focused_Resolve.png\" \tdata-image-name=\"Focused Resolve.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> tethering LeBlanc to them for 1.5 seconds.",
-      "The target is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20150808161653\" \t alt=\"True Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"True_Sight_icon.png\" \tdata-image-name=\"True Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealed while the tether persists, and if it is not broken until the end of its duration they will be <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20150808161653\" \t alt=\"True Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"True_Sight_icon.png\" \tdata-image-name=\"True Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealed and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooted for 1.5 seconds and dealt magic damage."
+      "Active: LeBlanc flings an illusory chain in the target direction, dealing magic damage to the first enemy it hits and  tethering LeBlanc to them for 1.5 seconds.",
+      "The target is  revealed while the tether persists, and if it is not broken until the end of its duration they will be  revealed and  rooted for 1.5 seconds and dealt magic damage."
     ]
   },
   {
@@ -210,9 +210,9 @@
     ],
     "descriptions": [
       "Active: LeBlanc casts a mimicked version of her most recently used basic ability, applying the same effects and dealing modified magic damage.",
-      "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b2/Mimic_Sigil_of_Malice.png/revision/latest/scale-to-width-down/20?cb=20180415162017\" \t alt=\"Mimic Sigil of Malice\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mimic_Sigil_of_Malice.png\" \tdata-image-name=\"Mimic Sigil of Malice.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mimic Sigil of Malice: Deals modified damage and double damage upon triggering the mark.",
-      "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/03/Mimic_Distortion.png/revision/latest/scale-to-width-down/20?cb=20161018212244\" \t alt=\"Mimic Distortion\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mimic_Distortion.png\" \tdata-image-name=\"Mimic Distortion.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mimic Distortion: Deals modified damage.",
-      "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a0/Mimic_Ethereal_Chains.png/revision/latest/scale-to-width-down/20?cb=20161018211933\" \t alt=\"Mimic Ethereal Chains\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mimic_Ethereal_Chains.png\" \tdata-image-name=\"Mimic Ethereal Chains.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mimic Ethereal Chains: Deals modified damage and double damage upon rooting."
+      " Mimic Sigil of Malice: Deals modified damage and double damage upon triggering the mark.",
+      " Mimic Distortion: Deals modified damage.",
+      " Mimic Ethereal Chains: Deals modified damage and double damage upon rooting."
     ]
   }
 ]
