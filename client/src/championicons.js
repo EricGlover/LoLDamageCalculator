@@ -1,5 +1,5 @@
-[
-  "Jarvan IV",
+{
+    "Jarvan IV",
   "Aurelion Sol",
   "Riven",
   "Shyvana",
@@ -106,7 +106,7 @@
   "Yorick",
   "Bard",
   "Braum",
-  "Nunu",
+  "Nunu & Willump",
   "Gangplank",
   "Tristana",
   "Corki",
@@ -149,4 +149,4 @@
   "Kai'Sa",
   "Taric",
   "Cassiopeia"
-]
+}
