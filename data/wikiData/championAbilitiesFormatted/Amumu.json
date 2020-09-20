@@ -57,8 +57,10 @@
     ],
     "ratios": [
       {
-        "value": 70,
-        "type": "bonus ad"
+        "value": [
+          70
+        ],
+        "type": "ap"
       }
     ],
     "castTime": 0.25,
@@ -97,32 +99,16 @@
     ],
     "ratios": [
       {
-        "value": 0.5,
-        "type": "bonus ad"
-      },
-      {
-        "value": 0.625,
-        "type": "bonus ad"
-      },
-      {
-        "value": 0.75,
-        "type": "bonus ad"
-      },
-      {
-        "value": 0.875,
-        "type": "bonus ad"
-      },
-      {
-        "value": 1,
-        "type": "bonus ad"
-      },
-      {
-        "value": 0.5,
-        "type": "bonus ad"
-      },
-      {
-        "value": 100,
-        "type": "bonus ad"
+        "value": [
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1,
+          0.5,
+          100
+        ],
+        "type": "ap"
       }
     ],
     "castTime": null,
@@ -164,8 +150,16 @@
     ],
     "ratios": [
       {
-        "value": 3,
-        "type": "bonus ad"
+        "value": [
+          3
+        ],
+        "type": "bonus armor"
+      },
+      {
+        "value": [
+          3
+        ],
+        "type": "bonus magic resistance"
       }
     ],
     "castTime": 0.25,
@@ -215,8 +209,10 @@
     ],
     "ratios": [
       {
-        "value": 80,
-        "type": "bonus ad"
+        "value": [
+          80
+        ],
+        "type": "ap"
       }
     ],
     "castTime": 0.25,

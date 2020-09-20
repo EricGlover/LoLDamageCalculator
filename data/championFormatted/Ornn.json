@@ -57,8 +57,10 @@
       ],
       "ratios": [
         {
-          "value": 110,
-          "type": "bonus ad"
+          "value": [
+            110
+          ],
+          "type": "ad"
         }
       ],
       "castTime": 0.25,
@@ -151,8 +153,16 @@
       ],
       "ratios": [
         {
-          "value": 40,
-          "type": "bonus ad"
+          "value": [
+            40
+          ],
+          "type": "bonus armor"
+        },
+        {
+          "value": [
+            40
+          ],
+          "type": "bonus magic resistance"
         }
       ],
       "castTime": 0.35,
@@ -194,8 +204,16 @@
       ],
       "ratios": [
         {
-          "value": 20,
-          "type": "bonus ad"
+          "value": [
+            20
+          ],
+          "type": "ap"
+        },
+        {
+          "value": [
+            40
+          ],
+          "type": "ap"
         }
       ],
       "castTime": 0.5,

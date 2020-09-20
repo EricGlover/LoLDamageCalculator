@@ -54,7 +54,48 @@
       80,
       110
     ],
-    "ratios": [],
+    "ratios": [
+      {
+        "value": [],
+        "type": ""
+      },
+      {
+        "value": [
+          50,
+          80,
+          110,
+          140,
+          170
+        ],
+        "type": ""
+      },
+      {
+        "value": [
+          60
+        ],
+        "type": "ap"
+      },
+      {
+        "value": [],
+        "type": ""
+      },
+      {
+        "value": [
+          125,
+          200,
+          275,
+          350,
+          425
+        ],
+        "type": ""
+      },
+      {
+        "value": [
+          150
+        ],
+        "type": "ap"
+      }
+    ],
     "castTime": 0.25,
     "icon": "Paddle Star.png",
     "icons": [
@@ -137,8 +178,10 @@
     ],
     "ratios": [
       {
-        "value": 40,
-        "type": "bonus ad"
+        "value": [
+          40
+        ],
+        "type": "ap"
       }
     ],
     "castTime": 0.25,
