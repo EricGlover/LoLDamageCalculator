@@ -18,15 +18,20 @@ router.get("/champion/caitlyn", (req, res) => {
     }
 });
 
-router.get("/champion", async (req, res) => {
-    let champions = await importer.importAllFormattedChampions();
-    let obj = {};
-    [...champions.entries()].forEach(([name, val]) => obj[name] = val);
-    // console.log(champions);
-    res.json(obj);
+// router.get("/champion")
 
-    // let champions = await importer.importAllFormattedChampions();
-    // res.json(champions);
+router.get("/champion", async (req, res) => {
+    let details = req.query.details === 'true';
+    let champions = await importer.importAllFormattedChampions();
+    let responseData = {};
+    if(details) {
+        [...champions.entries()].forEach(([name, val]) => responseData[name] = val);
+    } else {
+        responseData = [...champions.entries()].map(([name, val]) => {
+            return {name, image: val.image};
+        });
+    }
+    res.json(responseData);
 });
 
 router.get("/champion/:name", (req, res) => {
