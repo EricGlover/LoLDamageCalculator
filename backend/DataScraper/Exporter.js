@@ -1,7 +1,4 @@
-const puppeteer = require('puppeteer');
 const fs = require('fs');
-const Ability = require('../Entities/Ability.js');
-const Champion = require('../Entities/Champion.js');
 
 class Exporter {
     constructor() {
