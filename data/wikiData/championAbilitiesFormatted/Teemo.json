@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Guerrilla Warfare",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Teemo gains  invisibility after 1.5 seconds of not moving, taking damage, performing actions that break stealth, and being in  stasis. Teemo will remain invisible so long as he does not move or act, and is not  displaced. If within  brush, Teemo gains invisibility after 1.5 seconds even while moving and may do so freely within its boundaries without breaking stealth.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Guerrilla Warfare.png",
+    "icons": [
+      "Guerrilla Warfare.png",
+      "Element of Surprise.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Teemo gains  invisibility after 1.5 seconds of not moving, taking damage, performing actions that break stealth, and being in  stasis. Teemo will remain invisible so long as he does not move or act, and is not  displaced. If within  brush, Teemo gains invisibility after 1.5 seconds even while moving and may do so freely within its boundaries without breaking stealth.",
+      "Innate - Element of Surprise: When Teemo breaks stealth, he gains the Element of Surprise for 3 seconds, granting him  20 / 40 / 60 / 80% (based on level) bonus attack speed."
+    ]
+  },
+  {
+    "name": "Blinding Dart",
+    "cost": [
+      70,
+      75,
+      80,
+      85,
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      8
+    ],
+    "description": "Active: Teemo shoots a dart at the target enemy, dealing them magic damage and  blinding them for a few seconds. The  blind's base duration is doubled against  minions and  monsters.",
+    "leveling": "Magic Damage:80 / 125 / 170 / 215 / 260 (+ 80% AP)Blind Duration:»1.5 / 1.75 / 2 / 2.25 / 2.5«Increased Blind:3 / 3.5 / 4 / 4.5 / 5",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      80,
+      125,
+      170,
+      215,
+      260
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Blinding Dart.png",
+    "icons": [
+      "Blinding Dart.png"
+    ],
+    "levelings": [
+      "Magic Damage:80 / 125 / 170 / 215 / 260 (+ 80% AP)Blind Duration:»1.5 / 1.75 / 2 / 2.25 / 2.5«Increased Blind:3 / 3.5 / 4 / 4.5 / 5"
+    ],
+    "descriptions": [
+      "Active: Teemo shoots a dart at the target enemy, dealing them magic damage and  blinding them for a few seconds. The  blind's base duration is doubled against  minions and  monsters."
+    ]
+  },
+  {
+    "name": "Move Quick",
+    "cost": [
+      40
+    ],
+    "costType": "mana",
+    "coolDown": [
+      17
+    ],
+    "description": "Passive: Teemo gains  bonus movement speed if he hasn't taken damage from enemy  champions or  turrets for 5 seconds.",
+    "leveling": "Bonus Movement Speed:10 / 14 / 18 / 22 / 26%",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      10,
+      14,
+      18,
+      22,
+      26
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Move Quick.png",
+    "icons": [
+      "Move Quick.png"
+    ],
+    "levelings": [
+      "Bonus Movement Speed:10 / 14 / 18 / 22 / 26%",
+      "Active Bonus Movement Speed:20 / 28 / 36 / 44 / 52%"
+    ],
+    "descriptions": [
+      "Passive: Teemo gains  bonus movement speed if he hasn't taken damage from enemy  champions or  turrets for 5 seconds.",
+      "Active: Teemo doubles his bonus movement speed for 3 seconds and prevents it from being disabled by damage for the duration.",
+      "Casting Move Quick does not break  Guerrilla Warfare's stealth nor reset its fade into it."
+    ]
+  },
+  {
+    "name": "Toxic Shot",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Passive: Teemo's basic attacks deal bonus magic damage and  poison his target.",
+    "leveling": "Magic Damage On-Hit:10 / 20 / 30 / 40 / 50 (+ 30% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "ratios": [
+      {
+        "value": 30,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Toxic Shot.png",
+    "icons": [
+      "Toxic Shot.png"
+    ],
+    "levelings": [
+      "Magic Damage On-Hit:10 / 20 / 30 / 40 / 50 (+ 30% AP)",
+      "Magic Damage per Second:»6 / 12 / 18 / 24 / 30 (+ 10% AP)«Total Magic Damage Over Time:24 / 48 / 72 / 96 / 120 (+ 40% AP)\nTotal Magic Damage in a Single Hit:34 / 68 / 102 / 136 / 170 (+ 70% AP)"
+    ],
+    "descriptions": [
+      "Passive: Teemo's basic attacks deal bonus magic damage and  poison his target.",
+      " Poisoned targets suffer magic damage for 4 seconds, with subsequent attacks refreshing the  poison's duration.",
+      "The total damage is increased by 50% against  monsters."
+    ]
+  },
+  {
+    "name": "Noxious Trap",
+    "cost": [
+      75
+    ],
+    "costType": "Mana + 1 Charge",
+    "coolDown": [
+      0
+    ],
+    "description": "Passive: Teemo stores a Noxious Trap charge periodically, up to a maximum amount at once.",
+    "leveling": "Maximum Charges:3 / 3.5 / 4 / 4.5 / 5",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      3,
+      3.5,
+      4,
+      4.5,
+      5
+    ],
+    "ratios": [],
+    "castTime": 0.25,
+    "icon": "false",
+    "icons": [
+      "false",
+      "Noxious Trap.png"
+    ],
+    "levelings": [
+      "Maximum Charges:3 / 3.5 / 4 / 4.5 / 5",
+      "Bounce Range:300 / 350 / 400 / 450 / 500",
+      "Magic Damage per Second:»50 / 65.625 / 81.25 / 96.875 / 112.5 (+ 12.5% AP)«Total Magic Damage:200 / 262.5 / 325 / 387.5 / 450 (+ 50% AP)Slow:30 / 35 / 40 / 45 / 50%"
+    ],
+    "descriptions": [
+      "Passive: Teemo stores a Noxious Trap charge periodically, up to a maximum amount at once.",
+      "Active: Teemo tosses a  stealthed trap at the target location, which stealths and arms after 1 second, granting  sight of its surroundings and lasting for up to 5 minutes. Noxious Trap bounces forward if it lands on top of another.",
+      "If an enemy steps on the trap, it detonates,  poisoning all nearby enemies,  slowing them,  revealing them, and dealing them magic damage over 4 seconds.",
+      "Noxious Trap has  6 maximum health and can only be damaged by  champion basic attacks (2 damage from  ranged and 3 from  melee)."
+    ]
+  }
+]

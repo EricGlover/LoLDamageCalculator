@@ -1,0 +1,211 @@
+[
+  {
+    "name": "Determination",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Xin Zhao gains a Determination I and Determination II stack for every  Wind Becomes Lightning strike or basic attack on-hit, up to a maximum of two.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Determination.png",
+    "icons": [
+      "Determination.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Xin Zhao gains a Determination I and Determination II stack for every  Wind Becomes Lightning strike or basic attack on-hit, up to a maximum of two.",
+      "At two Determination I stacks, Xin Zhao's next  Wind Becomes Lightning strike or basic attack on-hit consumes the stacks to  heal him for 10 − 112 (based on level) (+ 10% AD) (+ 40% AP).",
+      "At two Determination II stacks, Xin Zhao's next  Wind Becomes Lightning strike or basic attack on-attack consumes the stacks to deal 15 / 25 / 35 / 45% (based on level) AD bonus physical damage."
+    ]
+  },
+  {
+    "name": "Three Talon Strike",
+    "cost": [
+      30
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      7,
+      6,
+      6,
+      5,
+      5
+    ],
+    "description": "Active: Xin Zhao empowers his spear for 5 seconds, causing his next three basic attacks on-attack to become  unstoppable, deal bonus physical damage and reduce Xin Zhao's other abilities'  cooldowns by 1 second each, as well as refresh Three Talon's Strike duration.",
+    "leveling": "Bonus Physical Damage:»20 / 28 / 36 / 44 / 52 (+ 40% bonus AD)«Total Bonus Damage:60 / 84 / 108 / 132 / 156 (+ 120% bonus AD)",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      20,
+      28,
+      36,
+      44,
+      52
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Three Talon Strike.png",
+    "icons": [
+      "Three Talon Strike.png"
+    ],
+    "levelings": [
+      "Bonus Physical Damage:»20 / 28 / 36 / 44 / 52 (+ 40% bonus AD)«Total Bonus Damage:60 / 84 / 108 / 132 / 156 (+ 120% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Xin Zhao empowers his spear for 5 seconds, causing his next three basic attacks on-attack to become  unstoppable, deal bonus physical damage and reduce Xin Zhao's other abilities'  cooldowns by 1 second each, as well as refresh Three Talon's Strike duration.",
+      "The third basic attack  knocks up the target for 0.75 seconds and consumes the buff.",
+      "Three Talon Strike  resets Xin Zhao's basic attack timer.",
+      "Talon Strike is affected by  critical strike modifiers."
+    ]
+  },
+  {
+    "name": "Wind Becomes Lightning",
+    "cost": [
+      45
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12,
+      11,
+      10,
+      9,
+      8
+    ],
+    "description": "Active: Xin Zhao performs two strikes in the target direction and delays the durations of his other abilities relative to Wind Becomes Lightning's cast time after 0.2 seconds of the activation.",
+    "leveling": "Slash Damage:»30 / 40 / 50 / 60 / 70 (+ 30% AD)«Slash Minion-Damage:15 / 20 / 25 / 30 / 35 (+ 15% AD)",
+    "skill": "W",
+    "damageType": "Physical",
+    "isProjectile": "False",
+    "flatDamage": [
+      30,
+      40,
+      50,
+      60,
+      70
+    ],
+    "ratios": [
+      {
+        "value": 30,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.5,
+    "icon": "Wind Becomes Lightning.png",
+    "icons": [
+      "Wind Becomes Lightning.png"
+    ],
+    "levelings": [
+      "Slash Damage:»30 / 40 / 50 / 60 / 70 (+ 30% AD)«Slash Minion-Damage:15 / 20 / 25 / 30 / 35 (+ 15% AD)",
+      "Thrust Damage:»40 / 75 / 110 / 145 / 180 (+ 80% AD)«Thrust Minion-Damage:20 / 37.5 / 55 / 72.5 / 90 (+ 40% AD)",
+      "Max. Physical Damage:»70 / 115 / 160 / 205 / 250 (+ 110% AD)«Max. Minion Damage:35 / 57.5 / 80 / 102.5 / 125 (+ 55% AD)"
+    ],
+    "descriptions": [
+      "Active: Xin Zhao performs two strikes in the target direction and delays the durations of his other abilities relative to Wind Becomes Lightning's cast time after 0.2 seconds of the activation.",
+      "The first deals physical damage to all enemies in an arc, and the second deals physical damage in a line,  slowing all enemies hit by 50% for 1.5 seconds.",
+      "Both strikes deal 50% reduced damage against  minions, benefit from 33.3% of Xin Zhao's  life steal."
+    ]
+  },
+  {
+    "name": "Audacious Charge",
+    "cost": [
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12
+    ],
+    "description": "Active: Xin Zhao  dashes to the target enemy's location, dealing magic damage to all enemies around the primary target and  slowing them by 30% for 0.5 seconds.",
+    "leveling": "Magic Damage:50 / 75 / 100 / 125 / 150 (+ 60% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      50,
+      75,
+      100,
+      125,
+      150
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Audacious Charge.png",
+    "icons": [
+      "Audacious Charge.png"
+    ],
+    "levelings": [
+      "Magic Damage:50 / 75 / 100 / 125 / 150 (+ 60% AP)",
+      "Bonus Attack Speed:40 / 45 / 50 / 55 / 60%"
+    ],
+    "descriptions": [
+      "Active: Xin Zhao  dashes to the target enemy's location, dealing magic damage to all enemies around the primary target and  slowing them by 30% for 0.5 seconds.",
+      "Xin Zhao then gains  bonus attack speed for 5 seconds.",
+      "Xin Zhao cannot cast  Wind Becomes Lightning while dashing, but he may still buffer it.  Three Talon Strike and  Crescent Guard can both be cast during the dash."
+    ]
+  },
+  {
+    "name": "Crescent Guard",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      120,
+      115,
+      110,
+      105,
+      100
+    ],
+    "description": "Passive - Challenge: The last enemy champion hit by Xin Zhao's basic attacks or  Audacious Charge is  Challenged for 3 seconds.",
+    "leveling": "Physical Damage:75 / 125 / 175 / 225 / 275 (+ 100% bonus AD) (+ 15% of target's current health)",
+    "skill": "R",
+    "damageType": "Physical",
+    "isProjectile": "False",
+    "flatDamage": [
+      75,
+      125,
+      175,
+      225,
+      275
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.35,
+    "icon": "Challenge.png",
+    "icons": [
+      "Challenge.png",
+      "Crescent Guard.png"
+    ],
+    "levelings": [
+      "Physical Damage:75 / 125 / 175 / 225 / 275 (+ 100% bonus AD) (+ 15% of target's current health)"
+    ],
+    "descriptions": [
+      "Passive - Challenge: The last enemy champion hit by Xin Zhao's basic attacks or  Audacious Charge is  Challenged for 3 seconds.",
+      "Active: Xin Zhao sweeps his spear around him, dealing physical damage to enemies hit, capped at 600 (+ 100% bonus AD) against  monsters, while also  knocking back all non- Challenged enemies hit.",
+      "For the next 3 seconds, Xin Zhao is  invulnerable to enemy  champions more than 450-units away from him. His basic attacks and other ability casts extend the duration by 0.3 seconds."
+    ]
+  }
+]

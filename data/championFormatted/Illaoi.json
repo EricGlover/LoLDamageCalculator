@@ -1,5 +1,223 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Prophet of an Elder God",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Periodically, Illaoi spawns a Tentacle on a nearby impassable terrain if no other Tentacles are nearby. Tentacles fully spawn after a 2 second delay and are  untargetable in the meantime.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Physical",
+      "isProjectile": "False",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Prophet of an Elder God.png",
+      "icons": [
+        "Prophet of an Elder God.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Periodically, Illaoi spawns a Tentacle on a nearby impassable terrain if no other Tentacles are nearby. Tentacles fully spawn after a 2 second delay and are  untargetable in the meantime.",
+        "Tentacles deal 10 − 180 (based on level) (+ 120% AD) (+ 40% AP) physical damage to all enemies struck when commanded to attack by her abilities. Each Tentacle also  heals Illaoi for 5% of her missing health if it hits at least one enemy  champion. See Pet Details for more details."
+      ]
+    },
+    {
+      "name": "Tentacle Smash",
+      "cost": [
+        40,
+        45,
+        50,
+        55,
+        60
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "description": "Passive: Tentacles deal increased damage.",
+      "leveling": "Damage Increase:10 / 15 / 20 / 25 / 30%",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "False",
+      "flatDamage": [
+        10,
+        15,
+        20,
+        25,
+        30
+      ],
+      "ratios": [],
+      "castTime": 0.75,
+      "icon": "false",
+      "icons": [
+        "false",
+        "Tentacle Smash.png"
+      ],
+      "levelings": [
+        "Damage Increase:10 / 15 / 20 / 25 / 30%"
+      ],
+      "descriptions": [
+        "Passive: Tentacles deal increased damage.",
+        "Active: Illaoi slams her idol into the ground, summoning a Tentacle that slams down in the target direction, dealing physical damage before disappearing."
+      ]
+    },
+    {
+      "name": "Harsh Lesson",
+      "cost": [
+        30
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        4
+      ],
+      "description": "Active: Illaoi's next basic attack within 6 seconds gains  225 bonus range and causes her to  leap to her target's location if they're beyond her normal basic attack range.",
+      "leveling": "Bonus Physical Damage:3 / 3.5 / 4 / 4.5 / 5% (+ 2% per 100 AD) of target's maximum health\nMinimum Physical Damage:20 / 30 / 40 / 50 / 60",
+      "skill": "W",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        3,
+        3.5,
+        4,
+        4.5,
+        5
+      ],
+      "ratios": [
+        {
+          "value": 2,
+          "type": "bonus ad"
+        },
+        {
+          "value": 100,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Harsh Lesson.png",
+      "icons": [
+        "Harsh Lesson.png"
+      ],
+      "levelings": [
+        "Bonus Physical Damage:3 / 3.5 / 4 / 4.5 / 5% (+ 2% per 100 AD) of target's maximum health\nMinimum Physical Damage:20 / 30 / 40 / 50 / 60"
+      ],
+      "descriptions": [
+        "Active: Illaoi's next basic attack within 6 seconds gains  225 bonus range and causes her to  leap to her target's location if they're beyond her normal basic attack range.",
+        "The attack deals bonus physical damage, with a minimum threshold, and capped at 300 against non-champions, and commands all Tentacles in range to attack her target. The minimum bonus damage can also be applied against  turrets.",
+        "Harsh Lesson  resets Illaoi's basic attack timer.",
+        "Harsh Lesson can be activated during Illaoi's other abilities, other than while  pulling a Spirit."
+      ]
+    },
+    {
+      "name": "Test of Spirit",
+      "cost": [
+        35,
+        40,
+        45,
+        50,
+        55
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "description": "Active: Illaoi fires a projectile in the target direction, stopping at the first enemy hit. If the enemy is a  champion, their Spirit is pulled in front of Illaoi over 0.75 seconds. The target is  tethered to the Spirit for 7 seconds, and is  revealed while the tether remains.",
+      "leveling": "Damage Transmission:25 / 30 / 35 / 40 / 45% (+ 8% per 100 AD)",
+      "skill": "E",
+      "damageType": "Physical / Magic / True (Redirected damage)",
+      "isProjectile": "True",
+      "flatDamage": [
+        25,
+        30,
+        35,
+        40,
+        45
+      ],
+      "ratios": [
+        {
+          "value": 8,
+          "type": "bonus ad"
+        },
+        {
+          "value": 100,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Test of Spirit.png",
+      "icons": [
+        "Test of Spirit.png",
+        "Vessel.png"
+      ],
+      "levelings": [
+        "Damage Transmission:25 / 30 / 35 / 40 / 45% (+ 8% per 100 AD)"
+      ],
+      "descriptions": [
+        "Active: Illaoi fires a projectile in the target direction, stopping at the first enemy hit. If the enemy is a  champion, their Spirit is pulled in front of Illaoi over 0.75 seconds. The target is  tethered to the Spirit for 7 seconds, and is  revealed while the tether remains.",
+        "The Spirit has the target's  current health,  armor and  magic resist, and redirects a portion of the pre-mitigation damage received to the tethered champion.",
+        "When the Spirit is killed or the target moves too far away, the tether is severed, marking the target as a Vessel for 10 seconds,  revealing the area around them for a few seconds, and  slowing them by 80% for 1.5 seconds once the tether returns back to them. Each Tentacle autonomously attacks the closest Vessel  or Spirit once every 5.5 / 4.5 / 3.5 (based on level) seconds.",
+        "Enemies made a Vessel also spawn a Tentacle near themselves every 5 / 4 / 3 (based on level) seconds. Tentacles can spawn exceptionally closer to each other than when spawned by Illaoi.",
+        "Vessels can dispel the  debuff by  taking down Illaoi."
+      ]
+    },
+    {
+      "name": "Leap of Faith",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        120,
+        107,
+        95,
+        82,
+        70
+      ],
+      "description": "Active: Illaoi leaps into the air with  displacement immunity before slamming her idol into the ground, dealing physical damage to nearby enemies. For each enemy champion hit, a Tentacle is summoned for 8 seconds (up to a maximum of 6 summons).",
+      "leveling": "Physical Damage:150 / 200 / 250 / 300 / 350 (+ 50% bonus AD)",
+      "skill": "R",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        150,
+        200,
+        250,
+        300,
+        350
+      ],
+      "ratios": [
+        {
+          "value": 50,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.5,
+      "icon": "Leap of Faith.png",
+      "icons": [
+        "Leap of Faith.png"
+      ],
+      "levelings": [
+        "Physical Damage:150 / 200 / 250 / 300 / 350 (+ 50% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Illaoi leaps into the air with  displacement immunity before slamming her idol into the ground, dealing physical damage to nearby enemies. For each enemy champion hit, a Tentacle is summoned for 8 seconds (up to a maximum of 6 summons).",
+        "For the duration,  Harsh Lesson's  cooldown is halved, all Tentacles awakened by Illaoi are  untargetable, will not show their hitboxes, nor go dormant, and will take half the amount of time to make an attack."
+      ]
+    }
+  ],
   "id": "Illaoi",
   "key": "420",
   "name": "Illaoi",
@@ -12,6 +230,7 @@
     "difficulty": 4
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Illaoi.png",
     "full": "Illaoi.png",
     "sprite": "champion1.png",
     "group": "champion",

@@ -1,6 +1,32 @@
 {
   "abilities": [
     {
+      "name": "Living Vengeance",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Varus gains 40% (+ 30% bonus attack speed)  bonus attack speed for 5 seconds upon an enemy champion  takedown, and 20% (+ 15% bonus attack speed) bonus attack speed on non-champion kills.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Living Vengeance.png",
+      "icons": [
+        "Living Vengeance.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Varus gains 40% (+ 30% bonus attack speed)  bonus attack speed for 5 seconds upon an enemy champion  takedown, and 20% (+ 15% bonus attack speed) bonus attack speed on non-champion kills."
+      ]
+    },
+    {
       "name": "Piercing Arrow",
       "cost": [
         70,
@@ -17,7 +43,7 @@
         12,
         10
       ],
-      "description": "Active: Varus <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charges for up to 4 seconds to gradually increase Piercing Arrow's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> range and damage while being <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed by 20%. Piercing Arrow can be recast at any time within its duration.",
+      "description": "Active: Varus  charges for up to 4 seconds to gradually increase Piercing Arrow's  range and damage while being  slowed by 20%. Piercing Arrow can be recast at any time within its duration.",
       "leveling": "Minimum Physical Damage:»10 / 46.67 / 83.33 / 120 / 156.67 (+ 83.33 / 86.67 / 90 / 93.33 / 96.67% AD)«Minimum Fully Reduced Damage:3.3 / 15.4 / 27.5 / 39.6 / 51.7 (+ 27.5 / 28.6 / 29.7 / 30.8 / 31.9% AD)\nMaximum Physical Damage:»15 / 70 / 125 / 180 / 235 (+ 125 / 130 / 135 / 140 / 145% AD)«Maximum Fully Reduced Damage:4.95 / 23.1 / 41.25 / 59.4 / 77.55 (+ 41.25 / 42.9 / 44.55 / 46.2 / 47.85% AD)",
       "skill": "Q",
       "damageType": "Physical",
@@ -51,7 +77,20 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Piercing Arrow.png",
+      "icons": [
+        "Piercing Arrow.png"
+      ],
+      "levelings": [
+        "Minimum Physical Damage:»10 / 46.67 / 83.33 / 120 / 156.67 (+ 83.33 / 86.67 / 90 / 93.33 / 96.67% AD)«Minimum Fully Reduced Damage:3.3 / 15.4 / 27.5 / 39.6 / 51.7 (+ 27.5 / 28.6 / 29.7 / 30.8 / 31.9% AD)\nMaximum Physical Damage:»15 / 70 / 125 / 180 / 235 (+ 125 / 130 / 135 / 140 / 145% AD)«Maximum Fully Reduced Damage:4.95 / 23.1 / 41.25 / 59.4 / 77.55 (+ 41.25 / 42.9 / 44.55 / 46.2 / 47.85% AD)"
+      ],
+      "descriptions": [
+        "Active: Varus  charges for up to 4 seconds to gradually increase Piercing Arrow's  range and damage while being  slowed by 20%. Piercing Arrow can be recast at any time within its duration.",
+        "If the charge completes without reactivation, Piercing Arrow is canceled, refunding 50% of its  mana cost.",
+        "Recast: Varus fires a piercing arrow in the target direction, dealing physical damage to all enemies struck, which is increased by 0% − 50% (based on channel time). The arrow's damage is reduced to 100% − 33% (based on enemies hit).",
+        "Detonating  Blight stacks on an enemy champion reduces Piercing Arrow's  cooldown by 3 seconds."
+      ]
     },
     {
       "name": "Blighted Quiver",
@@ -62,7 +101,7 @@
       "coolDown": [
         40
       ],
-      "description": "Passive: Varus' basic attacks deal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> bonus magic damage and apply Blight for 6 seconds, stacking up to 3 times.",
+      "description": "Passive: Varus' basic attacks deal bonus magic damage and apply Blight for 6 seconds, stacking up to 3 times.",
       "leveling": "Bonus Magic Damage:7 / 10.5 / 14 / 17.5 / 21 (+ 25% AP)",
       "skill": "W",
       "damageType": "Magic",
@@ -80,7 +119,23 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Blighted Quiver.png",
+      "icons": [
+        "Blighted Quiver.png",
+        "Blighted Quiver 2.png"
+      ],
+      "levelings": [
+        "Bonus Magic Damage:7 / 10.5 / 14 / 17.5 / 21 (+ 25% AP)",
+        "Magic Damage per Stack:»3 / 3.5 / 4 / 4.5 / 5% (+ 2% per 100 AP) of the target's maximum health«Maximum Magic Damage:9 / 10.5 / 12 / 13.5 / 15% (+ 6% per 100 AP) of the target's maximum health"
+      ],
+      "descriptions": [
+        "Passive: Varus' basic attacks deal bonus magic damage and apply Blight for 6 seconds, stacking up to 3 times.",
+        "Varus' other abilities detonate Blight on enemies upon damaging them, dealing magic damage for each stack. This damage is capped at 360 against  monsters.",
+        "Active: Varus' next  Piercing Arrow deals 6% − 14% (based on level) of the target's missing health bonus magic damage, increased by 0% − 50% (based on Piercing Arrow channel time), for a maximum of 9% − 21% (based on level) of the target's missing health. This damage is capped at 360 against monsters. If Varus is not charging  Piercing Arrow, Blighted Quiver may be recast after 1 second and will go on a 1 second cooldown if it isn't used within 5.5 seconds of its activation or immediately if Varus dies.",
+        "Blighted Quiver can be cast during the first 0.25 seconds of  Piercing Arrow's charge. Blighted Quiver is placed on full cooldown even if the duration ends and the arrow is not fired or if the charge is  interrupted.",
+        "Recast: Varus cancels Blighted Quiver and puts it on a 1 second  cooldown."
+      ]
     },
     {
       "name": "Hail of Arrows",
@@ -113,7 +168,20 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Hail of Arrows.png",
+      "icons": [
+        "Hail of Arrows.png"
+      ],
+      "levelings": [
+        "Physical Damage:50 / 90 / 130 / 170 / 210 (+ 60% bonus AD)",
+        "Slow:25 / 30 / 35 / 40 / 45%"
+      ],
+      "descriptions": [
+        "Active: Varus fires a hail of arrows at the target location, dealing physical damage to all enemies hit on impact.",
+        "The area is desecrated for 4 seconds,  slowing all enemies within and applying  Grievous Wounds.",
+        "Hail of Arrows will cast at max range if cast beyond that."
+      ]
     },
     {
       "name": "Chain of Corruption",
@@ -128,7 +196,7 @@
         85,
         70
       ],
-      "description": "Active: Varus flings out a tendril of corruption in the target direction that infects the first enemy champion hit, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooting them for 2 seconds while inflicting them with full stacks of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Blighted_Quiver.png/revision/latest/scale-to-width-down/20?cb=20170818195507\" \t alt=\"Blighted Quiver\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blighted_Quiver.png\" \tdata-image-name=\"Blighted Quiver.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Blight over 1.5 seconds.",
+      "description": "Active: Varus flings out a tendril of corruption in the target direction that infects the first enemy champion hit, dealing magic damage and  revealing and  rooting them for 2 seconds while inflicting them with full stacks of  Blight over 1.5 seconds.",
       "leveling": "Magic Damage:150 / 175 / 200 / 225 / 250 (+ 100% AP)",
       "skill": "R",
       "damageType": "Magic",
@@ -146,7 +214,20 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Chain of Corruption.png",
+      "icons": [
+        "Chain of Corruption.png"
+      ],
+      "levelings": [
+        "Magic Damage:150 / 175 / 200 / 225 / 250 (+ 100% AP)"
+      ],
+      "descriptions": [
+        "Active: Varus flings out a tendril of corruption in the target direction that infects the first enemy champion hit, dealing magic damage and  revealing and  rooting them for 2 seconds while inflicting them with full stacks of  Blight over 1.5 seconds.",
+        "On impact, the tendril seeks out nearby enemy champions for 2 seconds, after which they are also infected. Tendrils will continue to spread until there are no champions in range that have not already been affected.",
+        "Chain of Corruption will attempt to spread even if the first target dies or becomes free of the  root.",
+        "The tendril seeks targets regardless of having  sight of them or not."
+      ]
     }
   ],
   "id": "Varus",
@@ -161,6 +242,7 @@
     "difficulty": 2
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Varus.png",
     "full": "Varus.png",
     "sprite": "champion4.png",
     "group": "champion",

@@ -1,0 +1,201 @@
+[
+  {
+    "name": "The Relentless Storm",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Volibear gains 1 stack of The Relentless Storm whenever he damages an enemy with  basic attacks on-hit and abilities, up to a maximum of 5. The Relentless Storm lasts for 6 seconds, refreshing whenever Volibear gains a stack. At maximum stacks, he gains Lightning Claws.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Magic",
+    "isProjectile": "false",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "The Relentless Storm.png",
+    "icons": [
+      "The Relentless Storm.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Volibear gains 1 stack of The Relentless Storm whenever he damages an enemy with  basic attacks on-hit and abilities, up to a maximum of 5. The Relentless Storm lasts for 6 seconds, refreshing whenever Volibear gains a stack. At maximum stacks, he gains Lightning Claws.",
+      "The Relentless Storm: Volibear gains  5% bonus attack speed per stack, up to 25% bonus attack speed.",
+      "Lightning Claws: Volibear's claws ignite with lightning, causing his basic attacks on-hit to deal 11 −  60 (based on level) (+ 40% AP) bonus magic damage to the target and the closest  visible enemy within 450 units of the target, chaining up to 4 subsequent targets."
+    ]
+  },
+  {
+    "name": "Thundering Smash",
+    "cost": [
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      14,
+      13,
+      12,
+      11,
+      10
+    ],
+    "description": "Active: Volibear drops on all fours, becoming  ghosted and gaining  bonus movement speed for 4 seconds, doubled when moving towards  visible enemy  champions.",
+    "leveling": "Bonus Movement Speed:»10 / 14 / 18 / 22 / 26%«Increased Movement Speed:20 / 28 / 36 / 44 / 52%",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      10,
+      14,
+      18,
+      22,
+      26
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Thundering Smash.png",
+    "icons": [
+      "Thundering Smash.png"
+    ],
+    "levelings": [
+      "Bonus Movement Speed:»10 / 14 / 18 / 22 / 26%«Increased Movement Speed:20 / 28 / 36 / 44 / 52%",
+      "Bonus Damage:20 / 40 / 60 / 80 / 100 (+ 120% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Volibear drops on all fours, becoming  ghosted and gaining  bonus movement speed for 4 seconds, doubled when moving towards  visible enemy  champions.",
+      "While active, Volibear's next basic attack within the duration becomes  unstoppable,  pounces on the target, deals bonus physical damage, and  stuns the target for 1 second.",
+      "If Volibear becomes  immobilized while Thundering Smash is active, the effect ends prematurely and the  cooldown is reset.",
+      "Thundering Smash  resets Volibear's basic attack timer, benefits from  life steal and is affected by  critical strike modifiers."
+    ]
+  },
+  {
+    "name": "Frenzied Maul",
+    "cost": [
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      5
+    ],
+    "description": "Active: Volibear strikes the target enemy, dealing physical damage, applying on-hit and on-attack effects, and Wounding them for 8 seconds.",
+    "leveling": "Physical Damage:»10 / 35 / 60 / 85 / 110 (+ 100% AD) (+ 6% of his bonus health)«Increased Damage:15 / 52.5 / 90 / 127.5 / 165 (+ 150% AD) (+ 9% of his bonus health)",
+    "skill": "W",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      10,
+      35,
+      60,
+      85,
+      110
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Frenzied Maul.png",
+    "icons": [
+      "Frenzied Maul.png"
+    ],
+    "levelings": [
+      "Physical Damage:»10 / 35 / 60 / 85 / 110 (+ 100% AD) (+ 6% of his bonus health)«Increased Damage:15 / 52.5 / 90 / 127.5 / 165 (+ 150% AD) (+ 9% of his bonus health)",
+      "Champion Heal:»20 / 35 / 50 / 65 / 80 (+ 8 / 10 / 12 / 14 / 16% of his missing health)«Non-Champion Heal:10 / 17.5 / 25 / 32.5 / 40 (+ 4 / 5 / 6 / 7 / 8% of his missing health)"
+    ],
+    "descriptions": [
+      "Active: Volibear strikes the target enemy, dealing physical damage, applying on-hit and on-attack effects, and Wounding them for 8 seconds.",
+      "Against a Wounded enemy, Volibear instead bites the target, dealing  50% increased damage, and  healing himself. The heal is halved against  minions and  monsters.",
+      "Frenzied Maul also benefits from  life steal."
+    ]
+  },
+  {
+    "name": "Sky Splitter",
+    "cost": [
+      60
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      15
+    ],
+    "description": "Active: Volibear summons a lightning bolt to strike at the target location after a 2-second delay. Enemies can see the cast location indicator after a 1-second delay. If Volibear is within the lightning strike, he  shields himself for 15% of his maximum health (+ 80% AP) for 3 seconds.",
+    "leveling": "Magic Damage:»80 / 110 / 140 / 170 / 200 (+ 80% AP) (+ 11 / 12 / 13 / 14 / 15% of target's maximum health)«Capped Damage:150 / 250 / 350 / 450 / 550",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      80,
+      110,
+      140,
+      170,
+      200
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Sky Splitter.png",
+    "icons": [
+      "Sky Splitter.png",
+      "Sky Splitter 2.png"
+    ],
+    "levelings": [
+      "Magic Damage:»80 / 110 / 140 / 170 / 200 (+ 80% AP) (+ 11 / 12 / 13 / 14 / 15% of target's maximum health)«Capped Damage:150 / 250 / 350 / 450 / 550"
+    ],
+    "descriptions": [
+      "Active: Volibear summons a lightning bolt to strike at the target location after a 2-second delay. Enemies can see the cast location indicator after a 1-second delay. If Volibear is within the lightning strike, he  shields himself for 15% of his maximum health (+ 80% AP) for 3 seconds.",
+      "The lightning bolt deals magic damage to all enemies struck, capped against non-champions,  slowing them by 40% for 2 seconds, and grants  sight of the area for 1 second."
+    ]
+  },
+  {
+    "name": "Stormbringer",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      160,
+      140,
+      120
+    ],
+    "description": "Active: Volibear gains Stormbringer for 12 seconds and  leaps to the target location with  immunity to crowd control as well as granting  sight of the area in a 500 radius during it. If  Thundering Smash is active when Stormbringer is cast, its duration is paused during the  leap.",
+    "leveling": "Bonus Health:200 / 300 / 400 / 500 / 600",
+    "skill": "R",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      200,
+      300,
+      400,
+      500,
+      600
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Stormbringer.png",
+    "icons": [
+      "Stormbringer.png"
+    ],
+    "levelings": [
+      "Bonus Health:200 / 300 / 400 / 500 / 600",
+      "Physical Damage:300 / 400 / 500 / 600 / 700 (+ 250% bonus AD) (+ 125% AP)",
+      "Turret Disable Duration:3 / 3.5 / 4 / 4.5 / 5"
+    ],
+    "descriptions": [
+      "Active: Volibear gains Stormbringer for 12 seconds and  leaps to the target location with  immunity to crowd control as well as granting  sight of the area in a 500 radius during it. If  Thundering Smash is active when Stormbringer is cast, its duration is paused during the  leap.",
+      "Stormbringer: Volibear becomes  ghosted and gains  bonus health,  50 bonus attack range, 25 increased range on  Frenzied Maul, and 35% increased size.",
+      "Volibear impacts after a 1 second delay,  slowing all enemies in an area by 50%, decaying over 1 second. Enemies in the epicenter are also dealt physical damage.",
+      "Volibear also disables enemy  turrets (including  untargetable ones and those in  stasis, excluding  Nexus Obelisk) in an area for a few seconds, rendering them unable to attack, as well as dealing them the same physical damage.*",
+      "Stormbringer will cast at max range if cast beyond that."
+    ]
+  }
+]

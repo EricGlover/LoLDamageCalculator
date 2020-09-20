@@ -1,5 +1,202 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Ki Barrier",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: After completing an ability's effects, Shen  shields himself from 60 − 111 (based on level) (+ 14% bonus health) damage for 2.5 seconds. If the triggering ability successfully affected at least one  champion, Ki Barrier's  cooldown is reduced by 4 − 7.5 (based on level) seconds.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Ki Barrier.png",
+      "icons": [
+        "Ki Barrier.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: After completing an ability's effects, Shen  shields himself from 60 − 111 (based on level) (+ 14% bonus health) damage for 2.5 seconds. If the triggering ability successfully affected at least one  champion, Ki Barrier's  cooldown is reduced by 4 − 7.5 (based on level) seconds.",
+        "Shen's power manifests as a Spirit Blade that he can control with his abilities."
+      ]
+    },
+    {
+      "name": "Twilight Assault",
+      "cost": [
+        140,
+        130,
+        120,
+        110,
+        100
+      ],
+      "costType": "energy",
+      "coolDown": [
+        8,
+        7,
+        6,
+        5,
+        5
+      ],
+      "description": "Active: Shen recalls his Spirit Blade to his location. Enemies the blade collides with are  slowed for the next 2 seconds when moving away from Shen.",
+      "leveling": "Slow:15 / 20 / 25 / 30 / 35%",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "Special",
+      "flatDamage": [
+        15,
+        20,
+        25,
+        30,
+        35
+      ],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Twilight Assault.png",
+      "icons": [
+        "Twilight Assault.png",
+        "Twilight Assault 2.png",
+        "Twilight Assault 3.png"
+      ],
+      "levelings": [
+        "Slow:15 / 20 / 25 / 30 / 35%",
+        "Bonus Magic Damage:»10 − 40 (based on level) (+ 2 / 2.5 / 3 / 3.5 / 4% (+ 1.5% per 100 AP) of target's maximum health)«Total Damage:30 − 120 (based on level) (+ 6 / 7.5 / 9 / 10.5 / 12% (+ 4.5% per 100 AP) of target's maximum health)",
+        "Increased Bonus Damage:»10 − 40 (based on level) (+ 5 / 5.5 / 6 / 6.5 / 7% (+ 2% per 100 AP) of target's maximum health)«Total Increased Damage:30 − 120 (based on level) (+ 15 / 16.5 / 18 / 19.5 / 21% (+ 6% per 100 AP) of target's maximum health)",
+        "Maximum Monster Damage:120 / 140 / 160 / 180 / 200"
+      ],
+      "descriptions": [
+        "Active: Shen recalls his Spirit Blade to his location. Enemies the blade collides with are  slowed for the next 2 seconds when moving away from Shen.",
+        "Once it arrives, Shen empowers his next 3 basic attacks within 8 seconds to gain  75 bonus range and deal bonus magic damage.",
+        "If the Spirit Blade collides with at least one enemy  champion on its way to Shen, the empowerment is enhanced, dealing increased bonus magic damage and granting Shen  50% bonus attack speed while it is active.",
+        "Empowered attacks against  monsters instead deal 100% bonus damage, but their total damage is capped."
+      ]
+    },
+    {
+      "name": "Spirit's Refuge",
+      "cost": [
+        40
+      ],
+      "costType": "energy",
+      "coolDown": [
+        18,
+        16,
+        15,
+        13,
+        12
+      ],
+      "description": "Active: Shen primes his Spirit Blade, creating an area around it. If Shen or an allied champion enter or are within the area, or after 2 seconds, the Spirit Blade creates a protective zone around it for 1.75 seconds,  blocking all non- turret basic attacks that hit Shen or allied champions in the area.",
+      "leveling": null,
+      "skill": "W",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Spirit's Refuge.png",
+      "icons": [
+        "Spirit's Refuge.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Active: Shen primes his Spirit Blade, creating an area around it. If Shen or an allied champion enter or are within the area, or after 2 seconds, the Spirit Blade creates a protective zone around it for 1.75 seconds,  blocking all non- turret basic attacks that hit Shen or allied champions in the area."
+      ]
+    },
+    {
+      "name": "Shadow Dash",
+      "cost": [
+        150
+      ],
+      "costType": "energy",
+      "coolDown": [
+        18,
+        16,
+        14,
+        12,
+        10
+      ],
+      "description": "Passive: Damage from Shadow Dash and  Twilight Assault recovers  30 / 35 / 40 (based on level) energy.",
+      "leveling": "Physical Damage:60 / 85 / 110 / 135 / 160 (+ 15% bonus health)",
+      "skill": "E",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        60,
+        85,
+        110,
+        135,
+        160
+      ],
+      "ratios": [
+        {
+          "value": 15,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Shadow Dash.png",
+      "icons": [
+        "Shadow Dash.png"
+      ],
+      "levelings": [
+        "Physical Damage:60 / 85 / 110 / 135 / 160 (+ 15% bonus health)"
+      ],
+      "descriptions": [
+        "Passive: Damage from Shadow Dash and  Twilight Assault recovers  30 / 35 / 40 (based on level) energy.",
+        "Active: Shen  dashes in the target direction, dealing physical damage to all enemy champions and  monsters in his path and  taunting them for 1.5 seconds."
+      ]
+    },
+    {
+      "name": "Stand United",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        200,
+        190,
+        180,
+        170,
+        160
+      ],
+      "description": "Active: Shen  channels for 3 seconds,  shielding the target allied champion at the time of cast for up to 5 seconds, increased by 0% − 60% (based on target's missing health).",
+      "leveling": "Minimum Shield:»175 / 262.5 / 350 / 437.5 / 525 (+ 135% AP)«Maximum Shield:280 / 420 / 560 / 700 / 840 (+ 216% AP)",
+      "skill": "R",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        175,
+        262.5,
+        350,
+        437.5,
+        525
+      ],
+      "ratios": [
+        {
+          "value": 135,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Stand United 2.png",
+      "icons": [
+        "Stand United 2.png",
+        "Stand United.png"
+      ],
+      "levelings": [
+        "Minimum Shield:»175 / 262.5 / 350 / 437.5 / 525 (+ 135% AP)«Maximum Shield:280 / 420 / 560 / 700 / 840 (+ 216% AP)"
+      ],
+      "descriptions": [
+        "Active: Shen  channels for 3 seconds,  shielding the target allied champion at the time of cast for up to 5 seconds, increased by 0% − 60% (based on target's missing health).",
+        "Upon completing the channel, Shen and his Spirit Blade  blink to the target ally's location, placing himself and his Spirit Blade between them and the nearest enemy champion. Shen also  destroys any  projectiles targeting him at the time of completion."
+      ]
+    }
+  ],
   "id": "Shen",
   "key": "98",
   "name": "Shen",
@@ -12,6 +209,7 @@
     "difficulty": 4
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Shen.png",
     "full": "Shen.png",
     "sprite": "champion3.png",
     "group": "champion",

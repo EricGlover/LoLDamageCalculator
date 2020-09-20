@@ -1,0 +1,1204 @@
+[
+  {
+    "1": {
+      "value": "Crimson Pact",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Crimson Pact."
+    },
+    "champion": {
+      "value": "Vladimir",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "I",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Crimson Pact.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Every 40 points of bonus Health gives Vladimir 1 Ability Power and every 1 point of Ability Power gives Vladimir 1.4 bonus Health (does not stack with itself).",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Innate: Vladimir gains (2.5% bonus health) as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0a/Ability_power_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203441\" \t alt=\"Ability power icon\"  \tclass=\"\" \t \tdata-image-key=\"Ability_power_icon.png\" \tdata-image-name=\"Ability power icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus ability power and (140% AP) as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus health. These two bonuses do not stack with each other.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Passive",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Crimson Pact's bonus ability power stacks multiplicatively with other sources of % ability power but its bonus health stacks additively with other sources of bonus health. Examples on how they calculate below:\nCase 1: With <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c5/Rabadon%27s_Deathcap_item.png/revision/latest/scale-to-width-down/20?cb=20171221230209\" \t alt=\"Rabadon&amp;#039;s Deathcap item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rabadon%27s_Deathcap_item.png\" \tdata-image-name=\"Rabadon&#39;s Deathcap item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rabadon's Deathcap you get a total of (40% AP + 3.5% bonus health) bonus ability power and (196% AP + 1.4% bonus health) bonus health.\nCase 2: With <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/af/Juggernaut_item.png/revision/latest/scale-to-width-down/20?cb=20171223001916\" \t alt=\"Juggernaut item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Juggernaut_item.png\" \tdata-image-name=\"Juggernaut item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cinderhulk you get a total of (2.875% bonus health) bonus ability power and (140% AP + 15% bonus health) bonus health.\nCase 3: With <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c5/Rabadon%27s_Deathcap_item.png/revision/latest/scale-to-width-down/20?cb=20171221230209\" \t alt=\"Rabadon&amp;#039;s Deathcap item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rabadon%27s_Deathcap_item.png\" \tdata-image-name=\"Rabadon&#39;s Deathcap item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rabadon's Deathcap + <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/af/Juggernaut_item.png/revision/latest/scale-to-width-down/20?cb=20171223001916\" \t alt=\"Juggernaut item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Juggernaut_item.png\" \tdata-image-name=\"Juggernaut item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cinderhulk you get a total of (40% AP + 4.025% bonus health) bonus ability power and (196% AP + 16.61% bonus health) bonus health.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Transfusion",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Transfusion."
+    },
+    "champion": {
+      "value": "Vladimir",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "Q",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Range_center.png/revision/latest/scale-to-width-down/20?cb=20150616134211\" \t alt=\"Range center\"  \tclass=\"\" \t \tdata-image-key=\"Range_center.png\" \tdata-image-name=\"Range center.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 600",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "9 / 8 / 7 / 6 / 5",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Transfusion.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Vladimir steals life from the target enemy. When Vladimir's resource is full, Transfusion will benefit from massively increased damage and healing for a brief time.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Vladimir drains blood from the target enemy, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing himself.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Magic Damage:80 / 100 / 120 / 140 / 160 (+ 60% AP)Heal:20 / 25 / 30 / 35 / 40 (+ 35% AP)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Each cast of Transfusion generates a stack of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bloodthirst over its <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown, which is displayed in his secondary resource bar. At 2 stacks, Vladimir gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 10% bonus movement speed for 0.5 seconds, and Crimson Rush while the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bloodthirst depletes over 2.5 seconds. The <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bloodthirst depletes 75% slower during <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/65/Tides_of_Blood.png/revision/latest/scale-to-width-down/20?cb=20160616212716\" \t alt=\"Tides of Blood\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tides_of_Blood.png\" \tdata-image-name=\"Tides of Blood.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tides of Blood, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/86/Sanguine_Pool.png/revision/latest/scale-to-width-down/20?cb=20160616212644\" \t alt=\"Sanguine Pool\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sanguine_Pool.png\" \tdata-image-name=\"Sanguine Pool.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sanguine Pool or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "Crimson Rush.png",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Crimson Rush: The next Transfusion deals <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Critical_magic_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20190827073648\" \t alt=\"Critical magic strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_magic_strike_icon.png\" \tdata-image-name=\"Critical magic strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 85% increased damage and heals for an additional 30 − 200 (based on level) (+ 5% (+ 4% per 100 AP) missing health), reduced to 35% against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions, consuming all <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bloodthirst.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "Empowered Damage:148 / 185 / 222 / 259 / 296 (+ 111% AP)",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Unit",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self, Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Single target",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "false",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "True",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Even thought the healing effect is visualized as a projectile, the healing itself triggers instantly.\n Vladimir's resource bar changes colors depending on Bloodthirst's charge-up.\n White while generating the first stack and while at 1 stack (there is no time-out period).\n Orange while generating the second stack.\n Red while Crimson Rush is active (Bloodthirst will deplete over 2.5 seconds once triggered).\n\n Each stack generates over-time (Transfusion's cooldown).\n\n The <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bloodthirst depletes normally while under <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Revival_icon.png/revision/latest/scale-to-width-down/20?cb=20170714051127\" \t alt=\"Revival icon\"  \tclass=\"\" \t \tdata-image-key=\"Revival_icon.png\" \tdata-image-name=\"Revival icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resurrection effects.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Sanguine Pool",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Sanguine Pool."
+    },
+    "champion": {
+      "value": "Vladimir",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "W",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Range_center.png/revision/latest/scale-to-width-down/20?cb=20150616134211\" \t alt=\"Range center\"  \tclass=\"\" \t \tdata-image-key=\"Range_center.png\" \tdata-image-name=\"Range center.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 350",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "20%",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "current health",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "28 / 25 / 22 / 19 / 16",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Sanguine Pool.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Vladimir sinks into a pool of blood, becoming untargetable for 2 seconds. Additionally, enemies on the pool are slowed and Vladimir siphons life from them.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Vladimir sinks into a pool of blood, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 37.5% bonus movement speed which decays exponentially over 1 second and becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted for 2 seconds.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Enemies who stand upon the pool are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed by 40% and dealt magic damage every half second. Vladimir <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals himself for 15% of the damage dealt by Sanguine Pool.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Magic Damage Per Half-Second:»20 / 33.75 / 47.5 / 61.25 / 75 (+ 2.5% bonus health)«Maximum Magic Damage:80 / 135 / 190 / 245 / 300 (+ 10% bonus health)",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Vladimir cannot use basic attacks or abilities during Sanguine Pool, but is still able to move. If <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/65/Tides_of_Blood.png/revision/latest/scale-to-width-down/20?cb=20160616212716\" \t alt=\"Tides of Blood\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tides_of_Blood.png\" \tdata-image-name=\"Tides of Blood.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tides of Blood is charging at the time of Sanguine Pool's activation, that ability may be recast.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "None",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self, Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "aoedot",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* The first tick damages immediately so the final one occurs 0.5 seconds before Vladimir becomes targetable again.\n The <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow ends immediately once affected enemies get out of range.\n Vladimir can still use summoner spells and item actives during Sanguine Pool.\n While unable to attack, Vladimir can still input attack commands - causing him to follow his attack target. \n Vladimir's attack range is reduced to 0 while pooled - causing him to attempt to move underneath his attack target.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Tides of Blood",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Tides of Blood."
+    },
+    "champion": {
+      "value": "Vladimir",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "E",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/71/Range_model.png/revision/latest/scale-to-width-down/20?cb=20150616134216\" \t alt=\"Range model\"  \tclass=\"\" \t \tdata-image-key=\"Range_model.png\" \tdata-image-name=\"Range model.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 600",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/71/Range_model.png/revision/latest/scale-to-width-down/20?cb=20150616134216\" \t alt=\"Range model\"  \tclass=\"\" \t \tdata-image-key=\"Range_model.png\" \tdata-image-name=\"Range model.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 120",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "4000",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "2 / 4 / 6 / 8% (based on charge time)",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "maximum health",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "13 / 11 / 9 / 7 / 5",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Tides of Blood.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Vladimir pays his own health to charge up a reservoir of blood which, when released, deals damage in the area around him but can be blocked by enemy units.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Vladimir <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charges for up to 1.5 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing himself by 20% if he charges for more than 1 second. Tides of Blood can be recast at any time within its duration. If Vladimir finishes charging or is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> interrupted, he automatically initiates the recast.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Recast: Vladimir unleashes a nova of 15 blood bolts, each of which collide with the first enemy they hit, dealing them magic damage that is increased based on how long Tides of Blood was charged, up to the first second.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Minimum Magic Damage:»30 / 45 / 60 / 75 / 90 (+ 1.5% maximum health) (+ 35% AP)«Maximum Magic Damage:60 / 90 / 120 / 150 / 180 (+ 6% maximum health) (+ 80% AP)",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "If Tides of Blood was charged for at least 1 second, enemies hit are also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed for 0.5 seconds.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "Slow:40 / 45 / 50 / 55 / 60%",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "Enemies can intercept multiple bolts, but may only be damaged once.",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "If Vladimir is below 12% of his maximum health Tides of Blood will not cost any health, but will still increase in damage.",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "None",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self, Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "spellaoe",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "True",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* The spell indicator shows 11 equally spaced missile indicators when hovering the ability in the HUD, however the spell actually casts 15 equally spaced missiles.\n The health cost may still drop Vladimir below the specified amount if he is above it. This is verified for every tick of health cost, i.e if the first tick drops him below it, the next ones will stop affecting him if he remains below it.\n The following table refers for interactions while Vladimir is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channeling:\n\n\n\n Type\n Charge channel\n\n\n Attacking\n Disabled\n\n\n Abilities\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/86/Sanguine_Pool.png/revision/latest/scale-to-width-down/20?cb=20160616212644\" \t alt=\"Sanguine Pool\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sanguine_Pool.png\" \tdata-image-name=\"Sanguine Pool.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sanguine Pool is usable. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/66/Transfusion.png/revision/latest/scale-to-width-down/20?cb=20160616212740\" \t alt=\"Transfusion\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Transfusion.png\" \tdata-image-name=\"Transfusion.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Transfusion and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Hemoplague.png/revision/latest/scale-to-width-down/20?cb=20160616212620\" \t alt=\"Hemoplague\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hemoplague.png\" \tdata-image-name=\"Hemoplague.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hemoplague both interrupt after 0.25 seconds.\n\n\n Movement\n Allowed\n\n\n Items\n Usable\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/00/Shurelya%27s_Reverie_item.png/revision/latest/scale-to-width-down/20?cb=20180511220011\" \t alt=\"Shurelya&amp;#039;s Reverie item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shurelya%27s_Reverie_item.png\" \tdata-image-name=\"Shurelya&#39;s Reverie item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shurelya's Reverie <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Righteous_Glory_item.png/revision/latest/scale-to-width-down/20?cb=20171221231127\" \t alt=\"Righteous Glory item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Righteous_Glory_item.png\" \tdata-image-name=\"Righteous Glory item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Righteous Glory <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Youmuu%27s_Ghostblade_item.png/revision/latest/scale-to-width-down/20?cb=20171222002403\" \t alt=\"Youmuu&amp;#039;s Ghostblade item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Youmuu%27s_Ghostblade_item.png\" \tdata-image-name=\"Youmuu&#39;s Ghostblade item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Youmuu's Ghostblade <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Gargoyle_Stoneplate_item.png/revision/latest/scale-to-width-down/20?cb=20171221183200\" \t alt=\"Gargoyle Stoneplate item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gargoyle_Stoneplate_item.png\" \tdata-image-name=\"Gargoyle Stoneplate item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gargoyle Stoneplate <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/08/Randuin%27s_Omen_item.png/revision/latest/scale-to-width-down/20?cb=20171221230256\" \t alt=\"Randuin&amp;#039;s Omen item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Randuin%27s_Omen_item.png\" \tdata-image-name=\"Randuin&#39;s Omen item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Randuin's Omen <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b9/Seraph%27s_Embrace_item.png/revision/latest/scale-to-width-down/20?cb=20171221232010\" \t alt=\"Seraph&amp;#039;s Embrace item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Seraph%27s_Embrace_item.png\" \tdata-image-name=\"Seraph&#39;s Embrace item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Seraph's Embrace\n\n\n Disabled\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Hextech_Protobelt-01_item.png/revision/latest/scale-to-width-down/20?cb=20171221185647\" \t alt=\"Hextech Protobelt-01 item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hextech_Protobelt-01_item.png\" \tdata-image-name=\"Hextech Protobelt-01 item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hextech Protobelt-01\n\n\n Interrupted by\n All item-actives not specified above interrupt\n\n\n\n Consumables\n Usable\n\n\n Spells\n Usable\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cc/Barrier.png/revision/latest/scale-to-width-down/20?cb=20180514002510\" \t alt=\"Barrier\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Barrier.png\" \tdata-image-name=\"Barrier.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Barrier <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Clarity.png/revision/latest/scale-to-width-down/20?cb=20180514002750\" \t alt=\"Clarity\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clarity.png\" \tdata-image-name=\"Clarity.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Clarity <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cleanse.png/revision/latest/scale-to-width-down/20?cb=20180514002812\" \t alt=\"Cleanse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cleanse.png\" \tdata-image-name=\"Cleanse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cleanse <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Exhaust.png/revision/latest/scale-to-width-down/20?cb=20180514003128\" \t alt=\"Exhaust\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Exhaust.png\" \tdata-image-name=\"Exhaust.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Exhaust <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ghost <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Heal.png/revision/latest/scale-to-width-down/20?cb=20180514003319\" \t alt=\"Heal\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Heal.png\" \tdata-image-name=\"Heal.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Heal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/Ignite.png/revision/latest/scale-to-width-down/20?cb=20180514003345\" \t alt=\"Ignite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ignite.png\" \tdata-image-name=\"Ignite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ignite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Smite.png/revision/latest/scale-to-width-down/20?cb=20180514003641\" \t alt=\"Smite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Smite.png\" \tdata-image-name=\"Smite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Smite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flash\n\n\n Disabled\n N/A\n\n\n Interrupted by\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Hexflash.png/revision/latest/scale-to-width-down/20?cb=20180514003331\" \t alt=\"Hexflash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hexflash.png\" \tdata-image-name=\"Hexflash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hexflash\n\n\n\n Interrupted by\n Death<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Silencing effects",
+      "description": "Charge channel"
+    },
+    "Charge channel": {},
+    "Disabled": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/86/Sanguine_Pool.png/revision/latest/scale-to-width-down/20?cb=20160616212644\" \t alt=\"Sanguine Pool\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sanguine_Pool.png\" \tdata-image-name=\"Sanguine Pool.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sanguine Pool is usable. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/66/Transfusion.png/revision/latest/scale-to-width-down/20?cb=20160616212740\" \t alt=\"Transfusion\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Transfusion.png\" \tdata-image-name=\"Transfusion.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Transfusion and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Hemoplague.png/revision/latest/scale-to-width-down/20?cb=20160616212620\" \t alt=\"Hemoplague\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hemoplague.png\" \tdata-image-name=\"Hemoplague.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hemoplague both interrupt after 0.25 seconds.": {},
+    "Allowed": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/00/Shurelya%27s_Reverie_item.png/revision/latest/scale-to-width-down/20?cb=20180511220011\" \t alt=\"Shurelya&amp;#039;s Reverie item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shurelya%27s_Reverie_item.png\" \tdata-image-name=\"Shurelya&#39;s Reverie item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shurelya's Reverie <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Righteous_Glory_item.png/revision/latest/scale-to-width-down/20?cb=20171221231127\" \t alt=\"Righteous Glory item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Righteous_Glory_item.png\" \tdata-image-name=\"Righteous Glory item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Righteous Glory <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Youmuu%27s_Ghostblade_item.png/revision/latest/scale-to-width-down/20?cb=20171222002403\" \t alt=\"Youmuu&amp;#039;s Ghostblade item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Youmuu%27s_Ghostblade_item.png\" \tdata-image-name=\"Youmuu&#39;s Ghostblade item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Youmuu's Ghostblade <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Gargoyle_Stoneplate_item.png/revision/latest/scale-to-width-down/20?cb=20171221183200\" \t alt=\"Gargoyle Stoneplate item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gargoyle_Stoneplate_item.png\" \tdata-image-name=\"Gargoyle Stoneplate item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gargoyle Stoneplate <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/08/Randuin%27s_Omen_item.png/revision/latest/scale-to-width-down/20?cb=20171221230256\" \t alt=\"Randuin&amp;#039;s Omen item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Randuin%27s_Omen_item.png\" \tdata-image-name=\"Randuin&#39;s Omen item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Randuin's Omen <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b9/Seraph%27s_Embrace_item.png/revision/latest/scale-to-width-down/20?cb=20171221232010\" \t alt=\"Seraph&amp;#039;s Embrace item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Seraph%27s_Embrace_item.png\" \tdata-image-name=\"Seraph&#39;s Embrace item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Seraph's Embrace": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Hextech_Protobelt-01_item.png/revision/latest/scale-to-width-down/20?cb=20171221185647\" \t alt=\"Hextech Protobelt-01 item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hextech_Protobelt-01_item.png\" \tdata-image-name=\"Hextech Protobelt-01 item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hextech Protobelt-01": {},
+    "All item-actives not specified above interrupt": {},
+    "Usable": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cc/Barrier.png/revision/latest/scale-to-width-down/20?cb=20180514002510\" \t alt=\"Barrier\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Barrier.png\" \tdata-image-name=\"Barrier.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Barrier <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Clarity.png/revision/latest/scale-to-width-down/20?cb=20180514002750\" \t alt=\"Clarity\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clarity.png\" \tdata-image-name=\"Clarity.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Clarity <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cleanse.png/revision/latest/scale-to-width-down/20?cb=20180514002812\" \t alt=\"Cleanse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cleanse.png\" \tdata-image-name=\"Cleanse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cleanse <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Exhaust.png/revision/latest/scale-to-width-down/20?cb=20180514003128\" \t alt=\"Exhaust\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Exhaust.png\" \tdata-image-name=\"Exhaust.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Exhaust <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ghost <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Heal.png/revision/latest/scale-to-width-down/20?cb=20180514003319\" \t alt=\"Heal\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Heal.png\" \tdata-image-name=\"Heal.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Heal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/Ignite.png/revision/latest/scale-to-width-down/20?cb=20180514003345\" \t alt=\"Ignite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ignite.png\" \tdata-image-name=\"Ignite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ignite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Smite.png/revision/latest/scale-to-width-down/20?cb=20180514003641\" \t alt=\"Smite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Smite.png\" \tdata-image-name=\"Smite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Smite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flash": {},
+    "N/A": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Hexflash.png/revision/latest/scale-to-width-down/20?cb=20180514003331\" \t alt=\"Hexflash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hexflash.png\" \tdata-image-name=\"Hexflash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hexflash": {},
+    "Death<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Silencing effects": {},
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Hemoplague",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Hemoplague."
+    },
+    "champion": {
+      "value": "Vladimir",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "R",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "625",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Range_center.png/revision/latest/scale-to-width-down/20?cb=20150616134211\" \t alt=\"Range center\"  \tclass=\"\" \t \tdata-image-key=\"Range_center.png\" \tdata-image-name=\"Range center.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 375",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "150 / 142.5 / 135 / 127.5 / 120",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Hemoplague.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Vladimir infects an area with a virulent plague. Affected enemies take increased damage for the duration. After a few seconds, Hemoplague deals magic damage to infected enemies and heals Vladimir for each enemy Champion hit.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Vladimir infects all enemies in the target area with a virulent plague, increasing the damage they take from all sources by 10% for 4 seconds, after which all infected enemies take magic damage.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Magic damage:150 / 200 / 250 / 300 / 350 (+ 70% AP)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "The detonation brings the blood from enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions hit to Vladimir after 0.4 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing him for the pre-mitigation damage dealt against them once the blood reaches him, reduced to 50% after the first.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Maximum Heal:450 / 600 / 750 / 900 / 1050 (+ 210% AP)",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Ground",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self, Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Area of effect",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "false",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Hemoplague will amplify almost all sources and types of damage (including damage from neutral monsters but excluding <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Hybrid_penetration.png/revision/latest/scale-to-width-down/20?cb=20170514081634\" \t alt=\"Hybrid penetration\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration.png\" \tdata-image-name=\"Hybrid penetration.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> true damage, with percent modifiers stacking multiplicatively).\n Hemoplague amplifies itself for an actual 165 / 220 / 275 / 330 / 385 (+ 77% AP) damage.\n\n Hemoplague's modifier to incoming damage stacks additively with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ee/Alistar_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402215238\" \t alt=\"Alistar OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Alistar_OriginalSquare.png\" \tdata-image-name=\"Alistar OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Alistar's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b4/Unbreakable_Will.png/revision/latest/scale-to-width-down/20?cb=20160608022142\" \t alt=\"Unbreakable Will\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Unbreakable_Will.png\" \tdata-image-name=\"Unbreakable Will.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Unbreakable Will for a total reduction of 45/55/65%.*\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shield does not negate the detonation.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  }
+]

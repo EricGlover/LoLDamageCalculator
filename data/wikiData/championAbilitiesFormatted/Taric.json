@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Bravado",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: After casting an ability, Taric's next two basic attacks within 4 seconds gain  100% total attack speed, each dealing 25 − 93 (based on level) (+ 15% bonus armor) bonus magic damage and reducing the  cooldowns of his basic abilities by 1 second, as well as refreshing Bravado's duration on the first attack.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Bravado.png",
+    "icons": [
+      "Bravado.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: After casting an ability, Taric's next two basic attacks within 4 seconds gain  100% total attack speed, each dealing 25 − 93 (based on level) (+ 15% bonus armor) bonus magic damage and reducing the  cooldowns of his basic abilities by 1 second, as well as refreshing Bravado's duration on the first attack."
+    ]
+  },
+  {
+    "name": "Starlight's Touch",
+    "cost": [
+      70,
+      80,
+      90,
+      100,
+      110
+    ],
+    "costType": "Mana + all charges",
+    "coolDown": [
+      3
+    ],
+    "description": "Passive: Taric stores a charge of Starlight's Touch periodically, up to a maximum at once.  Bravado empowered attacks grant one charge.",
+    "leveling": "Maximum Charges:1 / 2 / 3 / 4 / 5",
+    "skill": "Q",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ratios": [],
+    "castTime": 0.25,
+    "icon": "Starlight's Touch.png",
+    "icons": [
+      "Starlight's Touch.png"
+    ],
+    "levelings": [
+      "Maximum Charges:1 / 2 / 3 / 4 / 5"
+    ],
+    "descriptions": [
+      "Passive: Taric stores a charge of Starlight's Touch periodically, up to a maximum at once.  Bravado empowered attacks grant one charge.",
+      "Active: Taric  heals himself and all nearby allied champions for 30 (+ 20% AP) (+ 1% of Taric's maximum health) per stored charge at the time of cast, up to a maximum of 150 (+ 100% AP) (+ 5% of Taric's maximum health) at 5 charges."
+    ]
+  },
+  {
+    "name": "Bastion",
+    "cost": [
+      60
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      15
+    ],
+    "description": "Passive: Taric gains  bonus armor and  links to his ally. While linked, the bonus armor and Taric's abilities are replicated on the ally, though the effects do not stack.",
+    "leveling": "Bonus Armor:10 / 11 / 12 / 13 / 14% of Taric's armor",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "ratios": [],
+    "castTime": 0.25,
+    "icon": "Bastion.png",
+    "icons": [
+      "Bastion.png",
+      "Bastion 2.png"
+    ],
+    "levelings": [
+      "Bonus Armor:10 / 11 / 12 / 13 / 14% of Taric's armor",
+      "Shield Strength:8 / 9 / 10 / 11 / 12% of target's maximum health"
+    ],
+    "descriptions": [
+      "Passive: Taric gains  bonus armor and  links to his ally. While linked, the bonus armor and Taric's abilities are replicated on the ally, though the effects do not stack.",
+      "Active: Taric  shields himself and the target allied champion for 2.5 seconds, blessing them with the Bastion link.",
+      "Taric can self-cast Bastion to shield himself, or to the nearest unlinked ally in range. Only one champion can be marked at a time, and selecting a new ally clears the previous mark."
+    ]
+  },
+  {
+    "name": "Dazzle",
+    "cost": [
+      60
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      17,
+      16,
+      15,
+      14,
+      13
+    ],
+    "description": "Active: Taric projects a beam of starlight in the target direction, erupting after a 1 second delay, dealing magic damage to all enemies hit and  stunning them for 1.25 seconds.",
+    "leveling": "Magic Damage:90 / 130 / 170 / 210 / 250 (+ 50% AP) (+ 50% bonus armor)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "False",
+    "flatDamage": [
+      90,
+      130,
+      170,
+      210,
+      250
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Dazzle.png",
+    "icons": [
+      "Dazzle.png"
+    ],
+    "levelings": [
+      "Magic Damage:90 / 130 / 170 / 210 / 250 (+ 50% AP) (+ 50% bonus armor)"
+    ],
+    "descriptions": [
+      "Active: Taric projects a beam of starlight in the target direction, erupting after a 1 second delay, dealing magic damage to all enemies hit and  stunning them for 1.25 seconds."
+    ]
+  },
+  {
+    "name": "Cosmic Radiance",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      180,
+      150,
+      120
+    ],
+    "description": "Active: Taric calls upon the heavens, summoning a star above him that descends down over 2.5 seconds, afterwards bestowing Taric and all nearby allied  champions with cosmic energy, rendering them  invulnerable for 2.5 seconds.",
+    "leveling": null,
+    "skill": "R",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": 0.25,
+    "icon": "Cosmic Radiance.png",
+    "icons": [
+      "Cosmic Radiance.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Active: Taric calls upon the heavens, summoning a star above him that descends down over 2.5 seconds, afterwards bestowing Taric and all nearby allied  champions with cosmic energy, rendering them  invulnerable for 2.5 seconds."
+    ]
+  }
+]

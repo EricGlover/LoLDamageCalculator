@@ -1,0 +1,1192 @@
+[
+  {
+    "1": {
+      "value": "Staggering Blow",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Staggering Blow."
+    },
+    "champion": {
+      "value": "Nautilus",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "I",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "6",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Staggering Blow.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Nautilus' basic attacks deal bonus physical damage and immobilize his targets. This effect cannot happen more than once every few seconds on the same target.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Innate: Nautilus's basic attacks deal 8 − 110 (based on level) bonus physical damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> root his target for 0.75 − 1.5 (based on level) seconds.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "This effect cannot occur on the same target more than once every few seconds.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Passive",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Physical",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Proc",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "Special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shield will block the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> root but not the bonus damage.\n PENDING FOR TEST: Staggering Blow's interactions with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/66/Counter_Strike.png/revision/latest/scale-to-width-down/20?cb=20171223030746\" \t alt=\"Counter Strike\"  \tclass=\"\" \t \tdata-image-key=\"Counter_Strike.png\" \tdata-image-name=\"Counter Strike.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dodging, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5e/Spirit%27s_Refuge.png/revision/latest/scale-to-width-down/20?cb=20170217191016\" \t alt=\"Spirit&amp;#039;s Refuge\"  \tclass=\"\" \t \tdata-image-key=\"Spirit%27s_Refuge.png\" \tdata-image-name=\"Spirit&#39;s Refuge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blocking, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/81/Blind_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224954\" \t alt=\"Blind icon\"  \tclass=\"\" \t \tdata-image-key=\"Blind_icon.png\" \tdata-image-name=\"Blind icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinding effects.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Dredge Line",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Dredge Line."
+    },
+    "champion": {
+      "value": "Nautilus",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "Q",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "1100",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "180 / 0",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "2000",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "60",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "14 / 13 / 12 / 11 / 10",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Dredge Line.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Nautilus hurls his anchor forward. If it hits a champion, he drags both himself and the opponent close together. If it hits terrain, Nautilus instead pulls himself to the anchor, the cooldown of Dredge Line is reduced by half, and half the Mana cost is refunded.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Nautilus hurls his anchor forward in a line in the target direction. If it hits an enemy, it simultaneously <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> drags them towards Nautilus while he <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes towards them within 0.9 seconds, during which the target is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealed, and dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooting them for 0.1 seconds.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Magic Damage:70 / 115 / 160 / 205 / 250 (+ 90% AP)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "If the anchor hits terrain instead, Nautilus dashes to that location entirely and Dredge Line refunds 50% of its <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> mana cost.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Nautilus is unable to move or attack while Dredge Line is in flight.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self, Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "spell",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "Special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "true",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Dredge Line can interact with player-created terrain (<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Cataclysm.png/revision/latest/scale-to-width-down/20?cb=20130929122855\" \t alt=\"Cataclysm\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cataclysm.png\" \tdata-image-name=\"Cataclysm.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cataclysm, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/28/Crystallize.png/revision/latest/scale-to-width-down/20?cb=20160420184144\" \t alt=\"Crystallize\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crystallize.png\" \tdata-image-name=\"Crystallize.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crystallize, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/ff/Pillar_of_Ice.png/revision/latest/scale-to-width-down/20?cb=20170818195329\" \t alt=\"Pillar of Ice\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Pillar_of_Ice.png\" \tdata-image-name=\"Pillar of Ice.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Pillar of Ice).\n Nautilus will <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dash all the way to the target's location if Dredge Line executed them or they negated the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement.\n Dredge Line will not interrupt any movement commands Nautilus was issued pre-cast so long as their directions somewhat correlate (this is intentional to smooth out traveling/escaping).\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shield will block the ability but Nautilus will still dash partway to the target.\n The anchor projectile will stop if Nautilus dies while the projectile is traveling. Enemies hit will still be dealt damage. The <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> drag and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> root are not applied if Nautilus did not initiate the dash.\n Nautilus will attempt to basic attack his target at the end of the dash. This attack will not grant a stack of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Conqueror_rune.png/revision/latest/scale-to-width-down/20?cb=20180314225947\" \t alt=\"Conqueror rune\"  \tclass=\"\" \t \tdata-image-key=\"Conqueror_rune.png\" \tdata-image-name=\"Conqueror rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Conqueror, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0a/Electrocute_rune.png/revision/latest/scale-to-width-down/20?cb=20171126182032\" \t alt=\"Electrocute rune\"  \tclass=\"\" \t \tdata-image-key=\"Electrocute_rune.png\" \tdata-image-name=\"Electrocute rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Electrocute, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/79/Phase_Rush_rune.png/revision/latest/scale-to-width-down/20?cb=20171126182204\" \t alt=\"Phase Rush rune\"  \tclass=\"\" \t \tdata-image-key=\"Phase_Rush_rune.png\" \tdata-image-name=\"Phase Rush rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Phase Rush or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/09/Spellthief%27s_Edge_item.png/revision/latest/scale-to-width-down/20?cb=20191119104344\" \t alt=\"Spellthief&amp;#039;s Edge item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellthief%27s_Edge_item.png\" \tdata-image-name=\"Spellthief&#39;s Edge item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellthief's Edge and sometimes will if used at close range (never granted if Dredge Line is hits an enemy at far range).",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Titan's Wrath",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Titan's Wrath."
+    },
+    "champion": {
+      "value": "Nautilus",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "W",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "175",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "80",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "12",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Titan's Wrath.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Nautilus surrounds himself with dark energies, gaining a shield that blocks incoming damage. While the shield persists, his attacks apply a damage over time effect to enemies around his target.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Nautilus <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields himself for up to 6 seconds.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Shield Strength:45 / 55 / 65 / 75 / 85 (+ 9 / 10 / 11 / 12 / 13% maximum health)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "While the shield holds, his basic attacks deal bonus magic damage over 2 seconds to his target and all enemies around them.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Magic Damage Per Second:»15 / 20 / 25 / 30 / 35 (+ 20% AP)«Total Magic Damage:30 / 40 / 50 / 60 / 70 (+ 40% AP)",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Titan's Wrath <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resets Nautilus'  basic attack timer.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "None",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self, Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Proc",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* The first half of Titan's Wrath's damage is dealt on-hit (so long as the shield remains) while the rest is applied over the next second (regardless of Nautilus'  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> attack speed).\n Nautilus'  basic attacks use different animations while Titan's Wrath is active.\n The damage over time will always apply when this animation plays (even if the shield fades during a basic attack).\n\n Titan's Wrath does not deal bonus damage to structures.\n PENDING FOR TEST: Interaction with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/66/Counter_Strike.png/revision/latest/scale-to-width-down/20?cb=20171223030746\" \t alt=\"Counter Strike\"  \tclass=\"\" \t \tdata-image-key=\"Counter_Strike.png\" \tdata-image-name=\"Counter Strike.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dodge, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5e/Spirit%27s_Refuge.png/revision/latest/scale-to-width-down/20?cb=20170217191016\" \t alt=\"Spirit&amp;#039;s Refuge\"  \tclass=\"\" \t \tdata-image-key=\"Spirit%27s_Refuge.png\" \tdata-image-name=\"Spirit&#39;s Refuge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> block and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/81/Blind_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224954\" \t alt=\"Blind icon\"  \tclass=\"\" \t \tdata-image-key=\"Blind_icon.png\" \tdata-image-name=\"Blind icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blind.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shield will block the ability (but only a single application).",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Riptide",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Riptide."
+    },
+    "champion": {
+      "value": "Nautilus",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "E",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Range_center.png/revision/latest/scale-to-width-down/20?cb=20150616134211\" \t alt=\"Range center\"  \tclass=\"\" \t \tdata-image-key=\"Range_center.png\" \tdata-image-name=\"Range center.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 0 - 350 / 215 - 465 / 350 - 590",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "50 / 60 / 70 / 80 / 90",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "7 / 6.5 / 6 / 5.5 / 5",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Riptide.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Nautilus slams the ground, causing the earth to explode around him in a set of three explosions. Each explosion damages and slows enemies.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Nautilus creates 3 waves of explosions that radiate from him over 0.561 seconds, each dealing magic damage to all enemies hit and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by an amount that decays over 1.5 seconds.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Magic Damage Per Wave:55 / 85 / 115 / 145 / 175 (+ 30% AP)Slow:30 / 35 / 40 / 45 / 50%",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Enemies hit by subsequent waves beyond the first are dealt half damage.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Additional Magic Damage:»27.5 / 42.5 / 57.5 / 72.5 / 87.5 (+ 15% AP)«Total Single-Target Damage:110 / 170 / 230 / 290 / 350 (+ 60% AP)",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "None",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "spellaoe",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "Special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shield will block a single wave.\n Riptide will cast from wherever Nautilus is at the end of the cast time.\n The first wave is centered around Nautilus, while the second and third wave are centered at an offset of 25 units in front of Nautilus at the original cast location.\n Because of this, there are a zone each in which you can be hit by only 1 wave, or all 3 waves, respectively, without moving.\n\n The first wave happens at 0 seconds after the cast time ends, the second wave at 0.297 seconds and the third wave at 0.561 seconds.\n The intended timing may be 0.25 seconds for each delay, however these are the measured, effective times.\n\n The explosions are only a visual effect. The first wave has 8, the seconds has 9, and the third wave has 10 explosions, equally distributed around the rings, starting with one explosion directly in Nautilus' facing direction on each.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Depth Charge",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Depth Charge."
+    },
+    "champion": {
+      "value": "Nautilus",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "R",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "825",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.46",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "100",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "120 / 100 / 80",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Depth Charge.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Nautilus fires a shockwave into the earth that chases an opponent. This shockwave rips up the earth above it, knocking enemies into the air. When it reaches the opponent, the shockwave erupts, knocking his target into the air and stunning them.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Nautilus <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reveals himself before sending out a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d2/Depth_Charge_2.png/revision/latest/scale-to-width-down/20?cb=20170204132812\" \t alt=\"Depth Charge 2\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Depth_Charge_2.png\" \tdata-image-name=\"Depth Charge 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Depth Charge that chases the target enemy champion. Upon reaching the target, the charge erupts from beneath them, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking them up for 1 second as well as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning them for a duration.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Magic Damage:150 / 212.5 / 275 / 337.5 / 400 (+ 80% AP)\nStun Duration:1 / 1.5 / 2",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "Depth Charge 2.png",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "All enemies hit along the way and those within the eruption are dealt reduced damage, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked up for 1 second, and are also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunned.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Secondary Magic Damage:125 / 175 / 225 (+ 40% AP)",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Unit",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "aoe",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "true",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "false",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Enemies a certain distance away from the charge / eruption are instead <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked back.\n If the target dies, becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable, or Nautilus loses <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of them during the cast time, Depth Charge cancels but does not go on cooldown nor expend <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> mana.\n Depth Charge will not stop chasing if the target dies or becomes untargetable.\n\n Depth Charge will accelerate over time to ensure it cannot be outran (only extreme movement speed could potentially make it so).\n If the target <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinks away at a great distance (e.g. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall), the shockwave will stop its chase. There is a range cap.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  }
+]

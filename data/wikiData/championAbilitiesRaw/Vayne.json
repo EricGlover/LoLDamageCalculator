@@ -1,0 +1,1192 @@
+[
+  {
+    "1": {
+      "value": "Night Hunter",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Night Hunter."
+    },
+    "champion": {
+      "value": "Vayne",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "I",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "2000",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Night Hunter.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Vayne ruthlessly hunts evil-doers, gaining 30 movement speed when moving toward nearby enemy champions.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Innate: Vayne gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 30 bonus movement speed when moving towards a nearby <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible enemy champion.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b4/Final_Hour.png/revision/latest/scale-to-width-down/20?cb=20171223035739\" \t alt=\"Final Hour\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Final_Hour.png\" \tdata-image-name=\"Final Hour.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Final Hour: Night Hunter's bonus movement speed is tripled to 90.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Passive",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* The movement speed buff is not lost if Vayne stops moving when near an enemy champion.\n Night Hunter's bonus movement speed persists for 2 seconds after Vayne loses <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of an enemy champion.\n Night Hunter interacts with movement speed modifiers.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Tumble",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Tumble."
+    },
+    "champion": {
+      "value": "Vayne",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "Q",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "300",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "30",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "4 / 3.5 / 3 / 2.5 / 2",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Tumble.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Vayne tumbles, maneuvering to carefully place her next shot. Her next attack critically strikes.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Vayne <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction, though not through terrain, and her next basic attack within 7 seconds deals bonus physical damage.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Bonus Physical Damage:60 / 65 / 70 / 75 / 80% AD",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Tumble <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resets Vayne's basic attack timer.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "physical",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Proc",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* The bonus damage applies <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Life_steal_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Life steal icon\"  \tclass=\"\" \t \tdata-image-key=\"Life_steal_icon.png\" \tdata-image-name=\"Life steal icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> life steal.\n Although Tumble will reset the basic attack timer, Vayne cannot attack until the animation is complete.\n Vayne can cast <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b4/Final_Hour.png/revision/latest/scale-to-width-down/20?cb=20171223035739\" \t alt=\"Final Hour\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Final_Hour.png\" \tdata-image-name=\"Final Hour.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Final Hour during Tumble. She does not become <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d8/Twilight_Shroud_old2.png/revision/latest/scale-to-width-down/20?cb=20180716212930\" \t alt=\"Twilight Shroud old2\"  \tclass=\"\" \t \tdata-image-key=\"Twilight_Shroud_old2.png\" \tdata-image-name=\"Twilight Shroud old2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invisible during the dash.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Silver Bolts",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Silver Bolts."
+    },
+    "champion": {
+      "value": "Vayne",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "W",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Silver Bolts.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Vayne tips her bolts with a rare metal, toxic to evil things. The third consecutive attack or ability against the same target deals a percentage of the target's maximum Health as bonus true damage. (Max: 200 damage vs. Monsters)",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Passive: Vayne's basic attacks and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/66/Condemn.png/revision/latest/scale-to-width-down/20?cb=20171223035713\" \t alt=\"Condemn\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Condemn.png\" \tdata-image-name=\"Condemn.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Condemn apply a stack of Silver Bolts for 3.5 seconds, up to 3 times. Attacking a new enemy removes all stacks from the previous target.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "The third stack consumes them all to deal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c0/Hybrid_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20171001102450\" \t alt=\"Hybrid penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration_icon.png\" \tdata-image-name=\"Hybrid penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus true damage, with a minimum threshold, and capped at 200 against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Bonus True Damage:4 / 6.5 / 9 / 11.5 / 14% of target's maximum healthMinimum True Damage:50 / 65 / 80 / 95 / 110",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Passive",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "true",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Proc",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "False",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Stacks are not removed if Vayne switches to attacking a target immune to Silver Bolts (<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> structures, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f1/Ward_icon.png/revision/latest/scale-to-width-down/20?cb=20180828001331\" \t alt=\"Ward icon\"  \tclass=\"\" \t \tdata-image-key=\"Ward_icon.png\" \tdata-image-name=\"Ward icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> wards).\n Silver Bolts do not apply to additional targets with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f5/Runaan%27s_Hurricane_item.png/revision/latest/scale-to-width-down/20?cb=20171221231511\" \t alt=\"Runaan&amp;#039;s Hurricane item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Runaan%27s_Hurricane_item.png\" \tdata-image-name=\"Runaan&#39;s Hurricane item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Runaan's Hurricane.\n The third attack consumes all stacks even if the target is in <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Condemn",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Condemn."
+    },
+    "champion": {
+      "value": "Vayne",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "E",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/71/Range_model.png/revision/latest/scale-to-width-down/20?cb=20150616134216\" \t alt=\"Range model\"  \tclass=\"\" \t \tdata-image-key=\"Range_model.png\" \tdata-image-name=\"Range model.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 550",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "90",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "20 / 18 / 16 / 14 / 12",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Condemn.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Vayne draws a heavy crossbow from her back, and fires a huge bolt at her target, knocking them back and dealing damage. If they collide with terrain, they are impaled, dealing bonus damage and stunning them.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Vayne fires a heavy bolt at the target enemy, dealing physical damage, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking them back 475 units, and applying a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/12/Silver_Bolts.png/revision/latest/scale-to-width-down/20?cb=20171223035808\" \t alt=\"Silver Bolts\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Silver_Bolts.png\" \tdata-image-name=\"Silver Bolts.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Silver Bolts stack.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Physical Damage:50 / 85 / 120 / 155 / 190 (+ 50% bonus AD)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "If the target collides with terrain, they take <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> bonus physical damage and are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunned for 1.5 seconds.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Bonus Damage:»75 / 127.5 / 180 / 232.5 / 285 (+ 75% bonus AD)«Total Damage:125 / 212.5 / 300 / 387.5 / 475 (+ 125% bonus AD)",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Unit",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "physical",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "spell",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "true",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "True",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Condemn's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement direction is determined at the end of the cast time.\n The spell indicator for this ability also displays the direction for the knock back relative to Vayne's position.\n Condemn's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun duration starts when Vayne's target collides with a wall (they can be immobilized for up to 2 seconds depending on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement duration based on distance traveled).\n Condemn will not always <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> interrupt enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5f/Suppression_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223943\" \t alt=\"Suppression icon\"  \tclass=\"\" \t \tdata-image-key=\"Suppression_icon.png\" \tdata-image-name=\"Suppression icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> suppression on Vayne's allies (sometimes they remain affected even if the enemy champion responsible is displaced as far as outside ability range).*\n Condemn interacts with artificial terrain (<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/28/Crystallize.png/revision/latest/scale-to-width-down/20?cb=20160420184144\" \t alt=\"Crystallize\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crystallize.png\" \tdata-image-name=\"Crystallize.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crystallize, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/21/Emperor%27s_Divide.png/revision/latest/scale-to-width-down/20?cb=20170818001445\" \t alt=\"Emperor&amp;#039;s Divide\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Emperor%27s_Divide.png\" \tdata-image-name=\"Emperor&#39;s Divide.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Emperor's Divide, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4c/Jarvan_IV_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220210\" \t alt=\"Jarvan IV OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Jarvan_IV_OriginalSquare.png\" \tdata-image-name=\"Jarvan IV OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Jarvan IV's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Cataclysm.png/revision/latest/scale-to-width-down/20?cb=20130929122855\" \t alt=\"Cataclysm\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cataclysm.png\" \tdata-image-name=\"Cataclysm.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cataclysm, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/ff/Pillar_of_Ice.png/revision/latest/scale-to-width-down/20?cb=20170818195329\" \t alt=\"Pillar of Ice\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Pillar_of_Ice.png\" \tdata-image-name=\"Pillar of Ice.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Pillar of Ice).",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Final Hour",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Final Hour."
+    },
+    "champion": {
+      "value": "Vayne",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "R",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "80",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "100 / 92.5 / 85 / 77.5 / 70",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Final Hour.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Readying herself for an epic confrontation, Vayne gains increased Attack Damage, Invisibility during Tumble, and triple the bonus Movement Speed from Night Hunter.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Vayne equips her crossbow, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack damage and tripling <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/86/Night_Hunter.png/revision/latest/scale-to-width-down/20?cb=20171223035755\" \t alt=\"Night Hunter\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Night_Hunter.png\" \tdata-image-name=\"Night Hunter.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Night Hunter's bonus for a duration.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Duration:8 / 9 / 10 / 11 / 12\nBonus AD:35 / 42.5 / 50 / 57.5 / 65",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Additionally, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Tumble.png/revision/latest/scale-to-width-down/20?cb=20171223035822\" \t alt=\"Tumble\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tumble.png\" \tdata-image-name=\"Tumble.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tumble gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown reduction, and casting it grants Vayne <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d8/Twilight_Shroud_old2.png/revision/latest/scale-to-width-down/20?cb=20180716212930\" \t alt=\"Twilight Shroud old2\"  \tclass=\"\" \t \tdata-image-key=\"Twilight_Shroud_old2.png\" \tdata-image-name=\"Twilight Shroud old2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invisibility for 1 second. Attacking or casting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/66/Condemn.png/revision/latest/scale-to-width-down/20?cb=20171223035713\" \t alt=\"Condemn\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Condemn.png\" \tdata-image-name=\"Condemn.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Condemn breaks the stealth immediately.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Tumble Cooldown Reduction:30 / 35 / 40 / 45 / 50%",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "While active, whenever an enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion damaged by Vayne dies within 3 seconds, Final Hour's duration is extended by 4 seconds, up to the original duration.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "None",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Vayne's animations and basic attack projectiles change slightly during Final Hour.\n Tumble's visual effects can be seen by enemies upon Vayne becoming invisible.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  }
+]

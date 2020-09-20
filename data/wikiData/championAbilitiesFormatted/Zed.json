@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Contempt for the Weak",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Zed's basic attacks against targets  below 50% of their maximum health deal 6 / 8 / 10% (based on level) of the target's maximum health as bonus magic damage. Against  monsters, the damage is increased by 100%, but is capped at 200 / 350 / 500 (based on level).",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "magic",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Contempt for the Weak.png",
+    "icons": [
+      "Contempt for the Weak.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Zed's basic attacks against targets  below 50% of their maximum health deal 6 / 8 / 10% (based on level) of the target's maximum health as bonus magic damage. Against  monsters, the damage is increased by 100%, but is capped at 200 / 350 / 500 (based on level).",
+      "Contempt for the Weak can only affect the same target once every few seconds."
+    ]
+  },
+  {
+    "name": "Razor Shuriken",
+    "cost": [
+      75,
+      70,
+      65,
+      60,
+      55
+    ],
+    "costType": "energy",
+    "coolDown": [
+      6
+    ],
+    "description": "Active: Zed and his  Shadows throw their spinning blades toward the target location. Each blade deals physical damage to all enemies struck, reduced to 60% against units beyond the first.",
+    "leveling": "Physical Damage:»80 / 115 / 150 / 185 / 220 (+ 100% bonus AD)«Secondary Damage:48 / 69 / 90 / 111 / 132 (+ 60% bonus AD)",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "True",
+    "flatDamage": [
+      80,
+      115,
+      150,
+      185,
+      220
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Razor Shuriken.png",
+    "icons": [
+      "Razor Shuriken.png"
+    ],
+    "levelings": [
+      "Physical Damage:»80 / 115 / 150 / 185 / 220 (+ 100% bonus AD)«Secondary Damage:48 / 69 / 90 / 111 / 132 (+ 60% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Zed and his  Shadows throw their spinning blades toward the target location. Each blade deals physical damage to all enemies struck, reduced to 60% against units beyond the first."
+    ]
+  },
+  {
+    "name": "Living Shadow",
+    "cost": [
+      40,
+      35,
+      30,
+      25,
+      20
+    ],
+    "costType": "energy",
+    "coolDown": [
+      20,
+      18,
+      17,
+      15,
+      14
+    ],
+    "description": "Passive: Zed restores  energy whenever a  Shadow lands a mimicked ability on the same target he does. This may only happen once per cast ability.",
+    "leveling": "Energy Restored:30 / 35 / 40 / 45 / 50",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "false",
+    "icons": [
+      "false",
+      "Living Shadow.png",
+      "Living Shadow 2.png"
+    ],
+    "levelings": [
+      "Energy Restored:30 / 35 / 40 / 45 / 50"
+    ],
+    "descriptions": [
+      "Passive: Zed restores  energy whenever a  Shadow lands a mimicked ability on the same target he does. This may only happen once per cast ability.",
+      "Active: Zed's  Shadow dashes in the target direction, remaining in place for 5 seconds and being able to mimic  Razor Shuriken and  Shadow Slash while in range of each other. If an ability is cast while the  Shadow is dashing, the  Shadow will cast the ability at the moment of its appearance. Living Shadow can be recast at no delay for the duration. If recast while the  Shadow is dashing, the recast will be buffered.",
+      "Recast: While in range of each other, Zed and his  Shadow  blink to their respective locations, swapping places.",
+      "If Living Shadow is recast during  Razor Shuriken, Zed will instantly release the shuriken from his original position while still remaining in cast time, and the Shadow will release the shuriken based on Zed's remaining cast time.*",
+      "The Shadow will cast  Shadow Slash independently of being in  Razor Shuriken's cast time or not.*"
+    ]
+  },
+  {
+    "name": "Shadow Slash",
+    "cost": [
+      50
+    ],
+    "costType": "energy",
+    "coolDown": [
+      5,
+      4,
+      4,
+      3,
+      3
+    ],
+    "description": "Active: Zed and his  Shadows slash, dealing physical damage to enemies surrounding them.",
+    "leveling": "Physical Damage:70 / 95 / 120 / 145 / 170 (+ 80% bonus AD)",
+    "skill": "E",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      70,
+      95,
+      120,
+      145,
+      170
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Shadow Slash.png",
+    "icons": [
+      "Shadow Slash.png"
+    ],
+    "levelings": [
+      "Physical Damage:70 / 95 / 120 / 145 / 170 (+ 80% bonus AD)",
+      "Slow:»20 / 25 / 30 / 35 / 40%«Enhanced Slow:30 / 37.5 / 45 / 52.5 / 60%"
+    ],
+    "descriptions": [
+      "Active: Zed and his  Shadows slash, dealing physical damage to enemies surrounding them.",
+      "Enemies hit by the slash of a  Shadow are  slowed for 1.5 seconds. Enemies hit by multiple slashes take no additional damage but the slow's potency is increased by 50%.",
+      "Each enemy  champion hit by Zed's slash reduces  Living Shadow's  cooldown by 2 seconds."
+    ]
+  },
+  {
+    "name": "Death Mark",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      120,
+      90,
+      60
+    ],
+    "description": "Active: Zed becomes  untargetable and, after 0.6 seconds, he  dashes through the target enemy  champion over 0.4 seconds, after which he marks them, gains  ghosting for 3 seconds, and becomes targetable again. Zed also spawns a  Shadow of himself at his casting position upon Death Mark's activation which lasts for 7.5 seconds and is able to mimic  Razor Shuriken and  Shadow Slash while in range of Zed. Death Mark can be recast after 0.5 seconds of his reappearance.",
+    "leveling": "Physical Damage:100% AD (+ 25 / 40 / 55% of damage dealt)",
+    "skill": "R",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      100,
+      25,
+      40,
+      55
+    ],
+    "ratios": [
+      {
+        "value": 25,
+        "type": "bonus ad"
+      },
+      {
+        "value": 40,
+        "type": "bonus ad"
+      },
+      {
+        "value": 55,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Death Mark.png",
+    "icons": [
+      "Death Mark.png",
+      "Death Mark 2.png"
+    ],
+    "levelings": [
+      "Physical Damage:100% AD (+ 25 / 40 / 55% of damage dealt)"
+    ],
+    "descriptions": [
+      "Active: Zed becomes  untargetable and, after 0.6 seconds, he  dashes through the target enemy  champion over 0.4 seconds, after which he marks them, gains  ghosting for 3 seconds, and becomes targetable again. Zed also spawns a  Shadow of himself at his casting position upon Death Mark's activation which lasts for 7.5 seconds and is able to mimic  Razor Shuriken and  Shadow Slash while in range of Zed. Death Mark can be recast after 0.5 seconds of his reappearance.",
+      "For the next 3 seconds, Zed stores a percentage of all pre-mitigation physical damage and magic damage he and his  Shadows deal to the marked target, detonating at the end of the duration to deal physical damage.",
+      "Recast: Regardless of the distance between each other, Zed and the Death Mark  Shadow  blink to their respective locations, swapping places.",
+      "If the target dies or is 1950 or more units away before the dash begins, Death Mark is canceled, goes on a 5 second  cooldown, and Zed reappears at the cast location."
+    ]
+  }
+]

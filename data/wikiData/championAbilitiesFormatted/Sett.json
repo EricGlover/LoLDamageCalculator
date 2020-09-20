@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Pit Grit",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate - Heavy Hands: Sett's basic attacks alternate between a Left Punch and a Right Punch on-attack. Sett begins attacking with a Left Punch, and will reset back to it after 2 seconds of not performing a Right Punch.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "physical",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Pit Grit.png",
+    "icons": [
+      "Pit Grit.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate - Heavy Hands: Sett's basic attacks alternate between a Left Punch and a Right Punch on-attack. Sett begins attacking with a Left Punch, and will reset back to it after 2 seconds of not performing a Right Punch.",
+      "Sett's Right Punch gains  50 bonus range, attacks at 8 times the Left Punch's attack speed, and deals 5 − 90 (based on level) (+ 50% bonus AD) bonus physical damage.",
+      "Innate - Heart of the Half-Beast: Sett regenerates 0.25 / 0.5 / 1 / 2 (based on level) health per second for every 5% of his  missing health."
+    ]
+  },
+  {
+    "name": "Knuckle Down",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      9,
+      8,
+      7,
+      6,
+      5
+    ],
+    "description": "Active: Sett gains Looking for a Fight for 1.5 seconds and empowers his next two basic attacks within 5 seconds to deal bonus physical damage. The empowered attacks are guaranteed to be a Left Punch followed by a Right Punch, resetting his current  Pit Grit state (if applicable) and ignoring the usual time-out period for a follow-up Right Punch.",
+    "leveling": "Bonus Physical Damage:»10 / 20 / 30 / 40 / 50 (+ 1% (+ 1 / 1.5 / 2 / 2.5 / 3% per 100 AD) of target's maximum health)«Total Bonus Damage:20 / 40 / 60 / 80 / 100 (+ 2% (+ 2 / 3 / 4 / 5 / 6% per 100 AD) of target's maximum health)",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "ratios": [
+      {
+        "value": 1,
+        "type": "bonus ad"
+      },
+      {
+        "value": 1,
+        "type": "bonus ad"
+      },
+      {
+        "value": 1.5,
+        "type": "bonus ad"
+      },
+      {
+        "value": 2,
+        "type": "bonus ad"
+      },
+      {
+        "value": 2.5,
+        "type": "bonus ad"
+      },
+      {
+        "value": 3,
+        "type": "bonus ad"
+      },
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Knuckle Down.png",
+    "icons": [
+      "Knuckle Down.png",
+      "Looking for a Fight.png"
+    ],
+    "levelings": [
+      "Bonus Physical Damage:»10 / 20 / 30 / 40 / 50 (+ 1% (+ 1 / 1.5 / 2 / 2.5 / 3% per 100 AD) of target's maximum health)«Total Bonus Damage:20 / 40 / 60 / 80 / 100 (+ 2% (+ 2 / 3 / 4 / 5 / 6% per 100 AD) of target's maximum health)"
+    ],
+    "descriptions": [
+      "Active: Sett gains Looking for a Fight for 1.5 seconds and empowers his next two basic attacks within 5 seconds to deal bonus physical damage. The empowered attacks are guaranteed to be a Left Punch followed by a Right Punch, resetting his current  Pit Grit state (if applicable) and ignoring the usual time-out period for a follow-up Right Punch.",
+      "Activation will  reset Sett's basic attack timer.",
+      "Looking for a Fight: Sett gains  30% bonus movement speed when he moves towards a  visible enemy champion within 2000 units."
+    ]
+  },
+  {
+    "name": "Haymaker",
+    "cost": [
+      100
+    ],
+    "costType": "Current Grit",
+    "coolDown": [
+      18,
+      16,
+      15,
+      13,
+      12
+    ],
+    "description": "Passive: Sett stores 100% of post-mitigation damage taken as Grit on his secondary resource bar, up to 50% of his  maximum health. Each instance of stored Grit decays by 30% every second after 4 seconds.",
+    "leveling": "Physical / True Damage:80 / 100 / 120 / 140 / 160 (+ 25% (+ 10% per 100 bonus AD) of expended Grit)",
+    "skill": "W",
+    "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical damage / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Hybrid_penetration.png/revision/latest/scale-to-width-down/20?cb=20170514081634\" \t alt=\"Hybrid penetration\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration.png\" \tdata-image-name=\"Hybrid penetration.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> True damage",
+    "isProjectile": "false",
+    "flatDamage": [
+      80,
+      100,
+      120,
+      140,
+      160
+    ],
+    "ratios": [
+      {
+        "value": 25,
+        "type": "bonus ad"
+      },
+      {
+        "value": 10,
+        "type": "bonus ad"
+      },
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.75,
+    "icon": "Haymaker.png",
+    "icons": [
+      "Haymaker.png"
+    ],
+    "levelings": [
+      "Physical / True Damage:80 / 100 / 120 / 140 / 160 (+ 25% (+ 10% per 100 bonus AD) of expended Grit)"
+    ],
+    "descriptions": [
+      "Passive: Sett stores 100% of post-mitigation damage taken as Grit on his secondary resource bar, up to 50% of his  maximum health. Each instance of stored Grit decays by 30% every second after 4 seconds.",
+      "Active: Sett blasts the area in the target direction, dealing physical damage to enemies hit. Enemies hit through the center take  true damage instead.",
+      "Sett also gains a rapidly decaying  shield for 3 seconds equal to the Grit expended."
+    ]
+  },
+  {
+    "name": "Facebreaker",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      16,
+      14,
+      13,
+      11,
+      10
+    ],
+    "description": "Active: Sett  pulls in enemies at his front and back in the target direction, dealing them physical damage and  slowing them by 50% for 0.5 seconds.",
+    "leveling": "Physical Damage:50 / 70 / 90 / 110 / 130 (+ 60% AD)",
+    "skill": "E",
+    "damageType": "Physical",
+    "isProjectile": "False",
+    "flatDamage": [
+      50,
+      70,
+      90,
+      110,
+      130
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.3,
+    "icon": "Facebreaker.png",
+    "icons": [
+      "Facebreaker.png"
+    ],
+    "levelings": [
+      "Physical Damage:50 / 70 / 90 / 110 / 130 (+ 60% AD)"
+    ],
+    "descriptions": [
+      "Active: Sett  pulls in enemies at his front and back in the target direction, dealing them physical damage and  slowing them by 50% for 0.5 seconds.",
+      "If Facebreaker affects at least one enemy on each side, all enemies are  stunned for 1 second upon landing."
+    ]
+  },
+  {
+    "name": "The Show Stopper",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      120,
+      110,
+      100,
+      90,
+      80
+    ],
+    "description": "Active: Sett  suppresses the target enemy  champion and  dashes with  displacement immunity a fixed distance toward and past them,  attaching the target to him when he reaches them and carrying them for 1.5 seconds before slamming them into the ground.",
+    "leveling": "Physical Damage:»200 / 250 / 300 / 350 / 400 (+ 100% bonus AD) (+ 40 / 45 / 50 / 55 / 60% of primary target's bonus health)«Minimum Physical Damage:120 / 150 / 180 / 210 / 240 (+ 60% bonus AD) (+ 24 / 27 / 30 / 33 / 36% of primary target's bonus health)",
+    "skill": "R",
+    "damageType": "physical",
+    "isProjectile": "",
+    "flatDamage": [
+      200,
+      250,
+      300,
+      350,
+      400
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "The Show Stopper.png",
+    "icons": [
+      "The Show Stopper.png"
+    ],
+    "levelings": [
+      "Physical Damage:»200 / 250 / 300 / 350 / 400 (+ 100% bonus AD) (+ 40 / 45 / 50 / 55 / 60% of primary target's bonus health)«Minimum Physical Damage:120 / 150 / 180 / 210 / 240 (+ 60% bonus AD) (+ 24 / 27 / 30 / 33 / 36% of primary target's bonus health)"
+    ],
+    "descriptions": [
+      "Active: Sett  suppresses the target enemy  champion and  dashes with  displacement immunity a fixed distance toward and past them,  attaching the target to him when he reaches them and carrying them for 1.5 seconds before slamming them into the ground.",
+      "Enemies within the impact area take physical damage, reduced by up to 40% at the edge, and are  slowed by 99% for 1 second.",
+      "The dash will prematurely end upon reaching a wall that cannot be dashed through."
+    ]
+  }
+]

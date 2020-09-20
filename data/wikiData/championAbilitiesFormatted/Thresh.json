@@ -1,0 +1,237 @@
+[
+  {
+    "name": "Damnation",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Enemy  champions, large  minions and large  monsters that die near Thresh drop a Soul for 8 seconds. Epic monsters drop 2 Souls instead. Small minions and lesser monsters have a 33.33% chance to drop a Soul.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Damnation.png",
+    "icons": [
+      "Damnation.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Enemy  champions, large  minions and large  monsters that die near Thresh drop a Soul for 8 seconds. Epic monsters drop 2 Souls instead. Small minions and lesser monsters have a 33.33% chance to drop a Soul.",
+      "Thresh autonomously collects Souls near him or a placed  Dark Passage.",
+      "Each collected Soul grants Thresh  0.75 ability power and  0.75 bonus armor."
+    ]
+  },
+  {
+    "name": "Death Sentence",
+    "cost": [
+      70
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "description": "Active: Thresh throws out his scythe in the target direction, becoming unable to move or attack while it is in flight.",
+    "leveling": "Magic Damage:80 / 120 / 160 / 200 / 240 (+ 50% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      80,
+      120,
+      160,
+      200,
+      240
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.5,
+    "icon": "Death Sentence.png",
+    "icons": [
+      "Death Sentence.png",
+      "Deathly Leap.png"
+    ],
+    "levelings": [
+      "Magic Damage:80 / 120 / 160 / 200 / 240 (+ 50% AP)"
+    ],
+    "descriptions": [
+      "Active: Thresh throws out his scythe in the target direction, becoming unable to move or attack while it is in flight.",
+      "The scythe stops with the first enemy it hits, dealing magic damage,  revealing them, and  stunning them for 1.5 seconds while also forming a  tether between Thresh and them for the duration. Hitting an enemy reduces Death Sentence's  cooldown by 3 seconds and  slows Thresh by 20% for 1 second.",
+      "While the tether persists, Thresh is unable to declare basic attacks and periodically tugs at his scythe's chain,  pulling the target a short distance towards himself. After 0.5 seconds of hitting an enemy or instantly after hitting a  minion or  monster, Thresh can recast the ability to cast Deathly Leap, doing so will cause him to stop tugging.",
+      "Recast: Thresh  dashes to the tethered enemy, becoming able to attack again upon arrival. Thresh can cast any of his abilities while in flight with the exception of  The Box."
+    ]
+  },
+  {
+    "name": "Dark Passage",
+    "cost": [
+      50,
+      55,
+      60,
+      65,
+      70
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      22,
+      20,
+      19,
+      17,
+      16
+    ],
+    "description": "Active: Thresh throws his lantern to the target location which lands after 0.5 seconds, lasting for 6 seconds or until he moves too far away from it,  revealing its surroundings.",
+    "leveling": "Shield Strength:60 / 100 / 140 / 180 / 220 (+ 1 per <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Damnation.png/revision/latest/scale-to-width-down/20?cb=20130929123335\" \t alt=\"Damnation\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Damnation.png\" \tdata-image-name=\"Damnation.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Soul collected)",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "True",
+    "flatDamage": [
+      60,
+      100,
+      140,
+      180,
+      220
+    ],
+    "ratios": [
+      {
+        "value": 1,
+        "type": "bonus ad"
+      },
+      {
+        "value": 8,
+        "type": "bonus ad"
+      },
+      {
+        "value": 8,
+        "type": "bonus ad"
+      },
+      {
+        "value": 20,
+        "type": "bonus ad"
+      },
+      {
+        "value": 20130929123335,
+        "type": "bonus ad"
+      },
+      {
+        "value": 20,
+        "type": "bonus ad"
+      },
+      {
+        "value": 20,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Dark Passage.png",
+    "icons": [
+      "Dark Passage.png"
+    ],
+    "levelings": [
+      "Shield Strength:60 / 100 / 140 / 180 / 220 (+ 1 per  Soul collected)"
+    ],
+    "descriptions": [
+      "Active: Thresh throws his lantern to the target location which lands after 0.5 seconds, lasting for 6 seconds or until he moves too far away from it,  revealing its surroundings.",
+      "Thresh and the first allied champion to come near the lantern are granted a  shield for 4 seconds. An ally can select the lantern while in proximity of it,  dashing to Thresh's current location and gaining the shield.",
+      "An ally cannot select the lantern while  silenced,  grounded or  immobilized."
+    ]
+  },
+  {
+    "name": "Flay",
+    "cost": [
+      60,
+      65,
+      70,
+      75,
+      80
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      9
+    ],
+    "description": "Passive: Thresh's basic attacks deal bonus magic damage, with the  AD ratio increasing based on the time spent not basic attacking enemies, up to 10 seconds.",
+    "leveling": "Minimum Bonus Magic Damage:»1 per <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Damnation.png/revision/latest/scale-to-width-down/20?cb=20130929123335\" \t alt=\"Damnation\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Damnation.png\" \tdata-image-name=\"Damnation.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Soul collected (+ 0% AD)«Maximum Bonus Magic Damage:1 per <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Damnation.png/revision/latest/scale-to-width-down/20?cb=20130929123335\" \t alt=\"Damnation\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Damnation.png\" \tdata-image-name=\"Damnation.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Soul collected (+ 100 / 125 / 150 / 175 / 200% AD)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      1,
+      8,
+      8,
+      20,
+      20130929123335
+    ],
+    "ratios": [
+      {
+        "value": 0,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.3889,
+    "icon": "Flay.gif",
+    "icons": [
+      "Flay.gif",
+      "Flay.png"
+    ],
+    "levelings": [
+      "Minimum Bonus Magic Damage:»1 per  Soul collected (+ 0% AD)«Maximum Bonus Magic Damage:1 per  Soul collected (+ 100 / 125 / 150 / 175 / 200% AD)",
+      "Magic Damage:65 / 95 / 125 / 155 / 185 (+ 40% AP)Slow:20 / 25 / 30 / 35 / 40%"
+    ],
+    "descriptions": [
+      "Passive: Thresh's basic attacks deal bonus magic damage, with the  AD ratio increasing based on the time spent not basic attacking enemies, up to 10 seconds.",
+      "Active: Thresh sweeps his chain around him and in a broad line towards the target direction, dealing magic damage to enemies hit,  knocking them in the chain's direction, and afterwards  slowing them for 1 second."
+    ]
+  },
+  {
+    "name": "The Box",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      140,
+      120,
+      100
+    ],
+    "description": "Active: Thresh surrounds himself with a pentagon of spectral walls, each one lasting for up to 5 seconds. Walls break upon contact with an enemy champion, dealing magic damage to the target and  slowing them by 99% for 2 seconds.",
+    "leveling": "Magic Damage:250 / 400 / 550 (+ 100% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      250,
+      400,
+      550,
+      100
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.45,
+    "icon": "The Box.png",
+    "icons": [
+      "The Box.png"
+    ],
+    "levelings": [
+      "Magic Damage:250 / 400 / 550 (+ 100% AP)"
+    ],
+    "descriptions": [
+      "Active: Thresh surrounds himself with a pentagon of spectral walls, each one lasting for up to 5 seconds. Walls break upon contact with an enemy champion, dealing magic damage to the target and  slowing them by 99% for 2 seconds.",
+      "Enemy champions hitting any wall beyond the first take no damage and are  slowed for only 1 second."
+    ]
+  }
+]

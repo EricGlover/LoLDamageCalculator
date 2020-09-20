@@ -1,0 +1,1192 @@
+[
+  {
+    "1": {
+      "value": "Petricite Burst",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Petricite Burst."
+    },
+    "champion": {
+      "value": "Sylas",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "I",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "300",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Petricite Burst.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Innate: Casting an ability grants an Unshackled stack for 4 seconds, with the duration refreshing on subsequent ability uses. Sylas can have up to three Unshackled stacks at a time. While Sylas has stacks of Unshackled, he gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 80% bonus attack speed.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Unshackled: Sylas' next basic attack is modified to whirl his chains around him, becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Excessive_Force_2.png/revision/latest/scale-to-width-down/20?cb=20160608034953\" \t alt=\"Excessive Force 2\"  \tclass=\"\" \t \tdata-image-key=\"Excessive_Force_2.png\" \tdata-image-name=\"Excessive Force 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unstoppable, dealing 130% AD (+ 25% AP) magic damage to his primary target and 40% AD (+ 20% AP) magic damage to nearby secondary targets and consuming an Unshackled stack.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Damage to secondary targets executes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions below 25 health.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "The empowered attack applies on-hit effects to the primary target but disables Sylas' <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critical strikes' bonus damage. Spell effects only apply when there are secondary targets.*",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Passive",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "aoe",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "False",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c6/Sheen_item.png/revision/latest/scale-to-width-down/20?cb=20171221232042\" \t alt=\"Sheen item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sheen_item.png\" \tdata-image-name=\"Sheen item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellblade damage will get converted to magic damage but will deal its damage only to the primary target.\n Hitting a target multiple times with Petricite Burst will not add additional stacks of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0a/Electrocute_rune.png/revision/latest/scale-to-width-down/20?cb=20171126182032\" \t alt=\"Electrocute rune\"  \tclass=\"\" \t \tdata-image-key=\"Electrocute_rune.png\" \tdata-image-name=\"Electrocute rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Electrocute or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/79/Phase_Rush_rune.png/revision/latest/scale-to-width-down/20?cb=20171126182204\" \t alt=\"Phase Rush rune\"  \tclass=\"\" \t \tdata-image-key=\"Phase_Rush_rune.png\" \tdata-image-name=\"Phase Rush rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Phase Rush.\n Petricite Burst does not add stacks of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Press_the_Attack_rune.png/revision/latest/scale-to-width-down/20?cb=20171126181645\" \t alt=\"Press the Attack rune\"  \tclass=\"\" \t \tdata-image-key=\"Press_the_Attack_rune.png\" \tdata-image-name=\"Press the Attack rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Press the Attack to the target.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "Sylas - Passive",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Chain Lash",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Chain Lash."
+    },
+    "champion": {
+      "value": "Sylas",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "Q",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "775",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "180 / 200",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.4",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "50 / 55 / 60 / 65 / 70",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "10 / 9 / 8 / 7 / 6",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Chain Lash.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Sylas lashes out two lines that converge to the target location and extend beyond it up to a maximum range, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing enemies hit for 1.5 seconds.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Magic Damage:40 / 60 / 80 / 100 / 120 (+ 40% AP)\nSlow:15 / 20 / 25 / 30 / 35%",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "After a 0.6-second delay, the chains' intersection detonates, dealing magic damage to enemies within. Against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters the detonation deals 60% reduced damage.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Detonation Damage:»60 / 115 / 170 / 225 / 280 (+ 80% AP)«Non-Champion Detonation Damage:24 / 46 / 68 / 90 / 112 (+ 32% AP)\nMaximum Champion Damage:»100 / 175 / 250 / 325 / 400 (+ 120% AP)«Maximum Non-Champion Damage:64 / 106 / 148 / 190 / 232 (+ 72% AP)",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction / Ground",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "spellaoe",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "False",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Chain Lash is always cast from the original casting position.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "Sylas - Q",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Kingslayer",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Kingslayer."
+    },
+    "champion": {
+      "value": "Sylas",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "W",
+      "description": "skill"
+    },
+    "range": {
+      "value": "400",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "70 / 80 / 90 / 100 / 110",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "13 / 11.5 / 10 / 8.5 / 7",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Kingslayer.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Sylas <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rushes at the target enemy with a powerful strike, dealing magic damage.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Magic Damage:65 / 100 / 135 / 170 / 205 (+ 85% AP)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "If Kingslayer damaged an enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion, Sylas is also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healed, increased by 0% − 100% (based on Sylas' missing health).",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Heal:»30 / 60 / 90 / 120 / 150 (+ 50% AP)«Maximum Heal:60 / 120 / 180 / 240 / 300 (+ 100% AP)",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Unit",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Single target",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "True",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "true",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Kingslayer is able to make allied <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/12/Illaoi_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20151111024020\" \t alt=\"Illaoi OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Illaoi_OriginalSquare.png\" \tdata-image-name=\"Illaoi OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Illaoi <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/87/Prophet_of_an_Elder_God.png/revision/latest/scale-to-width-down/20?cb=20171221041357\" \t alt=\"Prophet of an Elder God\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Prophet_of_an_Elder_God.png\" \tdata-image-name=\"Prophet of an Elder God.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tentacles slam (including those spawned by a hijacked <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Leap_of_Faith.png/revision/latest/scale-to-width-down/20?cb=20171221041252\" \t alt=\"Leap of Faith\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Leap_of_Faith.png\" \tdata-image-name=\"Leap of Faith.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Leap of Faith).\n The tentacle attacks will regenerate Sylas's health and give him the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/10/Gold.png/revision/latest/scale-to-width-down/20?cb=20181122055358\" \t alt=\"Gold\"  \tclass=\"\" \t \tdata-image-key=\"Gold.png\" \tdata-image-name=\"Gold.png\" \t \t width=\"20\"  \t height=\"15\"  \t \t \t \t> Gold for its kills.\n Kingslayer is unable to queue up tentacle attacks (commanding them to attack while they're already attacking will not make them attack a second time).",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "Sylas - W",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Abscond",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Abscond."
+    },
+    "champion": {
+      "value": "Sylas",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "E",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "400",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "65",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "14 / 13 / 12 / 11 / 10",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Abscond.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Sylas <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "For the next 3.5 seconds, Sylas may cast <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ec/Abduct.png/revision/latest/scale-to-width-down/20?cb=20190109233625\" \t alt=\"Abduct\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Abduct.png\" \tdata-image-name=\"Abduct.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Abduct after a 0.2-second delay from casting Abscond.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* No additional details.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "Sylas - E",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Hijack",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Hijack."
+    },
+    "champion": {
+      "value": "Sylas",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "R",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "950",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "75",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "100 / 85 / 70 / 55 / 40",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "On-Target Cooldown",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "200% of target's ultimate cooldown",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Hijack.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Sylas launches his chains towards the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion to gain a copy of their ultimate ability. Sylas cannot select the same champion again for a set duration, and can hold the hijacked ultimate for 90 seconds, during which he can recast Hijack.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Recast: Sylas can cast his hijacked ultimate ability at no cost, scaling based on Hijack's rank and his own statistics.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "All Hijacked ultimates and abilities that do not scale with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0a/Ability_power_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203441\" \t alt=\"Ability power icon\"  \tclass=\"\" \t \tdata-image-key=\"Ability_power_icon.png\" \tdata-image-name=\"Ability power icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> ability power have their <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> attack damage ratios converted to ability power ratios, scaling with 0.6% AP per 1% total AD, and 0.4% AP per 1% bonus AD respectively.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Unit",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self, Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "True",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* If Sylas casts Hijack on a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Command_Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20170204131432\" \t alt=\"Command Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Command_Hallucinate.png\" \tdata-image-name=\"Command Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> clone, no ultimate is stolen and the ability will be placed on full cooldown.\n This does not occur with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Sion_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402221054\" \t alt=\"Sion OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sion_OriginalSquare.png\" \tdata-image-name=\"Sion OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sion's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Glory_in_Death.png/revision/latest/scale-to-width-down/20?cb=20170818194247\" \t alt=\"Glory in Death\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Glory_in_Death.png\" \tdata-image-name=\"Glory in Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Glory in Death, since he is a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Omen_of_Death.png/revision/latest/scale-to-width-down/20?cb=20130929123503\" \t alt=\"Omen of Death\"  \tclass=\"\" \t \tdata-image-key=\"Omen_of_Death.png\" \tdata-image-name=\"Omen of Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> zombie instead.\n\n If the target <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dies, becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable, or Sylas loses <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of them during Hijack's cast time, the ability cancels and does not go on cooldown or expend <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> mana.\n If the same happens when casting an on-target stolen ability, the ability will instead cancel and go on cooldown.\n\n Since the copied ability scales based on Hijack's rank, abilities can be copied regardless of their rank.\n Hijack will copy all components of the ability: their passives and actives as well as recast effects. Hijack will not trigger the effects of other abilities unless absolutely necessary. \n Shape-shifting ultimates will transform Sylas into the target's alternate form, replacing his basic abilities and base stats. Namely: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/21/Aspect_of_the_Cougar.png/revision/latest/scale-to-width-down/20?cb=20160608032916\" \t alt=\"Aspect of the Cougar\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Aspect_of_the_Cougar.png\" \tdata-image-name=\"Aspect of the Cougar.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cougar Form, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/Spider_Form.png/revision/latest/scale-to-width-down/20?cb=20130929122749\" \t alt=\"Spider Form\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spider_Form.png\" \tdata-image-name=\"Spider Form.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spider Form, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/44/Transform_Mercury_Cannon.png/revision/latest/scale-to-width-down/20?cb=20170818005356\" \t alt=\"Transform Mercury Cannon\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Transform_Mercury_Cannon.png\" \tdata-image-name=\"Transform Mercury Cannon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cannon Form and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/50/Dragon%27s_Descent.png/revision/latest/scale-to-width-down/20?cb=20130929123243\" \t alt=\"Dragon&amp;#039;s Descent\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dragon%27s_Descent.png\" \tdata-image-name=\"Dragon&#39;s Descent.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dragon Form.\n Dragon's Descent refreshes Sylas's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d2/Mana_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230506\" \t alt=\"Mana resource\"  \tclass=\"\" \t \tdata-image-key=\"Mana_resource.png\" \tdata-image-name=\"Mana resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> mana, depleting it and regenerating it at the same rate Shyvana's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> fury would. Other sources of mana restoration will extend the duration as well. At the end of the effect, Sylas gains his previous mana. \n Permanent transformations last for ~5 minutes or until toggled off. \n The alternate abilities of transforming champions will cost mana and scale with the ranks as appropriate for the ability (e.g. ranks in R for Nidalee and ranks in Q/W/E for Jayce/Elise).\n Upon transforming, a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/fc/Petricite_Burst.png/revision/latest/scale-to-width-down/20?cb=20190109233838\" \t alt=\"Petricite Burst\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Petricite_Burst.png\" \tdata-image-name=\"Petricite Burst.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Petricite Burst stack will be deducted.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/fc/Petricite_Burst.png/revision/latest/scale-to-width-down/20?cb=20190109233838\" \t alt=\"Petricite Burst\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Petricite_Burst.png\" \tdata-image-name=\"Petricite Burst.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Petricite Burst stacks will still be gained from abilities cast in alternate forms, but the stacks are gained independently from the normal ones.\n If Sylas has both normal and transformed stacks, Petricite Burst will prioritize consuming Sylas stacks before the transformed ones.\n\n\n Ultimates comply with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Mirror_Mode_profileicon.png/revision/latest/scale-to-width-down/20?cb=20170517181936\" \t alt=\"Mirror Mode profileicon\"  \tclass=\"\" \t \tdata-image-key=\"Mirror_Mode_profileicon.png\" \tdata-image-name=\"Mirror Mode profileicon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> One for All rules if an ally is playing the hijacked champion. For example, an allied <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/59/Darius_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160412191052\" \t alt=\"Darius OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Darius_OriginalSquare.png\" \tdata-image-name=\"Darius OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Darius' <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8f/Hemorrhage.png/revision/latest/scale-to-width-down/20?cb=20191111171216\" \t alt=\"Hemorrhage\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hemorrhage.png\" \tdata-image-name=\"Hemorrhage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hemorrhage stacks will increase the damage of the hijacked <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3b/Noxian_Guillotine.png/revision/latest/scale-to-width-down/20?cb=20130929122730\" \t alt=\"Noxian Guillotine\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Noxian_Guillotine.png\" \tdata-image-name=\"Noxian Guillotine.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Noxian Guillotine; or an allied <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/de/Syndra_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160526213755\" \t alt=\"Syndra OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Syndra_OriginalSquare.png\" \tdata-image-name=\"Syndra OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Syndra's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Dark_Sphere.png/revision/latest/scale-to-width-down/20?cb=20130929123317\" \t alt=\"Dark Sphere\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dark_Sphere.png\" \tdata-image-name=\"Dark Sphere.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dark Sphere will add extra damage to hijacked <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1d/Unleashed_Power.png/revision/latest/scale-to-width-down/20?cb=20130929123322\" \t alt=\"Unleashed Power\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Unleashed_Power.png\" \tdata-image-name=\"Unleashed Power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Unleashed Power as well as producing 3 spheres that she can use.\n\nInteractions\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/40/Amumu_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402215322\" \t alt=\"Amumu OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Amumu_OriginalSquare.png\" \tdata-image-name=\"Amumu OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Amumu's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/72/Curse_of_the_Sad_Mummy.png/revision/latest/scale-to-width-down/20?cb=20171130205438\" \t alt=\"Curse of the Sad Mummy\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Curse_of_the_Sad_Mummy.png\" \tdata-image-name=\"Curse of the Sad Mummy.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Curse of the Sad Mummy - Does not apply <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7b/Cursed_Touch.png/revision/latest/scale-to-width-down/20?cb=20171130205205\" \t alt=\"Cursed Touch\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cursed_Touch.png\" \tdata-image-name=\"Cursed Touch.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cursed Touch.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Aphelios_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20200304070938\" \t alt=\"Aphelios OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Aphelios_OriginalSquare.png\" \tdata-image-name=\"Aphelios OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Aphelios' <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Moonlight_Vigil.png/revision/latest/scale-to-width-down/20?cb=20191213190035\" \t alt=\"Moonlight Vigil\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Moonlight_Vigil.png\" \tdata-image-name=\"Moonlight Vigil.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Moonlight Vigil - Based on the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ec/The_Hitman_and_the_Seer.png/revision/latest/scale-to-width-down/20?cb=20191213190143\" \t alt=\"The Hitman and the Seer\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"The_Hitman_and_the_Seer.png\" \tdata-image-name=\"The Hitman and the Seer.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> main weapon at the moment of steal. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/96/Crescendum.png/revision/latest/scale-to-width-down/20?cb=20191213185918\" \t alt=\"Crescendum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crescendum.png\" \tdata-image-name=\"Crescendum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crescendum empowers his basic attacks temporarily.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Calibrum.png/revision/latest/scale-to-width-down/20?cb=20191213185839\" \t alt=\"Calibrum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Calibrum.png\" \tdata-image-name=\"Calibrum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Calibrum does not apply marks.\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9a/Brand_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402215533\" \t alt=\"Brand OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Brand_OriginalSquare.png\" \tdata-image-name=\"Brand OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Brand's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cd/Pyroclasm.png/revision/latest/scale-to-width-down/20?cb=20160419193002\" \t alt=\"Pyroclasm\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Pyroclasm.png\" \tdata-image-name=\"Pyroclasm.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Pyroclasm - Does not apply stacks of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Blaze.png/revision/latest/scale-to-width-down/20?cb=20160420084402\" \t alt=\"Blaze\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blaze.png\" \tdata-image-name=\"Blaze.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Blaze.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/28/Cho%27Gath_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402215703\" \t alt=\"Cho&amp;#039;Gath OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cho%27Gath_OriginalSquare.png\" \tdata-image-name=\"Cho&#39;Gath OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cho'Gath's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2f/Feast.png/revision/latest/scale-to-width-down/20?cb=20160608020218\" \t alt=\"Feast\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Feast.png\" \tdata-image-name=\"Feast.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Feast - Gains permanent Feast stacks on-kill.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b2/Corki_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160629191728\" \t alt=\"Corki OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Corki_OriginalSquare.png\" \tdata-image-name=\"Corki OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Corki's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d3/Missile_Barrage.png/revision/latest/scale-to-width-down/20?cb=20160608020605\" \t alt=\"Missile Barrage\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Missile_Barrage.png\" \tdata-image-name=\"Missile Barrage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Missile Barrage - Gains max charges. \n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/59/Darius_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160412191052\" \t alt=\"Darius OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Darius_OriginalSquare.png\" \tdata-image-name=\"Darius OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Darius' <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3b/Noxian_Guillotine.png/revision/latest/scale-to-width-down/20?cb=20130929122730\" \t alt=\"Noxian Guillotine\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Noxian_Guillotine.png\" \tdata-image-name=\"Noxian Guillotine.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Noxian Guillotine - Does not apply a stack of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8f/Hemorrhage.png/revision/latest/scale-to-width-down/20?cb=20191111171216\" \t alt=\"Hemorrhage\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hemorrhage.png\" \tdata-image-name=\"Hemorrhage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hemorrhage.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/94/Fiora_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150725010749\" \t alt=\"Fiora OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Fiora_OriginalSquare.png\" \tdata-image-name=\"Fiora OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Fiora's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4e/Grand_Challenge.png/revision/latest/scale-to-width-down/20?cb=20150721193314\" \t alt=\"Grand Challenge\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Grand_Challenge.png\" \tdata-image-name=\"Grand Challenge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Grand Challenge - Gains movement speed in the effect and can trigger the area healing, but <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/10/Duelist%27s_Dance.png/revision/latest/scale-to-width-down/20?cb=20150721193115\" \t alt=\"Duelist&amp;#039;s Dance\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Duelist%27s_Dance.png\" \tdata-image-name=\"Duelist&#39;s Dance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Vitals do not deal bonus damage.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Galio_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20170308183135\" \t alt=\"Galio OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Galio_OriginalSquare.png\" \tdata-image-name=\"Galio OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Galio's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ac/Hero%27s_Entrance.png/revision/latest/scale-to-width-down/20?cb=20170317024952\" \t alt=\"Hero&amp;#039;s Entrance\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hero%27s_Entrance.png\" \tdata-image-name=\"Hero&#39;s Entrance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hero's Entrance - Gives Sylas and allies <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/ff/Shield_of_Durand_2.png/revision/latest/scale-to-width-down/20?cb=20171221040440\" \t alt=\"Shield of Durand 2\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shield_of_Durand_2.png\" \tdata-image-name=\"Shield of Durand 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shield of Durand's magic <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shield.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4e/Gangplank_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20151218185426\" \t alt=\"Gangplank OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gangplank_OriginalSquare.png\" \tdata-image-name=\"Gangplank OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gangplank's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d2/Cannon_Barrage.png/revision/latest/scale-to-width-down/20?cb=20150707190027\" \t alt=\"Cannon Barrage\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cannon_Barrage.png\" \tdata-image-name=\"Cannon Barrage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cannon Barrage - Does not steal cannon upgrades.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2d/Gnar_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160526212623\" \t alt=\"Gnar OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gnar_OriginalSquare.png\" \tdata-image-name=\"Gnar OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gnar's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/35/GNAR%21.png/revision/latest/scale-to-width-down/20?cb=20170818002800\" \t alt=\"GNAR!\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"GNAR%21.png\" \tdata-image-name=\"GNAR!.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> GNAR! - Gains a usable ultimate regardless of cast on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2d/Gnar_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160526212623\" \t alt=\"Gnar OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gnar_OriginalSquare.png\" \tdata-image-name=\"Gnar OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mini Gnar or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Gnar_%28Mega%29Square.png/revision/latest/scale-to-width-down/20?cb=20150402220631\" \t alt=\"Gnar (Mega)Square\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gnar_%28Mega%29Square.png\" \tdata-image-name=\"Gnar (Mega)Square.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mega Gnar.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/97/Heimerdinger_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220126\" \t alt=\"Heimerdinger OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Heimerdinger_OriginalSquare.png\" \tdata-image-name=\"Heimerdinger OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Heimerdinger's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f6/UPGRADE%21%21%21.png/revision/latest/scale-to-width-down/20?cb=20140317235913\" \t alt=\"UPGRADE!!!\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"UPGRADE%21%21%21.png\" \tdata-image-name=\"UPGRADE!!!.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> UPGRADE!!! - Sylas's basic abilities are replaced with Heimerdinger's empowered abilities.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/12/Illaoi_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20151111024020\" \t alt=\"Illaoi OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Illaoi_OriginalSquare.png\" \tdata-image-name=\"Illaoi OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Illaoi's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Leap_of_Faith.png/revision/latest/scale-to-width-down/20?cb=20171221041252\" \t alt=\"Leap of Faith\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Leap_of_Faith.png\" \tdata-image-name=\"Leap of Faith.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Leap of Faith - Does not reduce <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c0/Kingslayer.png/revision/latest/scale-to-width-down/20?cb=20190109233825\" \t alt=\"Kingslayer\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Kingslayer.png\" \tdata-image-name=\"Kingslayer.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Kingslayer.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/eb/Irelia_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20180320194636\" \t alt=\"Irelia OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Irelia_OriginalSquare.png\" \tdata-image-name=\"Irelia OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Irelia's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5f/Vanguard%27s_Edge.png/revision/latest/scale-to-width-down/20?cb=20180411161131\" \t alt=\"Vanguard&amp;#039;s Edge\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Vanguard%27s_Edge.png\" \tdata-image-name=\"Vanguard&#39;s Edge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Vanguard's Edge - Applies marks of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Bladesurge.png/revision/latest/scale-to-width-down/20?cb=20180411160934\" \t alt=\"Bladesurge\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Bladesurge.png\" \tdata-image-name=\"Bladesurge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bladesurge.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/94/Kassadin_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220329\" \t alt=\"Kassadin OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Kassadin_OriginalSquare.png\" \tdata-image-name=\"Kassadin OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Kassadin's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Riftwalk.png/revision/latest/scale-to-width-down/20?cb=20150224232146\" \t alt=\"Riftwalk\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Riftwalk.png\" \tdata-image-name=\"Riftwalk.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Riftwalk - Only provides one use.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/15/Kai%27Sa_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20180221202751\" \t alt=\"Kai&amp;#039;Sa OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Kai%27Sa_OriginalSquare.png\" \tdata-image-name=\"Kai&#39;Sa OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Kai'Sa's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2c/Killer_Instinct.png/revision/latest/scale-to-width-down/20?cb=20180301214535\" \t alt=\"Killer Instinct\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Killer_Instinct.png\" \tdata-image-name=\"Killer Instinct.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Killer Instinct - Sylas' basic attacks, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ec/Abduct.png/revision/latest/scale-to-width-down/20?cb=20190109233625\" \t alt=\"Abduct\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Abduct.png\" \tdata-image-name=\"Abduct.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Abduct and nearby allies' <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> immobilizations apply stacks of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/51/Second_Skin.png/revision/latest/scale-to-width-down/20?cb=20180301214552\" \t alt=\"Second Skin\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Second_Skin.png\" \tdata-image-name=\"Second Skin.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Plasma, up to 4. Sylas is unable to apply the 5th stack necessary to expunge the stacks.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4d/Kalista_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20170401005336\" \t alt=\"Kalista OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Kalista_OriginalSquare.png\" \tdata-image-name=\"Kalista OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Kalista's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e9/Fate%27s_Call.png/revision/latest/scale-to-width-down/20?cb=20141104220726\" \t alt=\"Fate&amp;#039;s Call\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Fate%27s_Call.png\" \tdata-image-name=\"Fate&#39;s Call.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Fate's Call - Only castable with a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4f/Black_Spear_item.png/revision/latest/scale-to-width-down/20?cb=20171221235741\" \t alt=\"Black Spear item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Black_Spear_item.png\" \tdata-image-name=\"Black Spear item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> link (purchasable in the Shop for <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/10/Gold.png/revision/latest/scale-to-width-down/20?cb=20181122055358\" \t alt=\"Gold\"  \tclass=\"\" \t \tdata-image-key=\"Gold.png\" \tdata-image-name=\"Gold.png\" \t \t width=\"20\"  \t height=\"15\"  \t \t \t \t> 0 gold).\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f7/Karma_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220251\" \t alt=\"Karma OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Karma_OriginalSquare.png\" \tdata-image-name=\"Karma OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Karma's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Mantra.png/revision/latest/scale-to-width-down/20?cb=20130929122921\" \t alt=\"Mantra\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mantra.png\" \tdata-image-name=\"Mantra.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mantra - Sylas's basic abilities are replaced with Karma's empowered abilities.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c9/Kayn_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20170628021945\" \t alt=\"Kayn OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Kayn_OriginalSquare.png\" \tdata-image-name=\"Kayn OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Kayn's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Umbral_Trespass.png/revision/latest/scale-to-width-down/20?cb=20170817201059\" \t alt=\"Umbral Trespass\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Umbral_Trespass.png\" \tdata-image-name=\"Umbral Trespass.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Umbral Trespass - Based on current form (<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/46/Shadow_Assassin_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171109063657\" \t alt=\"Shadow Assassin OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shadow_Assassin_OriginalSquare.png\" \tdata-image-name=\"Shadow Assassin OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow Assassin/<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d4/Rhaast_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171109063634\" \t alt=\"Rhaast OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rhaast_OriginalSquare.png\" \tdata-image-name=\"Rhaast OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rhaast).\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/40/Kha%27Zix_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160526212833\" \t alt=\"Kha&amp;#039;Zix OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Kha%27Zix_OriginalSquare.png\" \tdata-image-name=\"Kha&#39;Zix OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Kha'Zix's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Void_Assault.png/revision/latest/scale-to-width-down/20?cb=20180516194041\" \t alt=\"Void Assault\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Void_Assault.png\" \tdata-image-name=\"Void Assault.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Void Assault - Can steal the ability's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/22/Evolved_Active_Camouflage.png/revision/latest/scale-to-width-down/20?cb=20130929122946\" \t alt=\"Evolved Active Camouflage\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Evolved_Active_Camouflage.png\" \tdata-image-name=\"Evolved Active Camouflage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> evolution bonus effects.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7b/Kennen_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160510182835\" \t alt=\"Kennen OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Kennen_OriginalSquare.png\" \tdata-image-name=\"Kennen OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Kennen's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e9/Slicing_Maelstrom.png/revision/latest/scale-to-width-down/20?cb=20160608023501\" \t alt=\"Slicing Maelstrom\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Slicing_Maelstrom.png\" \tdata-image-name=\"Slicing Maelstrom.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Slicing Maelstrom - Applies <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2a/Mark_of_the_Storm.png/revision/latest/scale-to-width-down/20?cb=20160608023439\" \t alt=\"Mark of the Storm\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mark_of_the_Storm.png\" \tdata-image-name=\"Mark of the Storm.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mark of the Storm.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c4/Kled_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20170516205203\" \t alt=\"Kled OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Kled_OriginalSquare.png\" \tdata-image-name=\"Kled OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Kled's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3d/Chaaaaaaaarge%21%21%21.png/revision/latest/scale-to-width-down/20?cb=20160811032005\" \t alt=\"Chaaaaaaaarge!!!\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Chaaaaaaaarge%21%21%21.png\" \tdata-image-name=\"Chaaaaaaaarge!!!.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Chaaaaaaaarge!!! - Does not need <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ac/Skaarl_the_Cowardly_Lizard.png/revision/latest/scale-to-width-down/20?cb=20160811031310\" \t alt=\"Skaarl the Cowardly Lizard\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Skaarl_the_Cowardly_Lizard.png\" \tdata-image-name=\"Skaarl the Cowardly Lizard.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> mount to cast.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Kog%27Maw_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220409\" \t alt=\"Kog&amp;#039;Maw OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Kog%27Maw_OriginalSquare.png\" \tdata-image-name=\"Kog&#39;Maw OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Kog'Maw's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bf/Living_Artillery.png/revision/latest/scale-to-width-down/20?cb=20160608025443\" \t alt=\"Living Artillery\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Living_Artillery.png\" \tdata-image-name=\"Living Artillery.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Living Artillery - Only provides one use.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/ba/LeBlanc_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160526213056\" \t alt=\"LeBlanc OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"LeBlanc_OriginalSquare.png\" \tdata-image-name=\"LeBlanc OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> LeBlanc's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a8/Mimic.png/revision/latest/scale-to-width-down/20?cb=20180415161712\" \t alt=\"Mimic\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mimic.png\" \tdata-image-name=\"Mimic.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mimic - Uses the empowered version of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/ba/LeBlanc_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160526213056\" \t alt=\"LeBlanc OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"LeBlanc_OriginalSquare.png\" \tdata-image-name=\"LeBlanc OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> LeBlanc's last cast basic ability. If she has not cast any spells, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b2/Mimic_Sigil_of_Malice.png/revision/latest/scale-to-width-down/20?cb=20180415162017\" \t alt=\"Mimic Sigil of Malice\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mimic_Sigil_of_Malice.png\" \tdata-image-name=\"Mimic Sigil of Malice.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mimic Sigil of Malice is copied.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/ba/Leona_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220518\" \t alt=\"Leona OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Leona_OriginalSquare.png\" \tdata-image-name=\"Leona OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Leona's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5c/Solar_Flare.png/revision/latest/scale-to-width-down/20?cb=20130929123017\" \t alt=\"Solar Flare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Solar_Flare.png\" \tdata-image-name=\"Solar Flare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Solar Flare - Does not apply <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Sunlight.png/revision/latest/scale-to-width-down/20?cb=20130929123018\" \t alt=\"Sunlight\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sunlight.png\" \tdata-image-name=\"Sunlight.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sunlight.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/35/Lillia_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20200707201152\" \t alt=\"Lillia OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Lillia_OriginalSquare.png\" \tdata-image-name=\"Lillia OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Lillia's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/93/Lilting_Lullaby.png/revision/latest/scale-to-width-down/20?cb=20200707160252\" \t alt=\"Lilting Lullaby\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Lilting_Lullaby.png\" \tdata-image-name=\"Lilting Lullaby.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Lilting Lullaby - Sylas's abilities apply <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a0/Dream-Laden_Bough.png/revision/latest/scale-to-width-down/20?cb=20200707160244\" \t alt=\"Dream-Laden Bough\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dream-Laden_Bough.png\" \tdata-image-name=\"Dream-Laden Bough.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dream-Laden Bough's mark but not the damage.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/73/Master_Yi_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220630\" \t alt=\"Master Yi OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Master_Yi_OriginalSquare.png\" \tdata-image-name=\"Master Yi OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Master Yi's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/34/Highlander.png/revision/latest/scale-to-width-down/20?cb=20170818191955\" \t alt=\"Highlander\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Highlander.png\" \tdata-image-name=\"Highlander.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Highlander - Kills do not reduce basic ability cooldowns.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/77/Mordekaiser_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20190529201459\" \t alt=\"Mordekaiser OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mordekaiser_OriginalSquare.png\" \tdata-image-name=\"Mordekaiser OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mordekaiser's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d8/Realm_of_Death.png/revision/latest/scale-to-width-down/20?cb=20190527181328\" \t alt=\"Realm of Death\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Realm_of_Death.png\" \tdata-image-name=\"Realm of Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Realm of Death - Can join the dimension of outgoing realms if cast in the proper range (does not extend their duration).\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Nasus_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220659\" \t alt=\"Nasus OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Nasus_OriginalSquare.png\" \tdata-image-name=\"Nasus OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Nasus' <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/01/Fury_of_the_Sands.png/revision/latest/scale-to-width-down/20?cb=20170818192359\" \t alt=\"Fury of the Sands\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Fury_of_the_Sands.png\" \tdata-image-name=\"Fury of the Sands.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Fury of the Sands - Does not reduce <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/45/Chain_Lash.png/revision/latest/scale-to-width-down/20?cb=20190109233801\" \t alt=\"Chain Lash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Chain_Lash.png\" \tdata-image-name=\"Chain Lash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Chain Lash.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Orianna_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220803\" \t alt=\"Orianna OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Orianna_OriginalSquare.png\" \tdata-image-name=\"Orianna OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Orianna's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/63/Command_Shockwave.png/revision/latest/scale-to-width-down/20?cb=20170204153110\" \t alt=\"Command Shockwave\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Command_Shockwave.png\" \tdata-image-name=\"Command Shockwave.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Command: Shockwave - Cast on self without a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b0/Clockwork_Windup.png/revision/latest/scale-to-width-down/20?cb=20130929123140\" \t alt=\"Clockwork Windup\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clockwork_Windup.png\" \tdata-image-name=\"Clockwork Windup.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ball.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b3/Rengar_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220904\" \t alt=\"Rengar OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rengar_OriginalSquare.png\" \tdata-image-name=\"Rengar OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rengar's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/56/Thrill_of_the_Hunt.png/revision/latest/scale-to-width-down/20?cb=20170818193550\" \t alt=\"Thrill of the Hunt\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Thrill_of_the_Hunt.png\" \tdata-image-name=\"Thrill of the Hunt.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Thrill of the Hunt - Sylas will gain <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Unseen_Predator.png/revision/latest/scale-to-width-down/20?cb=20170818193601\" \t alt=\"Unseen Predator\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Unseen_Predator.png\" \tdata-image-name=\"Unseen Predator.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Unseen Predator on his next attack.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0b/Rek%27Sai_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160526213622\" \t alt=\"Rek&amp;#039;Sai OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rek%27Sai_OriginalSquare.png\" \tdata-image-name=\"Rek&#39;Sai OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rek'Sai's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/da/Void_Rush.png/revision/latest/scale-to-width-down/20?cb=20141125211540\" \t alt=\"Void Rush\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Void_Rush.png\" \tdata-image-name=\"Void Rush.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Void Rush - Sylas's attacks against enemy champions will apply a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/Void_Rush_Mark.png/revision/latest/scale-to-width-down/20?cb=20180730071130\" \t alt=\"Void Rush Mark\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Void_Rush_Mark.png\" \tdata-image-name=\"Void Rush Mark.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> mark which can be used to cast the ability.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/31/Samira_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20200829040527\" \t alt=\"Samira OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Samira_OriginalSquare.png\" \tdata-image-name=\"Samira OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Samira's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/35/Samira_Rank_S.png/revision/latest/scale-to-width-down/20?cb=20200829104419\" \t alt=\"Samira Rank S\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Samira_Rank_S.png\" \tdata-image-name=\"Samira Rank S.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Inferno Trigger - Can use without a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/93/Daredevil_Impulse.png/revision/latest/scale-to-width-down/20?cb=20200829104323\" \t alt=\"Daredevil Impulse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Daredevil_Impulse.png\" \tdata-image-name=\"Daredevil Impulse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Grade.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/be/Sylas_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20190108224754\" \t alt=\"Sylas OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sylas_OriginalSquare.png\" \tdata-image-name=\"Sylas OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sylas' <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Hijack.png/revision/latest/scale-to-width-down/20?cb=20190109233812\" \t alt=\"Hijack\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hijack.png\" \tdata-image-name=\"Hijack.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hijack - Steals the ability that the enemy Sylas has stolen. Cannot be targeted if no ability has been stolen.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/de/Syndra_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160526213755\" \t alt=\"Syndra OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Syndra_OriginalSquare.png\" \tdata-image-name=\"Syndra OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Syndra's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1d/Unleashed_Power.png/revision/latest/scale-to-width-down/20?cb=20130929123322\" \t alt=\"Unleashed Power\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Unleashed_Power.png\" \tdata-image-name=\"Unleashed Power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Unleashed Power - Throws a minimum of 3 <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Dark_Sphere.png/revision/latest/scale-to-width-down/20?cb=20130929123317\" \t alt=\"Dark Sphere\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dark_Sphere.png\" \tdata-image-name=\"Dark Sphere.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> spheres, which are left on the ground afterwards and vanish after 6 seconds.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/34/Talon_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402221208\" \t alt=\"Talon OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Talon_OriginalSquare.png\" \tdata-image-name=\"Talon OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Talon's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/66/Shadow_Assault.png/revision/latest/scale-to-width-down/20?cb=20170818195132\" \t alt=\"Shadow Assault\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shadow_Assault.png\" \tdata-image-name=\"Shadow Assault.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow Assault - Does not apply <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Blade%27s_End.png/revision/latest/scale-to-width-down/20?cb=20170818195032\" \t alt=\"Blade&amp;#039;s End\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blade%27s_End.png\" \tdata-image-name=\"Blade&#39;s End.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Blade's End.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Teemo_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402221254\" \t alt=\"Teemo OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teemo_OriginalSquare.png\" \tdata-image-name=\"Teemo OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teemo's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/21/Noxious_Trap.png/revision/latest/scale-to-width-down/20?cb=20171221034223\" \t alt=\"Noxious Trap\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Noxious_Trap.png\" \tdata-image-name=\"Noxious Trap.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Noxious Trap - Gains max charges.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/08/Tristana_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402221501\" \t alt=\"Tristana OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tristana_OriginalSquare.png\" \tdata-image-name=\"Tristana OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tristana's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f3/Buster_Shot.png/revision/latest/scale-to-width-down/20?cb=20150117180853\" \t alt=\"Buster Shot\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Buster_Shot.png\" \tdata-image-name=\"Buster Shot.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Buster Shot - Always has 525 cast range as Sylas does not benefit from <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a8/Draw_a_Bead.png/revision/latest/scale-to-width-down/20?cb=20150117180719\" \t alt=\"Draw a Bead\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Draw_a_Bead.png\" \tdata-image-name=\"Draw a Bead.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Draw a Bead's per-level cast range increase.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/fb/Twitch_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402221633\" \t alt=\"Twitch OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Twitch_OriginalSquare.png\" \tdata-image-name=\"Twitch OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Twitch's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Spray_and_Pray.png/revision/latest/scale-to-width-down/20?cb=20140414084451\" \t alt=\"Spray and Pray\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spray_and_Pray.png\" \tdata-image-name=\"Spray and Pray.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spray and Pray - Gains 300 attack range and his attacks produce missiles that travel 850 range. These attacks are classified as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2d/Melee_role.png/revision/latest/scale-to-width-down/20?cb=20170624104045\" \t alt=\"Melee role\"  \tclass=\"\" \t \tdata-image-key=\"Melee_role.png\" \tdata-image-name=\"Melee role.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> melee, and so will trigger effects such as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e3/Tiamat_item.png/revision/latest/scale-to-width-down/20?cb=20171222000401\" \t alt=\"Tiamat item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tiamat_item.png\" \tdata-image-name=\"Tiamat item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tiamat versus all hit targets.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/Udyr_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402221631\" \t alt=\"Udyr OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Udyr_OriginalSquare.png\" \tdata-image-name=\"Udyr OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Udyr - Steals <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/10/Phoenix_Stance.png/revision/latest/scale-to-width-down/20?cb=20171223035221\" \t alt=\"Phoenix Stance\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Phoenix_Stance.png\" \tdata-image-name=\"Phoenix Stance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Phoenix Stance. Lasts for 2 empowered attacks. \n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Varus_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171215205843\" \t alt=\"Varus OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Varus_OriginalSquare.png\" \tdata-image-name=\"Varus OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Varus' <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/63/Chain_of_Corruption.png/revision/latest/scale-to-width-down/20?cb=20170818195519\" \t alt=\"Chain of Corruption\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Chain_of_Corruption.png\" \tdata-image-name=\"Chain of Corruption.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Chain of Corruption - Does not apply stacks of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Blighted_Quiver.png/revision/latest/scale-to-width-down/20?cb=20170818195507\" \t alt=\"Blighted Quiver\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blighted_Quiver.png\" \tdata-image-name=\"Blighted Quiver.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Blight.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Vayne_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402222338\" \t alt=\"Vayne OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Vayne_OriginalSquare.png\" \tdata-image-name=\"Vayne OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Vayne's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b4/Final_Hour.png/revision/latest/scale-to-width-down/20?cb=20171223035739\" \t alt=\"Final Hour\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Final_Hour.png\" \tdata-image-name=\"Final Hour.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Final Hour - Gains the AD and MS bonuses. Additionally, Sylas gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d8/Twilight_Shroud_old2.png/revision/latest/scale-to-width-down/20?cb=20180716212930\" \t alt=\"Twilight Shroud old2\"  \tclass=\"\" \t \tdata-image-key=\"Twilight_Shroud_old2.png\" \tdata-image-name=\"Twilight Shroud old2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invisibility when he casts <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/45/Chain_Lash.png/revision/latest/scale-to-width-down/20?cb=20190109233801\" \t alt=\"Chain Lash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Chain_Lash.png\" \tdata-image-name=\"Chain Lash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Chain Lash. \n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Vel%27Koz_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402222335\" \t alt=\"Vel&amp;#039;Koz OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Vel%27Koz_OriginalSquare.png\" \tdata-image-name=\"Vel&#39;Koz OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Vel'Koz's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Life_Form_Disintegration_Ray.png/revision/latest/scale-to-width-down/20?cb=20170818195631\" \t alt=\"Life Form Disintegration Ray\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Life_Form_Disintegration_Ray.png\" \tdata-image-name=\"Life Form Disintegration Ray.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Life Form Disintegration Ray - Does not apply <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5c/Organic_Deconstruction.png/revision/latest/scale-to-width-down/20?cb=20170818195645\" \t alt=\"Organic Deconstruction\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Organic_Deconstruction.png\" \tdata-image-name=\"Organic Deconstruction.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Organic Deconstruction.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1c/Viktor_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402222333\" \t alt=\"Viktor OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Viktor_OriginalSquare.png\" \tdata-image-name=\"Viktor OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Viktor's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0b/Chaos_Storm.png/revision/latest/scale-to-width-down/20?cb=20170818195755\" \t alt=\"Chaos Storm\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Chaos_Storm.png\" \tdata-image-name=\"Chaos Storm.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Chaos Storm - Can steal the ability's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Augment-_Perfect_Storm.png/revision/latest/scale-to-width-down/20?cb=20140924210931\" \t alt=\"Augment- Perfect Storm\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Augment-_Perfect_Storm.png\" \tdata-image-name=\"Augment- Perfect Storm.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> evolution bonus effects.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4e/Xayah_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20170404193839\" \t alt=\"Xayah OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Xayah_OriginalSquare.png\" \tdata-image-name=\"Xayah OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Xayah's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Featherstorm.png/revision/latest/scale-to-width-down/20?cb=20170817195129\" \t alt=\"Featherstorm\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Featherstorm.png\" \tdata-image-name=\"Featherstorm.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Featherstorm - <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Clean_Cuts.png/revision/latest/scale-to-width-down/20?cb=20170817195157\" \t alt=\"Clean Cuts\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clean_Cuts.png\" \tdata-image-name=\"Clean Cuts.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Feathers do not interact with an ally or enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4e/Xayah_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20170404193839\" \t alt=\"Xayah OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Xayah_OriginalSquare.png\" \tdata-image-name=\"Xayah OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Xayah.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ad/Yasuo_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402222545\" \t alt=\"Yasuo OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Yasuo_OriginalSquare.png\" \tdata-image-name=\"Yasuo OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Yasuo's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c6/Last_Breath.png/revision/latest/scale-to-width-down/20?cb=20170818200046\" \t alt=\"Last Breath\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Last_Breath.png\" \tdata-image-name=\"Last Breath.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Last Breath - <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Critical strikes ignore 50% of the target's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus armor after activation.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/46/Zed_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160526214523\" \t alt=\"Zed OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed_OriginalSquare.png\" \tdata-image-name=\"Zed OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Zed's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/34/Death_Mark.png/revision/latest/scale-to-width-down/20?cb=20130929123513\" \t alt=\"Death Mark\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Death_Mark.png\" \tdata-image-name=\"Death Mark.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Death Mark - <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow does not mimic spells but can be reactivated to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/67/Death_Mark_2.png/revision/latest/scale-to-width-down/20?cb=20171221052522\" \t alt=\"Death Mark 2\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Death_Mark_2.png\" \tdata-image-name=\"Death Mark 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> swap places.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/16/Zac_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160417012331\" \t alt=\"Zac OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zac_OriginalSquare.png\" \tdata-image-name=\"Zac OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Zac's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Let%27s_Bounce%21.png/revision/latest/scale-to-width-down/20?cb=20170818200420\" \t alt=\"Let&amp;#039;s Bounce!\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Let%27s_Bounce%21.png\" \tdata-image-name=\"Let&#39;s Bounce!.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Let's Bounce! - Cannot declare attacks nor use any abilities nor while bouncing. Drops <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/59/Cell_Division.png/revision/latest/scale-to-width-down/20?cb=20170818200403\" \t alt=\"Cell Division\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cell_Division.png\" \tdata-image-name=\"Cell Division.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> chunks that can be interacted with but do not restore health to Sylas.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "\"What's yours is mine!\"",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "Sylas - R",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  }
+]

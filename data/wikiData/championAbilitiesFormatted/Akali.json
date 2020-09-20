@@ -1,0 +1,205 @@
+[
+  {
+    "name": "Assassin's Mark",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Akali's ability damage against enemy  champions creates a ring around them for 4 seconds and grants her 40 / 50 / 60 / 70% (based on level)  bonus movement speed for 2 seconds while moving away from them. Subsequent ability damage while a ring is active will only refresh its duration.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Assassin's Mark.png",
+    "icons": [
+      "Assassin's Mark.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Akali's ability damage against enemy  champions creates a ring around them for 4 seconds and grants her 40 / 50 / 60 / 70% (based on level)  bonus movement speed for 2 seconds while moving away from them. Subsequent ability damage while a ring is active will only refresh its duration.",
+      "If Akali leaves the ring within its duration, she regains the bonus movement speed towards enemy champions for 2 seconds and gains Swinging Kama for 4 seconds.",
+      "Swinging Kama: Akali's next basic attack's  range is doubled, deals 39 −  180 (based on level) (+ 60% bonus AD) (+ 50% AP) bonus magic damage and restores  10 / 15 / 20 (based on level) energy."
+    ]
+  },
+  {
+    "name": "Five Point Strike",
+    "cost": [
+      120,
+      115,
+      110,
+      105,
+      100
+    ],
+    "costType": "energy",
+    "coolDown": [
+      1
+    ],
+    "description": "Active: Akali throws a flurry of kunais in the target direction, dealing magic damage to enemies hit. Enemies hit at maximum range are also  slowed by 50% for 0.5 seconds.",
+    "leveling": "Magic Damage:30 / 55 / 80 / 105 / 130 (+ 65% AD) (+ 60% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      30,
+      55,
+      80,
+      105,
+      130
+    ],
+    "ratios": [
+      {
+        "value": 65,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Five Point Strike.png",
+    "icons": [
+      "Five Point Strike.png"
+    ],
+    "levelings": [
+      "Magic Damage:30 / 55 / 80 / 105 / 130 (+ 65% AD) (+ 60% AP)"
+    ],
+    "descriptions": [
+      "Active: Akali throws a flurry of kunais in the target direction, dealing magic damage to enemies hit. Enemies hit at maximum range are also  slowed by 50% for 0.5 seconds.",
+      "At rank 5, Five Point Strike deals「 25% bonus magic damage 」「 162.5 (+ 81.25% AD) (+ 75% AP) total magic damage 」to  minions and  monsters."
+    ]
+  },
+  {
+    "name": "Twilight Shroud",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      20
+    ],
+    "description": "Active: Akali restores  80 energy, gains  bonus movement speed that decays over 2 seconds, and detonates a smoke bomb a fixed distance away in the target direction, creating a circular shroud that expands over the next 5 seconds into a ring. The shroud does not permeate terrain.",
+    "leveling": "Bonus Movement Speed:30 / 35 / 40 / 45 / 50%\nShroud Duration:5 / 5.5 / 6 / 6.5 / 7",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "ratios": [],
+    "castTime": 0.3,
+    "icon": "Twilight Shroud.png",
+    "icons": [
+      "Twilight Shroud.png"
+    ],
+    "levelings": [
+      "Bonus Movement Speed:30 / 35 / 40 / 45 / 50%\nShroud Duration:5 / 5.5 / 6 / 6.5 / 7"
+    ],
+    "descriptions": [
+      "Active: Akali restores  80 energy, gains  bonus movement speed that decays over 2 seconds, and detonates a smoke bomb a fixed distance away in the target direction, creating a circular shroud that expands over the next 5 seconds into a ring. The shroud does not permeate terrain.",
+      "Entering the shroud renders Akali  invisible, unless she is  dashing.",
+      "Akali's basic attacks and abilities will break the invisibility and prevent her from entering it for 1 − 0.625 (based on minutes) seconds, refreshing on subsequent attacks and casts.",
+      "The  marked section of Twilight Shroud's will linger for the mark's duration, even after the shroud ends."
+    ]
+  },
+  {
+    "name": "Shuriken Flip",
+    "cost": [
+      30
+    ],
+    "costType": "energy",
+    "coolDown": [
+      16,
+      14,
+      13,
+      11,
+      10
+    ],
+    "description": "Active: Akali  flips in the opposite direction and fires a shuriken in the target direction that stops upon hitting an enemy, dealing them magic damage.",
+    "leveling": "Magic Damage:50 / 85 / 120 / 155 / 190 (+ 35% AD) (+ 50% AP)",
+    "skill": "E",
+    "damageType": "magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      50,
+      85,
+      120,
+      155,
+      190
+    ],
+    "ratios": [
+      {
+        "value": 35,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.4,
+    "icon": "Shuriken Flip.png",
+    "icons": [
+      "Shuriken Flip.png",
+      "Shuriken Flip 2.png"
+    ],
+    "levelings": [
+      "Magic Damage:50 / 85 / 120 / 155 / 190 (+ 35% AD) (+ 50% AP)",
+      "Total Damage:100 / 170 / 240 / 310 / 380 (+ 70% AD) (+ 100% AP)"
+    ],
+    "descriptions": [
+      "Active: Akali  flips in the opposite direction and fires a shuriken in the target direction that stops upon hitting an enemy, dealing them magic damage.",
+      "The shuriken marks the enemy or the last  smoke section hit for 3 seconds. While the target or smoke section is marked, Akali can reactivate Shuriken Flip.",
+      "Recast: Akali  dashes towards the marked target or smoke section, consuming the mark, regardless of distance. Against enemies it deals the same magic damage upon arrival."
+    ]
+  },
+  {
+    "name": "Perfect Execution",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      100,
+      90,
+      80,
+      70,
+      60
+    ],
+    "description": "Active: Akali  dashes 675 −  825 (based on distance from target) units towards the target enemy  champion, dealing physical damage to all enemies in her path.",
+    "leveling": "Physical Damage:125 / 175 / 225 / 275 / 325 (+ 50% bonus AD)",
+    "skill": "R",
+    "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      125,
+      175,
+      225,
+      275,
+      325
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Perfect Execution.png",
+    "icons": [
+      "Perfect Execution.png",
+      "Perfect Execution 2.png"
+    ],
+    "levelings": [
+      "Physical Damage:125 / 175 / 225 / 275 / 325 (+ 50% bonus AD)",
+      "Minimum Magic Damage:»75 / 110 / 145 / 180 / 215 (+ 30% AP)«Maximum Magic Damage:225 / 330 / 435 / 540 / 645 (+ 90% AP)"
+    ],
+    "descriptions": [
+      "Active: Akali  dashes 675 −  825 (based on distance from target) units towards the target enemy  champion, dealing physical damage to all enemies in her path.",
+      "Perfect Execution can be recast after a 2.5 second static cooldown within 10 seconds of the first activation.",
+      "Recast: Akali  dashes in the target direction, dealing magic damage to all enemies in her path, increased by 0% − 200% (based on target's missing health)."
+    ]
+  }
+]

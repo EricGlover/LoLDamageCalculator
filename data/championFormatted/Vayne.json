@@ -1,6 +1,33 @@
 {
   "abilities": [
     {
+      "name": "Night Hunter",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Vayne gains  30 bonus movement speed when moving towards a nearby  visible enemy champion.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Night Hunter.png",
+      "icons": [
+        "Night Hunter.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Vayne gains  30 bonus movement speed when moving towards a nearby  visible enemy champion.",
+        " Final Hour: Night Hunter's bonus movement speed is tripled to 90."
+      ]
+    },
+    {
       "name": "Tumble",
       "cost": [
         30
@@ -13,7 +40,7 @@
         2,
         2
       ],
-      "description": "Active: Vayne <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction, though not through terrain, and her next basic attack within 7 seconds deals <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> bonus physical damage.",
+      "description": "Active: Vayne  dashes in the target direction, though not through terrain, and her next basic attack within 7 seconds deals bonus physical damage.",
       "leveling": "Bonus Physical Damage:60 / 65 / 70 / 75 / 80% AD",
       "skill": "Q",
       "damageType": "physical",
@@ -26,7 +53,18 @@
         80
       ],
       "ratios": [],
-      "castTime": null
+      "castTime": null,
+      "icon": "Tumble.png",
+      "icons": [
+        "Tumble.png"
+      ],
+      "levelings": [
+        "Bonus Physical Damage:60 / 65 / 70 / 75 / 80% AD"
+      ],
+      "descriptions": [
+        "Active: Vayne  dashes in the target direction, though not through terrain, and her next basic attack within 7 seconds deals bonus physical damage.",
+        "Tumble  resets Vayne's basic attack timer."
+      ]
     },
     {
       "name": "Silver Bolts",
@@ -37,7 +75,7 @@
       "coolDown": [
         null
       ],
-      "description": "Passive: Vayne's basic attacks and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/66/Condemn.png/revision/latest/scale-to-width-down/20?cb=20171223035713\" \t alt=\"Condemn\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Condemn.png\" \tdata-image-name=\"Condemn.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Condemn apply a stack of Silver Bolts for 3.5 seconds, up to 3 times. Attacking a new enemy removes all stacks from the previous target.",
+      "description": "Passive: Vayne's basic attacks and  Condemn apply a stack of Silver Bolts for 3.5 seconds, up to 3 times. Attacking a new enemy removes all stacks from the previous target.",
       "leveling": "Bonus True Damage:4 / 6.5 / 9 / 11.5 / 14% of target's maximum healthMinimum True Damage:50 / 65 / 80 / 95 / 110",
       "skill": "W",
       "damageType": "true",
@@ -50,7 +88,18 @@
         14
       ],
       "ratios": [],
-      "castTime": null
+      "castTime": null,
+      "icon": "Silver Bolts.png",
+      "icons": [
+        "Silver Bolts.png"
+      ],
+      "levelings": [
+        "Bonus True Damage:4 / 6.5 / 9 / 11.5 / 14% of target's maximum healthMinimum True Damage:50 / 65 / 80 / 95 / 110"
+      ],
+      "descriptions": [
+        "Passive: Vayne's basic attacks and  Condemn apply a stack of Silver Bolts for 3.5 seconds, up to 3 times. Attacking a new enemy removes all stacks from the previous target.",
+        "The third stack consumes them all to deal  bonus true damage, with a minimum threshold, and capped at 200 against  monsters."
+      ]
     },
     {
       "name": "Condemn",
@@ -65,7 +114,7 @@
         14,
         12
       ],
-      "description": "Active: Vayne fires a heavy bolt at the target enemy, dealing physical damage, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking them back 475 units, and applying a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/12/Silver_Bolts.png/revision/latest/scale-to-width-down/20?cb=20171223035808\" \t alt=\"Silver Bolts\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Silver_Bolts.png\" \tdata-image-name=\"Silver Bolts.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Silver Bolts stack.",
+      "description": "Active: Vayne fires a heavy bolt at the target enemy, dealing physical damage,  knocking them back 475 units, and applying a  Silver Bolts stack.",
       "leveling": "Physical Damage:50 / 85 / 120 / 155 / 190 (+ 50% bonus AD)",
       "skill": "E",
       "damageType": "physical",
@@ -83,7 +132,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Condemn.png",
+      "icons": [
+        "Condemn.png"
+      ],
+      "levelings": [
+        "Physical Damage:50 / 85 / 120 / 155 / 190 (+ 50% bonus AD)",
+        "Bonus Damage:»75 / 127.5 / 180 / 232.5 / 285 (+ 75% bonus AD)«Total Damage:125 / 212.5 / 300 / 387.5 / 475 (+ 125% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Vayne fires a heavy bolt at the target enemy, dealing physical damage,  knocking them back 475 units, and applying a  Silver Bolts stack.",
+        "If the target collides with terrain, they take  bonus physical damage and are  stunned for 1.5 seconds."
+      ]
     },
     {
       "name": "Final Hour",
@@ -98,7 +159,7 @@
         77,
         70
       ],
-      "description": "Active: Vayne arms herself with her crossbow, gaining bonus attack damage and tripling <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/86/Night_Hunter.png/revision/latest/scale-to-width-down/20?cb=20171223035755\" \t alt=\"Night Hunter\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Night_Hunter.png\" \tdata-image-name=\"Night Hunter.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Night Hunter's bonus for a duration.",
+      "description": "Active: Vayne equips her crossbow, gaining  bonus attack damage and tripling  Night Hunter's bonus for a duration.",
       "leveling": "Duration:8 / 9 / 10 / 11 / 12\nBonus AD:35 / 42.5 / 50 / 57.5 / 65",
       "skill": "R",
       "damageType": "",
@@ -111,7 +172,20 @@
         12
       ],
       "ratios": [],
-      "castTime": null
+      "castTime": null,
+      "icon": "Final Hour.png",
+      "icons": [
+        "Final Hour.png"
+      ],
+      "levelings": [
+        "Duration:8 / 9 / 10 / 11 / 12\nBonus AD:35 / 42.5 / 50 / 57.5 / 65",
+        "Tumble Cooldown Reduction:30 / 35 / 40 / 45 / 50%"
+      ],
+      "descriptions": [
+        "Active: Vayne equips her crossbow, gaining  bonus attack damage and tripling  Night Hunter's bonus for a duration.",
+        "Additionally,  Tumble gains  cooldown reduction, and casting it grants Vayne  invisibility for 1 second. Attacking or casting  Condemn breaks the stealth immediately.",
+        "While active, whenever an enemy  champion damaged by Vayne dies within 3 seconds, Final Hour's duration is extended by 4 seconds, up to the original duration."
+      ]
     }
   ],
   "id": "Vayne",
@@ -126,6 +200,7 @@
     "difficulty": 8
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Vayne.png",
     "full": "Vayne.png",
     "sprite": "champion4.png",
     "group": "champion",

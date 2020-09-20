@@ -1,0 +1,1203 @@
+[
+  {
+    "1": {
+      "value": "Harrier",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Harrier."
+    },
+    "champion": {
+      "value": "Quinn",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "I",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "525",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Harrier.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Valor periodically marks enemies as Vulnerable. Quinn's first basic attack against Vulnerable targets will deal bonus physical damage.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Innate: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b0/Valor_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402222300\" \t alt=\"Valor OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Valor_OriginalSquare.png\" \tdata-image-name=\"Valor OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Valor marks enemies hit by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/87/Blinding_Assault.png/revision/latest/scale-to-width-down/20?cb=20130929123152\" \t alt=\"Blinding Assault\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blinding_Assault.png\" \tdata-image-name=\"Blinding Assault.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Blinding Assault, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/68/Skystrike.png/revision/latest/scale-to-width-down/20?cb=20171221045118\" \t alt=\"Skystrike\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Skystrike.png\" \tdata-image-name=\"Skystrike.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Skystrike or targeted by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c9/Vault.png/revision/latest/scale-to-width-down/20?cb=20130929123156\" \t alt=\"Vault\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Vault.png\" \tdata-image-name=\"Vault.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Vault as Vulnerable, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them for 4 seconds. If no Vulnerable target exists for 1 second, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b0/Valor_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402222300\" \t alt=\"Valor OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Valor_OriginalSquare.png\" \tdata-image-name=\"Valor OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Valor automatically marks a nearby visible enemy, but is not able to do so again for 8 −  2.93 (based on critical strike chance) seconds after the mark has timed out, was consumed or was overwritten by another mark.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Quinn's next basic attack on-hit against a Vulnerable target consumes the mark to deal 10 − 95 (based on level) (+ 16% − 50% (based on level) AD) bonus physical damage.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "While <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/af/Behind_Enemy_Lines.png/revision/latest/scale-to-width-down/20?cb=20160801045302\" \t alt=\"Behind Enemy Lines\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Behind_Enemy_Lines.png\" \tdata-image-name=\"Behind Enemy Lines.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Behind Enemy Lines is active, Harrier is disabled and all Vulnerable marks are removed.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Auto",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Physical",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Proc",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "False",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* If a mark applied by an ability is overwritten, consumed, or timed out, Harrier goes on a 1-second cooldown if it's not already on cooldown.\n Harrier's targeting priority:\n Last unit hit (if it was a small minion it appears to select a different target).\n Lowest-health enemy champion.\n Lowest-health enemy minion.\n\n Harrier is consumed even if it is parried, the attack is negated in any case.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "Quinn IVideo.ogv",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Blinding Assault",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Blinding Assault."
+    },
+    "champion": {
+      "value": "Quinn",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "Q",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "1050",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "210",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/71/Range_model.png/revision/latest/scale-to-width-down/20?cb=20150616134216\" \t alt=\"Range model\"  \tclass=\"\" \t \tdata-image-key=\"Range_model.png\" \tdata-image-name=\"Range model.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 120",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "1550",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "50 / 55 / 60 / 65 / 70",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "11 / 10.5 / 10 / 9.5 / 9",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Blinding Assault.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Quinn calls Valor to mark an enemy and hinder its vision before damaging all enemies in the immediate area.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Quinn signals <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b0/Valor_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402222300\" \t alt=\"Valor OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Valor_OriginalSquare.png\" \tdata-image-name=\"Valor OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Valor to fly forward in a line in the target direction, stopping upon colliding with an enemy unit, dealing physical damage to them and all nearby enemies and applying <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/94/Nearsight_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Nearsight icon\"  \tclass=\"\" \t \tdata-image-key=\"Nearsight_icon.png\" \tdata-image-name=\"Nearsight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> nearsight to the target for 1.75 seconds, reducing their <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight radius to 330 units.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Physical Damage:20 / 45 / 70 / 95 / 120 (+ 80 / 90 / 100 / 110 / 120% AD) (+ 50% AP)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Non-champion targets are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ed/Disarm_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223935\" \t alt=\"Disarm icon\"  \tclass=\"\" \t \tdata-image-key=\"Disarm_icon.png\" \tdata-image-name=\"Disarm icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> disarmed instead for the same duration.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "The nearsight persists through <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> death.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Physical",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "spellaoe",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "True",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Blinding Assault is always cast from the original casting position.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "Quinn QVideo.ogv",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Heightened Senses",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Heightened Senses."
+    },
+    "champion": {
+      "value": "Quinn",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "W",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "2100",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "50 / 45 / 40 / 35 / 30",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Heightened Senses.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Passively grants Quinn Attack Speed and Movement Speed after she attacks a Vulnerable target. Activate to have Valor reveal a large area nearby.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Passive: Attacking a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8f/Harrier.png/revision/latest/scale-to-width-down/20?cb=20170818193206\" \t alt=\"Harrier\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Harrier.png\" \tdata-image-name=\"Harrier.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Vulnerable target grants Quinn <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed for 2 seconds.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Bonus Attack Speed:20 / 35 / 50 / 65 / 80%Bonus Movement Speed:20 / 25 / 30 / 35 / 40%",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Active: Quinn orders <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b0/Valor_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402222300\" \t alt=\"Valor OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Valor_OriginalSquare.png\" \tdata-image-name=\"Valor OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Valor to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reveal the area around her for 2 seconds.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Enemies spotted are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealed for 2.75 seconds, reduced to 2 seconds for <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "None",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* No additional details.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "Quinn WVideo.ogv",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Vault",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Vault."
+    },
+    "champion": {
+      "value": "Quinn",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "E",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/71/Range_model.png/revision/latest/scale-to-width-down/20?cb=20150616134216\" \t alt=\"Range model\"  \tclass=\"\" \t \tdata-image-key=\"Range_model.png\" \tdata-image-name=\"Range model.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 600",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "50",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "12 / 11 / 10 / 9 / 8",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Vault.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Quinn dashes to an enemy, dealing physical damage and slowing the target's Movement Speed. Upon reaching the target, she leaps off the target, briefly interrupting it, and lands near her maximum Attack Range away from the target.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Quinn <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target enemy unit, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking them back, dealing them physical damage, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 50% which decays over 1.5 seconds, before <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leaping back and landing 525 units away from them.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Physical damage:40 / 70 / 100 / 130 / 160 (+ 20% bonus AD)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Unit",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Physical",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Spell",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "true",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Quinn will automatically attempt to attack the target once she completes Vault.\n The target will turn to face the opposite direction after being <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked back.\n Unlike its constant cast range Vault's bounce's can vary to allow Quinn to close or to make a gap between herself and the target (depending on casting position) or even to jump through a wall (if there is enough landing room on the other side).\n Quinn will track and follow the target if they move through <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinks.\n This will not occur if the target is travelling to a very far distance (e.g, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/44/Stand_United.png/revision/latest/scale-to-width-down/20?cb=20170217190944\" \t alt=\"Stand United\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Stand_United.png\" \tdata-image-name=\"Stand United.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Stand United).\n\n Vault also interrupts <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Excessive_Force_2.png/revision/latest/scale-to-width-down/20?cb=20160608034953\" \t alt=\"Excessive Force 2\"  \tclass=\"\" \t \tdata-image-key=\"Excessive_Force_2.png\" \tdata-image-name=\"Excessive Force 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unstoppable basic attacks from affecting their target.*",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "Quinn EVideo.ogv",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Behind Enemy Lines",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Behind Enemy Lines."
+    },
+    "champion": {
+      "value": "Quinn",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "R",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "100 / 75 / 50 / 25 / 0",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "3",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Behind Enemy Lines.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Quinn and Valor team up to fly around at great speed.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Quinn <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels for 2 seconds. Upon completing it successfully, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b0/Valor_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402222300\" \t alt=\"Valor OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Valor_OriginalSquare.png\" \tdata-image-name=\"Valor OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Valor picks her up and they unite, increasing her <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> total movement speed, granting her <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosting, and giving her the ability to use <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/68/Skystrike.png/revision/latest/scale-to-width-down/20?cb=20171221045118\" \t alt=\"Skystrike\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Skystrike.png\" \tdata-image-name=\"Skystrike.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Skystrike. Behind Enemy Lines can be recast during the channel after 0.5 seconds.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Total Movement Speed Increase:70 / 85 / 100 / 115 / 130%",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Taking damage from non-minions while Behind Enemy Lines is active causes Quinn to lose the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed for 3 seconds. Becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> immobilized ends Behind Enemy Lines immediately and puts it on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown without performing <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/68/Skystrike.png/revision/latest/scale-to-width-down/20?cb=20171221045118\" \t alt=\"Skystrike\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Skystrike.png\" \tdata-image-name=\"Skystrike.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Skystrike.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Once Behind Enemy Lines has been learned, respawning or returning to the summoning platform will spawn <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b0/Valor_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402222300\" \t alt=\"Valor OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Valor_OriginalSquare.png\" \tdata-image-name=\"Valor OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Valor instantly, but <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/68/Skystrike.png/revision/latest/scale-to-width-down/20?cb=20171221045118\" \t alt=\"Skystrike\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Skystrike.png\" \tdata-image-name=\"Skystrike.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Skystrike is disabled for 2.5 seconds upon uniting.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "Recast: Quinn cancels the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channel, placing Behind Enemy Lines on cooldown.",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "None",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Behind Enemy Lines does not refund its <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> mana cost if the channel was canceled via recast.\n The only exception is if Quinn's mana falls below the mana cost, in which case she is granted enough mana back (the equal amount needed) to be able to use Behind Enemy Lines again.\n\n The following table refers for interactions while Quinn is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channeling:\n\n\n\n Type\n Channel\n\n\n Attacking\n Interrupts\n\n\n Abilities\n Interrupts\n\n\n Movement\n Disabled\n\n\n Items\n Usable\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/00/Shurelya%27s_Reverie_item.png/revision/latest/scale-to-width-down/20?cb=20180511220011\" \t alt=\"Shurelya&amp;#039;s Reverie item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shurelya%27s_Reverie_item.png\" \tdata-image-name=\"Shurelya&#39;s Reverie item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shurelya's Reverie <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Righteous_Glory_item.png/revision/latest/scale-to-width-down/20?cb=20171221231127\" \t alt=\"Righteous Glory item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Righteous_Glory_item.png\" \tdata-image-name=\"Righteous Glory item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Righteous Glory <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Youmuu%27s_Ghostblade_item.png/revision/latest/scale-to-width-down/20?cb=20171222002403\" \t alt=\"Youmuu&amp;#039;s Ghostblade item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Youmuu%27s_Ghostblade_item.png\" \tdata-image-name=\"Youmuu&#39;s Ghostblade item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Youmuu's Ghostblade <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Gargoyle_Stoneplate_item.png/revision/latest/scale-to-width-down/20?cb=20171221183200\" \t alt=\"Gargoyle Stoneplate item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gargoyle_Stoneplate_item.png\" \tdata-image-name=\"Gargoyle Stoneplate item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gargoyle Stoneplate <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/08/Randuin%27s_Omen_item.png/revision/latest/scale-to-width-down/20?cb=20171221230256\" \t alt=\"Randuin&amp;#039;s Omen item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Randuin%27s_Omen_item.png\" \tdata-image-name=\"Randuin&#39;s Omen item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Randuin's Omen <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b9/Seraph%27s_Embrace_item.png/revision/latest/scale-to-width-down/20?cb=20171221232010\" \t alt=\"Seraph&amp;#039;s Embrace item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Seraph%27s_Embrace_item.png\" \tdata-image-name=\"Seraph&#39;s Embrace item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Seraph's Embrace\n\n\n Disabled\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Hextech_Protobelt-01_item.png/revision/latest/scale-to-width-down/20?cb=20171221185647\" \t alt=\"Hextech Protobelt-01 item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hextech_Protobelt-01_item.png\" \tdata-image-name=\"Hextech Protobelt-01 item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hextech Protobelt-01\n\n\n Interrupted by\n All item-actives not specified above interrupt\n\n\n\n Consumables\n Usable\n\n\n Spells\n Usable\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cc/Barrier.png/revision/latest/scale-to-width-down/20?cb=20180514002510\" \t alt=\"Barrier\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Barrier.png\" \tdata-image-name=\"Barrier.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Barrier <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Clarity.png/revision/latest/scale-to-width-down/20?cb=20180514002750\" \t alt=\"Clarity\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clarity.png\" \tdata-image-name=\"Clarity.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Clarity <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cleanse.png/revision/latest/scale-to-width-down/20?cb=20180514002812\" \t alt=\"Cleanse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cleanse.png\" \tdata-image-name=\"Cleanse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cleanse <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Exhaust.png/revision/latest/scale-to-width-down/20?cb=20180514003128\" \t alt=\"Exhaust\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Exhaust.png\" \tdata-image-name=\"Exhaust.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Exhaust <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ghost <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Heal.png/revision/latest/scale-to-width-down/20?cb=20180514003319\" \t alt=\"Heal\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Heal.png\" \tdata-image-name=\"Heal.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Heal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/Ignite.png/revision/latest/scale-to-width-down/20?cb=20180514003345\" \t alt=\"Ignite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ignite.png\" \tdata-image-name=\"Ignite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ignite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Smite.png/revision/latest/scale-to-width-down/20?cb=20180514003641\" \t alt=\"Smite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Smite.png\" \tdata-image-name=\"Smite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Smite\n\n\n Disabled\n N/A\n\n\n Interrupted by\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flash <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Hexflash.png/revision/latest/scale-to-width-down/20?cb=20180514003331\" \t alt=\"Hexflash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hexflash.png\" \tdata-image-name=\"Hexflash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hexflash\n\n\n\n Interrupted by\n Death<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Silencing effects",
+      "description": "Channel"
+    },
+    "Channel": {},
+    "Interrupts": {},
+    "Disabled": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/00/Shurelya%27s_Reverie_item.png/revision/latest/scale-to-width-down/20?cb=20180511220011\" \t alt=\"Shurelya&amp;#039;s Reverie item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shurelya%27s_Reverie_item.png\" \tdata-image-name=\"Shurelya&#39;s Reverie item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shurelya's Reverie <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Righteous_Glory_item.png/revision/latest/scale-to-width-down/20?cb=20171221231127\" \t alt=\"Righteous Glory item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Righteous_Glory_item.png\" \tdata-image-name=\"Righteous Glory item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Righteous Glory <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Youmuu%27s_Ghostblade_item.png/revision/latest/scale-to-width-down/20?cb=20171222002403\" \t alt=\"Youmuu&amp;#039;s Ghostblade item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Youmuu%27s_Ghostblade_item.png\" \tdata-image-name=\"Youmuu&#39;s Ghostblade item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Youmuu's Ghostblade <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Gargoyle_Stoneplate_item.png/revision/latest/scale-to-width-down/20?cb=20171221183200\" \t alt=\"Gargoyle Stoneplate item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gargoyle_Stoneplate_item.png\" \tdata-image-name=\"Gargoyle Stoneplate item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gargoyle Stoneplate <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/08/Randuin%27s_Omen_item.png/revision/latest/scale-to-width-down/20?cb=20171221230256\" \t alt=\"Randuin&amp;#039;s Omen item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Randuin%27s_Omen_item.png\" \tdata-image-name=\"Randuin&#39;s Omen item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Randuin's Omen <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b9/Seraph%27s_Embrace_item.png/revision/latest/scale-to-width-down/20?cb=20171221232010\" \t alt=\"Seraph&amp;#039;s Embrace item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Seraph%27s_Embrace_item.png\" \tdata-image-name=\"Seraph&#39;s Embrace item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Seraph's Embrace": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Hextech_Protobelt-01_item.png/revision/latest/scale-to-width-down/20?cb=20171221185647\" \t alt=\"Hextech Protobelt-01 item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hextech_Protobelt-01_item.png\" \tdata-image-name=\"Hextech Protobelt-01 item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hextech Protobelt-01": {},
+    "All item-actives not specified above interrupt": {},
+    "Usable": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cc/Barrier.png/revision/latest/scale-to-width-down/20?cb=20180514002510\" \t alt=\"Barrier\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Barrier.png\" \tdata-image-name=\"Barrier.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Barrier <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Clarity.png/revision/latest/scale-to-width-down/20?cb=20180514002750\" \t alt=\"Clarity\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clarity.png\" \tdata-image-name=\"Clarity.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Clarity <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cleanse.png/revision/latest/scale-to-width-down/20?cb=20180514002812\" \t alt=\"Cleanse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cleanse.png\" \tdata-image-name=\"Cleanse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cleanse <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Exhaust.png/revision/latest/scale-to-width-down/20?cb=20180514003128\" \t alt=\"Exhaust\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Exhaust.png\" \tdata-image-name=\"Exhaust.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Exhaust <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ghost <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Heal.png/revision/latest/scale-to-width-down/20?cb=20180514003319\" \t alt=\"Heal\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Heal.png\" \tdata-image-name=\"Heal.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Heal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/Ignite.png/revision/latest/scale-to-width-down/20?cb=20180514003345\" \t alt=\"Ignite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ignite.png\" \tdata-image-name=\"Ignite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ignite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Smite.png/revision/latest/scale-to-width-down/20?cb=20180514003641\" \t alt=\"Smite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Smite.png\" \tdata-image-name=\"Smite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Smite": {},
+    "N/A": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flash <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Hexflash.png/revision/latest/scale-to-width-down/20?cb=20180514003331\" \t alt=\"Hexflash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hexflash.png\" \tdata-image-name=\"Hexflash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hexflash": {},
+    "Death<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Silencing effects": {},
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "Quinn RVideo.ogv",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  }
+]

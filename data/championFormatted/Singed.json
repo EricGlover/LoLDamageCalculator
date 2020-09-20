@@ -1,5 +1,206 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Noxious Slipstream",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Moving near a  champion grants Singed  20% bonus movement speed for 2 seconds. The effects of Noxious Slipstream can stack up to 25 times.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Noxious Slipstream.png",
+      "icons": [
+        "Noxious Slipstream.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Moving near a  champion grants Singed  20% bonus movement speed for 2 seconds. The effects of Noxious Slipstream can stack up to 25 times.",
+        "This effect cannot occur on the same target more than once every few seconds."
+      ]
+    },
+    {
+      "name": "Poison Trail",
+      "cost": [
+        13
+      ],
+      "costType": "Mana per second",
+      "coolDown": [
+        null
+      ],
+      "description": "Toggle: Singed leaves a  poison cloud behind him for 3.25 seconds.",
+      "leveling": "Magic Damage per 0.25 Seconds:»5 / 7.5 / 10 / 12.5 / 15 (+ 10% AP)«Total Magic Damage:40 / 60 / 80 / 100 / 120 (+ 80% AP)",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        0.25,
+        5,
+        7.5,
+        10,
+        12.5
+      ],
+      "ratios": [
+        {
+          "value": 10,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Poison Trail.png",
+      "icons": [
+        "Poison Trail.png"
+      ],
+      "levelings": [
+        "Magic Damage per 0.25 Seconds:»5 / 7.5 / 10 / 12.5 / 15 (+ 10% AP)«Total Magic Damage:40 / 60 / 80 / 100 / 120 (+ 80% AP)"
+      ],
+      "descriptions": [
+        "Toggle: Singed leaves a  poison cloud behind him for 3.25 seconds.",
+        "Enemies standing in the cloud's trail are  poisoned for 2 seconds, taking magic damage every 0.25 seconds for the duration, continuously refreshing while remaining in the affected area."
+      ]
+    },
+    {
+      "name": "Mega Adhesive",
+      "cost": [
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        17,
+        16,
+        15,
+        14,
+        13
+      ],
+      "description": "Active: Singed covers the target area with a potent adhesive for 3 seconds,  slowing by 60% and  grounding all enemies within.",
+      "leveling": null,
+      "skill": "W",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": 0.25,
+      "icon": "Mega Adhesive.png",
+      "icons": [
+        "Mega Adhesive.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Active: Singed covers the target area with a potent adhesive for 3 seconds,  slowing by 60% and  grounding all enemies within."
+      ]
+    },
+    {
+      "name": "Fling",
+      "cost": [
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        10
+      ],
+      "description": "Active: Singed  flings the target enemy over his shoulder, dropping at a location 550 units behind Singed's casting position after 0.75 seconds and dealing magic damage, capped against  minions and  monsters.",
+      "leveling": "Magic Damage:»50 / 65 / 80 / 95 / 110 (+ 6 / 6.5 / 7 / 7.5 / 8% of target's maximum health) (+ 75% AP)«Maximum Non-Champion Damage:350 / 365 / 380 / 395 / 410 (+ 75% AP)",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        50,
+        65,
+        80,
+        95,
+        110
+      ],
+      "ratios": [
+        {
+          "value": 6,
+          "type": "bonus ad"
+        },
+        {
+          "value": 6.5,
+          "type": "bonus ad"
+        },
+        {
+          "value": 7,
+          "type": "bonus ad"
+        },
+        {
+          "value": 7.5,
+          "type": "bonus ad"
+        },
+        {
+          "value": 8,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Fling.png",
+      "icons": [
+        "Fling.png"
+      ],
+      "levelings": [
+        "Magic Damage:»50 / 65 / 80 / 95 / 110 (+ 6 / 6.5 / 7 / 7.5 / 8% of target's maximum health) (+ 75% AP)«Maximum Non-Champion Damage:350 / 365 / 380 / 395 / 410 (+ 75% AP)",
+        "Root Duration:1 / 1.25 / 1.5 / 1.75 / 2"
+      ],
+      "descriptions": [
+        "Active: Singed  flings the target enemy over his shoulder, dropping at a location 550 units behind Singed's casting position after 0.75 seconds and dealing magic damage, capped against  minions and  monsters.",
+        "Targets flung into  Mega Adhesive's area of effect are temporarily  rooted."
+      ]
+    },
+    {
+      "name": "Insanity Potion",
+      "cost": [
+        100
+      ],
+      "costType": "mana",
+      "coolDown": [
+        120,
+        115,
+        110,
+        105,
+        100
+      ],
+      "description": "Active: Singed drinks a potent chemical brew, gaining  bonus ability power,  bonus armor,  bonus magic resistance,  bonus movement speed,  bonus health regeneration, and  bonus mana regeneration, all for the next 25 seconds.",
+      "leveling": "Bonus Stats:30 / 45 / 60 / 75 / 90\nRegeneration per Second:»6 / 9 / 12 / 15 / 18«Total Regeneration:150 / 225 / 300 / 375 / 450",
+      "skill": "R",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        30,
+        45,
+        60,
+        75,
+        90
+      ],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Insanity Potion.png",
+      "icons": [
+        "Insanity Potion.png"
+      ],
+      "levelings": [
+        "Bonus Stats:30 / 45 / 60 / 75 / 90\nRegeneration per Second:»6 / 9 / 12 / 15 / 18«Total Regeneration:150 / 225 / 300 / 375 / 450"
+      ],
+      "descriptions": [
+        "Active: Singed drinks a potent chemical brew, gaining  bonus ability power,  bonus armor,  bonus magic resistance,  bonus movement speed,  bonus health regeneration, and  bonus mana regeneration, all for the next 25 seconds."
+      ]
+    }
+  ],
   "id": "Singed",
   "key": "27",
   "name": "Singed",
@@ -12,6 +213,7 @@
     "difficulty": 5
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Singed.png",
     "full": "Singed.png",
     "sprite": "champion3.png",
     "group": "champion",

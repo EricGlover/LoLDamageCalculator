@@ -1,0 +1,215 @@
+[
+  {
+    "name": "Iron Ambassador",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Poppy periodically  throws her buckler as her next basic attack, gaining  350 bonus range and dealing 20 − 180 (based on level) bonus magic damage. The buckler then falls near her target, where it remains for up to 4 seconds.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Iron Ambassador.png",
+    "icons": [
+      "Iron Ambassador.png",
+      "Iron Ambassador 2.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Poppy periodically  throws her buckler as her next basic attack, gaining  350 bonus range and dealing 20 − 180 (based on level) bonus magic damage. The buckler then falls near her target, where it remains for up to 4 seconds.",
+      "When Poppy picks up the buckler, she  shields herself for  15 / 17.5 / 20% (based on level) of her maximum health for 3 seconds. If the buckler kills its target, it bounces back to Poppy automatically. Enemy  champions can step on the buckler to destroy it."
+    ]
+  },
+  {
+    "name": "Hammer Shock",
+    "cost": [
+      35,
+      40,
+      45,
+      50,
+      55
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      8,
+      7,
+      6,
+      5,
+      4
+    ],
+    "description": "Active: Poppy smashes the ground in front of her in the target direction, dealing physical damage to all enemies hit. Against  monsters, the damage based on their maximum health is capped.",
+    "leveling": "Initial Physical Damage:»40 / 60 / 80 / 100 / 120 (+ 90% bonus AD) (+ 8% of target's maximum health)«Total Physical Damage:80 / 120 / 160 / 200 / 240 (+ 180% bonus AD) (+ 16% of target's maximum health)\nMaximum Initial Monster Damage:»90 / 140 / 190 / 240 / 290 (+ 90% bonus AD)«Maximum Monster Damage:180 / 280 / 380 / 480 / 580 (+ 180% bonus AD)",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "False",
+    "flatDamage": [
+      40,
+      60,
+      80,
+      100,
+      120
+    ],
+    "ratios": [
+      {
+        "value": 90,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Hammer Shock.png",
+    "icons": [
+      "Hammer Shock.png"
+    ],
+    "levelings": [
+      "Initial Physical Damage:»40 / 60 / 80 / 100 / 120 (+ 90% bonus AD) (+ 8% of target's maximum health)«Total Physical Damage:80 / 120 / 160 / 200 / 240 (+ 180% bonus AD) (+ 16% of target's maximum health)\nMaximum Initial Monster Damage:»90 / 140 / 190 / 240 / 290 (+ 90% bonus AD)«Maximum Monster Damage:180 / 280 / 380 / 480 / 580 (+ 180% bonus AD)",
+      "Slow:20 / 25 / 30 / 35 / 40%"
+    ],
+    "descriptions": [
+      "Active: Poppy smashes the ground in front of her in the target direction, dealing physical damage to all enemies hit. Against  monsters, the damage based on their maximum health is capped.",
+      "The impacted ground becomes unstable,  slowing enemies standing on it before erupting after 1 second, dealing the same physical damage to all enemies hit."
+    ]
+  },
+  {
+    "name": "Steadfast Presence",
+    "cost": [
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      24,
+      22,
+      20,
+      18,
+      16
+    ],
+    "description": "Passive: Poppy's  total armor and  total magic resistance are both increased by 10%, doubled to 20% when she falls  below 40% maximum health.",
+    "leveling": "Magic Damage:70 / 110 / 150 / 190 / 230 (+ 70% AP)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      70,
+      110,
+      150,
+      190,
+      230
+    ],
+    "ratios": [
+      {
+        "value": 70,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Stubborn to a Fault.png",
+    "icons": [
+      "Stubborn to a Fault.png",
+      "Steadfast Presence.png"
+    ],
+    "levelings": [
+      "Magic Damage:70 / 110 / 150 / 190 / 230 (+ 70% AP)"
+    ],
+    "descriptions": [
+      "Passive: Poppy's  total armor and  total magic resistance are both increased by 10%, doubled to 20% when she falls  below 40% maximum health.",
+      "Active: Poppy gains  40% bonus movement speed for 2 seconds and generates an aura around herself for the duration, causing all enemies who attempt to  dash through it to be dealt magic damage,  knocked up for 0.5 seconds, and afterwards both  grounded and  slowed by 25% for 2 seconds.",
+      "Steadfast Presence can only block a single dash per enemy per cast."
+    ]
+  },
+  {
+    "name": "Heroic Charge",
+    "cost": [
+      70
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      14,
+      13,
+      12,
+      11,
+      10
+    ],
+    "description": "Active: Poppy  dashes to the target enemy's location and, if they are in range upon arrival, she deals them physical damage and  carries them along with her for up to 300 units.",
+    "leveling": "Initial Physical Damage:»60 / 80 / 100 / 120 / 140 (+ 50% bonus AD)«Total Physical Damage:120 / 160 / 200 / 240 / 280 (+ 100% bonus AD)",
+    "skill": "E",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      60,
+      80,
+      100,
+      120,
+      140
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Heroic Charge.png",
+    "icons": [
+      "Heroic Charge.png"
+    ],
+    "levelings": [
+      "Initial Physical Damage:»60 / 80 / 100 / 120 / 140 (+ 50% bonus AD)«Total Physical Damage:120 / 160 / 200 / 240 / 280 (+ 100% bonus AD)",
+      "Stun Duration:1.6 / 1.7 / 1.8 / 1.9 / 2"
+    ],
+    "descriptions": [
+      "Active: Poppy  dashes to the target enemy's location and, if they are in range upon arrival, she deals them physical damage and  carries them along with her for up to 300 units.",
+      "If the target collides with terrain, she deals them the same physical damage again and  stuns them."
+    ]
+  },
+  {
+    "name": "Keeper's Verdict",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      140,
+      120,
+      100
+    ],
+    "description": "Active: Poppy  charges for up to 4 seconds,  slowing herself by 15% and increasing Keeper's Verdict's range and  knock back distance over the duration. Keeper's Verdict can be recast at any time within its duration.",
+    "leveling": "Physical Damage:200 / 300 / 400 (+ 90% bonus AD)",
+    "skill": "R",
+    "damageType": "Physical",
+    "isProjectile": "True",
+    "flatDamage": [
+      200,
+      300,
+      400,
+      90
+    ],
+    "ratios": [
+      {
+        "value": 90,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.35,
+    "icon": "Keeper's Verdict.png",
+    "icons": [
+      "Keeper's Verdict.png"
+    ],
+    "levelings": [
+      "Physical Damage:200 / 300 / 400 (+ 90% bonus AD)",
+      "Reduced Physical Damage:100 / 150 / 200 (+ 45% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Poppy  charges for up to 4 seconds,  slowing herself by 15% and increasing Keeper's Verdict's range and  knock back distance over the duration. Keeper's Verdict can be recast at any time within its duration.",
+      "Recast: Poppy smashes the ground, sending out a shockwave that travels in the target direction until it collides with an enemy  champion, causing a hammer to erupt in the process. Enemies within the shockwave's path or struck by the hammer's eruption are dealt physical damage and  knocked back a massive distance towards the enemy team's fountain.",
+      "Releasing the ability within 0.5 seconds of the activation ends the charge to instead launch the hammer upwards, dealing 50% damage and  knocking up all enemies around Poppy for 0.75 seconds.",
+      "If Poppy is  interrupted during the charge, or the charge completes without reactivation, Keeper's Verdict is canceled and the ability is put on a 30-second  cooldown.",
+      "Enemies knocked  airborne are  revealed and are rendered  untargetable while being displaced if Poppy charged Keeper's Verdict for more than 0.5 seconds."
+    ]
+  }
+]

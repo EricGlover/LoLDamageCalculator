@@ -1,6 +1,36 @@
 {
   "abilities": [
     {
+      "name": "Hemorrhage",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Damaging basic attacks on-attack and abilities cause the target to bleed every 1.25 seconds for 5 seconds, dealing 13 − 30 (based on level) (+ 30% bonus AD) physical damage over the duration. This can stack up to 5 times for a maximum of 65 − 150 (based on level) (+ 150% bonus AD) physical damage over the duration. The total damage is increased by 75% against  monsters.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Hemorrhage.png",
+      "icons": [
+        "Hemorrhage.png",
+        "Hemorrhage 3.png",
+        "Hemorrhage 2.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Damaging basic attacks on-attack and abilities cause the target to bleed every 1.25 seconds for 5 seconds, dealing 13 − 30 (based on level) (+ 30% bonus AD) physical damage over the duration. This can stack up to 5 times for a maximum of 65 − 150 (based on level) (+ 150% bonus AD) physical damage over the duration. The total damage is increased by 75% against  monsters.",
+        "Upon applying full Hemorrhage stacks to an enemy  champion or killing one with  Noxian Guillotine, Darius gains Noxian Might for 5 seconds.",
+        "Noxian Might: Darius gains 30 − 230 (based on level)  bonus attack damage and instantly applies full Hemorrhage stacks through his usual means."
+      ]
+    },
+    {
       "name": "Decimate",
       "cost": [
         30,
@@ -51,7 +81,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Decimate.png",
+      "icons": [
+        "Decimate.png"
+      ],
+      "levelings": [
+        "Blade Physical Damage:»50 / 80 / 110 / 140 / 170 (+ 100 / 110 / 120 / 130 / 140% AD)«Handle Physical Damage:17.5 / 28 / 38.5 / 49 / 59.5 (+ 35 / 38.5 / 42 / 45.5 / 49% AD)"
+      ],
+      "descriptions": [
+        "Active: Darius hefts his axe for 0.75 seconds, and then swings it around himself, dealing physical damage to nearby enemies, reduced to 35% against enemies hit by the handle.",
+        "Against champions and large monsters, Darius  heals for  15% − 45% (based on enemies hit by the blade) of his missing health. The handle of Darius'  axe will not apply  Hemorrhage nor heal him.",
+        "Darius is unable to declare basic attacks or cast  Apprehend or  Noxian Guillotine during Decimate."
+      ]
     },
     {
       "name": "Crippling Strike",
@@ -66,7 +108,7 @@
         5,
         5
       ],
-      "description": "Active: Darius'  next basic attack within 4 seconds becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Excessive_Force_2.png/revision/latest/scale-to-width-down/20?cb=20160608034953\" \t alt=\"Excessive Force 2\"  \tclass=\"\" \t \tdata-image-key=\"Excessive_Force_2.png\" \tdata-image-name=\"Excessive Force 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unstoppable, gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 25 bonus range, deals bonus physical damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows the target by 90% for 1 second.",
+      "description": "Active: Darius'  next basic attack within 4 seconds becomes  unstoppable, gains  25 bonus range, deals bonus physical damage and  slows the target by 90% for 1 second.",
       "leveling": "Bonus Physical Damage:40 / 45 / 50 / 55 / 60% AD",
       "skill": "W",
       "damageType": "Physical",
@@ -79,7 +121,20 @@
         60
       ],
       "ratios": [],
-      "castTime": null
+      "castTime": null,
+      "icon": "Crippling Strike.png",
+      "icons": [
+        "Crippling Strike.png"
+      ],
+      "levelings": [
+        "Bonus Physical Damage:40 / 45 / 50 / 55 / 60% AD"
+      ],
+      "descriptions": [
+        "Active: Darius'  next basic attack within 4 seconds becomes  unstoppable, gains  25 bonus range, deals bonus physical damage and  slows the target by 90% for 1 second.",
+        "If Crippling Strike kills the target, it refunds its  mana cost and half of its  cooldown.",
+        "Crippling Strike  resets Darius'  basic attack timer, and is affected by  critical strike modifiers.",
+        "The attack's animation can be cancelled by casting  Decimate, but the attack will still land."
+      ]
     },
     {
       "name": "Apprehend",
@@ -98,7 +153,7 @@
         15,
         12
       ],
-      "description": "Passive: Darius gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Armor_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_penetration_icon.png\" \tdata-image-name=\"Armor penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> armor penetration.",
+      "description": "Passive: Darius gains  armor penetration.",
       "leveling": "Armor Penetration:15 / 20 / 25 / 30 / 35%",
       "skill": "E",
       "damageType": "",
@@ -111,7 +166,18 @@
         35
       ],
       "ratios": [],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Apprehend.png",
+      "icons": [
+        "Apprehend.png"
+      ],
+      "levelings": [
+        "Armor Penetration:15 / 20 / 25 / 30 / 35%"
+      ],
+      "descriptions": [
+        "Passive: Darius gains  armor penetration.",
+        "Active: Darius  pulls in all enemies in front of him in the target direction,  slowing them by 40% for 1 second, and briefly gaining  sight of the area around the pull."
+      ]
     },
     {
       "name": "Noxian Guillotine",
@@ -126,7 +192,7 @@
         100,
         80
       ],
-      "description": "Active: Darius attempts to execute the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Bear_Stance.png/revision/latest/scale-to-width-down/20?cb=20171223035155\" \t alt=\"Bear Stance\"  \tclass=\"\" \t \tdata-image-key=\"Bear_Stance.png\" \tdata-image-name=\"Bear Stance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leaping towards them to deal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c0/Hybrid_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20171001102450\" \t alt=\"Hybrid penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration_icon.png\" \tdata-image-name=\"Hybrid penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> true damage, increased by 0% −  100% (based on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8f/Hemorrhage.png/revision/latest/scale-to-width-down/20?cb=20191111171216\" \t alt=\"Hemorrhage\"  \tclass=\"\" \t \tdata-image-key=\"Hemorrhage.png\" \tdata-image-name=\"Hemorrhage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hemorrhage stacks).",
+      "description": "Active: Darius attempts to execute the target enemy  champion,  leaping towards them to deal  true damage, increased by 0% −  100% (based on  Hemorrhage stacks).",
       "leveling": "True Damage:»100 / 200 / 300 (+ 75% bonus AD)«Bonus Damage Per Stack:»20 / 40 / 60 (+ 15% bonus AD)«Maximum True Damage:200 / 400 / 600 (+ 150% bonus AD)",
       "skill": "R",
       "damageType": "True",
@@ -144,7 +210,20 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.3667
+      "castTime": 0.3667,
+      "icon": "Noxian Guillotine.png",
+      "icons": [
+        "Noxian Guillotine.png"
+      ],
+      "levelings": [
+        "True Damage:»100 / 200 / 300 (+ 75% bonus AD)«Bonus Damage Per Stack:»20 / 40 / 60 (+ 15% bonus AD)«Maximum True Damage:200 / 400 / 600 (+ 150% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Darius attempts to execute the target enemy  champion,  leaping towards them to deal  true damage, increased by 0% −  100% (based on  Hemorrhage stacks).",
+        "If the target dies within 0.15 seconds after being hit by Noxian Guillotine, Darius causes all nearby  minions and  monsters to  flee for 3 seconds during which they are rapidly  slowed by up to 99% over the duration, and is able to recast the ability within 20 seconds at no cost, which refreshes on further executions.",
+        "At rank 3, Noxian Guillotine has no  mana cost and instead completely resets its  cooldown if it kills its target.",
+        "Darius is unable to cast  Decimate and  Apprehend for 0.25 seconds after Noxian Guillotine's cast time."
+      ]
     }
   ],
   "id": "Darius",
@@ -159,6 +238,7 @@
     "difficulty": 2
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Darius.png",
     "full": "Darius.png",
     "sprite": "champion0.png",
     "group": "champion",

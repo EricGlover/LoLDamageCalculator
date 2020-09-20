@@ -1,0 +1,207 @@
+[
+  {
+    "name": "Eternal Hunger",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Warwick deals 10 − 44 (based on level) bonus magic damage on-hit.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Eternal Hunger.png",
+    "icons": [
+      "Eternal Hunger.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Warwick deals 10 − 44 (based on level) bonus magic damage on-hit.",
+      "While below  50% maximum health, Warwick also  heals for 100% of the post-mitigation damage dealt by Eternal Hunger, increased to 250% while below 25% maximum health."
+    ]
+  },
+  {
+    "name": "Jaws of the Beast",
+    "cost": [
+      50,
+      60,
+      70,
+      80,
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      6
+    ],
+    "description": "Active: Warwick  lunges at the target enemy, biting them after 0.265 seconds to deal them magic damage and  heal himself for a portion of the post-mitigation damage dealt by the ability.",
+    "leveling": "Magic Damage:120% AD (+ 100% AP) (+ 6 / 7 / 8 / 9 / 10% of target's maximum health)\nHealing Percentage:30 / 45 / 60 / 75 / 90%",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      120,
+      100,
+      6,
+      7,
+      8
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Jaws of the Beast.png",
+    "icons": [
+      "Jaws of the Beast.png"
+    ],
+    "levelings": [
+      "Magic Damage:120% AD (+ 100% AP) (+ 6 / 7 / 8 / 9 / 10% of target's maximum health)\nHealing Percentage:30 / 45 / 60 / 75 / 90%"
+    ],
+    "descriptions": [
+      "Active: Warwick  lunges at the target enemy, biting them after 0.265 seconds to deal them magic damage and  heal himself for a portion of the post-mitigation damage dealt by the ability.",
+      "Hold: Jaws of the Beast can be held down where Warwick performs the bite as usual then begins to  charge for up to 0.5 seconds, during which he  dashes behind his target and sticking to them, following their position anywhere on the map. The duration is extended if the target is under the effect of a  dash or a  displacement.",
+      "During the ability, Warwick is also  displacement immune.",
+      "Jaws of the Beast applies on-hit and on-attack effects, and  life steal with 100% effectiveness.",
+      "If the target dies prior to Warwick reaching them, the  cooldown is refunded unless the ability was held."
+    ]
+  },
+  {
+    "name": "Blood Hunt",
+    "cost": [
+      70
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      120,
+      105,
+      90,
+      75,
+      60
+    ],
+    "description": "Passive: While alive, Warwick senses all enemy  champions who are damaged by an allied unit to below  50% of their maximum health, marking them as Blood Hunted. Warwick sees a \"blood trail\" highlighting the shortest path to the Blood Hunted targets, and he gains  bonus movement speed while following it.",
+    "leveling": "Bonus Movement Speed:»35 / 40 / 45 / 50 / 55%«Enhanced Movement Speed:87.5 / 100 / 112.5 / 125 / 137.5%",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      35,
+      40,
+      45,
+      50,
+      55
+    ],
+    "ratios": [],
+    "castTime": 0.5,
+    "icon": "Warwick Blood Hunt Mark.png",
+    "icons": [
+      "Warwick Blood Hunt Mark.png",
+      "Blood Hunt.png"
+    ],
+    "levelings": [
+      "Bonus Movement Speed:»35 / 40 / 45 / 50 / 55%«Enhanced Movement Speed:87.5 / 100 / 112.5 / 125 / 137.5%",
+      "Bonus Attack Speed:»70 / 80 / 90 / 100 / 110%«Enhanced Attack Speed:175 / 200 / 225 / 250 / 275%"
+    ],
+    "descriptions": [
+      "Passive: While alive, Warwick senses all enemy  champions who are damaged by an allied unit to below  50% of their maximum health, marking them as Blood Hunted. Warwick sees a \"blood trail\" highlighting the shortest path to the Blood Hunted targets, and he gains  bonus movement speed while following it.",
+      "Warwick also gains  bonus attack speed upon  basic attacking a Blood Hunted target or an enemy unit who is below  50% of their maximum health.",
+      "These bonuses are enhanced to 250% against targets below  20% of their maximum health.",
+      "Upon entering combat with an enemy  champion, the  bonus movement speed is lost for 0.5 seconds, but builds up again every 0.25 seconds over the next 3.5 seconds.",
+      "Active: Warwick briefly senses all nearby enemies within a large radius and marks the nearest enemy  champion as Blood Hunted for 8 seconds, regardless of their  current health."
+    ]
+  },
+  {
+    "name": "Primal Howl",
+    "cost": [
+      40
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "description": "Active: Warwick gains damage reduction for up to 2.5 seconds. Primal Howl can be recast after 1 second, and automatically does so when the effect ends.",
+    "leveling": "Damage Reduction:35 / 40 / 45 / 50 / 55%",
+    "skill": "E",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      35,
+      40,
+      45,
+      50,
+      55
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Primal Howl.png",
+    "icons": [
+      "Primal Howl.png",
+      "Primal Howl 2.png"
+    ],
+    "levelings": [
+      "Damage Reduction:35 / 40 / 45 / 50 / 55%"
+    ],
+    "descriptions": [
+      "Active: Warwick gains damage reduction for up to 2.5 seconds. Primal Howl can be recast after 1 second, and automatically does so when the effect ends.",
+      "Recast: Warwick howls, ending Primal Howl's effects and causing all nearby enemies to  flee in terror for 1 second while being  slowed by 90%.",
+      "Channeling  Infinite Duress while Primal Howl is active will initiate the recast without ending the damage reduction buff prematurely."
+    ]
+  },
+  {
+    "name": "Infinite Duress",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      110,
+      100,
+      90,
+      80,
+      70
+    ],
+    "description": "Active: Warwick  leaps in the target direction, during which he is  immune to crowd control.",
+    "leveling": "Total Magic Damage:175 / 262.5 / 350 / 437.5 / 525 (+ 167% bonus AD)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      175,
+      262.5,
+      350,
+      437.5,
+      525
+    ],
+    "ratios": [
+      {
+        "value": 167,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.1,
+    "icon": "Infinite Duress.png",
+    "icons": [
+      "Infinite Duress.png"
+    ],
+    "levelings": [
+      "Total Magic Damage:175 / 262.5 / 350 / 437.5 / 525 (+ 167% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Warwick  leaps in the target direction, during which he is  immune to crowd control.",
+      "If he collides with an enemy  champion, he  knocks them down and begins to  channel for 1.5 seconds, during which the target is  suppressed,  revealed, and dealt 6 instances of magic damage.",
+      "Warwick is  healed for 100% of all post-mitigation damage he deals to his target during Infinite Duress.",
+      "Infinite Duress applies on-hit and on-attack effects 3 times, and life steal with 100% effectiveness."
+    ]
+  }
+]

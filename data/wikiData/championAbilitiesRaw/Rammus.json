@@ -1,0 +1,1204 @@
+[
+  {
+    "1": {
+      "value": "Spiked Shell",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Spiked Shell."
+    },
+    "champion": {
+      "value": "Rammus",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "I",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Spiked Shell.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Rammus' basic attacks deal bonus magic damage, scaling with his Armor.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Innate: Rammus'  basic attacks deal 10 (+ 10% armor) bonus magic damage, increased to 15 (+ 15% armor) while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f7/Defensive_Ball_Curl.png/revision/latest/scale-to-width-down/20?cb=20150312020949\" \t alt=\"Defensive Ball Curl\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Defensive_Ball_Curl.png\" \tdata-image-name=\"Defensive Ball Curl.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Defensive Ball Curl is active.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Passive",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "proc",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* No additional details.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Powerball",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Powerball."
+    },
+    "champion": {
+      "value": "Rammus",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "Q",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Range_center.png/revision/latest/scale-to-width-down/20?cb=20150616134211\" \t alt=\"Range center\"  \tclass=\"\" \t \tdata-image-key=\"Range_center.png\" \tdata-image-name=\"Range center.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 200",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "60",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "16 / 13.5 / 11 / 8.5 / 6",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Powerball.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Rammus accelerates in a ball towards his enemies, dealing damage and slowing targets affected by the impact.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Rammus tucks into a ball and begins to roll, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channeling for up to 6 seconds, gaining 25% − 39.17% (based on level) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed per second over the duration, up to a maximum of 150% − 235% (based on level) bonus movement speed.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Rammus stops rolling upon colliding with an enemy, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking back all nearby enemies 100 units over 0.75 seconds, dealing them magic damage, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them for 1 second. Powerball can be recast after 1 second.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Magic Damage:100 / 135 / 170 / 205 / 240 (+ 100% AP)\nSlow:40 / 50 / 60 / 70 / 80%",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Recast: Rammus ends the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channel early.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "None",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Area of effect",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* The initial cast and the manual recast count as ability activations for the purposes of on-cast effects such as Spellblade, charging <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder, and stacking <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Force_Pulse.png/revision/latest/scale-to-width-down/20?cb=20170818190412\" \t alt=\"Force Pulse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Force_Pulse.png\" \tdata-image-name=\"Force Pulse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Force Pulse.\n If the ability is not manually recasted, the secondary effect will trigger without being considered as an ability activation.\n\n Powerball will still collide with enemies if Rammus is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted.\n For the purpose of moving closer to an enemy when right clicking them, Powerball also reduces Rammus' attack range to 0 for the duration.\n Because Powerball uses <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Range_center.png/revision/latest/scale-to-width-down/20?cb=20150616134211\" \t alt=\"Range center\"  \tclass=\"\" \t \tdata-image-key=\"Range_center.png\" \tdata-image-name=\"Range center.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> center range, Rammus may still find himself not automatically colliding with targets with a radius of 135 units or larger. Instead, the player has to right click a destination that causes Rammus to attempt to roll close by the large enemy.\n\n Powerball will trigger Mana Charge twice (upon activation and when ending it prematurely).\n Powerball is not a movement channel, and so will not be <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> interrupted by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> root and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Grounded_icon.png/revision/latest/scale-to-width-down/20?cb=20160509000039\" \t alt=\"Grounded icon\"  \tclass=\"\" \t \tdata-image-key=\"Grounded_icon.png\" \tdata-image-name=\"Grounded icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ground.\n The following table refers for interactions while Rammus is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channeling:\n\n\n\n Type\n Channel\n\n\n Attacking\n Disabled\n\n\n Abilities\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Powerball.png/revision/latest/scale-to-width-down/20?cb=20150312023510\" \t alt=\"Powerball\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Powerball.png\" \tdata-image-name=\"Powerball.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Powerball interrupts. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Frenzying_Taunt.png/revision/latest/scale-to-width-down/20?cb=20170308195431\" \t alt=\"Frenzying Taunt\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Frenzying_Taunt.png\" \tdata-image-name=\"Frenzying Taunt.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Frenzying Taunt is disabled. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1c/Tremors.png/revision/latest/scale-to-width-down/20?cb=20150312023125\" \t alt=\"Tremors\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tremors.png\" \tdata-image-name=\"Tremors.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tremors is usable. This ability recasts to end channel.\n\n\n Movement\n Allowed\n\n\n Items\n Usable\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/00/Shurelya%27s_Reverie_item.png/revision/latest/scale-to-width-down/20?cb=20180511220011\" \t alt=\"Shurelya&amp;#039;s Reverie item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shurelya%27s_Reverie_item.png\" \tdata-image-name=\"Shurelya&#39;s Reverie item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shurelya's Reverie <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Righteous_Glory_item.png/revision/latest/scale-to-width-down/20?cb=20171221231127\" \t alt=\"Righteous Glory item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Righteous_Glory_item.png\" \tdata-image-name=\"Righteous Glory item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Righteous Glory <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Youmuu%27s_Ghostblade_item.png/revision/latest/scale-to-width-down/20?cb=20171222002403\" \t alt=\"Youmuu&amp;#039;s Ghostblade item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Youmuu%27s_Ghostblade_item.png\" \tdata-image-name=\"Youmuu&#39;s Ghostblade item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Youmuu's Ghostblade <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Gargoyle_Stoneplate_item.png/revision/latest/scale-to-width-down/20?cb=20171221183200\" \t alt=\"Gargoyle Stoneplate item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gargoyle_Stoneplate_item.png\" \tdata-image-name=\"Gargoyle Stoneplate item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gargoyle Stoneplate <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/08/Randuin%27s_Omen_item.png/revision/latest/scale-to-width-down/20?cb=20171221230256\" \t alt=\"Randuin&amp;#039;s Omen item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Randuin%27s_Omen_item.png\" \tdata-image-name=\"Randuin&#39;s Omen item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Randuin's Omen <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b9/Seraph%27s_Embrace_item.png/revision/latest/scale-to-width-down/20?cb=20171221232010\" \t alt=\"Seraph&amp;#039;s Embrace item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Seraph%27s_Embrace_item.png\" \tdata-image-name=\"Seraph&#39;s Embrace item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Seraph's Embrace\n\n\n Disabled\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Hextech_Protobelt-01_item.png/revision/latest/scale-to-width-down/20?cb=20171221185647\" \t alt=\"Hextech Protobelt-01 item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hextech_Protobelt-01_item.png\" \tdata-image-name=\"Hextech Protobelt-01 item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hextech Protobelt-01\n\n\n Interrupted by\n All item-actives not specified above interrupt\n\n\n\n Consumables\n Usable\n\n\n Spells\n Usable\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cc/Barrier.png/revision/latest/scale-to-width-down/20?cb=20180514002510\" \t alt=\"Barrier\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Barrier.png\" \tdata-image-name=\"Barrier.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Barrier <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Clarity.png/revision/latest/scale-to-width-down/20?cb=20180514002750\" \t alt=\"Clarity\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clarity.png\" \tdata-image-name=\"Clarity.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Clarity <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cleanse.png/revision/latest/scale-to-width-down/20?cb=20180514002812\" \t alt=\"Cleanse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cleanse.png\" \tdata-image-name=\"Cleanse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cleanse <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Exhaust.png/revision/latest/scale-to-width-down/20?cb=20180514003128\" \t alt=\"Exhaust\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Exhaust.png\" \tdata-image-name=\"Exhaust.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Exhaust <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ghost <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Heal.png/revision/latest/scale-to-width-down/20?cb=20180514003319\" \t alt=\"Heal\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Heal.png\" \tdata-image-name=\"Heal.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Heal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/Ignite.png/revision/latest/scale-to-width-down/20?cb=20180514003345\" \t alt=\"Ignite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ignite.png\" \tdata-image-name=\"Ignite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ignite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Smite.png/revision/latest/scale-to-width-down/20?cb=20180514003641\" \t alt=\"Smite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Smite.png\" \tdata-image-name=\"Smite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Smite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flash\n\n\n Disabled\n N/A\n\n\n Interrupted by\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Hexflash.png/revision/latest/scale-to-width-down/20?cb=20180514003331\" \t alt=\"Hexflash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hexflash.png\" \tdata-image-name=\"Hexflash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hexflash\n\n\n\n Interrupted by\n Death<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Silencing effects",
+      "description": "Channel"
+    },
+    "Channel": {},
+    "Disabled": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Powerball.png/revision/latest/scale-to-width-down/20?cb=20150312023510\" \t alt=\"Powerball\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Powerball.png\" \tdata-image-name=\"Powerball.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Powerball interrupts. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Frenzying_Taunt.png/revision/latest/scale-to-width-down/20?cb=20170308195431\" \t alt=\"Frenzying Taunt\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Frenzying_Taunt.png\" \tdata-image-name=\"Frenzying Taunt.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Frenzying Taunt is disabled. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1c/Tremors.png/revision/latest/scale-to-width-down/20?cb=20150312023125\" \t alt=\"Tremors\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tremors.png\" \tdata-image-name=\"Tremors.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tremors is usable. This ability recasts to end channel.": {},
+    "Allowed": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/00/Shurelya%27s_Reverie_item.png/revision/latest/scale-to-width-down/20?cb=20180511220011\" \t alt=\"Shurelya&amp;#039;s Reverie item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shurelya%27s_Reverie_item.png\" \tdata-image-name=\"Shurelya&#39;s Reverie item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shurelya's Reverie <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Righteous_Glory_item.png/revision/latest/scale-to-width-down/20?cb=20171221231127\" \t alt=\"Righteous Glory item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Righteous_Glory_item.png\" \tdata-image-name=\"Righteous Glory item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Righteous Glory <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Youmuu%27s_Ghostblade_item.png/revision/latest/scale-to-width-down/20?cb=20171222002403\" \t alt=\"Youmuu&amp;#039;s Ghostblade item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Youmuu%27s_Ghostblade_item.png\" \tdata-image-name=\"Youmuu&#39;s Ghostblade item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Youmuu's Ghostblade <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Gargoyle_Stoneplate_item.png/revision/latest/scale-to-width-down/20?cb=20171221183200\" \t alt=\"Gargoyle Stoneplate item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gargoyle_Stoneplate_item.png\" \tdata-image-name=\"Gargoyle Stoneplate item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gargoyle Stoneplate <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/08/Randuin%27s_Omen_item.png/revision/latest/scale-to-width-down/20?cb=20171221230256\" \t alt=\"Randuin&amp;#039;s Omen item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Randuin%27s_Omen_item.png\" \tdata-image-name=\"Randuin&#39;s Omen item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Randuin's Omen <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b9/Seraph%27s_Embrace_item.png/revision/latest/scale-to-width-down/20?cb=20171221232010\" \t alt=\"Seraph&amp;#039;s Embrace item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Seraph%27s_Embrace_item.png\" \tdata-image-name=\"Seraph&#39;s Embrace item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Seraph's Embrace": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Hextech_Protobelt-01_item.png/revision/latest/scale-to-width-down/20?cb=20171221185647\" \t alt=\"Hextech Protobelt-01 item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hextech_Protobelt-01_item.png\" \tdata-image-name=\"Hextech Protobelt-01 item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hextech Protobelt-01": {},
+    "All item-actives not specified above interrupt": {},
+    "Usable": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cc/Barrier.png/revision/latest/scale-to-width-down/20?cb=20180514002510\" \t alt=\"Barrier\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Barrier.png\" \tdata-image-name=\"Barrier.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Barrier <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Clarity.png/revision/latest/scale-to-width-down/20?cb=20180514002750\" \t alt=\"Clarity\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clarity.png\" \tdata-image-name=\"Clarity.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Clarity <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cleanse.png/revision/latest/scale-to-width-down/20?cb=20180514002812\" \t alt=\"Cleanse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cleanse.png\" \tdata-image-name=\"Cleanse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cleanse <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Exhaust.png/revision/latest/scale-to-width-down/20?cb=20180514003128\" \t alt=\"Exhaust\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Exhaust.png\" \tdata-image-name=\"Exhaust.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Exhaust <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ghost <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Heal.png/revision/latest/scale-to-width-down/20?cb=20180514003319\" \t alt=\"Heal\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Heal.png\" \tdata-image-name=\"Heal.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Heal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/Ignite.png/revision/latest/scale-to-width-down/20?cb=20180514003345\" \t alt=\"Ignite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ignite.png\" \tdata-image-name=\"Ignite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ignite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Smite.png/revision/latest/scale-to-width-down/20?cb=20180514003641\" \t alt=\"Smite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Smite.png\" \tdata-image-name=\"Smite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Smite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flash": {},
+    "N/A": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Hexflash.png/revision/latest/scale-to-width-down/20?cb=20180514003331\" \t alt=\"Hexflash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hexflash.png\" \tdata-image-name=\"Hexflash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hexflash": {},
+    "Death<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Silencing effects": {},
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Defensive Ball Curl",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Defensive Ball Curl."
+    },
+    "champion": {
+      "value": "Rammus",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "W",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "40",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "6",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Defensive Ball Curl.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Rammus goes into a defensive formation, vastly increasing his Armor and Magic Resistance, amplifying Spiked Shells' damage, and returning damage to enemies that basic attack him, but he is also slowed during this time.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Rammus drops into a defensive stance for 6 seconds, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus magic resistance, becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed by 30%, increasing <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f7/Spiked_Shell.png/revision/latest/scale-to-width-down/20?cb=20150312023232\" \t alt=\"Spiked Shell\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spiked_Shell.png\" \tdata-image-name=\"Spiked Shell.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spiked Shell's damage by 50%, and applying it to enemies whenever they land a basic attack on-hit to Rammus. Defensive Ball Curl can be recast after 1 second.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Bonus Armor:30 (+ 60 / 70 / 80 / 90 / 100% total armor)\nBonus Magic Resistance:10 (+ 30 / 35 / 40 / 45 / 50% total magic resistance)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Recast: Rammus ends Defensive Ball Curl early.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "None",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self, Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "aoe",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "False",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "*The initial cast counts as an ability activation for the purposes of on-cast effects such as Spellblade, charging <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder, and stacking <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Force_Pulse.png/revision/latest/scale-to-width-down/20?cb=20170818190412\" \t alt=\"Force Pulse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Force_Pulse.png\" \tdata-image-name=\"Force Pulse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Force Pulse.\nDeactivating the ability manually does not.\n\n Defensive Ball Curl ends immediately if <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Powerball.png/revision/latest/scale-to-width-down/20?cb=20150312023510\" \t alt=\"Powerball\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Powerball.png\" \tdata-image-name=\"Powerball.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Powerball is cast.\n Defensive Ball Curl will return damage from attacks and/or abilities that apply on-hit effects (<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5a/Mystic_Shot.png/revision/latest/scale-to-width-down/20?cb=20180925213609\" \t alt=\"Mystic Shot\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mystic_Shot.png\" \tdata-image-name=\"Mystic Shot.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mystic Shot) as well as from <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f5/Runaan%27s_Hurricane_item.png/revision/latest/scale-to-width-down/20?cb=20171221231511\" \t alt=\"Runaan&amp;#039;s Hurricane item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Runaan%27s_Hurricane_item.png\" \tdata-image-name=\"Runaan&#39;s Hurricane item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Runaan's Hurricane's Wind's Fury (will not return damage from turrets, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/10/H-28G_Evolution_Turret.png/revision/latest/scale-to-width-down/20?cb=20140317235031\" \t alt=\"H-28G Evolution Turret\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"H-28G_Evolution_Turret.png\" \tdata-image-name=\"H-28G Evolution Turret.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> H-28G Evolution Turret, or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Jack_in_the_Box.png/revision/latest/scale-to-width-down/20?cb=20160608033612\" \t alt=\"Jack in the Box\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Jack_in_the_Box.png\" \tdata-image-name=\"Jack in the Box.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Jack in the Box).\n The resistance scaling will factor from all other sources, including Defensive Ball Curl's flat bonus. This will recalculate over the duration.\n The <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow is reduced by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/31/Slow_immune_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164447\" \t alt=\"Slow immune icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_immune_icon.png\" \tdata-image-name=\"Slow immune icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow resist.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Frenzying Taunt",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Frenzying Taunt."
+    },
+    "champion": {
+      "value": "Rammus",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "E",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Range_center.png/revision/latest/scale-to-width-down/20?cb=20150616134211\" \t alt=\"Range center\"  \tclass=\"\" \t \tdata-image-key=\"Range_center.png\" \tdata-image-name=\"Range center.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 325",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "50",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "12 / 11.5 / 11 / 10.5 / 10",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Frenzying Taunt.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Rammus taunts an enemy champion or monster into a reckless assault against him. Additionally, he gains increased Attack Speed for a short time, but this bonus is extended by having any of his other spells active.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Rammus <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Taunt_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223944\" \t alt=\"Taunt icon\"  \tclass=\"\" \t \tdata-image-key=\"Taunt_icon.png\" \tdata-image-name=\"Taunt icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> taunts the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monster, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed for the duration.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Effect Duration:1.25 / 1.5 / 1.75 / 2 / 2.25Bonus Attack Speed:20 / 25 / 30 / 35 / 40%",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "While <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Powerball.png/revision/latest/scale-to-width-down/20?cb=20150312023510\" \t alt=\"Powerball\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Powerball.png\" \tdata-image-name=\"Powerball.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Powerball, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f7/Defensive_Ball_Curl.png/revision/latest/scale-to-width-down/20?cb=20150312020949\" \t alt=\"Defensive Ball Curl\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Defensive_Ball_Curl.png\" \tdata-image-name=\"Defensive Ball Curl.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Defensive Ball Curl or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1c/Tremors.png/revision/latest/scale-to-width-down/20?cb=20150312023125\" \t alt=\"Tremors\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tremors.png\" \tdata-image-name=\"Tremors.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tremors is active, the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed duration refreshes.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Unit",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies, Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "false",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Frenzying Taunt, despite being usable on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters, does not force them to attack Rammus. He does not draw aggro since the ability does not deal damage.\n The bonus attack speed's duration is separate from the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Taunt_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223944\" \t alt=\"Taunt icon\"  \tclass=\"\" \t \tdata-image-key=\"Taunt_icon.png\" \tdata-image-name=\"Taunt icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> taunt's duration.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Tremors",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Tremors."
+    },
+    "champion": {
+      "value": "Rammus",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "R",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Range_center.png/revision/latest/scale-to-width-down/20?cb=20150616134211\" \t alt=\"Range center\"  \tclass=\"\" \t \tdata-image-key=\"Range_center.png\" \tdata-image-name=\"Range center.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 385",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "100",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "100 / 90 / 80 / 70 / 60",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Tremors.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Rammus creates waves of destruction pulsing through the ground, causing damage to nearby enemies and slowing them. Turrets take double damage from Tremors.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Rammus creates an earthquake around himself for 8 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing and dealing magic damage each second to nearby enemies for the duration. Structures receive double damage.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Magic Damage Per Second:»30 / 45 / 60 / 75 / 90 (+ 20% AP)«Total Magic Damage:240 / 360 / 480 / 600 / 720 (+ 160% AP)\nStructure Magic Damage Per Second:»60 / 90 / 120 / 150 / 180 (+ 40% AP)«Structure Total Magic Damage:480 / 720 / 960 / 1200 / 1440 (+ 320% AP)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "The <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow persists for 1.5 seconds and stacks up to 8 times.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Slow:»8 / 9 / 10 / 11 / 12%«Maximum Slow:64 / 72 / 80 / 88 / 96%",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "None",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "aoedot",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "true",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shield only prevents one tick of the ability.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  }
+]

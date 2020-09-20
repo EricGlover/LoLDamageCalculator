@@ -1,0 +1,201 @@
+[
+  {
+    "name": "Voracity",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Whenever an enemy champion dies within 3 seconds of Katarina damaging them, her abilities' current  cooldowns are reduced by 15 seconds.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Voracity.png",
+    "icons": [
+      "Voracity.png",
+      "Sinister Steel.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Whenever an enemy champion dies within 3 seconds of Katarina damaging them, her abilities' current  cooldowns are reduced by 15 seconds.",
+      "Innate - Sinister Steel: Whenever Katarina retrieves a Dagger, she uses it to slash through all nearby enemies, dealing 68 − 240 (based on level) (+ 100% bonus AD) (+ 55 / 66 / 77 / 88% (based on level) AP)  magic damage and reducing  Shunpo's current  cooldown by 78 / 84 / 90 / 96% (based on level).",
+      "Daggers take 1 second to land, and will disappear after being on the ground for 4 seconds."
+    ]
+  },
+  {
+    "name": "Bouncing Blade",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      11,
+      10,
+      9,
+      8,
+      7
+    ],
+    "description": "Active: Katarina throws a Dagger at the target enemy that bounces to up to 2 nearby enemies, dealing magic damage to each target.",
+    "leveling": "Magic Damage:75 / 105 / 135 / 165 / 195 (+ 30% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      75,
+      105,
+      135,
+      165,
+      195
+    ],
+    "ratios": [
+      {
+        "value": 30,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Bouncing Blade.png",
+    "icons": [
+      "Bouncing Blade.png"
+    ],
+    "levelings": [
+      "Magic Damage:75 / 105 / 135 / 165 / 195 (+ 30% AP)"
+    ],
+    "descriptions": [
+      "Active: Katarina throws a Dagger at the target enemy that bounces to up to 2 nearby enemies, dealing magic damage to each target.",
+      "The Dagger then lands on the ground 350 units opposite from where it struck the target.",
+      "The Dagger bounces to targets regardless of having  sight of them or not."
+    ]
+  },
+  {
+    "name": "Preparation",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "description": "Active: Katarina tosses a Dagger into the air above her current location, gaining  ghosting and a decaying  bonus movement speed until it lands after 1.25 seconds.",
+    "leveling": "Bonus Movement speed:50 / 60 / 70 / 80 / 90%",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      50,
+      60,
+      70,
+      80,
+      90
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Preparation.png",
+    "icons": [
+      "Preparation.png"
+    ],
+    "levelings": [
+      "Bonus Movement speed:50 / 60 / 70 / 80 / 90%"
+    ],
+    "descriptions": [
+      "Active: Katarina tosses a Dagger into the air above her current location, gaining  ghosting and a decaying  bonus movement speed until it lands after 1.25 seconds."
+    ]
+  },
+  {
+    "name": "Shunpo",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      14,
+      12,
+      11,
+      9,
+      8
+    ],
+    "description": "Active: Katarina instantly  blinks to the target location around the target non- ward unit or Dagger, dealing magic damage to the nearest enemy in range.",
+    "leveling": "Magic Damage:15 / 30 / 45 / 60 / 75 (+ 50% AD) (+ 25% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      15,
+      30,
+      45,
+      60,
+      75
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Shunpo.png",
+    "icons": [
+      "Shunpo.png"
+    ],
+    "levelings": [
+      "Magic Damage:15 / 30 / 45 / 60 / 75 (+ 50% AD) (+ 25% AP)"
+    ],
+    "descriptions": [
+      "Active: Katarina instantly  blinks to the target location around the target non- ward unit or Dagger, dealing magic damage to the nearest enemy in range.",
+      "Shunpo  resets Katarina's basic attack timer.",
+      "Upon blinking, Katarina remains unable to act via a cast time for 0.15 seconds."
+    ]
+  },
+  {
+    "name": "Death Lotus",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      90,
+      60,
+      45
+    ],
+    "description": "Active: Katarina rapidly  spins in place for 2.5 seconds, throwing a dagger every 0.166 seconds to up to 3 nearby enemy  champions, dealing magic damage and  grievously wounding them by 60% for 3 seconds.",
+    "leveling": "Magic Damage Per Dagger:»25 / 31.25 / 37.5 / 43.75 / 50 (+ 22% bonus AD) (+ 19% AP)«Total Single-Target Damage:375 / 468.75 / 562.5 / 656.25 / 750 (+ 330% bonus AD) (+ 285% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      25,
+      31.25,
+      37.5,
+      43.75,
+      50
+    ],
+    "ratios": [
+      {
+        "value": 22,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Death Lotus.png",
+    "icons": [
+      "Death Lotus.png"
+    ],
+    "levelings": [
+      "Magic Damage Per Dagger:»25 / 31.25 / 37.5 / 43.75 / 50 (+ 22% bonus AD) (+ 19% AP)«Total Single-Target Damage:375 / 468.75 / 562.5 / 656.25 / 750 (+ 330% bonus AD) (+ 285% AP)"
+    ],
+    "descriptions": [
+      "Active: Katarina rapidly  spins in place for 2.5 seconds, throwing a dagger every 0.166 seconds to up to 3 nearby enemy  champions, dealing magic damage and  grievously wounding them by 60% for 3 seconds.",
+      "A nearby enemy champion is required to cast this ability. Katarina does not need to have  sight of the target to hit them, and she will prioritize the closest ones."
+    ]
+  }
+]

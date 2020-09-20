@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Surging Tides",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: All allied champions touched by any of Nami's abilities gain  45 (+ 20% AP) bonus movement speed for 1.5 seconds, 「 doubled 」「 increased to 90 (+ 40% AP) 」 when touched by  Tidal Wave.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Surging Tides.png",
+    "icons": [
+      "Surging Tides.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: All allied champions touched by any of Nami's abilities gain  45 (+ 20% AP) bonus movement speed for 1.5 seconds, 「 doubled 」「 increased to 90 (+ 40% AP) 」 when touched by  Tidal Wave."
+    ]
+  },
+  {
+    "name": "Aqua Prison",
+    "cost": [
+      60
+    ],
+    "costType": "mana",
+    "coolDown": [
+      12,
+      11,
+      10,
+      9,
+      8
+    ],
+    "description": "Active: Nami sends a bubble towards the target area that lands after 1 second, dealing magic damage to all enemies hit,  revealing them, and  suspending them for 1.5 seconds.",
+    "leveling": "Magic Damage:75 / 130 / 185 / 240 / 295 (+ 50% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      75,
+      130,
+      185,
+      240,
+      295
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Aqua Prison.png",
+    "icons": [
+      "Aqua Prison.png"
+    ],
+    "levelings": [
+      "Magic Damage:75 / 130 / 185 / 240 / 295 (+ 50% AP)"
+    ],
+    "descriptions": [
+      "Active: Nami sends a bubble towards the target area that lands after 1 second, dealing magic damage to all enemies hit,  revealing them, and  suspending them for 1.5 seconds."
+    ]
+  },
+  {
+    "name": "Ebb and Flow",
+    "cost": [
+      70,
+      85,
+      100,
+      115,
+      130
+    ],
+    "costType": "mana",
+    "coolDown": [
+      10
+    ],
+    "description": "Active: Nami unleashes a stream of water onto the target  champion or herself, which then bounces to nearby unaffected champions up to twice, alternating between enemies and allies and herself.",
+    "leveling": "Heal:»60 / 85 / 110 / 135 / 160 (+ 30% AP)«Minimum Heal:42 / 59.5 / 77 / 94.5 / 112 (+ 21% AP)Magic Damage:»70 / 110 / 150 / 190 / 230 (+ 50% AP)«Minimum Damage:49 / 77 / 105 / 133 / 161 (+ 35% AP)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      60,
+      85,
+      110,
+      135,
+      160
+    ],
+    "ratios": [
+      {
+        "value": 30,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Ebb and Flow.png",
+    "icons": [
+      "Ebb and Flow.png"
+    ],
+    "levelings": [
+      "Heal:»60 / 85 / 110 / 135 / 160 (+ 30% AP)«Minimum Heal:42 / 59.5 / 77 / 94.5 / 112 (+ 21% AP)Magic Damage:»70 / 110 / 150 / 190 / 230 (+ 50% AP)«Minimum Damage:49 / 77 / 105 / 133 / 161 (+ 35% AP)"
+    ],
+    "descriptions": [
+      "Active: Nami unleashes a stream of water onto the target  champion or herself, which then bounces to nearby unaffected champions up to twice, alternating between enemies and allies and herself.",
+      "Ebb and Flow  heals allies and deals magic damage to enemies, with each bounce increasing in effectiveness by ((7.5 per 100 AP) - 15)%."
+    ]
+  },
+  {
+    "name": "Tidecaller's Blessing",
+    "cost": [
+      55,
+      60,
+      65,
+      70,
+      75
+    ],
+    "costType": "mana",
+    "coolDown": [
+      11
+    ],
+    "description": "Active: Nami blesses the target allied champion or herself for 6 seconds, causing the target's next three basic attacks or abilities to each deal bonus magic damage and  slow their target for 1 second.",
+    "leveling": "Bonus Magic Damage Per Hit:»25 / 40 / 55 / 70 / 85 (+ 20% AP)«Total Bonus Magic Damage:75 / 120 / 165 / 210 / 255 (+ 60% AP)\nSlow:15 / 20 / 25 / 30 / 35% (+ 5% per 100 AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      25,
+      40,
+      55,
+      70,
+      85
+    ],
+    "ratios": [
+      {
+        "value": 20,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Tidecaller's Blessing.png",
+    "icons": [
+      "Tidecaller's Blessing.png"
+    ],
+    "levelings": [
+      "Bonus Magic Damage Per Hit:»25 / 40 / 55 / 70 / 85 (+ 20% AP)«Total Bonus Magic Damage:75 / 120 / 165 / 210 / 255 (+ 60% AP)\nSlow:15 / 20 / 25 / 30 / 35% (+ 5% per 100 AP)"
+    ],
+    "descriptions": [
+      "Active: Nami blesses the target allied champion or herself for 6 seconds, causing the target's next three basic attacks or abilities to each deal bonus magic damage and  slow their target for 1 second.",
+      "Empowered abilities that apply  area damage only deal 33% − 66% (based on level) of the bonus damage to non-champions."
+    ]
+  },
+  {
+    "name": "Tidal Wave",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      120,
+      110,
+      100
+    ],
+    "description": "Active: Nami summons a tidal wave that surges forth in the target direction, dealing magic damage to all enemies hit,  knocking them up for 0.5 seconds and then  slowing them for 2 −  4 (based on distance traveled) seconds.",
+    "leveling": "Magic Damage:150 / 250 / 350 (+ 60% AP)\nSlow:50 / 60 / 70%",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      150,
+      250,
+      350,
+      60,
+      50
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.5,
+    "icon": "Tidal Wave.png",
+    "icons": [
+      "Tidal Wave.png"
+    ],
+    "levelings": [
+      "Magic Damage:150 / 250 / 350 (+ 60% AP)\nSlow:50 / 60 / 70%"
+    ],
+    "descriptions": [
+      "Active: Nami summons a tidal wave that surges forth in the target direction, dealing magic damage to all enemies hit,  knocking them up for 0.5 seconds and then  slowing them for 2 −  4 (based on distance traveled) seconds."
+    ]
+  }
+]

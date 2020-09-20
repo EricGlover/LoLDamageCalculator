@@ -1,6 +1,32 @@
 {
   "abilities": [
     {
+      "name": "Warpath",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Hecarim gains 15% − 30% (based on level) of his  bonus movement speed as  bonus attack damage.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Warpath.png",
+      "icons": [
+        "Warpath.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Hecarim gains 15% − 30% (based on level) of his  bonus movement speed as  bonus attack damage."
+      ]
+    },
+    {
       "name": "Rampage",
       "cost": [
         28,
@@ -31,7 +57,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Rampage.png",
+      "icons": [
+        "Rampage.png"
+      ],
+      "levelings": [
+        "Physical Damage:»60 / 102 / 144 / 186 / 228 (+ 70% bonus AD)«Minion damage:36 / 61.2 / 86.4 / 111.6 / 136.8 (+ 42% bonus AD)",
+        "Maximum Damage:»66 / 112.2 / 158.4 / 204.6 / 250.8 (+ 77% bonus AD)«Maximum Minion damage:39.6 / 67.32 / 95.04 / 122.76 / 150.48 (+ 46.2% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Hecarim cleaves nearby enemies, dealing physical damage, reduced to 60% against minions.",
+        "If Hecarim damages at least one enemy with Rampage, he gains a buff for 8 seconds, stacking up to two times, with the duration refreshing on subsequent damaging hits. The buff increases the damage of Rampage by 5% and reduces the base cooldown by 1, up to a 10% damage increase and a reduction in 2 seconds of the base cooldown at two stacks."
+      ]
     },
     {
       "name": "Spirit of Dread",
@@ -68,7 +106,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Spirit of Dread.png",
+      "icons": [
+        "Spirit of Dread.png"
+      ],
+      "levelings": [
+        "Magic Damage Per Second:»20 / 30 / 40 / 50 / 60 (+ 20% AP)«Total Magic Damage:80 / 120 / 160 / 200 / 240 (+ 80% AP)",
+        "Capped Healing:90 / 120 / 150 / 180 / 210"
+      ],
+      "descriptions": [
+        "Active: Hecarim surrounds himself with the spirit of dread for 4 seconds, dealing magic damage per second to all enemies within its reach.",
+        "While Spirit of Dread is active, Hecarim is  healed for 30% of the damage taken by enemies from any source within the area, capped from  minions and  monsters."
+      ]
     },
     {
       "name": "Devastating Charge",
@@ -83,7 +133,7 @@
         17,
         16
       ],
-      "description": "Active: Hecarim becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted and gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 25% − 85% (based on time active) bonus movement speed for 4 seconds.",
+      "description": "Active: Hecarim becomes  ghosted and gains  25% − 85% (based on time active) bonus movement speed for 4 seconds.",
       "leveling": "Minimum Physical Damage:»45 / 75 / 105 / 135 / 165 (+ 50% bonus AD)«Maximum Physical Damage:90 / 150 / 210 / 270 / 330 (+ 100% bonus AD)",
       "skill": "E",
       "damageType": "Physical",
@@ -101,7 +151,20 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Devastating Charge.png",
+      "icons": [
+        "Devastating Charge.png"
+      ],
+      "levelings": [
+        "Minimum Physical Damage:»45 / 75 / 105 / 135 / 165 (+ 50% bonus AD)«Maximum Physical Damage:90 / 150 / 210 / 270 / 330 (+ 100% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Hecarim becomes  ghosted and gains  25% − 85% (based on time active) bonus movement speed for 4 seconds.",
+        "While in effect, Hecarim's next basic attack is empowered to gain 50 − 250 (based on distance traveled)  bonus range and cause him to  dash towards the target's direction. If the target remains nearby during Hecarim's dash, they're  knocked back 250 − 450 (based on distance traveled) units,  stunned for 0.25 seconds, and dealt modified physical damage, increased by 0% − 100% (based on distance traveled), ending the ability in the process.",
+        "Devastating Charge  resets Hecarim's  basic attack timer.",
+        "Devastating Charge's duration is paused during  Onslaught of Shadows."
+      ]
     },
     {
       "name": "Onslaught of Shadows",
@@ -114,7 +177,7 @@
         120,
         100
       ],
-      "description": "Active: Hecarim summons spectral riders and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Unstoppable_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164427\" \t alt=\"Unstoppable icon\"  \tclass=\"\" \t \tdata-image-key=\"Unstoppable_icon.png\" \tdata-image-name=\"Unstoppable icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement immunity in the target direction with them, dealing magic damage to all enemies in their path.",
+      "description": "Active: Hecarim summons spectral riders and  dashes with  displacement immunity in the target direction with them, dealing magic damage to all enemies in their path.",
       "leveling": "Magic damage:150 / 200 / 250 / 300 / 350 (+ 100% AP)",
       "skill": "R",
       "damageType": "Magic",
@@ -132,7 +195,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Onslaught of Shadows.png",
+      "icons": [
+        "Onslaught of Shadows.png"
+      ],
+      "levelings": [
+        "Magic damage:150 / 200 / 250 / 300 / 350 (+ 100% AP)"
+      ],
+      "descriptions": [
+        "Active: Hecarim summons spectral riders and  dashes with  displacement immunity in the target direction with them, dealing magic damage to all enemies in their path.",
+        "Enemies within range of where Hecarim stops are also made to  flee from him for 0.75 − 2 (based on distance traveled) seconds, also gradually  slowing them by up to 99% over the duration. The slow's strength cannot be reduced and is based on how far the affected units are from Hecarim, having no slow at all from very close range.",
+        "The wave of spectral riders travels through Onslaught of Shadows's full length, regardless of where Hecarim himself stops."
+      ]
     }
   ],
   "id": "Hecarim",
@@ -147,6 +222,7 @@
     "difficulty": 6
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Hecarim.png",
     "full": "Hecarim.png",
     "sprite": "champion1.png",
     "group": "champion",

@@ -1,0 +1,189 @@
+[
+  {
+    "name": "Night Hunter",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Vayne gains  30 bonus movement speed when moving towards a nearby  visible enemy champion.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Night Hunter.png",
+    "icons": [
+      "Night Hunter.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Vayne gains  30 bonus movement speed when moving towards a nearby  visible enemy champion.",
+      " Final Hour: Night Hunter's bonus movement speed is tripled to 90."
+    ]
+  },
+  {
+    "name": "Tumble",
+    "cost": [
+      30
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      4,
+      3,
+      3,
+      2,
+      2
+    ],
+    "description": "Active: Vayne  dashes in the target direction, though not through terrain, and her next basic attack within 7 seconds deals bonus physical damage.",
+    "leveling": "Bonus Physical Damage:60 / 65 / 70 / 75 / 80% AD",
+    "skill": "Q",
+    "damageType": "physical",
+    "isProjectile": "",
+    "flatDamage": [
+      60,
+      65,
+      70,
+      75,
+      80
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Tumble.png",
+    "icons": [
+      "Tumble.png"
+    ],
+    "levelings": [
+      "Bonus Physical Damage:60 / 65 / 70 / 75 / 80% AD"
+    ],
+    "descriptions": [
+      "Active: Vayne  dashes in the target direction, though not through terrain, and her next basic attack within 7 seconds deals bonus physical damage.",
+      "Tumble  resets Vayne's basic attack timer."
+    ]
+  },
+  {
+    "name": "Silver Bolts",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Passive: Vayne's basic attacks and  Condemn apply a stack of Silver Bolts for 3.5 seconds, up to 3 times. Attacking a new enemy removes all stacks from the previous target.",
+    "leveling": "Bonus True Damage:4 / 6.5 / 9 / 11.5 / 14% of target's maximum healthMinimum True Damage:50 / 65 / 80 / 95 / 110",
+    "skill": "W",
+    "damageType": "true",
+    "isProjectile": "",
+    "flatDamage": [
+      4,
+      6.5,
+      9,
+      11.5,
+      14
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Silver Bolts.png",
+    "icons": [
+      "Silver Bolts.png"
+    ],
+    "levelings": [
+      "Bonus True Damage:4 / 6.5 / 9 / 11.5 / 14% of target's maximum healthMinimum True Damage:50 / 65 / 80 / 95 / 110"
+    ],
+    "descriptions": [
+      "Passive: Vayne's basic attacks and  Condemn apply a stack of Silver Bolts for 3.5 seconds, up to 3 times. Attacking a new enemy removes all stacks from the previous target.",
+      "The third stack consumes them all to deal  bonus true damage, with a minimum threshold, and capped at 200 against  monsters."
+    ]
+  },
+  {
+    "name": "Condemn",
+    "cost": [
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "description": "Active: Vayne fires a heavy bolt at the target enemy, dealing physical damage,  knocking them back 475 units, and applying a  Silver Bolts stack.",
+    "leveling": "Physical Damage:50 / 85 / 120 / 155 / 190 (+ 50% bonus AD)",
+    "skill": "E",
+    "damageType": "physical",
+    "isProjectile": "true",
+    "flatDamage": [
+      50,
+      85,
+      120,
+      155,
+      190
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Condemn.png",
+    "icons": [
+      "Condemn.png"
+    ],
+    "levelings": [
+      "Physical Damage:50 / 85 / 120 / 155 / 190 (+ 50% bonus AD)",
+      "Bonus Damage:»75 / 127.5 / 180 / 232.5 / 285 (+ 75% bonus AD)«Total Damage:125 / 212.5 / 300 / 387.5 / 475 (+ 125% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Vayne fires a heavy bolt at the target enemy, dealing physical damage,  knocking them back 475 units, and applying a  Silver Bolts stack.",
+      "If the target collides with terrain, they take  bonus physical damage and are  stunned for 1.5 seconds."
+    ]
+  },
+  {
+    "name": "Final Hour",
+    "cost": [
+      80
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      100,
+      92,
+      85,
+      77,
+      70
+    ],
+    "description": "Active: Vayne equips her crossbow, gaining  bonus attack damage and tripling  Night Hunter's bonus for a duration.",
+    "leveling": "Duration:8 / 9 / 10 / 11 / 12\nBonus AD:35 / 42.5 / 50 / 57.5 / 65",
+    "skill": "R",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Final Hour.png",
+    "icons": [
+      "Final Hour.png"
+    ],
+    "levelings": [
+      "Duration:8 / 9 / 10 / 11 / 12\nBonus AD:35 / 42.5 / 50 / 57.5 / 65",
+      "Tumble Cooldown Reduction:30 / 35 / 40 / 45 / 50%"
+    ],
+    "descriptions": [
+      "Active: Vayne equips her crossbow, gaining  bonus attack damage and tripling  Night Hunter's bonus for a duration.",
+      "Additionally,  Tumble gains  cooldown reduction, and casting it grants Vayne  invisibility for 1 second. Attacking or casting  Condemn breaks the stealth immediately.",
+      "While active, whenever an enemy  champion damaged by Vayne dies within 3 seconds, Final Hour's duration is extended by 4 seconds, up to the original duration."
+    ]
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Carnivore",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Whenever Cho'Gath kills an enemy unit or destroys an enemy structure, he  heals for 20 − 71 (based on level) and restores  3.5 − 7.75 (based on level) mana.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Carnivore.png",
+    "icons": [
+      "Carnivore.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Whenever Cho'Gath kills an enemy unit or destroys an enemy structure, he  heals for 20 − 71 (based on level) and restores  3.5 − 7.75 (based on level) mana."
+    ]
+  },
+  {
+    "name": "Rupture",
+    "cost": [
+      60
+    ],
+    "costType": "mana",
+    "coolDown": [
+      7
+    ],
+    "description": "Active: Cho'Gath gains  sight of the target area which, after a 0.627 seconds delay, he makes rupture dealing magic damage and  knocking up enemies within for 1 second, then  slowing them by 60% for 1.5 seconds afterwards.",
+    "leveling": "Magic damage:80 / 135 / 190 / 245 / 300 (+ 100% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      80,
+      135,
+      190,
+      245,
+      300
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.5,
+    "icon": "Rupture.png",
+    "icons": [
+      "Rupture.png"
+    ],
+    "levelings": [
+      "Magic damage:80 / 135 / 190 / 245 / 300 (+ 100% AP)"
+    ],
+    "descriptions": [
+      "Active: Cho'Gath gains  sight of the target area which, after a 0.627 seconds delay, he makes rupture dealing magic damage and  knocking up enemies within for 1 second, then  slowing them by 60% for 1.5 seconds afterwards."
+    ]
+  },
+  {
+    "name": "Feral Scream",
+    "cost": [
+      70,
+      80,
+      90,
+      100,
+      110
+    ],
+    "costType": "mana",
+    "coolDown": [
+      13,
+      12,
+      11,
+      10,
+      9
+    ],
+    "description": "Active: Cho'Gath roars in the target direction, dealing magic damage to enemies in a cone.",
+    "leveling": "Magic damage:75 / 125 / 175 / 225 / 275 (+ 70% AP)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "False",
+    "flatDamage": [
+      75,
+      125,
+      175,
+      225,
+      275
+    ],
+    "ratios": [
+      {
+        "value": 70,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.5,
+    "icon": "Feral Scream.png",
+    "icons": [
+      "Feral Scream.png"
+    ],
+    "levelings": [
+      "Magic damage:75 / 125 / 175 / 225 / 275 (+ 70% AP)",
+      "Silence Duration:1.6 / 1.7 / 1.8 / 1.9 / 2"
+    ],
+    "descriptions": [
+      "Active: Cho'Gath roars in the target direction, dealing magic damage to enemies in a cone.",
+      "Enemy  champions and  Rift Scuttlers hit are also  silenced for a duration."
+    ]
+  },
+  {
+    "name": "Vorpal Spikes",
+    "cost": [
+      30
+    ],
+    "costType": "mana",
+    "coolDown": [
+      8,
+      7,
+      6,
+      5,
+      4
+    ],
+    "description": "Active: Cho'Gath's next 3 basic attacks within 6 seconds have  50 bonus range and launch a volley of spikes in a line in the direction of the target, dealing magic damage and applying a decaying  slow over the next 1.5 seconds to enemies hit.",
+    "leveling": "Magic Damage:»22 / 37 / 52 / 67 / 82 (+ 30% AP) (+ 3% (+ 0.5% per <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2f/Feast.png/revision/latest/scale-to-width-down/20?cb=20160608020218\" \t alt=\"Feast\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Feast.png\" \tdata-image-name=\"Feast.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Feast stack) of target's maximum health)«Maximum Damage:66 / 111 / 156 / 201 / 246 (+ 90% AP) (+ 9% (+ 1.5% per <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2f/Feast.png/revision/latest/scale-to-width-down/20?cb=20160608020218\" \t alt=\"Feast\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Feast.png\" \tdata-image-name=\"Feast.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Feast stack) of target's maximum health)Slow:30 / 35 / 40 / 45 / 50%",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      22,
+      37,
+      52,
+      67,
+      82
+    ],
+    "ratios": [
+      {
+        "value": 30,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Vorpal Spikes.png",
+    "icons": [
+      "Vorpal Spikes.png"
+    ],
+    "levelings": [
+      "Magic Damage:»22 / 37 / 52 / 67 / 82 (+ 30% AP) (+ 3% (+ 0.5% per  Feast stack) of target's maximum health)«Maximum Damage:66 / 111 / 156 / 201 / 246 (+ 90% AP) (+ 9% (+ 1.5% per  Feast stack) of target's maximum health)Slow:30 / 35 / 40 / 45 / 50%"
+    ],
+    "descriptions": [
+      "Active: Cho'Gath's next 3 basic attacks within 6 seconds have  50 bonus range and launch a volley of spikes in a line in the direction of the target, dealing magic damage and applying a decaying  slow over the next 1.5 seconds to enemies hit.",
+      "Vorpal Spikes  resets Cho'Gath's basic attack timer."
+    ]
+  },
+  {
+    "name": "Feast",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      80
+    ],
+    "description": "Active: Cho'Gath attempts to eat the target enemy, dealing  true damage. Against non-champions, the base damage is increased to 1000.",
+    "leveling": "True Damage to Champions:300 / 475 / 650 (+ 50% AP) (+ 10% bonus health)",
+    "skill": "R",
+    "damageType": "True",
+    "isProjectile": "",
+    "flatDamage": [
+      300,
+      475,
+      650,
+      50,
+      10
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Feast.png",
+    "icons": [
+      "Feast.png"
+    ],
+    "levelings": [
+      "True Damage to Champions:300 / 475 / 650 (+ 50% AP) (+ 10% bonus health)",
+      "Bonus Health Per Stack:80 / 120 / 160 bonus health\nBonus Attack Range Per Stack:4.62 / 5.38 / 6.15 / 6.92 / 7.69\nBonus Size Per Stack:6 / 7 / 8 / 9 / 10%"
+    ],
+    "descriptions": [
+      "Active: Cho'Gath attempts to eat the target enemy, dealing  true damage. Against non-champions, the base damage is increased to 1000.",
+      "If Feast kills its target, Cho'Gath gains a Feast stack. Only 6 stacks can be gained from non-epic  monsters or  minions.",
+      "Each stack of Feast grants Cho'Gath  bonus health as well as  bonus attack range and increased size, capping at  75 bonus attack range and 100% increased size."
+    ]
+  }
+]

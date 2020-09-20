@@ -1,5 +1,228 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Lightslinger",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: After using an ability, Lucian's next basic attack within 3.5 seconds shoots an additional shot after a short delay, which deals 50 / 55 / 60% (based on level) AD physical damage, increased to 100% AD against  minions.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Lightslinger.png",
+      "icons": [
+        "Lightslinger.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: After using an ability, Lucian's next basic attack within 3.5 seconds shoots an additional shot after a short delay, which deals 50 / 55 / 60% (based on level) AD physical damage, increased to 100% AD against  minions.",
+        "The second shot applies on-hits and on-attack effects at full effect and is affected by  critical strike modifiers.",
+        "If Lucian's primary target is killed before the second shot can go off, he automatically shoots another enemy in range.",
+        "Lightslinger is not consumed and does not trigger the second basic attack if Lucian is  silenced."
+      ]
+    },
+    {
+      "name": "Piercing Light",
+      "cost": [
+        50,
+        60,
+        70,
+        80,
+        90
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ],
+      "description": "Active: Lucian fires a laser in the direction of the target enemy, dealing physical damage to all enemies hit in a line.",
+      "leveling": "Physical Damage:95 / 130 / 165 / 200 / 235 (+ 60 / 75 / 90 / 105 / 120% bonus AD)",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "False",
+      "flatDamage": [
+        95,
+        130,
+        165,
+        200,
+        235
+      ],
+      "ratios": [
+        {
+          "value": 60,
+          "type": "bonus ad"
+        },
+        {
+          "value": 75,
+          "type": "bonus ad"
+        },
+        {
+          "value": 90,
+          "type": "bonus ad"
+        },
+        {
+          "value": 105,
+          "type": "bonus ad"
+        },
+        {
+          "value": 120,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.4,
+      "icon": "Piercing Light.png",
+      "icons": [
+        "Piercing Light.png"
+      ],
+      "levelings": [
+        "Physical Damage:95 / 130 / 165 / 200 / 235 (+ 60 / 75 / 90 / 105 / 120% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Lucian fires a laser in the direction of the target enemy, dealing physical damage to all enemies hit in a line."
+      ]
+    },
+    {
+      "name": "Ardent Blaze",
+      "cost": [
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "description": "Active: Lucian fires a shot in the target direction that explodes in a cross pattern upon hitting an enemy or reaching the end of its path, dealing magic damage and  revealing the area for 1 second.",
+      "leveling": "Magic Damage:75 / 110 / 145 / 180 / 215 (+ 90% AP)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        75,
+        110,
+        145,
+        180,
+        215
+      ],
+      "ratios": [
+        {
+          "value": 90,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Ardent Blaze.png",
+      "icons": [
+        "Ardent Blaze.png",
+        "Ardent Blaze 2.png",
+        "Ardent Blaze 3.png"
+      ],
+      "levelings": [
+        "Magic Damage:75 / 110 / 145 / 180 / 215 (+ 90% AP)",
+        "Bonus Movement Speed:60 / 65 / 70 / 75 / 80"
+      ],
+      "descriptions": [
+        "Active: Lucian fires a shot in the target direction that explodes in a cross pattern upon hitting an enemy or reaching the end of its path, dealing magic damage and  revealing the area for 1 second.",
+        "Enemies hit are marked for 6 seconds.",
+        "Lucian gains  bonus movement speed for 1 second if he or allied champions damage a marked target."
+      ]
+    },
+    {
+      "name": "Relentless Pursuit",
+      "cost": [
+        40,
+        30,
+        20,
+        10,
+        0
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        22,
+        20,
+        18,
+        16,
+        14
+      ],
+      "description": "Passive: Relentless Pursuit's  cooldown is reduced by 1 second for each  Lightslinger shot landed, doubled to 2 seconds against enemy champions.",
+      "leveling": null,
+      "skill": "E",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Relentless Pursuit.png",
+      "icons": [
+        "Relentless Pursuit.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Passive: Relentless Pursuit's  cooldown is reduced by 1 second for each  Lightslinger shot landed, doubled to 2 seconds against enemy champions.",
+        "Active: Lucian  dashes in the target direction.",
+        "Relentless Pursuit  resets Lucian's basic attack timer.",
+        "Relentless Pursuit can be cast during  The Culling and other abilities can be cast during Relentless Pursuit."
+      ]
+    },
+    {
+      "name": "The Culling",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        110,
+        105,
+        100,
+        95,
+        90
+      ],
+      "description": "Active: Lucian rapidly  fires shots in the target direction for 3 seconds, dealing physical damage to the first enemy they collide with. The damage is doubled against enemy  minions. The Culling can be recast after 0.75 seconds.",
+      "leveling": "Physical Damage Per Shot:»20 / 30 / 40 / 50 / 60 (+ 25% AD) (+ 10% AP)«Total Non-Minion Damage:440 / 750 / 1120 / 1550 / 2040 (+ 550 / 625 / 700 / 775 / 850% AD) (+ 220 / 250 / 280 / 310 / 340% AP)\nMinion Damage Per Shot:»40 / 60 / 80 / 100 / 120 (+ 50% AD) (+ 20% AP)«Total Minion Damage:880 / 1500 / 2240 / 3100 / 4080 (+ 1100 / 1250 / 1400 / 1550 / 1700% AD) (+ 440 / 500 / 560 / 620 / 680% AP)\nShots Fired:22 / 25 / 28 / 31 / 34",
+      "skill": "R",
+      "damageType": "Physical",
+      "isProjectile": "True",
+      "flatDamage": [
+        20,
+        30,
+        40,
+        50,
+        60
+      ],
+      "ratios": [
+        {
+          "value": 25,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "The Culling.png",
+      "icons": [
+        "The Culling.png"
+      ],
+      "levelings": [
+        "Physical Damage Per Shot:»20 / 30 / 40 / 50 / 60 (+ 25% AD) (+ 10% AP)«Total Non-Minion Damage:440 / 750 / 1120 / 1550 / 2040 (+ 550 / 625 / 700 / 775 / 850% AD) (+ 220 / 250 / 280 / 310 / 340% AP)\nMinion Damage Per Shot:»40 / 60 / 80 / 100 / 120 (+ 50% AD) (+ 20% AP)«Total Minion Damage:880 / 1500 / 2240 / 3100 / 4080 (+ 1100 / 1250 / 1400 / 1550 / 1700% AD) (+ 440 / 500 / 560 / 620 / 680% AP)\nShots Fired:22 / 25 / 28 / 31 / 34"
+      ],
+      "descriptions": [
+        "Active: Lucian rapidly  fires shots in the target direction for 3 seconds, dealing physical damage to the first enemy they collide with. The damage is doubled against enemy  minions. The Culling can be recast after 0.75 seconds.",
+        "While using The Culling, Lucian always faces in the casted direction and is  ghosted, and he fires the shots in the target direction from his current position.",
+        "Recast: Lucian ends The Culling early."
+      ]
+    }
+  ],
   "id": "Lucian",
   "key": "236",
   "name": "Lucian",
@@ -12,6 +235,7 @@
     "difficulty": 6
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Lucian.png",
     "full": "Lucian.png",
     "sprite": "champion2.png",
     "group": "champion",

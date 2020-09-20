@@ -1,0 +1,1202 @@
+[
+  {
+    "1": {
+      "value": "Organic Deconstruction",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Organic Deconstruction."
+    },
+    "champion": {
+      "value": "Vel'Koz",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "I",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Organic Deconstruction.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Vel'Koz's abilities apply Organic Deconstruction to enemies on hit. If 3 stacks are accumulated, the enemy will take a burst of true damage.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Innate: Vel'Koz's abilities apply a Deconstruction stack for 7 seconds, stacking up to 3 times. Basic attacks refresh the duration on-hit.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "The third stack consumes them all, dealing 33 − 169 (based on level) (+ 50% AP) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c0/Hybrid_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20171001102450\" \t alt=\"Hybrid penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration_icon.png\" \tdata-image-name=\"Hybrid penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus true damage.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Passive",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies / Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "True",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Single target",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* No additional notes.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Plasma Fission",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Plasma Fission."
+    },
+    "champion": {
+      "value": "Vel'Koz",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "Q",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "1050 / 1100",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "40 / 45 / 50 / 55 / 60",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "7",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Plasma Fission.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Vel'Koz shoots a bolt of plasma that splits in two on reactivation or upon hitting an enemy. The bolt slows and damages on hit.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Vel'Koz fires a plasma bolt in the target direction that collides with the first enemy hit to deal them magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow them by 70% for a few seconds, decaying over the duration. Plasma Fission can be recast after 0.25 seconds.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Magic Damage:80 / 120 / 160 / 200 / 240 (+ 80% AP)Slow Duration:1 / 1.4 / 1.8 / 2.2 / 2.6",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "Plasma Fission 2.png",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "At the end of its range or upon colliding with an enemy, the bolt splits in half, each part firing in opposite directions perpendicular to the primary bolt's trajectory, both dealing the same damage and applying the same <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow to the first enemy they collide with.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Recast: Vel'Koz splits Plasma Fission early.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "Plasma Fission restores <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> mana per target killed.",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "Mana Restored On-Kill:»20 / 22.5 / 25 / 27.5 / 30«Maximum Mana Restored:60 / 67.5 / 75 / 82.5 / 90",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Area of Effect",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "True",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "*The initial cast counts as an ability activation for the purposes of on-cast effects such as Spellblade, charging <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder, and stacking <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Force_Pulse.png/revision/latest/scale-to-width-down/20?cb=20170818190412\" \t alt=\"Force Pulse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Force_Pulse.png\" \tdata-image-name=\"Force Pulse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Force Pulse.\nDetonating the ability manually does not.\n\n An enemy cannot be hit by multiple bolts even when having blocked one with a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> spell shield.\n Plasma Fission can travel a maximum ~1521 units diagonally.\n Plasma Fission will cast from wherever Vel'Koz is at the end of the cast time.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Void Rift",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Void Rift."
+    },
+    "champion": {
+      "value": "Vel'Koz",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "W",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "1050",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "50 / 55 / 60 / 65 / 70",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana + 1 Charge",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "1.5",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "19 / 18 / 17 / 16 / 15",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Void Rift.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Vel'Koz opens a rift to the void that deals an initial burst of damage, then explodes for a second burst of damage after a delay.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Passive: Vel'Koz periodically stocks a Void Rift charge, up to a maximum of 2.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Active: Vel'Koz opens a rift to the void that cuts through the ground in a line in the target direction over 1 second, dealing magic damage to enemies hit and leaving behind a trail.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Initial Magic Damage:30 / 50 / 70 / 90 / 110 (+ 15% AP)",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "After 0.75 seconds, the trail detonates, dealing magic damage to enemies within.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "Detonation Magic Damage:»45 / 75 / 105 / 135 / 165 (+ 25% AP)«Total Damage:75 / 125 / 175 / 225 / 275 (+ 40% AP)",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "spellaoe",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "Special",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ef/Unbreakable.png/revision/latest/scale-to-width-down/20?cb=20170818001617\" \t alt=\"Unbreakable\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Unbreakable.png\" \tdata-image-name=\"Unbreakable.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Unbreakable and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/61/Wind_Wall.png/revision/latest/scale-to-width-down/20?cb=20131122024151\" \t alt=\"Wind Wall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Wind_Wall.png\" \tdata-image-name=\"Wind Wall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Wind Wall will block the rift from forming over them, but they will not destroy the trail that was created before it.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shield only blocks one instance of damage.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Tectonic Disruption",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Tectonic Disruption."
+    },
+    "champion": {
+      "value": "Vel'Koz",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "E",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "800",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "225",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "1500",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "50 / 55 / 60 / 65 / 70",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "16 / 15 / 14 / 13 / 12",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Tectonic Disruption.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Vel'Koz causes an area to explode, knocking up enemies, and knocking close enemies slightly away.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Vel'Koz hurls a disruptive anomaly that reaches the target location after 0.75 seconds, briefly providing <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking up and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning enemies in the area for 0.75 seconds. If the area is created close to Vel'Koz, enemies hit are also slightly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked back in the direction of the cast.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Magic Damage:70 / 100 / 130 / 160 / 190 (+ 30% AP)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Ground",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "spellaoe",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "Special",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* The required proximity for the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knock back is relative to Vel'Koz's position when casting and not his current one.\n Although considered to be a projectile, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ef/Unbreakable.png/revision/latest/scale-to-width-down/20?cb=20170818001617\" \t alt=\"Unbreakable\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Unbreakable.png\" \tdata-image-name=\"Unbreakable.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Unbreakable and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/61/Wind_Wall.png/revision/latest/scale-to-width-down/20?cb=20131122024151\" \t alt=\"Wind Wall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Wind_Wall.png\" \tdata-image-name=\"Wind Wall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Wind Wall will block Tectonic Disruption, but will not destroy it visually.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Life Form Disintegration Ray",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Life Form Disintegration Ray."
+    },
+    "champion": {
+      "value": "Vel'Koz",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "R",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "1550",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "100",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "120 / 110 / 100 / 90 / 80",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Researched.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Vel'Koz unleashes a channelled beam that follows the cursor for 2.5 seconds that deals magic damage. Organic Deconstruction Researches enemy champions causing them to take true damage instead.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Passive - Researched: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5c/Organic_Deconstruction.png/revision/latest/scale-to-width-down/20?cb=20170818195645\" \t alt=\"Organic Deconstruction\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Organic_Deconstruction.png\" \tdata-image-name=\"Organic Deconstruction.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Deconstructing enemy champions marks them as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3b/Researched.png/revision/latest/scale-to-width-down/20?cb=20160423194314\" \t alt=\"Researched\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Researched.png\" \tdata-image-name=\"Researched.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Researched for 7 seconds. Basic attacks on-hit and ability hits refresh the duration.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "Lifeform Disintegration Ray.png",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Active: After a 0.2-second delay, Vel'Koz <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reveals himself and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels for 2.6 seconds to project an energy beam in a line. The ray's trajectory updates itself over the duration to face the target direction. After 1 second, Life Form Disintegration Ray can be recast.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "The ray deals magic damage to enemies within in 0.2-second intervals, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows them by 20%, lingering for 1 second. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5c/Organic_Deconstruction.png/revision/latest/scale-to-width-down/20?cb=20170818195645\" \t alt=\"Organic Deconstruction\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Organic_Deconstruction.png\" \tdata-image-name=\"Organic Deconstruction.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Deconstruction is applied every 0.7 seconds to enemies hit. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3b/Researched.png/revision/latest/scale-to-width-down/20?cb=20160423194314\" \t alt=\"Researched\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Researched.png\" \tdata-image-name=\"Researched.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Researched enemies take true damage instead.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "Damage Per Tick:»34.62 / 41.35 / 48.08 / 54.81 / 61.54 (+ 9.62% AP)«Maximum Damage:450 / 537.5 / 625 / 712.5 / 800 (+ 125% AP)",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "Recast: Vel'Koz ends Life Form Disintegration Ray early.",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Hybrid_penetration.png/revision/latest/scale-to-width-down/20?cb=20170514081634\" \t alt=\"Hybrid penetration\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration.png\" \tdata-image-name=\"Hybrid penetration.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> True",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "aoedot",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "False",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Life Form Disintegration Ray's trajectory updates gradually (moving the cursor from one side of Vel'Koz to the other will not make him rotate instantly).\n The beam covers Vel'Koz's hitbox, damaging enemies standing close.\n The following table refers for interactions while Vel'Koz is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channeling:\n\n\n\n Type\n Channel\n\n\n Attacking\n Disabled\n\n\n Abilities\n Disabled\n\n\n Movement\n Disabled\n\n\n Items\n Usable\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/00/Shurelya%27s_Reverie_item.png/revision/latest/scale-to-width-down/20?cb=20180511220011\" \t alt=\"Shurelya&amp;#039;s Reverie item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shurelya%27s_Reverie_item.png\" \tdata-image-name=\"Shurelya&#39;s Reverie item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shurelya's Reverie <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Righteous_Glory_item.png/revision/latest/scale-to-width-down/20?cb=20171221231127\" \t alt=\"Righteous Glory item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Righteous_Glory_item.png\" \tdata-image-name=\"Righteous Glory item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Righteous Glory <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Youmuu%27s_Ghostblade_item.png/revision/latest/scale-to-width-down/20?cb=20171222002403\" \t alt=\"Youmuu&amp;#039;s Ghostblade item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Youmuu%27s_Ghostblade_item.png\" \tdata-image-name=\"Youmuu&#39;s Ghostblade item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Youmuu's Ghostblade <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Gargoyle_Stoneplate_item.png/revision/latest/scale-to-width-down/20?cb=20171221183200\" \t alt=\"Gargoyle Stoneplate item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gargoyle_Stoneplate_item.png\" \tdata-image-name=\"Gargoyle Stoneplate item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gargoyle Stoneplate <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/08/Randuin%27s_Omen_item.png/revision/latest/scale-to-width-down/20?cb=20171221230256\" \t alt=\"Randuin&amp;#039;s Omen item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Randuin%27s_Omen_item.png\" \tdata-image-name=\"Randuin&#39;s Omen item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Randuin's Omen <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b9/Seraph%27s_Embrace_item.png/revision/latest/scale-to-width-down/20?cb=20171221232010\" \t alt=\"Seraph&amp;#039;s Embrace item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Seraph%27s_Embrace_item.png\" \tdata-image-name=\"Seraph&#39;s Embrace item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Seraph's Embrace\n\n\n Disabled\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Hextech_Protobelt-01_item.png/revision/latest/scale-to-width-down/20?cb=20171221185647\" \t alt=\"Hextech Protobelt-01 item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hextech_Protobelt-01_item.png\" \tdata-image-name=\"Hextech Protobelt-01 item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hextech Protobelt-01\n\n\n Interrupted by\n All item-actives not specified above interrupt\n\n\n\n Consumables\n Usable\n\n\n Spells\n Usable\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cc/Barrier.png/revision/latest/scale-to-width-down/20?cb=20180514002510\" \t alt=\"Barrier\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Barrier.png\" \tdata-image-name=\"Barrier.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Barrier <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Clarity.png/revision/latest/scale-to-width-down/20?cb=20180514002750\" \t alt=\"Clarity\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clarity.png\" \tdata-image-name=\"Clarity.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Clarity <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cleanse.png/revision/latest/scale-to-width-down/20?cb=20180514002812\" \t alt=\"Cleanse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cleanse.png\" \tdata-image-name=\"Cleanse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cleanse <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Exhaust.png/revision/latest/scale-to-width-down/20?cb=20180514003128\" \t alt=\"Exhaust\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Exhaust.png\" \tdata-image-name=\"Exhaust.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Exhaust <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ghost <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Heal.png/revision/latest/scale-to-width-down/20?cb=20180514003319\" \t alt=\"Heal\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Heal.png\" \tdata-image-name=\"Heal.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Heal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/Ignite.png/revision/latest/scale-to-width-down/20?cb=20180514003345\" \t alt=\"Ignite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ignite.png\" \tdata-image-name=\"Ignite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ignite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Smite.png/revision/latest/scale-to-width-down/20?cb=20180514003641\" \t alt=\"Smite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Smite.png\" \tdata-image-name=\"Smite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Smite\n\n\n Disabled\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flash   <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Hexflash.png/revision/latest/scale-to-width-down/20?cb=20180514003331\" \t alt=\"Hexflash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hexflash.png\" \tdata-image-name=\"Hexflash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hexflash\n\n\n Interrupted by\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall\n\n\n\n Interrupted by\n Death<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Silencing effects",
+      "description": "Channel"
+    },
+    "Channel": {},
+    "Disabled": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/00/Shurelya%27s_Reverie_item.png/revision/latest/scale-to-width-down/20?cb=20180511220011\" \t alt=\"Shurelya&amp;#039;s Reverie item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shurelya%27s_Reverie_item.png\" \tdata-image-name=\"Shurelya&#39;s Reverie item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shurelya's Reverie <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Righteous_Glory_item.png/revision/latest/scale-to-width-down/20?cb=20171221231127\" \t alt=\"Righteous Glory item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Righteous_Glory_item.png\" \tdata-image-name=\"Righteous Glory item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Righteous Glory <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Youmuu%27s_Ghostblade_item.png/revision/latest/scale-to-width-down/20?cb=20171222002403\" \t alt=\"Youmuu&amp;#039;s Ghostblade item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Youmuu%27s_Ghostblade_item.png\" \tdata-image-name=\"Youmuu&#39;s Ghostblade item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Youmuu's Ghostblade <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Gargoyle_Stoneplate_item.png/revision/latest/scale-to-width-down/20?cb=20171221183200\" \t alt=\"Gargoyle Stoneplate item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gargoyle_Stoneplate_item.png\" \tdata-image-name=\"Gargoyle Stoneplate item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gargoyle Stoneplate <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/08/Randuin%27s_Omen_item.png/revision/latest/scale-to-width-down/20?cb=20171221230256\" \t alt=\"Randuin&amp;#039;s Omen item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Randuin%27s_Omen_item.png\" \tdata-image-name=\"Randuin&#39;s Omen item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Randuin's Omen <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b9/Seraph%27s_Embrace_item.png/revision/latest/scale-to-width-down/20?cb=20171221232010\" \t alt=\"Seraph&amp;#039;s Embrace item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Seraph%27s_Embrace_item.png\" \tdata-image-name=\"Seraph&#39;s Embrace item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Seraph's Embrace": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Hextech_Protobelt-01_item.png/revision/latest/scale-to-width-down/20?cb=20171221185647\" \t alt=\"Hextech Protobelt-01 item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hextech_Protobelt-01_item.png\" \tdata-image-name=\"Hextech Protobelt-01 item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hextech Protobelt-01": {},
+    "All item-actives not specified above interrupt": {},
+    "Usable": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cc/Barrier.png/revision/latest/scale-to-width-down/20?cb=20180514002510\" \t alt=\"Barrier\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Barrier.png\" \tdata-image-name=\"Barrier.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Barrier <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Clarity.png/revision/latest/scale-to-width-down/20?cb=20180514002750\" \t alt=\"Clarity\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clarity.png\" \tdata-image-name=\"Clarity.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Clarity <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cleanse.png/revision/latest/scale-to-width-down/20?cb=20180514002812\" \t alt=\"Cleanse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cleanse.png\" \tdata-image-name=\"Cleanse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cleanse <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Exhaust.png/revision/latest/scale-to-width-down/20?cb=20180514003128\" \t alt=\"Exhaust\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Exhaust.png\" \tdata-image-name=\"Exhaust.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Exhaust <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ghost <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Heal.png/revision/latest/scale-to-width-down/20?cb=20180514003319\" \t alt=\"Heal\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Heal.png\" \tdata-image-name=\"Heal.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Heal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/Ignite.png/revision/latest/scale-to-width-down/20?cb=20180514003345\" \t alt=\"Ignite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ignite.png\" \tdata-image-name=\"Ignite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ignite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Smite.png/revision/latest/scale-to-width-down/20?cb=20180514003641\" \t alt=\"Smite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Smite.png\" \tdata-image-name=\"Smite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Smite": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flash   <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Hexflash.png/revision/latest/scale-to-width-down/20?cb=20180514003331\" \t alt=\"Hexflash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hexflash.png\" \tdata-image-name=\"Hexflash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hexflash": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall": {},
+    "Death<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Silencing effects": {},
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  }
+]

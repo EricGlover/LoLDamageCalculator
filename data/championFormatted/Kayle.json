@@ -1,6 +1,37 @@
 {
   "abilities": [
     {
+      "name": "Divine Ascent",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Upon reaching levels 1, 6, 11, and 16, along with spending a skill point, Kayle ascends into a new form, gaining additional bonuses.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "magic",
+      "isProjectile": "special",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Divine Ascent.png",
+      "icons": [
+        "Divine Ascent.png",
+        "Zealous.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Upon reaching levels 1, 6, 11, and 16, along with spending a skill point, Kayle ascends into a new form, gaining additional bonuses.",
+        "Level 1 - Zealous: Kayle on-attack gains a stack of  Zeal for 5 seconds, up to 5 stacks, each giving her  6% bonus attack speed for a maximum of 30%. At maximum stacks, Kayle becomes  Exalted, gaining  8% bonus movement speed.",
+        "Level 6 - Arisen:  Kayle becomes  ranged and gains  350 bonus attack range, for a total of  525.",
+        "Level 11 - Aflame: While  Exalted, Kayle on-attack against non-structures additionally launches a wave of fire in the target's direction, dealing 15 − 35 (based on  Starfire Spellblade's Rank) (+ 10% bonus AD) (+ 25% AP) magic damage to enemies hit. The wave is affected by  critical strike modifiers.",
+        "Level 16 - Transcendent: Kayle permanently has maximum stacks of  Zeal and gains  50 bonus attack range, for a total of  575."
+      ]
+    },
+    {
       "name": "Radiant Blast",
       "cost": [
         70,
@@ -35,7 +66,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Radiant Blast.png",
+      "icons": [
+        "Radiant Blast.png",
+        "Radiant Blast 2.png"
+      ],
+      "levelings": [
+        "Magic Damage:60 / 100 / 140 / 180 / 220 (+ 60% bonus AD) (+ 50% AP)\nSlow:26 / 32 / 38 / 44 / 50%"
+      ],
+      "descriptions": [
+        "Active: Kayle conjures a portal in front of her that faces the target direction. After a 0.25 second delay, a celestial sword launches forward from it.",
+        "The sword explodes in a cross-like shape upon colliding with an enemy. Targets struck are dealt magic damage,  slowed for 2 seconds, and have their  armor and  magic resistance reduced by 15% for 4 seconds."
+      ]
     },
     {
       "name": "Celestial Blessing",
@@ -50,7 +93,7 @@
       "coolDown": [
         15
       ],
-      "description": "Active: Kayle and the target allied champion are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healed and gain bonus movement speed for 2 seconds.",
+      "description": "Active: Kayle and the target allied champion are  healed and gain bonus movement speed for 2 seconds.",
       "leveling": "Heal:60 / 90 / 120 / 150 / 180 (+ 30% AP)\nBonus Movement Speed:24 / 28 / 32 / 36 / 40% (+ 8% per 100 AP)",
       "skill": "W",
       "damageType": "",
@@ -68,7 +111,18 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Celestial Blessing.png",
+      "icons": [
+        "Celestial Blessing.png"
+      ],
+      "levelings": [
+        "Heal:60 / 90 / 120 / 150 / 180 (+ 30% AP)\nBonus Movement Speed:24 / 28 / 32 / 36 / 40% (+ 8% per 100 AP)"
+      ],
+      "descriptions": [
+        "Active: Kayle and the target allied champion are  healed and gain bonus movement speed for 2 seconds.",
+        "If cast without a valid target, or self-cast, Celestial Blessing will automatically target the closest allied champion in range, prioritizing the one with the least amount of  health."
+      ]
     },
     {
       "name": "Starfire Spellblade",
@@ -83,7 +137,7 @@
         6,
         6
       ],
-      "description": "Passive: Kayle's basic attacks deal bonus magic damage on-hit. The fire waves from <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/57/Divine_Ascent.png/revision/latest/scale-to-width-down/20?cb=20190219193922\" \t alt=\"Divine Ascent\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Divine_Ascent.png\" \tdata-image-name=\"Divine Ascent.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Divine Ascent deal damage equal to this value.",
+      "description": "Passive: Kayle's basic attacks deal bonus magic damage on-hit. The fire waves from  Divine Ascent deal damage equal to this value.",
       "leveling": "Passive Damage:15 / 20 / 25 / 30 / 35 (+ 10% bonus AD) (+ 25% AP)",
       "skill": "E",
       "damageType": "Magic",
@@ -101,7 +155,23 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "false",
+      "icons": [
+        "false",
+        "Starfire Spellblade.png",
+        "Starfire Spellblade 2.png"
+      ],
+      "levelings": [
+        "Passive Damage:15 / 20 / 25 / 30 / 35 (+ 10% bonus AD) (+ 25% AP)",
+        "Bonus Magic Damage:8 / 9 / 10 / 11 / 12% (+ 2% per 100 AP) of target's missing health"
+      ],
+      "descriptions": [
+        "Passive: Kayle's basic attacks deal bonus magic damage on-hit. The fire waves from  Divine Ascent deal damage equal to this value.",
+        "Active: Kayle kindles her blade, causing her next basic attack within 6 seconds to become  unstoppable and deal additional bonus magic damage based on the target's  missing health on-hit, capped at 400 against  monsters. This effect also grants her  525 range prior to ascending to Arisen.",
+        "After ascending to Aflame, Starfire Spellblade is upgraded, causing the basic attack to explode around the target, dealing 100% AD physical damage (affected by  critical strike modifiers) to all enemies struck and applying on-hit effects to each.",
+        "Starfire Spellblade  resets Kayle's basic attack timer."
+      ]
     },
     {
       "name": "Divine Judgment",
@@ -120,7 +190,7 @@
         100,
         80
       ],
-      "description": "Active: At the start of the cast time, Kayle grants herself or the target allied champion <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c1/Cosmic_Radiance.png/revision/latest/scale-to-width-down/20?cb=20160608034537\" \t alt=\"Cosmic Radiance\"  \tclass=\"\" \t \tdata-image-key=\"Cosmic_Radiance.png\" \tdata-image-name=\"Cosmic Radiance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invulnerability for a few seconds, conjuring swords of holy fire, and highlighting the area around the target.",
+      "description": "Active: At the start of the cast time, Kayle grants herself or the target allied champion  invulnerability for a few seconds, conjuring swords of holy fire, and highlighting the area around the target.",
       "leveling": "Duration:2 / 2.25 / 2.5 / 2.75 / 3",
       "skill": "R",
       "damageType": "Magic",
@@ -133,7 +203,20 @@
         3
       ],
       "ratios": [],
-      "castTime": 1.5
+      "castTime": 1.5,
+      "icon": "Divine Judgment.png",
+      "icons": [
+        "Divine Judgment.png"
+      ],
+      "levelings": [
+        "Duration:2 / 2.25 / 2.5 / 2.75 / 3",
+        "Magic Damage:200 / 275 / 350 / 425 / 500 (+ 100% bonus AD) (+ 80% AP)"
+      ],
+      "descriptions": [
+        "Active: At the start of the cast time, Kayle grants herself or the target allied champion  invulnerability for a few seconds, conjuring swords of holy fire, and highlighting the area around the target.",
+        "Upon completing the cast time, the swords rain down, dealing magic damage in the highlighted area.",
+        "Divine Judgment will prioritize casting on allies over Kayle."
+      ]
     }
   ],
   "id": "Kayle",
@@ -148,6 +231,7 @@
     "difficulty": 7
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Kayle.png",
     "full": "Kayle.png",
     "sprite": "champion1.png",
     "group": "champion",

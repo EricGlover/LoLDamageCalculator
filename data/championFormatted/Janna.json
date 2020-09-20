@@ -1,6 +1,33 @@
 {
   "abilities": [
     {
+      "name": "Tailwind",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Janna passively gains  8% bonus movement speed and grants the same amount to nearby allied champions moving towards her.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Tailwind.png",
+      "icons": [
+        "Tailwind.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Janna passively gains  8% bonus movement speed and grants the same amount to nearby allied champions moving towards her.",
+        "Janna's basic attacks on-hit and  Zephyr deal bonus magic damage equal to 25 / 35% (based on level) of her bonus movement speed."
+      ]
+    },
+    {
       "name": "Howling Gale",
       "cost": [
         60,
@@ -13,7 +40,7 @@
       "coolDown": [
         12
       ],
-      "description": "Active: Janna summons a whirlwind at her current location which charges up over 3 seconds. Its range, speed, damage, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knockup duration increase for each second it is left charging. Howling Gale can be recast after a short delay.",
+      "description": "Active: Janna summons a whirlwind at her current location which charges up over 3 seconds. Its range, speed, damage, and  knockup duration increase for each second it is left charging. Howling Gale can be recast after a short delay.",
       "leveling": "Minimum Magic Damage:60 / 85 / 110 / 135 / 160 (+ 35% AP)Bonus Magic Damage Per Second:»15 / 20 / 25 / 30 / 35 (+ 10% AP)«Maximum Magic Damage:105 / 145 / 185 / 225 / 265 (+ 65% AP)",
       "skill": "Q",
       "damageType": "magic",
@@ -31,7 +58,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Howling Gale.png",
+      "icons": [
+        "Howling Gale.png"
+      ],
+      "levelings": [
+        "Minimum Magic Damage:60 / 85 / 110 / 135 / 160 (+ 35% AP)Bonus Magic Damage Per Second:»15 / 20 / 25 / 30 / 35 (+ 10% AP)«Maximum Magic Damage:105 / 145 / 185 / 225 / 265 (+ 65% AP)"
+      ],
+      "descriptions": [
+        "Active: Janna summons a whirlwind at her current location which charges up over 3 seconds. Its range, speed, damage, and  knockup duration increase for each second it is left charging. Howling Gale can be recast after a short delay.",
+        "At the end of the duration, the whirlwind launches itself for 1.5 seconds in the target direction, dealing magic damage to all enemies it passes through and  knocking them up for 0.5 − 1.25 (based on seconds charged) seconds.",
+        "Recast: Janna launches the whirlwind early."
+      ]
     },
     {
       "name": "Zephyr",
@@ -50,7 +89,7 @@
         6,
         6
       ],
-      "description": "Passive: While Zephyr is not on cooldown, Janna is aided by an air elemental who <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosts her and grants her <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed.",
+      "description": "Passive: While Zephyr is not on cooldown, Janna is aided by an air elemental who  ghosts her and grants her  bonus movement speed.",
       "leveling": "Bonus Movement Speed:6 / 7 / 8 / 9 / 10% (+ 2% per 100 AP)",
       "skill": "W",
       "damageType": "magic",
@@ -72,7 +111,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.245
+      "castTime": 0.245,
+      "icon": "Zephyr.png",
+      "icons": [
+        "Zephyr.png"
+      ],
+      "levelings": [
+        "Bonus Movement Speed:6 / 7 / 8 / 9 / 10% (+ 2% per 100 AP)",
+        "Magic Damage:55 / 85 / 115 / 145 / 175 (+ 50% AP) (+ 25 / 35% (based on level)  MS)\nSlow:24 / 28 / 32 / 36 / 40% (+ 6% per 100 AP)"
+      ],
+      "descriptions": [
+        "Passive: While Zephyr is not on cooldown, Janna is aided by an air elemental who  ghosts her and grants her  bonus movement speed.",
+        "Active: Janna commands her air elemental to attack the target enemy, dealing them magic damage and  slowing them for 2 seconds by an amount, capped at a maximum of 99%."
+      ]
     },
     {
       "name": "Eye of the Storm",
@@ -91,7 +142,7 @@
         13,
         12
       ],
-      "description": "Active: Janna <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields the target allied champion or herself for 5 seconds, decaying over the duration after 0.75 seconds.",
+      "description": "Active: Janna  shields the target allied champion or herself for 5 seconds, decaying over the duration after 0.75 seconds.",
       "leveling": "Shield Strength:80 / 115 / 150 / 185 / 220 (+ 70% AP)",
       "skill": "E",
       "damageType": "",
@@ -109,7 +160,21 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Eye of the Storm.png",
+      "icons": [
+        "Eye of the Storm.png"
+      ],
+      "levelings": [
+        "Shield Strength:80 / 115 / 150 / 185 / 220 (+ 70% AP)",
+        "Bonus AD:10 / 17.5 / 25 / 32.5 / 40 (+ 10% AP)"
+      ],
+      "descriptions": [
+        "Active: Janna  shields the target allied champion or herself for 5 seconds, decaying over the duration after 0.75 seconds.",
+        "While the shield holds, her target gains  bonus attack damage.",
+        " Slowing or applying an  airborne effect with an ability to at least one enemy champion reduces Eye of the Storm's cooldown by 20%. This can only occur once per cast.",
+        "Eye of the Storm can be used on  turrets, causing Janna to be credited for any  champion kills it earns while the shield holds."
+      ]
     },
     {
       "name": "Monsoon",
@@ -122,7 +187,7 @@
         135,
         120
       ],
-      "description": "Active: Janna <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels for 3 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking back all nearby enemies at the time of cast to up to 875 units (but not through terrain) over 0.5 seconds based on their proximity to her.",
+      "description": "Active: Janna  channels for 3 seconds,  knocking back all nearby enemies at the time of cast to up to 875 units (but not through terrain) over 0.5 seconds based on their proximity to her.",
       "leveling": "Heal Per Half Second:»50 / 75 / 100 (+ 25% AP)«Total Heal:300 / 450 / 600 (+ 150% AP)",
       "skill": "R",
       "damageType": "",
@@ -140,7 +205,18 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Monsoon.png",
+      "icons": [
+        "Monsoon.png"
+      ],
+      "levelings": [
+        "Heal Per Half Second:»50 / 75 / 100 (+ 25% AP)«Total Heal:300 / 450 / 600 (+ 150% AP)"
+      ],
+      "descriptions": [
+        "Active: Janna  channels for 3 seconds,  knocking back all nearby enemies at the time of cast to up to 875 units (but not through terrain) over 0.5 seconds based on their proximity to her.",
+        "While channeling, Janna releases soothing winds that  heal nearby allies every 0.5 seconds."
+      ]
     }
   ],
   "id": "Janna",
@@ -155,6 +231,7 @@
     "difficulty": 7
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Janna.png",
     "full": "Janna.png",
     "sprite": "champion1.png",
     "group": "champion",

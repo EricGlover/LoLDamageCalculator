@@ -1,5 +1,196 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Petricite Burst",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Casting an ability grants an Unshackled stack for 4 seconds, with the duration refreshing on subsequent ability uses. Sylas can have up to three Unshackled stacks at a time. While Sylas has stacks of Unshackled, he gains  80% bonus attack speed.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Petricite Burst.png",
+      "icons": [
+        "Petricite Burst.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Casting an ability grants an Unshackled stack for 4 seconds, with the duration refreshing on subsequent ability uses. Sylas can have up to three Unshackled stacks at a time. While Sylas has stacks of Unshackled, he gains  80% bonus attack speed.",
+        "Unshackled: Sylas' next basic attack is modified to whirl his chains around him, becoming  unstoppable, dealing 130% AD (+ 25% AP) magic damage to his primary target and 40% AD (+ 20% AP) magic damage to nearby secondary targets and consuming an Unshackled stack.",
+        "Damage to secondary targets executes  minions below 25 health.",
+        "The empowered attack applies on-hit effects to the primary target but disables Sylas'  critical strikes' bonus damage. Spell effects only apply when there are secondary targets.*"
+      ]
+    },
+    {
+      "name": "Chain Lash",
+      "cost": [
+        50,
+        55,
+        60,
+        65,
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "description": "Active: Sylas lashes out two lines that converge to the target location and extend beyond it up to a maximum range, dealing magic damage and  slowing enemies hit for 1.5 seconds.",
+      "leveling": "Magic Damage:40 / 60 / 80 / 100 / 120 (+ 40% AP)\nSlow:15 / 20 / 25 / 30 / 35%",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "False",
+      "flatDamage": [
+        40,
+        60,
+        80,
+        100,
+        120
+      ],
+      "ratios": [
+        {
+          "value": 40,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.4,
+      "icon": "Chain Lash.png",
+      "icons": [
+        "Chain Lash.png"
+      ],
+      "levelings": [
+        "Magic Damage:40 / 60 / 80 / 100 / 120 (+ 40% AP)\nSlow:15 / 20 / 25 / 30 / 35%",
+        "Detonation Damage:»60 / 115 / 170 / 225 / 280 (+ 80% AP)«Non-Champion Detonation Damage:24 / 46 / 68 / 90 / 112 (+ 32% AP)\nMaximum Champion Damage:»100 / 175 / 250 / 325 / 400 (+ 120% AP)«Maximum Non-Champion Damage:64 / 106 / 148 / 190 / 232 (+ 72% AP)"
+      ],
+      "descriptions": [
+        "Active: Sylas lashes out two lines that converge to the target location and extend beyond it up to a maximum range, dealing magic damage and  slowing enemies hit for 1.5 seconds.",
+        "After a 0.6-second delay, the chains' intersection detonates, dealing magic damage to enemies within. Against  minions and  monsters the detonation deals 60% reduced damage."
+      ]
+    },
+    {
+      "name": "Kingslayer",
+      "cost": [
+        70,
+        80,
+        90,
+        100,
+        110
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        13,
+        11,
+        10,
+        8,
+        7
+      ],
+      "description": "Active: Sylas  rushes at the target enemy with a powerful strike, dealing magic damage.",
+      "leveling": "Magic Damage:65 / 100 / 135 / 170 / 205 (+ 85% AP)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        65,
+        100,
+        135,
+        170,
+        205
+      ],
+      "ratios": [
+        {
+          "value": 85,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Kingslayer.png",
+      "icons": [
+        "Kingslayer.png"
+      ],
+      "levelings": [
+        "Magic Damage:65 / 100 / 135 / 170 / 205 (+ 85% AP)",
+        "Heal:»30 / 60 / 90 / 120 / 150 (+ 50% AP)«Maximum Heal:60 / 120 / 180 / 240 / 300 (+ 100% AP)"
+      ],
+      "descriptions": [
+        "Active: Sylas  rushes at the target enemy with a powerful strike, dealing magic damage.",
+        "If Kingslayer damaged an enemy  champion, Sylas is also  healed, increased by 0% − 100% (based on Sylas' missing health)."
+      ]
+    },
+    {
+      "name": "Abscond",
+      "cost": [
+        65
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "description": "Active: Sylas  dashes in the target direction.",
+      "leveling": null,
+      "skill": "E",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Abscond.png",
+      "icons": [
+        "Abscond.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Active: Sylas  dashes in the target direction.",
+        "For the next 3.5 seconds, Sylas may cast  Abduct after a 0.2-second delay from casting Abscond."
+      ]
+    },
+    {
+      "name": "Hijack",
+      "cost": [
+        75
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        100,
+        85,
+        70,
+        55,
+        40
+      ],
+      "description": "Active: Sylas launches his chains towards the target enemy  champion to gain a copy of their ultimate ability. Sylas cannot select the same champion again for a set duration, and can hold the hijacked ultimate for 90 seconds, during which he can recast Hijack.",
+      "leveling": null,
+      "skill": "R",
+      "damageType": "",
+      "isProjectile": "True",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": 0.25,
+      "icon": "Hijack.png",
+      "icons": [
+        "Hijack.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Active: Sylas launches his chains towards the target enemy  champion to gain a copy of their ultimate ability. Sylas cannot select the same champion again for a set duration, and can hold the hijacked ultimate for 90 seconds, during which he can recast Hijack.",
+        "Recast: Sylas can cast his hijacked ultimate ability at no cost, scaling based on Hijack's rank and his own statistics.",
+        "All Hijacked ultimates and abilities that do not scale with  ability power have their  attack damage ratios converted to ability power ratios, scaling with 0.6% AP per 1% total AD, and 0.4% AP per 1% bonus AD respectively."
+      ]
+    }
+  ],
   "id": "Sylas",
   "key": "517",
   "name": "Sylas",
@@ -12,6 +203,7 @@
     "difficulty": 5
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Sylas.png",
     "full": "Sylas.png",
     "sprite": "champion3.png",
     "group": "champion",

@@ -1,5 +1,218 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Crystal Spires",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Skarner's presence causes 6 Crystal Spires to appear at set points on the battlefield:\n One beside  Baron Nashor's pit\n One beside  Dragon's pit\n One nearby each buff  monster's camp",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Crystal Spires.png",
+      "icons": [
+        "Crystal Spires.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Skarner's presence causes 6 Crystal Spires to appear at set points on the battlefield:\n One beside  Baron Nashor's pit\n One beside  Dragon's pit\n One nearby each buff  monster's camp",
+        "Crystal Spires can be captured by  champions after  minions have spawned by standing near them for 2 seconds. Once captured, Crystal Spires are owned until contested and the defending team can stand on the spire to prevent the opposing team from capturing it.",
+        "Crystal Spires grant  30 gold split among its captors upon being captured, or  15 gold if only a single champion participated in its capture, and provide  sight around them for 1.5 seconds upon being captured, becoming unable to be recaptured for 15 seconds.",
+        "Skarner gains Crystal Charge while within range of a Crystal Spire controlled by his team, for 1.25 seconds after triggering  Crystal Venom, or for 1.75 seconds after stinging an enemy champion with  Impale.",
+        "Crystal Charge: Skarner gains 70 − 120 (based on level)  bonus movement speed, 43% − 160% (based on level)  bonus attack speed and restores  1% maximum mana every 0.5 seconds."
+      ]
+    },
+    {
+      "name": "Crystal Slash",
+      "cost": [
+        10
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        3,
+        3,
+        3,
+        2,
+        2
+      ],
+      "description": "Active: Skarner slashes around himself, dealing physical damage to all surrounding enemies.",
+      "leveling": "Physical Damage:1 / 1.5 / 2 / 2.5 / 3% of target's maximum health (+ 20% AD)",
+      "skill": "Q",
+      "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical damage / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic damage",
+      "isProjectile": "",
+      "flatDamage": [
+        1,
+        1.5,
+        2,
+        2.5,
+        3
+      ],
+      "ratios": [
+        {
+          "value": 20,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Crystal Slash.png",
+      "icons": [
+        "Crystal Slash.png"
+      ],
+      "levelings": [
+        "Physical Damage:1 / 1.5 / 2 / 2.5 / 3% of target's maximum health (+ 20% AD)",
+        "Bonus Magic Damage:»1 / 1.5 / 2 / 2.5 / 3% of target's maximum health (+ 20% AD) (+ 30% AP)«Total Mixed Damage:2 / 3 / 4 / 5 / 6% of target's maximum health (+ 40% AD) (+ 30% AP)"
+      ],
+      "descriptions": [
+        "Active: Skarner slashes around himself, dealing physical damage to all surrounding enemies.",
+        "If an enemy is hit, subsequent uses of Crystal Slash within 5 seconds deal bonus magic damage.",
+        "Basic attacks against non-structures reduce Crystal Slash's  cooldown by 0.25 seconds, quadrupled to 1 against enemy champions."
+      ]
+    },
+    {
+      "name": "Crystalline Exoskeleton",
+      "cost": [
+        60
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        13,
+        12,
+        12,
+        11,
+        11
+      ],
+      "description": "Active: Skarner crystallizes himself, gaining a  shield for up to 6 seconds and initial  bonus movement speed that accelerates by 100% over 3 seconds while the shield holds.",
+      "leveling": "Shield Strength:10 / 11 / 12 / 13 / 14% maximum health (+ 80% AP)Initial Bonus Movement Speed:»8 / 10 / 12 / 14 / 16%«Maximum Bonus Movement Speed:16 / 20 / 24 / 28 / 32%",
+      "skill": "W",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "ratios": [
+        {
+          "value": 80,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Crystalline Exoskeleton.png",
+      "icons": [
+        "Crystalline Exoskeleton.png"
+      ],
+      "levelings": [
+        "Shield Strength:10 / 11 / 12 / 13 / 14% maximum health (+ 80% AP)Initial Bonus Movement Speed:»8 / 10 / 12 / 14 / 16%«Maximum Bonus Movement Speed:16 / 20 / 24 / 28 / 32%"
+      ],
+      "descriptions": [
+        "Active: Skarner crystallizes himself, gaining a  shield for up to 6 seconds and initial  bonus movement speed that accelerates by 100% over 3 seconds while the shield holds."
+      ]
+    },
+    {
+      "name": "Fracture",
+      "cost": [
+        55
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        14,
+        13,
+        13,
+        12,
+        12
+      ],
+      "description": "Passive: Every time Skarner triggers  Crystal Venom or stings an enemy with  Impale, Fracture's  cooldown is reduced by the corresponding base duration of the disable.",
+      "leveling": "Magic Damage:40 / 65 / 90 / 115 / 140 (+ 20% AP)\nSlow:30 / 35 / 40 / 45 / 50%",
+      "skill": "E",
+      "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic damage / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical damage",
+      "isProjectile": "True",
+      "flatDamage": [
+        40,
+        65,
+        90,
+        115,
+        140
+      ],
+      "ratios": [
+        {
+          "value": 20,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "false",
+      "icons": [
+        "false",
+        "Fracture.png",
+        "Crystal Venom.png"
+      ],
+      "levelings": [
+        "Magic Damage:40 / 65 / 90 / 115 / 140 (+ 20% AP)\nSlow:30 / 35 / 40 / 45 / 50%",
+        "Bonus Physical Damage:30 / 50 / 70 / 90 / 110"
+      ],
+      "descriptions": [
+        "Passive: Every time Skarner triggers  Crystal Venom or stings an enemy with  Impale, Fracture's  cooldown is reduced by the corresponding base duration of the disable.",
+        "Active: Skarner launches a blast of crystalline energy in the target direction, dealing magic damage to all enemies struck and  slowing them for 2.5 seconds, as well as marking them with  Crystal Venom for 5 seconds.",
+        "Skarner's next basic attack against a target marked with  Crystal Venom consumes the mark to deal them bonus physical damage and  stun them for 1.25 seconds."
+      ]
+    },
+    {
+      "name": "Impale",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "description": "Active: Skarner  roots the target enemy  champion during the ability's cast time and attempts to impale them with his stinger. Upon successfully impaling the target, he deals them 60% AD physical damage and bonus magic damage, and  reveals and  suppresses them for 1.75 seconds, during which he can drag his victim with himself. At the end of the duration, the target takes the same damage again.",
+      "leveling": "Bonus Magic Damage:»20 / 40 / 60 / 80 / 100  (+ 50% AP)«Total Mixed Damage:40 / 80 / 120 / 160 / 200  (+ 120% AD) (+ 100% AP)",
+      "skill": "R",
+      "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "ratios": [
+        {
+          "value": 50,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Impale.png",
+      "icons": [
+        "Impale.png"
+      ],
+      "levelings": [
+        "Bonus Magic Damage:»20 / 40 / 60 / 80 / 100  (+ 50% AP)«Total Mixed Damage:40 / 80 / 120 / 160 / 200  (+ 120% AD) (+ 100% AP)"
+      ],
+      "descriptions": [
+        "Active: Skarner  roots the target enemy  champion during the ability's cast time and attempts to impale them with his stinger. Upon successfully impaling the target, he deals them 60% AD physical damage and bonus magic damage, and  reveals and  suppresses them for 1.75 seconds, during which he can drag his victim with himself. At the end of the duration, the target takes the same damage again.",
+        "Impale pierces through  displacement immunity, dragging them out.*",
+        "During the ability Skarner is locked out from basic attacking, casting  Fracture, or using  Flash."
+      ]
+    }
+  ],
   "id": "Skarner",
   "key": "72",
   "name": "Skarner",
@@ -12,6 +225,7 @@
     "difficulty": 5
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Skarner.png",
     "full": "Skarner.png",
     "sprite": "champion3.png",
     "group": "champion",

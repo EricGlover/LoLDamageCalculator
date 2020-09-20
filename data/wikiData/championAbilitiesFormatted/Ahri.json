@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Essence Theft",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Whenever Ahri hits an enemy with one of her abilities, she gains a stack of Essence Theft, and can gain up to 3 stacks per ability cast.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Essence Theft.png",
+    "icons": [
+      "Essence Theft.png",
+      "Essence Theft 2.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Whenever Ahri hits an enemy with one of her abilities, she gains a stack of Essence Theft, and can gain up to 3 stacks per ability cast.",
+      "Upon reaching 9 stacks, her next ability  heals her for 3 / 5 / 9 / 18 (based on level) (+ 9% AP) for each enemy hit."
+    ]
+  },
+  {
+    "name": "Orb of Deception",
+    "cost": [
+      65,
+      70,
+      75,
+      80,
+      85
+    ],
+    "costType": "mana",
+    "coolDown": [
+      7
+    ],
+    "description": "Active: Ahri sends her orb in the target direction, dealing magic damage to all enemies it passes through. At maximum range, it homes back to Ahri, dealing the same in true damage to enemies hit on its way back.",
+    "leveling": "Damage Per Pass:»40 / 65 / 90 / 115 / 140 (+ 35% AP)«Total Mixed Damage:80 / 130 / 180 / 230 / 280 (+ 70% AP)",
+    "skill": "Q",
+    "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Hybrid_penetration.png/revision/latest/scale-to-width-down/20?cb=20170514081634\" \t alt=\"Hybrid penetration\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration.png\" \tdata-image-name=\"Hybrid penetration.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> True",
+    "isProjectile": "True",
+    "flatDamage": [
+      40,
+      65,
+      90,
+      115,
+      140
+    ],
+    "ratios": [
+      {
+        "value": 35,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Orb of Deception.png",
+    "icons": [
+      "Orb of Deception.png"
+    ],
+    "levelings": [
+      "Damage Per Pass:»40 / 65 / 90 / 115 / 140 (+ 35% AP)«Total Mixed Damage:80 / 130 / 180 / 230 / 280 (+ 70% AP)"
+    ],
+    "descriptions": [
+      "Active: Ahri sends her orb in the target direction, dealing magic damage to all enemies it passes through. At maximum range, it homes back to Ahri, dealing the same in true damage to enemies hit on its way back."
+    ]
+  },
+  {
+    "name": "Fox-Fire",
+    "cost": [
+      40
+    ],
+    "costType": "mana",
+    "coolDown": [
+      9,
+      8,
+      7,
+      6,
+      5
+    ],
+    "description": "Active: Ahri gains 40% bonus movement speed that decays over 1.5 seconds and summons three spectral flames which orbit her for up to 5 seconds.",
+    "leveling": "Magic Damage:»40 / 65 / 90 / 115 / 140 (+ 30% AP)«Minion Damage:80 / 130 / 180 / 230 / 280 (+ 60% AP)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      40,
+      65,
+      90,
+      115,
+      140
+    ],
+    "ratios": [
+      {
+        "value": 30,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Fox-Fire.png",
+    "icons": [
+      "Fox-Fire.png"
+    ],
+    "levelings": [
+      "Magic Damage:»40 / 65 / 90 / 115 / 140 (+ 30% AP)«Minion Damage:80 / 130 / 180 / 230 / 280 (+ 60% AP)",
+      "Additional Magic Damage:»12 / 19.5 / 27 / 34.5 / 42 (+ 9% AP)«Total Single Target Damage:64 / 104 / 144 / 184 / 224 (+ 48% AP)"
+    ],
+    "descriptions": [
+      "Active: Ahri gains 40% bonus movement speed that decays over 1.5 seconds and summons three spectral flames which orbit her for up to 5 seconds.",
+      "After 0.25 seconds, each flame targets a  visible enemy, or after 0.4 seconds targets the closest visible enemy in range, dealing magic damage. The damage is doubled against  minions below 20% maximum health.",
+      "Subsequent flames on a single target deal 30% damage.",
+      "Flames prioritize enemy champions hit by  Charm, then enemy  champions, then low-health minions that can be killed with Fox-Fire, and then the target of Ahri's last basic attack within 3 seconds."
+    ]
+  },
+  {
+    "name": "Charm",
+    "cost": [
+      70
+    ],
+    "costType": "mana",
+    "coolDown": [
+      12
+    ],
+    "description": "Active: Ahri blows a kiss in the target direction that deals magic damage to the first enemy hit,  knocking them down and  charming and  slowing them by 65%.",
+    "leveling": "Magic damage:60 / 90 / 120 / 150 / 180 (+ 40% AP)Charm Duration:1.4 / 1.55 / 1.7 / 1.85 / 2",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      60,
+      90,
+      120,
+      150,
+      180
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Charm.png",
+    "icons": [
+      "Charm.png"
+    ],
+    "levelings": [
+      "Magic damage:60 / 90 / 120 / 150 / 180 (+ 40% AP)Charm Duration:1.4 / 1.55 / 1.7 / 1.85 / 2"
+    ],
+    "descriptions": [
+      "Active: Ahri blows a kiss in the target direction that deals magic damage to the first enemy hit,  knocking them down and  charming and  slowing them by 65%.",
+      "An enemy hit by Charm is rendered vulnerable for 3 seconds, taking 20% bonus damage from Ahri's abilities."
+    ]
+  },
+  {
+    "name": "Spirit Rush",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      130,
+      105,
+      80
+    ],
+    "description": "Active: Ahri  dashes to the target location and then fires energy bolts to up to 3  visible targets, dealing magic damage. Spirit Rush can be recast twice more at a 1 second static cooldown between casts within 10 seconds of the activation at no additional cost.",
+    "leveling": "Magic damage:60 / 90 / 120 (+ 35% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      60,
+      90,
+      120,
+      35
+    ],
+    "ratios": [
+      {
+        "value": 35,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Spirit Rush.png",
+    "icons": [
+      "Spirit Rush.png"
+    ],
+    "levelings": [
+      "Magic damage:60 / 90 / 120 (+ 35% AP)",
+      "Maximum single target damage:»180 / 270 / 360 (+ 105% AP)«Maximum damage:540 / 810 / 1080 (+ 315% AP)"
+    ],
+    "descriptions": [
+      "Active: Ahri  dashes to the target location and then fires energy bolts to up to 3  visible targets, dealing magic damage. Spirit Rush can be recast twice more at a 1 second static cooldown between casts within 10 seconds of the activation at no additional cost.",
+      "Recast: Ahri  dashes, mimicking the first cast's effects."
+    ]
+  }
+]

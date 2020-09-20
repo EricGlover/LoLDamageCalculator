@@ -1,0 +1,214 @@
+[
+  {
+    "name": "Fury of the North",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate - Frost Armor: Sejuani receives  Frost Armor if she hasn't taken damage from monsters or enemy champions in the last 12 seconds, lingering for 3 seconds after taking damage.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Fury of the North.png",
+    "icons": [
+      "Fury of the North.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate - Frost Armor: Sejuani receives  Frost Armor if she hasn't taken damage from monsters or enemy champions in the last 12 seconds, lingering for 3 seconds after taking damage.",
+      " Frost Armor engulfs  Bristle in True Ice, becoming  slow-immune and immune to  cripples and gaining  10 (+ 50% bonus armor) bonus armor and  10 (+ 50% bonus magic resistance) bonus magic resistance.",
+      "Innate - Icebreaker: Enemies  stunned by Sejuani are Frozen. Sejuani's basic attacks and abilities against Frozen enemies consume the effect to deal 10% of their  maximum health as bonus magic damage, capped at 300 against epic monsters."
+    ]
+  },
+  {
+    "name": "Arctic Assault",
+    "cost": [
+      70,
+      75,
+      80,
+      85,
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "description": "Active: Sejuani signals  Bristle to  dash in the target direction, dealing magic damage and  knocking up all enemies hit for 0.5 seconds. The charge will prematurely end upon colliding with an enemy  champion.",
+    "leveling": "Magic Damage:80 / 130 / 180 / 230 / 280 (+ 60% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      80,
+      130,
+      180,
+      230,
+      280
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Arctic Assault.png",
+    "icons": [
+      "Arctic Assault.png"
+    ],
+    "levelings": [
+      "Magic Damage:80 / 130 / 180 / 230 / 280 (+ 60% AP)"
+    ],
+    "descriptions": [
+      "Active: Sejuani signals  Bristle to  dash in the target direction, dealing magic damage and  knocking up all enemies hit for 0.5 seconds. The charge will prematurely end upon colliding with an enemy  champion.",
+      "Sejuani can cast any of her abilities during Arctic Assault."
+    ]
+  },
+  {
+    "name": "Winter's Wrath",
+    "cost": [
+      65
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      9,
+      8,
+      7,
+      6,
+      5
+    ],
+    "description": "Active: After 0.25 seconds into the cast time, Sejuani swings her flail in a cone in the target direction, dealing physical damage to all enemies hit and  knocking back  minions and  monsters.",
+    "leveling": "Physical Damage:20 / 25 / 30 / 35 / 40 (+ 20% AP) (+ 2% of her maximum health)",
+    "skill": "W",
+    "damageType": "Physical",
+    "isProjectile": "False",
+    "flatDamage": [
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "ratios": [
+      {
+        "value": 20,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 1,
+    "icon": "Winter's Wrath.png",
+    "icons": [
+      "Winter's Wrath.png"
+    ],
+    "levelings": [
+      "Physical Damage:20 / 25 / 30 / 35 / 40 (+ 20% AP) (+ 2% of her maximum health)",
+      "Physical Damage:»30 / 70 / 110 / 150 / 190 (+ 60% AP) (+ 5.25% of her maximum health)«Total Damage:50 / 95 / 140 / 185 / 230 (+ 80% AP) (+ 7.25% of her maximum health)"
+    ],
+    "descriptions": [
+      "Active: After 0.25 seconds into the cast time, Sejuani swings her flail in a cone in the target direction, dealing physical damage to all enemies hit and  knocking back  minions and  monsters.",
+      "She then lashes out with her flail after the remaining 0.75 seconds of the cast time in a straight line in the same direction, dealing additional physical damage and  slowing all enemies hit by 75% for 0.25 seconds.",
+      "Sejuani can move freely during Winter's Wrath. Both swings will strike in the cast direction, but their hitboxes follow Sejuani's movement."
+    ]
+  },
+  {
+    "name": "Permafrost",
+    "cost": [
+      20
+    ],
+    "costType": "Mana + 4 Frost Stacks",
+    "coolDown": [
+      1
+    ],
+    "description": "Passive:  Winter's Wrath and both Sejuani's and nearby allied  melee champions' basic attacks apply Frost to enemy  champions, epic, large and medium monsters,  siege minions and  super minions for 5 seconds, stacking up to 4 times.",
+    "leveling": "Magic Damage:55 / 105 / 155 / 205 / 255 (+ 60% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      55,
+      105,
+      155,
+      205,
+      255
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Sejuani Frost Stack.png",
+    "icons": [
+      "Sejuani Frost Stack.png",
+      "Permafrost.png"
+    ],
+    "levelings": [
+      "Magic Damage:55 / 105 / 155 / 205 / 255 (+ 60% AP)"
+    ],
+    "descriptions": [
+      "Passive:  Winter's Wrath and both Sejuani's and nearby allied  melee champions' basic attacks apply Frost to enemy  champions, epic, large and medium monsters,  siege minions and  super minions for 5 seconds, stacking up to 4 times.",
+      "Active: Sejuani encases the  visible enemy with 4 stacks of Frost closest to the cursor in ice, consuming all stacks to deal magic damage,  knock them down, and  stun them for 1 second.",
+      "Enemy champions  stunned by Sejuani cannot gain Frost for 8 seconds.",
+      "Permafrost  resets Sejuani's basic attack timer."
+    ]
+  },
+  {
+    "name": "Glacial Prison",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      120,
+      110,
+      100,
+      90,
+      80
+    ],
+    "description": "Active: Sejuani throws an ice bola in the target direction, stopping at the first enemy champion hit, dealing magic damage,  stunning, and  revealing them for 1 second.",
+    "leveling": "Magic Damage:»100 / 112.5 / 125 / 137.5 / 150 (+ 40% AP)«Empowered Magic Damage:150 / 200 / 250 / 300 / 350 (+ 80% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      100,
+      112.5,
+      125,
+      137.5,
+      150
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Glacial Prison.png",
+    "icons": [
+      "Glacial Prison.png"
+    ],
+    "levelings": [
+      "Magic Damage:»100 / 112.5 / 125 / 137.5 / 150 (+ 40% AP)«Empowered Magic Damage:150 / 200 / 250 / 300 / 350 (+ 80% AP)",
+      "Magic Damage:150 / 200 / 250 / 300 / 350 (+ 80% AP)"
+    ],
+    "descriptions": [
+      "Active: Sejuani throws an ice bola in the target direction, stopping at the first enemy champion hit, dealing magic damage,  stunning, and  revealing them for 1 second.",
+      "The bola deals increased damage,  stuns and  reveals for 1.5 seconds and shatters upon reaching maximum range or upon colliding with an enemy champion beyond 400 range, creating a frost storm for 2 seconds which forms a glacier on the ground that  slows enemies within by 30% and grants  sight of the area in a smaller radius.",
+      "At the end of the duration, the glacier breaks, dealing the same damage and  slowing enemies by 80% for 1 second as well as briefly  revealing them and the area.",
+      "The enemy hit by the bola is not affected by the storm's effects."
+    ]
+  }
+]

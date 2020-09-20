@@ -1,0 +1,191 @@
+[
+  {
+    "name": "Deadly Venom",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Twitch's basic attacks  poison his target with Deadly Venom, each attack adding one stack and refreshing its duration on-hit.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "True",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Deadly Venom.png",
+    "icons": [
+      "Deadly Venom.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Twitch's basic attacks  poison his target with Deadly Venom, each attack adding one stack and refreshing its duration on-hit.",
+      "Each Deadly Venom stack deals 1 / 2 / 3 / 4 / 5 (based on level)  true damage per second over 6 seconds, stacking up to 6 times for a maximum of 6 / 12 / 18 / 24 / 30 (based on level) true damage per second."
+    ]
+  },
+  {
+    "name": "Ambush",
+    "cost": [
+      40
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      16
+    ],
+    "description": "Active: After a 1 second delay, Twitch becomes  camouflaged for a duration. Entering stealth cancels Twitch's current basic attack. Attacking or casting  Venom Cask or  Contaminate breaks the stealth immediately.",
+    "leveling": "Stealth Duration:10 / 11 / 12 / 13 / 14",
+    "skill": "Q",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Ambush.png",
+    "icons": [
+      "Ambush.png",
+      "Ambush 2.png",
+      "Ambush 3.png"
+    ],
+    "levelings": [
+      "Stealth Duration:10 / 11 / 12 / 13 / 14",
+      "Bonus Attack Speed:30 / 35 / 40 / 45 / 50%"
+    ],
+    "descriptions": [
+      "Active: After a 1 second delay, Twitch becomes  camouflaged for a duration. Entering stealth cancels Twitch's current basic attack. Attacking or casting  Venom Cask or  Contaminate breaks the stealth immediately.",
+      "While stealthed, Twitch gains  10% bonus movement speed, increased to 30% when he moves toward enemy  champions within a 1000-range radius who cannot see him.",
+      "Upon breaking stealth Twitch gains  bonus attack speed for 5 seconds.",
+      "Ambush's  cooldown is reset if an enemy champion dies while poisoned by  Deadly Venom."
+    ]
+  },
+  {
+    "name": "Venom Cask",
+    "cost": [
+      70
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      13,
+      12,
+      11,
+      10,
+      9
+    ],
+    "description": "Active: Twitch hurls a cask of venom at the target location, infecting all enemies hit with a  Deadly Venom stack and  revealing the area.",
+    "leveling": "Slow:25 / 30 / 35 / 40 / 45%",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "True",
+    "flatDamage": [
+      25,
+      30,
+      35,
+      40,
+      45
+    ],
+    "ratios": [],
+    "castTime": 0.25,
+    "icon": "Venom Cask.png",
+    "icons": [
+      "Venom Cask.png"
+    ],
+    "levelings": [
+      "Slow:25 / 30 / 35 / 40 / 45%"
+    ],
+    "descriptions": [
+      "Active: Twitch hurls a cask of venom at the target location, infecting all enemies hit with a  Deadly Venom stack and  revealing the area.",
+      "The area then becomes contaminated for 3 seconds, applying a  Deadly Venom stack each second and  slowing all enemies within."
+    ]
+  },
+  {
+    "name": "Contaminate",
+    "cost": [
+      50,
+      60,
+      70,
+      80,
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12,
+      11,
+      10,
+      9,
+      8
+    ],
+    "description": "Active: Twitch sends out a lethal toxin to each nearby enemy afflicted by  Deadly Venom, dealing physical damage, increased for each stack on the target.",
+    "leveling": "Base Physical Damage:20 / 30 / 40 / 50 / 60\nBonus Damage Per Stack:»15 / 20 / 25 / 30 / 35 (+ 35% bonus AD) (+ 33.3% AP)«Minimum Damage:»35 / 50 / 65 / 80 / 95 (+ 35% bonus AD) (+ 33.3% AP)«Maximum Damage:110 / 150 / 190 / 230 / 270 (+ 210% bonus AD) (+ 199.8% AP)",
+    "skill": "E",
+    "damageType": "Physical",
+    "isProjectile": "True",
+    "flatDamage": [
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "ratios": [
+      {
+        "value": 35,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Contaminate.png",
+    "icons": [
+      "Contaminate.png"
+    ],
+    "levelings": [
+      "Base Physical Damage:20 / 30 / 40 / 50 / 60\nBonus Damage Per Stack:»15 / 20 / 25 / 30 / 35 (+ 35% bonus AD) (+ 33.3% AP)«Minimum Damage:»35 / 50 / 65 / 80 / 95 (+ 35% bonus AD) (+ 33.3% AP)«Maximum Damage:110 / 150 / 190 / 230 / 270 (+ 210% bonus AD) (+ 199.8% AP)"
+    ],
+    "descriptions": [
+      "Active: Twitch sends out a lethal toxin to each nearby enemy afflicted by  Deadly Venom, dealing physical damage, increased for each stack on the target.",
+      "Contaminate can be cast regardless of having  sight of targets or not."
+    ]
+  },
+  {
+    "name": "Spray and Pray",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      90
+    ],
+    "description": "Active: Twitch gains  bonus attack damage and  300 bonus attack range for 5 seconds, during which his  basic attacks are replaced by bolts that travel slightly further than his attack range in a straight line, damaging every enemy in their path.",
+    "leveling": "Bonus AD:20 / 25 / 30 / 35 / 40",
+    "skill": "R",
+    "damageType": "Physical",
+    "isProjectile": "true",
+    "flatDamage": [
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Spray and Pray.png",
+    "icons": [
+      "Spray and Pray.png"
+    ],
+    "levelings": [
+      "Bonus AD:20 / 25 / 30 / 35 / 40"
+    ],
+    "descriptions": [
+      "Active: Twitch gains  bonus attack damage and  300 bonus attack range for 5 seconds, during which his  basic attacks are replaced by bolts that travel slightly further than his attack range in a straight line, damaging every enemy in their path.",
+      "The bolts deal 100% − 60% (based on enemy hit)  physical damage, apply on-hit effects to and can  critically strike against each individual target."
+    ]
+  }
+]

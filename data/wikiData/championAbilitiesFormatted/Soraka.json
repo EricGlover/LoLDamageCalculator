@@ -1,0 +1,214 @@
+[
+  {
+    "name": "Salvation",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Soraka gains  70% bonus movement speed when moving towards allied champions below  40% of their maximum health.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Salvation.png",
+    "icons": [
+      "Salvation.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Soraka gains  70% bonus movement speed when moving towards allied champions below  40% of their maximum health."
+    ]
+  },
+  {
+    "name": "Starcall",
+    "cost": [
+      45,
+      50,
+      55,
+      60,
+      65
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      8,
+      7,
+      6,
+      5,
+      4
+    ],
+    "description": "Active: Soraka calls down a star upon the target area, granting  sight over it before landing after 0.25 − 1 (based on target range) seconds, dealing magic damage to enemies hit and  slowing them by 30% for 1.5 seconds.",
+    "leveling": "Magic Damage:85 / 120 / 155 / 190 / 225 (+ 35% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      85,
+      120,
+      155,
+      190,
+      225
+    ],
+    "ratios": [
+      {
+        "value": 35,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Starcall.png",
+    "icons": [
+      "Starcall.png"
+    ],
+    "levelings": [
+      "Magic Damage:85 / 120 / 155 / 190 / 225 (+ 35% AP)",
+      "Total Self-Heal:50 / 60 / 70 / 80 / 90 (+ 30% AP)\nBonus Movement Speed:15 / 17.5 / 20 / 22.5 / 25%"
+    ],
+    "descriptions": [
+      "Active: Soraka calls down a star upon the target area, granting  sight over it before landing after 0.25 − 1 (based on target range) seconds, dealing magic damage to enemies hit and  slowing them by 30% for 1.5 seconds.",
+      "Hitting at least one enemy  champion returns the star dust toward Soraka, granting her Rejuvenation for 2.5 seconds,  healing her every 0.5 seconds and granting her  bonus movement speed, decaying over the duration.",
+      "While Soraka is Rejuvenated she can Rejuvenate other allies with  Astral Infusion, granting them the same effects for the same duration."
+    ]
+  },
+  {
+    "name": "Astral Infusion",
+    "cost": [
+      10
+    ],
+    "costType": "Maximum Health + 40 / 45 / 50 / 55 / 60 Mana",
+    "coolDown": [
+      6,
+      5,
+      4,
+      3,
+      2
+    ],
+    "description": "Active: Soraka  heals the target ally champion (excluding herself).",
+    "leveling": "Heal:80 / 115 / 150 / 185 / 220 (+ 60% AP)",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "False",
+    "flatDamage": [
+      80,
+      115,
+      150,
+      185,
+      220
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Astral Infusion.png",
+    "icons": [
+      "Astral Infusion.png"
+    ],
+    "levelings": [
+      "Heal:80 / 115 / 150 / 185 / 220 (+ 60% AP)",
+      "Health Cost Reduction:80 / 85 / 90 / 95 / 100%"
+    ],
+    "descriptions": [
+      "Active: Soraka  heals the target ally champion (excluding herself).",
+      "If cast while  Rejuvenated, the health cost will be reduced by a percentage.",
+      "Astral Infusion cannot be cast if Soraka is  below 5% of her maximum health."
+    ]
+  },
+  {
+    "name": "Equinox",
+    "cost": [
+      70,
+      75,
+      80,
+      85,
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      20,
+      19,
+      18,
+      17,
+      16
+    ],
+    "description": "Active: Soraka creates a celestial zone at the target location, dealing magic damage to enemy champions that were inside it upon creation. The zone then persists for 1.5 seconds,  silencing all enemy champions within it every 0.25 seconds.",
+    "leveling": "Magic Damage:»70 / 95 / 120 / 145 / 170 (+ 40% AP)«Total Magic Damage:140 / 190 / 240 / 290 / 340 (+ 80% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      70,
+      95,
+      120,
+      145,
+      170
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Equinox.png",
+    "icons": [
+      "Equinox.png"
+    ],
+    "levelings": [
+      "Magic Damage:»70 / 95 / 120 / 145 / 170 (+ 40% AP)«Total Magic Damage:140 / 190 / 240 / 290 / 340 (+ 80% AP)",
+      "Root Duration:1 / 1.25 / 1.5 / 1.75 / 2"
+    ],
+    "descriptions": [
+      "Active: Soraka creates a celestial zone at the target location, dealing magic damage to enemy champions that were inside it upon creation. The zone then persists for 1.5 seconds,  silencing all enemy champions within it every 0.25 seconds.",
+      "After the duration, the zone detonates, dealing the same magic damage to all enemy champions within and briefly  rooting them."
+    ]
+  },
+  {
+    "name": "Wish",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      160,
+      145,
+      130
+    ],
+    "description": "Active: Soraka calls upon the stars, instantly  healing all allied champions, and herself, which is increased by 50% on targets below  40% of their maximum health.",
+    "leveling": "Heal:»150 / 250 / 350 (+ 55% AP)«Enhanced Heal:225 / 375 / 525 (+ 82.5% AP)",
+    "skill": "R",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      150,
+      250,
+      350,
+      55,
+      225
+    ],
+    "ratios": [
+      {
+        "value": 55,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Wish.png",
+    "icons": [
+      "Wish.png"
+    ],
+    "levelings": [
+      "Heal:»150 / 250 / 350 (+ 55% AP)«Enhanced Heal:225 / 375 / 525 (+ 82.5% AP)"
+    ],
+    "descriptions": [
+      "Active: Soraka calls upon the stars, instantly  healing all allied champions, and herself, which is increased by 50% on targets below  40% of their maximum health."
+    ]
+  }
+]

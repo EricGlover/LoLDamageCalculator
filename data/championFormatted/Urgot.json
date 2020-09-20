@@ -1,6 +1,33 @@
 {
   "abilities": [
     {
+      "name": "Echoing Flames",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Urgot's six legs each conceal a shotgun that covers an arc, together forming a full circle of cover around him. Each shotgun has one shell and an individual reload timer.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Physical",
+      "isProjectile": "False",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Echoing Flames.png",
+      "icons": [
+        "Echoing Flames.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Urgot's six legs each conceal a shotgun that covers an arc, together forming a full circle of cover around him. Each shotgun has one shell and an individual reload timer.",
+        "The next basic attack on-hit in the direction and range of a loaded shotgun causes it to fire, instantly dealing 40% − 100% (based on level) AD (+ 2% − 6% (based on level) of target's maximum health) physical damage to enemies in a cone, up to 60 − 360 (based on level) against  monsters."
+      ]
+    },
+    {
       "name": "Corrosive Charge",
       "cost": [
         80
@@ -13,7 +40,7 @@
         9,
         8
       ],
-      "description": "Active: Urgot launches a canister at the target location that explodes 0.3 seconds after it lands, dealing physical damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing all enemies hit for 1.25 seconds.",
+      "description": "Active: Urgot launches a canister at the target location that explodes 0.3 seconds after it lands, dealing physical damage and  slowing all enemies hit for 1.25 seconds.",
       "leveling": "Physical Damage:25 / 70 / 115 / 160 / 205 (+ 70% AD)\nSlow:45 / 50 / 55 / 60 / 65%",
       "skill": "Q",
       "damageType": "Physical",
@@ -31,7 +58,17 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Corrosive Charge.png",
+      "icons": [
+        "Corrosive Charge.png"
+      ],
+      "levelings": [
+        "Physical Damage:25 / 70 / 115 / 160 / 205 (+ 70% AD)\nSlow:45 / 50 / 55 / 60 / 65%"
+      ],
+      "descriptions": [
+        "Active: Urgot launches a canister at the target location that explodes 0.3 seconds after it lands, dealing physical damage and  slowing all enemies hit for 1.25 seconds."
+      ]
     },
     {
       "name": "Purge",
@@ -84,7 +121,22 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Purge.png",
+      "icons": [
+        "Purge.png",
+        "Purge 2.png"
+      ],
+      "levelings": [
+        "Modified Damage:12 (+ 20 / 24 / 28 / 32 / 36% AD)"
+      ],
+      "descriptions": [
+        "Passive: Urgot's other abilities apply Purge to enemy champions for 5 seconds. Only one enemy champion can be marked at a time.",
+        "Active: For 4 seconds, Urgot grants  ghosting to non-champions and non-epic monsters around him and autonomously attacks the nearest enemy at a fixed  3.0 attack speed, prioritizing enemy  champions marked with Purge, refreshing it with every attack. Urgot can attack while moving, but while firing, his base movement speed is reduced by 125 and he gains 40%  slow resist. Purge can be recast after 0.5 seconds.",
+        "Attacks with Purge deal modified damage, with a minimum threshold of 50 against  minions. On-hit damage is only 50% and the attacks cannot  critically strike.",
+        "Recast: Urgot ends Purge early.",
+        "At maximum rank, Purge lasts indefinitely and becomes a toggled ability."
+      ]
     },
     {
       "name": "Disdain",
@@ -103,7 +155,7 @@
         14,
         14
       ],
-      "description": "Active: Urgot <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields himself for 4 seconds.",
+      "description": "Active: Urgot  shields himself for 4 seconds.",
       "leveling": "Shield Strength:60 / 80 / 100 / 120 / 140 (+ 150% bonus AD) (+ 15% bonus health)",
       "skill": "E",
       "damageType": "Physical",
@@ -121,7 +173,20 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.45
+      "castTime": 0.45,
+      "icon": "Disdain.png",
+      "icons": [
+        "Disdain.png"
+      ],
+      "levelings": [
+        "Shield Strength:60 / 80 / 100 / 120 / 140 (+ 150% bonus AD) (+ 15% bonus health)",
+        "Physical Damage:90 / 120 / 150 / 180 / 210 (+ 100% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Urgot  shields himself for 4 seconds.",
+        "After the cast time, Urgot  dashes in the target direction, though not through terrain, dealing physical damage to all enemies in the way and  knocking them aside.",
+        "Urgot comes to a stop upon colliding with an enemy champion,  stunning them for 1.5 seconds and, after 0.25 seconds, also  flinging them to the location 100 units behind him over 0.5 seconds."
+      ]
     },
     {
       "name": "Fear Beyond Death",
@@ -136,7 +201,7 @@
         77,
         70
       ],
-      "description": "Active: Urgot fires a chem-drill in the target direction that impales the first enemy champion struck, dealing physical damage and leashing them for 4 seconds, during which they're <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealed and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed by 0% − 75% (based on target's missing health).",
+      "description": "Active: Urgot fires a chem-drill in the target direction that impales the first enemy champion struck, dealing physical damage and leashing them for 4 seconds, during which they're  revealed and  slowed by 0% − 75% (based on target's missing health).",
       "leveling": "Physical Damage:100 / 162.5 / 225 / 287.5 / 350 (+ 50% bonus AD)",
       "skill": "R",
       "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Hybrid_penetration.png/revision/latest/scale-to-width-down/20?cb=20170514081634\" \t alt=\"Hybrid penetration\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration.png\" \tdata-image-name=\"Hybrid penetration.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> True",
@@ -154,7 +219,23 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.5
+      "castTime": 0.5,
+      "icon": "Fear Beyond Death.png",
+      "icons": [
+        "Fear Beyond Death.png",
+        "Fear Beyond Death 3.png",
+        "Fear Beyond Death 2.png"
+      ],
+      "levelings": [
+        "Physical Damage:100 / 162.5 / 225 / 287.5 / 350 (+ 50% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Urgot fires a chem-drill in the target direction that impales the first enemy champion struck, dealing physical damage and leashing them for 4 seconds, during which they're  revealed and  slowed by 0% − 75% (based on target's missing health).",
+        "Fear Beyond Death can be reactivated if the target is below  25% of their maximum health, and automatically does so if the target would be killed by the damage from the chem-drill, the ability is cast again while the target was above the threshold and is then brought within it, or the target is within the threshold at the end of its duration.",
+        "Recast: Urgot launches chains at the target, then starts  channeling once they latch on,  suppressing them,  revealing them, and pushing them up to 1000 units away based on Urgot's proximity to them, after which they're reeled in over 1.5 seconds, during which they are  untargetable and  invulnerable to damage from other sources. This channel cannot be  interrupted by  crowd control.",
+        "If the channel is successful, the target is  executed and surrounding enemies are  feared for 1.5 seconds,  slowing them by 75%.",
+        "Fear Beyond Death's recast can be used while affected by  crowd control."
+      ]
     }
   ],
   "id": "Urgot",
@@ -169,6 +250,7 @@
     "difficulty": 8
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Urgot.png",
     "full": "Urgot.png",
     "sprite": "champion4.png",
     "group": "champion",

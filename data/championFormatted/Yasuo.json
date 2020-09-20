@@ -1,5 +1,207 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Way of the Wanderer",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate - Intent: Yasuo doubles his  total critical strike chance from all other sources, but his  critical strikes deal only (80% +  22.5%) AD bonus physical damage.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Way of the Wanderer.png",
+      "icons": [
+        "Way of the Wanderer.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate - Intent: Yasuo doubles his  total critical strike chance from all other sources, but his  critical strikes deal only (80% +  22.5%) AD bonus physical damage.",
+        "Innate - Resolve: Yasuo generates  Flow for every 59 / 52.5 / 46 (based on level) units he travels by any means. At「 100 stacks 」「 5900 / 5250 / 4600 (based on level) units traveled 」and upon taking damage from enemy  champions or  monsters, Yasuo consumes all  Flow to  shield himself for 115 − 525 (based on level) for up to 1 second."
+      ]
+    },
+    {
+      "name": "Steel Tempest",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Active: Yasuo thrusts his sword in the target direction, dealing physical damage to enemies hit and applying on-hit and on-attack effects to the first enemy hit. Steel Tempest can  critically strike for (60% +  20%) AD bonus physical damage.",
+      "leveling": "Physical Damage:20 / 45 / 70 / 95 / 120 (+ 100% AD)",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "Special",
+      "flatDamage": [
+        20,
+        45,
+        70,
+        95,
+        120
+      ],
+      "ratios": [
+        {
+          "value": 100,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.4,
+      "icon": "Steel Tempest.png",
+      "icons": [
+        "Steel Tempest.png",
+        "Steel Tempest 2.png",
+        "Steel Tempest 3.png"
+      ],
+      "levelings": [
+        "Physical Damage:20 / 45 / 70 / 95 / 120 (+ 100% AD)"
+      ],
+      "descriptions": [
+        "Active: Yasuo thrusts his sword in the target direction, dealing physical damage to enemies hit and applying on-hit and on-attack effects to the first enemy hit. Steel Tempest can  critically strike for (60% +  20%) AD bonus physical damage.",
+        "If Steel Tempest hits an enemy with the thrust, Yasuo gains a Gathering Storm stack for 6 seconds, which refreshes upon receiving the second stack.",
+        "While Yasuo has two stacks of Gathering Storm, Steel Tempest consumes the stacks to instead unleash a whirlwind that travels in the target direction, dealing the same damage and  knocking up all enemies hit for 1 second.",
+        "Steel Tempest's thrust is  interrupted if Yasuo is affected by total crowd control during the cast time but its  cooldown is reset to 0.1 seconds.",
+        "Casting Steel Tempest during  Sweeping Blade will instead affect enemies around Yasuo at the end of the dash, or doing so immediately at his landing location after  blinking while ending the dash prematurely. If Yasuo becomes unable to cast abilities during the dash after buffering, Steel Tempest will not cast, but will still go on cooldown. *"
+      ]
+    },
+    {
+      "name": "Wind Wall",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        30,
+        27,
+        24,
+        21,
+        18
+      ],
+      "description": "Active: Yasuo creates a gust of wind that travels in the target direction over 0.25 seconds to form a wall in front of him. The wall slowly drifts forward 50 units over 3.75 seconds, blocking all hostile non- turret  projectiles that attempt to pass through it.",
+      "leveling": "Wall Width:300 / 350 / 400 / 450 / 500",
+      "skill": "W",
+      "damageType": "",
+      "isProjectile": "Special",
+      "flatDamage": [
+        300,
+        350,
+        400,
+        450,
+        500
+      ],
+      "ratios": [],
+      "castTime": 0.013,
+      "icon": "Wind Wall.png",
+      "icons": [
+        "Wind Wall.png"
+      ],
+      "levelings": [
+        "Wall Width:300 / 350 / 400 / 450 / 500"
+      ],
+      "descriptions": [
+        "Active: Yasuo creates a gust of wind that travels in the target direction over 0.25 seconds to form a wall in front of him. The wall slowly drifts forward 50 units over 3.75 seconds, blocking all hostile non- turret  projectiles that attempt to pass through it."
+      ]
+    },
+    {
+      "name": "Sweeping Blade",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "description": "Active: Yasuo  dashes a fixed distance toward the target enemy, dealing them magic damage if they are in range upon arrival.",
+      "leveling": "Magic Damage:»60 / 70 / 80 / 90 / 100 (+ 20% bonus AD) (+ 60% AP)«Maximum Magic Damage:90 / 105 / 120 / 135 / 150 (+ 20% bonus AD) (+ 60% AP)",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "ratios": [
+        {
+          "value": 20,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Sweeping Blade.png",
+      "icons": [
+        "Sweeping Blade.png"
+      ],
+      "levelings": [
+        "Magic Damage:»60 / 70 / 80 / 90 / 100 (+ 20% bonus AD) (+ 60% AP)«Maximum Magic Damage:90 / 105 / 120 / 135 / 150 (+ 20% bonus AD) (+ 60% AP)",
+        "Bonus Damage:»15 / 17.5 / 20 / 22.5 / 25«Maximum Bonus Damage:30 / 35 / 40 / 45 / 50"
+      ],
+      "descriptions": [
+        "Active: Yasuo  dashes a fixed distance toward the target enemy, dealing them magic damage if they are in range upon arrival.",
+        "Each Sweeping Blade cast increases the next dash's base damage by 25% for 5 seconds, up to 50%.",
+        "Yasuo cannot dash to the same target more than once every few seconds.",
+        "Yasuo will be  knocked down by any  immobilizing crowd control during Sweeping Blade.",
+        " Last Breath can be cast during Sweeping Blade. If  Steel Tempest has been buffered,  Wind Wall may also be cast during it. *"
+      ]
+    },
+    {
+      "name": "Last Breath",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        80,
+        55,
+        30
+      ],
+      "description": "Active: Yasuo  blinks to the other side of a  visible  airborne enemy champion nearest to the cursor, instantly generating maximum  Flow while resetting  Steel Tempest's stacks.",
+      "leveling": "Physical Damage:200 / 350 / 500 (+ 150% bonus AD)",
+      "skill": "R",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        200,
+        350,
+        500,
+        150
+      ],
+      "ratios": [
+        {
+          "value": 150,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Last Breath.png",
+      "icons": [
+        "Last Breath.png"
+      ],
+      "levelings": [
+        "Physical Damage:200 / 350 / 500 (+ 150% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Yasuo  blinks to the other side of a  visible  airborne enemy champion nearest to the cursor, instantly generating maximum  Flow while resetting  Steel Tempest's stacks.",
+        "Upon arrival, he  knocks up the target and all nearby  airborne enemy champions around it for 1 second,  revealing them and slashing them with his sword over the duration, dealing physical damage thereafter. Enemy champions around the target that become  airborne before the effects end will also be  knocked up for the remaining duration and dealt damage at its end.",
+        "For the next 15 seconds, Yasuo's  critical strikes gain  50% bonus-armor penetration.",
+        "If Yasuo would be placed inside a  turret's  attack range upon blinking, he will instead attempt to position himself outside it (does not apply to  Nexus Obelisk)."
+      ]
+    }
+  ],
   "id": "Yasuo",
   "key": "157",
   "name": "Yasuo",
@@ -12,6 +214,7 @@
     "difficulty": 10
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Yasuo.png",
     "full": "Yasuo.png",
     "sprite": "champion4.png",
     "group": "champion",

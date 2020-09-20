@@ -1,0 +1,220 @@
+[
+  {
+    "name": "Power Chord",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate - Aura: Sona's basic abilities each generate a unique aura for 3 seconds that empowers her and all allied  champions who enter its radius, also incurring a 0.5 seconds period during which she cannot cast her other basic abilities.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Power Chord 2.png",
+    "icons": [
+      "Power Chord 2.png",
+      "Power Chord.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate - Aura: Sona's basic abilities each generate a unique aura for 3 seconds that empowers her and all allied  champions who enter its radius, also incurring a 0.5 seconds period during which she cannot cast her other basic abilities.",
+      "Innate - Power Chord: After casting 3 basic abilities, Sona's next basic attack becomes  unstoppable, deals 20 −  240 (based on level) (+ 20% AP) bonus magic damage and applies an additional effect depending on the last basic ability cast.",
+      "Power Chord  resets Sona's basic attack timer."
+    ]
+  },
+  {
+    "name": "Hymn of Valor",
+    "cost": [
+      75,
+      80,
+      85,
+      90,
+      95
+    ],
+    "costType": "mana",
+    "coolDown": [
+      8,
+      7,
+      6,
+      4
+    ],
+    "description": "Active: Sona sends out bolts of sound that deal magic damage to the two nearest  visible enemies, prioritizing champions.",
+    "leveling": "Magic Damage:40 / 70 / 100 / 130 / 160 (+ 40% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      40,
+      70,
+      100,
+      130,
+      160
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Hymn of Valor.png",
+    "icons": [
+      "Hymn of Valor.png",
+      "Tempo Hymn of Valor.png"
+    ],
+    "levelings": [
+      "Magic Damage:40 / 70 / 100 / 130 / 160 (+ 40% AP)",
+      "Bonus Magic Damage:10 / 15 / 20 / 25 / 30 (+ 20% AP)"
+    ],
+    "descriptions": [
+      "Active: Sona sends out bolts of sound that deal magic damage to the two nearest  visible enemies, prioritizing champions.",
+      "Aura: Sona and tagged allied champions deal bonus magic damage on their next basic attack within 3 seconds.",
+      "Granting an ally (other than herself) the aura refunds 30 mana per cast.",
+      " Power Chord – Staccato: Power Chord deals「 40% bonus magic damage. 」「 28 −  336 (based on level) (+ 28% AP) total magic damage. 」"
+    ]
+  },
+  {
+    "name": "Aria of Perseverance",
+    "cost": [
+      105,
+      110,
+      115,
+      120,
+      125
+    ],
+    "costType": "mana",
+    "coolDown": [
+      10,
+      9,
+      7,
+      6
+    ],
+    "description": "Active: Sona  heals herself and the most wounded nearby allied champion.",
+    "leveling": "Heal:30 / 50 / 70 / 90 / 110 (+ 20% AP)",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      30,
+      50,
+      70,
+      90,
+      110
+    ],
+    "ratios": [
+      {
+        "value": 20,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Aria of Perseverance.png",
+    "icons": [
+      "Aria of Perseverance.png",
+      "Tempo Aria of Perseverance.png"
+    ],
+    "levelings": [
+      "Heal:30 / 50 / 70 / 90 / 110 (+ 20% AP)",
+      "Shield Strength:25 / 50 / 75 / 100 / 125 (+ 30% AP)"
+    ],
+    "descriptions": [
+      "Active: Sona  heals herself and the most wounded nearby allied champion.",
+      "Aura: Sona and tagged allied champions receive a  shield lasting up to 1.5 seconds.",
+      "Granting an ally (other than herself) the aura refunds 30 mana per cast.",
+      " Power Chord – Diminuendo: Power Chord reduces its target's size by 8% and damage output by 25% (+ 4% per 100 AP) for 3 seconds."
+    ]
+  },
+  {
+    "name": "Song of Celerity",
+    "cost": [
+      90
+    ],
+    "costType": "mana",
+    "coolDown": [
+      12,
+      10,
+      9,
+      7
+    ],
+    "description": "Active: Sona gains 20% (+ 2% per 100 AP)  bonus movement speed for 3 seconds, extended to up to 7 seconds if she doesn't take damage.",
+    "leveling": "Aura Bonus Movement Speed:10 / 11 / 12 / 13 / 14% (+ 2% per 100 AP)",
+    "skill": "E",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "ratios": [
+      {
+        "value": 2,
+        "type": "bonus ad"
+      },
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Song of Celerity.png",
+    "icons": [
+      "Song of Celerity.png",
+      "Tempo Song of Celerity.png"
+    ],
+    "levelings": [
+      "Aura Bonus Movement Speed:10 / 11 / 12 / 13 / 14% (+ 2% per 100 AP)"
+    ],
+    "descriptions": [
+      "Active: Sona gains 20% (+ 2% per 100 AP)  bonus movement speed for 3 seconds, extended to up to 7 seconds if she doesn't take damage.",
+      "Aura: Tagged allied champions gain bonus movement speed for 3 seconds.",
+      "Granting an ally (other than herself) the aura refunds 30 mana per cast.",
+      " Power Chord – Tempo: Power Chord  slows its target by 40% (+ 4% per 100 AP) for 2 seconds, capped at a maximum of 99%."
+    ]
+  },
+  {
+    "name": "Crescendo",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      140,
+      120,
+      100
+    ],
+    "description": "Passive: Reduces the base  cooldown of Sona's basic abilities.",
+    "leveling": "Basic Ability Base Cooldown Reduction:10 / 25 / 40%",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      10,
+      25,
+      40
+    ],
+    "ratios": [],
+    "castTime": 0.2,
+    "icon": "false",
+    "icons": [
+      "false",
+      "Crescendo.png"
+    ],
+    "levelings": [
+      "Basic Ability Base Cooldown Reduction:10 / 25 / 40%",
+      "Magic Damage:150 / 250 / 350 (+ 50% AP)"
+    ],
+    "descriptions": [
+      "Passive: Reduces the base  cooldown of Sona's basic abilities.",
+      "Active: Sona plays an irresistible chord in the target direction, dealing magic damage to all enemy champions struck and  stunning them for 1.5 seconds."
+    ]
+  }
+]

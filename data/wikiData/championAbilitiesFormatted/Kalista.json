@@ -1,0 +1,196 @@
+[
+  {
+    "name": "Martial Poise",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Kalista's basic attack has unique properties:\n Deals 90% AD physical damage.\n  Misses if she loses  sight of her target before they hit.\n Is  unstoppable.\n Can switch targets mid attack windup.\n Makes her  dash in the target direction after issuing a movement command during a windup or right after casting  Pierce.\n The distance scales with her Boots tier. The windup while dashing is only reduced by 0.66% per  1% bonus attack speed.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Martial Poise.png",
+    "icons": [
+      "Martial Poise.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Kalista's basic attack has unique properties:\n Deals 90% AD physical damage.\n  Misses if she loses  sight of her target before they hit.\n Is  unstoppable.\n Can switch targets mid attack windup.\n Makes her  dash in the target direction after issuing a movement command during a windup or right after casting  Pierce.\n The distance scales with her Boots tier. The windup while dashing is only reduced by 0.66% per  1% bonus attack speed.",
+      "Innate - Oathsworn Bond: Kalista begins the game with an exclusive  Black Spear."
+    ]
+  },
+  {
+    "name": "Pierce",
+    "cost": [
+      50,
+      55,
+      60,
+      65,
+      70
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      8
+    ],
+    "description": "Active: Kalista hurls a spear in the target direction that deals physical damage to the first enemy hit.",
+    "leveling": "Physical Damage:20 / 85 / 150 / 215 / 280 (+ 100% AD)",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "True",
+    "flatDamage": [
+      20,
+      85,
+      150,
+      215,
+      280
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Pierce.png",
+    "icons": [
+      "Pierce.png"
+    ],
+    "levelings": [
+      "Physical Damage:20 / 85 / 150 / 215 / 280 (+ 100% AD)"
+    ],
+    "descriptions": [
+      "Active: Kalista hurls a spear in the target direction that deals physical damage to the first enemy hit.",
+      "If Pierce kills its target the spear continues onward transferring all of the dead victim's  Rend stacks to the next enemy it hits. This can repeat indefinitely until the spear reaches its maximum range."
+    ]
+  },
+  {
+    "name": "Sentinel",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      30
+    ],
+    "description": "Passive - Soul-Marked: While Kalista and her  Oathsworn are linked, their basic attacks and  Pierce apply a Soul-Mark to their targets.",
+    "leveling": "Bonus Magic Damage:»14 / 15 / 16 / 17 / 18% of target's maximum health«Maximum Non-Champion Damage:100 / 125 / 150 / 175 / 200",
+    "skill": "W",
+    "damageType": "magic",
+    "isProjectile": "",
+    "flatDamage": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "ratios": [],
+    "castTime": 0.5,
+    "icon": "Sentinel 2.png",
+    "icons": [
+      "Sentinel 2.png",
+      "Sentinel 3.png",
+      "Sentinel.png"
+    ],
+    "levelings": [
+      "Bonus Magic Damage:»14 / 15 / 16 / 17 / 18% of target's maximum health«Maximum Non-Champion Damage:100 / 125 / 150 / 175 / 200"
+    ],
+    "descriptions": [
+      "Passive - Soul-Marked: While Kalista and her  Oathsworn are linked, their basic attacks and  Pierce apply a Soul-Mark to their targets.",
+      "If both Soul-Marks are applied within 4 seconds, the target takes bonus magic damage (capped against non-champions), and cannot be Soul-Marked for 10 seconds. Soul-Mark deals 75 minimum damage to  minions and executes them if they're below  125 health. Kalista applies the damage on-attack while the Oathsworn's damage occurs on-hit.",
+      "Passive: Kalista periodically stocks a Sentinel charge, up to a maximum of 2.",
+      "Active: Kalista summons a Sentinel to  patrol along the area in the target direction."
+    ]
+  },
+  {
+    "name": "Rend",
+    "cost": [
+      30
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      14,
+      12,
+      11,
+      9,
+      8
+    ],
+    "description": "Passive: Kalista's basic attacks on-hit and  Pierce each lodge a spear in the target for 4 seconds, stacking up to 254 times.",
+    "leveling": "Physical Damage:»20 / 30 / 40 / 50 / 60 (+ 60% AD)«Damage per Additional Spear:10 / 14 / 19 / 25 / 32 (+ 19.8 / 23.748 / 27.498 / 31.248 / 34.998% AD)\nSlow:10 / 18 / 26 / 34 / 42%",
+    "skill": "E",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Rend.png",
+    "icons": [
+      "Rend.png"
+    ],
+    "levelings": [
+      "Physical Damage:»20 / 30 / 40 / 50 / 60 (+ 60% AD)«Damage per Additional Spear:10 / 14 / 19 / 25 / 32 (+ 19.8 / 23.748 / 27.498 / 31.248 / 34.998% AD)\nSlow:10 / 18 / 26 / 34 / 42%",
+      "Mana Refund:10 / 15 / 20 / 25 / 30"
+    ],
+    "descriptions": [
+      "Passive: Kalista's basic attacks on-hit and  Pierce each lodge a spear in the target for 4 seconds, stacking up to 254 times.",
+      "Active: Kalista rips all lodged spears from valid nearby enemies, dealing physical damage and  slowing them for 2 seconds. The damage is increased with additional spears, but with reduced efficiency. Rend deals 50% reduced damage against epic  monsters.",
+      "Rend resets its  cooldown and refunds  mana if it kills at least one target.",
+      "There must be at least one valid target nearby for Rend to be cast.",
+      "Rend can be used during the dash of  Martial Poise and the cast time of  Pierce. In-flight spears and  Pierce if in cast will be empowered to apply Rend's effects to their targets. These empowered spears can also trigger Rend's refund."
+    ]
+  },
+  {
+    "name": "Fate's Call",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      150,
+      120,
+      90
+    ],
+    "description": "Active: Kalista invokes her  link, retrieving her Oathsworn and  cleansing them from all  crowd control while rendering them  invulnerable and  untargetable for 4 seconds.",
+    "leveling": "Knockup Duration:1.5 / 1.75 / 2",
+    "skill": "R",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      1.5,
+      1.75,
+      2
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Fate's Call.png",
+    "icons": [
+      "Fate's Call.png"
+    ],
+    "levelings": [
+      "Knockup Duration:1.5 / 1.75 / 2"
+    ],
+    "descriptions": [
+      "Active: Kalista invokes her  link, retrieving her Oathsworn and  cleansing them from all  crowd control while rendering them  invulnerable and  untargetable for 4 seconds.",
+      "Kalista's Oathsworn can  dash with  displacement immunity to a target location during this time, and automatically does so at the end of the duration, ending Fate's Call's effects and stopping at the first enemy  champion hit,  knocking up all surrounding enemies and landing themselves at their  basic attack range relative to the target hit.",
+      "The Oathsworn is  vanished,  silenced, and unable to perform movement or attack commands until they have emerged."
+    ]
+  }
+]

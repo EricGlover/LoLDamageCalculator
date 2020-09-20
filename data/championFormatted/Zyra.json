@@ -1,5 +1,195 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Garden of Thorns",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Zyra periodically spawns one or two Seeds nearby that last for 30 seconds, briefly granting  sight over the surrounding area.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Garden of Thorns.png",
+      "icons": [
+        "Garden of Thorns.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Zyra periodically spawns one or two Seeds nearby that last for 30 seconds, briefly granting  sight over the surrounding area.",
+        "After at least 1 second, enemy  champions can destroy Seeds by stepping on them.",
+        "Zyra can only have a total of 8 Seeds planted at a time, preserving placed Seeds over those spawned by Garden of Thorns."
+      ]
+    },
+    {
+      "name": "Deadly Spines",
+      "cost": [
+        70
+      ],
+      "costType": "mana",
+      "coolDown": [
+        7,
+        6,
+        6,
+        5,
+        5
+      ],
+      "description": "Active: Zyra sprouts thorny spines at the target location that appear after a 0.625-seconds delay, dealing magic damage to all enemies they hit.",
+      "leveling": "Magic Damage:60 / 95 / 130 / 165 / 200 (+ 60% AP)",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        60,
+        95,
+        130,
+        165,
+        200
+      ],
+      "ratios": [
+        {
+          "value": 60,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Deadly Spines.png",
+      "icons": [
+        "Deadly Spines.png"
+      ],
+      "levelings": [
+        "Magic Damage:60 / 95 / 130 / 165 / 200 (+ 60% AP)"
+      ],
+      "descriptions": [
+        "Active: Zyra sprouts thorny spines at the target location that appear after a 0.625-seconds delay, dealing magic damage to all enemies they hit.",
+        "If Deadly Spines hits a Seed, it sprouts into a  Thorn Spitter, which remains on the battlefield for 8 seconds."
+      ]
+    },
+    {
+      "name": "Rampant Growth",
+      "cost": [
+        1
+      ],
+      "costType": "Seed",
+      "coolDown": [
+        null
+      ],
+      "description": "Passive: Zyra periodically stores a Seed, up to 2. Killing an enemy unit grants 20% charge toward a Seed, increased to 100% for large enemy units killed and enemy  champion  takedowns.",
+      "leveling": null,
+      "skill": "W",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Rampant Growth.png",
+      "icons": [
+        "Rampant Growth.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Passive: Zyra periodically stores a Seed, up to 2. Killing an enemy unit grants 20% charge toward a Seed, increased to 100% for large enemy units killed and enemy  champion  takedowns.",
+        "Active: Zyra plants a Seed at the target location, which lasts for 60 seconds and briefly grants  sight of the spot Zyra planted it in.",
+        "After 1.5 seconds, enemy champions can destroy Seeds by stepping on them, but doing so  reveals them for 2 seconds."
+      ]
+    },
+    {
+      "name": "Grasping Roots",
+      "cost": [
+        70,
+        75,
+        80,
+        85,
+        90
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        12
+      ],
+      "description": "Active: Zyra sends a surge of vines in the target direction, dealing magic damage to all enemies hit and  rooting them for a short duration.",
+      "leveling": "Magic Damage:60 / 105 / 150 / 195 / 240 (+ 50% AP)Root Duration:1 / 1.25 / 1.5 / 1.75 / 2",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        60,
+        105,
+        150,
+        195,
+        240
+      ],
+      "ratios": [
+        {
+          "value": 50,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Grasping Roots.png",
+      "icons": [
+        "Grasping Roots.png"
+      ],
+      "levelings": [
+        "Magic Damage:60 / 105 / 150 / 195 / 240 (+ 50% AP)Root Duration:1 / 1.25 / 1.5 / 1.75 / 2"
+      ],
+      "descriptions": [
+        "Active: Zyra sends a surge of vines in the target direction, dealing magic damage to all enemies hit and  rooting them for a short duration.",
+        "If Grasping Roots hits a Seed, it sprouts into a  Vine Lasher, which remains on the battlefield for 8 seconds."
+      ]
+    },
+    {
+      "name": "Stranglethorns",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        110,
+        105,
+        100,
+        95,
+        90
+      ],
+      "description": "Active: Zyra summons a monstrous thicket at the target location, dealing magic damage to all enemies in the area as it expands.",
+      "leveling": "Magic Damage:180 / 222.5 / 265 / 307.5 / 350 (+ 70% AP)",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        180,
+        222.5,
+        265,
+        307.5,
+        350
+      ],
+      "ratios": [
+        {
+          "value": 70,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Stranglethorns.png",
+      "icons": [
+        "Stranglethorns.png"
+      ],
+      "levelings": [
+        "Magic Damage:180 / 222.5 / 265 / 307.5 / 350 (+ 70% AP)"
+      ],
+      "descriptions": [
+        "Active: Zyra summons a monstrous thicket at the target location, dealing magic damage to all enemies in the area as it expands.",
+        "After 2 seconds, the vines snap upward,  knocking up all enemies caught in the thicket for 1 second.",
+        " Plants hit by the thicket are enraged, restoring  50% of their current health, increasing their  maximum health by 50%, gaining 25% increased size and refreshing their duration while the thicket expands. Additionally they attack in a flurry, launching two shots per attack, dealing 「 150% damage per flurry. 」「 75% damage per shot. 」"
+      ]
+    }
+  ],
   "id": "Zyra",
   "key": "143",
   "name": "Zyra",
@@ -12,6 +202,7 @@
     "difficulty": 7
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Zyra.png",
     "full": "Zyra.png",
     "sprite": "champion4.png",
     "group": "champion",

@@ -1,0 +1,1201 @@
+[
+  {
+    "1": {
+      "value": "Darkness Rise",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Darkness Rise."
+    },
+    "champion": {
+      "value": "Mordekaiser",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "I",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "375",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Darkness Rise.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Innate: Mordekaiser's basic attacks deal 40% AP <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> bonus magic damage on-hit.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Damaging basic abilities or basic attacks on-attack grant 1 stack per enemy champion or large monster hit, up to a maximum of 3. At 3 stacks, Mordekaiser gains Darkness Rise for 4 seconds. Further basic attacks and abilities against enemy champions and large monsters refresh the duration.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Darkness Rise: Mordekaiser deals 「 5 − 15.2 (based on level) (+ 30% AP) (+ 1% − 5% (based on level) of target's maximum health) magic damage per second 」「 0.63 − 1.9 (based on level) (+ 3.75% AP) (+ 0.13% − 0.63% (based on level) of target's maximum health) magic damage every 0.125 seconds 」 to all nearby enemies and gains 3% bonus movement speed. The damage against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters is capped at 28 − 164 (based on level).",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Passive",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self / Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "aoedot",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Mordekaiser has a stack counter under his health-bar that is not visible to other champions.\n Darkness Rise's damage doesn't refresh Darkness Rise's buff.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/22/Dead_Man%27s_Plate_item.png/revision/latest/scale-to-width-down/20?cb=20171221062439\" \t alt=\"Dead Man&amp;#039;s Plate item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dead_Man%27s_Plate_item.png\" \tdata-image-name=\"Dead Man&#39;s Plate item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dead Man's Plate's bonus damage gives one bonus stack for Darkness Rise, even at 0 Momentum stacks.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Obliterate",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Obliterate."
+    },
+    "champion": {
+      "value": "Mordekaiser",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "Q",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "625",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "160",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.5",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "9 / 7.75 / 6.5 / 5.25 / 4",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Obliterate.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Mordekaiser smashes the area in the target direction, dealing magic damage to all enemies hit, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Critical_magic_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20190827073648\" \t alt=\"Critical magic strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_magic_strike_icon.png\" \tdata-image-name=\"Critical magic strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> increased if it hits only one enemy.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Magic Damage:5 −  139 (based on level) (+ 75 / 95 / 115 / 135 / 155) (+ 60% AP)\nDamage Increase:»20 / 25 / 30 / 35 / 40%«Maximum Bonus Damage:90 / 118.75 / 149.5 / 182.25 / 217 (+ 72 / 75 / 78 / 81 / 84% AP)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "special",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "False",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Applies <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Disintegrate.png/revision/latest/scale-to-width-down/20?cb=20130929122652\" \t alt=\"Disintegrate\"  \tclass=\"\" \t \tdata-image-key=\"Disintegrate.png\" \tdata-image-name=\"Disintegrate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> spell damage if it hits one target and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Death_Lotus.png/revision/latest/scale-to-width-down/20?cb=20170707191154\" \t alt=\"Death Lotus\"  \tclass=\"\" \t \tdata-image-key=\"Death_Lotus.png\" \tdata-image-name=\"Death Lotus.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> area damage to multiple targets.\n Obliterate will cast from wherever Mordekaiser is at the end of the cast time.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Indestructible",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Indestructible."
+    },
+    "champion": {
+      "value": "Mordekaiser",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "W",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "14 / 13 / 12 / 11 / 10",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Indestructible.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Passive: Mordekaiser stores 35% of the post-mitigation damage he deals and 15% of the pre-mitigation damage he takes,「 reduced by 75% for non-champion sources 」「 reduced to 8.75% of damage dealt and 3.75% of damage taken for non-champion sources 」, as Potential Shield on his secondary resource bar, up to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 30% of his maximum health. The Potential Shield decays by 8 − 25 (based on level) every second after not dealing or taking damage for 1 second, down to a minimum of 5% of his maximum health.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Active: Mordekaiser consumes all his current Potential Shield to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shield himself for 4 seconds for the same amount. At start the shield decays very slowly but exponentially increases near the end. Indestructible can be recast after 0.5 seconds.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "Indestructible 2.png",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Recast: Mordekaiser consumes the remaining shield, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing for a percentage of the amount.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "Healing:40 / 42.5 / 45 / 47.5 / 50%",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "None",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "*Both casts count as ability activations for the purposes of on-cast effects such as Spellblade, charging <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder, and stacking <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Force_Pulse.png/revision/latest/scale-to-width-down/20?cb=20170818190412\" \t alt=\"Force Pulse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Force_Pulse.png\" \tdata-image-name=\"Force Pulse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Force Pulse.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Death's Grasp",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Death's Grasp."
+    },
+    "champion": {
+      "value": "Mordekaiser",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "E",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "700 / 900",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "200",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "3000",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "24 / 21 / 18 / 15 / 12",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Death's Grasp.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Passive: Mordekaiser gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Magic_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203538\" \t alt=\"Magic penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_penetration_icon.png\" \tdata-image-name=\"Magic penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> magic penetration.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Magic Penetration:5 / 7.5 / 10 / 12.5 / 15%",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Active: Mordekaiser grants <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of the targeted area briefly and, after 0.5 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> pulls all enemies within for 250 units, dealing them magic damage.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Magic Damage:80 / 95 / 110 / 125 / 140 (+ 60% AP)",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction / Ground",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self, Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "aoe",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "false",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Death's Grasp will still <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> pull even if Mordekaiser <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dies.\n Death's Grasp is always cast from the original casting position.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Realm of Death",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Realm of Death."
+    },
+    "champion": {
+      "value": "Mordekaiser",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "R",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "650",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "1200",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.5",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "140 / 130 / 120 / 110 / 100",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Realm of Death.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Mordekaiser <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion by 75% during the cast time. If the target is still in range and targetable by the end of the cast time they're <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5f/Suppression_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223943\" \t alt=\"Suppression icon\"  \tclass=\"\" \t \tdata-image-key=\"Suppression_icon.png\" \tdata-image-name=\"Suppression icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> banished together with Mordekaiser to the Death Realm for 7 seconds.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Units between realms see each other as spirits, considering each other dead and negating any interactions between the two. Only the target and Mordekaiser will enter the realm; other champions cannot follow them. Everything that occurs inside the Death Realm is hidden, and all non-champion pets still inside are killed at the end.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "For the same duration, Mordekaiser also reduces the target's current <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> attack damage, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0a/Ability_power_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203441\" \t alt=\"Ability power icon\"  \tclass=\"\" \t \tdata-image-key=\"Ability_power_icon.png\" \tdata-image-name=\"Ability power icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> ability power, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> total attack speed, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> maximum health, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Armor_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_penetration_icon.png\" \tdata-image-name=\"Armor penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> armor, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Magic_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203538\" \t alt=\"Magic penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_penetration_icon.png\" \tdata-image-name=\"Magic penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> magic resist, and size by 10%, in addition to gaining them for himself. If the target dies while inside, Mordekaiser keeps their partial stats until they respawn.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "If one of the two affected champions leave the Death Realm, because of having died or having it dispelled, the other will do so as well, but the stats will remain stolen for the full duration.",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Unit",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1d/Realm_of_Death_ally_Spirit_screenshot.PNG/revision/latest/scale-to-width-down/125?cb=20200319044323\" \t alt=\"Realm of Death ally Spirit screenshot\"  \tclass=\"thumbimage \" \t \tdata-image-key=\"Realm_of_Death_ally_Spirit_screenshot.PNG\" \tdata-image-name=\"Realm of Death ally Spirit screenshot.PNG\" \t \t width=\"125\"  \t height=\"127\"  \t \t \t \t>  \t \t\t \t\t\t \t\t \t\t \t\t \t\t\tAlly Spirit \t\t \t \n \t<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/46/Realm_of_Death_enemy_spirit_screenshot.PNG/revision/latest/scale-to-width-down/125?cb=20200319044409\" \t alt=\"Realm of Death enemy spirit screenshot\"  \tclass=\"thumbimage \" \t \tdata-image-key=\"Realm_of_Death_enemy_spirit_screenshot.PNG\" \tdata-image-name=\"Realm of Death enemy spirit screenshot.PNG\" \t \t width=\"125\"  \t height=\"133\"  \t \t \t \t>  \t \t\t \t\t\t \t\t \t\t \t\t \t\t\tEnemy Spirit \t\t \t \n The ability will cancel and go on cooldown after the cast time if:\n The target is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Unstoppable_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164427\" \t alt=\"Unstoppable icon\"  \tclass=\"\" \t \tdata-image-key=\"Unstoppable_icon.png\" \tdata-image-name=\"Unstoppable icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement immune, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b1/Cc-immune_icon.png/revision/latest/scale-to-width-down/20?cb=20200327223512\" \t alt=\"Cc-immune icon\"  \tclass=\"\" \t \tdata-image-key=\"Cc-immune_icon.png\" \tdata-image-name=\"Cc-immune icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crowd control immune or protected by a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> spell shield.\n Mordekaiser targets a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Command_Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20170204131432\" \t alt=\"Command Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Command_Hallucinate.png\" \tdata-image-name=\"Command Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> clone or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Sion_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402221054\" \t alt=\"Sion OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sion_OriginalSquare.png\" \tdata-image-name=\"Sion OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sion's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Glory_in_Death.png/revision/latest/scale-to-width-down/20?cb=20170818194247\" \t alt=\"Glory in Death\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Glory_in_Death.png\" \tdata-image-name=\"Glory in Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Glory in Death.\n\n The ability will cancel but will not go on cooldown if:\n Mordekaiser loses <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of the target.\n The target is too far away.\n The target becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable.\n Mordekaiser or the target <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dies.\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shield will not block the initial <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow.\n If the target's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> health is lower than the amount that should be stolen, they will be brought down to 1 health. Mordekaiser will still get the usual amount of maximum health.\n Unlike the other stats, Mordekaiser does not steal enemy total size; instead he gains 10% of his own size and reduces the enemy's size by 10% of theirs (all size modifiers stack additively).\n Mordekaiser grows in size over 0.25 seconds after successfully stealing his targets' stats, and shrinks over 0.25 seconds after the buff runs out again. The target shrinks over 0.25 seconds after their stats are stolen, but grows back to normal size instantly when the effect ends.\n\n The transition in and out of the Death Realm doesn't interrupt <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels.\n The boundaries are not considered terrain (<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8a/Unstoppable_Onslaught.png/revision/latest/scale-to-width-down/20?cb=20170818194344\" \t alt=\"Unstoppable Onslaught\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Unstoppable_Onslaught.png\" \tdata-image-name=\"Unstoppable Onslaught.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Unstoppable Onslaught exception), and enemies that try to move out of the area will be displaced back inside.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dashes, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinks, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacements and other forms of movement will cap their effect range to the boundary. Targets will stop at the boundary even after it expired.\n\n Multiple Death Realms (possible through a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Hijack.png/revision/latest/scale-to-width-down/20?cb=20190109233812\" \t alt=\"Hijack\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hijack.png\" \tdata-image-name=\"Hijack.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> hijacked Realm of Death or if multiple Mordekaisers are in the same match) spawned will exist in the same dimension, allowing champions to see and interact with champions bound to other circles. Champions are only affected by their boundaries and are not able to see the others.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3d/Tahm_Kench_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160526213915\" \t alt=\"Tahm Kench OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tahm_Kench_OriginalSquare.png\" \tdata-image-name=\"Tahm Kench OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tahm Kench's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3d/Devour.png/revision/latest/scale-to-width-down/20?cb=20150623185326\" \t alt=\"Devour\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Devour.png\" \tdata-image-name=\"Devour.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Devour can carry a target outside of their circle, but they will be displaced back inside once <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a7/Regurgitate.png/revision/latest/scale-to-width-down/20?cb=20150629022327\" \t alt=\"Regurgitate\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Regurgitate.png\" \tdata-image-name=\"Regurgitate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Regurgitated.\n An active <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Assault_and_Battery.png/revision/latest/scale-to-width-down/20?cb=20130929123428\" \t alt=\"Assault and Battery\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Assault_and_Battery.png\" \tdata-image-name=\"Assault and Battery.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Assault and Battery on a target outside the perimeter will cause <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ec/Vi_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160526214220\" \t alt=\"Vi OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Vi_OriginalSquare.png\" \tdata-image-name=\"Vi OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Vi to continue her charge until her circle ends. She can knock back and damage secondary targets multiple times.\n\n Realm of Death will not be dispelled if either of the two affected champions enter <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Revival_icon.png/revision/latest/scale-to-width-down/20?cb=20170714051127\" \t alt=\"Revival icon\"  \tclass=\"\" \t \tdata-image-key=\"Revival_icon.png\" \tdata-image-name=\"Revival icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resurrection after taking lethal damage. It is dispelled if the target enters a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Omen_of_Death.png/revision/latest/scale-to-width-down/20?cb=20130929123503\" \t alt=\"Omen of Death\"  \tclass=\"\" \t \tdata-image-key=\"Omen_of_Death.png\" \tdata-image-name=\"Omen of Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> zombie state.\n Realm of Death can be dispelled (excluding death and duration) if:\n The target uses a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Remove_Scurvy.png/revision/latest/scale-to-width-down/20?cb=20150707190028\" \t alt=\"Remove Scurvy\"  \tclass=\"\" \t \tdata-image-key=\"Remove_Scurvy.png\" \tdata-image-name=\"Remove Scurvy.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> cleansing effect, with the exceptions of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cleanse.png/revision/latest/scale-to-width-down/20?cb=20180514002812\" \t alt=\"Cleanse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cleanse.png\" \tdata-image-name=\"Cleanse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cleanse, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/de/Mikael%27s_Crucible_item.png/revision/latest/scale-to-width-down/20?cb=20171221223616\" \t alt=\"Mikael&amp;#039;s Crucible item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mikael%27s_Crucible_item.png\" \tdata-image-name=\"Mikael&#39;s Crucible item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mikael's Crucible, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c4/Kled_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20170516205203\" \t alt=\"Kled OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Kled_OriginalSquare.png\" \tdata-image-name=\"Kled OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Kled's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Dismounted_Skaarl_the_Cowardly_Lizard.png/revision/latest/scale-to-width-down/20?cb=20160811031340\" \t alt=\"Dismounted Skaarl the Cowardly Lizard\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dismounted_Skaarl_the_Cowardly_Lizard.png\" \tdata-image-name=\"Dismounted Skaarl the Cowardly Lizard.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dismount.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a6/Yone_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20200916084443\" \t alt=\"Yone OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Yone_OriginalSquare.png\" \tdata-image-name=\"Yone OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Yone's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/93/Soul_Unbound.png/revision/latest/scale-to-width-down/20?cb=20200726104428\" \t alt=\"Soul Unbound\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Soul_Unbound.png\" \tdata-image-name=\"Soul Unbound.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Soul Unbound recast is disabled while he is in the Realm of Death.\n\n Mordekaiser or the target cast another Realm of Death. The affected champions will remain stuck for the duration of the new circle.\n\n Any active <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Focused_Resolve.png/revision/latest/scale-to-width-down/20?cb=20130929122918\" \t alt=\"Focused Resolve\"  \tclass=\"\" \t \tdata-image-key=\"Focused_Resolve.png\" \tdata-image-name=\"Focused Resolve.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> tether effects (both friendly and hostile ones) existing on either of the two champions entering the realm will be broken (unless the tether is between those two).\n Structures exist in all realms at the same time. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Turrets will target normally as if all units were in the same realm.\n The allied health, resource, and ultimate indicators (champion portraits located on the screen) will not update between realms as the players have no <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> vision of them.\n Realm of Death's interactions with other elements/abilities:\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cd/Brushmaker.png/revision/latest/scale-to-width-down/20?cb=20170818003622\" \t alt=\"Brushmaker\"  \tclass=\"\" \t \tdata-image-key=\"Brushmaker.png\" \tdata-image-name=\"Brushmaker.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Brushes will maintain their presence between realms.\n Switching realms detaches all <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/You_and_Me%21.png/revision/latest/scale-to-width-down/20?cb=20190426210438\" \t alt=\"You and Me!\"  \tclass=\"\" \t \tdata-image-key=\"You_and_Me%21.png\" \tdata-image-name=\"You and Me!.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> attached champions on either of the two champions entering the realm.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/The_Hextech_Ultimatum.png/revision/latest/scale-to-width-down/20?cb=20170818002324\" \t alt=\"The Hextech Ultimatum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"The_Hextech_Ultimatum.png\" \tdata-image-name=\"The Hextech Ultimatum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> The Hextech Ultimatum, catching a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2a/Spinning_Axe.png/revision/latest/scale-to-width-down/20?cb=20130929122741\" \t alt=\"Spinning Axe\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spinning_Axe.png\" \tdata-image-name=\"Spinning Axe.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spinning Axe, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f9/Timewinder.png/revision/latest/scale-to-width-down/20?cb=20150513185714\" \t alt=\"Timewinder\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Timewinder.png\" \tdata-image-name=\"Timewinder.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Timewinder, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a3/Parallel_Convergence.png/revision/latest/scale-to-width-down/20?cb=20150513185715\" \t alt=\"Parallel Convergence\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Parallel_Convergence.png\" \tdata-image-name=\"Parallel Convergence.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Parallel Convergence, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e5/Null_Zone.png/revision/latest/scale-to-width-down/20?cb=20171227213428\" \t alt=\"Null Zone\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Null_Zone.png\" \tdata-image-name=\"Null Zone.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Null Zone, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Twisted_Advance.png/revision/latest/scale-to-width-down/20?cb=20170503051019\" \t alt=\"Twisted Advance\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Twisted_Advance.png\" \tdata-image-name=\"Twisted Advance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Twisted Advance, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f3/Pix%2C_Faerie_Companion.png/revision/latest/scale-to-width-down/20?cb=20130929123029\" \t alt=\"Pix, Faerie Companion\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Pix%2C_Faerie_Companion.png\" \tdata-image-name=\"Pix, Faerie Companion.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Pix, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d4/Threaded_Volley_2.png/revision/latest/scale-to-width-down/20?cb=20160521202926\" \t alt=\"Threaded Volley 2\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Threaded_Volley_2.png\" \tdata-image-name=\"Threaded Volley 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Worked Grounds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Gravity_Field.png/revision/latest/scale-to-width-down/20?cb=20170818195846\" \t alt=\"Gravity Field\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gravity_Field.png\" \tdata-image-name=\"Gravity Field.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gravity Field, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/35/Satchel_Charge.png/revision/latest/scale-to-width-down/20?cb=20130929123519\" \t alt=\"Satchel Charge\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Satchel_Charge.png\" \tdata-image-name=\"Satchel Charge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Satchel Charge, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a2/Rift_ScuttlerSquare.png/revision/latest/scale-to-width-down/20?cb=20141111231735\" \t alt=\"Rift ScuttlerSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rift_ScuttlerSquare.png\" \tdata-image-name=\"Rift ScuttlerSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rift Scuttler's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e3/Speed_Shrine_buff.png/revision/latest/scale-to-width-down/20?cb=20180715210710\" \t alt=\"Speed Shrine buff\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Speed_Shrine_buff.png\" \tdata-image-name=\"Speed Shrine buff.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Speed Shrine, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f8/Statikk_Shiv_item.png/revision/latest/scale-to-width-down/20?cb=20171221234015\" \t alt=\"Statikk Shiv item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Statikk_Shiv_item.png\" \tdata-image-name=\"Statikk Shiv item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Statikk Shiv and gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1a/Zeke%27s_Convergence_item.png/revision/latest/scale-to-width-down/20?cb=20171222002713\" \t alt=\"Zeke&amp;#039;s Convergence item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zeke%27s_Convergence_item.png\" \tdata-image-name=\"Zeke&#39;s Convergence item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Zeke's Convergence <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ef/Harbinger_of_Frost_icon.png/revision/latest/scale-to-width-down/20?cb=20180511215320\" \t alt=\"Harbinger of Frost icon\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Harbinger_of_Frost_icon.png\" \tdata-image-name=\"Harbinger of Frost icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> area of effect are exceptions and may still take effect between dimensions.\n Effects such as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Requiem.png/revision/latest/scale-to-width-down/20?cb=20170818190320\" \t alt=\"Requiem\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Requiem.png\" \tdata-image-name=\"Requiem.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Requiem, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b4/Absolute_Zero.png/revision/latest/scale-to-width-down/20?cb=20181004095939\" \t alt=\"Absolute Zero\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Absolute_Zero.png\" \tdata-image-name=\"Absolute Zero.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Absolute Zero, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Grand_Starfall.png/revision/latest/scale-to-width-down/20?cb=20190730164518\" \t alt=\"Grand Starfall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Grand_Starfall.png\" \tdata-image-name=\"Grand Starfall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Grand Starfall and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/06/Final_Spark.png/revision/latest/scale-to-width-down/20?cb=20160608031648\" \t alt=\"Final Spark\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Final_Spark.png\" \tdata-image-name=\"Final Spark.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Final Spark will only deal damage to enemies of the dimension they're in at time of cast. Ending the channel or cast time while inside another dimension will not do damage to nearby enemies.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/48/Shuriken_Flip.png/revision/latest/scale-to-width-down/20?cb=20180718213349\" \t alt=\"Shuriken Flip\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shuriken_Flip.png\" \tdata-image-name=\"Shuriken Flip.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shuriken Flip may be re-cast inside the Death Realm even if its target is outside it, but <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6a/Akali_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20180726202056\" \t alt=\"Akali OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Akali_OriginalSquare.png\" \tdata-image-name=\"Akali OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Akali will stop dashing upon colliding with the boundary.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/44/Fear_Beyond_Death_2.png/revision/latest/scale-to-width-down/20?cb=20171221051936\" \t alt=\"Fear Beyond Death 2\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Fear_Beyond_Death_2.png\" \tdata-image-name=\"Fear Beyond Death 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Fear Beyond Death may not be re-cast while his victim is not in the same realm as him, but an already chained foe will still continue to be reeled in and executed. The <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Flee_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223937\" \t alt=\"Flee icon\"  \tclass=\"\" \t \tdata-image-key=\"Flee_icon.png\" \tdata-image-name=\"Flee icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> fear is cast in the realm Urgot is in.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3b/Void_Shift.png/revision/latest/scale-to-width-down/20?cb=20170217194952\" \t alt=\"Void Shift\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Void_Shift.png\" \tdata-image-name=\"Void Shift.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Void Shift dispels from Realm of Death's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow, making it vulnerable to the Death Realm.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b0/Clockwork_Windup.png/revision/latest/scale-to-width-down/20?cb=20130929123140\" \t alt=\"Clockwork Windup\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clockwork_Windup.png\" \tdata-image-name=\"Clockwork Windup.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ball will instantly return back to Orianna if she's sent to another dimension.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b0/Eye_of_the_Herald_item.png/revision/latest/scale-to-width-down/20?cb=20170730183027\" \t alt=\"Eye of the Herald item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Eye_of_the_Herald_item.png\" \tdata-image-name=\"Eye of the Herald item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Eye of the Herald and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport are disabled while in the Realm of Death.\n Controllable pets and decoys can still be commanded between realms.\n Jungle plants (<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a6/Blast_ConeSquare.png/revision/latest/scale-to-width-down/20?cb=20170119022005\" \t alt=\"Blast ConeSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blast_ConeSquare.png\" \tdata-image-name=\"Blast ConeSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Blast Cone, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/HoneyfruitSquare.png/revision/latest/scale-to-width-down/20?cb=20170119021708\" \t alt=\"HoneyfruitSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"HoneyfruitSquare.png\" \tdata-image-name=\"HoneyfruitSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Honeyfruit, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Scryer%27s_BloomSquare.png/revision/latest/scale-to-width-down/20?cb=20170119021648\" \t alt=\"Scryer&amp;#039;s BloomSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Scryer%27s_BloomSquare.png\" \tdata-image-name=\"Scryer&#39;s BloomSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Scryer's Bloom) will not take presence between realms.\n PENDING FOR TEST:\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3d/Tahm_Kench_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160526213915\" \t alt=\"Tahm Kench OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tahm_Kench_OriginalSquare.png\" \tdata-image-name=\"Tahm Kench OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tahm Kench <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3d/Devour.png/revision/latest/scale-to-width-down/20?cb=20150623185326\" \t alt=\"Devour\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Devour.png\" \tdata-image-name=\"Devour.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Devours the target affected by Death Realm before it ends.\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a9/Nocturne_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220735\" \t alt=\"Nocturne OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Nocturne_OriginalSquare.png\" \tdata-image-name=\"Nocturne OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Nocturne's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Paranoia.png/revision/latest/scale-to-width-down/20?cb=20130929123127\" \t alt=\"Paranoia\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Paranoia.png\" \tdata-image-name=\"Paranoia.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Paranoia only applies <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/94/Nearsight_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Nearsight icon\"  \tclass=\"\" \t \tdata-image-key=\"Nearsight_icon.png\" \tdata-image-name=\"Nearsight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> nearsight to enemy champions in the same dimension as him.\n The player's screen will still change in color however.\n\n\n\n\n\n Type\n Cast time\n\n\n Attacking\n Disabled\n\n\n Abilities\n Disabled\n\n\n Movement\n Disabled\n\n\n Items\n Usable\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/00/Shurelya%27s_Reverie_item.png/revision/latest/scale-to-width-down/20?cb=20180511220011\" \t alt=\"Shurelya&amp;#039;s Reverie item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shurelya%27s_Reverie_item.png\" \tdata-image-name=\"Shurelya&#39;s Reverie item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shurelya's Reverie <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Righteous_Glory_item.png/revision/latest/scale-to-width-down/20?cb=20171221231127\" \t alt=\"Righteous Glory item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Righteous_Glory_item.png\" \tdata-image-name=\"Righteous Glory item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Righteous Glory <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Youmuu%27s_Ghostblade_item.png/revision/latest/scale-to-width-down/20?cb=20171222002403\" \t alt=\"Youmuu&amp;#039;s Ghostblade item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Youmuu%27s_Ghostblade_item.png\" \tdata-image-name=\"Youmuu&#39;s Ghostblade item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Youmuu's Ghostblade <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Gargoyle_Stoneplate_item.png/revision/latest/scale-to-width-down/20?cb=20171221183200\" \t alt=\"Gargoyle Stoneplate item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gargoyle_Stoneplate_item.png\" \tdata-image-name=\"Gargoyle Stoneplate item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gargoyle Stoneplate <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/08/Randuin%27s_Omen_item.png/revision/latest/scale-to-width-down/20?cb=20171221230256\" \t alt=\"Randuin&amp;#039;s Omen item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Randuin%27s_Omen_item.png\" \tdata-image-name=\"Randuin&#39;s Omen item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Randuin's Omen <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b9/Seraph%27s_Embrace_item.png/revision/latest/scale-to-width-down/20?cb=20171221232010\" \t alt=\"Seraph&amp;#039;s Embrace item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Seraph%27s_Embrace_item.png\" \tdata-image-name=\"Seraph&#39;s Embrace item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Seraph's Embrace\n\n\n Disabled\n All the other item-actives are disabled\n\n\n Interrupted by\n N/A\n\n\n\n Consumables\n Usable\n\n\n Spells\n Usable\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cc/Barrier.png/revision/latest/scale-to-width-down/20?cb=20180514002510\" \t alt=\"Barrier\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Barrier.png\" \tdata-image-name=\"Barrier.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Barrier <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Clarity.png/revision/latest/scale-to-width-down/20?cb=20180514002750\" \t alt=\"Clarity\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clarity.png\" \tdata-image-name=\"Clarity.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Clarity <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cleanse.png/revision/latest/scale-to-width-down/20?cb=20180514002812\" \t alt=\"Cleanse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cleanse.png\" \tdata-image-name=\"Cleanse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cleanse <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Exhaust.png/revision/latest/scale-to-width-down/20?cb=20180514003128\" \t alt=\"Exhaust\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Exhaust.png\" \tdata-image-name=\"Exhaust.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Exhaust <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ghost <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Heal.png/revision/latest/scale-to-width-down/20?cb=20180514003319\" \t alt=\"Heal\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Heal.png\" \tdata-image-name=\"Heal.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Heal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/Ignite.png/revision/latest/scale-to-width-down/20?cb=20180514003345\" \t alt=\"Ignite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ignite.png\" \tdata-image-name=\"Ignite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ignite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Smite.png/revision/latest/scale-to-width-down/20?cb=20180514003641\" \t alt=\"Smite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Smite.png\" \tdata-image-name=\"Smite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Smite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flash\n\n\n Disabled\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Hexflash.png/revision/latest/scale-to-width-down/20?cb=20180514003331\" \t alt=\"Hexflash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hexflash.png\" \tdata-image-name=\"Hexflash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hexflash\n\n\n Interrupted by\n N/A\n\n\n\n Interrupted by\n Death, unless protected by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Revival_icon.png/revision/latest/scale-to-width-down/20?cb=20170714051127\" \t alt=\"Revival icon\"  \tclass=\"\" \t \tdata-image-key=\"Revival_icon.png\" \tdata-image-name=\"Revival icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Resurrection",
+      "description": "Cast time"
+    },
+    "Cast time": {},
+    "Disabled": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/00/Shurelya%27s_Reverie_item.png/revision/latest/scale-to-width-down/20?cb=20180511220011\" \t alt=\"Shurelya&amp;#039;s Reverie item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shurelya%27s_Reverie_item.png\" \tdata-image-name=\"Shurelya&#39;s Reverie item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shurelya's Reverie <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Righteous_Glory_item.png/revision/latest/scale-to-width-down/20?cb=20171221231127\" \t alt=\"Righteous Glory item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Righteous_Glory_item.png\" \tdata-image-name=\"Righteous Glory item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Righteous Glory <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Youmuu%27s_Ghostblade_item.png/revision/latest/scale-to-width-down/20?cb=20171222002403\" \t alt=\"Youmuu&amp;#039;s Ghostblade item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Youmuu%27s_Ghostblade_item.png\" \tdata-image-name=\"Youmuu&#39;s Ghostblade item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Youmuu's Ghostblade <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Gargoyle_Stoneplate_item.png/revision/latest/scale-to-width-down/20?cb=20171221183200\" \t alt=\"Gargoyle Stoneplate item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gargoyle_Stoneplate_item.png\" \tdata-image-name=\"Gargoyle Stoneplate item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gargoyle Stoneplate <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/08/Randuin%27s_Omen_item.png/revision/latest/scale-to-width-down/20?cb=20171221230256\" \t alt=\"Randuin&amp;#039;s Omen item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Randuin%27s_Omen_item.png\" \tdata-image-name=\"Randuin&#39;s Omen item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Randuin's Omen <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b9/Seraph%27s_Embrace_item.png/revision/latest/scale-to-width-down/20?cb=20171221232010\" \t alt=\"Seraph&amp;#039;s Embrace item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Seraph%27s_Embrace_item.png\" \tdata-image-name=\"Seraph&#39;s Embrace item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Seraph's Embrace": {},
+    "All the other item-actives are disabled": {},
+    "N/A": {},
+    "Usable": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cc/Barrier.png/revision/latest/scale-to-width-down/20?cb=20180514002510\" \t alt=\"Barrier\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Barrier.png\" \tdata-image-name=\"Barrier.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Barrier <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Clarity.png/revision/latest/scale-to-width-down/20?cb=20180514002750\" \t alt=\"Clarity\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clarity.png\" \tdata-image-name=\"Clarity.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Clarity <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cleanse.png/revision/latest/scale-to-width-down/20?cb=20180514002812\" \t alt=\"Cleanse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cleanse.png\" \tdata-image-name=\"Cleanse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cleanse <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Exhaust.png/revision/latest/scale-to-width-down/20?cb=20180514003128\" \t alt=\"Exhaust\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Exhaust.png\" \tdata-image-name=\"Exhaust.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Exhaust <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ghost <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Heal.png/revision/latest/scale-to-width-down/20?cb=20180514003319\" \t alt=\"Heal\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Heal.png\" \tdata-image-name=\"Heal.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Heal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/Ignite.png/revision/latest/scale-to-width-down/20?cb=20180514003345\" \t alt=\"Ignite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ignite.png\" \tdata-image-name=\"Ignite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ignite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Smite.png/revision/latest/scale-to-width-down/20?cb=20180514003641\" \t alt=\"Smite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Smite.png\" \tdata-image-name=\"Smite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Smite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flash": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Hexflash.png/revision/latest/scale-to-width-down/20?cb=20180514003331\" \t alt=\"Hexflash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hexflash.png\" \tdata-image-name=\"Hexflash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hexflash": {},
+    "Death, unless protected by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Revival_icon.png/revision/latest/scale-to-width-down/20?cb=20170714051127\" \t alt=\"Revival icon\"  \tclass=\"\" \t \tdata-image-key=\"Revival_icon.png\" \tdata-image-name=\"Revival icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Resurrection": {},
+    "flavorsound": {
+      "value": "\"Welcome to oblivion.\"",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  }
+]

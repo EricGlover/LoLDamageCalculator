@@ -1,0 +1,219 @@
+[
+  {
+    "name": "Harrier",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate:  Valor marks enemies hit by  Blinding Assault,  Skystrike or targeted by  Vault as Vulnerable,  revealing them for 4 seconds. If no Vulnerable target exists for 1 second,  Valor automatically marks a nearby visible enemy, but is not able to do so again for 8 −  2.93 (based on critical strike chance) seconds after the mark has timed out, was consumed or was overwritten by another mark.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Harrier.png",
+    "icons": [
+      "Harrier.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate:  Valor marks enemies hit by  Blinding Assault,  Skystrike or targeted by  Vault as Vulnerable,  revealing them for 4 seconds. If no Vulnerable target exists for 1 second,  Valor automatically marks a nearby visible enemy, but is not able to do so again for 8 −  2.93 (based on critical strike chance) seconds after the mark has timed out, was consumed or was overwritten by another mark.",
+      "Quinn's next basic attack on-hit against a Vulnerable target consumes the mark to deal 10 − 95 (based on level) (+ 16% − 50% (based on level) AD) bonus physical damage.",
+      "While  Behind Enemy Lines is active, Harrier is disabled and all Vulnerable marks are removed."
+    ]
+  },
+  {
+    "name": "Blinding Assault",
+    "cost": [
+      50,
+      55,
+      60,
+      65,
+      70
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      11,
+      10,
+      10,
+      9,
+      9
+    ],
+    "description": "Active: Quinn signals  Valor to fly forward in a line in the target direction, stopping upon colliding with an enemy unit, dealing physical damage to them and all nearby enemies and applying  nearsight to the target for 1.75 seconds, reducing their  sight radius to 330 units.",
+    "leveling": "Physical Damage:20 / 45 / 70 / 95 / 120 (+ 80 / 90 / 100 / 110 / 120% AD) (+ 50% AP)",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "True",
+    "flatDamage": [
+      20,
+      45,
+      70,
+      95,
+      120
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      },
+      {
+        "value": 90,
+        "type": "bonus ad"
+      },
+      {
+        "value": 100,
+        "type": "bonus ad"
+      },
+      {
+        "value": 110,
+        "type": "bonus ad"
+      },
+      {
+        "value": 120,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Blinding Assault.png",
+    "icons": [
+      "Blinding Assault.png"
+    ],
+    "levelings": [
+      "Physical Damage:20 / 45 / 70 / 95 / 120 (+ 80 / 90 / 100 / 110 / 120% AD) (+ 50% AP)"
+    ],
+    "descriptions": [
+      "Active: Quinn signals  Valor to fly forward in a line in the target direction, stopping upon colliding with an enemy unit, dealing physical damage to them and all nearby enemies and applying  nearsight to the target for 1.75 seconds, reducing their  sight radius to 330 units.",
+      "Non-champion targets are  disarmed instead for the same duration.",
+      "The nearsight persists through  death."
+    ]
+  },
+  {
+    "name": "Heightened Senses",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      50,
+      45,
+      40,
+      35,
+      30
+    ],
+    "description": "Passive: Attacking a  Vulnerable target grants Quinn  bonus attack speed and  bonus movement speed for 2 seconds.",
+    "leveling": "Bonus Attack Speed:20 / 35 / 50 / 65 / 80%Bonus Movement Speed:20 / 25 / 30 / 35 / 40%",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      20,
+      35,
+      50,
+      65,
+      80
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Heightened Senses.png",
+    "icons": [
+      "Heightened Senses.png"
+    ],
+    "levelings": [
+      "Bonus Attack Speed:20 / 35 / 50 / 65 / 80%Bonus Movement Speed:20 / 25 / 30 / 35 / 40%"
+    ],
+    "descriptions": [
+      "Passive: Attacking a  Vulnerable target grants Quinn  bonus attack speed and  bonus movement speed for 2 seconds.",
+      "Active: Quinn orders  Valor to  reveal the area around her for 2 seconds.",
+      "Enemies spotted are  revealed for 2.75 seconds, reduced to 2 seconds for  champions."
+    ]
+  },
+  {
+    "name": "Vault",
+    "cost": [
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12,
+      11,
+      10,
+      9,
+      8
+    ],
+    "description": "Active: Quinn  dashes to the target enemy unit,  knocking them back, dealing them physical damage, and  slowing them by 50% which decays over 1.5 seconds, before  leaping back and landing 525 units away from them.",
+    "leveling": "Physical damage:40 / 70 / 100 / 130 / 160 (+ 20% bonus AD)",
+    "skill": "E",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      40,
+      70,
+      100,
+      130,
+      160
+    ],
+    "ratios": [
+      {
+        "value": 20,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Vault.png",
+    "icons": [
+      "Vault.png"
+    ],
+    "levelings": [
+      "Physical damage:40 / 70 / 100 / 130 / 160 (+ 20% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Quinn  dashes to the target enemy unit,  knocking them back, dealing them physical damage, and  slowing them by 50% which decays over 1.5 seconds, before  leaping back and landing 525 units away from them."
+    ]
+  },
+  {
+    "name": "Behind Enemy Lines",
+    "cost": [
+      100,
+      75,
+      50,
+      25,
+      0
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      3
+    ],
+    "description": "Active: Quinn  channels for 2 seconds. Upon completing it successfully,  Valor picks her up and they unite, increasing her  total movement speed, granting her  ghosting, and giving her the ability to use  Skystrike. Behind Enemy Lines can be recast during the channel after 0.5 seconds.",
+    "leveling": "Total Movement Speed Increase:70 / 85 / 100 / 115 / 130%",
+    "skill": "R",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      70,
+      85,
+      100,
+      115,
+      130
+    ],
+    "ratios": [],
+    "castTime": 0.25,
+    "icon": "Behind Enemy Lines.png",
+    "icons": [
+      "Behind Enemy Lines.png"
+    ],
+    "levelings": [
+      "Total Movement Speed Increase:70 / 85 / 100 / 115 / 130%"
+    ],
+    "descriptions": [
+      "Active: Quinn  channels for 2 seconds. Upon completing it successfully,  Valor picks her up and they unite, increasing her  total movement speed, granting her  ghosting, and giving her the ability to use  Skystrike. Behind Enemy Lines can be recast during the channel after 0.5 seconds.",
+      "Taking damage from non-minions while Behind Enemy Lines is active causes Quinn to lose the  bonus movement speed for 3 seconds. Becoming  immobilized ends Behind Enemy Lines immediately and puts it on  cooldown without performing  Skystrike.",
+      "Once Behind Enemy Lines has been learned, respawning or returning to the summoning platform will spawn  Valor instantly, but  Skystrike is disabled for 2.5 seconds upon uniting.",
+      "Recast: Quinn cancels the  channel, placing Behind Enemy Lines on cooldown."
+    ]
+  }
+]

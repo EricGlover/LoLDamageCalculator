@@ -1,0 +1,206 @@
+[
+  {
+    "name": "Loaded Dice",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Every time Twisted Fate kills an enemy, he gains 1 − 6 (based on probability).",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Loaded Dice.png",
+    "icons": [
+      "Loaded Dice.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Every time Twisted Fate kills an enemy, he gains 1 − 6 (based on probability).",
+      "Since his dice is loaded, Twisted Fate has an increased chance of gaining  6."
+    ]
+  },
+  {
+    "name": "Wild Cards",
+    "cost": [
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      6
+    ],
+    "description": "Active: Twisted Fate unleashes three cards in a cone in the target direction, dealing magic damage to all enemies they pass through.",
+    "leveling": "Magic Damage:60 / 105 / 150 / 195 / 240 (+ 65% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      60,
+      105,
+      150,
+      195,
+      240
+    ],
+    "ratios": [
+      {
+        "value": 65,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Wild Cards.png",
+    "icons": [
+      "Wild Cards.png"
+    ],
+    "levelings": [
+      "Magic Damage:60 / 105 / 150 / 195 / 240 (+ 65% AP)"
+    ],
+    "descriptions": [
+      "Active: Twisted Fate unleashes three cards in a cone in the target direction, dealing magic damage to all enemies they pass through.",
+      "Enemies can only be damaged once by Wild Cards."
+    ]
+  },
+  {
+    "name": "Pick a Card",
+    "cost": [
+      40,
+      55,
+      70,
+      85,
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      8,
+      7,
+      7,
+      6,
+      6
+    ],
+    "description": "Active: Twisted Fate cycles through  three cards for 6 seconds, hovering each for 0.5 seconds at a time. Choosing one by reactivating Pick a Card converts Twisted Fate's next basic attack within 6 seconds to have a 0.25-second cast time, deal magic damage, and apply an additional effect based on the card selected. The attack applies both on-hit and spell effects, but cannot  critically strike.",
+    "leveling": "Magic Damage:40 / 60 / 80 / 100 / 120 (+ 100% AD) (+ 90% AP)\nMana Restored:50 / 75 / 100 / 125 / 150",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      40,
+      60,
+      80,
+      100,
+      120
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Pick a Card.png",
+    "icons": [
+      "Pick a Card.png",
+      "Blue Card.png",
+      "Red Card.png",
+      "Gold Card.png"
+    ],
+    "levelings": [
+      "Magic Damage:40 / 60 / 80 / 100 / 120 (+ 100% AD) (+ 90% AP)\nMana Restored:50 / 75 / 100 / 125 / 150",
+      "Magic Damage:30 / 45 / 60 / 75 / 90 (+ 100% AD) (+ 60% AP)\nSlow:30 / 35 / 40 / 45 / 50%",
+      "Magic Damage:15 / 22.5 / 30 / 37.5 / 45 (+ 100% AD) (+ 50% AP)\nStun Duration:1 / 1.25 / 1.5 / 1.75 / 2"
+    ],
+    "descriptions": [
+      "Active: Twisted Fate cycles through  three cards for 6 seconds, hovering each for 0.5 seconds at a time. Choosing one by reactivating Pick a Card converts Twisted Fate's next basic attack within 6 seconds to have a 0.25-second cast time, deal magic damage, and apply an additional effect based on the card selected. The attack applies both on-hit and spell effects, but cannot  critically strike.",
+      "Recast -  Blue Card: Restores  mana.",
+      "Recast -  Red Card: Deals magic damage around the target and  slows all enemies hit for 2.5 seconds.",
+      "Recast -  Gold Card:  Stuns the target.",
+      "Pick a Card's recast can be used while affected by  crowd control."
+    ]
+  },
+  {
+    "name": "Stacked Deck",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Passive: Twisted Fate gains  bonus attack speed.",
+    "leveling": "Bonus Attack Speed:20 / 25 / 30 / 35 / 40%",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Stacked Deck.png",
+    "icons": [
+      "Stacked Deck.png"
+    ],
+    "levelings": [
+      "Bonus Attack Speed:20 / 25 / 30 / 35 / 40%",
+      "Bonus Magic Damage:65 / 90 / 115 / 140 / 165 (+ 50% AP)"
+    ],
+    "descriptions": [
+      "Passive: Twisted Fate gains  bonus attack speed.",
+      "Twisted Fate gains a stack of Stacked Deck on-hit, up to a maximum of three.",
+      "At 3 stacks, his next basic attack against  non-structures consumes the stacks on-hit to deal bonus magic damage."
+    ]
+  },
+  {
+    "name": "Destiny",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      180,
+      165,
+      150,
+      135,
+      120
+    ],
+    "description": "Active: Twisted Fate summons an identifying eyeball above all targetable enemy  champions for a few seconds,  revealing them for the duration. Destiny can be recast after 0.5 seconds.",
+    "leveling": "Duration:6 / 7 / 8 / 9 / 10",
+    "skill": "R",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Destiny.png",
+    "icons": [
+      "Destiny.png",
+      "Gate.png"
+    ],
+    "levelings": [
+      "Duration:6 / 7 / 8 / 9 / 10"
+    ],
+    "descriptions": [
+      "Active: Twisted Fate summons an identifying eyeball above all targetable enemy  champions for a few seconds,  revealing them for the duration. Destiny can be recast after 0.5 seconds.",
+      "Recast: Twisted Fate  channels for 1.5 seconds and then  blinks to the target location upon completion,  destroying all  projectiles targeting him in the process."
+    ]
+  }
+]

@@ -1,6 +1,37 @@
 {
   "abilities": [
     {
+      "name": "Absolution",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate - Weakened Soul: Senna's basic attacks on-hit and damaging abilities on enemy champions apply Mist for 4 seconds, refreshed to 0.75 seconds if Senna starts winding up a basic attack on them. If Senna applies Mist to the same target twice, she collects it, dealing 1% − 16% (based on level) of target's current health as bonus physical damage, and making the target immune to further Mist applications for a few seconds.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Absolution.png",
+      "icons": [
+        "Absolution.png",
+        "MistWraithSquare.png",
+        "Absolution 2.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate - Weakened Soul: Senna's basic attacks on-hit and damaging abilities on enemy champions apply Mist for 4 seconds, refreshed to 0.75 seconds if Senna starts winding up a basic attack on them. If Senna applies Mist to the same target twice, she collects it, dealing 1% − 16% (based on level) of target's current health as bonus physical damage, and making the target immune to further Mist applications for a few seconds.",
+        "Enemy units that die near Senna have a chance to spawn a Mist Wraith for 8 seconds, increased to 2 Mist Wraiths for epic monsters. Senna can basic attack a Mist Wraith to destroy it, gaining  3 and collecting its Mist.\n Enemy  champions, large and epic  monsters are guaranteed.\n  Minions and lesser  monsters that Senna kills have a 4.166% chance.\n Large  minions that Senna doesn't kill are guaranteed, while lesser  minions and lesser  monsters that Senna doesn't kill have a 22% chance.",
+        "Innate - Absolution: Each stack of Mist grants Senna  0.75 bonus attack damage. For every 20 stacks, Senna also gains  25 bonus range and  15% critical strike chance. Upon exceeding 100% critical strike chance, Senna converts 35% of the excess into  life steal.",
+        "Innate - Relic Cannon: Senna's basic attacks deal 20% AD bonus physical damage on-hit and grant 10 / 15 / 20% of the target's movement speed as  bonus movement speed for 0.5 seconds on-hit."
+      ]
+    },
+    {
       "name": "Piercing Darkness",
       "cost": [
         70,
@@ -13,7 +44,7 @@
       "coolDown": [
         15
       ],
-      "description": "Active: Senna fires a spectral laser in the direction of the target unit, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing herself and allied <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions in a line, and dealing physical damage to enemies in a thinner line.",
+      "description": "Active: Senna fires a spectral laser in the direction of the target unit,  healing herself and allied  champions in a line, and dealing physical damage to enemies in a thinner line.",
       "leveling": "Healing:40 / 60 / 80 / 100 / 120 (+ 40% bonus AD) (+ 25% AP)\nPhysical Damage:40 / 70 / 100 / 130 / 160 (+ 40% bonus AD)",
       "skill": "Q",
       "damageType": "Physical",
@@ -31,7 +62,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.4
+      "castTime": 0.4,
+      "icon": "Piercing Darkness.png",
+      "icons": [
+        "Piercing Darkness.png"
+      ],
+      "levelings": [
+        "Healing:40 / 60 / 80 / 100 / 120 (+ 40% bonus AD) (+ 25% AP)\nPhysical Damage:40 / 70 / 100 / 130 / 160 (+ 40% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Senna fires a spectral laser in the direction of the target unit,  healing herself and allied  champions in a line, and dealing physical damage to enemies in a thinner line.",
+        "Upon being struck, enemy  turrets,  wards, jungle plants,  Mist Wraiths and any other attack-interactive units are considered basic attacked once, while  champions and  turrets take on-hit effects (with all turret-specific rules applied).",
+        "Basic attacks reduce Piercing Darkness'   cooldown by 1 second on-hit."
+      ]
     },
     {
       "name": "Last Embrace",
@@ -64,7 +107,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Last Embrace.png",
+      "icons": [
+        "Last Embrace.png"
+      ],
+      "levelings": [
+        "Physical Damage:70 / 115 / 160 / 205 / 250 (+ 70% bonus AD)",
+        "Root Duration:1.25 / 1.5 / 1.75 / 2 / 2.25"
+      ],
+      "descriptions": [
+        "Active: Senna throws a globule of Black Mist in the target direction, dealing physical damage and sticking onto the first enemy hit for 1 second.",
+        "After the duration or when the target dies, the Black Mist spreads out of the target,  rooting them and nearby enemies for a few seconds."
+      ]
     },
     {
       "name": "Curse of the Black Mist",
@@ -79,7 +134,7 @@
         21,
         20
       ],
-      "description": "Active: Senna surrounds herself with an aura of mist and gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Ambush_2.png/revision/latest/scale-to-width-down/20?cb=20171221051757\" \t alt=\"Ambush 2\"  \tclass=\"\" \t \tdata-image-key=\"Ambush_2.png\" \tdata-image-name=\"Ambush 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> camouflage for a duration. If Senna breaks the camouflage, she can regain it until after 1.75 seconds of not performing actions that break stealth.",
+      "description": "Active: Senna surrounds herself with an aura of mist and gains  camouflage for a duration. If Senna breaks the camouflage, she can regain it until after 1.75 seconds of not performing actions that break stealth.",
       "leveling": "Effect Duration:6 / 6.5 / 7 / 7.5 / 8",
       "skill": "E",
       "damageType": "",
@@ -92,7 +147,21 @@
         8
       ],
       "ratios": [],
-      "castTime": 1
+      "castTime": 1,
+      "icon": "Curse of the Black Mist.png",
+      "icons": [
+        "Curse of the Black Mist.png",
+        "Curse of the Black Mist 2.png"
+      ],
+      "levelings": [
+        "Effect Duration:6 / 6.5 / 7 / 7.5 / 8"
+      ],
+      "descriptions": [
+        "Active: Senna surrounds herself with an aura of mist and gains  camouflage for a duration. If Senna breaks the camouflage, she can regain it until after 1.75 seconds of not performing actions that break stealth.",
+        "Allied champions who enter the mist gain Wraith Form for a duration equal to the remaining duration.",
+        "Wraith Form: Gain  camouflage. Enemies will have  obscured vision of Wraiths moving outside of the mist. Wraith Form can be regained if lost by breaking the camouflage after 1.75 seconds of not performing actions that break stealth. Wraith Form ends immediately upon Senna's  death.",
+        "Senna and allies camouflaged by Curse of the Black Mist also gain  20% bonus movement speed."
+      ]
     },
     {
       "name": "Dawning Shadow",
@@ -107,7 +176,7 @@
         130,
         120
       ],
-      "description": "Active: Senna <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reveals herself before firing two beams of spectral light in the target direction, granting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of the area briefly along its path. The center beam deals physical damage to enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions hit.",
+      "description": "Active: Senna  reveals herself before firing two beams of spectral light in the target direction, granting  sight of the area briefly along its path. The center beam deals physical damage to enemy  champions hit.",
       "leveling": "Physical Damage:250 / 312.5 / 375 / 437.5 / 500 (+ 100% bonus AD) (+ 50% AP)",
       "skill": "R",
       "damageType": "physical",
@@ -125,7 +194,20 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 1
+      "castTime": 1,
+      "icon": "Dawning Shadow.png",
+      "icons": [
+        "Dawning Shadow.png",
+        "Dawning Shadow 2.png"
+      ],
+      "levelings": [
+        "Physical Damage:250 / 312.5 / 375 / 437.5 / 500 (+ 100% bonus AD) (+ 50% AP)",
+        "Shield:120 / 140 / 160 / 180 / 200 (+ 40% AP)(+ 1.5 per  Mist collected)"
+      ],
+      "descriptions": [
+        "Active: Senna  reveals herself before firing two beams of spectral light in the target direction, granting  sight of the area briefly along its path. The center beam deals physical damage to enemy  champions hit.",
+        "The broad beam  shields Senna and allied champions hit for 3 seconds."
+      ]
     }
   ],
   "id": "Senna",
@@ -140,6 +222,7 @@
     "difficulty": 7
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Senna.png",
     "full": "Senna.png",
     "sprite": "champion3.png",
     "group": "champion",

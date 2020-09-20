@@ -1,5 +1,197 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Blade's End",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Talon's damaging abilities wound enemy  champions and large  monsters, lasting 6 seconds and stacking up to 3 times. Basic attacks refresh the duration on-hit.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Blade's End.png",
+      "icons": [
+        "Blade's End.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Talon's damaging abilities wound enemy  champions and large  monsters, lasting 6 seconds and stacking up to 3 times. Basic attacks refresh the duration on-hit.",
+        "Talon's next basic attack against a target with 3 wound stacks will consume them, causing the target to bleed for 75 − 245 (based on level) (+ 200% bonus AD) physical damage over 2 seconds, with each tick occurring every 0.125 seconds. The total damage is increased by 20% against monsters."
+      ]
+    },
+    {
+      "name": "Noxian Diplomacy",
+      "cost": [
+        40
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        8,
+        7,
+        7,
+        6,
+        6
+      ],
+      "description": "Active: Talon  dashes towards the target enemy, dealing physical damage on arrival. Casting the ability within 170 units of the target causes Talon to instead stab them and  critically strike for (50% +  25%) bonus physical damage.",
+      "leveling": "Dash Physical Damage:»65 / 90 / 115 / 140 / 165 (+ 110% bonus AD)«Stab Physical Damage:97.5 / 135 / 172.5 / 210 / 247.5 (+ 165% bonus AD)",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        65,
+        90,
+        115,
+        140,
+        165
+      ],
+      "ratios": [
+        {
+          "value": 110,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Noxian Diplomacy.png",
+      "icons": [
+        "Noxian Diplomacy.png"
+      ],
+      "levelings": [
+        "Dash Physical Damage:»65 / 90 / 115 / 140 / 165 (+ 110% bonus AD)«Stab Physical Damage:97.5 / 135 / 172.5 / 210 / 247.5 (+ 165% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Talon  dashes towards the target enemy, dealing physical damage on arrival. Casting the ability within 170 units of the target causes Talon to instead stab them and  critically strike for (50% +  25%) bonus physical damage.",
+        "If Noxian Diplomacy kills the target, Talon  heals for 10 − 70 (based on level) and 50% of its  cooldown is refunded.",
+        "The stab version of Noxian Diplomacy  resets Talon's basic attack timer and increases the  range of his next basic attack within 1 second by 75.",
+        "Noxian Diplomacy will cause Talon to automatically basic attack the target."
+      ]
+    },
+    {
+      "name": "Rake",
+      "cost": [
+        55,
+        60,
+        65,
+        70,
+        75
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        9
+      ],
+      "description": "Active: Talon sends out a volley of daggers in the target direction, dealing physical damage to all enemies they pass through.",
+      "leveling": "Physical Damage:45 / 60 / 75 / 90 / 105 (+ 40% bonus AD)",
+      "skill": "W",
+      "damageType": "Physical",
+      "isProjectile": "True",
+      "flatDamage": [
+        45,
+        60,
+        75,
+        90,
+        105
+      ],
+      "ratios": [
+        {
+          "value": 40,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Rake.png",
+      "icons": [
+        "Rake.png"
+      ],
+      "levelings": [
+        "Physical Damage:45 / 60 / 75 / 90 / 105 (+ 40% bonus AD)",
+        "Return Physical Damage:»45 / 65 / 85 / 105 / 125 (+ 70% bonus AD)«Total Physical Damage:90 / 125 / 160 / 195 / 230 (+ 110% bonus AD)\nSlow:40 / 45 / 50 / 55 / 60%"
+      ],
+      "descriptions": [
+        "Active: Talon sends out a volley of daggers in the target direction, dealing physical damage to all enemies they pass through.",
+        "The daggers then linger for 0.75 seconds before flying back to Talon, dealing physical damage to all enemies they pass through and  slowing them for 1 second.",
+        "The traveling and returning pass each cannot affect the same enemy more than once."
+      ]
+    },
+    {
+      "name": "Assassin's Path",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        2
+      ],
+      "description": "Active: Talon  dashes a maximum of 800 units over the target structure or piece of terrain, with the dash's speed based on his own  movement speed.",
+      "leveling": null,
+      "skill": "E",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Assassin's Path.png",
+      "icons": [
+        "Assassin's Path.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Active: Talon  dashes a maximum of 800 units over the target structure or piece of terrain, with the dash's speed based on his own  movement speed.",
+        "Talon cannot cast Assassin's Path on the same area of terrain for a set duration."
+      ]
+    },
+    {
+      "name": "Shadow Assault",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        100,
+        90,
+        80,
+        70,
+        60
+      ],
+      "description": "Active: Talon disperses a ring of blades, dealing physical damage to all enemies hit, while gaining  invisibility and  bonus movement speed for up to 2.5 seconds. Shadow Assault can be recast after 1 second.",
+      "leveling": "Physical Damage:»90 / 112.5 / 135 / 157.5 / 180 (+ 100% bonus AD)«Total Physical Damage:180 / 225 / 270 / 315 / 360 (+ 200% bonus AD)Bonus Movement Speed:40 / 47.5 / 55 / 62.5 / 70%",
+      "skill": "R",
+      "damageType": "Physical",
+      "isProjectile": "True",
+      "flatDamage": [
+        90,
+        112.5,
+        135,
+        157.5,
+        180
+      ],
+      "ratios": [
+        {
+          "value": 100,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Shadow Assault.png",
+      "icons": [
+        "Shadow Assault.png"
+      ],
+      "levelings": [
+        "Physical Damage:»90 / 112.5 / 135 / 157.5 / 180 (+ 100% bonus AD)«Total Physical Damage:180 / 225 / 270 / 315 / 360 (+ 200% bonus AD)Bonus Movement Speed:40 / 47.5 / 55 / 62.5 / 70%"
+      ],
+      "descriptions": [
+        "Active: Talon disperses a ring of blades, dealing physical damage to all enemies hit, while gaining  invisibility and  bonus movement speed for up to 2.5 seconds. Shadow Assault can be recast after 1 second.",
+        "When Talon emerges from invisibility, the blades converge to his location, dealing the same physical damage to all enemies they pass through. Breaking invisibility with a basic attack or  Noxian Diplomacy causes the blades to converge to his target instead.",
+        "Recast: Talon ends Shadow Assault early."
+      ]
+    }
+  ],
   "id": "Talon",
   "key": "91",
   "name": "Talon",
@@ -12,6 +204,7 @@
     "difficulty": 7
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Talon.png",
     "full": "Talon.png",
     "sprite": "champion3.png",
     "group": "champion",

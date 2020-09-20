@@ -1,5 +1,199 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Icathian Surprise",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Upon taking  fatal damage, Kog'Maw  remains active for 4 seconds, becoming unable to basic attack, cast abilities, use summoner spells or activate items while being  invulnerable,  untargetable, and  immune to crowd control and gaining up to  40% bonus movement speed over the duration. At the end of the duration he explodes, dealing 125 − 550 (based on level)  true damage to all nearby enemies.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "True",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Icathian Surprise.png",
+      "icons": [
+        "Icathian Surprise.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Upon taking  fatal damage, Kog'Maw  remains active for 4 seconds, becoming unable to basic attack, cast abilities, use summoner spells or activate items while being  invulnerable,  untargetable, and  immune to crowd control and gaining up to  40% bonus movement speed over the duration. At the end of the duration he explodes, dealing 125 − 550 (based on level)  true damage to all nearby enemies."
+      ]
+    },
+    {
+      "name": "Caustic Spittle",
+      "cost": [
+        40
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        8
+      ],
+      "description": "Passive: Kog'Maw gains  bonus attack speed.",
+      "leveling": "Bonus Attack Speed:15 / 20 / 25 / 30 / 35%",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        15,
+        20,
+        25,
+        30,
+        35
+      ],
+      "ratios": [],
+      "castTime": 0.25,
+      "icon": "Caustic Spittle.png",
+      "icons": [
+        "Caustic Spittle.png"
+      ],
+      "levelings": [
+        "Bonus Attack Speed:15 / 20 / 25 / 30 / 35%",
+        "Magic Damage:90 / 140 / 190 / 240 / 290 (+ 70% AP)\nResistances Reduction:20 / 22 / 24 / 26 / 28%"
+      ],
+      "descriptions": [
+        "Passive: Kog'Maw gains  bonus attack speed.",
+        "Active: Kog'Maw launches a corrosive ball of spit in the target direction, dealing magic damage to the first enemy it hits and reducing their  armor and  magic resistance for 4 seconds."
+      ]
+    },
+    {
+      "name": "Bio-Arcane Barrage",
+      "cost": [
+        40
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        17
+      ],
+      "description": "Active: For the next 8 seconds, Kog'Maw's basic attacks gain  bonus range and deal bonus magic damage on-hit against non- structures, capped at 100 against  minions and  monsters.",
+      "leveling": "Bonus Range:130 / 150 / 170 / 190 / 210\nBonus Magic Damage:3 / 3.75 / 4.5 / 5.25 / 6% (+ 1% per 100 AP) of target's maximum health",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        130,
+        150,
+        170,
+        190,
+        210
+      ],
+      "ratios": [
+        {
+          "value": 1,
+          "type": "bonus ad"
+        },
+        {
+          "value": 100,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Bio-Arcane Barrage.png",
+      "icons": [
+        "Bio-Arcane Barrage.png"
+      ],
+      "levelings": [
+        "Bonus Range:130 / 150 / 170 / 190 / 210\nBonus Magic Damage:3 / 3.75 / 4.5 / 5.25 / 6% (+ 1% per 100 AP) of target's maximum health"
+      ],
+      "descriptions": [
+        "Active: For the next 8 seconds, Kog'Maw's basic attacks gain  bonus range and deal bonus magic damage on-hit against non- structures, capped at 100 against  minions and  monsters."
+      ]
+    },
+    {
+      "name": "Void Ooze",
+      "cost": [
+        80,
+        90,
+        100,
+        110,
+        120
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        12
+      ],
+      "description": "Active: Kog'Maw spews a ball of ooze in the target direction, dealing magic damage to enemies hit.",
+      "leveling": "Magic Damage:75 / 120 / 165 / 210 / 255 (+ 50% AP)\nSlow:20 / 28 / 36 / 44 / 52%",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        75,
+        120,
+        165,
+        210,
+        255
+      ],
+      "ratios": [
+        {
+          "value": 50,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Void Ooze.png",
+      "icons": [
+        "Void Ooze.png"
+      ],
+      "levelings": [
+        "Magic Damage:75 / 120 / 165 / 210 / 255 (+ 50% AP)\nSlow:20 / 28 / 36 / 44 / 52%"
+      ],
+      "descriptions": [
+        "Active: Kog'Maw spews a ball of ooze in the target direction, dealing magic damage to enemies hit.",
+        "The ooze lingers for 4 seconds,  slowing all enemies within the area every 0.25 seconds."
+      ]
+    },
+    {
+      "name": "Living Artillery",
+      "cost": [
+        40
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "description": "Active: Kog'Maw launches a ball of acid into the air that drops after 0.6 seconds at the target location, dealing magic damage, increased by 0% − 50% (based on target's missing health), and  revealing enemies hit for 2 seconds.",
+      "leveling": "Magic Damage:»100 / 120 / 140 / 160 / 180 (+ 65% bonus AD) (+ 35% AP)«Increased Magic Damage:»150 / 180 / 210 / 240 / 270 (+ 97.5% bonus AD) (+ 52.5% AP)«Maximum Magic Damage:200 / 240 / 280 / 320 / 360 (+ 130% bonus AD) (+ 70% AP)",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        100,
+        120,
+        140,
+        160,
+        180
+      ],
+      "ratios": [
+        {
+          "value": 65,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Living Artillery.png",
+      "icons": [
+        "Living Artillery.png"
+      ],
+      "levelings": [
+        "Magic Damage:»100 / 120 / 140 / 160 / 180 (+ 65% bonus AD) (+ 35% AP)«Increased Magic Damage:»150 / 180 / 210 / 240 / 270 (+ 97.5% bonus AD) (+ 52.5% AP)«Maximum Magic Damage:200 / 240 / 280 / 320 / 360 (+ 130% bonus AD) (+ 70% AP)"
+      ],
+      "descriptions": [
+        "Active: Kog'Maw launches a ball of acid into the air that drops after 0.6 seconds at the target location, dealing magic damage, increased by 0% − 50% (based on target's missing health), and  revealing enemies hit for 2 seconds.",
+        "Living Artillery's damage is  doubled against enemies below  40% maximum health. Each subsequent Living Artillery within the next 8 seconds costs an additional  40 mana, capping at 400 per cast."
+      ]
+    }
+  ],
   "id": "KogMaw",
   "key": "96",
   "name": "Kog'Maw",
@@ -12,6 +206,7 @@
     "difficulty": 6
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/KogMaw.png",
     "full": "KogMaw.png",
     "sprite": "champion2.png",
     "group": "champion",

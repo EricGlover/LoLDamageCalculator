@@ -1,5 +1,228 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Demon Shade",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Evelynn gains Demon Shade after not performing actions that break stealth for 4 seconds. Taking damage from enemy  champions or  turrets ends Demon Shade immediately and puts it on a 1.5 second static cooldown.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Demon Shade.png",
+      "icons": [
+        "Demon Shade.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Evelynn gains Demon Shade after not performing actions that break stealth for 4 seconds. Taking damage from enemy  champions or  turrets ends Demon Shade immediately and puts it on a 1.5 second static cooldown.",
+        "Demon Shade: While below  250 − 590 (based on level) (+ 250% AP) health, Evelynn  heals herself for 15 − 75 (based on level) every second. From level 6 onward, Demon Shade also grants  camouflage."
+      ]
+    },
+    {
+      "name": "Hate Spike",
+      "cost": [
+        40,
+        45,
+        50,
+        55,
+        60
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        4
+      ],
+      "description": "Active: Evelynn launches a dart in the target direction, dealing magic damage to the first enemy hit.",
+      "leveling": "Dart Damage:25 / 30 / 35 / 40 / 45 (+ 30% AP)",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        25,
+        30,
+        35,
+        40,
+        45
+      ],
+      "ratios": [
+        {
+          "value": 30,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.3,
+      "icon": "Hate Spike.png",
+      "icons": [
+        "Hate Spike.png",
+        "Hate Spike 2.png"
+      ],
+      "levelings": [
+        "Dart Damage:25 / 30 / 35 / 40 / 45 (+ 30% AP)",
+        "Bonus Damage:»10 / 20 / 30 / 40 / 50 (+ 25% AP)«Total Bonus Damage:30 / 60 / 90 / 120 / 150 (+ 75% AP)",
+        "Spike Damage:»25 / 30 / 35 / 40 / 45 (+ 30% AP)«Maximum Damage:»75 / 90 / 105 / 120 / 135 (+ 90% AP)«Total Damage:130 / 180 / 230 / 280 / 330 (+ 195% AP)"
+      ],
+      "descriptions": [
+        "Active: Evelynn launches a dart in the target direction, dealing magic damage to the first enemy hit.",
+        "For the next 4 seconds, the enemy hit takes bonus magic damage from her next 3 basic attacks and abilities.",
+        "Hate Spike may be re-cast up to 3 times at no cost until the ability comes off cooldown.",
+        "Recast: Evelynn unleashes a line of deadly spikes in the direction of her attack target if they are in range, dealing magic damage to all enemies struck. Hate Spike will first prioritize Evelynn's attack target, then the nearest enemy champion."
+      ]
+    },
+    {
+      "name": "Allure",
+      "cost": [
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ],
+      "description": "Active: Evelynn curses the target enemy  champion or  monster for 5 seconds.",
+      "leveling": "Disable Duration:»1 / 1.25 / 1.5 / 1.75 / 2«Monster Duration:3 / 3.25 / 3.5 / 3.75 / 4",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        1,
+        1.25,
+        1.5,
+        1.75,
+        2
+      ],
+      "ratios": [],
+      "castTime": 0.25,
+      "icon": "Allure.png",
+      "icons": [
+        "Allure.png"
+      ],
+      "levelings": [
+        "Disable Duration:»1 / 1.25 / 1.5 / 1.75 / 2«Monster Duration:3 / 3.25 / 3.5 / 3.75 / 4",
+        "Magic Resistance Reduction:25 / 27.5 / 30 / 32.5 / 35%Bonus Magic Damage:250 / 300 / 350 / 400 / 450 (+ 60% AP)"
+      ],
+      "descriptions": [
+        "Active: Evelynn curses the target enemy  champion or  monster for 5 seconds.",
+        "Evelynn's next basic attack or ability against the accursed expunges them,  slowing them by 65%.",
+        "Expunging a target will refund Allure's  mana cost. If the target is cursed for at least 2.5 seconds she also  charms them, as well as applying additional effects based on the target type.",
+        "Against champions, the expunge also  reduces their magic resistance for 4 seconds.Against monsters, the expunge deals bonus magic damage and the  charm lasts 2 seconds longer.",
+        "Casting Allure does not break  Demon Shade."
+      ]
+    },
+    {
+      "name": "Whiplash",
+      "cost": [
+        40,
+        45,
+        50,
+        55,
+        60
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        8
+      ],
+      "description": "Active: Evelynn whips the target enemy with her lashers, applying on-hit effects and dealing magic damage.",
+      "leveling": "Magic Damage:55 / 70 / 85 / 100 / 115 (+ 3% (+ 1.5% per 100 AP) of target's maximum health)",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "False",
+      "flatDamage": [
+        55,
+        70,
+        85,
+        100,
+        115
+      ],
+      "ratios": [
+        {
+          "value": 3,
+          "type": "bonus ad"
+        },
+        {
+          "value": 1.5,
+          "type": "bonus ad"
+        },
+        {
+          "value": 100,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Whiplash.png",
+      "icons": [
+        "Whiplash.png",
+        "Whiplash 2.png"
+      ],
+      "levelings": [
+        "Magic Damage:55 / 70 / 85 / 100 / 115 (+ 3% (+ 1.5% per 100 AP) of target's maximum health)"
+      ],
+      "descriptions": [
+        "Active: Evelynn whips the target enemy with her lashers, applying on-hit effects and dealing magic damage.",
+        "Evelynn also gains  30% bonus movement speed for 2 seconds.",
+        "Gaining  Demon Shade resets Whiplash's  cooldown and  empowers its next cast."
+      ]
+    },
+    {
+      "name": "Last Caress",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        140,
+        125,
+        110,
+        95,
+        80
+      ],
+      "description": "Active: Evelynn becomes  untargetable as she reveals her true form to all enemies in front of her in the target direction, before  blinking 700 units in the opposite direction and becoming targetable again.",
+      "leveling": "Magic Damage:»125 / 187.5 / 250 / 312.5 / 375 (+ 75% AP)«Empowered Damage:300 / 450 / 600 / 750 / 900 (+ 180% AP)",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "False",
+      "flatDamage": [
+        125,
+        187.5,
+        250,
+        312.5,
+        375
+      ],
+      "ratios": [
+        {
+          "value": 75,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.35,
+      "icon": "Last Caress.png",
+      "icons": [
+        "Last Caress.png",
+        "Last Caress 2.png"
+      ],
+      "levelings": [
+        "Magic Damage:»125 / 187.5 / 250 / 312.5 / 375 (+ 75% AP)«Empowered Damage:300 / 450 / 600 / 750 / 900 (+ 180% AP)"
+      ],
+      "descriptions": [
+        "Active: Evelynn becomes  untargetable as she reveals her true form to all enemies in front of her in the target direction, before  blinking 700 units in the opposite direction and becoming targetable again.",
+        "Enemies caught in her reveal are devastated, taking magic damage, with enemies below  30% of their maximum health receiving  140% bonus damage."
+      ]
+    }
+  ],
   "id": "Evelynn",
   "key": "28",
   "name": "Evelynn",
@@ -12,6 +235,7 @@
     "difficulty": 10
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Evelynn.png",
     "full": "Evelynn.png",
     "sprite": "champion0.png",
     "group": "champion",

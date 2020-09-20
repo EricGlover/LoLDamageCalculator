@@ -1,5 +1,244 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "League of Draven",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: When Draven catches a  Spinning Axe, kills a non-champion, or destroys a  turret, he gains a stack of Adoration.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "League of Draven.png",
+      "icons": [
+        "League of Draven.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: When Draven catches a  Spinning Axe, kills a non-champion, or destroys a  turret, he gains a stack of Adoration.",
+        "In addition, killing a  minion or destroying a  ward or  trap grants a  Strike stack for 10 seconds, up to a maximum of 6. If he drops an  axe he loses all Strike stacks. At 6 stacks, he consumes all of his Strike stacks and gains 2 Adoration stacks.",
+        "When Draven kills an enemy  champion, he consumes all of his Adoration stacks and gains  25 + (2 × stacks) bonus gold.",
+        "Draven loses 75% of his Adoration stacks upon death."
+      ]
+    },
+    {
+      "name": "Spinning Axe",
+      "cost": [
+        45
+      ],
+      "costType": "mana",
+      "coolDown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "description": "Active: Draven starts spinning his axe, causing his next basic attack within 5.8 seconds to deal bonus physical damage.",
+      "leveling": "Bonus Physical Damage:35 / 40 / 45 / 50 / 55 (+ 65 / 75 / 85 / 95 / 105% bonus AD)",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "Special",
+      "flatDamage": [
+        35,
+        40,
+        45,
+        50,
+        55
+      ],
+      "ratios": [
+        {
+          "value": 65,
+          "type": "bonus ad"
+        },
+        {
+          "value": 75,
+          "type": "bonus ad"
+        },
+        {
+          "value": 85,
+          "type": "bonus ad"
+        },
+        {
+          "value": 95,
+          "type": "bonus ad"
+        },
+        {
+          "value": 105,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Spinning Axe.png",
+      "icons": [
+        "Spinning Axe.png",
+        "Draven Axe Indicator.png"
+      ],
+      "levelings": [
+        "Bonus Physical Damage:35 / 40 / 45 / 50 / 55 (+ 65 / 75 / 85 / 95 / 105% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Draven starts spinning his axe, causing his next basic attack within 5.8 seconds to deal bonus physical damage.",
+        "The axe ricochets off the target high up into the air, landing 2 seconds later at a location determined by Draven's current movement. If Draven catches an axe, Spinning Axe is reapplied for no additional cost on his next basic attack.",
+        "Draven can hold up to two Spinning Axes in his hands at once."
+      ]
+    },
+    {
+      "name": "Blood Rush",
+      "cost": [
+        40,
+        35,
+        30,
+        25,
+        20
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        12
+      ],
+      "description": "Active: Draven becomes  ghosted for 1.5 seconds, gaining  bonus attack speed for 3 seconds and  bonus movement speed which decays over 1.5 seconds.",
+      "leveling": "Bonus Attack Speed:20 / 25 / 30 / 35 / 40%\nBonus Movement Speed:50 / 55 / 60 / 65 / 70%",
+      "skill": "W",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        20,
+        25,
+        30,
+        35,
+        40
+      ],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Blood Rush.png",
+      "icons": [
+        "Blood Rush.png"
+      ],
+      "levelings": [
+        "Bonus Attack Speed:20 / 25 / 30 / 35 / 40%\nBonus Movement Speed:50 / 55 / 60 / 65 / 70%"
+      ],
+      "descriptions": [
+        "Active: Draven becomes  ghosted for 1.5 seconds, gaining  bonus attack speed for 3 seconds and  bonus movement speed which decays over 1.5 seconds.",
+        "Catching a  Spinning Axe resets Blood Rush's  cooldown."
+      ]
+    },
+    {
+      "name": "Stand Aside",
+      "cost": [
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "description": "Active: Draven throws his axes in a line in the target direction, dealing physical damage to all enemies hit,  knocking them aside and  slowing them for 2 seconds.",
+      "leveling": "Physical Damage:75 / 110 / 145 / 180 / 215 (+ 50% bonus AD)Slow:20 / 25 / 30 / 35 / 40%",
+      "skill": "E",
+      "damageType": "Physical",
+      "isProjectile": "true",
+      "flatDamage": [
+        75,
+        110,
+        145,
+        180,
+        215
+      ],
+      "ratios": [
+        {
+          "value": 50,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Stand Aside.png",
+      "icons": [
+        "Stand Aside.png"
+      ],
+      "levelings": [
+        "Physical Damage:75 / 110 / 145 / 180 / 215 (+ 50% bonus AD)Slow:20 / 25 / 30 / 35 / 40%"
+      ],
+      "descriptions": [
+        "Active: Draven throws his axes in a line in the target direction, dealing physical damage to all enemies hit,  knocking them aside and  slowing them for 2 seconds."
+      ]
+    },
+    {
+      "name": "Whirling Death",
+      "cost": [
+        100
+      ],
+      "costType": "mana",
+      "coolDown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "description": "Active: Draven hurls two massive axes in the target direction, briefly  revealing the area along its path and dealing physical damage to all enemies struck. Whirling Death can be recast after 1 second.",
+      "leveling": "Physical Damage:»175 / 225 / 275 / 325 / 375 (+ 110 / 120 / 130 / 140 / 150% bonus AD)«Total Physical Damage:350 / 450 / 550 / 650 / 750 (+ 220 / 240 / 260 / 280 / 300% bonus AD)",
+      "skill": "R",
+      "damageType": "Physical",
+      "isProjectile": "true",
+      "flatDamage": [
+        175,
+        225,
+        275,
+        325,
+        375
+      ],
+      "ratios": [
+        {
+          "value": 110,
+          "type": "bonus ad"
+        },
+        {
+          "value": 120,
+          "type": "bonus ad"
+        },
+        {
+          "value": 130,
+          "type": "bonus ad"
+        },
+        {
+          "value": 140,
+          "type": "bonus ad"
+        },
+        {
+          "value": 150,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.5,
+      "icon": "Whirling Death.png",
+      "icons": [
+        "Whirling Death.png",
+        "Whirling Death 2.png",
+        "Whirling Death Minimap.png"
+      ],
+      "levelings": [
+        "Physical Damage:»175 / 225 / 275 / 325 / 375 (+ 110 / 120 / 130 / 140 / 150% bonus AD)«Total Physical Damage:350 / 450 / 550 / 650 / 750 (+ 220 / 240 / 260 / 280 / 300% bonus AD)",
+        "Minimum Physical Damage:»70 / 90 / 110 / 130 / 150 (+ 44 / 48 / 52 / 56 / 60% bonus AD)«Minimum Total Damage:140 / 180 / 220 / 260 / 300 (+ 88 / 96 / 104 / 112 / 120% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Draven hurls two massive axes in the target direction, briefly  revealing the area along its path and dealing physical damage to all enemies struck. Whirling Death can be recast after 1 second.",
+        "Upon reaching the edge of the map, striking an enemy  champion, or upon reactivation, the axes slowly come to a stop before homing back to Draven, dealing the same damage to every enemy struck on the way back.",
+        "Whirling Death deals 100% − 40% (based on enemies hit) damage, this reduction resets when the axes reverse direction.",
+        "Recast: Draven reverses the direction of the axes early."
+      ]
+    }
+  ],
   "id": "Draven",
   "key": "119",
   "name": "Draven",
@@ -12,6 +251,7 @@
     "difficulty": 8
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Draven.png",
     "full": "Draven.png",
     "sprite": "champion0.png",
     "group": "champion",

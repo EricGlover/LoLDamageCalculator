@@ -1,5 +1,198 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Gathering Fire",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Karma reduces  Mantra's  cooldown by 2 / 3 / 4 (based on level) seconds every time she damages an enemy  champion with an ability, or by 1 / 1.5 / 2 (based on level) with her basic attacks on-hit.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Gathering Fire.png",
+      "icons": [
+        "Gathering Fire.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Karma reduces  Mantra's  cooldown by 2 / 3 / 4 (based on level) seconds every time she damages an enemy  champion with an ability, or by 1 / 1.5 / 2 (based on level) with her basic attacks on-hit."
+      ]
+    },
+    {
+      "name": "Inner Flame",
+      "cost": [
+        65
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        9,
+        8,
+        8,
+        7,
+        7
+      ],
+      "description": "Active: Karma fires a burst of spiritual energy in the target direction that detonates with the first enemy hit, dealing magic damage to all enemies around the target and  slowing affected enemies by 35% for 1.5 seconds.",
+      "leveling": "Magic Damage:90 / 135 / 180 / 225 / 270 (+ 40% AP)",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        90,
+        135,
+        180,
+        225,
+        270
+      ],
+      "ratios": [
+        {
+          "value": 40,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Inner Flame.png",
+      "icons": [
+        "Inner Flame.png"
+      ],
+      "levelings": [
+        "Magic Damage:90 / 135 / 180 / 225 / 270 (+ 40% AP)"
+      ],
+      "descriptions": [
+        "Active: Karma fires a burst of spiritual energy in the target direction that detonates with the first enemy hit, dealing magic damage to all enemies around the target and  slowing affected enemies by 35% for 1.5 seconds."
+      ]
+    },
+    {
+      "name": "Focused Resolve",
+      "cost": [
+        50,
+        55,
+        60,
+        65,
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        12
+      ],
+      "description": "Active: Karma exerts her will over the target enemy champion or monster, dealing them magic damage and forming a  tether between them and her for up to 2 seconds, during which the target is  revealed.",
+      "leveling": "Magic Damage:40 / 65 / 90 / 115 / 140 (+ 45% AP)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "False",
+      "flatDamage": [
+        40,
+        65,
+        90,
+        115,
+        140
+      ],
+      "ratios": [
+        {
+          "value": 45,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Focused Resolve.png",
+      "icons": [
+        "Focused Resolve.png"
+      ],
+      "levelings": [
+        "Magic Damage:40 / 65 / 90 / 115 / 140 (+ 45% AP)",
+        "Total Magic Damage:80 / 130 / 180 / 230 / 280 (+ 90% AP)\nRoot and Reveal Duration:1.4 / 1.55 / 1.7 / 1.85 / 2"
+      ],
+      "descriptions": [
+        "Active: Karma exerts her will over the target enemy champion or monster, dealing them magic damage and forming a  tether between them and her for up to 2 seconds, during which the target is  revealed.",
+        "If the tether persists for the duration, the target is dealt the same magic damage and is  revealed and  rooted for a duration."
+      ]
+    },
+    {
+      "name": "Inspire",
+      "cost": [
+        50,
+        55,
+        60,
+        65,
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        10,
+        9,
+        9,
+        8,
+        8
+      ],
+      "description": "Active: Karma  shields the target allied  champion or herself for 2.5 seconds, granting the target  bonus movement speed for 1.5 seconds.",
+      "leveling": "Shield:80 / 110 / 140 / 170 / 200 (+ 50% AP)\nBonus Movement Speed:40 / 45 / 50 / 55 / 60%",
+      "skill": "E",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        80,
+        110,
+        140,
+        170,
+        200
+      ],
+      "ratios": [
+        {
+          "value": 50,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Inspire.png",
+      "icons": [
+        "Inspire.png"
+      ],
+      "levelings": [
+        "Shield:80 / 110 / 140 / 170 / 200 (+ 50% AP)\nBonus Movement Speed:40 / 45 / 50 / 55 / 60%"
+      ],
+      "descriptions": [
+        "Active: Karma  shields the target allied  champion or herself for 2.5 seconds, granting the target  bonus movement speed for 1.5 seconds."
+      ]
+    },
+    {
+      "name": "Mantra",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        45,
+        42,
+        39,
+        36
+      ],
+      "description": "Active: Karma empowers her next basic ability within 8 seconds for an additional effect.",
+      "leveling": null,
+      "skill": "R",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Mantra.png",
+      "icons": [
+        "Mantra.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Active: Karma empowers her next basic ability within 8 seconds for an additional effect.",
+        "Karma begins the game with one rank in Mantra.",
+        "Mantra can be used while affected by  crowd control."
+      ]
+    }
+  ],
   "id": "Karma",
   "key": "43",
   "name": "Karma",
@@ -12,6 +205,7 @@
     "difficulty": 5
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Karma.png",
     "full": "Karma.png",
     "sprite": "champion1.png",
     "group": "champion",

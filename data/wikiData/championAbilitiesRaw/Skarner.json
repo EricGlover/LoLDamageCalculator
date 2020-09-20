@@ -1,0 +1,1199 @@
+[
+  {
+    "1": {
+      "value": "Crystal Spires",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Crystal Spires."
+    },
+    "champion": {
+      "value": "Skarner",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "I",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "1600",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Crystal Spires.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Skarner's presence causes crystals to spawn in set locations around the map. While near crystals his team owns, Skarner gains tremendous movement speed, attack speed, and mana regeneration.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Innate: Skarner's presence causes 6 Crystal Spires to appear at set points on the battlefield:\n One beside <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/38/Baron_NashorSquare.png/revision/latest/scale-to-width-down/20?cb=20140620025404\" \t alt=\"Baron NashorSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Baron_NashorSquare.png\" \tdata-image-name=\"Baron NashorSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Baron Nashor's pit\n One beside <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c9/DragonSquare.png/revision/latest/scale-to-width-down/20?cb=20140620025407\" \t alt=\"DragonSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"DragonSquare.png\" \tdata-image-name=\"DragonSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dragon's pit\n One nearby each buff <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monster's camp",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Crystal Spires can be captured by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions after <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions have spawned by standing near them for 2 seconds. Once captured, Crystal Spires are owned until contested and the defending team can stand on the spire to prevent the opposing team from capturing it.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Crystal Spires grant <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/10/Gold.png/revision/latest/scale-to-width-down/20?cb=20181122055358\" \t alt=\"Gold\"  \tclass=\"\" \t \tdata-image-key=\"Gold.png\" \tdata-image-name=\"Gold.png\" \t \t width=\"20\"  \t height=\"15\"  \t \t \t \t> 30 gold split among its captors upon being captured, or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/10/Gold.png/revision/latest/scale-to-width-down/20?cb=20181122055358\" \t alt=\"Gold\"  \tclass=\"\" \t \tdata-image-key=\"Gold.png\" \tdata-image-name=\"Gold.png\" \t \t width=\"20\"  \t height=\"15\"  \t \t \t \t> 15 gold if only a single champion participated in its capture, and provide <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight around them for 1.5 seconds upon being captured, becoming unable to be recaptured for 15 seconds.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "Skarner gains Crystal Charge while within range of a Crystal Spire controlled by his team, for 1.25 seconds after triggering <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/ba/Crystallizing_Sting.png/revision/latest/scale-to-width-down/20?cb=20140619095123\" \t alt=\"Crystallizing Sting\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crystallizing_Sting.png\" \tdata-image-name=\"Crystallizing Sting.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crystal Venom, or for 1.75 seconds after stinging an enemy champion with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7d/Impale.png/revision/latest/scale-to-width-down/20?cb=20140619100032\" \t alt=\"Impale\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Impale.png\" \tdata-image-name=\"Impale.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Impale.",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "Crystal Charge: Skarner gains 70 − 120 (based on level) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed, 43% − 160% (based on level) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed and restores <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 1% maximum mana every 0.5 seconds.",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Passive",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Crystal Charge's duration refreshes if it was gained by an ability.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Crystal Slash",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Crystal Slash."
+    },
+    "champion": {
+      "value": "Skarner",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "Q",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Range_center.png/revision/latest/scale-to-width-down/20?cb=20150616134211\" \t alt=\"Range center\"  \tclass=\"\" \t \tdata-image-key=\"Range_center.png\" \tdata-image-name=\"Range center.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 350",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "10",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "3.5 / 3.25 / 3 / 2.75 / 2.5",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Crystal Slash.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Skarner lashes out with his claws, dealing physical damage to all nearby enemies and charging himself with Crystal Energy for several seconds if a unit is struck. If he casts Crystal Slash again while powered by Crystal Energy, he deals bonus magic damage.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Skarner slashes around himself, dealing physical damage to all surrounding enemies.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Physical Damage:1 / 1.5 / 2 / 2.5 / 3% of target's maximum health (+ 20% AD)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "If an enemy is hit, subsequent uses of Crystal Slash within 5 seconds deal bonus magic damage.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Bonus Magic Damage:»1 / 1.5 / 2 / 2.5 / 3% of target's maximum health (+ 20% AD) (+ 30% AP)«Total Mixed Damage:2 / 3 / 4 / 5 / 6% of target's maximum health (+ 40% AD) (+ 30% AP)",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Basic attacks against non-structures reduce Crystal Slash's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown by 0.25 seconds, quadrupled to 1 against enemy champions.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "None",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies, Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical damage / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic damage",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "spellaoe",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "Special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shield will block the damage but will not prevent Skarner from triggering the bonus effect.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Crystalline Exoskeleton",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Crystalline Exoskeleton."
+    },
+    "champion": {
+      "value": "Skarner",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "W",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "60",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "13 / 12.5 / 12 / 11.5 / 11",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Crystalline Exoskeleton.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Skarner gains a shield and has increased Movement Speed while the shield persists.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Skarner crystallizes himself, gaining a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shield for up to 6 seconds and initial <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed that accelerates by 100% over 3 seconds while the shield holds.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Shield Strength:10 / 11 / 12 / 13 / 14% maximum health (+ 80% AP)Initial Bonus Movement Speed:»8 / 10 / 12 / 14 / 16%«Maximum Bonus Movement Speed:16 / 20 / 24 / 28 / 32%",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "None",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* No additional notes.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Fracture",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Fracture."
+    },
+    "champion": {
+      "value": "Skarner",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "E",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Range_center.png/revision/latest/scale-to-width-down/20?cb=20150616134211\" \t alt=\"Range center\"  \tclass=\"\" \t \tdata-image-key=\"Range_center.png\" \tdata-image-name=\"Range center.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 1000",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/71/Range_model.png/revision/latest/scale-to-width-down/20?cb=20150616134216\" \t alt=\"Range model\"  \tclass=\"\" \t \tdata-image-key=\"Range_model.png\" \tdata-image-name=\"Range model.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 140",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "1500",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "55",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "14 / 13.5 / 13 / 12.5 / 12",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "false",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Skarner summons a blast of crystalline energy which deals damage to enemies struck and slows them. Basic attacking these enemies within a short window will stun them.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Passive: Every time Skarner triggers <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/ba/Crystallizing_Sting.png/revision/latest/scale-to-width-down/20?cb=20140619095123\" \t alt=\"Crystallizing Sting\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crystallizing_Sting.png\" \tdata-image-name=\"Crystallizing Sting.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crystal Venom or stings an enemy with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7d/Impale.png/revision/latest/scale-to-width-down/20?cb=20140619100032\" \t alt=\"Impale\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Impale.png\" \tdata-image-name=\"Impale.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Impale, Fracture's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown is reduced by the corresponding base duration of the disable.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "Fracture.png",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Active: Skarner launches a blast of crystalline energy in the target direction, dealing magic damage to all enemies struck and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them for 2.5 seconds, as well as marking them with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/ba/Crystallizing_Sting.png/revision/latest/scale-to-width-down/20?cb=20140619095123\" \t alt=\"Crystallizing Sting\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crystallizing_Sting.png\" \tdata-image-name=\"Crystallizing Sting.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crystal Venom for 5 seconds.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Magic Damage:40 / 65 / 90 / 115 / 140 (+ 20% AP)\nSlow:30 / 35 / 40 / 45 / 50%",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "Crystal Venom.png",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Skarner's next basic attack against a target marked with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/ba/Crystallizing_Sting.png/revision/latest/scale-to-width-down/20?cb=20140619095123\" \t alt=\"Crystallizing Sting\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crystallizing_Sting.png\" \tdata-image-name=\"Crystallizing Sting.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crystal Venom consumes the mark to deal them bonus physical damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun them for 1.25 seconds.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "Bonus Physical Damage:30 / 50 / 70 / 90 / 110",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic damage / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical damage",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Area of effect",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "True",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Fracture is disabled during <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7d/Impale.png/revision/latest/scale-to-width-down/20?cb=20140619100032\" \t alt=\"Impale\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Impale.png\" \tdata-image-name=\"Impale.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Impale.\n Fracture is always cast from the original casting location.\n Crystal Venom triggers even if the attack is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5e/Spirit%27s_Refuge.png/revision/latest/scale-to-width-down/20?cb=20170217191016\" \t alt=\"Spirit&amp;#039;s Refuge\"  \tclass=\"\" \t \tdata-image-key=\"Spirit%27s_Refuge.png\" \tdata-image-name=\"Spirit&#39;s Refuge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blocked (<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun applies), but not if it's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/66/Counter_Strike.png/revision/latest/scale-to-width-down/20?cb=20171223030746\" \t alt=\"Counter Strike\"  \tclass=\"\" \t \tdata-image-key=\"Counter_Strike.png\" \tdata-image-name=\"Counter Strike.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dodged. The damage of the entire attack is negated in both cases.\n PENDING FOR TEST: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/81/Blind_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224954\" \t alt=\"Blind icon\"  \tclass=\"\" \t \tdata-image-key=\"Blind_icon.png\" \tdata-image-name=\"Blind icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Blind.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Impale",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Impale."
+    },
+    "champion": {
+      "value": "Skarner",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "R",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Range_center.png/revision/latest/scale-to-width-down/20?cb=20150616134211\" \t alt=\"Range center\"  \tclass=\"\" \t \tdata-image-key=\"Range_center.png\" \tdata-image-name=\"Range center.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 350",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "100",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "120 / 110 / 100 / 90 / 80",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Impale.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Skarner suppresses an enemy champion and deals damage to it. During this time, Skarner can move freely and will drag his helpless victim around with him. When the effect ends, the target will be dealt additional damage.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Skarner <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> roots the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion during the ability's cast time and attempts to impale them with his stinger. Upon successfully impaling the target, he deals them 60% AD physical damage and bonus magic damage, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20150808161653\" \t alt=\"True Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"True_Sight_icon.png\" \tdata-image-name=\"True Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reveals and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5f/Suppression_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223943\" \t alt=\"Suppression icon\"  \tclass=\"\" \t \tdata-image-key=\"Suppression_icon.png\" \tdata-image-name=\"Suppression icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> suppresses them for 1.75 seconds, during which he can drag his victim with himself. At the end of the duration, the target takes the same damage again.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Bonus Magic Damage:»20 / 40 / 60 / 80 / 100  (+ 50% AP)«Total Mixed Damage:40 / 80 / 120 / 160 / 200  (+ 120% AD) (+ 100% AP)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Impale pierces through <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Unstoppable_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164427\" \t alt=\"Unstoppable icon\"  \tclass=\"\" \t \tdata-image-key=\"Unstoppable_icon.png\" \tdata-image-name=\"Unstoppable icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement immunity, dragging them out.*",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "During the ability Skarner is locked out from basic attacking, casting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ed/Fracture.png/revision/latest/scale-to-width-down/20?cb=20140619095951\" \t alt=\"Fracture\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Fracture.png\" \tdata-image-name=\"Fracture.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Fracture, or using <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flash.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Unit",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "spell",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "true",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* The target will not take Impale's secondary damage if the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5f/Suppression_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223943\" \t alt=\"Suppression icon\"  \tclass=\"\" \t \tdata-image-key=\"Suppression_icon.png\" \tdata-image-name=\"Suppression icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> suppression is removed.\n If the target becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable, dies, Skarner loses <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of them, or they move 800 units away from him during the cast time, Impale cancels but does not go on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown nor consume <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> mana.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shield will not block the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> root.\n Impale is special cased to end prematurely if the target is affected by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3d/Devour.png/revision/latest/scale-to-width-down/20?cb=20150623185326\" \t alt=\"Devour\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Devour.png\" \tdata-image-name=\"Devour.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Devour, both for an ally and enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3d/Tahm_Kench_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160526213915\" \t alt=\"Tahm Kench OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tahm_Kench_OriginalSquare.png\" \tdata-image-name=\"Tahm Kench OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tahm Kench or if Skarner is teleported by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Realm_Warp.png/revision/latest/scale-to-width-down/20?cb=20160628224335\" \t alt=\"Realm Warp\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Realm_Warp.png\" \tdata-image-name=\"Realm Warp.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Realm Warp.\n Impale applies a small displacement to the target every 0.25 seconds whenever they are not close to Skarner. These displacements do not apply <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> airborne and are not flagged as displacements, meaning that targets who are not <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b1/Cc-immune_icon.png/revision/latest/scale-to-width-down/20?cb=20200327223512\" \t alt=\"Cc-immune icon\"  \tclass=\"\" \t \tdata-image-key=\"Cc-immune_icon.png\" \tdata-image-name=\"Cc-immune icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> immune to the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5f/Suppression_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223943\" \t alt=\"Suppression icon\"  \tclass=\"\" \t \tdata-image-key=\"Suppression_icon.png\" \tdata-image-name=\"Suppression icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> suppression are also never immune to the displacement, either. As a consequence, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Unstoppable_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164427\" \t alt=\"Unstoppable icon\"  \tclass=\"\" \t \tdata-image-key=\"Unstoppable_icon.png\" \tdata-image-name=\"Unstoppable icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement immunity fails to ignore this movement. See the table below.\n While Impale is active, and for the purposes of direction-conditioned abilities, (e.g. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5f/Petrifying_Gaze.png/revision/latest/scale-to-width-down/20?cb=20160616202539\" \t alt=\"Petrifying Gaze\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Petrifying_Gaze.png\" \tdata-image-name=\"Petrifying Gaze.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Petrifying Gaze, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d5/Mocking_Shout.png/revision/latest/scale-to-width-down/20?cb=20140618163754\" \t alt=\"Mocking Shout\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mocking_Shout.png\" \tdata-image-name=\"Mocking Shout.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mocking Shout) Skarner is considered to be facing in the direction he is moving and not the one his model is facing.\n\n\n\n Special interactions\n\n\n\nThe following <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes are interrupted and do not apply their 'on dash completion' effects (if they have one) when successfully impaled:\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b2/Corki_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160629191728\" \t alt=\"Corki OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Corki_OriginalSquare.png\" \tdata-image-name=\"Corki OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Corki's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/db/Special_Delivery.png/revision/latest/scale-to-width-down/20?cb=20171221035059\" \t alt=\"Special Delivery\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Special_Delivery.png\" \tdata-image-name=\"Special Delivery.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Special Delivery\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a9/Nocturne_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220735\" \t alt=\"Nocturne OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Nocturne_OriginalSquare.png\" \tdata-image-name=\"Nocturne OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Nocturne's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Paranoia.png/revision/latest/scale-to-width-down/20?cb=20130929123127\" \t alt=\"Paranoia\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Paranoia.png\" \tdata-image-name=\"Paranoia.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Paranoia's recast\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/da/Sett_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20200119095456\" \t alt=\"Sett OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sett_OriginalSquare.png\" \tdata-image-name=\"Sett OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sett's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/37/The_Show_Stopper.png/revision/latest/scale-to-width-down/20?cb=20200107124154\" \t alt=\"The Show Stopper\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"The_Show_Stopper.png\" \tdata-image-name=\"The Show Stopper.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> The Show Stopper\n This ability <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/You_and_Me%21.png/revision/latest/scale-to-width-down/20?cb=20190426210438\" \t alt=\"You and Me!\"  \tclass=\"\" \t \tdata-image-key=\"You_and_Me%21.png\" \tdata-image-name=\"You and Me!.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> attaches its target to Sett. Dragging him out will detach that unit from him.\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f3/Shyvana_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402221059\" \t alt=\"Shyvana OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shyvana_OriginalSquare.png\" \tdata-image-name=\"Shyvana OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shyvana's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/50/Dragon%27s_Descent.png/revision/latest/scale-to-width-down/20?cb=20130929123243\" \t alt=\"Dragon&amp;#039;s Descent\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dragon%27s_Descent.png\" \tdata-image-name=\"Dragon&#39;s Descent.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dragon's Descent\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a6/Yone_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20200916084443\" \t alt=\"Yone OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Yone_OriginalSquare.png\" \tdata-image-name=\"Yone OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Yone's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f2/Soul_Unbound_2.png/revision/latest/scale-to-width-down/20?cb=20200726104418\" \t alt=\"Soul Unbound 2\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Soul_Unbound_2.png\" \tdata-image-name=\"Soul Unbound 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Soul Unbound (recast)\n Yone's very high dash speed makes it almost impossible to catch him during the dash. Skarner is required to be close enough to Yone and needs to have near-perfect timing with Impale's cast in order to successfully cancel the dash. If cast too early, the recast will be deferred to the end of Impale's duration, or if cast too late, Impale will be canceled as Yone is already too far away.\n\n\n\n\n\nThe following <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes are stopped likewise with the ones mentioned above, however, they do apply 'on dash completion' effects and when their dash is interrupted, the ability's effects are centered around their initial stopping point from Impale.\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/ca/Hecarim_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160326090143\" \t alt=\"Hecarim OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hecarim_OriginalSquare.png\" \tdata-image-name=\"Hecarim OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hecarim's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3b/Onslaught_of_Shadows.png/revision/latest/scale-to-width-down/20?cb=20170818002935\" \t alt=\"Onslaught of Shadows\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Onslaught_of_Shadows.png\" \tdata-image-name=\"Onslaught of Shadows.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Onslaught of Shadows\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4c/Jarvan_IV_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220210\" \t alt=\"Jarvan IV OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Jarvan_IV_OriginalSquare.png\" \tdata-image-name=\"Jarvan IV OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Jarvan IV's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Cataclysm.png/revision/latest/scale-to-width-down/20?cb=20130929122855\" \t alt=\"Cataclysm\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cataclysm.png\" \tdata-image-name=\"Cataclysm.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cataclysm\n The terrain that would usually be formed on impact is instead delayed until the forced movement of Impale ends. The displacement immunity is not removed (he still cannot resist Impale's displacement despite of this).\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/10/Malphite_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220554\" \t alt=\"Malphite OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Malphite_OriginalSquare.png\" \tdata-image-name=\"Malphite OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Malphite's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/58/Unstoppable_Force.png/revision/latest/scale-to-width-down/20?cb=20171223032135\" \t alt=\"Unstoppable Force\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Unstoppable_Force.png\" \tdata-image-name=\"Unstoppable Force.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Unstoppable Force\n\n\n\n\nThe following abilities do not have any special interactions with Impale other than being displaced during their cast.\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/12/Illaoi_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20151111024020\" \t alt=\"Illaoi OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Illaoi_OriginalSquare.png\" \tdata-image-name=\"Illaoi OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Illaoi's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Leap_of_Faith.png/revision/latest/scale-to-width-down/20?cb=20171221041252\" \t alt=\"Leap of Faith\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Leap_of_Faith.png\" \tdata-image-name=\"Leap of Faith.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Leap of Faith\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/ca/Ornn_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20170819003104\" \t alt=\"Ornn OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ornn_OriginalSquare.png\" \tdata-image-name=\"Ornn OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ornn's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c4/Bellows_Breath.png/revision/latest/scale-to-width-down/20?cb=20170816203303\" \t alt=\"Bellows Breath\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Bellows_Breath.png\" \tdata-image-name=\"Bellows Breath.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bellows Breath\n The cast direction for this ability cannot be changed.\n\n\n\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0b/Rek%27Sai_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160526213622\" \t alt=\"Rek&amp;#039;Sai OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rek%27Sai_OriginalSquare.png\" \tdata-image-name=\"Rek&#39;Sai OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rek'Sai's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/da/Void_Rush.png/revision/latest/scale-to-width-down/20?cb=20141125211540\" \t alt=\"Void Rush\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Void_Rush.png\" \tdata-image-name=\"Void Rush.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Void Rush has two different outcomes:\n\n Impale is cast before the burrow into the ground:\n Rek'Sai will not <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8c/Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20160608033548\" \t alt=\"Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Hallucinate.png\" \tdata-image-name=\"Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> vanish while she's being dragged and her ultimate goes on a 10-second <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown after a brief delay. The displacement immunity is not removed (she still cannot resist Impale's displacement despite of this) in this case however, which ends when the ability cancels.\n\n Impale is cast after the emergence:\n Rek'Sai's dash is interrupted.\n\n\n\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ec/Vi_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160526214220\" \t alt=\"Vi OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Vi_OriginalSquare.png\" \tdata-image-name=\"Vi OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Vi's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Assault_and_Battery.png/revision/latest/scale-to-width-down/20?cb=20130929123428\" \t alt=\"Assault and Battery\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Assault_and_Battery.png\" \tdata-image-name=\"Assault and Battery.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Assault and Battery behaves differently in contrast to the previously noted examples due to its uniqueness.\n\n The dash is not interrupted and the displacement immunity is not removed (she still cannot resist Impale's displacement despite of this). Vi will continue to march towards the target while simultaneously being displaced by Impale and dragged to Skarner. Once Impale ends, she is free of the displacement and will perform the ability as normal.\n Enemies that come into range of her are still affected by entering her path.\n The primary target is dealt the ability's final effects if they move into the respective range of Vi, thus performing the ability successfully in spite of Impale.\n\n\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0d/Camille_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20170217185322\" \t alt=\"Camille OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Camille_OriginalSquare.png\" \tdata-image-name=\"Camille OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Camille's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/The_Hextech_Ultimatum.png/revision/latest/scale-to-width-down/20?cb=20170818002324\" \t alt=\"The Hextech Ultimatum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"The_Hextech_Ultimatum.png\" \tdata-image-name=\"The Hextech Ultimatum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> The Hextech Ultimatum is impractical to test, as it renders her <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable instantly the moment it's activated, which will always cancel Impale's cast, regardless of the timing.\n\n\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4d/Kalista_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20170401005336\" \t alt=\"Kalista OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Kalista_OriginalSquare.png\" \tdata-image-name=\"Kalista OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Kalista's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e9/Fate%27s_Call.png/revision/latest/scale-to-width-down/20?cb=20141104220726\" \t alt=\"Fate&amp;#039;s Call\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Fate%27s_Call.png\" \tdata-image-name=\"Fate&#39;s Call.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Fate's Call is not possible to test due to the target being <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8c/Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20160608033548\" \t alt=\"Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Hallucinate.png\" \tdata-image-name=\"Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> vanished, rendering them unable to be selected for unit-targeted abilities like Impale.",
+      "description": "The following <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes are interrupted and do not apply their 'on dash completion' effects (if they have one) when successfully impaled:\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b2/Corki_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160629191728\" \t alt=\"Corki OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Corki_OriginalSquare.png\" \tdata-image-name=\"Corki OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Corki's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/db/Special_Delivery.png/revision/latest/scale-to-width-down/20?cb=20171221035059\" \t alt=\"Special Delivery\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Special_Delivery.png\" \tdata-image-name=\"Special Delivery.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Special Delivery\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a9/Nocturne_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220735\" \t alt=\"Nocturne OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Nocturne_OriginalSquare.png\" \tdata-image-name=\"Nocturne OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Nocturne's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Paranoia.png/revision/latest/scale-to-width-down/20?cb=20130929123127\" \t alt=\"Paranoia\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Paranoia.png\" \tdata-image-name=\"Paranoia.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Paranoia's recast\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/da/Sett_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20200119095456\" \t alt=\"Sett OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sett_OriginalSquare.png\" \tdata-image-name=\"Sett OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sett's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/37/The_Show_Stopper.png/revision/latest/scale-to-width-down/20?cb=20200107124154\" \t alt=\"The Show Stopper\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"The_Show_Stopper.png\" \tdata-image-name=\"The Show Stopper.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> The Show Stopper\n This ability <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/You_and_Me%21.png/revision/latest/scale-to-width-down/20?cb=20190426210438\" \t alt=\"You and Me!\"  \tclass=\"\" \t \tdata-image-key=\"You_and_Me%21.png\" \tdata-image-name=\"You and Me!.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> attaches its target to Sett. Dragging him out will detach that unit from him.\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f3/Shyvana_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402221059\" \t alt=\"Shyvana OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shyvana_OriginalSquare.png\" \tdata-image-name=\"Shyvana OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shyvana's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/50/Dragon%27s_Descent.png/revision/latest/scale-to-width-down/20?cb=20130929123243\" \t alt=\"Dragon&amp;#039;s Descent\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dragon%27s_Descent.png\" \tdata-image-name=\"Dragon&#39;s Descent.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dragon's Descent\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a6/Yone_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20200916084443\" \t alt=\"Yone OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Yone_OriginalSquare.png\" \tdata-image-name=\"Yone OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Yone's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f2/Soul_Unbound_2.png/revision/latest/scale-to-width-down/20?cb=20200726104418\" \t alt=\"Soul Unbound 2\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Soul_Unbound_2.png\" \tdata-image-name=\"Soul Unbound 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Soul Unbound (recast)\n Yone's very high dash speed makes it almost impossible to catch him during the dash. Skarner is required to be close enough to Yone and needs to have near-perfect timing with Impale's cast in order to successfully cancel the dash. If cast too early, the recast will be deferred to the end of Impale's duration, or if cast too late, Impale will be canceled as Yone is already too far away."
+    },
+    "The following <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes are interrupted and do not apply their 'on dash completion' effects (if they have one) when successfully impaled:\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b2/Corki_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160629191728\" \t alt=\"Corki OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Corki_OriginalSquare.png\" \tdata-image-name=\"Corki OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Corki's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/db/Special_Delivery.png/revision/latest/scale-to-width-down/20?cb=20171221035059\" \t alt=\"Special Delivery\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Special_Delivery.png\" \tdata-image-name=\"Special Delivery.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Special Delivery\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a9/Nocturne_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220735\" \t alt=\"Nocturne OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Nocturne_OriginalSquare.png\" \tdata-image-name=\"Nocturne OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Nocturne's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Paranoia.png/revision/latest/scale-to-width-down/20?cb=20130929123127\" \t alt=\"Paranoia\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Paranoia.png\" \tdata-image-name=\"Paranoia.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Paranoia's recast\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/da/Sett_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20200119095456\" \t alt=\"Sett OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sett_OriginalSquare.png\" \tdata-image-name=\"Sett OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sett's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/37/The_Show_Stopper.png/revision/latest/scale-to-width-down/20?cb=20200107124154\" \t alt=\"The Show Stopper\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"The_Show_Stopper.png\" \tdata-image-name=\"The Show Stopper.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> The Show Stopper\n This ability <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/You_and_Me%21.png/revision/latest/scale-to-width-down/20?cb=20190426210438\" \t alt=\"You and Me!\"  \tclass=\"\" \t \tdata-image-key=\"You_and_Me%21.png\" \tdata-image-name=\"You and Me!.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> attaches its target to Sett. Dragging him out will detach that unit from him.\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f3/Shyvana_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402221059\" \t alt=\"Shyvana OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shyvana_OriginalSquare.png\" \tdata-image-name=\"Shyvana OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shyvana's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/50/Dragon%27s_Descent.png/revision/latest/scale-to-width-down/20?cb=20130929123243\" \t alt=\"Dragon&amp;#039;s Descent\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dragon%27s_Descent.png\" \tdata-image-name=\"Dragon&#39;s Descent.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dragon's Descent\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a6/Yone_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20200916084443\" \t alt=\"Yone OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Yone_OriginalSquare.png\" \tdata-image-name=\"Yone OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Yone's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f2/Soul_Unbound_2.png/revision/latest/scale-to-width-down/20?cb=20200726104418\" \t alt=\"Soul Unbound 2\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Soul_Unbound_2.png\" \tdata-image-name=\"Soul Unbound 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Soul Unbound (recast)\n Yone's very high dash speed makes it almost impossible to catch him during the dash. Skarner is required to be close enough to Yone and needs to have near-perfect timing with Impale's cast in order to successfully cancel the dash. If cast too early, the recast will be deferred to the end of Impale's duration, or if cast too late, Impale will be canceled as Yone is already too far away.": {},
+    "The following <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes are stopped likewise with the ones mentioned above, however, they do apply 'on dash completion' effects and when their dash is interrupted, the ability's effects are centered around their initial stopping point from Impale.\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/ca/Hecarim_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160326090143\" \t alt=\"Hecarim OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hecarim_OriginalSquare.png\" \tdata-image-name=\"Hecarim OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hecarim's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3b/Onslaught_of_Shadows.png/revision/latest/scale-to-width-down/20?cb=20170818002935\" \t alt=\"Onslaught of Shadows\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Onslaught_of_Shadows.png\" \tdata-image-name=\"Onslaught of Shadows.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Onslaught of Shadows\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4c/Jarvan_IV_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220210\" \t alt=\"Jarvan IV OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Jarvan_IV_OriginalSquare.png\" \tdata-image-name=\"Jarvan IV OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Jarvan IV's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Cataclysm.png/revision/latest/scale-to-width-down/20?cb=20130929122855\" \t alt=\"Cataclysm\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cataclysm.png\" \tdata-image-name=\"Cataclysm.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cataclysm\n The terrain that would usually be formed on impact is instead delayed until the forced movement of Impale ends. The displacement immunity is not removed (he still cannot resist Impale's displacement despite of this).\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/10/Malphite_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220554\" \t alt=\"Malphite OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Malphite_OriginalSquare.png\" \tdata-image-name=\"Malphite OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Malphite's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/58/Unstoppable_Force.png/revision/latest/scale-to-width-down/20?cb=20171223032135\" \t alt=\"Unstoppable Force\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Unstoppable_Force.png\" \tdata-image-name=\"Unstoppable Force.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Unstoppable Force": {},
+    "The following abilities do not have any special interactions with Impale other than being displaced during their cast.\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/12/Illaoi_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20151111024020\" \t alt=\"Illaoi OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Illaoi_OriginalSquare.png\" \tdata-image-name=\"Illaoi OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Illaoi's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Leap_of_Faith.png/revision/latest/scale-to-width-down/20?cb=20171221041252\" \t alt=\"Leap of Faith\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Leap_of_Faith.png\" \tdata-image-name=\"Leap of Faith.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Leap of Faith\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/ca/Ornn_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20170819003104\" \t alt=\"Ornn OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ornn_OriginalSquare.png\" \tdata-image-name=\"Ornn OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ornn's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c4/Bellows_Breath.png/revision/latest/scale-to-width-down/20?cb=20170816203303\" \t alt=\"Bellows Breath\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Bellows_Breath.png\" \tdata-image-name=\"Bellows Breath.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bellows Breath\n The cast direction for this ability cannot be changed.": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0b/Rek%27Sai_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160526213622\" \t alt=\"Rek&amp;#039;Sai OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rek%27Sai_OriginalSquare.png\" \tdata-image-name=\"Rek&#39;Sai OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rek'Sai's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/da/Void_Rush.png/revision/latest/scale-to-width-down/20?cb=20141125211540\" \t alt=\"Void Rush\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Void_Rush.png\" \tdata-image-name=\"Void Rush.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Void Rush has two different outcomes:\n\n Impale is cast before the burrow into the ground:\n Rek'Sai will not <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8c/Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20160608033548\" \t alt=\"Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Hallucinate.png\" \tdata-image-name=\"Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> vanish while she's being dragged and her ultimate goes on a 10-second <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown after a brief delay. The displacement immunity is not removed (she still cannot resist Impale's displacement despite of this) in this case however, which ends when the ability cancels.\n\n Impale is cast after the emergence:\n Rek'Sai's dash is interrupted.": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ec/Vi_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160526214220\" \t alt=\"Vi OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Vi_OriginalSquare.png\" \tdata-image-name=\"Vi OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Vi's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Assault_and_Battery.png/revision/latest/scale-to-width-down/20?cb=20130929123428\" \t alt=\"Assault and Battery\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Assault_and_Battery.png\" \tdata-image-name=\"Assault and Battery.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Assault and Battery behaves differently in contrast to the previously noted examples due to its uniqueness.\n\n The dash is not interrupted and the displacement immunity is not removed (she still cannot resist Impale's displacement despite of this). Vi will continue to march towards the target while simultaneously being displaced by Impale and dragged to Skarner. Once Impale ends, she is free of the displacement and will perform the ability as normal.\n Enemies that come into range of her are still affected by entering her path.\n The primary target is dealt the ability's final effects if they move into the respective range of Vi, thus performing the ability successfully in spite of Impale.": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0d/Camille_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20170217185322\" \t alt=\"Camille OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Camille_OriginalSquare.png\" \tdata-image-name=\"Camille OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Camille's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/The_Hextech_Ultimatum.png/revision/latest/scale-to-width-down/20?cb=20170818002324\" \t alt=\"The Hextech Ultimatum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"The_Hextech_Ultimatum.png\" \tdata-image-name=\"The Hextech Ultimatum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> The Hextech Ultimatum is impractical to test, as it renders her <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable instantly the moment it's activated, which will always cancel Impale's cast, regardless of the timing.": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4d/Kalista_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20170401005336\" \t alt=\"Kalista OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Kalista_OriginalSquare.png\" \tdata-image-name=\"Kalista OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Kalista's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e9/Fate%27s_Call.png/revision/latest/scale-to-width-down/20?cb=20141104220726\" \t alt=\"Fate&amp;#039;s Call\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Fate%27s_Call.png\" \tdata-image-name=\"Fate&#39;s Call.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Fate's Call is not possible to test due to the target being <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8c/Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20160608033548\" \t alt=\"Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Hallucinate.png\" \tdata-image-name=\"Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> vanished, rendering them unable to be selected for unit-targeted abilities like Impale.": {},
+    "flavorsound": {
+      "value": "\"Feel my sting!\"",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  }
+]

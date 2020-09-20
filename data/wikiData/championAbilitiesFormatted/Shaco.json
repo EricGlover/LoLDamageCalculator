@@ -1,0 +1,199 @@
+[
+  {
+    "name": "Backstab",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Shaco's basic attacks deal 10 − 25 (based on level) (+ 15% bonus AD) bonus physical damage when striking a non- structure from behind. This damage can  critically strike.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Backstab.png",
+    "icons": [
+      "Backstab.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Shaco's basic attacks deal 10 − 25 (based on level) (+ 15% bonus AD) bonus physical damage when striking a non- structure from behind. This damage can  critically strike.",
+      " Deceive and  Two-Shiv Poison also have additional effects when striking an enemy from behind."
+    ]
+  },
+  {
+    "name": "Deceive",
+    "cost": [
+      60
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12,
+      11,
+      11,
+      10,
+      10
+    ],
+    "description": "Active: After a 0.125-second delay, Shaco  blinks  to the target location, becoming  invisible for a few seconds.",
+    "leveling": "Invisibility Duration:2.5 / 2.75 / 3 / 3.25 / 3.5",
+    "skill": "Q",
+    "damageType": "physical",
+    "isProjectile": "",
+    "flatDamage": [
+      2.5,
+      2.75,
+      3,
+      3.25,
+      3.5
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Deceive.png",
+    "icons": [
+      "Deceive.png"
+    ],
+    "levelings": [
+      "Invisibility Duration:2.5 / 2.75 / 3 / 3.25 / 3.5",
+      "Physical Damage:25 / 35 / 45 / 55 / 65 (+ 25% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: After a 0.125-second delay, Shaco  blinks  to the target location, becoming  invisible for a few seconds.",
+      "After exiting invisibility, his next basic attack within 0.25 seconds deals bonus physical damage. This damage can  critically strike.",
+      "Deceive's  invisibility breaks when Shaco uses a basic attack or casts  Two-Shiv Poison, but not from casting  Hallucinate. Casting  Jack in the Box causes Shaco to shimmer instead, revealing his position to enemies.",
+      " Backstab: Guarantees the basic attack to  critically strike for (30% +  25%) bonus physical damage."
+    ]
+  },
+  {
+    "name": "Jack in the Box",
+    "cost": [
+      50,
+      55,
+      60,
+      65,
+      70
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      16
+    ],
+    "description": "Active: Shaco summons a Jack in the Box at the target location, lasting for up to 40 (+ 5% AP) seconds. The box arms after 2 seconds, afterwards becoming  stealthed, during which it is  invulnerable and  untargetable to enemies.",
+    "leveling": "Champion Flee Duration:0.5 / 0.75 / 1 / 1.25 / 1.5",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      0.5,
+      0.75,
+      1,
+      1.25,
+      1.5
+    ],
+    "ratios": [],
+    "castTime": 0.25,
+    "icon": "Jack in the Box.png",
+    "icons": [
+      "Jack in the Box.png"
+    ],
+    "levelings": [
+      "Champion Flee Duration:0.5 / 0.75 / 1 / 1.25 / 1.5",
+      "Magic Damage:»15 / 20 / 25 / 30 / 35 (+ 10% AP)«Increased Damage:35 / 50 / 65 / 80 / 95 (+ 20% AP)"
+    ],
+    "descriptions": [
+      "Active: Shaco summons a Jack in the Box at the target location, lasting for up to 40 (+ 5% AP) seconds. The box arms after 2 seconds, afterwards becoming  stealthed, during which it is  invulnerable and  untargetable to enemies.",
+      "Enemies that come or are near the box will cause it to trigger, causing them to turn and  flee for 2 seconds, reduced against champions, who are also  rooted for 0.5 seconds. While fleeing, enemy  champions are set to a static 100  movement speed, reduced to a static 60 for  minions and  monsters.",
+      "Once triggered, the box will also become targetable and automatically start firing every 0.5 seconds at all nearby  visible enemies, dealing magic damage with each attack, reduced by 50% against  structures. If the box attacks only one unit, it deals increased damage.",
+      "The box stays active for 5 seconds or until destroyed, independently from its remaining inactive duration."
+    ]
+  },
+  {
+    "name": "Two-Shiv Poison",
+    "cost": [
+      65
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      8
+    ],
+    "description": "Passive: Shaco's basic attacks  slow enemies for 2 seconds while Two-Shiv Poison is off cooldown.",
+    "leveling": "Slow:20 / 22.5 / 25 / 27.5 / 30%",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      20,
+      22.5,
+      25,
+      27.5,
+      30
+    ],
+    "ratios": [],
+    "castTime": 0.25,
+    "icon": "false",
+    "icons": [
+      "false",
+      "Two-Shiv Poison.png"
+    ],
+    "levelings": [
+      "Slow:20 / 22.5 / 25 / 27.5 / 30%",
+      "Magic Damage:»70 / 95 / 120 / 145 / 170 (+ 70% bonus AD) (+ 55% AP)«Increased Damage:105 / 142.5 / 180 / 217.5 / 255 (+ 105% bonus AD) (+ 82.5% AP)"
+    ],
+    "descriptions": [
+      "Passive: Shaco's basic attacks  slow enemies for 2 seconds while Two-Shiv Poison is off cooldown.",
+      "Active: Shaco throws a dagger at the target enemy,  slowing them for 3 seconds and dealing magic damage,  increased by 50% against targets below 30% of their maximum health.",
+      " Backstab: Deals an additional 15 − 50 (based on level) (+ 10% AP) bonus magic damage, increased to 22.5 − 75 (based on level) (+ 15% AP) when the target is below 30% of their maximum health."
+    ]
+  },
+  {
+    "name": "Hallucinate",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      100,
+      95,
+      90,
+      85,
+      80
+    ],
+    "description": "Active: Shaco  vanishes for 0.5 seconds and then  blinks in the target direction while creating a copy of himself that blinks in the opposite direction, remaining within control range of him as a controllable  clone for up to 18 seconds.",
+    "leveling": "Magic Damage:150 / 187.5 / 225 / 262.5 / 300 (+ 70% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      150,
+      187.5,
+      225,
+      262.5,
+      300
+    ],
+    "ratios": [
+      {
+        "value": 70,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Hallucinate.png",
+    "icons": [
+      "Hallucinate.png",
+      "Command Hallucinate.png"
+    ],
+    "levelings": [
+      "Magic Damage:150 / 187.5 / 225 / 262.5 / 300 (+ 70% AP)",
+      "Mini-Box Magic Damage:»10 / 15 / 20 / 25 / 30 (+ 10% AP)«Mini-Box Increased Damage:25 / 37.5 / 50 / 62.5 / 75 (+ 15% AP)"
+    ],
+    "descriptions": [
+      "Active: Shaco  vanishes for 0.5 seconds and then  blinks in the target direction while creating a copy of himself that blinks in the opposite direction, remaining within control range of him as a controllable  clone for up to 18 seconds.",
+      "Recast: While the Hallucination is active, Hallucinate can be used to move it to the target location or attack a enemy unit on the cursor.",
+      "When the Hallucination dies or expires, it explodes, dealing magic damage to enemy units around it and leaving three  mini-boxes behind which activate instantly, causing nearby enemies to  flee for 1 second.",
+      "The three boxes possess Jack in the Box's effects, except they have a doubled, but shared  health, and deal modified magic damage with each attack, increased if attacking a single unit."
+    ]
+  }
+]

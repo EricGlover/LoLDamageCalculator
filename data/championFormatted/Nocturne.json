@@ -1,6 +1,35 @@
 {
   "abilities": [
     {
+      "name": "Umbra Blades",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Nocturne's basic attack is periodically enhanced, dealing 20% AD bonus physical damage to his target and 120% AD physical damage to surrounding enemies, while also  healing himself for 15 − 40 (based on level) (+ 15% AP) per enemy hit.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Umbra Blades.png",
+      "icons": [
+        "Umbra Blades.png",
+        "Steel Blades.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Nocturne's basic attack is periodically enhanced, dealing 20% AD bonus physical damage to his target and 120% AD physical damage to surrounding enemies, while also  healing himself for 15 − 40 (based on level) (+ 15% AP) per enemy hit.",
+        "Umbra Blades's damage to the primary target can  critically strike for  2.5% AD bonus physical damage.",
+        "Basic attacks reduce Umbra Blades'   cooldown by 1 second, increased to 3 seconds against  monsters and enemy  champions."
+      ]
+    },
+    {
       "name": "Duskbringer",
       "cost": [
         60,
@@ -13,7 +42,7 @@
       "coolDown": [
         10
       ],
-      "description": "Active: Nocturne sends out a shadow blade in a line in the target direction that leaves a Dusk Trail on its path, dealing physical damage to enemies it passes through and causing enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions hit to also leave a Dusk Trail behind their movement for 5 seconds.",
+      "description": "Active: Nocturne sends out a shadow blade in a line in the target direction that leaves a Dusk Trail on its path, dealing physical damage to enemies it passes through and causing enemy  champions hit to also leave a Dusk Trail behind their movement for 5 seconds.",
       "leveling": "Physical damage:65 / 110 / 155 / 200 / 245 (+ 75% bonus AD)",
       "skill": "Q",
       "damageType": "Physical",
@@ -31,7 +60,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Duskbringer.png",
+      "icons": [
+        "Duskbringer.png"
+      ],
+      "levelings": [
+        "Physical damage:65 / 110 / 155 / 200 / 245 (+ 75% bonus AD)",
+        "Movement Speed:15 / 20 / 25 / 30 / 35%Bonus AD:20 / 30 / 40 / 50 / 60"
+      ],
+      "descriptions": [
+        "Active: Nocturne sends out a shadow blade in a line in the target direction that leaves a Dusk Trail on its path, dealing physical damage to enemies it passes through and causing enemy  champions hit to also leave a Dusk Trail behind their movement for 5 seconds.",
+        "While on the Dusk Trail, Nocturne is  ghosted and gains  bonus movement speed and  bonus attack damage."
+      ]
     },
     {
       "name": "Shroud of Darkness",
@@ -46,7 +87,7 @@
         14,
         12
       ],
-      "description": "Passive: Nocturne permanently gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed.",
+      "description": "Passive: Nocturne permanently gains  bonus attack speed.",
       "leveling": "Bonus Attack Speed:»30 / 35 / 40 / 45 / 50%«Maximum Bonus Attack Speed:60 / 70 / 80 / 90 / 100%",
       "skill": "W",
       "damageType": "",
@@ -59,7 +100,19 @@
         50
       ],
       "ratios": [],
-      "castTime": null
+      "castTime": null,
+      "icon": "Shroud of Darkness.png",
+      "icons": [
+        "Shroud of Darkness.png"
+      ],
+      "levelings": [
+        "Bonus Attack Speed:»30 / 35 / 40 / 45 / 50%«Maximum Bonus Attack Speed:60 / 70 / 80 / 90 / 100%"
+      ],
+      "descriptions": [
+        "Passive: Nocturne permanently gains  bonus attack speed.",
+        "Active: Nocturne gains a  spell shield for 1.5 seconds.",
+        "Blocking an ability doubles Shroud of Darkness' passive bonus attack speed for 5 seconds."
+      ]
     },
     {
       "name": "Unspeakable Horror",
@@ -78,7 +131,7 @@
         12,
         11
       ],
-      "description": "Passive: Nocturne gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 335 bonus movement speed when moving toward <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Flee_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223937\" \t alt=\"Flee icon\"  \tclass=\"\" \t \tdata-image-key=\"Flee_icon.png\" \tdata-image-name=\"Flee icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> fleeing targets.",
+      "description": "Passive: Nocturne gains  335 bonus movement speed when moving toward  fleeing targets.",
       "leveling": "Magic Damage:80 / 125 / 170 / 215 / 260 (+ 100% AP)",
       "skill": "E",
       "damageType": "Magic",
@@ -96,7 +149,20 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Unspeakable Horror.png",
+      "icons": [
+        "Unspeakable Horror.png"
+      ],
+      "levelings": [
+        "Magic Damage:80 / 125 / 170 / 215 / 260 (+ 100% AP)",
+        "Fear Duration:1.25 / 1.5 / 1.75 / 2 / 2.25"
+      ],
+      "descriptions": [
+        "Passive: Nocturne gains  335 bonus movement speed when moving toward  fleeing targets.",
+        "Active: Nocturne plants nightmares into the target enemy's mind, dealing magic damage to them over 2 seconds and forming a  tether between Nocturne and the target.",
+        "If the tether is not broken by the end of the duration, the target is made to  flee from Nocturne for a short duration while being  slowed by 90%."
+      ]
     },
     {
       "name": "Paranoia",
@@ -109,7 +175,7 @@
         125,
         100
       ],
-      "description": "Active: Nocturne inflicts unstable terror upon all enemy champions (including <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable and dead ones), <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/94/Nearsight_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Nearsight icon\"  \tclass=\"\" \t \tdata-image-key=\"Nearsight_icon.png\" \tdata-image-name=\"Nearsight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> nearsighting them for 6 seconds, which reduces their <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight radius「 to 1,030 units, 」「 by 320 units, 」and granting him the ability to recast Paranoia for the duration at no delay.",
+      "description": "Active: Nocturne inflicts unstable terror upon all enemy champions (including  untargetable and dead ones),  nearsighting them for 6 seconds, which reduces their  sight radius「 to 1,030 units, 」「 by 320 units, 」and granting him the ability to recast Paranoia for the duration at no delay.",
       "leveling": "Physical Damage:150 / 275 / 400 (+ 120% bonus AD)",
       "skill": "R",
       "damageType": "Physical",
@@ -126,7 +192,20 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Paranoia.png",
+      "icons": [
+        "Paranoia.png"
+      ],
+      "levelings": [
+        "Physical Damage:150 / 275 / 400 (+ 120% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Nocturne inflicts unstable terror upon all enemy champions (including  untargetable and dead ones),  nearsighting them for 6 seconds, which reduces their  sight radius「 to 1,030 units, 」「 by 320 units, 」and granting him the ability to recast Paranoia for the duration at no delay.",
+        "Recast: Nocturne  dashes with  displacement immunity to the target enemy  champion, dealing physical damage to them on arrival.",
+        "If  Shroud of Darkness is active at the time of Paranoia's recast, its duration is maintained for the flight.",
+        "The nearsight persists through  death."
+      ]
     }
   ],
   "id": "Nocturne",
@@ -141,6 +220,7 @@
     "difficulty": 4
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Nocturne.png",
     "full": "Nocturne.png",
     "sprite": "champion2.png",
     "group": "champion",

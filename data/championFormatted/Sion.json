@@ -1,5 +1,245 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Glory in Death",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Upon taking  fatal damage, Sion goes into  stasis for 1.5 seconds, after which he  reanimates and enters a frenzy, restoring himself to  100% maximum health but losing 2 − 19 (based on level) health every 0.264 seconds, increasing by「 70% of the base value 」「 1.4 − 13.3 (based on level) health 」per subsequent tick.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "physical",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Glory in Death.png",
+      "icons": [
+        "Glory in Death.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Upon taking  fatal damage, Sion goes into  stasis for 1.5 seconds, after which he  reanimates and enters a frenzy, restoring himself to  100% maximum health but losing 2 − 19 (based on level) health every 0.264 seconds, increasing by「 70% of the base value 」「 1.4 − 13.3 (based on level) health 」per subsequent tick.",
+        "Sion can freely move and use basic attacks during this time, gaining  100% life steal, attacking at  1.75 attack speed, and dealing 10% of the target’s maximum health bonus physical damage on-hit, capped at 75 against non-champions.",
+        "While Glory in Death is active, Sion's active abilities are replaced with  Death Surge."
+      ]
+    },
+    {
+      "name": "Decimating Smash",
+      "cost": [
+        45
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "description": "Active: Sion  charges for up to 2 seconds to swing in the target direction, increasing Decimating Smash's range every 0.25 seconds, up to 1 second, and its damage every 0.25 seconds, up to a maximum bonus for the base damage and up to 200% bonus for the scaling damage. Decimating Smash can be recast at any time within its duration, and automatically does so at its end.",
+      "leveling": "Max. Base Damage Increase:133.33 / 150 / 166.67 / 183.33 / 200%\nMinimum Damage:»30 / 50 / 70 / 90 / 110 (+ 45 / 52.5 / 60 / 67.5 / 75% AD)«Maximum Damage:70 / 135 / 200 / 265 / 330 (+ 135 / 157.5 / 180 / 202.5 / 225% AD)",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "False",
+      "flatDamage": [
+        133.33,
+        150,
+        166.67,
+        183.33,
+        200
+      ],
+      "ratios": [
+        {
+          "value": 45,
+          "type": "bonus ad"
+        },
+        {
+          "value": 52.5,
+          "type": "bonus ad"
+        },
+        {
+          "value": 60,
+          "type": "bonus ad"
+        },
+        {
+          "value": 67.5,
+          "type": "bonus ad"
+        },
+        {
+          "value": 75,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Decimating Smash.png",
+      "icons": [
+        "Decimating Smash.png"
+      ],
+      "levelings": [
+        "Max. Base Damage Increase:133.33 / 150 / 166.67 / 183.33 / 200%\nMinimum Damage:»30 / 50 / 70 / 90 / 110 (+ 45 / 52.5 / 60 / 67.5 / 75% AD)«Maximum Damage:70 / 135 / 200 / 265 / 330 (+ 135 / 157.5 / 180 / 202.5 / 225% AD)",
+        "Minimum Minion Damage:»18 / 30 / 42 / 54 / 66 (+ 27 / 31.5 / 36 / 40.5 / 45% AD)«Maximum Minion Damage:42 / 81 / 120 / 159 / 198 (+ 81 / 94.5 / 108 / 121.5 / 135% AD)"
+      ],
+      "descriptions": [
+        "Active: Sion  charges for up to 2 seconds to swing in the target direction, increasing Decimating Smash's range every 0.25 seconds, up to 1 second, and its damage every 0.25 seconds, up to a maximum bonus for the base damage and up to 200% bonus for the scaling damage. Decimating Smash can be recast at any time within its duration, and automatically does so at its end.",
+        "If the channel is  interrupted, Decimating Smash goes on a 2-second  cooldown.",
+        "Recast: Sion flails his axe, dealing physical damage to all enemies in the target area and  slowing them by 50% for 0.25 seconds. Decimating Smash deals 60% damage against  minions.",
+        "If Decimating Smash was charged for at least 1 second, Sion instead slams his axe down,  knocking up all enemies hit for 0.5 − 1 (based on channel time) seconds and  stunning them for 1.25 − 2.25 (based on channel time) seconds."
+      ]
+    },
+    {
+      "name": "Soul Furnace",
+      "cost": [
+        65,
+        70,
+        75,
+        80,
+        85
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ],
+      "description": "Passive: Sion permanently gains  4 bonus health whenever he kills an enemy, increased to 15 bonus health against large enemies and enemy champion  takedowns.",
+      "leveling": "Shield Strength:50 / 75 / 100 / 125 / 150 (+ 40% AP) (+ 8 / 9 / 10 / 11 / 12% maximum health)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        50,
+        75,
+        100,
+        125,
+        150
+      ],
+      "ratios": [
+        {
+          "value": 40,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "false",
+      "icons": [
+        "false",
+        "Soul Furnace.png",
+        "Soul Furnace 2.png"
+      ],
+      "levelings": [
+        "Shield Strength:50 / 75 / 100 / 125 / 150 (+ 40% AP) (+ 8 / 9 / 10 / 11 / 12% maximum health)",
+        "Magic Damage:40 / 65 / 90 / 115 / 140 (+ 40% AP) (+ 10 / 11 / 12 / 13 / 14% of target's maximum health)"
+      ],
+      "descriptions": [
+        "Passive: Sion permanently gains  4 bonus health whenever he kills an enemy, increased to 15 bonus health against large enemies and enemy champion  takedowns.",
+        "Active: Sion  shields himself for up to 6 seconds. Soul Furnace can be recast after 3 seconds for as long as the shield is not destroyed.",
+        "Recast: Soul Furnace's shield is detonated to deal magic damage to enemies around Sion, capped at 400 against minions and monsters.",
+        "Soul Furnace detonates automatically when the shield expires after 6 seconds.",
+        "Both of Soul Furnace's casts can be activated during Sion's other abilities, other than the release of  Decimating Smash."
+      ]
+    },
+    {
+      "name": "Roar of the Slayer",
+      "cost": [
+        35,
+        40,
+        45,
+        50,
+        55
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "description": "Active: Sion bellows in the target direction, dealing magic damage to the first enemy hit,  slowing them for 2.5 seconds as well as  reducing their armor by 20% for 4 seconds.",
+      "leveling": "Magic Damage:65 / 100 / 135 / 170 / 205 (+ 55% AP)Slow:40 / 45 / 50 / 55 / 60%",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "Special",
+      "flatDamage": [
+        65,
+        100,
+        135,
+        170,
+        205
+      ],
+      "ratios": [
+        {
+          "value": 55,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Roar of the Slayer.png",
+      "icons": [
+        "Roar of the Slayer.png"
+      ],
+      "levelings": [
+        "Magic Damage:65 / 100 / 135 / 170 / 205 (+ 55% AP)Slow:40 / 45 / 50 / 55 / 60%"
+      ],
+      "descriptions": [
+        "Active: Sion bellows in the target direction, dealing magic damage to the first enemy hit,  slowing them for 2.5 seconds as well as  reducing their armor by 20% for 4 seconds.",
+        "If the target is a  minion or non-epic  monster, it is  stunned for 0.75 seconds and  knocked back, in the same line, up to 1300 units away from Sion, dealing the same damage and applying the same effects to all enemies it passes through as well as briefly  revealing the area it goes through. Projectile enemies are  invulnerable to minion damage and take their damage once they are stopped if they would die to the Bellow's Breath's damage, by either colliding with terrain, reaching the end of their trajectory, or being  knocked down."
+      ]
+    },
+    {
+      "name": "Unstoppable Onslaught",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        140,
+        100,
+        60
+      ],
+      "description": "Active: Sion  charges forward in the direction of the cursor for up to 8 seconds, during which he is  immune to crowd control,  ghosted, and able to steer at a slow turn rate while automatically navigating his movement.",
+      "leveling": "Minimum Physical Damage:»150 / 300 / 450 (+ 40% bonus AD)«Maximum Physical Damage:400 / 800 / 1200 (+ 80% bonus AD)\nSlow:40 / 45 / 50%",
+      "skill": "R",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        150,
+        300,
+        450,
+        40,
+        400
+      ],
+      "ratios": [
+        {
+          "value": 40,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Unstoppable Onslaught.png",
+      "icons": [
+        "Unstoppable Onslaught.png",
+        "Unstoppable Onslaught 2.png"
+      ],
+      "levelings": [
+        "Minimum Physical Damage:»150 / 300 / 450 (+ 40% bonus AD)«Maximum Physical Damage:400 / 800 / 1200 (+ 80% bonus AD)\nSlow:40 / 45 / 50%"
+      ],
+      "descriptions": [
+        "Active: Sion  charges forward in the direction of the cursor for up to 8 seconds, during which he is  immune to crowd control,  ghosted, and able to steer at a slow turn rate while automatically navigating his movement.",
+        "The charge uses Sion's movement speed at the time of cast and is unaffected by external sources for the duration, including movement speed caps, while also gaining  40 bonus movement speed every 0.1 seconds, capping at 950 total movement speed.",
+        "Upon reaching the end of the duration, Sion  leaps forward 200-units, landing after 0.55 seconds and slamming the ground around him. Colliding with an enemy champion or terrain will stop Unstoppable Onslaught prematurely. Running into terrain will also self- stun Sion for 0.5 seconds.",
+        "Both the charge and slam deal physical damage to all enemies and  turrets struck, with the base damage increasing by 0% − 166.67% (based on time since the initial cast), the  bonus AD ratio increasing by 0% − 100% (based on time since the initial cast), and  slowing them for 3 seconds.",
+        "When colliding with at least one enemy champion, Sion will additionally  pull all enemies around him over 0.5 seconds, after which they're  stunned for 0.25 −  1.75 (based on time since the initial cast) seconds, increased to 0.75 −  1.75 (based on time since the initial cast) if hit by the leap."
+      ]
+    }
+  ],
   "id": "Sion",
   "key": "14",
   "name": "Sion",
@@ -12,6 +252,7 @@
     "difficulty": 5
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Sion.png",
     "full": "Sion.png",
     "sprite": "champion3.png",
     "group": "champion",

@@ -1,6 +1,34 @@
 {
   "abilities": [
     {
+      "name": "Ionian Fervor",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Irelia gains 1 Ionian Fervor stack for every enemy  champion hit by her abilities, or if she hits at least one non-champion, stacking up to 5 times. Ionian Fervor lasts for 6 seconds, with basic attacks against enemy champions and large and epic  monsters refreshing the duration.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Ionian Fervor.png",
+      "icons": [
+        "Ionian Fervor.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Irelia gains 1 Ionian Fervor stack for every enemy  champion hit by her abilities, or if she hits at least one non-champion, stacking up to 5 times. Ionian Fervor lasts for 6 seconds, with basic attacks against enemy champions and large and epic  monsters refreshing the duration.",
+        "Ionian Fervor: Irelia gains 8% − 16% (based on level)  bonus attack speed per stack, up to 40% − 80% (based on level).",
+        "At maximum stacks, Irelia's basic attacks deal 15 − 66 (based on level) (+ 25% bonus AD) bonus magic damage on-hit."
+      ]
+    },
+    {
       "name": "Bladesurge",
       "cost": [
         20
@@ -13,7 +41,7 @@
         9,
         8
       ],
-      "description": "Passive: Enemy champions and large monsters hit by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2e/Flawless_Duet.png/revision/latest/scale-to-width-down/20?cb=20180411161012\" \t alt=\"Flawless Duet\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flawless_Duet.png\" \tdata-image-name=\"Flawless Duet.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flawless Duet and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5f/Vanguard%27s_Edge.png/revision/latest/scale-to-width-down/20?cb=20180411161131\" \t alt=\"Vanguard&amp;#039;s Edge\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Vanguard%27s_Edge.png\" \tdata-image-name=\"Vanguard&#39;s Edge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Vanguard's Edge's initial barrage are marked for 5 seconds.",
+      "description": "Passive: Enemy champions and large monsters hit by  Flawless Duet and  Vanguard's Edge's initial barrage are marked for 5 seconds.",
       "leveling": "Physical Damage:»5 / 25 / 45 / 65 / 85 (+ 60% AD)«Minion Bonus Damage:»55 / 75 / 95 / 115 / 135«Minion Total Damage:60 / 100 / 140 / 180 / 220 (+ 60% AD)\nHeal:12 / 14 / 16 / 18 / 20% AD",
       "skill": "Q",
       "damageType": "Physical",
@@ -31,7 +59,20 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Bladesurge 2.png",
+      "icons": [
+        "Bladesurge 2.png",
+        "Bladesurge.png"
+      ],
+      "levelings": [
+        "Physical Damage:»5 / 25 / 45 / 65 / 85 (+ 60% AD)«Minion Bonus Damage:»55 / 75 / 95 / 115 / 135«Minion Total Damage:60 / 100 / 140 / 180 / 220 (+ 60% AD)\nHeal:12 / 14 / 16 / 18 / 20% AD"
+      ],
+      "descriptions": [
+        "Passive: Enemy champions and large monsters hit by  Flawless Duet and  Vanguard's Edge's initial barrage are marked for 5 seconds.",
+        "Active: Irelia  dashes through the target enemy's location, dealing physical damage, applying on-hit effects and  healing herself. Bladesurge deals increased damage to  minions.",
+        "Bladesurge's  cooldown is reduced to 0.2 seconds upon consuming a mark, and resets if the target dies to or shortly after Bladesurge has completed."
+      ]
     },
     {
       "name": "Defiant Dance",
@@ -50,7 +91,7 @@
         14,
         12
       ],
-      "description": "Active: Irelia <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charges for up to 1.5 seconds, during which she reduces incoming physical damage by 50% (+ 7% per 100 AP) and increases Defiant Dance's damage over the duration. Defiant Dance can be recast at any time within its duration and cannot be <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> interrupted by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crowd control.",
+      "description": "Active: Irelia  charges for up to 1.5 seconds, during which she reduces incoming physical damage by 50% (+ 7% per 100 AP) and increases Defiant Dance's damage over the duration. Defiant Dance can be recast at any time within its duration and cannot be  interrupted by  crowd control.",
       "leveling": "Minimum Damage:»10 / 25 / 40 / 55 / 70 (+ 50% AD) (+ 40% AP)«Maximum Damage:20 / 50 / 80 / 110 / 140 (+ 100% AD) (+ 80% AP)",
       "skill": "W",
       "damageType": "Physical",
@@ -68,7 +109,20 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Defiant Dance.png",
+      "icons": [
+        "Defiant Dance.png"
+      ],
+      "levelings": [
+        "Minimum Damage:»10 / 25 / 40 / 55 / 70 (+ 50% AD) (+ 40% AP)«Maximum Damage:20 / 50 / 80 / 110 / 140 (+ 100% AD) (+ 80% AP)"
+      ],
+      "descriptions": [
+        "Active: Irelia  charges for up to 1.5 seconds, during which she reduces incoming physical damage by 50% (+ 7% per 100 AP) and increases Defiant Dance's damage over the duration. Defiant Dance can be recast at any time within its duration and cannot be  interrupted by  crowd control.",
+        "At the end of the duration, after a 0.07-second delay, Irelia swipes with her blades in the target direction, dealing physical damage to all enemies around her and in a line, increased by 0% − 100% (based on channel time).",
+        "Recast: Irelia swipes with her blades early.",
+        "Defiant Dance's recast can be used while affected by  crowd control."
+      ]
     },
     {
       "name": "Flawless Duet",
@@ -83,7 +137,7 @@
         13,
         12
       ],
-      "description": "Active: Irelia sends a blade to the target location for 3.5 seconds, after which she sends out a second blade at her position, though not if she is channeling <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f1/Defiant_Dance.png/revision/latest/scale-to-width-down/20?cb=20180411160954\" \t alt=\"Defiant Dance\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Defiant_Dance.png\" \tdata-image-name=\"Defiant Dance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Defiant Dance or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport. Flawless Duet can be recast after 0.15 seconds.",
+      "description": "Active: Irelia sends a blade to the target location for 3.5 seconds, after which she sends out a second blade at her position, though not if she is channeling  Defiant Dance or  Teleport. Flawless Duet can be recast after 0.15 seconds.",
       "leveling": "Magic Damage:80 / 125 / 170 / 215 / 260 (+ 80% AP)",
       "skill": "E",
       "damageType": "Magic",
@@ -101,7 +155,20 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Flawless Duet.png",
+      "icons": [
+        "Flawless Duet.png"
+      ],
+      "levelings": [
+        "Magic Damage:80 / 125 / 170 / 215 / 260 (+ 80% AP)"
+      ],
+      "descriptions": [
+        "Active: Irelia sends a blade to the target location for 3.5 seconds, after which she sends out a second blade at her position, though not if she is channeling  Defiant Dance or  Teleport. Flawless Duet can be recast after 0.15 seconds.",
+        "Once both blades have been placed, they fly toward each other after a 0.25-second delay, dealing magic damage, briefly  revealing and  stunning all enemies struck for 0.75 seconds after converging.",
+        "Recast: Irelia sends out the second blade early to the target area.",
+        "Flawless Duet's recast can be used while affected by  crowd control and during  Vanguard's Edge's cast time."
+      ]
     },
     {
       "name": "Vanguard's Edge",
@@ -134,7 +201,20 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.4
+      "castTime": 0.4,
+      "icon": "Vanguard's Edge.png",
+      "icons": [
+        "Vanguard's Edge.png"
+      ],
+      "levelings": [
+        "Barrage Damage:125 / 187.5 / 250 / 312.5 / 375 (+ 70% AP)",
+        "Perimeter Damage:125 / 187.5 / 250 / 312.5 / 375 (+ 70% AP)"
+      ],
+      "descriptions": [
+        "Active: Irelia launches a barrage of blades in the target direction, expanding outward upon hitting an enemy champion and dealing magic damage to all enemies hit.",
+        "After expanding, the blades drop on the ground, knocking all enemy units away from them, though not rendering them  airborne, and forming a spade-shaped perimeter around the enemy champion hit for 2.5 seconds. Enemies that pass through the blades are dealt magic damage and are  slowed by 90% for 1.5 seconds.",
+        "The perimeter will point at the same angle Irelia cast it from, but based on the target's center."
+      ]
     }
   ],
   "id": "Irelia",
@@ -149,6 +229,7 @@
     "difficulty": 5
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Irelia.png",
     "full": "Irelia.png",
     "sprite": "champion1.png",
     "group": "champion",

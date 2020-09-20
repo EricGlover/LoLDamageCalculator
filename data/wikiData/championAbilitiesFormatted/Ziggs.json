@@ -1,0 +1,215 @@
+[
+  {
+    "name": "Short Fuse",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Ziggs'  basic attack is periodically empowered to deal 20 − 160 (based on level) (+ 50% AP) bonus magic damage,「 increased by 150% against structures. 」「 increased to 50 − 400 (based on level) (+ 125% AP) against structures. 」",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "magic",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Short Fuse.png",
+    "icons": [
+      "Short Fuse.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Ziggs'  basic attack is periodically empowered to deal 20 − 160 (based on level) (+ 50% AP) bonus magic damage,「 increased by 150% against structures. 」「 increased to 50 − 400 (based on level) (+ 125% AP) against structures. 」",
+      "Ziggs reduces Short Fuse's  cooldown by 4 / 5 / 6 (based on level) seconds whenever he uses an ability."
+    ]
+  },
+  {
+    "name": "Bouncing Bomb",
+    "cost": [
+      50,
+      55,
+      60,
+      65,
+      70
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      6,
+      5,
+      5,
+      4,
+      4
+    ],
+    "description": "Active: Ziggs throws a bouncing bomb at the target area, which explodes upon hitting an enemy, colliding with terrain, or reaching the end of its trajectory. The bomb can bounce up to two times, the distance traveled each time based on how far it was originally thrown.",
+    "leveling": "Magic Damage:85 / 130 / 175 / 220 / 265 (+ 65% AP)",
+    "skill": "Q",
+    "damageType": "magic",
+    "isProjectile": "true",
+    "flatDamage": [
+      85,
+      130,
+      175,
+      220,
+      265
+    ],
+    "ratios": [
+      {
+        "value": 65,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Bouncing Bomb.png",
+    "icons": [
+      "Bouncing Bomb.png"
+    ],
+    "levelings": [
+      "Magic Damage:85 / 130 / 175 / 220 / 265 (+ 65% AP)"
+    ],
+    "descriptions": [
+      "Active: Ziggs throws a bouncing bomb at the target area, which explodes upon hitting an enemy, colliding with terrain, or reaching the end of its trajectory. The bomb can bounce up to two times, the distance traveled each time based on how far it was originally thrown.",
+      "The bomb's explosion deals magic damage to all nearby enemies.",
+      "Bouncing Bomb will cast at max range if cast beyond that."
+    ]
+  },
+  {
+    "name": "Satchel Charge",
+    "cost": [
+      65
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "description": "Active: Ziggs flings an explosive charge towards the target area,  revealing its surroundings, and exploding after 4 seconds. Satchel Charge can be recast at no delay.",
+    "leveling": "Magic Damage:70 / 105 / 140 / 175 / 210 (+ 50% AP)",
+    "skill": "W",
+    "damageType": "magic",
+    "isProjectile": "true",
+    "flatDamage": [
+      70,
+      105,
+      140,
+      175,
+      210
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Satchel Charge.png",
+    "icons": [
+      "Satchel Charge.png"
+    ],
+    "levelings": [
+      "Magic Damage:70 / 105 / 140 / 175 / 210 (+ 50% AP)",
+      "Demolition Threshold:25 / 27.5 / 30 / 32.5 / 35% of turret's maximum health"
+    ],
+    "descriptions": [
+      "Active: Ziggs flings an explosive charge towards the target area,  revealing its surroundings, and exploding after 4 seconds. Satchel Charge can be recast at no delay.",
+      "When exploding, the Satchel Charge deals magic damage and  knocks back all surrounding enemies by 250 units. If Ziggs is within the explosion radius, he  dashes up to 500 units away.",
+      " Turret Explosion: Satchel Charge's explosion can  demolish  turrets below a  percentile health threshold.",
+      "Recast: Ziggs detonates Satchel Charge early. If recast while in flight, the ability will detonate immediately upon landing.",
+      "Ziggs does not  dash if he is  immobilized or  grounded."
+    ]
+  },
+  {
+    "name": "Hexplosive Minefield",
+    "cost": [
+      70,
+      80,
+      90,
+      100,
+      110
+    ],
+    "costType": "mana",
+    "coolDown": [
+      16
+    ],
+    "description": "Active: Ziggs scatters a cluster of 11 proximity mines over the target area, lasting for up to 10 seconds.",
+    "leveling": "Slow:30 / 35 / 40 / 45 / 50%\nMagic Damage Per Mine:40 / 75 / 110 / 145 / 180 (+ 30% AP)\nAdditional Magic Damage:»16 / 30 / 44 / 58 / 72 (+ 12% AP)«Total Single-Target Damage:200 / 375 / 550 / 725 / 900 (+ 150% AP)",
+    "skill": "E",
+    "damageType": "magic",
+    "isProjectile": "true",
+    "flatDamage": [
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "ratios": [
+      {
+        "value": 30,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Hexplosive Minefield.png",
+    "icons": [
+      "Hexplosive Minefield.png"
+    ],
+    "levelings": [
+      "Slow:30 / 35 / 40 / 45 / 50%\nMagic Damage Per Mine:40 / 75 / 110 / 145 / 180 (+ 30% AP)\nAdditional Magic Damage:»16 / 30 / 44 / 58 / 72 (+ 12% AP)«Total Single-Target Damage:200 / 375 / 550 / 725 / 900 (+ 150% AP)"
+    ],
+    "descriptions": [
+      "Active: Ziggs scatters a cluster of 11 proximity mines over the target area, lasting for up to 10 seconds.",
+      "Mines explode on contact with an enemy,  slowing them for 1.5 seconds and dealing magic damage. Targets detonating more than one mine take 40% damage from subsequent mines."
+    ]
+  },
+  {
+    "name": "Mega Inferno Bomb",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      120,
+      107,
+      95,
+      82,
+      70
+    ],
+    "description": "Active: Ziggs hurls a massive bomb at the target area, granting  sight within a 350 unit radius as it travels to its destination.",
+    "leveling": "Magic Damage:»200 / 250 / 300 / 350 / 400 (+ 73.33% AP)«Increased Damage:300 / 375 / 450 / 525 / 600 (+ 110% AP)",
+    "skill": "R",
+    "damageType": "magic",
+    "isProjectile": "false",
+    "flatDamage": [
+      200,
+      250,
+      300,
+      350,
+      400
+    ],
+    "ratios": [
+      {
+        "value": 73.33,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.375,
+    "icon": "Mega Inferno Bomb.png",
+    "icons": [
+      "Mega Inferno Bomb.png",
+      "Mega Inferno Bomb Minimap.png"
+    ],
+    "levelings": [
+      "Magic Damage:»200 / 250 / 300 / 350 / 400 (+ 73.33% AP)«Increased Damage:300 / 375 / 450 / 525 / 600 (+ 110% AP)"
+    ],
+    "descriptions": [
+      "Active: Ziggs hurls a massive bomb at the target area, granting  sight within a 350 unit radius as it travels to its destination.",
+      "Upon reaching the location, it explodes, dealing magic damage to all enemies caught in the blast, increased by 50% in the epicenter."
+    ]
+  }
+]

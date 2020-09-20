@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Stone Skin",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Wukong gains 5 − 9 (based on level)  bonus armor and regenerates 0.5% of his maximum health per 5 seconds.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Stone Skin.png",
+    "icons": [
+      "Stone Skin.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Wukong gains 5 − 9 (based on level)  bonus armor and regenerates 0.5% of his maximum health per 5 seconds.",
+      "These effects are increased by 50% for 5 seconds whenever Wukong or his  clone damage an enemy  champion or  monster. Bonuses stack up to 10 times to a maximum of 30 − 54 (based on level) bonus armor and 3% maximum health regeneration."
+    ]
+  },
+  {
+    "name": "Crushing Blow",
+    "cost": [
+      40
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      9,
+      8,
+      8,
+      7,
+      7
+    ],
+    "description": "Active: Wukong and his  clone empower their staffs, causing their next basic attack within 5 seconds to become  unstoppable, gain  bonus range, deal bonus physical damage and  reduce the target's armor for 3 seconds.",
+    "leveling": "Bonus Range:75 / 100 / 125 / 150 / 175\nBonus Physical Damage:20 / 45 / 70 / 95 / 120 (+ 50% bonus AD)\nArmor Reduction:10 / 15 / 20 / 25 / 30% of target's armor",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      75,
+      100,
+      125,
+      150,
+      175
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Crushing Blow.png",
+    "icons": [
+      "Crushing Blow.png"
+    ],
+    "levelings": [
+      "Bonus Range:75 / 100 / 125 / 150 / 175\nBonus Physical Damage:20 / 45 / 70 / 95 / 120 (+ 50% bonus AD)\nArmor Reduction:10 / 15 / 20 / 25 / 30% of target's armor"
+    ],
+    "descriptions": [
+      "Active: Wukong and his  clone empower their staffs, causing their next basic attack within 5 seconds to become  unstoppable, gain  bonus range, deal bonus physical damage and  reduce the target's armor for 3 seconds.",
+      "Crushing Blow's  cooldown is reduced by 0.5 seconds whenever Wukong or his  clone damages an enemy.",
+      "Crushing Blow  resets Wukong and his  clone's basic attack timer.",
+      "Other abilities can be used during the attack's animation."
+    ]
+  },
+  {
+    "name": "Warrior Trickster",
+    "cost": [
+      80,
+      70,
+      60,
+      50,
+      40
+    ],
+    "costType": "mana",
+    "coolDown": [
+      20,
+      19,
+      18,
+      17,
+      16
+    ],
+    "description": "Active: Wukong  dashes in the target direction, though not through terrain, while entering  invisibility for 1 second and leaving behind a  decoy of himself for 3.25 seconds.",
+    "leveling": "Clone Damage:35 / 40 / 45 / 50 / 55%",
+    "skill": "W",
+    "damageType": "physical",
+    "isProjectile": "",
+    "flatDamage": [
+      35,
+      40,
+      45,
+      50,
+      55
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Warrior Trickster.png",
+    "icons": [
+      "Warrior Trickster.png"
+    ],
+    "levelings": [
+      "Clone Damage:35 / 40 / 45 / 50 / 55%"
+    ],
+    "descriptions": [
+      "Active: Wukong  dashes in the target direction, though not through terrain, while entering  invisibility for 1 second and leaving behind a  decoy of himself for 3.25 seconds.",
+      "The clone can basic attack autonomously, prioritizing the last enemy Wukong damaged. It can also gain  Crushing Blow,  Nimbus Strike's bonus attack speed, and  Cyclone.",
+      "The clone deals reduced outgoing damage.",
+      "Wukong can cast any of his abilities during Warrior Trickster's dash."
+    ]
+  },
+  {
+    "name": "Nimbus Strike",
+    "cost": [
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "costType": "mana",
+    "coolDown": [
+      10,
+      9,
+      9,
+      8,
+      8
+    ],
+    "description": "Active: Wukong  dashes on a cloud to the target enemy's location and sends out  untargetable clones to attack up to two additional enemies near the target's location, dealing magic damage to each enemy struck. The clones can block non-targeted attacks or abilities for 0.25 seconds after hitting their targets.",
+    "leveling": "Magic Damage:80 / 110 / 140 / 170 / 200 (+ 80% AP)",
+    "skill": "E",
+    "damageType": "magic",
+    "isProjectile": "false",
+    "flatDamage": [
+      80,
+      110,
+      140,
+      170,
+      200
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Nimbus Strike.png",
+    "icons": [
+      "Nimbus Strike.png"
+    ],
+    "levelings": [
+      "Magic Damage:80 / 110 / 140 / 170 / 200 (+ 80% AP)",
+      "Bonus Attack Speed:40 / 45 / 50 / 55 / 60%"
+    ],
+    "descriptions": [
+      "Active: Wukong  dashes on a cloud to the target enemy's location and sends out  untargetable clones to attack up to two additional enemies near the target's location, dealing magic damage to each enemy struck. The clones can block non-targeted attacks or abilities for 0.25 seconds after hitting their targets.",
+      "Upon hitting his target, Wukong and his  clone gain  bonus attack speed for 5 seconds.",
+      "Wukong cannot cast  Warrior Trickster nor  Cyclone while dashing, but he may still buffer them.  Crushing Blow can be used."
+    ]
+  },
+  {
+    "name": "Cyclone",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      120,
+      112,
+      105,
+      97,
+      90
+    ],
+    "description": "Active: Wukong and his  clone spin their staffs around for up to 2 seconds, becoming  ghosted and gaining  20% bonus movement speed. The spin deals physical damage to nearby enemies every 0.25 seconds. Enemies affected by an active Cyclone for the first time are  knocked up for 0.6 seconds. Cyclone can be canceled by casting another ability or recasting after 0.5 seconds. Cyclone can be reactivated within 8 seconds of the first cast after 1 second.",
+    "leveling": "Damage Per Tick:»1 / 1.25 / 1.5 / 1.75 / 2% of target's maximum health (+ 27.5% AD) «Total Damage:16 / 20 / 24 / 28 / 32% of target's maximum health (+ 440% AD)",
+    "skill": "R",
+    "damageType": "physical",
+    "isProjectile": "",
+    "flatDamage": [
+      1,
+      1.25,
+      1.5,
+      1.75,
+      2
+    ],
+    "ratios": [
+      {
+        "value": 27.5,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Cyclone.png",
+    "icons": [
+      "Cyclone.png",
+      "Cyclone 2.png"
+    ],
+    "levelings": [
+      "Damage Per Tick:»1 / 1.25 / 1.5 / 1.75 / 2% of target's maximum health (+ 27.5% AD) «Total Damage:16 / 20 / 24 / 28 / 32% of target's maximum health (+ 440% AD)"
+    ],
+    "descriptions": [
+      "Active: Wukong and his  clone spin their staffs around for up to 2 seconds, becoming  ghosted and gaining  20% bonus movement speed. The spin deals physical damage to nearby enemies every 0.25 seconds. Enemies affected by an active Cyclone for the first time are  knocked up for 0.6 seconds. Cyclone can be canceled by casting another ability or recasting after 0.5 seconds. Cyclone can be reactivated within 8 seconds of the first cast after 1 second.",
+      "Recast: Wukong and his  clone spin their staffs a second time, mimicking the first cast's effects. If recast while spinning, Wukong stops spinning early instead; Wukong can still spin a second time after stopping his first spin early, and can end his second spin early as well.",
+      "The clone's Cyclone will not  knock up enemies who were already hit by Wukong's active Cyclone.",
+      " Nimbus Strike's bonus attack speed duration is continuously refreshed while spinning.",
+      "Cyclone's damage is capped at 200 / 400 / 600 (based on level) per second against  monsters."
+    ]
+  }
+]

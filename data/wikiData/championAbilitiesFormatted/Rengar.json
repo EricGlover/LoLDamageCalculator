@@ -1,0 +1,224 @@
+[
+  {
+    "name": "Unseen Predator",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Rengar generates 1 Ferocity whenever he casts a basic ability. Reaching 4 Ferocity makes his next basic ability empowered, granting an additional cast along with 30 / 40 / 50% (based on level)  bonus movement speed for 1.5 seconds at the cost of all Ferocity. Reaching 4 Ferocity with  Savagery or  Bola Strike locks its empowered version from use for 0.1 seconds before and after casting it. All Ferocity is lost after being out of combat for 8 seconds.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Unseen Predator.png",
+    "icons": [
+      "Unseen Predator.png",
+      "Bonetooth Necklace.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Rengar generates 1 Ferocity whenever he casts a basic ability. Reaching 4 Ferocity makes his next basic ability empowered, granting an additional cast along with 30 / 40 / 50% (based on level)  bonus movement speed for 1.5 seconds at the cost of all Ferocity. Reaching 4 Ferocity with  Savagery or  Bola Strike locks its empowered version from use for 0.1 seconds before and after casting it. All Ferocity is lost after being out of combat for 8 seconds.",
+      "While in  brush, Rengar's basic attacks have massively increased range and cause him to  leap to his target's location, attacking the target upon arrival and landing closer than his normal  melee range. This effect lingers for 0.25 seconds upon exiting brush but is lost immediately if Rengar casts  Flash or  Hexflash to do so. Leaping with 0 Ferocity generates 1 Ferocity.",
+      "Innate - Bonetooth Necklace:  Takedowns within 1.5 seconds of being damaged by Rengar grant him a Trophy per unique enemy champion, up to 5. An  additional one is made available through the event The Hunt is On!. Trophies grant 1% − 36% (based on  trophies) bonus AD as  bonus attack damage."
+    ]
+  },
+  {
+    "name": "Savagery",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      6,
+      5,
+      5,
+      4,
+      4
+    ],
+    "description": "Active: Rengar's next two basic attacks within 3 seconds gain  40% bonus attack speed, with the first also becoming  unstoppable, gaining  25 bonus range and dealing bonus physical damage.",
+    "leveling": "Bonus Physical Damage:30 / 60 / 90 / 120 / 150 (+ 0 / 5 / 10 / 15 / 20% AD)",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      30,
+      60,
+      90,
+      120,
+      150
+    ],
+    "ratios": [
+      {
+        "value": 0,
+        "type": "bonus ad"
+      },
+      {
+        "value": 5,
+        "type": "bonus ad"
+      },
+      {
+        "value": 10,
+        "type": "bonus ad"
+      },
+      {
+        "value": 15,
+        "type": "bonus ad"
+      },
+      {
+        "value": 20,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Savagery.png",
+    "icons": [
+      "Savagery.png",
+      "Savagery 2.png"
+    ],
+    "levelings": [
+      "Bonus Physical Damage:30 / 60 / 90 / 120 / 150 (+ 0 / 5 / 10 / 15 / 20% AD)",
+      "Empowered Bonus Physical Damage:30 − 240 (based on level) (+ 40% AD)"
+    ],
+    "descriptions": [
+      "Active: Rengar's next two basic attacks within 3 seconds gain  40% bonus attack speed, with the first also becoming  unstoppable, gaining  25 bonus range and dealing bonus physical damage.",
+      "Empowered Active: Savagery's bonus physical damage is modified and grants Rengar 50% − 101% (based on level)  bonus attack speed for 5 seconds.",
+      "Savagery  resets Rengar's basic attack timer."
+    ]
+  },
+  {
+    "name": "Battle Roar",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      16,
+      14,
+      13,
+      11,
+      10
+    ],
+    "description": "Active: Rengar lets out a battle roar, dealing magic damage to nearby enemies and  healing himself for 50% of the damage he's taken in the last 1.5 seconds. This is increased to 75% of damage taken versus  monsters.",
+    "leveling": "Magic Damage:50 / 80 / 110 / 140 / 170 (+ 80% AP)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      50,
+      80,
+      110,
+      140,
+      170
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Battle Roar.png",
+    "icons": [
+      "Battle Roar.png",
+      "Battle Roar 2.png"
+    ],
+    "levelings": [
+      "Magic Damage:50 / 80 / 110 / 140 / 170 (+ 80% AP)",
+      "Empowered Magic Damage:50 − 220 (based on level) (+ 80% AP)"
+    ],
+    "descriptions": [
+      "Active: Rengar lets out a battle roar, dealing magic damage to nearby enemies and  healing himself for 50% of the damage he's taken in the last 1.5 seconds. This is increased to 75% of damage taken versus  monsters.",
+      "Empowered Active: Battle Roar's magic damage is modified and additionally  cleanses Rengar of all  crowd control."
+    ]
+  },
+  {
+    "name": "Bola Strike",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      10
+    ],
+    "description": "Active: Rengar throws a bola in the target direction, dealing physical damage to the first enemy hit and  slowing them for 1.75 seconds.",
+    "leveling": "Physical Damage:55 / 100 / 145 / 190 / 235 (+ 80% bonus AD)Slow:30 / 45 / 60 / 75 / 90%",
+    "skill": "E",
+    "damageType": "Physical",
+    "isProjectile": "True",
+    "flatDamage": [
+      55,
+      100,
+      145,
+      190,
+      235
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Bola Strike.png",
+    "icons": [
+      "Bola Strike.png",
+      "Bola Strike 2.png"
+    ],
+    "levelings": [
+      "Physical Damage:55 / 100 / 145 / 190 / 235 (+ 80% bonus AD)Slow:30 / 45 / 60 / 75 / 90%",
+      "Empowered Physical Damage:50 − 305 (based on level) (+ 80% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Rengar throws a bola in the target direction, dealing physical damage to the first enemy hit and  slowing them for 1.75 seconds.",
+      "Empowered Active: Bola Strike's physical damage is modified and  roots its target for 1.75 seconds."
+    ]
+  },
+  {
+    "name": "Thrill of the Hunt",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      110,
+      90,
+      70
+    ],
+    "description": "Active: Rengar activates his predatory instincts,  revealing the nearest enemy champion and gaining  bonus movement speed for a duration.",
+    "leveling": "Duration:12 / 16 / 20\nBonus Movement Speed:40 / 50 / 60%",
+    "skill": "R",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      12,
+      16,
+      20,
+      40,
+      50
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Thrill of the Hunt.png",
+    "icons": [
+      "Thrill of the Hunt.png",
+      "Thrill of the Hunt 2.png"
+    ],
+    "levelings": [
+      "Duration:12 / 16 / 20\nBonus Movement Speed:40 / 50 / 60%",
+      "Armor Reduction:12 / 18 / 24"
+    ],
+    "descriptions": [
+      "Active: Rengar activates his predatory instincts,  revealing the nearest enemy champion and gaining  bonus movement speed for a duration.",
+      "After 2 seconds, he also becomes  camouflaged and gains  Unseen Predator for the remaining duration. His next basic attack within normal attack range against any enemy unit or with Unseen Predator against the nearest enemy champion deals 50% AD bonus physical damage and  reduces the target's armor for 4 seconds.",
+      "The nearest enemy champion to Rengar alerts all of their allies within 1200 range about his presence, and they can sense him at 1600 range.",
+      "Attacking or casting abilities, though not  Savagery, ends Thrill of the Hunt immediately.",
+      "Enemy champions spotted by Thrill of the Hunt stay  revealed within Rengar's reveal range while the stealth persists."
+    ]
+  }
+]

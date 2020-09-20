@@ -1,5 +1,5 @@
 const fs = require('fs');
-const Champion = require('./Champion.js');
+const Champion = require('./backend/Entities/Champion.js');
 class Item {}
 
 async function findAllPartypes() {

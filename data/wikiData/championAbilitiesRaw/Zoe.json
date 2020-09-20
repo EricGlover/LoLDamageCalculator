@@ -1,0 +1,1307 @@
+[
+  {
+    "1": {
+      "value": "More Sparkles!",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from More Sparkles!."
+    },
+    "champion": {
+      "value": "Zoe",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "I",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "More Sparkles!.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Zoe's next basic attack after casting a spell deals bonus magic damage.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Innate: After casting an ability, Zoe's next basic attack or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Spell_Thief.png/revision/latest/scale-to-width-down/20?cb=20171221181743\" \t alt=\"Spell Thief\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spell_Thief.png\" \tdata-image-name=\"Spell Thief.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell Thief bubble within 5 seconds becomes a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Projectile.png/revision/latest/scale-to-width-down/20?cb=20150816082407\" \t alt=\"Projectile\"  \tclass=\"\" \t \tdata-image-key=\"Projectile.png\" \tdata-image-name=\"Projectile.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> non-projectile and deals 16 − 130 (based on level) (+ 20% AP) bonus magic damage.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Passive",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Proc",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "False",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "False",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* No additional details.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "Zoe - Passive",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Paddle Star",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Paddle Star."
+    },
+    "champion": {
+      "value": "Zoe",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "Q",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "800",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "1200",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "50 / 55 / 60 / 65 / 70",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "8.5 / 8 / 7.5 / 7 / 6.5",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Paddle Star.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Zoe fires a missile that she can redirect in flight, which deals more damage the longer it flies in a straight line.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Zoe shoots a star in the target direction that collides with the first enemy hit, dealing magic damage in a small area, reduced to 80% to enemies hit beyond the first. The total damage is increased by 0% − 150% (based on distance traveled).",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Minimum Magic Damage:»7 − 50 (based on level) (+ 50 / 80 / 110 / 140 / 170) (+ 60% AP)«Maximum Magic Damage:17.5 − 125 (based on level) (+ 125 / 200 / 275 / 350 / 425) (+ 150% AP)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "If the star does not hit an enemy, it lingers at maximum range for 1 second, allowing Paddle Star to be recast after 0.25 seconds in the duration.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "Paddle Star 2.png",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Recast: Zoe redirects the star to a new location near her, resetting its damage modifier on cast. The redirected star can travel beyond the new target location, continuing forward until it moves more than 800 units from Zoe.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "Paddle Star's recast can be used while affected by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crowd control.",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Area of effect",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "True",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "*Both casts count as ability activations for the purposes of on-cast effects such as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/aa/More_Sparkles%21.png/revision/latest/scale-to-width-down/20?cb=20171221053100\" \t alt=\"More Sparkles!\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"More_Sparkles%21.png\" \tdata-image-name=\"More Sparkles!.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> More Sparkles!, Spellblade, charging <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder, and stacking <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Force_Pulse.png/revision/latest/scale-to-width-down/20?cb=20170818190412\" \t alt=\"Force Pulse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Force_Pulse.png\" \tdata-image-name=\"Force Pulse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Force Pulse.\n The recast radius matches the initial cast radius of the ability, but Zoe can move any amount of distance away from the projectile before reactivating.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "Zoe - Q",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Spell Thief",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Spell Thief."
+    },
+    "champion": {
+      "value": "Zoe",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "W",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "2200 / Global / 550",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "No cost",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "0.25",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Spell Thief.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Zoe can pick up the remnants of enemy summoner spell and active item casts and cast them once herself. Whenever she casts a summoner spell, she gains 3 missiles that fire at the nearest target.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Passive - Spell Thief: Whenever enemy champions cast a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8e/Summoner_spell_icon.png/revision/latest/scale-to-width-down/20?cb=20181118191801\" \t alt=\"Summoner spell icon\"  \tclass=\"\" \t \tdata-image-key=\"Summoner_spell_icon.png\" \tdata-image-name=\"Summoner spell icon.png\" \t \t width=\"20\"  \t height=\"11\"  \t \t \t \t> summoner spell or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a4/Active_ability_item_icon.png/revision/latest/scale-to-width-down/20?cb=20181123012001\" \t alt=\"Active ability item icon\"  \tclass=\"\" \t \tdata-image-key=\"Active_ability_item_icon.png\" \tdata-image-name=\"Active ability item icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> item active, they drop the corresponding <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6a/Spell_Thief_Minimap.png/revision/latest?cb=20181123010411\" \t alt=\"Spell Thief Minimap\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Thief_Minimap.png\" \tdata-image-name=\"Spell Thief Minimap.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell Shard onto the ground that grants <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight over a 100-radius area and remains for 40 seconds. Some enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions spawn with random Spell Shards that only drop to the ground for 20 seconds if killed by Zoe.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Collecting a Spell Shard allows Zoe to activate Spell Thief within the next 60 seconds. She can replace her current Spell Thief active by moving directly onto another Spell Shard.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Active: Zoe mimics the active of the collected Spell Shard.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "Passive - Wheeeee: Casting Spell Thief or one of her own summoner spells grants Zoe <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed for the next few seconds, and summons three bubbles that orbit her for the next 10 seconds.",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "Bonus Movement Speed:30 / 40 / 50 / 60 / 70%Bonus Movement Speed Duration:2 / 2.25 / 2.5 / 2.75 / 3",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "If Zoe is not <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> immobilized she hurls one bubble at a time at the nearest enemy in range, prioritizing her attack target, dealing magic damage.",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "Magic Damage Per Orb:»25 / 35 / 45 / 55 / 65 (+ 13.3% AP)«Total Magic Damage:75 / 105 / 135 / 165 / 195 (+ 40% AP)",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Varied",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Varied",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Varied",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Special",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "Special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "Special",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Mimics the details of the mimicked active.\n Minions that can drop Spell Shards are marked with a tied cosmic balloon that floats above them.\n Minions do not drop a shard for <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Hextech_Gunblade_item.png/revision/latest/scale-to-width-down/20?cb=20171221185631\" \t alt=\"Hextech Gunblade item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hextech_Gunblade_item.png\" \tdata-image-name=\"Hextech Gunblade item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hextech Gunblade or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport.\n\n Zoe utilizes an attack-like animation whenever one of the bubbles hurls itself at an enemy, making it look as if she can attack while moving.\n Zoe cannot steal consumables, trinkets, component items, or items that create deployable or persistent effects. Some actives are excluded for balance purposes. The following list was last checked November 8th[2]:\n\n\n\n Item\n Stealable\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/44/Bilgewater_Cutlass_item.png/revision/latest/scale-to-width-down/20?cb=20171221062812\" \t alt=\"Bilgewater Cutlass item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Bilgewater_Cutlass_item.png\" \tdata-image-name=\"Bilgewater Cutlass item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bilgewater Cutlass  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Not_done.svg/revision/latest/scale-to-width-down/10?cb=20090927010725\" \t alt=\"Not done\"  \tclass=\"\" \t \tdata-image-key=\"Not_done.svg\" \tdata-image-name=\"Not done.svg\" \t \t width=\"10\"  \t height=\"11\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d3/Black_Mist_Scythe_item.png/revision/latest/scale-to-width-down/20?cb=20191115214139\" \t alt=\"Black Mist Scythe item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Black_Mist_Scythe_item.png\" \tdata-image-name=\"Black Mist Scythe item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Black Mist Scythe  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2f/Blade_of_the_Ruined_King_item.png/revision/latest/scale-to-width-down/20?cb=20171221055759\" \t alt=\"Blade of the Ruined King item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blade_of_the_Ruined_King_item.png\" \tdata-image-name=\"Blade of the Ruined King item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Blade of the Ruined King  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1a/Bulwark_of_the_Mountain_item.png/revision/latest/scale-to-width-down/20?cb=20191115214229\" \t alt=\"Bulwark of the Mountain item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Bulwark_of_the_Mountain_item.png\" \tdata-image-name=\"Bulwark of the Mountain item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bulwark of the Mountain  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Farsight_Alteration_item.png/revision/latest/scale-to-width-down/20?cb=20171221180827\" \t alt=\"Farsight Alteration item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Farsight_Alteration_item.png\" \tdata-image-name=\"Farsight Alteration item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Farsight Alteration  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Frostfang_item.png/revision/latest/scale-to-width-down/20?cb=20191119104459\" \t alt=\"Frostfang item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Frostfang_item.png\" \tdata-image-name=\"Frostfang item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Frostfang  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Gargoyle_Stoneplate_item.png/revision/latest/scale-to-width-down/20?cb=20171221183200\" \t alt=\"Gargoyle Stoneplate item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gargoyle_Stoneplate_item.png\" \tdata-image-name=\"Gargoyle Stoneplate item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gargoyle Stoneplate  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9e/Circle.svg/revision/latest/scale-to-width-down/10?cb=20100903040204\" \t alt=\"Circle\"  \tclass=\"\" \t \tdata-image-key=\"Circle.svg\" \tdata-image-name=\"Circle.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d0/Harrowing_Crescent_item.png/revision/latest/scale-to-width-down/20?cb=20191115214323\" \t alt=\"Harrowing Crescent item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Harrowing_Crescent_item.png\" \tdata-image-name=\"Harrowing Crescent item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Harrowing Crescent  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c9/Hextech_GLP-800_item.png/revision/latest/scale-to-width-down/20?cb=20171221224454\" \t alt=\"Hextech GLP-800 item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hextech_GLP-800_item.png\" \tdata-image-name=\"Hextech GLP-800 item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hextech GLP-800  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Hextech_Gunblade_item.png/revision/latest/scale-to-width-down/20?cb=20171221185631\" \t alt=\"Hextech Gunblade item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hextech_Gunblade_item.png\" \tdata-image-name=\"Hextech Gunblade item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hextech Gunblade  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Hextech_Protobelt-01_item.png/revision/latest/scale-to-width-down/20?cb=20171221185647\" \t alt=\"Hextech Protobelt-01 item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hextech_Protobelt-01_item.png\" \tdata-image-name=\"Hextech Protobelt-01 item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hextech Protobelt-01  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/fb/Knight%27s_Vow_item.png/revision/latest/scale-to-width-down/20?cb=20171221222310\" \t alt=\"Knight&amp;#039;s Vow item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Knight%27s_Vow_item.png\" \tdata-image-name=\"Knight&#39;s Vow item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Knight's Vow  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/56/Locket_of_the_Iron_Solari_item.png/revision/latest/scale-to-width-down/20?cb=20171221222514\" \t alt=\"Locket of the Iron Solari item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Locket_of_the_Iron_Solari_item.png\" \tdata-image-name=\"Locket of the Iron Solari item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Locket of the Iron Solari  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0a/Mercurial_Scimitar_item.png/revision/latest/scale-to-width-down/20?cb=20130710102449\" \t alt=\"Mercurial Scimitar item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mercurial_Scimitar_item.png\" \tdata-image-name=\"Mercurial Scimitar item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mercurial Scimitar  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Not_done.svg/revision/latest/scale-to-width-down/10?cb=20090927010725\" \t alt=\"Not done\"  \tclass=\"\" \t \tdata-image-key=\"Not_done.svg\" \tdata-image-name=\"Not done.svg\" \t \t width=\"10\"  \t height=\"11\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/de/Mikael%27s_Crucible_item.png/revision/latest/scale-to-width-down/20?cb=20171221223616\" \t alt=\"Mikael&amp;#039;s Crucible item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mikael%27s_Crucible_item.png\" \tdata-image-name=\"Mikael&#39;s Crucible item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mikael's Crucible  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Not_done.svg/revision/latest/scale-to-width-down/10?cb=20090927010725\" \t alt=\"Not done\"  \tclass=\"\" \t \tdata-image-key=\"Not_done.svg\" \tdata-image-name=\"Not done.svg\" \t \t width=\"10\"  \t height=\"11\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Oracle_Lens_item.png/revision/latest/scale-to-width-down/20?cb=20180418072211\" \t alt=\"Oracle Lens item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Oracle_Lens_item.png\" \tdata-image-name=\"Oracle Lens item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Oracle Lens  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Pauldrons_of_Whiterock_item.png/revision/latest/scale-to-width-down/20?cb=20191115214409\" \t alt=\"Pauldrons of Whiterock item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Pauldrons_of_Whiterock_item.png\" \tdata-image-name=\"Pauldrons of Whiterock item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Pauldrons of Whiterock  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>\n\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/29/Predator_rune.png/revision/latest/scale-to-width-down/20?cb=20171126181955\" \t alt=\"Predator rune\"  \tclass=\"\" \t \tdata-image-key=\"Predator_rune.png\" \tdata-image-name=\"Predator rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Predator Boots  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f9/Quicksilver_Sash_item.png/revision/latest/scale-to-width-down/20?cb=20171221225953\" \t alt=\"Quicksilver Sash item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Quicksilver_Sash_item.png\" \tdata-image-name=\"Quicksilver Sash item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Quicksilver Sash  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Not_done.svg/revision/latest/scale-to-width-down/10?cb=20090927010725\" \t alt=\"Not done\"  \tclass=\"\" \t \tdata-image-key=\"Not_done.svg\" \tdata-image-name=\"Not done.svg\" \t \t width=\"10\"  \t height=\"11\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/08/Randuin%27s_Omen_item.png/revision/latest/scale-to-width-down/20?cb=20171221230256\" \t alt=\"Randuin&amp;#039;s Omen item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Randuin%27s_Omen_item.png\" \tdata-image-name=\"Randuin&#39;s Omen item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Randuin's Omen  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Ravenous_Hydra_item.png/revision/latest/scale-to-width-down/20?cb=20171221230725\" \t alt=\"Ravenous Hydra item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ravenous_Hydra_item.png\" \tdata-image-name=\"Ravenous Hydra item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ravenous Hydra  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/94/Redemption_item.png/revision/latest/scale-to-width-down/20?cb=20171221230755\" \t alt=\"Redemption item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Redemption_item.png\" \tdata-image-name=\"Redemption item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Redemption  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Righteous_Glory_item.png/revision/latest/scale-to-width-down/20?cb=20171221231127\" \t alt=\"Righteous Glory item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Righteous_Glory_item.png\" \tdata-image-name=\"Righteous Glory item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Righteous Glory  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1f/Runesteel_Spaulders_item.png/revision/latest/scale-to-width-down/20?cb=20191115214430\" \t alt=\"Runesteel Spaulders item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Runesteel_Spaulders_item.png\" \tdata-image-name=\"Runesteel Spaulders item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Runesteel Spaulders  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b9/Seraph%27s_Embrace_item.png/revision/latest/scale-to-width-down/20?cb=20171221232010\" \t alt=\"Seraph&amp;#039;s Embrace item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Seraph%27s_Embrace_item.png\" \tdata-image-name=\"Seraph&#39;s Embrace item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Seraph's Embrace  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9e/Circle.svg/revision/latest/scale-to-width-down/10?cb=20100903040204\" \t alt=\"Circle\"  \tclass=\"\" \t \tdata-image-key=\"Circle.svg\" \tdata-image-name=\"Circle.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/88/Shard_of_True_Ice_item.png/revision/latest/scale-to-width-down/20?cb=20191115214513\" \t alt=\"Shard of True Ice item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shard_of_True_Ice_item.png\" \tdata-image-name=\"Shard of True Ice item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shard of True Ice  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/00/Shurelya%27s_Reverie_item.png/revision/latest/scale-to-width-down/20?cb=20180511220011\" \t alt=\"Shurelya&amp;#039;s Reverie item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shurelya%27s_Reverie_item.png\" \tdata-image-name=\"Shurelya&#39;s Reverie item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shurelya's Reverie  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9e/Circle.svg/revision/latest/scale-to-width-down/10?cb=20100903040204\" \t alt=\"Circle\"  \tclass=\"\" \t \tdata-image-key=\"Circle.svg\" \tdata-image-name=\"Circle.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9e/Circle.svg/revision/latest/scale-to-width-down/10?cb=20100903040204\" \t alt=\"Circle\"  \tclass=\"\" \t \tdata-image-key=\"Circle.svg\" \tdata-image-name=\"Circle.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e6/Stopwatch_item.png/revision/latest/scale-to-width-down/20?cb=20180123082932\" \t alt=\"Stopwatch item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Stopwatch_item.png\" \tdata-image-name=\"Stopwatch item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Stopwatch  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Not_done.svg/revision/latest/scale-to-width-down/10?cb=20090927010725\" \t alt=\"Not done\"  \tclass=\"\" \t \tdata-image-key=\"Not_done.svg\" \tdata-image-name=\"Not done.svg\" \t \t width=\"10\"  \t height=\"11\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/58/Targon%27s_Buckler_item.png/revision/latest/scale-to-width-down/20?cb=20191115214607\" \t alt=\"Targon&amp;#039;s Buckler item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Targon%27s_Buckler_item.png\" \tdata-image-name=\"Targon&#39;s Buckler item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Targon's Buckler  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e3/Tiamat_item.png/revision/latest/scale-to-width-down/20?cb=20171222000401\" \t alt=\"Tiamat item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tiamat_item.png\" \tdata-image-name=\"Tiamat item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tiamat  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/22/Titanic_Hydra_item.png/revision/latest/scale-to-width-down/20?cb=20171222000417\" \t alt=\"Titanic Hydra item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Titanic_Hydra_item.png\" \tdata-image-name=\"Titanic Hydra item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Titanic Hydra  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4b/Twin_Shadows_item.png/revision/latest/scale-to-width-down/20?cb=20130710102449\" \t alt=\"Twin Shadows item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Twin_Shadows_item.png\" \tdata-image-name=\"Twin Shadows item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Twin Shadows  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Warding_Totem_item.png/revision/latest/scale-to-width-down/20?cb=20171222001934\" \t alt=\"Warding Totem item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Warding_Totem_item.png\" \tdata-image-name=\"Warding Totem item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Warding Totem  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Youmuu%27s_Ghostblade_item.png/revision/latest/scale-to-width-down/20?cb=20171222002403\" \t alt=\"Youmuu&amp;#039;s Ghostblade item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Youmuu%27s_Ghostblade_item.png\" \tdata-image-name=\"Youmuu&#39;s Ghostblade item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Youmuu's Ghostblade  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1a/Zeke%27s_Convergence_item.png/revision/latest/scale-to-width-down/20?cb=20171222002713\" \t alt=\"Zeke&amp;#039;s Convergence item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zeke%27s_Convergence_item.png\" \tdata-image-name=\"Zeke&#39;s Convergence item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Zeke's Convergence  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>\n\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b5/Zhonya%27s_Hourglass_item.png/revision/latest/scale-to-width-down/20?cb=20171222002747\" \t alt=\"Zhonya&amp;#039;s Hourglass item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zhonya%27s_Hourglass_item.png\" \tdata-image-name=\"Zhonya&#39;s Hourglass item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Zhonya's Hourglass  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>\n\n\n\n Key\n\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>\n Can be stolen.\n\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Not_done.svg/revision/latest/scale-to-width-down/10?cb=20090927010725\" \t alt=\"Not done\"  \tclass=\"\" \t \tdata-image-key=\"Not_done.svg\" \tdata-image-name=\"Not done.svg\" \t \t width=\"10\"  \t height=\"11\"  \t \t \t \t>\n Cannot be stolen.\n\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>\n Not applicable to be stolen.\n\n\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9e/Circle.svg/revision/latest/scale-to-width-down/10?cb=20100903040204\" \t alt=\"Circle\"  \tclass=\"\" \t \tdata-image-key=\"Circle.svg\" \tdata-image-name=\"Circle.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>\n Untested",
+      "description": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/44/Bilgewater_Cutlass_item.png/revision/latest/scale-to-width-down/20?cb=20171221062812\" \t alt=\"Bilgewater Cutlass item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Bilgewater_Cutlass_item.png\" \tdata-image-name=\"Bilgewater Cutlass item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bilgewater Cutlass"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/44/Bilgewater_Cutlass_item.png/revision/latest/scale-to-width-down/20?cb=20171221062812\" \t alt=\"Bilgewater Cutlass item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Bilgewater_Cutlass_item.png\" \tdata-image-name=\"Bilgewater Cutlass item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bilgewater Cutlass": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Not_done.svg/revision/latest/scale-to-width-down/10?cb=20090927010725\" \t alt=\"Not done\"  \tclass=\"\" \t \tdata-image-key=\"Not_done.svg\" \tdata-image-name=\"Not done.svg\" \t \t width=\"10\"  \t height=\"11\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d3/Black_Mist_Scythe_item.png/revision/latest/scale-to-width-down/20?cb=20191115214139\" \t alt=\"Black Mist Scythe item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Black_Mist_Scythe_item.png\" \tdata-image-name=\"Black Mist Scythe item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Black Mist Scythe": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2f/Blade_of_the_Ruined_King_item.png/revision/latest/scale-to-width-down/20?cb=20171221055759\" \t alt=\"Blade of the Ruined King item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blade_of_the_Ruined_King_item.png\" \tdata-image-name=\"Blade of the Ruined King item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Blade of the Ruined King": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1a/Bulwark_of_the_Mountain_item.png/revision/latest/scale-to-width-down/20?cb=20191115214229\" \t alt=\"Bulwark of the Mountain item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Bulwark_of_the_Mountain_item.png\" \tdata-image-name=\"Bulwark of the Mountain item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bulwark of the Mountain": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Farsight_Alteration_item.png/revision/latest/scale-to-width-down/20?cb=20171221180827\" \t alt=\"Farsight Alteration item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Farsight_Alteration_item.png\" \tdata-image-name=\"Farsight Alteration item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Farsight Alteration": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Frostfang_item.png/revision/latest/scale-to-width-down/20?cb=20191119104459\" \t alt=\"Frostfang item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Frostfang_item.png\" \tdata-image-name=\"Frostfang item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Frostfang": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Gargoyle_Stoneplate_item.png/revision/latest/scale-to-width-down/20?cb=20171221183200\" \t alt=\"Gargoyle Stoneplate item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gargoyle_Stoneplate_item.png\" \tdata-image-name=\"Gargoyle Stoneplate item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gargoyle Stoneplate": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9e/Circle.svg/revision/latest/scale-to-width-down/10?cb=20100903040204\" \t alt=\"Circle\"  \tclass=\"\" \t \tdata-image-key=\"Circle.svg\" \tdata-image-name=\"Circle.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d0/Harrowing_Crescent_item.png/revision/latest/scale-to-width-down/20?cb=20191115214323\" \t alt=\"Harrowing Crescent item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Harrowing_Crescent_item.png\" \tdata-image-name=\"Harrowing Crescent item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Harrowing Crescent": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c9/Hextech_GLP-800_item.png/revision/latest/scale-to-width-down/20?cb=20171221224454\" \t alt=\"Hextech GLP-800 item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hextech_GLP-800_item.png\" \tdata-image-name=\"Hextech GLP-800 item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hextech GLP-800": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Hextech_Gunblade_item.png/revision/latest/scale-to-width-down/20?cb=20171221185631\" \t alt=\"Hextech Gunblade item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hextech_Gunblade_item.png\" \tdata-image-name=\"Hextech Gunblade item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hextech Gunblade": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Hextech_Protobelt-01_item.png/revision/latest/scale-to-width-down/20?cb=20171221185647\" \t alt=\"Hextech Protobelt-01 item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hextech_Protobelt-01_item.png\" \tdata-image-name=\"Hextech Protobelt-01 item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hextech Protobelt-01": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/fb/Knight%27s_Vow_item.png/revision/latest/scale-to-width-down/20?cb=20171221222310\" \t alt=\"Knight&amp;#039;s Vow item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Knight%27s_Vow_item.png\" \tdata-image-name=\"Knight&#39;s Vow item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Knight's Vow": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/56/Locket_of_the_Iron_Solari_item.png/revision/latest/scale-to-width-down/20?cb=20171221222514\" \t alt=\"Locket of the Iron Solari item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Locket_of_the_Iron_Solari_item.png\" \tdata-image-name=\"Locket of the Iron Solari item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Locket of the Iron Solari": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0a/Mercurial_Scimitar_item.png/revision/latest/scale-to-width-down/20?cb=20130710102449\" \t alt=\"Mercurial Scimitar item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mercurial_Scimitar_item.png\" \tdata-image-name=\"Mercurial Scimitar item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mercurial Scimitar": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Not_done.svg/revision/latest/scale-to-width-down/10?cb=20090927010725\" \t alt=\"Not done\"  \tclass=\"\" \t \tdata-image-key=\"Not_done.svg\" \tdata-image-name=\"Not done.svg\" \t \t width=\"10\"  \t height=\"11\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/de/Mikael%27s_Crucible_item.png/revision/latest/scale-to-width-down/20?cb=20171221223616\" \t alt=\"Mikael&amp;#039;s Crucible item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mikael%27s_Crucible_item.png\" \tdata-image-name=\"Mikael&#39;s Crucible item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mikael's Crucible": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Not_done.svg/revision/latest/scale-to-width-down/10?cb=20090927010725\" \t alt=\"Not done\"  \tclass=\"\" \t \tdata-image-key=\"Not_done.svg\" \tdata-image-name=\"Not done.svg\" \t \t width=\"10\"  \t height=\"11\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Oracle_Lens_item.png/revision/latest/scale-to-width-down/20?cb=20180418072211\" \t alt=\"Oracle Lens item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Oracle_Lens_item.png\" \tdata-image-name=\"Oracle Lens item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Oracle Lens": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Pauldrons_of_Whiterock_item.png/revision/latest/scale-to-width-down/20?cb=20191115214409\" \t alt=\"Pauldrons of Whiterock item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Pauldrons_of_Whiterock_item.png\" \tdata-image-name=\"Pauldrons of Whiterock item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Pauldrons of Whiterock": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/29/Predator_rune.png/revision/latest/scale-to-width-down/20?cb=20171126181955\" \t alt=\"Predator rune\"  \tclass=\"\" \t \tdata-image-key=\"Predator_rune.png\" \tdata-image-name=\"Predator rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Predator Boots": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f9/Quicksilver_Sash_item.png/revision/latest/scale-to-width-down/20?cb=20171221225953\" \t alt=\"Quicksilver Sash item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Quicksilver_Sash_item.png\" \tdata-image-name=\"Quicksilver Sash item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Quicksilver Sash": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Not_done.svg/revision/latest/scale-to-width-down/10?cb=20090927010725\" \t alt=\"Not done\"  \tclass=\"\" \t \tdata-image-key=\"Not_done.svg\" \tdata-image-name=\"Not done.svg\" \t \t width=\"10\"  \t height=\"11\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/08/Randuin%27s_Omen_item.png/revision/latest/scale-to-width-down/20?cb=20171221230256\" \t alt=\"Randuin&amp;#039;s Omen item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Randuin%27s_Omen_item.png\" \tdata-image-name=\"Randuin&#39;s Omen item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Randuin's Omen": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Ravenous_Hydra_item.png/revision/latest/scale-to-width-down/20?cb=20171221230725\" \t alt=\"Ravenous Hydra item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ravenous_Hydra_item.png\" \tdata-image-name=\"Ravenous Hydra item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ravenous Hydra": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/94/Redemption_item.png/revision/latest/scale-to-width-down/20?cb=20171221230755\" \t alt=\"Redemption item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Redemption_item.png\" \tdata-image-name=\"Redemption item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Redemption": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Righteous_Glory_item.png/revision/latest/scale-to-width-down/20?cb=20171221231127\" \t alt=\"Righteous Glory item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Righteous_Glory_item.png\" \tdata-image-name=\"Righteous Glory item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Righteous Glory": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1f/Runesteel_Spaulders_item.png/revision/latest/scale-to-width-down/20?cb=20191115214430\" \t alt=\"Runesteel Spaulders item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Runesteel_Spaulders_item.png\" \tdata-image-name=\"Runesteel Spaulders item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Runesteel Spaulders": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b9/Seraph%27s_Embrace_item.png/revision/latest/scale-to-width-down/20?cb=20171221232010\" \t alt=\"Seraph&amp;#039;s Embrace item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Seraph%27s_Embrace_item.png\" \tdata-image-name=\"Seraph&#39;s Embrace item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Seraph's Embrace": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9e/Circle.svg/revision/latest/scale-to-width-down/10?cb=20100903040204\" \t alt=\"Circle\"  \tclass=\"\" \t \tdata-image-key=\"Circle.svg\" \tdata-image-name=\"Circle.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/88/Shard_of_True_Ice_item.png/revision/latest/scale-to-width-down/20?cb=20191115214513\" \t alt=\"Shard of True Ice item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shard_of_True_Ice_item.png\" \tdata-image-name=\"Shard of True Ice item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shard of True Ice": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/00/Shurelya%27s_Reverie_item.png/revision/latest/scale-to-width-down/20?cb=20180511220011\" \t alt=\"Shurelya&amp;#039;s Reverie item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shurelya%27s_Reverie_item.png\" \tdata-image-name=\"Shurelya&#39;s Reverie item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shurelya's Reverie": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9e/Circle.svg/revision/latest/scale-to-width-down/10?cb=20100903040204\" \t alt=\"Circle\"  \tclass=\"\" \t \tdata-image-key=\"Circle.svg\" \tdata-image-name=\"Circle.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9e/Circle.svg/revision/latest/scale-to-width-down/10?cb=20100903040204\" \t alt=\"Circle\"  \tclass=\"\" \t \tdata-image-key=\"Circle.svg\" \tdata-image-name=\"Circle.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e6/Stopwatch_item.png/revision/latest/scale-to-width-down/20?cb=20180123082932\" \t alt=\"Stopwatch item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Stopwatch_item.png\" \tdata-image-name=\"Stopwatch item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Stopwatch": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Not_done.svg/revision/latest/scale-to-width-down/10?cb=20090927010725\" \t alt=\"Not done\"  \tclass=\"\" \t \tdata-image-key=\"Not_done.svg\" \tdata-image-name=\"Not done.svg\" \t \t width=\"10\"  \t height=\"11\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/58/Targon%27s_Buckler_item.png/revision/latest/scale-to-width-down/20?cb=20191115214607\" \t alt=\"Targon&amp;#039;s Buckler item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Targon%27s_Buckler_item.png\" \tdata-image-name=\"Targon&#39;s Buckler item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Targon's Buckler": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e3/Tiamat_item.png/revision/latest/scale-to-width-down/20?cb=20171222000401\" \t alt=\"Tiamat item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tiamat_item.png\" \tdata-image-name=\"Tiamat item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tiamat": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/22/Titanic_Hydra_item.png/revision/latest/scale-to-width-down/20?cb=20171222000417\" \t alt=\"Titanic Hydra item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Titanic_Hydra_item.png\" \tdata-image-name=\"Titanic Hydra item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Titanic Hydra": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4b/Twin_Shadows_item.png/revision/latest/scale-to-width-down/20?cb=20130710102449\" \t alt=\"Twin Shadows item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Twin_Shadows_item.png\" \tdata-image-name=\"Twin Shadows item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Twin Shadows": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Warding_Totem_item.png/revision/latest/scale-to-width-down/20?cb=20171222001934\" \t alt=\"Warding Totem item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Warding_Totem_item.png\" \tdata-image-name=\"Warding Totem item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Warding Totem": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Youmuu%27s_Ghostblade_item.png/revision/latest/scale-to-width-down/20?cb=20171222002403\" \t alt=\"Youmuu&amp;#039;s Ghostblade item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Youmuu%27s_Ghostblade_item.png\" \tdata-image-name=\"Youmuu&#39;s Ghostblade item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Youmuu's Ghostblade": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1a/Zeke%27s_Convergence_item.png/revision/latest/scale-to-width-down/20?cb=20171222002713\" \t alt=\"Zeke&amp;#039;s Convergence item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zeke%27s_Convergence_item.png\" \tdata-image-name=\"Zeke&#39;s Convergence item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Zeke's Convergence": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/df/YellowLine.jpg/revision/latest/scale-to-width-down/10?cb=20131205130214\" \t alt=\"YellowLine\"  \tclass=\"\" \t \tdata-image-key=\"YellowLine.jpg\" \tdata-image-name=\"YellowLine.jpg\" \t \t width=\"10\"  \t height=\"3\"  \t \t \t \t>"
+    },
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b5/Zhonya%27s_Hourglass_item.png/revision/latest/scale-to-width-down/20?cb=20171222002747\" \t alt=\"Zhonya&amp;#039;s Hourglass item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zhonya%27s_Hourglass_item.png\" \tdata-image-name=\"Zhonya&#39;s Hourglass item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Zhonya's Hourglass": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e4/Done.svg/revision/latest/scale-to-width-down/10?cb=20090406025351\" \t alt=\"Done\"  \tclass=\"\" \t \tdata-image-key=\"Done.svg\" \tdata-image-name=\"Done.svg\" \t \t width=\"10\"  \t height=\"10\"  \t \t \t \t>"
+    },
+    "Can be stolen.": {},
+    "Cannot be stolen.": {},
+    "Not applicable to be stolen.": {},
+    "Untested": {},
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "Zoe - W",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Sleepy Trouble Bubble",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Sleepy Trouble Bubble."
+    },
+    "champion": {
+      "value": "Zoe",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "E",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "800",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "250",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "80",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "20 / 18.5 / 17 / 15.5 / 14",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Sleepy Trouble Bubble.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Causes the target to become drowsy, then fall asleep. The first source of damage that breaks the sleep is doubled, up to a cap.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Zoe kicks a bubble in the target direction that bursts on the first enemy hit, or else forming a trap at maximum range for 5 seconds that arms after 0.8 seconds. The bubble can only move through terrain once but may do so indefinitely, can only move up to 650 units once outside terrain, and will fall short if it would enter terrain again.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "The bubble deals magic damage on contact with an enemy and renders them <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f7/Drowsy_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223936\" \t alt=\"Drowsy icon\"  \tclass=\"\" \t \tdata-image-key=\"Drowsy_icon.png\" \tdata-image-name=\"Drowsy icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> drowsy for 1.4 seconds, which gradually <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows them, after which they fall <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2f/Sleep_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223939\" \t alt=\"Sleep icon\"  \tclass=\"\" \t \tdata-image-key=\"Sleep_icon.png\" \tdata-image-name=\"Sleep icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> asleep for 2.25 seconds. Zoe will gain <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/db/Sweeper_Drone_icon.png/revision/latest/scale-to-width-down/20?cb=20171031123433\" \t alt=\"Sweeper Drone icon\"  \tclass=\"\" \t \tdata-image-key=\"Sweeper_Drone_icon.png\" \tdata-image-name=\"Sweeper Drone icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> obscured vision of the target while they're <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2f/Sleep_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223939\" \t alt=\"Sleep icon\"  \tclass=\"\" \t \tdata-image-key=\"Sleep_icon.png\" \tdata-image-name=\"Sleep icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> asleep if they are not <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Maximum Slow:10 / 15 / 20 / 25 / 30%\nMagic Damage:60 / 100 / 140 / 180 / 220 (+ 40% AP)",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "The next non-<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Blaze.png/revision/latest/scale-to-width-down/20?cb=20160420084402\" \t alt=\"Blaze\"  \tclass=\"\" \t \tdata-image-key=\"Blaze.png\" \tdata-image-name=\"Blaze.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> persistent non-<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minion damage taken by the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2f/Sleep_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223939\" \t alt=\"Sleep icon\"  \tclass=\"\" \t \tdata-image-key=\"Sleep_icon.png\" \tdata-image-name=\"Sleep icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sleeping target consumes the debuff to deal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c0/Hybrid_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20171001102450\" \t alt=\"Hybrid penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration_icon.png\" \tdata-image-name=\"Hybrid penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus true damage equal to the post-mitigation damage dealt, capped at Sleepy Trouble Bubble's damage. The bonus damage is dealt before the triggering damage.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "Maximum Mixed Damage:120 / 200 / 280 / 360 / 440 (+ 80% AP)",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Single target",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "true",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "True",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* If exceptionally close to terrain, the ball will pass through without detection and will still be able to pass through a second piece of terrain - although it sacrifices any range its already used going through the first piece.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "Zoe - E",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Portal Jump",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Portal Jump."
+    },
+    "champion": {
+      "value": "Zoe",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "R",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "575",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "50",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "11 / 8 / 5",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Portal Jump.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Blink to a nearby position for 1 second. Then blink back.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Zoe dives into a portal that she opens beneath her, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinking to the target location for 0.75 seconds, during which she sets her movement speed to a static 0 and has <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b5/Stealth_Ward_icon.png/revision/latest/scale-to-width-down/20?cb=20171031100405\" \t alt=\"Stealth Ward icon\"  \tclass=\"\" \t \tdata-image-key=\"Stealth_Ward_icon.png\" \tdata-image-name=\"Stealth Ward icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unobstructed vision. After 1 second, she blinks back to her cast location.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Zoe is unable to basic attack and cast her abilities and movement spells for 0.75 seconds after casting Portal Jump and for 0.5 seconds after blinking back.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Ground",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Zoe will always blink back, regardless of the circumstances.\n Zoe can attack and cast abilities and movement spells at the target location for 0.5 seconds after she is able to use them again.\n Upon reaching her destination, Zoe will either raspberry at the nearest enemy champion, or lick an ice cream cone when there are no enemy champions in <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "\"Woop!\"",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "Zoe - R",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  }
+]

@@ -1,5 +1,204 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Dream-Laden Bough",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Lillia's abilities apply Dream Dust, dealing 5% of the target's  maximum health as magic damage over 3 seconds, capped at 40 − 100 (based on level) damage against  monsters.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "magic",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Dream-Laden Bough.png",
+      "icons": [
+        "Dream-Laden Bough.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Lillia's abilities apply Dream Dust, dealing 5% of the target's  maximum health as magic damage over 3 seconds, capped at 40 − 100 (based on level) damage against  monsters."
+      ]
+    },
+    {
+      "name": "Blooming Blows",
+      "cost": [
+        45
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        4
+      ],
+      "description": "Passive: Lillia gains a Prance stack for 5 seconds whenever she hits at least 1 enemy with her abilities, refreshing up to 5 stacks. Stacks are lost by one every 1 second. Each stack grants Lillia  bonus movement speed.",
+      "leveling": "Bonus Movement Speed:»7 / 8 / 9 / 10 / 11% (+ 1% per 100 AP)«Maximum Bonus Movement Speed:35 / 40 / 45 / 50 / 55% (+ 5% per 100 AP)",
+      "skill": "Q",
+      "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Hybrid_penetration.png/revision/latest/scale-to-width-down/20?cb=20170514081634\" \t alt=\"Hybrid penetration\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration.png\" \tdata-image-name=\"Hybrid penetration.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> True",
+      "isProjectile": "",
+      "flatDamage": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "ratios": [
+        {
+          "value": 1,
+          "type": "bonus ad"
+        },
+        {
+          "value": 100,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Prance.png",
+      "icons": [
+        "Prance.png",
+        "Blooming Blows.png"
+      ],
+      "levelings": [
+        "Bonus Movement Speed:»7 / 8 / 9 / 10 / 11% (+ 1% per 100 AP)«Maximum Bonus Movement Speed:35 / 40 / 45 / 50 / 55% (+ 5% per 100 AP)",
+        "Magic Damage:»30 / 45 / 60 / 75 / 90 (+ 40% AP)«Total Mixed Damage:60 / 90 / 120 / 150 / 180 (+ 80% AP)"
+      ],
+      "descriptions": [
+        "Passive: Lillia gains a Prance stack for 5 seconds whenever she hits at least 1 enemy with her abilities, refreshing up to 5 stacks. Stacks are lost by one every 1 second. Each stack grants Lillia  bonus movement speed.",
+        "Active: Lillia swings her censer around her, dealing magic damage to nearby enemies. Enemies hit within the outer edge of the area additionally take the same amount as bonus true damage."
+      ]
+    },
+    {
+      "name": "Watch Out! Eep!",
+      "cost": [
+        50
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "description": "Active: Lillia  dashes to 150 units in front of the target area over 0.759 seconds, though not through terrain, and deals magic damage in an area around the target spot. Enemies hit within the center are dealt  200% increased damage.",
+      "leveling": "Magic Damage:»70 / 85 / 100 / 115 / 130 (+ 30% AP)«Maximum Damage:210 / 255 / 300 / 345 / 390 (+ 90% AP)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        70,
+        85,
+        100,
+        115,
+        130
+      ],
+      "ratios": [
+        {
+          "value": 30,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Watch Out! Eep!.png",
+      "icons": [
+        "Watch Out! Eep!.png"
+      ],
+      "levelings": [
+        "Magic Damage:»70 / 85 / 100 / 115 / 130 (+ 30% AP)«Maximum Damage:210 / 255 / 300 / 345 / 390 (+ 90% AP)",
+        "Minion Damage:»35 / 42.5 / 50 / 57.5 / 65 (+ 15% AP)«Maximum Minion Damage:105 / 127.5 / 150 / 172.5 / 195 (+ 45% AP)"
+      ],
+      "descriptions": [
+        "Active: Lillia  dashes to 150 units in front of the target area over 0.759 seconds, though not through terrain, and deals magic damage in an area around the target spot. Enemies hit within the center are dealt  200% increased damage.",
+        "Watch Out! Eep! deals 50% damage to  minions."
+      ]
+    },
+    {
+      "name": "Swirlseed",
+      "cost": [
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        12
+      ],
+      "description": "Active: Lillia lobs a seed at the target area that rolls forward indefinitely. The seed detonates upon colliding with an enemy or terrain upon landing or while rolling, dealing magic damage to enemies in a cone,  slowing them for 3 seconds and  revealing them for 2 seconds.",
+      "leveling": "Magic Damage:70 / 90 / 110 / 130 / 150 (+ 40% AP)\nSlow:25 / 30 / 35 / 40 / 45%",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "true",
+      "flatDamage": [
+        70,
+        90,
+        110,
+        130,
+        150
+      ],
+      "ratios": [
+        {
+          "value": 40,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.4,
+      "icon": "Swirlseed.png",
+      "icons": [
+        "Swirlseed.png"
+      ],
+      "levelings": [
+        "Magic Damage:70 / 90 / 110 / 130 / 150 (+ 40% AP)\nSlow:25 / 30 / 35 / 40 / 45%"
+      ],
+      "descriptions": [
+        "Active: Lillia lobs a seed at the target area that rolls forward indefinitely. The seed detonates upon colliding with an enemy or terrain upon landing or while rolling, dealing magic damage to enemies in a cone,  slowing them for 3 seconds and  revealing them for 2 seconds.",
+        "Swirlseed will cast at max range if cast beyond that. The spot at which the seed will last collide with terrain is highlighted to Lillia while it is rolling."
+      ]
+    },
+    {
+      "name": "Lilting Lullaby",
+      "cost": [
+        50
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        130,
+        120,
+        110,
+        100,
+        90
+      ],
+      "description": "Active: Lillia casts a magical lullaby over all targetable enemy  champions affected by  Dream Dust, rendering them  drowsy for 1.5 seconds, which  slows them by 25% to 50% (increasing over the duration), after which they fall  asleep for a few seconds.",
+      "leveling": "Sleep Duration:2 / 2.25 / 2.5 / 2.75 / 3",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "true",
+      "flatDamage": [
+        2,
+        2.25,
+        2.5,
+        2.75,
+        3
+      ],
+      "ratios": [],
+      "castTime": 0.4,
+      "icon": "Lilting Lullaby.png",
+      "icons": [
+        "Lilting Lullaby.png",
+        "Lilting Lullaby 2.png"
+      ],
+      "levelings": [
+        "Sleep Duration:2 / 2.25 / 2.5 / 2.75 / 3",
+        "Magic Damage:100 / 125 / 150 / 175 / 200 (+ 30% AP)"
+      ],
+      "descriptions": [
+        "Active: Lillia casts a magical lullaby over all targetable enemy  champions affected by  Dream Dust, rendering them  drowsy for 1.5 seconds, which  slows them by 25% to 50% (increasing over the duration), after which they fall  asleep for a few seconds.",
+        "The next non- persistent non- minion damage taken by the  sleeping targets consumes the debuff to deal additional magic damage."
+      ]
+    }
+  ],
   "id": "Lillia",
   "key": "876",
   "name": "Lillia",
@@ -12,6 +211,7 @@
     "difficulty": 8
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Lillia.png",
     "full": "Lillia.png",
     "sprite": "champion2.png",
     "group": "champion",

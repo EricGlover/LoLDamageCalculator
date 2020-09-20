@@ -1,6 +1,33 @@
 {
   "abilities": [
     {
+      "name": "Moonsilver Blade",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Diana permanently has  10% −  40% (based on level) bonus attack speed. After casting an ability, this bonus is tripled to 30% −  120% (based on level) for 3 seconds.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Moonsilver Blade.png",
+      "icons": [
+        "Moonsilver Blade.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Diana permanently has  10% −  40% (based on level) bonus attack speed. After casting an ability, this bonus is tripled to 30% −  120% (based on level) for 3 seconds.",
+        "Diana's basic attacks on-hit grant a stack for 3.5 seconds. At 2 stacks, Diana's next basic attack on-hit additionally cleaves nearby enemies for 20 −  250 (based on level) (+ 40% AP) magic damage, consuming all stacks. This damage is increased by 50% against  non-epic monsters."
+      ]
+    },
+    {
       "name": "Crescent Strike",
       "cost": [
         50
@@ -13,7 +40,7 @@
         6,
         6
       ],
-      "description": "Active: Diana unleashes a bolt of lunar energy that travels in a counter-clockwise arc before exploding at the target location, dealing magic damage to enemies hit and afflicting them with Moonlight for 3 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them for the duration.",
+      "description": "Active: Diana unleashes a bolt of lunar energy that travels in a counter-clockwise arc before exploding at the target location, dealing magic damage to enemies hit and afflicting them with Moonlight for 3 seconds,  revealing them for the duration.",
       "leveling": "Magic Damage:60 / 95 / 130 / 165 / 200 (+ 70% AP)",
       "skill": "Q",
       "damageType": "Magic",
@@ -31,7 +58,18 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Crescent Strike.png",
+      "icons": [
+        "Crescent Strike.png"
+      ],
+      "levelings": [
+        "Magic Damage:60 / 95 / 130 / 165 / 200 (+ 70% AP)"
+      ],
+      "descriptions": [
+        "Active: Diana unleashes a bolt of lunar energy that travels in a counter-clockwise arc before exploding at the target location, dealing magic damage to enemies hit and afflicting them with Moonlight for 3 seconds,  revealing them for the duration.",
+        "Moonlight has interactions with  Lunar Rush."
+      ]
     },
     {
       "name": "Pale Cascade",
@@ -50,7 +88,7 @@
         10,
         9
       ],
-      "description": "Active: Diana <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields herself for up to 5 seconds and creates three spheres that orbit her for the duration, detonating upon contact with an enemy and dealing magic damage to nearby enemies upon detonation.",
+      "description": "Active: Diana  shields herself for up to 5 seconds and creates three spheres that orbit her for the duration, detonating upon contact with an enemy and dealing magic damage to nearby enemies upon detonation.",
       "leveling": "Shield Strength:»30 / 45 / 60 / 75 / 90 (+ 30% AP) (+ 10% bonus health)«Total Shield Strength:60 / 90 / 120 / 150 / 180 (+ 60% AP) (+ 20% bonus health)Magic Damage per Orb:»18 / 30 / 42 / 54 / 66 (+ 15% AP)«Total Magic Damage:54 / 90 / 126 / 162 / 198 (+ 45% AP)",
       "skill": "W",
       "damageType": "Magic",
@@ -68,7 +106,18 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Pale Cascade.png",
+      "icons": [
+        "Pale Cascade.png"
+      ],
+      "levelings": [
+        "Shield Strength:»30 / 45 / 60 / 75 / 90 (+ 30% AP) (+ 10% bonus health)«Total Shield Strength:60 / 90 / 120 / 150 / 180 (+ 60% AP) (+ 20% bonus health)Magic Damage per Orb:»18 / 30 / 42 / 54 / 66 (+ 15% AP)«Total Magic Damage:54 / 90 / 126 / 162 / 198 (+ 45% AP)"
+      ],
+      "descriptions": [
+        "Active: Diana  shields herself for up to 5 seconds and creates three spheres that orbit her for the duration, detonating upon contact with an enemy and dealing magic damage to nearby enemies upon detonation.",
+        "If all three spheres detonate, Pale Cascade's shield is reapplied, stacking with its original shield and refreshing the duration."
+      ]
     },
     {
       "name": "Lunar Rush",
@@ -87,7 +136,7 @@
         16,
         14
       ],
-      "description": "Active: Diana <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target enemy's location, dealing them magic damage and consuming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b6/Crescent_Strike.png/revision/latest/scale-to-width-down/20?cb=20191210192244\" \t alt=\"Crescent Strike\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crescent_Strike.png\" \tdata-image-name=\"Crescent Strike.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Moonlight from all enemies. If the target is within 400 range, Diana will dash through their location.",
+      "description": "Active: Diana  dashes to the target enemy's location, dealing them magic damage and consuming  Moonlight from all enemies. If the target is within 400 range, Diana will dash through their location.",
       "leveling": "Magic Damage:40 / 60 / 80 / 100 / 120 (+ 40% AP)",
       "skill": "E",
       "damageType": "Magic",
@@ -105,7 +154,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Lunar Rush.png",
+      "icons": [
+        "Lunar Rush.png"
+      ],
+      "levelings": [
+        "Magic Damage:40 / 60 / 80 / 100 / 120 (+ 40% AP)"
+      ],
+      "descriptions": [
+        "Active: Diana  dashes to the target enemy's location, dealing them magic damage and consuming  Moonlight from all enemies. If the target is within 400 range, Diana will dash through their location.",
+        "If Moonlight is consumed from the target or they die mid-dash while being afflicted by Moonlight, Lunar Rush's  cooldown is reset.",
+        "Other abilities can be used during the dash."
+      ]
     },
     {
       "name": "Moonfall",
@@ -120,7 +181,7 @@
         85,
         80
       ],
-      "description": "Active: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Reveals, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> draws in, and successively <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows all nearby enemies for 2 seconds.",
+      "description": "Active:  Reveals,  draws in, and successively  slows all nearby enemies for 2 seconds.",
       "leveling": "Slow:40 / 45 / 50 / 55 / 60%",
       "skill": "R",
       "damageType": "Magic",
@@ -133,7 +194,19 @@
         60
       ],
       "ratios": [],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Moonfall.png",
+      "icons": [
+        "Moonfall.png"
+      ],
+      "levelings": [
+        "Slow:40 / 45 / 50 / 55 / 60%",
+        "Magic Damage:200 / 250 / 300 / 350 / 400 (+ 60% AP)\nBonus Damage Per Champion:»35 / 47.5 / 60 / 72.5 / 85 (+ 15% AP)«Total Damage Vs. 5 Champions:340 / 440 / 540 / 640 / 740 (+ 120% AP)"
+      ],
+      "descriptions": [
+        "Active:  Reveals,  draws in, and successively  slows all nearby enemies for 2 seconds.",
+        "If Diana pulls in at least one enemy  champion, she calls down a beam of moonlight after 1 second, dealing magic damage in an area around her, increased for each champion pulled beyond the first."
+      ]
     }
   ],
   "id": "Diana",
@@ -148,6 +221,7 @@
     "difficulty": 4
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Diana.png",
     "full": "Diana.png",
     "sprite": "champion0.png",
     "group": "champion",

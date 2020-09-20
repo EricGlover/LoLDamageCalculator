@@ -1,5 +1,213 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Arcane Mastery",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Ryze gains (5% per 100 AP)  bonus mana.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Arcane Mastery.png",
+      "icons": [
+        "Arcane Mastery.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Ryze gains (5% per 100 AP)  bonus mana."
+      ]
+    },
+    {
+      "name": "Overload",
+      "cost": [
+        40
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        6
+      ],
+      "description": "Passive: Ryze's other basic abilities reset  Overload's cooldown and charge a  Rune for 4 seconds, up to 2.",
+      "leveling": "Magic Damage:65 / 90 / 115 / 140 / 165 (+ 45% AP) (+ 3% bonus mana)",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        65,
+        90,
+        115,
+        140,
+        165
+      ],
+      "ratios": [
+        {
+          "value": 45,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Overload 5.png",
+      "icons": [
+        "Overload 5.png",
+        "Overload.png",
+        "Overload 4.png"
+      ],
+      "levelings": [
+        "Magic Damage:65 / 90 / 115 / 140 / 165 (+ 45% AP) (+ 3% bonus mana)",
+        "Bonus Movement Speed:28 / 32 / 36 / 40 / 44%"
+      ],
+      "descriptions": [
+        "Passive: Ryze's other basic abilities reset  Overload's cooldown and charge a  Rune for 4 seconds, up to 2.",
+        "Active: Ryze unleashes a runic blast in the target direction, dealing magic damage to the first enemy struck and consuming all of his  Runes.",
+        "If Ryze consumes 2 Runes, he gains  bonus movement speed for 2 seconds.",
+        " Flux: Overload deals 10 / 40 / 70 / 100% (based on  Realm Warp's rank)  increased damage, and spreads to all nearby enemies marked with Flux."
+      ]
+    },
+    {
+      "name": "Rune Prison",
+      "cost": [
+        40,
+        55,
+        70,
+        85,
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ],
+      "description": "Active: Ryze instantly deals magic damage and  slows the target enemy by 35% for 1.5 seconds.",
+      "leveling": "Magic Damage:80 / 110 / 140 / 170 / 200 (+ 60% AP) (+ 4% bonus mana)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        80,
+        110,
+        140,
+        170,
+        200
+      ],
+      "ratios": [
+        {
+          "value": 60,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Rune Prison.png",
+      "icons": [
+        "Rune Prison.png"
+      ],
+      "levelings": [
+        "Magic Damage:80 / 110 / 140 / 170 / 200 (+ 60% AP) (+ 4% bonus mana)"
+      ],
+      "descriptions": [
+        "Active: Ryze instantly deals magic damage and  slows the target enemy by 35% for 1.5 seconds.",
+        " Flux: Rune Prison's  slow is converted to a  root for the same duration."
+      ]
+    },
+    {
+      "name": "Spell Flux",
+      "cost": [
+        40,
+        55,
+        70,
+        85,
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        3,
+        3,
+        2,
+        2,
+        2
+      ],
+      "description": "Active: Ryze hurls an orb of runic energy at the target enemy, dealing magic damage to his target and marking them and nearby enemies with Flux for 3 seconds, causing his next basic ability against them to consume the mark and gain bonus effects.",
+      "leveling": "Magic Damage:60 / 80 / 100 / 120 / 140 (+ 30% AP) (+ 2% bonus mana)",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        60,
+        80,
+        100,
+        120,
+        140
+      ],
+      "ratios": [
+        {
+          "value": 30,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Spell Flux.png",
+      "icons": [
+        "Spell Flux.png"
+      ],
+      "levelings": [
+        "Magic Damage:60 / 80 / 100 / 120 / 140 (+ 30% AP) (+ 2% bonus mana)"
+      ],
+      "descriptions": [
+        "Active: Ryze hurls an orb of runic energy at the target enemy, dealing magic damage to his target and marking them and nearby enemies with Flux for 3 seconds, causing his next basic ability against them to consume the mark and gain bonus effects.",
+        " Flux: Spell Flux spreads further."
+      ]
+    },
+    {
+      "name": "Realm Warp",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        210,
+        195,
+        180,
+        165,
+        150
+      ],
+      "description": "Passive: Increases  Overload's damage against targets marked with  Spell Flux.",
+      "leveling": "Bonus Overload Damage:40 / 55 / 70 / 85 / 100%",
+      "skill": "R",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        40,
+        55,
+        70,
+        85,
+        100
+      ],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Realm Warp.png",
+      "icons": [
+        "Realm Warp.png"
+      ],
+      "levelings": [
+        "Bonus Overload Damage:40 / 55 / 70 / 85 / 100%"
+      ],
+      "descriptions": [
+        "Passive: Increases  Overload's damage against targets marked with  Spell Flux.",
+        "Active: Ryze opens a portal on the ground at his current location and begins  channeling. If Ryze successfully channels for 2 seconds, all allied units within the portal  blink to the target location and become  untargetable for 0.75 seconds. Realm Warp can affect untargetable units.",
+        "Realm Warp casts at maximum range if cast beyond that."
+      ]
+    }
+  ],
   "id": "Ryze",
   "key": "13",
   "name": "Ryze",
@@ -12,6 +220,7 @@
     "difficulty": 7
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Ryze.png",
     "full": "Ryze.png",
     "sprite": "champion3.png",
     "group": "champion",

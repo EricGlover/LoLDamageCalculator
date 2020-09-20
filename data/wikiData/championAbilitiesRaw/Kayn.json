@@ -1,0 +1,1192 @@
+[
+  {
+    "1": {
+      "value": "The Darkin Scythe",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from The Darkin Scythe."
+    },
+    "champion": {
+      "value": "Kayn",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "I",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "The Darkin Scythe.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "At one point in the game, Kayn will permanently transform into either a Shadow Assassin or a Darkin.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Innate: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c9/Kayn_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20170628021945\" \t alt=\"Kayn OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Kayn_OriginalSquare.png\" \tdata-image-name=\"Kayn OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Kayn wields an ancient, sentient weapon, that battles with him for control. Each instance of damage Kayn deals against champions (excluding damage over time) and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Damage_rating.png/revision/latest/scale-to-width-down/20?cb=20170514053710\" \t alt=\"Damage rating\"  \tclass=\"\" \t \tdata-image-key=\"Damage_rating.png\" \tdata-image-name=\"Damage rating.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> takedowns causes them to drop orbs, red by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2d/Melee_role.png/revision/latest/scale-to-width-down/20?cb=20170624104045\" \t alt=\"Melee role\"  \tclass=\"\" \t \tdata-image-key=\"Melee_role.png\" \tdata-image-name=\"Melee role.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> melee champions and blue by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Ranged_role.png/revision/latest/scale-to-width-down/20?cb=20170624104039\" \t alt=\"Ranged role\"  \tclass=\"\" \t \tdata-image-key=\"Ranged_role.png\" \tdata-image-name=\"Ranged role.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ranged champions, that are automatically collected upon leaving combat, filling a bar above Kayn's portrait.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Once the bar is filled, Kayn can return to the summoning platform to interact with his portrait to either be overwhelmed by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d4/Rhaast_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171109063634\" \t alt=\"Rhaast OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rhaast_OriginalSquare.png\" \tdata-image-name=\"Rhaast OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rhaast or expel him to become the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/46/Shadow_Assassin_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171109063657\" \t alt=\"Shadow Assassin OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shadow_Assassin_OriginalSquare.png\" \tdata-image-name=\"Shadow Assassin OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow Assassin, or wait 4 minutes until the other form becomes available, reduced by 5 seconds for each collected orb of their type after that. After choosing a form, Kayn transforms into <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d4/Rhaast_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171109063634\" \t alt=\"Rhaast OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rhaast_OriginalSquare.png\" \tdata-image-name=\"Rhaast OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rhaast or the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/46/Shadow_Assassin_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171109063657\" \t alt=\"Shadow Assassin OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shadow_Assassin_OriginalSquare.png\" \tdata-image-name=\"Shadow Assassin OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow Assassin over 6 seconds during which he is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c1/Cosmic_Radiance.png/revision/latest/scale-to-width-down/20?cb=20160608034537\" \t alt=\"Cosmic Radiance\"  \tclass=\"\" \t \tdata-image-key=\"Cosmic_Radiance.png\" \tdata-image-name=\"Cosmic Radiance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invulnerable and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable. Kayn cannot select a form if he is unable to cast abilities.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "The transformation type is decided based on the highest amount of damage dealt to the respective range type. If the two forms are within 8% of each other, the last champion range type hit will determine the transformation. If both types are hit at the same time the trasformation will default to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d4/Rhaast_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171109063634\" \t alt=\"Rhaast OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rhaast_OriginalSquare.png\" \tdata-image-name=\"Rhaast OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rhaast. The transformation will permanently empower some of Kayn's abilities and grant him Homeguard.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "The Darkin Scythe A.png",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/46/Shadow_Assassin_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171109063657\" \t alt=\"Shadow Assassin OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shadow_Assassin_OriginalSquare.png\" \tdata-image-name=\"Shadow Assassin OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow Assassin: If Kayn has been out of champion combat for over 8 seconds, or he casts <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Umbral_Trespass.png/revision/latest/scale-to-width-down/20?cb=20170817201059\" \t alt=\"Umbral Trespass\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Umbral_Trespass.png\" \tdata-image-name=\"Umbral Trespass.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Umbral Trespass, he deals 12% − 44% (based on level) of post-mitigation damage dealt against enemy champions as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> bonus magic damage, lasting for 3 seconds upon entering combat and also applying on the first instance of damage dealt. If this ability is ready, it will not go on cooldown by receiving damage.",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "The Darkin Scythe R.png",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d4/Rhaast_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171109063634\" \t alt=\"Rhaast OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rhaast_OriginalSquare.png\" \tdata-image-name=\"Rhaast OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Darkin: Rhaast <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals for 30% − 40% (based on level) of the post-mitigation <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> physical damage that he deals to enemy champions with his abilities.",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Passive",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* The bar gets filled up completely at 500 points.\n Melee orbs grant 2 points per hit and 6 points per takedown.\n Ranged orbs grant 3 points per hit and 7 points per takedown.\n Each bar has a bucket system.\n The bucket starts at 60 points.\n Each time an orb is taken the system checks if there's an amount of points in the bucket equal to or higher than the amount received from the orb.If there is, Kayn is given an additional orb of the same type he received, while also subtracting that amount of points from the bucket.\n The bucket fills by 0.8 points per second if out of champion combat for 70 seconds.\n\n The amount of points received per orb is then multiplied by 3 −  10.39 (based on minutes).\n\n The orbs will be collected even if Kayn <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dies.\n Entering transformation will not <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Bullet_strikethrough.png/revision/latest/scale-to-width-down/20?cb=20200405040932\" \t alt=\"Bullet strikethrough\"  \tclass=\"\" \t \tdata-image-key=\"Bullet_strikethrough.png\" \tdata-image-name=\"Bullet strikethrough.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> destroy in-flight <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Projectile.png/revision/latest/scale-to-width-down/20?cb=20150816082407\" \t alt=\"Projectile\"  \tclass=\"\" \t \tdata-image-key=\"Projectile.png\" \tdata-image-name=\"Projectile.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> projectiles.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "Kayn - Passive",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Reaping Slash",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Reaping Slash."
+    },
+    "champion": {
+      "value": "Kayn",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "Q",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "350",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "X",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "X + X% Movement speed",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "50",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "6 / 5.5 / 5 / 4.5 / 4",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Reaping Slash.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Kayn dashes, then slashes. Both deal damage.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Kayn <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction, dealing physical damage to enemies he passes through, before swinging his scythe, dealing the same damage to surrounding enemies.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Physical Damage:»75 / 95 / 115 / 135 / 155 (+ 65% bonus AD)«Total Champion Damage:150 / 190 / 230 / 270 / 310 (+ 130% bonus AD)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Both instances of Reaping Slash deal 40 bonus damage against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Non-Champion Damage:»115 / 135 / 155 / 175 / 195 (+ 65% bonus AD)«Total Non-Champion Damage:230 / 270 / 310 / 350 / 390 (+ 130% bonus AD)",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "Reaping Slash R.png",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d4/Rhaast_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171109063634\" \t alt=\"Rhaast OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rhaast_OriginalSquare.png\" \tdata-image-name=\"Rhaast OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Darkin: Reaping Slash's damage is modified to deal 55% AD (+ 5% (+ 4% per 100 bonus AD) of the target's maximum health) physical damage for both instances. This damage is capped against monsters but does not include the bonus damage.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "Capped Monster Damage per Hit:»200 / 250 / 300 / 350 / 400«Total Capped Monster Damage:400 / 500 / 600 / 700 / 800",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "The dash's speed scales with Kayn's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> total movement speed.",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Physical",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Area of effect",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "Special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shields will block only a single instance of damage - either the dash or the slash.\n If the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dash is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> interrupted, Kayn will not swing his scythe.\n Reaping Slash's  swing can be performed quicker if the dash collides with terrain.\n As the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/46/Shadow_Assassin_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171109063657\" \t alt=\"Shadow Assassin OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shadow_Assassin_OriginalSquare.png\" \tdata-image-name=\"Shadow Assassin OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow Assassin, an alternate icon for <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7f/Reaping_Slash_A.png/revision/latest/scale-to-width-down/20?cb=20171221043313\" \t alt=\"Reaping Slash A\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Reaping_Slash_A.png\" \tdata-image-name=\"Reaping Slash A.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Reaping Slash is used but has no modified effect.\n Other abilities can be queued while casting Reaping Slash.\n All items can be used during Reaping Slash.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e6/Stopwatch_item.png/revision/latest/scale-to-width-down/20?cb=20180123082932\" \t alt=\"Stopwatch item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Stopwatch_item.png\" \tdata-image-name=\"Stopwatch item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Stopwatch and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b5/Zhonya%27s_Hourglass_item.png/revision/latest/scale-to-width-down/20?cb=20171222002747\" \t alt=\"Zhonya&amp;#039;s Hourglass item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zhonya%27s_Hourglass_item.png\" \tdata-image-name=\"Zhonya&#39;s Hourglass item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Zhonya's Hourglass will not stop the dash or the damage from occurring.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Hextech_Protobelt-01_item.png/revision/latest/scale-to-width-down/20?cb=20171221185647\" \t alt=\"Hextech Protobelt-01 item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hextech_Protobelt-01_item.png\" \tdata-image-name=\"Hextech Protobelt-01 item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hextech Protobelt-01 will <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> interrupt the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dash if used before the dash ends, preventing the slash from happening. If used after the dash ends, Kayn can reposition where the slash happens.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "Kayn - Q",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Blade's Reach",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Blade's Reach."
+    },
+    "champion": {
+      "value": "Kayn",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "W",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "700 / 900",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "X",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.55 / None",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "60 / 65 / 70 / 75 / 80",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "13 / 12 / 11 / 10 / 9",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Blade's Reach.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Kayn damages and slows targets in a line.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Kayn performs an upwards sweep with his scythe, dealing physical damage to all enemies hit in a line in the target direction and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 90% decaying over 1.5 seconds.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Physical Damage:90 / 135 / 180 / 225 / 270 (+ 130% bonus AD)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "Blade's Reach A.png",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/46/Shadow_Assassin_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171109063657\" \t alt=\"Shadow Assassin OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shadow_Assassin_OriginalSquare.png\" \tdata-image-name=\"Shadow Assassin OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow Assassin: Blade's Reach's range is increased by 200. Additionally, Kayn conjures an <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable living shadow at the casting position to perform Blade's Reach in his stead, reducing the ability's cast time to 0 but applying its effects after a 0.55-second delay.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "Blade's Reach R.png",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d4/Rhaast_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171109063634\" \t alt=\"Rhaast OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rhaast_OriginalSquare.png\" \tdata-image-name=\"Rhaast OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Darkin: Blade's Reach also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocks up enemies hit for 1 second.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Physical",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Area of effect",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "False",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* The shadow created by the Shadow Assassin is considered a champion for <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4f/Turret_Plating.png/revision/latest/scale-to-width-down/20?cb=20181124123936\" \t alt=\"Turret Plating\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Turret_Plating.png\" \tdata-image-name=\"Turret Plating.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Turret Plating's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/10/Gold.png/revision/latest/scale-to-width-down/20?cb=20181122055358\" \t alt=\"Gold\"  \tclass=\"\" \t \tdata-image-key=\"Gold.png\" \tdata-image-name=\"Gold.png\" \t \t width=\"20\"  \t height=\"15\"  \t \t \t \t> gold sharing.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "Kayn - W",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Shadow Step",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Shadow Step."
+    },
+    "champion": {
+      "value": "Kayn",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "E",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "90",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "21 / 19 / 17 / 15 / 13",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Shadow Step.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Kayn can walk through terrain.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Kayn gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 40% bonus movement speed, is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted and can ignore terrain collision for 1.5 seconds. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Immobilizing effects and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> polymorph will <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> interrupt Shadow Step.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Kayn <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals himself upon moving through terrain for the first time and, if he's not in combat with enemy champions, Shadow Step's duration is increased. While inside terrain, Kayn has <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b5/Stealth_Ward_icon.png/revision/latest/scale-to-width-down/20?cb=20171031100405\" \t alt=\"Stealth Ward icon\"  \tclass=\"\" \t \tdata-image-key=\"Stealth_Ward_icon.png\" \tdata-image-name=\"Stealth Ward icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unobstructed vision.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Heal:100 / 115 / 130 / 145 / 160 (+ 40% bonus AD)\nEmpowered Duration:7 / 7.5 / 8 / 8.5 / 9",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Receiving damage from an enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion or dealing damage to them reduces the remaining duration to 1.5 seconds. The effect also cannot remain active out of terrain for longer than 1.5 seconds and will cancel completely if Kayn uses a basic attack.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "Shadow Step A.png",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/46/Shadow_Assassin_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171109063657\" \t alt=\"Shadow Assassin OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shadow_Assassin_OriginalSquare.png\" \tdata-image-name=\"Shadow Assassin OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow Assassin: Shadow Step's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown is reduced to 8 seconds at all ranks. Additionally, Kayn gains 100% <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/31/Slow_immune_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164447\" \t alt=\"Slow immune icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_immune_icon.png\" \tdata-image-name=\"Slow immune icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow resist and, upon entering terrain, increases the bonus movement speed to 80% for the remaining duration.",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "None",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Heal",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* As <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d4/Rhaast_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171109063634\" \t alt=\"Rhaast OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rhaast_OriginalSquare.png\" \tdata-image-name=\"Rhaast OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rhaast, an alternate icon for <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/54/Shadow_Step_R.png/revision/latest/scale-to-width-down/20?cb=20171221043502\" \t alt=\"Shadow Step R\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shadow_Step_R.png\" \tdata-image-name=\"Shadow Step R.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow Step is used but has no modified effect.\n Self <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> immobilizations such as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e6/Stopwatch_item.png/revision/latest/scale-to-width-down/20?cb=20180123082932\" \t alt=\"Stopwatch item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Stopwatch_item.png\" \tdata-image-name=\"Stopwatch item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Stopwatch / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b5/Zhonya%27s_Hourglass_item.png/revision/latest/scale-to-width-down/20?cb=20171222002747\" \t alt=\"Zhonya&amp;#039;s Hourglass item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zhonya%27s_Hourglass_item.png\" \tdata-image-name=\"Zhonya&#39;s Hourglass item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Zhonya's Hourglass also count for interrupting Shadow Step.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall is disabled while Kayn is inside terrain.\n Enemies cannot see Kayn while he is inside of terrain unless they have terrain-piercing vision, such as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e1/Heightened_Senses.png/revision/latest/scale-to-width-down/20?cb=20170818193234\" \t alt=\"Heightened Senses\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Heightened_Senses.png\" \tdata-image-name=\"Heightened Senses.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Heightened Senses, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e3/Hawkshot.png/revision/latest/scale-to-width-down/20?cb=20170818001128\" \t alt=\"Hawkshot\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hawkshot.png\" \tdata-image-name=\"Hawkshot.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hawkshot or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b5/Stealth_Ward_icon.png/revision/latest/scale-to-width-down/20?cb=20171031100405\" \t alt=\"Stealth Ward icon\"  \tclass=\"\" \t \tdata-image-key=\"Stealth_Ward_icon.png\" \tdata-image-name=\"Stealth Ward icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unobstructed vision.\n However, enemies will be notified if nearby terrain is infested if Kayn is within 1000 units - with an indicator being placed on the terrain with a direct line between Kayn and the enemy champion. Slightly less than standard sight radius, but more than the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Ambush_2.png/revision/latest/scale-to-width-down/20?cb=20171221051757\" \t alt=\"Ambush 2\"  \tclass=\"\" \t \tdata-image-key=\"Ambush_2.png\" \tdata-image-name=\"Ambush 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> camouflage detection radius.\n\n Kayn can move up to 550 units beyond the outer-edge of the battlefield.\n While in terrain, Kayn will not be considered unseen for the sake of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Duskblade_of_Draktharr_item.png/revision/latest/scale-to-width-down/20?cb=20171221063541\" \t alt=\"Duskblade of Draktharr item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Duskblade_of_Draktharr_item.png\" \tdata-image-name=\"Duskblade of Draktharr item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Duskblade of Draktharr.\n If Kayn is inside terrain when the effect ends, he will be placed correspondingly to the nearest valid space.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "Kayn - E",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Umbral Trespass",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Umbral Trespass."
+    },
+    "champion": {
+      "value": "Kayn",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "R",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "550 / 750",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "300 / 500",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "100",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "120 / 110 / 100 / 90 / 80",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Umbral Trespass.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Kayn hides in an enemy's body, dealing massive damage when he bursts out.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Passive: Kayn marks enemy champions he damaged in the last 3.15 seconds.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Active: Kayn <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8c/Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20160608033548\" \t alt=\"Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Hallucinate.png\" \tdata-image-name=\"Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> vanishes and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to a marked enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/You_and_Me%21.png/revision/latest/scale-to-width-down/20?cb=20190426210438\" \t alt=\"You and Me!\"  \tclass=\"\" \t \tdata-image-key=\"You_and_Me%21.png\" \tdata-image-name=\"You and Me!.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> attaches to them for up to 2.5 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20150808161653\" \t alt=\"True Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"True_Sight_icon.png\" \tdata-image-name=\"True Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them for the duration. Umbral Trespass can be recast after 0.75 seconds of the attachment and recasts automatically at the end of the effect's duration.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "Umbral Trespass 2.png",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Recast: After a 0.75-second delay, Kayn <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes out from their body in the target direction while still being <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable and deals physical damage to the target.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "Physical Damage:150 / 200 / 250 / 300 / 350 (+ 175% bonus AD)",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/46/Shadow_Assassin_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171109063657\" \t alt=\"Shadow Assassin OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shadow_Assassin_OriginalSquare.png\" \tdata-image-name=\"Shadow Assassin OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow Assassin: Umbral Trespass gains up to 200 bonus cast range and emerge range. Additionally, emerging will reset <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/71/The_Darkin_Scythe_A.png/revision/latest/scale-to-width-down/20?cb=20171221043556\" \t alt=\"The Darkin Scythe A\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"The_Darkin_Scythe_A.png\" \tdata-image-name=\"The Darkin Scythe A.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> The Darkin Scythe's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown.",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "Umbral Trespass 2 R.png",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d4/Rhaast_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171109063634\" \t alt=\"Rhaast OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rhaast_OriginalSquare.png\" \tdata-image-name=\"Rhaast OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Darkin: Umbral Trespass is modified to deal 10% (+ 13% per 100 bonus AD) of the target's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> maximum health physical damage, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals him for「 70% of the pre-mitigation damage. 」「 7% (+ 9.1% per 100 bonus AD) of target's maximum health. 」",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Unit / Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies, Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Physical",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "spell",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "Special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "*The initial cast counts as an ability activation for the purposes of on-cast effects such as Spellblade, charging <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder.\nDetonating the ability manually does not.\nThe ability activation happens when Kayn is attached to his target and the channel starts.\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/94/Kassadin_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220329\" \t alt=\"Kassadin OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Kassadin_OriginalSquare.png\" \tdata-image-name=\"Kassadin OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Kassadin cannot gain a stack for <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Force_Pulse.png/revision/latest/scale-to-width-down/20?cb=20170818190412\" \t alt=\"Force Pulse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Force_Pulse.png\" \tdata-image-name=\"Force Pulse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Force Pulse because Kayn is untargetable during the activation.\n\n\n The ability will recast if Kayn is ordered a movement command.\n The amount of time it takes for Kayn to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/You_and_Me%21.png/revision/latest/scale-to-width-down/20?cb=20190426210438\" \t alt=\"You and Me!\"  \tclass=\"\" \t \tdata-image-key=\"You_and_Me%21.png\" \tdata-image-name=\"You and Me!.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> attach to his target is between 0.5 seconds (cast from max range, not as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/46/Shadow_Assassin_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171109063657\" \t alt=\"Shadow Assassin OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shadow_Assassin_OriginalSquare.png\" \tdata-image-name=\"Shadow Assassin OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow Assassin) and 0.25 seconds (cast from point blank range).\n This duration is fixed, meaning Kayn will attach regardless of how far away the target gets while he is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashing toward them.\n\n If the target <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dies or enters <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Revival_icon.png/revision/latest/scale-to-width-down/20?cb=20170714051127\" \t alt=\"Revival icon\"  \tclass=\"\" \t \tdata-image-key=\"Revival_icon.png\" \tdata-image-name=\"Revival icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resurrection while Kayn is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/You_and_Me%21.png/revision/latest/scale-to-width-down/20?cb=20190426210438\" \t alt=\"You and Me!\"  \tclass=\"\" \t \tdata-image-key=\"You_and_Me%21.png\" \tdata-image-name=\"You and Me!.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> attached, he will instantly detach and reappear on top of the target's location. This does not occur if Kayn is in the process of emerging from the target.\n If the target dies, is sent to the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d8/Realm_of_Death.png/revision/latest/scale-to-width-down/20?cb=20190527181328\" \t alt=\"Realm of Death\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Realm_of_Death.png\" \tdata-image-name=\"Realm of Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Realm of Death, or enters <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Revival_icon.png/revision/latest/scale-to-width-down/20?cb=20170714051127\" \t alt=\"Revival icon\"  \tclass=\"\" \t \tdata-image-key=\"Revival_icon.png\" \tdata-image-name=\"Revival icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resurrection before the attachment, Kayn will reappear at the target's location after completing the dash. There is no compensation if this happens.\n\n If Kayn dies while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/You_and_Me%21.png/revision/latest/scale-to-width-down/20?cb=20190426210438\" \t alt=\"You and Me!\"  \tclass=\"\" \t \tdata-image-key=\"You_and_Me%21.png\" \tdata-image-name=\"You and Me!.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> attached and the recast is available, Umbral Trespass'  damage is dealt immediately. If the recast is not available, Umbral Trespass'  damage is not dealt at all.\n Entering <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Revival_icon.png/revision/latest/scale-to-width-down/20?cb=20170714051127\" \t alt=\"Revival icon\"  \tclass=\"\" \t \tdata-image-key=\"Revival_icon.png\" \tdata-image-name=\"Revival icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resurrection while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/You_and_Me%21.png/revision/latest/scale-to-width-down/20?cb=20190426210438\" \t alt=\"You and Me!\"  \tclass=\"\" \t \tdata-image-key=\"You_and_Me%21.png\" \tdata-image-name=\"You and Me!.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> attached does not deal Umbral Trespass'  damage regardless of if the recast is available or not. Kayn will still detach in this case.\n\n As <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d4/Rhaast_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171109063634\" \t alt=\"Rhaast OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rhaast_OriginalSquare.png\" \tdata-image-name=\"Rhaast OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rhaast, Umbral Trespass will not <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heal if the target dies during the 0.75-second delay before emerging.\n Umbral Trespass'  interactions with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crowd control:\n Becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunned or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> silenced while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/You_and_Me%21.png/revision/latest/scale-to-width-down/20?cb=20190426210438\" \t alt=\"You and Me!\"  \tclass=\"\" \t \tdata-image-key=\"You_and_Me%21.png\" \tdata-image-name=\"You and Me!.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> attached will cause the ability to recast automatically (even during the 0.75-second delay before Kayn is able to recast after attaching).\n Umbral Trespass <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Remove_Scurvy.png/revision/latest/scale-to-width-down/20?cb=20150707190028\" \t alt=\"Remove Scurvy\"  \tclass=\"\" \t \tdata-image-key=\"Remove_Scurvy.png\" \tdata-image-name=\"Remove Scurvy.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> cleanses Kayn from <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f7/Drowsy_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223936\" \t alt=\"Drowsy icon\"  \tclass=\"\" \t \tdata-image-key=\"Drowsy_icon.png\" \tdata-image-name=\"Drowsy icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> drowsiness.\n Kayn is immune to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Flee_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223937\" \t alt=\"Flee icon\"  \tclass=\"\" \t \tdata-image-key=\"Flee_icon.png\" \tdata-image-name=\"Flee icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> fear during Umbral Trespass.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Roots will not prevent Kayn from initiating the recast.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Displacements cannot interrupt the initial dash. If the airborne source applies a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3e/Malefic_Visions.png/revision/latest/scale-to-width-down/20?cb=20170217194900\" \t alt=\"Malefic Visions\"  \tclass=\"\" \t \tdata-image-key=\"Malefic_Visions.png\" \tdata-image-name=\"Malefic Visions.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> debuff, Kayn attaches to his target immediately, ending the dash prematurely in the process. The debuff is also removed briefly after.\n\n Until the recast or after the duration, the ability will have had no effect on the target for the purposes of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0a/Electrocute_rune.png/revision/latest/scale-to-width-down/20?cb=20171126182032\" \t alt=\"Electrocute rune\"  \tclass=\"\" \t \tdata-image-key=\"Electrocute_rune.png\" \tdata-image-name=\"Electrocute rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Electrocute or the 'in-combat' status.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shields will prevent Kayn from infesting the target, but will do nothing to mitigate the recast when used once he has already infested them.\n If Kayn targets an enemy that is currently being protected by a spell shield, the ability will simply go on cooldown without making him infest his target.\n This is also true for <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/94/Fiora_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150725010749\" \t alt=\"Fiora OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Fiora_OriginalSquare.png\" \tdata-image-name=\"Fiora OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Fiora's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/de/Riposte.png/revision/latest/scale-to-width-down/20?cb=20150721193218\" \t alt=\"Riposte\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Riposte.png\" \tdata-image-name=\"Riposte.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Riposte.\n\n\n Umbral Trespass cannot be cast on targetable <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Omen_of_Death.png/revision/latest/scale-to-width-down/20?cb=20130929123503\" \t alt=\"Omen of Death\"  \tclass=\"\" \t \tdata-image-key=\"Omen_of_Death.png\" \tdata-image-name=\"Omen of Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> zombie states such as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Sion_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402221054\" \t alt=\"Sion OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sion_OriginalSquare.png\" \tdata-image-name=\"Sion OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sion during <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Glory_in_Death.png/revision/latest/scale-to-width-down/20?cb=20170818194247\" \t alt=\"Glory in Death\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Glory_in_Death.png\" \tdata-image-name=\"Glory in Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Glory in Death.\n The damage is not blocked if the target becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable.\n The screen will direct to the target's position upon attaching.\n As <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d4/Rhaast_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20171109063634\" \t alt=\"Rhaast OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rhaast_OriginalSquare.png\" \tdata-image-name=\"Rhaast OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rhaast, an alternate icon is used for the initial activation of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Umbral_Trespass_R.png/revision/latest/scale-to-width-down/20?cb=20171221043902\" \t alt=\"Umbral Trespass R\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Umbral_Trespass_R.png\" \tdata-image-name=\"Umbral Trespass R.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Umbral Trespass.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "Kayn - R",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  }
+]

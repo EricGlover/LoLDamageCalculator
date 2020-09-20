@@ -1,0 +1,225 @@
+[
+  {
+    "name": "Staggering Blow",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Nautilus's basic attacks deal 8 − 110 (based on level) bonus physical damage and  root his target for 0.75 − 1.5 (based on level) seconds.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Staggering Blow.png",
+    "icons": [
+      "Staggering Blow.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Nautilus's basic attacks deal 8 − 110 (based on level) bonus physical damage and  root his target for 0.75 − 1.5 (based on level) seconds.",
+      "This effect cannot occur on the same target more than once every few seconds."
+    ]
+  },
+  {
+    "name": "Dredge Line",
+    "cost": [
+      60
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      14,
+      13,
+      12,
+      11,
+      10
+    ],
+    "description": "Active: Nautilus hurls his anchor forward in a line in the target direction. If it hits an enemy, it simultaneously  drags them towards Nautilus while he  dashes towards them within 0.9 seconds, during which the target is  revealed, and dealing magic damage and  rooting them for 0.1 seconds.",
+    "leveling": "Magic Damage:70 / 115 / 160 / 205 / 250 (+ 90% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "true",
+    "flatDamage": [
+      70,
+      115,
+      160,
+      205,
+      250
+    ],
+    "ratios": [
+      {
+        "value": 90,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Dredge Line.png",
+    "icons": [
+      "Dredge Line.png"
+    ],
+    "levelings": [
+      "Magic Damage:70 / 115 / 160 / 205 / 250 (+ 90% AP)"
+    ],
+    "descriptions": [
+      "Active: Nautilus hurls his anchor forward in a line in the target direction. If it hits an enemy, it simultaneously  drags them towards Nautilus while he  dashes towards them within 0.9 seconds, during which the target is  revealed, and dealing magic damage and  rooting them for 0.1 seconds.",
+      "If the anchor hits terrain instead, Nautilus dashes to that location entirely and Dredge Line refunds 50% of its  cooldown and  mana cost.",
+      "Nautilus is unable to move or attack while Dredge Line is in flight."
+    ]
+  },
+  {
+    "name": "Titan's Wrath",
+    "cost": [
+      80
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12
+    ],
+    "description": "Active: Nautilus  shields himself for up to 6 seconds.",
+    "leveling": "Shield Strength:45 / 55 / 65 / 75 / 85 (+ 9 / 10 / 11 / 12 / 13% maximum health)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      45,
+      55,
+      65,
+      75,
+      85
+    ],
+    "ratios": [
+      {
+        "value": 9,
+        "type": "bonus ad"
+      },
+      {
+        "value": 10,
+        "type": "bonus ad"
+      },
+      {
+        "value": 11,
+        "type": "bonus ad"
+      },
+      {
+        "value": 12,
+        "type": "bonus ad"
+      },
+      {
+        "value": 13,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Titan's Wrath.png",
+    "icons": [
+      "Titan's Wrath.png"
+    ],
+    "levelings": [
+      "Shield Strength:45 / 55 / 65 / 75 / 85 (+ 9 / 10 / 11 / 12 / 13% maximum health)",
+      "Magic Damage Per Second:»15 / 20 / 25 / 30 / 35 (+ 20% AP)«Total Magic Damage:30 / 40 / 50 / 60 / 70 (+ 40% AP)"
+    ],
+    "descriptions": [
+      "Active: Nautilus  shields himself for up to 6 seconds.",
+      "While the shield holds, his basic attacks deal bonus magic damage over 2 seconds to his target and all enemies around them.",
+      "Titan's Wrath  resets Nautilus'  basic attack timer."
+    ]
+  },
+  {
+    "name": "Riptide",
+    "cost": [
+      50,
+      60,
+      70,
+      80,
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      7,
+      6,
+      6,
+      5,
+      5
+    ],
+    "description": "Active: Nautilus creates 3 waves of explosions that radiate from him over 0.561 seconds, each dealing magic damage to all enemies hit and  slowing them by an amount that decays over 1.5 seconds.",
+    "leveling": "Magic Damage Per Wave:55 / 85 / 115 / 145 / 175 (+ 30% AP)Slow:30 / 35 / 40 / 45 / 50%",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      55,
+      85,
+      115,
+      145,
+      175
+    ],
+    "ratios": [
+      {
+        "value": 30,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Riptide.png",
+    "icons": [
+      "Riptide.png"
+    ],
+    "levelings": [
+      "Magic Damage Per Wave:55 / 85 / 115 / 145 / 175 (+ 30% AP)Slow:30 / 35 / 40 / 45 / 50%",
+      "Additional Magic Damage:»27.5 / 42.5 / 57.5 / 72.5 / 87.5 (+ 15% AP)«Total Single-Target Damage:110 / 170 / 230 / 290 / 350 (+ 60% AP)"
+    ],
+    "descriptions": [
+      "Active: Nautilus creates 3 waves of explosions that radiate from him over 0.561 seconds, each dealing magic damage to all enemies hit and  slowing them by an amount that decays over 1.5 seconds.",
+      "Enemies hit by subsequent waves beyond the first are dealt half damage."
+    ]
+  },
+  {
+    "name": "Depth Charge",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      120,
+      100,
+      80
+    ],
+    "description": "Active: Nautilus  reveals himself before sending out a  Depth Charge that chases the target enemy champion. Upon reaching the target, the charge erupts from beneath them, dealing magic damage and  knocking them up for 1 second as well as  stunning them for a duration.",
+    "leveling": "Magic Damage:150 / 212.5 / 275 / 337.5 / 400 (+ 80% AP)\nStun Duration:1 / 1.5 / 2",
+    "skill": "R",
+    "damageType": "magic",
+    "isProjectile": "false",
+    "flatDamage": [
+      150,
+      212.5,
+      275,
+      337.5,
+      400
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.46,
+    "icon": "Depth Charge.png",
+    "icons": [
+      "Depth Charge.png",
+      "Depth Charge 2.png"
+    ],
+    "levelings": [
+      "Magic Damage:150 / 212.5 / 275 / 337.5 / 400 (+ 80% AP)\nStun Duration:1 / 1.5 / 2",
+      "Secondary Magic Damage:125 / 175 / 225 (+ 40% AP)"
+    ],
+    "descriptions": [
+      "Active: Nautilus  reveals himself before sending out a  Depth Charge that chases the target enemy champion. Upon reaching the target, the charge erupts from beneath them, dealing magic damage and  knocking them up for 1 second as well as  stunning them for a duration.",
+      "All enemies hit along the way and those within the eruption are dealt reduced damage,  knocked up for 1 second, and are also  stunned."
+    ]
+  }
+]

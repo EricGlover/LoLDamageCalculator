@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Headshot",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Caitlyn's basic attacks generate a stack of Headshot on-attack, doubled when attacking from  brush. At 6 stacks, or 5 while in brush, Caitlyn's next basic attack becomes  unstoppable and deals (50 / 75 / 100% (based on level) + (125% +  15.625%) critical strike chance) AD  bonus physical damage, increased to (100% + (125% +  15.625%) critical strike chance) AD against non-champions.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Physical",
+    "isProjectile": "True",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Headshot.png",
+    "icons": [
+      "Headshot.png",
+      "Headshot 2.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Caitlyn's basic attacks generate a stack of Headshot on-attack, doubled when attacking from  brush. At 6 stacks, or 5 while in brush, Caitlyn's next basic attack becomes  unstoppable and deals (50 / 75 / 100% (based on level) + (125% +  15.625%) critical strike chance) AD  bonus physical damage, increased to (100% + (125% +  15.625%) critical strike chance) AD against non-champions.",
+      "Caitlyn may fire other empowered basic attacks until Headshot hits a target, which consumes all stacks.",
+      "Enemies that step over a  Yordle Snap Trap or are hit by  90 Caliber Net can grant an additional headshot at  1300 range for 1.8 seconds, without consuming stacks of Headshot."
+    ]
+  },
+  {
+    "name": "Piltover Peacemaker",
+    "cost": [
+      50,
+      60,
+      70,
+      80,
+      90
+    ],
+    "costType": "mana",
+    "coolDown": [
+      10,
+      9,
+      8,
+      7,
+      6
+    ],
+    "description": "Active: Caitlyn fires a projectile in the target direction that deals physical damage to the first enemy it passes through, after which it expands in width but deals only 60% damage to all enemies it passes thereafter.",
+    "leveling": "Physical Damage:»50 / 90 / 130 / 170 / 210 (+ 130 / 140 / 150 / 160 / 170% AD)«Reduced Damage:30 / 54 / 78 / 102 / 126 (+ 78 / 84 / 90 / 96 / 102% AD)",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "True",
+    "flatDamage": [
+      50,
+      90,
+      130,
+      170,
+      210
+    ],
+    "ratios": [
+      {
+        "value": 130,
+        "type": "bonus ad"
+      },
+      {
+        "value": 140,
+        "type": "bonus ad"
+      },
+      {
+        "value": 150,
+        "type": "bonus ad"
+      },
+      {
+        "value": 160,
+        "type": "bonus ad"
+      },
+      {
+        "value": 170,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.625,
+    "icon": "Piltover Peacemaker.png",
+    "icons": [
+      "Piltover Peacemaker.png"
+    ],
+    "levelings": [
+      "Physical Damage:»50 / 90 / 130 / 170 / 210 (+ 130 / 140 / 150 / 160 / 170% AD)«Reduced Damage:30 / 54 / 78 / 102 / 126 (+ 78 / 84 / 90 / 96 / 102% AD)"
+    ],
+    "descriptions": [
+      "Active: Caitlyn fires a projectile in the target direction that deals physical damage to the first enemy it passes through, after which it expands in width but deals only 60% damage to all enemies it passes thereafter.",
+      "Enemies  revealed by  Yordle Snap Trap always take full damage from Piltover Peacemaker."
+    ]
+  },
+  {
+    "name": "Yordle Snap Trap",
+    "cost": [
+      20
+    ],
+    "costType": "Mana + 1 Charge",
+    "coolDown": [
+      null
+    ],
+    "description": "Passive: Caitlyn periodically stocks a Yordle Snap Trap charge, up to a maximum amount.",
+    "leveling": "Maximum Traps:3 / 3 / 4 / 4 / 5",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      3,
+      3,
+      4,
+      4,
+      5
+    ],
+    "ratios": [],
+    "castTime": 0.25,
+    "icon": "Yordle Snap Trap.png",
+    "icons": [
+      "Yordle Snap Trap.png"
+    ],
+    "levelings": [
+      "Maximum Traps:3 / 3 / 4 / 4 / 5",
+      "Trap Duration:30 / 35 / 40 / 45 / 50",
+      " Headshot Damage Increase:60 / 105 / 150 / 195 / 240 (+ 40 / 55 / 70 / 85 / 100% bonus AD)"
+    ],
+    "descriptions": [
+      "Passive: Caitlyn periodically stocks a Yordle Snap Trap charge, up to a maximum amount.",
+      "Active: Caitlyn sets a visible  untargetable trap at the target location which briefly grants  sight of the area and arms after 1 second, lasting for a duration. After the maximum amount of traps is laid down, deploying another immediately destroys the oldest one.",
+      "The next enemy champion that springs the trap is  rooted for 1.5 seconds,  revealed for 3 seconds, takes additional damage from  Headshot, and becomes immune to Yordle Snap Traps for 3 seconds.",
+      "Yordle Snap Traps trigger simultaneously if stacked on top of each other, granting additional  Headshots for each one beyond the first, but only increasing the damage for the first one."
+    ]
+  },
+  {
+    "name": "90 Caliber Net",
+    "cost": [
+      75
+    ],
+    "costType": "mana",
+    "coolDown": [
+      16,
+      14,
+      13,
+      11,
+      10
+    ],
+    "description": "Active: Caitlyn fires a net in the target direction and  recoils 400 units in the opposite direction, dealing magic damage to the first enemy hit and  slowing them by 50% for 1 second.",
+    "leveling": "Magic damage:70 / 110 / 150 / 190 / 230 (+ 80% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      70,
+      110,
+      150,
+      190,
+      230
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.15,
+    "icon": "90 Caliber Net.png",
+    "icons": [
+      "90 Caliber Net.png"
+    ],
+    "levelings": [
+      "Magic damage:70 / 110 / 150 / 190 / 230 (+ 80% AP)"
+    ],
+    "descriptions": [
+      "Active: Caitlyn fires a net in the target direction and  recoils 400 units in the opposite direction, dealing magic damage to the first enemy hit and  slowing them by 50% for 1 second."
+    ]
+  },
+  {
+    "name": "Ace in the Hole",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      90,
+      82,
+      75,
+      67,
+      60
+    ],
+    "description": "Active: Caitlyn locks onto the target enemy  champion and  channels for 1 second,  revealing them and  revealing herself to enemies.",
+    "leveling": "Physical damage:300 / 412.5 / 525 / 637.5 / 750 (+ 200% bonus AD)",
+    "skill": "R",
+    "damageType": "Physical",
+    "isProjectile": "True",
+    "flatDamage": [
+      300,
+      412.5,
+      525,
+      637.5,
+      750
+    ],
+    "ratios": [
+      {
+        "value": 200,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.375,
+    "icon": "Ace in the Hole.png",
+    "icons": [
+      "Ace in the Hole.png"
+    ],
+    "levelings": [
+      "Physical damage:300 / 412.5 / 525 / 637.5 / 750 (+ 200% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Caitlyn locks onto the target enemy  champion and  channels for 1 second,  revealing them and  revealing herself to enemies.",
+      "Ace in the Hole is placed on a 5-second  cooldown if canceled.",
+      "Once Caitlyn completes the channel, she fires a homing bullet toward the target that deals physical damage to the first enemy champion it hits."
+    ]
+  }
+]

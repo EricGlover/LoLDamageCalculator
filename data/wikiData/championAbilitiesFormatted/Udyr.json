@@ -1,0 +1,207 @@
+[
+  {
+    "name": "Monkey's Agility",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Udyr gains  5 bonus movement speed and  10% bonus attack speed for 5 seconds every time he uses an ability, stacking up to 3 times, up to a maximum of  15 bonus movement speed and  30% bonus attack speed. The duration refreshes on subsequent ability casts.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Monkey's Agility.png",
+    "icons": [
+      "Monkey's Agility.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Udyr gains  5 bonus movement speed and  10% bonus attack speed for 5 seconds every time he uses an ability, stacking up to 3 times, up to a maximum of  15 bonus movement speed and  30% bonus attack speed. The duration refreshes on subsequent ability casts.",
+      "Innate - Four Stances: Udyr has no ultimate ability and instead has 4 basic abilities. Each of his abilities provides a passive effect that lasts until he activates a different ability, called his current Stance. Activating any of his abilities will prevent his previous Stance from triggering any more on-hit effects, and will prevent him from activating another ability for 2 seconds.",
+      "Starting at level 16, all abilities can gain a 6th rank."
+    ]
+  },
+  {
+    "name": "Tiger Stance",
+    "cost": [
+      45
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      6
+    ],
+    "description": "Stance: Udyr's basic attacks generate Tiger stacks on-hit, up to 3. At maximum stacks, Udyr's next basic attack is a Tiger Strike, which deals bonus physical damage over 2 seconds as well as instantly dealing any remaining damage from any previous Tiger Strikes on the target.",
+    "leveling": "Total Bonus Physical Damage:»30 / 60 / 90 / 120 / 150 / 180 (+ 110 / 125 / 140 / 155 / 170 / 185% AD)«Damage Per Half-Second:7.5 / 15 / 22.5 / 30 / 37.5 / 45 (+ 27.5 / 31.25 / 35 / 38.75 / 42.5 / 46.25% AD)",
+    "skill": "Q",
+    "damageType": "physical",
+    "isProjectile": "",
+    "flatDamage": [
+      30,
+      60,
+      90,
+      120,
+      150
+    ],
+    "ratios": [
+      {
+        "value": 110,
+        "type": "bonus ad"
+      },
+      {
+        "value": 125,
+        "type": "bonus ad"
+      },
+      {
+        "value": 140,
+        "type": "bonus ad"
+      },
+      {
+        "value": 155,
+        "type": "bonus ad"
+      },
+      {
+        "value": 170,
+        "type": "bonus ad"
+      },
+      {
+        "value": 185,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Tiger Stance.png",
+    "icons": [
+      "Tiger Stance.png"
+    ],
+    "levelings": [
+      "Total Bonus Physical Damage:»30 / 60 / 90 / 120 / 150 / 180 (+ 110 / 125 / 140 / 155 / 170 / 185% AD)«Damage Per Half-Second:7.5 / 15 / 22.5 / 30 / 37.5 / 45 (+ 27.5 / 31.25 / 35 / 38.75 / 42.5 / 46.25% AD)",
+      "Bonus Attack Speed:30 / 40 / 50 / 60 / 70 / 80%"
+    ],
+    "descriptions": [
+      "Stance: Udyr's basic attacks generate Tiger stacks on-hit, up to 3. At maximum stacks, Udyr's next basic attack is a Tiger Strike, which deals bonus physical damage over 2 seconds as well as instantly dealing any remaining damage from any previous Tiger Strikes on the target.",
+      "Active: Udyr gains  bonus attack speed for 5 seconds, and instantly generates 3 Tiger stacks."
+    ]
+  },
+  {
+    "name": "Turtle Stance",
+    "cost": [
+      45
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      6
+    ],
+    "description": "Stance: Udyr's basic attacks generate Turtle stacks on-hit, up to 3. At maximum stacks, Udyr's next basic attack  heals him for  2.5% − 5% (based on missing health) of his maximum health.",
+    "leveling": "Shield Strength:60 / 95 / 130 / 165 / 200 / 235 (+ 50% AP)",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      60,
+      95,
+      130,
+      165,
+      200
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Turtle Stance.png",
+    "icons": [
+      "Turtle Stance.png"
+    ],
+    "levelings": [
+      "Shield Strength:60 / 95 / 130 / 165 / 200 / 235 (+ 50% AP)"
+    ],
+    "descriptions": [
+      "Stance: Udyr's basic attacks generate Turtle stacks on-hit, up to 3. At maximum stacks, Udyr's next basic attack  heals him for  2.5% − 5% (based on missing health) of his maximum health.",
+      "Active: Udyr  shields himself for up to 5 seconds, and instantly generates 3 Turtle stacks."
+    ]
+  },
+  {
+    "name": "Bear Stance",
+    "cost": [
+      45
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      6
+    ],
+    "description": "Stance: Udyr's basic attacks are  unstoppable and they  stun his target for 1 second. The stun cannot occur on the same target more than once every few seconds.",
+    "leveling": "Bonus Movement Speed:15 / 20 / 25 / 30 / 35 / 40%\nBonus Movement Speed Duration:2 / 2.25 / 2.5 / 2.75 / 3 / 3.25",
+    "skill": "E",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      15,
+      20,
+      25,
+      30,
+      35
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Bear Stance.png",
+    "icons": [
+      "Bear Stance.png"
+    ],
+    "levelings": [
+      "Bonus Movement Speed:15 / 20 / 25 / 30 / 35 / 40%\nBonus Movement Speed Duration:2 / 2.25 / 2.5 / 2.75 / 3 / 3.25"
+    ],
+    "descriptions": [
+      "Stance: Udyr's basic attacks are  unstoppable and they  stun his target for 1 second. The stun cannot occur on the same target more than once every few seconds.",
+      "Active: Udyr gains  bonus movement speed and is  ghosted for the next few seconds. Additionally, his next basic attack gains  50 bonus range and has him  lunge at his target."
+    ]
+  },
+  {
+    "name": "Phoenix Stance",
+    "cost": [
+      45
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      6
+    ],
+    "description": "Stance: Udyr's basic attacks generate Phoenix stacks on-hit, up to 3. At maximum stacks, Udyr's next basic attack unleashes fire in a cone in front of him that deals magic damage to all enemies hit.",
+    "leveling": "Cone Damage:60 / 110 / 160 / 210 / 260 / 310 (+ 70% AP)",
+    "skill": "R",
+    "damageType": "magic",
+    "isProjectile": "",
+    "flatDamage": [
+      60,
+      110,
+      160,
+      210,
+      260
+    ],
+    "ratios": [
+      {
+        "value": 70,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Phoenix Stance.png",
+    "icons": [
+      "Phoenix Stance.png"
+    ],
+    "levelings": [
+      "Cone Damage:60 / 110 / 160 / 210 / 260 / 310 (+ 70% AP)",
+      "Total Magic Damage:»40 / 80 / 120 / 160 / 200 / 240 (+ 100% AP)«Magic Damage Per Second:10 / 20 / 30 / 40 / 50 / 60 (+ 25% AP)"
+    ],
+    "descriptions": [
+      "Stance: Udyr's basic attacks generate Phoenix stacks on-hit, up to 3. At maximum stacks, Udyr's next basic attack unleashes fire in a cone in front of him that deals magic damage to all enemies hit.",
+      "Active: Udyr unleashes an aura of pulsing waves of fire around himself for 4 seconds, dealing magic damage each second to all nearby enemies for the duration, as well as instantly generating 3 Phoenix stacks."
+    ]
+  }
+]

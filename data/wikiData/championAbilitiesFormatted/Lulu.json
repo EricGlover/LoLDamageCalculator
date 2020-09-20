@@ -1,0 +1,174 @@
+[
+  {
+    "name": "Glitterlance",
+    "cost": [
+      50,
+      55,
+      60,
+      65,
+      70
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      7
+    ],
+    "description": "Active: Lulu and  Pix each fire a magic bolt towards the target point, dealing magic damage to the first enemy they pass through, reduced to 70% against enemies thereafter, and  slowing them by 80%, decaying over 2 seconds.",
+    "leveling": "Magic Damage:80 / 125 / 170 / 215 / 260 (+ 50% AP)\nReduced Damage:56 / 87.5 / 119 / 150.5 / 182 (+ 35% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      80,
+      125,
+      170,
+      215,
+      260
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Glitterlance.png",
+    "icons": [
+      "Glitterlance.png"
+    ],
+    "levelings": [
+      "Magic Damage:80 / 125 / 170 / 215 / 260 (+ 50% AP)\nReduced Damage:56 / 87.5 / 119 / 150.5 / 182 (+ 35% AP)"
+    ],
+    "descriptions": [
+      "Active: Lulu and  Pix each fire a magic bolt towards the target point, dealing magic damage to the first enemy they pass through, reduced to 70% against enemies thereafter, and  slowing them by 80%, decaying over 2 seconds.",
+      "If an enemy is hit by both bolts, the second bolt will deal no damage if the first bolt dealt full damage to them, or 30% damage if the first bolt hit another enemy before them. The second hit will refresh the  slow."
+    ]
+  },
+  {
+    "name": "Whimsy",
+    "cost": [
+      65
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      16,
+      15,
+      14,
+      13,
+      12
+    ],
+    "description": "Enemy Cast: Lulu launches a spell on the target enemy champion,  polymorphing them into a harmless critter.",
+    "leveling": "Polymorph Duration:1.25 / 1.5 / 1.75 / 2 / 2.25",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "True",
+    "flatDamage": [
+      1.25,
+      1.5,
+      1.75,
+      2,
+      2.25
+    ],
+    "ratios": [],
+    "castTime": 0.2419,
+    "icon": "Whimsy.png",
+    "icons": [
+      "Whimsy.png"
+    ],
+    "levelings": [
+      "Polymorph Duration:1.25 / 1.5 / 1.75 / 2 / 2.25",
+      "Bonus Attack Speed:25 / 30 / 35 / 40 / 45%Duration:3 / 3.25 / 3.5 / 3.75 / 4"
+    ],
+    "descriptions": [
+      "Enemy Cast: Lulu launches a spell on the target enemy champion,  polymorphing them into a harmless critter.",
+      "The polymorphed target is also  disarmed and has their base movement speed reduced by 60.",
+      "Ally Cast: Lulu instantly casts erratic magic upon the target ally champion or herself, giving the target  bonus attack speed and  30% (+ 5% per 100 AP) bonus movement speed for the next few seconds."
+    ]
+  },
+  {
+    "name": "Help, Pix!",
+    "cost": [
+      60,
+      65,
+      70,
+      75,
+      80
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      8
+    ],
+    "description": "Enemy Cast: Lulu sends  Pix to the target enemy for 4 seconds, dealing magic damage and  revealing them for the same duration.",
+    "leveling": "Magic Damage:80 / 120 / 160 / 200 / 240 (+ 40% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "False",
+    "flatDamage": [
+      80,
+      120,
+      160,
+      200,
+      240
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Help, Pix!.png",
+    "icons": [
+      "Help, Pix!.png"
+    ],
+    "levelings": [
+      "Magic Damage:80 / 120 / 160 / 200 / 240 (+ 40% AP)",
+      "Shield Strength:80 / 120 / 160 / 200 / 240 (+ 60% AP)"
+    ],
+    "descriptions": [
+      "Enemy Cast: Lulu sends  Pix to the target enemy for 4 seconds, dealing magic damage and  revealing them for the same duration.",
+      "Ally Cast: Lulu sends  Pix to the target ally for 6 seconds,  shielding them for 2.5 seconds if they are a  champion."
+    ]
+  },
+  {
+    "name": "Wild Growth",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      110,
+      95,
+      80
+    ],
+    "description": "Active: Lulu enlarges the target allied  champion or herself for 7 seconds, granting them  bonus health, 40% increased size and an aura that  slows nearby enemies for the duration. On-activation, nearby enemies around the target are also  knocked up for 0.75 seconds.",
+    "leveling": "Bonus Health:300 / 450 / 600 (+ 50% AP)Slow:30 / 45 / 60%",
+    "skill": "R",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      300,
+      450,
+      600,
+      50,
+      30
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Wild Growth.png",
+    "icons": [
+      "Wild Growth.png"
+    ],
+    "levelings": [
+      "Bonus Health:300 / 450 / 600 (+ 50% AP)Slow:30 / 45 / 60%"
+    ],
+    "descriptions": [
+      "Active: Lulu enlarges the target allied  champion or herself for 7 seconds, granting them  bonus health, 40% increased size and an aura that  slows nearby enemies for the duration. On-activation, nearby enemies around the target are also  knocked up for 0.75 seconds.",
+      "The slow persists for 0.25 seconds after the enemy leaves range or Wild Growth ends."
+    ]
+  }
+]

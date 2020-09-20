@@ -1,5 +1,203 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Shepherd of Souls",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate- Final Service: Yorick raises a grave for every enemy  champion, large  monster and 12th / 6th / 2nd (based on level) non-champion enemy that dies near him, as well as for every enemy he kills with  Last Rites. Only 4 graves can exist at the same time, with the furthest ones being replaced by the newest. Large monsters that die near Yorick always leave a grave.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Shepherd of Souls.png",
+      "icons": [
+        "Shepherd of Souls.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate- Final Service: Yorick raises a grave for every enemy  champion, large  monster and 12th / 6th / 2nd (based on level) non-champion enemy that dies near him, as well as for every enemy he kills with  Last Rites. Only 4 graves can exist at the same time, with the furthest ones being replaced by the newest. Large monsters that die near Yorick always leave a grave.",
+        "Yorick can use  Awakening to raise a Mist Walker from a grave.",
+        "Innate - The Horde: There can only exist 4 Mist Walkers at the same time, with the closest ones being replaced by the newest."
+      ]
+    },
+    {
+      "name": "Last Rites",
+      "cost": [
+        25
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        7,
+        6,
+        5,
+        4,
+        4
+      ],
+      "description": "Active: Yorick curses his shovel, causing his next basic attack within 6 seconds to become  unstoppable, gain  50 bonus range, deal bonus physical damage, and  heal Yorick for 12 − 82 (based on level), doubled to 24 − 164 (based on level) if he is  below 50% maximum health.",
+      "leveling": "Bonus Physical Damage:30 / 55 / 80 / 105 / 130 (+ 40% AD)",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        30,
+        55,
+        80,
+        105,
+        130
+      ],
+      "ratios": [
+        {
+          "value": 40,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Last Rites.png",
+      "icons": [
+        "Last Rites.png"
+      ],
+      "levelings": [
+        "Bonus Physical Damage:30 / 55 / 80 / 105 / 130 (+ 40% AD)"
+      ],
+      "descriptions": [
+        "Active: Yorick curses his shovel, causing his next basic attack within 6 seconds to become  unstoppable, gain  50 bonus range, deal bonus physical damage, and  heal Yorick for 12 − 82 (based on level), doubled to 24 − 164 (based on level) if he is  below 50% maximum health.",
+        "If there are at least 3 graves nearby and Last Rites is active or on  cooldown, Yorick is granted the ability to cast  Awakening.",
+        "Last Rites  resets Yorick's basic attack timer."
+      ]
+    },
+    {
+      "name": "Dark Procession",
+      "cost": [
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ],
+      "description": "Active: After a 1-second delay, Yorick summons a circular wall of spirits around the target area that lasts up to 4 seconds,  displacing enemies away from it at the time of cast and acting as impassable terrain for them, while allowing allies to walk through.",
+      "leveling": "Wall Health:2 / 2 / 3 / 3 / 4",
+      "skill": "W",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        2,
+        2,
+        3,
+        3,
+        4
+      ],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Dark Procession.png",
+      "icons": [
+        "Dark Procession.png"
+      ],
+      "levelings": [
+        "Wall Health:2 / 2 / 3 / 3 / 4"
+      ],
+      "descriptions": [
+        "Active: After a 1-second delay, Yorick summons a circular wall of spirits around the target area that lasts up to 4 seconds,  displacing enemies away from it at the time of cast and acting as impassable terrain for them, while allowing allies to walk through.",
+        "Dark Procession can only be targeted by enemy  champion basic attacks and  turrets. It takes 1 damage per attack from champions and dissolves instantly from turret shots."
+      ]
+    },
+    {
+      "name": "Mourning Mist",
+      "cost": [
+        50,
+        55,
+        60,
+        65,
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "description": "Active: Yorick hurls a globule of Black Mist that splashes across an off-centered area at the target location, dealing 15% of target's current health magic damage to all enemies hit, down to a minimum threshold.",
+      "leveling": "Minimum Magic Damage:70 / 105 / 140 / 175 / 210 (+ 70% AP)",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        70,
+        105,
+        140,
+        175,
+        210
+      ],
+      "ratios": [
+        {
+          "value": 70,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.3,
+      "icon": "Mourning Mist.png",
+      "icons": [
+        "Mourning Mist.png",
+        "Mourning Mist 2.png"
+      ],
+      "levelings": [
+        "Minimum Magic Damage:70 / 105 / 140 / 175 / 210 (+ 70% AP)"
+      ],
+      "descriptions": [
+        "Active: Yorick hurls a globule of Black Mist that splashes across an off-centered area at the target location, dealing 15% of target's current health magic damage to all enemies hit, down to a minimum threshold.",
+        "Enemy  champions and large  monsters hit by the Black Mist are  slowed by 30% for 2 seconds, and are marked for 4 seconds, during which Yorick, Mist Walkers and the  The Maiden gain  20% bonus movement speed when moving towards them.",
+        "Mist Walkers will  leap to enemy champions and large monsters cursed by the mark."
+      ]
+    },
+    {
+      "name": "Eulogy of the Isles",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        160,
+        130,
+        100
+      ],
+      "description": "Active: Yorick summons the Maiden of the Mist along with a few Mist Walkers at the target location, which remain on the battlefield until she or Yorick dies. Eulogy of the Isles can be recast once while The Maiden of the Mist is alive after 10 seconds of the activation.",
+      "leveling": "Mist Walkers:2 / 3 / 4",
+      "skill": "R",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        2,
+        3,
+        4
+      ],
+      "ratios": [],
+      "castTime": 0.5,
+      "icon": "Eulogy of the Isles.png",
+      "icons": [
+        "Eulogy of the Isles.png"
+      ],
+      "levelings": [
+        "Mist Walkers:2 / 3 / 4"
+      ],
+      "descriptions": [
+        "Active: Yorick summons the Maiden of the Mist along with a few Mist Walkers at the target location, which remain on the battlefield until she or Yorick dies. Eulogy of the Isles can be recast once while The Maiden of the Mist is alive after 10 seconds of the activation.",
+        "Recast: Yorick sets The Maiden of the Mist free, allowing her to push the nearest lane until she dies."
+      ]
+    }
+  ],
   "id": "Yorick",
   "key": "83",
   "name": "Yorick",
@@ -12,6 +210,7 @@
     "difficulty": 6
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Yorick.png",
     "full": "Yorick.png",
     "sprite": "champion4.png",
     "group": "champion",

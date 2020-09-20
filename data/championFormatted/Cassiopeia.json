@@ -1,6 +1,32 @@
 {
   "abilities": [
     {
+      "name": "Serpentine Grace",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Cassiopeia cannot purchase boots and instead gains 4 − 72 (based on level)  bonus movement speed, for a total of 332 − 400 (based on level)  movement speed.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Serpentine Grace.png",
+      "icons": [
+        "Serpentine Grace.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Cassiopeia cannot purchase boots and instead gains 4 − 72 (based on level)  bonus movement speed, for a total of 332 − 400 (based on level)  movement speed."
+      ]
+    },
+    {
       "name": "Noxious Blast",
       "cost": [
         50,
@@ -13,7 +39,7 @@
       "coolDown": [
         3
       ],
-      "description": "Active: After a 0.4-second delay, Cassiopeia blasts the target area with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Poison_icon.png/revision/latest/scale-to-width-down/20?cb=20150129035607\" \t alt=\"Poison icon\"  \tclass=\"\" \t \tdata-image-key=\"Poison_icon.png\" \tdata-image-name=\"Poison icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Noxious Poison, dealing magic damage every second for 3 seconds to all enemies it hits.",
+      "description": "Active: After a 0.4-second delay, Cassiopeia blasts the target area with  Noxious Poison, dealing magic damage every second for 3 seconds to all enemies it hits.",
       "leveling": "Total Magic Damage:»75 / 110 / 145 / 180 / 215 (+ 90% AP)«Damage Per Second:25 / 36.67 / 48.33 / 60 / 71.67 (+ 30% AP)",
       "skill": "Q",
       "damageType": "Magic",
@@ -31,7 +57,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Noxious Blast.png",
+      "icons": [
+        "Noxious Blast.png"
+      ],
+      "levelings": [
+        "Total Magic Damage:»75 / 110 / 145 / 180 / 215 (+ 90% AP)«Damage Per Second:25 / 36.67 / 48.33 / 60 / 71.67 (+ 30% AP)",
+        "Bonus Movement Speed:30 / 35 / 40 / 45 / 50%"
+      ],
+      "descriptions": [
+        "Active: After a 0.4-second delay, Cassiopeia blasts the target area with  Noxious Poison, dealing magic damage every second for 3 seconds to all enemies it hits.",
+        "Cassiopeia gains  bonus movement speed that decays over 3 seconds if Noxious Blast hits an enemy  champion."
+      ]
     },
     {
       "name": "Miasma",
@@ -50,7 +88,7 @@
         18,
         16
       ],
-      "description": "Active: Cassiopeia spits forth eight bolts of venom in an arc at the target area, leaving toxic clouds of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Poison_icon.png/revision/latest/scale-to-width-down/20?cb=20150129035607\" \t alt=\"Poison icon\"  \tclass=\"\" \t \tdata-image-key=\"Poison_icon.png\" \tdata-image-name=\"Poison icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Debilitating Poison where they hit the ground for 5 seconds.",
+      "description": "Active: Cassiopeia spits forth eight bolts of venom in an arc at the target area, leaving toxic clouds of  Debilitating Poison where they hit the ground for 5 seconds.",
       "leveling": "Damage Per Second:»20 / 25 / 30 / 35 / 40 (+ 15% AP)«Maximum Damage:100 / 125 / 150 / 175 / 200 (+ 75% AP)Slow:40 / 50 / 60 / 70 / 80%",
       "skill": "W",
       "damageType": "Magic",
@@ -68,7 +106,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Miasma.png",
+      "icons": [
+        "Miasma.png"
+      ],
+      "levelings": [
+        "Damage Per Second:»20 / 25 / 30 / 35 / 40 (+ 15% AP)«Maximum Damage:100 / 125 / 150 / 175 / 200 (+ 75% AP)Slow:40 / 50 / 60 / 70 / 80%"
+      ],
+      "descriptions": [
+        "Active: Cassiopeia spits forth eight bolts of venom in an arc at the target area, leaving toxic clouds of  Debilitating Poison where they hit the ground for 5 seconds.",
+        " Debilitating Poison deals magic damage to enemies standing upon it every second, also  grounding them and applying a  slow that decays over the area's duration.",
+        "Miasma will cast at max range if cast beyond that."
+      ]
     },
     {
       "name": "Twin Fang",
@@ -79,7 +129,7 @@
       "coolDown": [
         0
       ],
-      "description": "Active: Cassiopeia launches her fangs at the target enemy, dealing 52 − 120 (based on level) (+ 10% AP) magic damage. If Twin Fang kills its target, or the target is killed mid-flight, its <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> mana cost is refunded.",
+      "description": "Active: Cassiopeia launches her fangs at the target enemy, dealing 52 − 120 (based on level) (+ 10% AP) magic damage. If Twin Fang kills its target, or the target is killed mid-flight, its  mana cost is refunded.",
       "leveling": "Bonus Magic Damage:10 / 30 / 50 / 70 / 90 (+ 60% AP)\nHealing:»12 / 14 / 16 / 18 / 20% AP«Reduced Healing:3 / 3.5 / 4 / 4.5 / 5% AP",
       "skill": "E",
       "damageType": "Magic",
@@ -97,7 +147,18 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.125
+      "castTime": 0.125,
+      "icon": "Twin Fang.png",
+      "icons": [
+        "Twin Fang.png"
+      ],
+      "levelings": [
+        "Bonus Magic Damage:10 / 30 / 50 / 70 / 90 (+ 60% AP)\nHealing:»12 / 14 / 16 / 18 / 20% AP«Reduced Healing:3 / 3.5 / 4 / 4.5 / 5% AP"
+      ],
+      "descriptions": [
+        "Active: Cassiopeia launches her fangs at the target enemy, dealing 52 − 120 (based on level) (+ 10% AP) magic damage. If Twin Fang kills its target, or the target is killed mid-flight, its  mana cost is refunded.",
+        "If the target is  poisoned, Twin Fang deals bonus magic damage and  heals Cassiopeia. The heal is only 25% as effective against  minions and small  monsters."
+      ]
     },
     {
       "name": "Petrifying Gaze",
@@ -130,7 +191,18 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.5
+      "castTime": 0.5,
+      "icon": "Petrifying Gaze.png",
+      "icons": [
+        "Petrifying Gaze.png"
+      ],
+      "levelings": [
+        "Magic Damage:150 / 200 / 250 / 300 / 350 (+ 50% AP)"
+      ],
+      "descriptions": [
+        "Active: Cassiopeia blasts enemies in a cone in the target direction, dealing magic damage to all enemies hit.",
+        "Enemies facing Cassiopeia are  stunned for 2 seconds upon being hit by Petrifying Gaze, and all other affected enemies are instead  slowed by 40% for the same duration."
+      ]
     }
   ],
   "id": "Cassiopeia",
@@ -145,6 +217,7 @@
     "difficulty": 10
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Cassiopeia.png",
     "full": "Cassiopeia.png",
     "sprite": "champion0.png",
     "group": "champion",

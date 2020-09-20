@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Spider Queen",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate - Human Form: When Elise's abilities hit a target she gains one dormant Spiderling, up to 2 / 3 / 4 / 5 (based on  Human Form's Rank).",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Spider Queen.png",
+    "icons": [
+      "Spider Queen.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate - Human Form: When Elise's abilities hit a target she gains one dormant Spiderling, up to 2 / 3 / 4 / 5 (based on  Human Form's Rank).",
+      "Innate - Spider Form: Elise's basic attacks against non- structures deal 10 / 20 / 30 / 40 (based on  Spider Form's Rank) (+ 30% AP) bonus magic damage and  heal her for 4 / 6 / 8 / 10 (based on  Spider Form's Rank) (+ 10% AP) on-hit."
+    ]
+  },
+  {
+    "name": "Neurotoxin",
+    "cost": [
+      80,
+      85,
+      90,
+      95,
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      6
+    ],
+    "description": "Active: Elise fires toxin at the target enemy, dealing magic damage, capped against  monsters.",
+    "leveling": "Magic Damage:»40 / 75 / 110 / 145 / 180 (+ 4% (+ 3% per 100 AP) of target's current health)«Max. Monster Damage:115 / 175 / 235 / 295 / 355",
+    "skill": "Q",
+    "damageType": "magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      40,
+      75,
+      110,
+      145,
+      180
+    ],
+    "ratios": [
+      {
+        "value": 4,
+        "type": "bonus ad"
+      },
+      {
+        "value": 3,
+        "type": "bonus ad"
+      },
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Neurotoxin.png",
+    "icons": [
+      "Neurotoxin.png"
+    ],
+    "levelings": [
+      "Magic Damage:»40 / 75 / 110 / 145 / 180 (+ 4% (+ 3% per 100 AP) of target's current health)«Max. Monster Damage:115 / 175 / 235 / 295 / 355"
+    ],
+    "descriptions": [
+      "Active: Elise fires toxin at the target enemy, dealing magic damage, capped against  monsters."
+    ]
+  },
+  {
+    "name": "Volatile Spiderling",
+    "cost": [
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12
+    ],
+    "description": "Active: Elise summons an  untargetable venom-gorged spider for 3 seconds, which moves in the target direction and navigates its path upon encountering terrain.",
+    "leveling": "Magic Damage:60 / 105 / 150 / 195 / 240 (+ 95% AP)",
+    "skill": "W",
+    "damageType": "magic",
+    "isProjectile": "",
+    "flatDamage": [
+      60,
+      105,
+      150,
+      195,
+      240
+    ],
+    "ratios": [
+      {
+        "value": 95,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.125,
+    "icon": "Volatile Spiderling.png",
+    "icons": [
+      "Volatile Spiderling.png"
+    ],
+    "levelings": [
+      "Magic Damage:60 / 105 / 150 / 195 / 240 (+ 95% AP)"
+    ],
+    "descriptions": [
+      "Active: Elise summons an  untargetable venom-gorged spider for 3 seconds, which moves in the target direction and navigates its path upon encountering terrain.",
+      "The spider explodes upon contact with an enemy unit or at the end of its lifespan, dealing magic damage to nearby enemies.",
+      "If the spider does not hit an enemy before reaching the target location, it chases down a nearby enemy, prioritizing  champions. The spider gains  bonus movement speed based on its proximity to its target."
+    ]
+  },
+  {
+    "name": "Cocoon",
+    "cost": [
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12,
+      11,
+      11,
+      10,
+      10
+    ],
+    "description": "Active: Elise fires a web in the target direction, granting  sight of the first enemy hit for 1 second and  stunning them.",
+    "leveling": "Stun Duration:1.6 / 1.7 / 1.8 / 1.9 / 2",
+    "skill": "E",
+    "damageType": "",
+    "isProjectile": "true",
+    "flatDamage": [
+      1.6,
+      1.7,
+      1.8,
+      1.9,
+      2
+    ],
+    "ratios": [],
+    "castTime": 0.25,
+    "icon": "Cocoon.png",
+    "icons": [
+      "Cocoon.png"
+    ],
+    "levelings": [
+      "Stun Duration:1.6 / 1.7 / 1.8 / 1.9 / 2"
+    ],
+    "descriptions": [
+      "Active: Elise fires a web in the target direction, granting  sight of the first enemy hit for 1 second and  stunning them."
+    ]
+  },
+  {
+    "name": "Spider Form / Human Form",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      4
+    ],
+    "description": "Passive:  Spider Queen's bonuses are increased.",
+    "leveling": null,
+    "skill": "R",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Spider Form.png",
+    "icons": [
+      "Spider Form.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Passive:  Spider Queen's bonuses are increased.",
+      " Human Form - Active: Elise transforms into a menacing spider, gaining  25 bonus movement speed,  melee basic attacks with 125  range, and access to her arachnid abilities. Additionally, Elise unleashes all stored Spiderlings.",
+      " Spider Form - Active: Elise transforms into her human form, gaining  ranged basic attacks, and access to her human abilities. Additionally, Elise stores all unleashed Spiderlings.",
+      "Elise begins with one rank in Spider Form / Human Form and can increase it at levels 6, 11, and 16."
+    ]
+  }
+]

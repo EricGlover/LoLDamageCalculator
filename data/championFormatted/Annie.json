@@ -1,5 +1,205 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Pyromania",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate - Pyromania: Annie gains a stack of Pyromania when she casts an ability, up to a maximum of 4, at which she gains Energized.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Pyromania.png",
+      "icons": [
+        "Pyromania.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate - Pyromania: Annie gains a stack of Pyromania when she casts an ability, up to a maximum of 4, at which she gains Energized.",
+        "Energized: When Annie succeeds in her next cast damaging ability, she consumes all Pyromania stacks and  stuns enemies hit for 1.25 / 1.5 / 1.75 (based on level) seconds.",
+        "Annie loses Energized and all Pyromania stacks upon death."
+      ]
+    },
+    {
+      "name": "Disintegrate",
+      "cost": [
+        60,
+        65,
+        70,
+        75,
+        80
+      ],
+      "costType": "mana",
+      "coolDown": [
+        4
+      ],
+      "description": "Active: Annie hurls a fireball at the target enemy, dealing magic damage.",
+      "leveling": "Magic damage:80 / 115 / 150 / 185 / 220 (+ 80% AP)",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        80,
+        115,
+        150,
+        185,
+        220
+      ],
+      "ratios": [
+        {
+          "value": 80,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Disintegrate.png",
+      "icons": [
+        "Disintegrate.png"
+      ],
+      "levelings": [
+        "Magic damage:80 / 115 / 150 / 185 / 220 (+ 80% AP)"
+      ],
+      "descriptions": [
+        "Active: Annie hurls a fireball at the target enemy, dealing magic damage.",
+        "If Disintegrate kills its target, it refunds its  mana cost and half of its  cooldown is immediately refreshed."
+      ]
+    },
+    {
+      "name": "Incinerate",
+      "cost": [
+        70,
+        80,
+        90,
+        100,
+        110
+      ],
+      "costType": "mana",
+      "coolDown": [
+        8
+      ],
+      "description": "Active: Annie releases a cone of fire in the target direction, dealing magic damage to all enemies in the area.",
+      "leveling": "Magic damage:70 / 115 / 160 / 205 / 250 (+ 85% AP)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "False",
+      "flatDamage": [
+        70,
+        115,
+        160,
+        205,
+        250
+      ],
+      "ratios": [
+        {
+          "value": 85,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Incinerate.png",
+      "icons": [
+        "Incinerate.png"
+      ],
+      "levelings": [
+        "Magic damage:70 / 115 / 160 / 205 / 250 (+ 85% AP)"
+      ],
+      "descriptions": [
+        "Active: Annie releases a cone of fire in the target direction, dealing magic damage to all enemies in the area."
+      ]
+    },
+    {
+      "name": "Molten Shield",
+      "cost": [
+        20
+      ],
+      "costType": "mana",
+      "coolDown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "description": "Active: Annie wraps herself and  Tibbers in a fiery aura, gaining  30% − 60% (based on level) bonus movement speed that decays over 1.5 seconds, and reducing damage taken for 3 seconds.",
+      "leveling": "Damage reduction:13 / 17 / 21 / 25 / 29%",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        13,
+        17,
+        21,
+        25,
+        29
+      ],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Molten Shield.png",
+      "icons": [
+        "Molten Shield.png"
+      ],
+      "levelings": [
+        "Damage reduction:13 / 17 / 21 / 25 / 29%",
+        "Magic Damage:20 / 30 / 40 / 50 / 60 (+ 20% AP)"
+      ],
+      "descriptions": [
+        "Active: Annie wraps herself and  Tibbers in a fiery aura, gaining  30% − 60% (based on level) bonus movement speed that decays over 1.5 seconds, and reducing damage taken for 3 seconds.",
+        "Enemies that damage Annie or  Tibbers with basic attacks during this time are dealt magic damage."
+      ]
+    },
+    {
+      "name": "Summon: Tibbers",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        120,
+        100,
+        80
+      ],
+      "description": "Active: Annie summons  Tibbers to the target location in a burst of flame, dealing magic damage to surrounding enemies.",
+      "leveling": "Initial Magic Damage:150 / 212.5 / 275 / 337.5 / 400 (+ 75% AP)",
+      "skill": "R",
+      "damageType": "magic",
+      "isProjectile": "",
+      "flatDamage": [
+        150,
+        212.5,
+        275,
+        337.5,
+        400
+      ],
+      "ratios": [
+        {
+          "value": 75,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Summon Tibbers.png",
+      "icons": [
+        "Summon Tibbers.png",
+        "Command- Tibbers.png"
+      ],
+      "levelings": [
+        "Initial Magic Damage:150 / 212.5 / 275 / 337.5 / 400 (+ 75% AP)"
+      ],
+      "descriptions": [
+        "Active: Annie summons  Tibbers to the target location in a burst of flame, dealing magic damage to surrounding enemies.",
+        "He then remains on the field as a controllable  pet for up to 45 seconds.",
+        "Recast: Annie directs Tibbers to the target location."
+      ]
+    }
+  ],
   "id": "Annie",
   "key": "1",
   "name": "Annie",
@@ -12,6 +212,7 @@
     "difficulty": 6
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Annie.png",
     "full": "Annie.png",
     "sprite": "champion0.png",
     "group": "champion",

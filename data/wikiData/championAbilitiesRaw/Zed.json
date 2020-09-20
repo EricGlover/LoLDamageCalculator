@@ -1,0 +1,1198 @@
+[
+  {
+    "1": {
+      "value": "Contempt for the Weak",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Contempt for the Weak."
+    },
+    "champion": {
+      "value": "Zed",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "I",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "10",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Contempt for the Weak.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Zed's basic attacks against targets below 50% Health deal 6-10% of the target's maximum Health as bonus Magic Damage. This effect can only occur once every 10 seconds on the same target.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Innate: Zed's basic attacks against targets <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> below 50% of their maximum health deal 6 / 8 / 10% (based on level) of the target's maximum health as bonus magic damage. Against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters, the damage is increased by 100%, but is capped at 200 / 350 / 500 (based on level).",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Contempt for the Weak can only affect the same target once every few seconds.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Passive",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "proc",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "Special",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "False",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* The enhanced attack applies other on-hit effects and can <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critically strike as normal (the bonus damage cannot) but does not affect structures.\n Contempt for the Weak is not consumed when <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/66/Counter_Strike.png/revision/latest/scale-to-width-down/20?cb=20171223030746\" \t alt=\"Counter Strike\"  \tclass=\"\" \t \tdata-image-key=\"Counter_Strike.png\" \tdata-image-name=\"Counter Strike.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dodged or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/81/Blind_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224954\" \t alt=\"Blind icon\"  \tclass=\"\" \t \tdata-image-key=\"Blind_icon.png\" \tdata-image-name=\"Blind icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> missed, but it is consumed when <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5e/Spirit%27s_Refuge.png/revision/latest/scale-to-width-down/20?cb=20170217191016\" \t alt=\"Spirit&amp;#039;s Refuge\"  \tclass=\"\" \t \tdata-image-key=\"Spirit%27s_Refuge.png\" \tdata-image-name=\"Spirit&#39;s Refuge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blocked.\n Contempt for the Weak considers the target's health upon landing the attack, not when it's declared.\n If the target falls below the threshold while Zed is winding up the attack, Contempt for the Weak applies, and vice versa.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Razor Shuriken",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Razor Shuriken."
+    },
+    "champion": {
+      "value": "Zed",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "Q",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "900",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "900",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "75 / 70 / 65 / 60 / 55",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "energy",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "6",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Razor Shuriken.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Zed and his shadow both throw their spinning blades forward, dealing damage to any targets they pass through.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Zed and his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadows throw their spinning blades toward the target location. Each blade deals physical damage to all enemies struck, reduced to 60% against units beyond the first.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Physical Damage:»80 / 115 / 150 / 185 / 220 (+ 100% bonus AD)«Secondary Damage:48 / 69 / 90 / 111 / 132 (+ 60% bonus AD)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Physical",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Area of effect",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "Special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "True",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Razor Shuriken has been special cased to apply a stack of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0a/Electrocute_rune.png/revision/latest/scale-to-width-down/20?cb=20171126182032\" \t alt=\"Electrocute rune\"  \tclass=\"\" \t \tdata-image-key=\"Electrocute_rune.png\" \tdata-image-name=\"Electrocute rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Electrocute and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/79/Phase_Rush_rune.png/revision/latest/scale-to-width-down/20?cb=20171126182204\" \t alt=\"Phase Rush rune\"  \tclass=\"\" \t \tdata-image-key=\"Phase_Rush_rune.png\" \tdata-image-name=\"Phase Rush rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Phase Rush for each Shuriken hit.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shield only blocks the damage from one Razor Shuriken even if two hit at the same time.\n Shurikens blocked by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> spell shield still count as being hit for the reduced pass-through damage.\n\n If Zed buffers an attack command during Razor Shuriken's cast time the attack will perform slower than if Zed had attacked after the cast time.\n The same does not happen if Zed recasts <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c0/Living_Shadow_2.png/revision/latest/scale-to-width-down/20?cb=20171221052630\" \t alt=\"Living Shadow 2\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Living_Shadow_2.png\" \tdata-image-name=\"Living Shadow 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Living Shadow during Razor Shuriken's cast time.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Living Shadow",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Living Shadow."
+    },
+    "champion": {
+      "value": "Zed",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "W",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "650",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "1950",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "2500",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "40 / 35 / 30 / 25 / 20",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "energy",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "20 / 18.5 / 17 / 15.5 / 14",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "false",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Zed's shadow dashes forward, remaining in place for 5 seconds, and mimicking his spell casts. Zed can reactivate to swap places with the shadow.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Passive: Zed restores <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7d/Energy_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203447\" \t alt=\"Energy icon\"  \tclass=\"\" \t \tdata-image-key=\"Energy_icon.png\" \tdata-image-name=\"Energy icon.png\" \t \t width=\"15\"  \t height=\"16\"  \t \t \t \t> energy whenever a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow lands a mimicked ability on the same target he does. This may only happen once per cast ability.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Energy Restored:30 / 35 / 40 / 45 / 50",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "Living Shadow.png",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Active: Zed's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow dashes in the target direction, remaining in place for 5 seconds and being able to mimic <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/96/Razor_Shuriken.png/revision/latest/scale-to-width-down/20?cb=20130929123514\" \t alt=\"Razor Shuriken\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Razor_Shuriken.png\" \tdata-image-name=\"Razor Shuriken.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Razor Shuriken and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/45/Shadow_Slash.png/revision/latest/scale-to-width-down/20?cb=20130929123515\" \t alt=\"Shadow Slash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shadow_Slash.png\" \tdata-image-name=\"Shadow Slash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow Slash while in range of each other. If an ability is cast while the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow is dashing, the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow will cast the ability at the moment of its appearance. Living Shadow can be recast at no delay for the duration. If recast while the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow is dashing, the recast will be buffered.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "Living Shadow 2.png",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Recast: While in range of each other, Zed and his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blink to their respective locations, swapping places.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "If Living Shadow is recast during <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/96/Razor_Shuriken.png/revision/latest/scale-to-width-down/20?cb=20130929123514\" \t alt=\"Razor Shuriken\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Razor_Shuriken.png\" \tdata-image-name=\"Razor Shuriken.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Razor Shuriken, Zed will instantly release the shuriken from his original position while still remaining in cast time, and the Shadow will release the shuriken based on Zed's remaining cast time.*",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "The Shadow will cast <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/45/Shadow_Slash.png/revision/latest/scale-to-width-down/20?cb=20130929123515\" \t alt=\"Shadow Slash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shadow_Slash.png\" \tdata-image-name=\"Shadow Slash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow Slash independently of being in <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/96/Razor_Shuriken.png/revision/latest/scale-to-width-down/20?cb=20130929123514\" \t alt=\"Razor Shuriken\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Razor_Shuriken.png\" \tdata-image-name=\"Razor Shuriken.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Razor Shuriken's cast time or not.*",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "*Both casts count as ability activations for the purposes of on-cast effects such as Spellblade, charging <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder, and stacking <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Force_Pulse.png/revision/latest/scale-to-width-down/20?cb=20170818190412\" \t alt=\"Force Pulse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Force_Pulse.png\" \tdata-image-name=\"Force Pulse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Force Pulse.\n The <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Energy_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230503\" \t alt=\"Energy resource\"  \tclass=\"\" \t \tdata-image-key=\"Energy_resource.png\" \tdata-image-name=\"Energy resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> energy refund is not granted if the mimicked ability is blocked by a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> spell shield.\n While <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Grounded_icon.png/revision/latest/scale-to-width-down/20?cb=20160509000039\" \t alt=\"Grounded icon\"  \tclass=\"\" \t \tdata-image-key=\"Grounded_icon.png\" \tdata-image-name=\"Grounded icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> grounded or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooted Zed can cast Living Shadow but may not swap places with it.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadows grant <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of their surroundings (700 radius) and they are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable.\n If Zed casts Living Shadow while a non-<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/67/Death_Mark_2.png/revision/latest/scale-to-width-down/20?cb=20171221052522\" \t alt=\"Death Mark 2\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Death_Mark_2.png\" \tdata-image-name=\"Death Mark 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Death Mark Shadow is already present, the previous Shadow will instantly disappear.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadows will not disappear when Zed dies.*\n Casting Living Shadow and then swapping with the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/67/Death_Mark_2.png/revision/latest/scale-to-width-down/20?cb=20171221052522\" \t alt=\"Death Mark 2\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Death_Mark_2.png\" \tdata-image-name=\"Death Mark 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Death Mark Shadow allows Zed to recast Living Shadow regardless of distance for a very brief period of time.*\n Zed always has an arrow next to him pointing in the direction of his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadows. It has three different colors, each one symbolizes important information about the specific Shadow. They are only visible to Zed.\n\n \t<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1d/Multiple_Shadows_with_Arrows.png/revision/latest/scale-to-width-down/250?cb=20191227022449\" \t alt=\"Multiple Shadows with Arrows\"  \tclass=\"thumbimage \" \t \tdata-image-key=\"Multiple_Shadows_with_Arrows.png\" \tdata-image-name=\"Multiple Shadows with Arrows.png\" \t \t width=\"250\"  \t height=\"177\"  \t \t \t \t>  \t \t\t \t\t\t \t\t \t\t \t\t \t\t\tTwo arrows point toward their corresponding <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadows. \t\t \t \n\n \t<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4d/Shadow_%28Green_Arrow%29.png/revision/latest/scale-to-width-down/250?cb=20191227022358\" \t alt=\"Shadow (Green Arrow)\"  \tclass=\"thumbimage \" \t \tdata-image-key=\"Shadow_%28Green_Arrow%29.png\" \tdata-image-name=\"Shadow (Green Arrow).png\" \t \t width=\"250\"  \t height=\"116\"  \t \t \t \t>  \t \t\t \t\t\t \t\t \t\t \t\t \t\t\tA green arrow (blue in colorblind mode) means the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow can be swapped places with. \t\t \t \n\n \t<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Shadow_%28Yellow_Arrow%29.png/revision/latest/scale-to-width-down/250?cb=20191227022416\" \t alt=\"Shadow (Yellow Arrow)\"  \tclass=\"thumbimage \" \t \tdata-image-key=\"Shadow_%28Yellow_Arrow%29.png\" \tdata-image-name=\"Shadow (Yellow Arrow).png\" \t \t width=\"250\"  \t height=\"112\"  \t \t \t \t>  \t \t\t \t\t\t \t\t \t\t \t\t \t\t\tA yellow arrow signifies the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow is about to disappear. \t\t \t \n\n \t<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7f/Shadow_%28Red_Arrow%29.png/revision/latest/scale-to-width-down/250?cb=20191227022433\" \t alt=\"Shadow (Red Arrow)\"  \tclass=\"thumbimage \" \t \tdata-image-key=\"Shadow_%28Red_Arrow%29.png\" \tdata-image-name=\"Shadow (Red Arrow).png\" \t \t width=\"250\"  \t height=\"109\"  \t \t \t \t>  \t \t\t \t\t\t \t\t \t\t \t\t \t\t\tA red arrow (orange in colorblind mode) indicates the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow is unable to be swapped places with.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Shadow Slash",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Shadow Slash."
+    },
+    "champion": {
+      "value": "Zed",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "E",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "290",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "50",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "energy",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "5 / 4.5 / 4 / 3.5 / 3",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Shadow Slash.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Zed and his shadow spin their blades, creating a burst of shadow energy. The shadow's spin slows.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Zed and his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadows slash, dealing physical damage to enemies surrounding them.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Physical Damage:70 / 95 / 120 / 145 / 170 (+ 80% bonus AD)",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Enemies hit by the slash of a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed for 1.5 seconds. Enemies hit by multiple slashes take no additional damage but the slow's potency is increased by 50%.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Slow:»20 / 25 / 30 / 35 / 40%«Enhanced Slow:30 / 37.5 / 45 / 52.5 / 60%",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Each enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion hit by Zed's slash reduces <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3f/Living_Shadow.png/revision/latest/scale-to-width-down/20?cb=20130929123514\" \t alt=\"Living Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Living_Shadow.png\" \tdata-image-name=\"Living Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Living Shadow's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown by 2 seconds.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "None",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Physical",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "aoe",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shields will only block one Shadow Slash if two hit at the same time, the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow will not apply regardless.\n Shadow Slash does not interrupt attack commands.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Death Mark",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Death Mark."
+    },
+    "champion": {
+      "value": "Zed",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "R",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "625",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "Global / 1950",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "none",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "120 / 90 / 60",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Death Mark.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Zed becomes untargetable and dashes to an enemy champion, marking them. After 3 seconds the mark triggers, repeating a portion of all the damage Zed dealt to the target while they were marked.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Zed becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable and, after 0.6 seconds, he <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes through the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion over 0.4 seconds, after which he marks them, gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosting for 3 seconds, and becomes targetable again. Zed also spawns a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow of himself at his casting position upon Death Mark's activation which lasts for 7.5 seconds and is able to mimic <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/96/Razor_Shuriken.png/revision/latest/scale-to-width-down/20?cb=20130929123514\" \t alt=\"Razor Shuriken\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Razor_Shuriken.png\" \tdata-image-name=\"Razor Shuriken.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Razor Shuriken and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/45/Shadow_Slash.png/revision/latest/scale-to-width-down/20?cb=20130929123515\" \t alt=\"Shadow Slash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shadow_Slash.png\" \tdata-image-name=\"Shadow Slash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow Slash while in range of Zed. Death Mark can be recast after 0.5 seconds of his reappearance.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "For the next 3 seconds, Zed stores a percentage of all pre-mitigation physical damage and magic damage he and his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadows deal to the marked target, detonating at the end of the duration to deal physical damage.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Physical Damage:100% AD (+ 25 / 40 / 55% of damage dealt)",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "Death Mark 2.png",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Recast: Regardless of the distance between each other, Zed and the Death Mark <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blink to their respective locations, swapping places.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "If the target dies or is 1950 or more units away before the dash begins, Death Mark is canceled, goes on a 5 second <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown, and Zed reappears at the cast location.",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Unit",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self, Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Physical",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Single target",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "Special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "*Both casts count as ability activations for the purposes of on-cast effects such as Spellblade, charging <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Spellbinder_item.png/revision/latest/scale-to-width-down/20?cb=20180511220141\" \t alt=\"Spellbinder item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spellbinder_item.png\" \tdata-image-name=\"Spellbinder item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spellbinder, and stacking <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Force_Pulse.png/revision/latest/scale-to-width-down/20?cb=20170818190412\" \t alt=\"Force Pulse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Force_Pulse.png\" \tdata-image-name=\"Force Pulse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Force Pulse.\n Zed will be ordered to basic attack his target after reappearing.\n The debuff for the mark is named Marked for Death.\n Death Mark's stored damage derives from all basic attacks, abilities, items, runes and buffs.\n Death Mark's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Zed%27s_Shadow.png/revision/latest/scale-to-width-down/20?cb=20180818091903\" \t alt=\"Zed&amp;#039;s Shadow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zed%27s_Shadow.png\" \tdata-image-name=\"Zed&#39;s Shadow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shadow is functionally the same as a regular one, but it lasts longer and can be recast regardless of range.\n The range at which they mimic Zed's abilities do not change.\n\n The mark can be prevented by becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable before it is applied (untargetability after application will not prevent the mark's detonation).\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shields will only block the mark's application. They will not prevent Zed from initiating the cast nor block the detonation from a mark that is already applied.\n If the target is 1950 units away during the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dash, Zed will stop following them and only dash through their previous location. The mark is still applied.\n If Zed dies during Death Mark, the ability will cancel instantly and he will reappear at his current location. The cooldown is not compensated.\n If he enters <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Revival_icon.png/revision/latest/scale-to-width-down/20?cb=20170714051127\" \t alt=\"Revival icon\"  \tclass=\"\" \t \tdata-image-key=\"Revival_icon.png\" \tdata-image-name=\"Revival icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resurrection before the dash, Death Mark does not cancel. If he enters it while dashing, the dash is interrupted.\n\n If the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dash is interrupted, Zed stops, places himself to the ground (ends all displacements affecting him, but does not remove <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> airborne effects), and reappears prematurely at his current location. The mark will still be applied regardless.\n Zed will remove <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> airborne effects from himself immediately upon starting the dash.\n\n Once Zed begins the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dash, two shadows of himself will also appear to be dashing through his target, each one spawning a certain distance behind the target (from the right and left). These shadows do not mimic abilities and disappear immediately after they stop dashing but they grant <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of their surroundings.\n Death Mark does not cancel if the target enters a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Omen_of_Death.png/revision/latest/scale-to-width-down/20?cb=20130929123503\" \t alt=\"Omen of Death\"  \tclass=\"\" \t \tdata-image-key=\"Omen_of_Death.png\" \tdata-image-name=\"Omen of Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> zombie state before the dash begins.\n If the mark's post-mitigation damage is higher than the target's current health, a spinning shuriken will appear above the victim. This does not necessarily mean the target will die, as it does not consider <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields or other forms of damage modifiers.\n\n\n \t<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Spinning_Shuriken_Indicator.png/revision/latest?cb=20191227041336\" \t alt=\"Spinning Shuriken Indicator\"  \tclass=\"thumbimage \" \t \tdata-image-key=\"Spinning_Shuriken_Indicator.png\" \tdata-image-name=\"Spinning Shuriken Indicator.png\" \t \t width=\"185\"  \t height=\"196\"  \t \t \t \t>  \t \t\t \t\t\t \t\t \t\t \t\t \t\t\tThe indicator shown in-game (base skin). \t\t \t \n\n This following table refers for interactions while Zed is in Death Mark:\n\n\n\n\n Attacking\n Disabled\n\n\n Abilities\n Disabled\n\n\n Movement\n Disabled\n\n\n Items\n Usable\n N/A\n\n\n Disabled\n All items are disabled\n\n\n Interrupted by\n N/A\n\n\n\n Consumables\n Disabled\n\n\n Spells\n Usable\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cc/Barrier.png/revision/latest/scale-to-width-down/20?cb=20180514002510\" \t alt=\"Barrier\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Barrier.png\" \tdata-image-name=\"Barrier.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Barrier <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Clarity.png/revision/latest/scale-to-width-down/20?cb=20180514002750\" \t alt=\"Clarity\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clarity.png\" \tdata-image-name=\"Clarity.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Clarity <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cleanse.png/revision/latest/scale-to-width-down/20?cb=20180514002812\" \t alt=\"Cleanse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cleanse.png\" \tdata-image-name=\"Cleanse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cleanse <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Exhaust.png/revision/latest/scale-to-width-down/20?cb=20180514003128\" \t alt=\"Exhaust\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Exhaust.png\" \tdata-image-name=\"Exhaust.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Exhaust <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ghost <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Heal.png/revision/latest/scale-to-width-down/20?cb=20180514003319\" \t alt=\"Heal\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Heal.png\" \tdata-image-name=\"Heal.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Heal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/Ignite.png/revision/latest/scale-to-width-down/20?cb=20180514003345\" \t alt=\"Ignite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ignite.png\" \tdata-image-name=\"Ignite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ignite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Smite.png/revision/latest/scale-to-width-down/20?cb=20180514003641\" \t alt=\"Smite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Smite.png\" \tdata-image-name=\"Smite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Smite\n\n\n Disabled\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flash <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Hexflash.png/revision/latest/scale-to-width-down/20?cb=20180514003331\" \t alt=\"Hexflash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hexflash.png\" \tdata-image-name=\"Hexflash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hexflash <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4d/Mark.png/revision/latest/scale-to-width-down/20?cb=20180514003608\" \t alt=\"Mark\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mark.png\" \tdata-image-name=\"Mark.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mark <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dash\n\n\n Interrupted by\n N/A\n\n\n\n Interrupted by\n Death, unless protected by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Revival_icon.png/revision/latest/scale-to-width-down/20?cb=20170714051127\" \t alt=\"Revival icon\"  \tclass=\"\" \t \tdata-image-key=\"Revival_icon.png\" \tdata-image-name=\"Revival icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Resurrection",
+      "description": "Disabled"
+    },
+    "Disabled": {},
+    "N/A": {},
+    "All items are disabled": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cc/Barrier.png/revision/latest/scale-to-width-down/20?cb=20180514002510\" \t alt=\"Barrier\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Barrier.png\" \tdata-image-name=\"Barrier.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Barrier <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Clarity.png/revision/latest/scale-to-width-down/20?cb=20180514002750\" \t alt=\"Clarity\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Clarity.png\" \tdata-image-name=\"Clarity.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Clarity <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cleanse.png/revision/latest/scale-to-width-down/20?cb=20180514002812\" \t alt=\"Cleanse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cleanse.png\" \tdata-image-name=\"Cleanse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cleanse <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Exhaust.png/revision/latest/scale-to-width-down/20?cb=20180514003128\" \t alt=\"Exhaust\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Exhaust.png\" \tdata-image-name=\"Exhaust.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Exhaust <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ghost <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Heal.png/revision/latest/scale-to-width-down/20?cb=20180514003319\" \t alt=\"Heal\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Heal.png\" \tdata-image-name=\"Heal.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Heal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/Ignite.png/revision/latest/scale-to-width-down/20?cb=20180514003345\" \t alt=\"Ignite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ignite.png\" \tdata-image-name=\"Ignite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ignite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Smite.png/revision/latest/scale-to-width-down/20?cb=20180514003641\" \t alt=\"Smite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Smite.png\" \tdata-image-name=\"Smite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Smite": {},
+    "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Flash <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Teleport.png/revision/latest/scale-to-width-down/20?cb=20180514003653\" \t alt=\"Teleport\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Teleport.png\" \tdata-image-name=\"Teleport.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Teleport <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Hexflash.png/revision/latest/scale-to-width-down/20?cb=20180514003331\" \t alt=\"Hexflash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hexflash.png\" \tdata-image-name=\"Hexflash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hexflash <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4d/Mark.png/revision/latest/scale-to-width-down/20?cb=20180514003608\" \t alt=\"Mark\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mark.png\" \tdata-image-name=\"Mark.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mark <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dash": {},
+    "Death, unless protected by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Revival_icon.png/revision/latest/scale-to-width-down/20?cb=20170714051127\" \t alt=\"Revival icon\"  \tclass=\"\" \t \tdata-image-key=\"Revival_icon.png\" \tdata-image-name=\"Revival icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Resurrection": {},
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  }
+]

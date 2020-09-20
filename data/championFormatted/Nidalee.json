@@ -1,5 +1,206 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Prowl",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate - Prowl: Being in  brush grants Nidalee  10% bonus movement speed for 2 seconds, increased to 30% when facing a nearby  visible enemy  champion.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Prowl.png",
+      "icons": [
+        "Prowl.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate - Prowl: Being in  brush grants Nidalee  10% bonus movement speed for 2 seconds, increased to 30% when facing a nearby  visible enemy  champion.",
+        "Innate - Hunt: Hitting nearby  monsters or enemy champions with  Javelin Toss or  Bushwhack marks them as Hunted,  revealing them for 4 seconds and granting Nidalee  10% bonus movement speed for the same duration, increased to 30% when facing a nearby Hunted target. Additionally, Nidalee's first use of  Takedown and  Pounce against Hunted targets are empowered.",
+        "The bonus movement speed from Prowl and Hunt can stack, but cannot exceed 30%."
+      ]
+    },
+    {
+      "name": "Javelin Toss",
+      "cost": [
+        50,
+        60,
+        70,
+        80,
+        90
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        6
+      ],
+      "description": "Active: Nidalee hurls a javelin in a line in the target direction, dealing magic damage to the first enemy it hits, which is increased by 0% − 200% (based on distance traveled).",
+      "leveling": "Minimum Magic Damage:»70 / 85 / 100 / 115 / 130 (+ 50% AP)«Maximum Magic Damage:210 / 255 / 300 / 345 / 390 (+ 150% AP)",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        70,
+        85,
+        100,
+        115,
+        130
+      ],
+      "ratios": [
+        {
+          "value": 50,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Javelin Toss.png",
+      "icons": [
+        "Javelin Toss.png"
+      ],
+      "levelings": [
+        "Minimum Magic Damage:»70 / 85 / 100 / 115 / 130 (+ 50% AP)«Maximum Magic Damage:210 / 255 / 300 / 345 / 390 (+ 150% AP)"
+      ],
+      "descriptions": [
+        "Active: Nidalee hurls a javelin in a line in the target direction, dealing magic damage to the first enemy it hits, which is increased by 0% − 200% (based on distance traveled)."
+      ]
+    },
+    {
+      "name": "Bushwhack",
+      "cost": [
+        40,
+        45,
+        50,
+        55,
+        60
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ],
+      "description": "Active: Nidalee lays a trap at the target location, which  stealths and arms after 1.5 seconds and lasts for up to 2 minutes, granting a small area of  sight around it. The next enemy who springs the trap takes magic damage over 4 seconds.",
+      "leveling": "Magic Damage Per Second:»10 / 20 / 30 / 40 / 50 (+ 5% AP)«Total Magic Damage:40 / 80 / 120 / 160 / 200 (+ 20% AP)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "ratios": [
+        {
+          "value": 5,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Bushwhack.png",
+      "icons": [
+        "Bushwhack.png"
+      ],
+      "levelings": [
+        "Magic Damage Per Second:»10 / 20 / 30 / 40 / 50 (+ 5% AP)«Total Magic Damage:40 / 80 / 120 / 160 / 200 (+ 20% AP)"
+      ],
+      "descriptions": [
+        "Active: Nidalee lays a trap at the target location, which  stealths and arms after 1.5 seconds and lasts for up to 2 minutes, granting a small area of  sight around it. The next enemy who springs the trap takes magic damage over 4 seconds.",
+        "Traps have  6 maximum health and can only be damaged by champion basic attacks (2 hit points from  ranged and 3 hit points from  melee). Up to a maximum of 4 / 6 / 8 / 10 (based on level) traps may be active at once."
+      ]
+    },
+    {
+      "name": "Primal Surge",
+      "cost": [
+        60,
+        75,
+        90,
+        105,
+        120
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        12
+      ],
+      "description": "Active: Nidalee evokes the spirit of the cougar,  healing the target allied champion or herself, increased by 0% − 100% (based on target's missing health), and granting them  bonus attack speed for 7 seconds.",
+      "leveling": "Minimum Heal:»35 / 55 / 75 / 95 / 115 (+ 32.5% AP)«Maximum Heal:70 / 110 / 150 / 190 / 230 (+ 65% AP)Bonus Attack Speed:20 / 30 / 40 / 50 / 60%",
+      "skill": "E",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        35,
+        55,
+        75,
+        95,
+        115
+      ],
+      "ratios": [
+        {
+          "value": 32.5,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Primal Surge.png",
+      "icons": [
+        "Primal Surge.png"
+      ],
+      "levelings": [
+        "Minimum Heal:»35 / 55 / 75 / 95 / 115 (+ 32.5% AP)«Maximum Heal:70 / 110 / 150 / 190 / 230 (+ 65% AP)Bonus Attack Speed:20 / 30 / 40 / 50 / 60%"
+      ],
+      "descriptions": [
+        "Active: Nidalee evokes the spirit of the cougar,  healing the target allied champion or herself, increased by 0% − 100% (based on target's missing health), and granting them  bonus attack speed for 7 seconds."
+      ]
+    },
+    {
+      "name": "Aspect of the Cougar",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        3
+      ],
+      "description": "Active: Nidalee transforms herself into a cougar, gaining  melee attacks with  125 range as well as new abilities.",
+      "leveling": "Cougar form's abilities rank up when <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/21/Aspect_of_the_Cougar.png/revision/latest/scale-to-width-down/20?cb=20160608032916\" \t alt=\"Aspect of the Cougar\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Aspect_of_the_Cougar.png\" \tdata-image-name=\"Aspect of the Cougar.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Aspect of the Cougar does",
+      "skill": "R",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        2,
+        21,
+        20,
+        20160608032916,
+        20
+      ],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Aspect of the Cougar.png",
+      "icons": [
+        "Aspect of the Cougar.png",
+        "Aspect of the Cougar 2.png"
+      ],
+      "levelings": [
+        "Cougar form's abilities rank up when  Aspect of the Cougar does"
+      ],
+      "descriptions": [
+        "Active: Nidalee transforms herself into a cougar, gaining  melee attacks with  125 range as well as new abilities.",
+        "Active: Nidalee transforms herself into a human, gaining  ranged attacks with 525  range as well as new abilities.",
+        "Triggering  Hunt resets Aspect of the Cougar's  cooldown if Nidalee is in human form.",
+        "Nidalee begins with one rank in Aspect of the Cougar and can increase it at levels 6, 11, and 16."
+      ]
+    }
+  ],
   "id": "Nidalee",
   "key": "76",
   "name": "Nidalee",
@@ -12,6 +213,7 @@
     "difficulty": 8
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Nidalee.png",
     "full": "Nidalee.png",
     "sprite": "champion2.png",
     "group": "champion",

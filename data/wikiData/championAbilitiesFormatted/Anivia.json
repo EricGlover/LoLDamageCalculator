@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Rebirth",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Periodically, upon taking  fatal damage, Anivia  dispels all  debuffs and transforms into Eggnivia, while also recovering all of her  health.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Rebirth.png",
+    "icons": [
+      "Rebirth.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Periodically, upon taking  fatal damage, Anivia  dispels all  debuffs and transforms into Eggnivia, while also recovering all of her  health.",
+      "Eggnivia cannot act but gains -40 − 20 (based on level)  bonus armor and  bonus magic resistance. After 6 seconds, if Eggnivia is still alive, Anivia is  reborn with Eggnivia's current health."
+    ]
+  },
+  {
+    "name": "Flash Frost",
+    "cost": [
+      80,
+      90,
+      100,
+      110,
+      120
+    ],
+    "costType": "mana",
+    "coolDown": [
+      10,
+      9,
+      9,
+      8,
+      8
+    ],
+    "description": "Active: Anivia launches a massive chunk of ice which flies toward the target location, dealing magic damage and  slowing all enemies it passes through by 20% − 40% (based on  Glacial Storm's Rank) for 3 seconds. Flash Frost can be recast after the cast time.",
+    "leveling": "Magic damage:»60 / 85 / 110 / 135 / 160 (+ 45% AP)«Total Damage:120 / 170 / 220 / 270 / 320 (+ 90% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      60,
+      85,
+      110,
+      135,
+      160
+    ],
+    "ratios": [
+      {
+        "value": 45,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Flash Frost.png",
+    "icons": [
+      "Flash Frost.png"
+    ],
+    "levelings": [
+      "Magic damage:»60 / 85 / 110 / 135 / 160 (+ 45% AP)«Total Damage:120 / 170 / 220 / 270 / 320 (+ 90% AP)",
+      "Stun Duration:1.1 / 1.2 / 1.3 / 1.4 / 1.5"
+    ],
+    "descriptions": [
+      "Active: Anivia launches a massive chunk of ice which flies toward the target location, dealing magic damage and  slowing all enemies it passes through by 20% − 40% (based on  Glacial Storm's Rank) for 3 seconds. Flash Frost can be recast after the cast time.",
+      "Recast: Anivia shatters the orb, dealing the same damage to enemies within the detonation and  stunning them for a duration.",
+      "At maximum range Flash Frost detonates automatically."
+    ]
+  },
+  {
+    "name": "Crystallize",
+    "cost": [
+      70
+    ],
+    "costType": "mana",
+    "coolDown": [
+      17
+    ],
+    "description": "Active: Anivia summons a wall of ice at the target location perpendicular to her facing,  knocking all units away from it. The wall lingers as impassible terrain for 5 seconds.",
+    "leveling": "Wall length:400 / 500 / 600 / 700 / 800",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      400,
+      500,
+      600,
+      700,
+      800
+    ],
+    "ratios": [],
+    "castTime": 0.25,
+    "icon": "Crystallize.png",
+    "icons": [
+      "Crystallize.png"
+    ],
+    "levelings": [
+      "Wall length:400 / 500 / 600 / 700 / 800"
+    ],
+    "descriptions": [
+      "Active: Anivia summons a wall of ice at the target location perpendicular to her facing,  knocking all units away from it. The wall lingers as impassible terrain for 5 seconds."
+    ]
+  },
+  {
+    "name": "Frostbite",
+    "cost": [
+      50,
+      60,
+      70,
+      80,
+      90
+    ],
+    "costType": "mana",
+    "coolDown": [
+      4
+    ],
+    "description": "Active: Anivia blasts the target enemy with a freezing wind, dealing magic damage.",
+    "leveling": "Magic damage:50 / 75 / 100 / 125 / 150 (+ 50% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      50,
+      75,
+      100,
+      125,
+      150
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Frostbite.png",
+    "icons": [
+      "Frostbite.png"
+    ],
+    "levelings": [
+      "Magic damage:50 / 75 / 100 / 125 / 150 (+ 50% AP)",
+      "Enhanced Damage:100 / 150 / 200 / 250 / 300 (+ 100% AP)"
+    ],
+    "descriptions": [
+      "Active: Anivia blasts the target enemy with a freezing wind, dealing magic damage.",
+      "If the target was hit by  Flash Frost or was inside a fully formed  Glacial Storm within the last 3 seconds, Frostbite's damage is  doubled."
+    ]
+  },
+  {
+    "name": "Glacial Storm",
+    "cost": [
+      75
+    ],
+    "costType": "mana + 40 / 45 / 50 / 55 / 60 per second",
+    "coolDown": [
+      6
+    ],
+    "description": "Active: Anivia calls forth a driving rain of ice and hail at the target location, dealing magic damage every 0.5 seconds to enemies within,  slowing them for 1 second. Glacial Storm can be recast after 1 second.",
+    "leveling": "Magic damage per second:»40 / 50 / 60 / 70 / 80 (+ 12.5% AP)«Empowered damage per second:120 / 150 / 180 / 210 / 240 (+ 37.5% AP)Slow:»20 / 25 / 30 / 35 / 40%«Empowered Slow:30 / 37.5 / 45 / 52.5 / 60%",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      40,
+      50,
+      60,
+      70,
+      80
+    ],
+    "ratios": [
+      {
+        "value": 12.5,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Glacial Storm.png",
+    "icons": [
+      "Glacial Storm.png"
+    ],
+    "levelings": [
+      "Magic damage per second:»40 / 50 / 60 / 70 / 80 (+ 12.5% AP)«Empowered damage per second:120 / 150 / 180 / 210 / 240 (+ 37.5% AP)Slow:»20 / 25 / 30 / 35 / 40%«Empowered Slow:30 / 37.5 / 45 / 52.5 / 60%"
+    ],
+    "descriptions": [
+      "Active: Anivia calls forth a driving rain of ice and hail at the target location, dealing magic damage every 0.5 seconds to enemies within,  slowing them for 1 second. Glacial Storm can be recast after 1 second.",
+      "The blizzard increases in size over 1.5 seconds. At maximum size, enemies within the area take 300% damage and suffer a 50% stronger slow which lasts 1.5 seconds.",
+      "Glacial Storm deactivates if Anivia gets too far away or she does not have the sufficient amount of  mana to pay for the ability's cost. Additionally, Glacial Storm will be deactivated by all forms of  interrupting  crowd control.",
+      "Recast: Anivia deactivates Glacial Storm, dealing one last tick of damage."
+    ]
+  }
+]

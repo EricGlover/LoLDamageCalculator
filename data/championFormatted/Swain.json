@@ -1,5 +1,209 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Ravenous Flock",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        10
+      ],
+      "description": "Innate - Ravenous: Swain can periodically target a nearby  immobilized enemy  champion to rip out a Soul Fragment from them, dealing them 20 − 105 (based on level) (+ 30% AP) magic damage and  pulling them 290-units towards him over a 0.25-second cast time. If the target would be brought past Swain, they are instead  knocked back the excess distance.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Magic",
+      "isProjectile": "false",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Ravenous Flock.png",
+      "icons": [
+        "Ravenous Flock.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate - Ravenous: Swain can periodically target a nearby  immobilized enemy  champion to rip out a Soul Fragment from them, dealing them 20 − 105 (based on level) (+ 30% AP) magic damage and  pulling them 290-units towards him over a 0.25-second cast time. If the target would be brought past Swain, they are instead  knocked back the excess distance.",
+        "Enemy champions also leave behind a Soul Fragment for 16 seconds upon their  death, which can be harvested after 1 second if Swain is near them.",
+        "Innate - Flock: Swain's ravens bring nearby Soul Fragments to him,  healing him for 4 / 5.5 / 7% (based on level) of his maximum health. Each Soul Fragment collected permanently increases his maximum health by 5."
+      ]
+    },
+    {
+      "name": "Death's Hand",
+      "cost": [
+        65,
+        70,
+        75,
+        80,
+        85
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        9,
+        7,
+        6,
+        4,
+        3
+      ],
+      "description": "Active: Swain unleashes five bolts of eldritch power in the target direction, dealing magic damage to all enemies in a cone. Enemies can be hit by multiple bolts, taking bonus magic damage.",
+      "leveling": "Magic Damage:55 / 75 / 95 / 115 / 135 (+ 40% AP)\nBonus Magic Damage Per Bolt:»15 / 20 / 25 / 30 / 35%«Maximum Damage:88 / 135 / 190 / 253 / 324 (+ 64 / 72 / 80 / 88 / 96% AP)",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "False",
+      "flatDamage": [
+        55,
+        75,
+        95,
+        115,
+        135
+      ],
+      "ratios": [
+        {
+          "value": 40,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Death's Hand.png",
+      "icons": [
+        "Death's Hand.png"
+      ],
+      "levelings": [
+        "Magic Damage:55 / 75 / 95 / 115 / 135 (+ 40% AP)\nBonus Magic Damage Per Bolt:»15 / 20 / 25 / 30 / 35%«Maximum Damage:88 / 135 / 190 / 253 / 324 (+ 64 / 72 / 80 / 88 / 96% AP)"
+      ],
+      "descriptions": [
+        "Active: Swain unleashes five bolts of eldritch power in the target direction, dealing magic damage to all enemies in a cone. Enemies can be hit by multiple bolts, taking bonus magic damage."
+      ]
+    },
+    {
+      "name": "Vision of Empire",
+      "cost": [
+        70,
+        80,
+        90,
+        100,
+        110
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        22,
+        21,
+        20,
+        19,
+        18
+      ],
+      "description": "Active: Swain summons a demonic eye at the target location,  revealing it for 2 seconds, which explodes after 1.5 seconds, dealing magic damage to all enemies hit, halved against  minions, and  slowing them for 2.5 seconds.",
+      "leveling": "Magic Damage:»80 / 120 / 160 / 200 / 240 (+ 70% AP)«Reduced Damage:40 / 60 / 80 / 100 / 120 (+ 35% AP)\nSlow Strength:25 / 35 / 45 / 55 / 65%",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        80,
+        120,
+        160,
+        200,
+        240
+      ],
+      "ratios": [
+        {
+          "value": 70,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Vision of Empire.png",
+      "icons": [
+        "Vision of Empire.png"
+      ],
+      "levelings": [
+        "Magic Damage:»80 / 120 / 160 / 200 / 240 (+ 70% AP)«Reduced Damage:40 / 60 / 80 / 100 / 120 (+ 35% AP)\nSlow Strength:25 / 35 / 45 / 55 / 65%",
+        "Reveal Duration:4 / 5 / 6 / 7 / 8"
+      ],
+      "descriptions": [
+        "Active: Swain summons a demonic eye at the target location,  revealing it for 2 seconds, which explodes after 1.5 seconds, dealing magic damage to all enemies hit, halved against  minions, and  slowing them for 2.5 seconds.",
+        "Enemy champions hit are also  revealed for a duration and have a Soul Fragment ripped from them."
+      ]
+    },
+    {
+      "name": "Nevermove",
+      "cost": [
+        50
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        10
+      ],
+      "description": "Active: Swain launches a demonic wave in the target direction, dealing magic damage to enemies it passes through.",
+      "leveling": "Magic Damage:35 / 70 / 105 / 140 / 175 (+ 25% AP)",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        35,
+        70,
+        105,
+        140,
+        175
+      ],
+      "ratios": [
+        {
+          "value": 25,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Nevermove.png",
+      "icons": [
+        "Nevermove.png"
+      ],
+      "levelings": [
+        "Magic Damage:35 / 70 / 105 / 140 / 175 (+ 25% AP)",
+        "Detonation Damage:»35 / 45 / 55 / 65 / 75 (+ 25% AP)«Maximum Damage:70 / 115 / 160 / 205 / 250 (+ 50% AP)"
+      ],
+      "descriptions": [
+        "Active: Swain launches a demonic wave in the target direction, dealing magic damage to enemies it passes through.",
+        "Upon reaching its maximum distance, the wave returns to Swain, detonating at the first enemy hit, dealing magic damage to all nearby enemies and  rooting them for 1.5 seconds."
+      ]
+    },
+    {
+      "name": "Demonic Ascension",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        120
+      ],
+      "description": "Active: Swain frees the demon within for 12 seconds, becoming  ghosted, gaining  bonus health and doubling the health gained from Soul Fragments.",
+      "leveling": "Bonus Health:125 / 162.5 / 200 / 237.5 / 275",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "False",
+      "flatDamage": [
+        125,
+        162.5,
+        200,
+        237.5,
+        275
+      ],
+      "ratios": [],
+      "castTime": 0.5,
+      "icon": "Demonic Ascension.png",
+      "icons": [
+        "Demonic Ascension.png"
+      ],
+      "levelings": [
+        "Bonus Health:125 / 162.5 / 200 / 237.5 / 275",
+        "Damage per Second:»35 / 42.5 / 50 / 57.5 / 65 (+ 14.167% AP)«Maximum Damage:420 / 510 / 600 / 690 / 780 (+ 170% AP)\nHeal per Second:»20 / 27.5 / 35 / 42.5 / 50 (+ 16% AP)«Reduced Healing:»2 / 2.75 / 3.5 / 4.25 / 5 (+ 1.6% AP)«Maximum Single-Champion Heal:»240 / 330 / 420 / 510 / 600 (+ 192% AP)«Maximum Single-Minion Heal:24 / 33 / 42 / 51 / 60 (+ 19.2% AP)"
+      ],
+      "descriptions": [
+        "Active: Swain frees the demon within for 12 seconds, becoming  ghosted, gaining  bonus health and doubling the health gained from Soul Fragments.",
+        "While Demonic Ascension is active, Swain drains all nearby enemies, dealing magic damage each second and  healing himself for each enemy hit, reduced by 90% against  minions and  monsters.",
+        "After a 0.5-second delay, Swain can end Demonic Ascension's effects early to cast  Demonflare, and automatically does so at the end of its duration.",
+        "Demonic Ascension drains enemies regardless of having  sight of them or not."
+      ]
+    }
+  ],
   "id": "Swain",
   "key": "50",
   "name": "Swain",
@@ -12,6 +216,7 @@
     "difficulty": 8
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Swain.png",
     "full": "Swain.png",
     "sprite": "champion3.png",
     "group": "champion",

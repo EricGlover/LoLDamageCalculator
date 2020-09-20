@@ -1,6 +1,32 @@
 {
   "abilities": [
     {
+      "name": "Soul Siphon",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Morgana  heals herself equal to 20% of ability damage dealt to  champions, large  minions, and large  monsters.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Soul Siphon.png",
+      "icons": [
+        "Soul Siphon.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Morgana  heals herself equal to 20% of ability damage dealt to  champions, large  minions, and large  monsters."
+      ]
+    },
+    {
       "name": "Dark Binding",
       "cost": [
         50,
@@ -13,7 +39,7 @@
       "coolDown": [
         10
       ],
-      "description": "Active: Morgana releases a sphere of dark magic that travels in the target direction, dealing magic damage to the first enemy hit and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooting them for a duration.",
+      "description": "Active: Morgana releases a sphere of dark magic that travels in the target direction, dealing magic damage to the first enemy hit and  rooting them for a duration.",
       "leveling": "Magic Damage:80 / 135 / 190 / 245 / 300 (+ 90% AP)\nRoot Duration:2 / 2.25 / 2.5 / 2.75 / 3",
       "skill": "Q",
       "damageType": "Magic",
@@ -31,7 +57,17 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Dark Binding.png",
+      "icons": [
+        "Dark Binding.png"
+      ],
+      "levelings": [
+        "Magic Damage:80 / 135 / 190 / 245 / 300 (+ 90% AP)\nRoot Duration:2 / 2.25 / 2.5 / 2.75 / 3"
+      ],
+      "descriptions": [
+        "Active: Morgana releases a sphere of dark magic that travels in the target direction, dealing magic damage to the first enemy hit and  rooting them for a duration."
+      ]
     },
     {
       "name": "Tormented Shadow",
@@ -64,7 +100,18 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Tormented Shadow.png",
+      "icons": [
+        "Tormented Shadow.png"
+      ],
+      "levelings": [
+        "Minimum Damage Per Half Second:»6 / 12 / 18 / 24 / 30 (+ 7% AP)«Maximum Damage Per Half Second:16.2 / 32.4 / 48.6 / 64.8 / 81 (+ 18.9% AP)\nMinimum Total Damage:»60 / 120 / 180 / 240 / 300 (+ 70% AP)«Maximum Total Damage:162 / 324 / 486 / 648 / 810 (+ 189% AP)"
+      ],
+      "descriptions": [
+        "Active: Morgana infects the target area for 5 seconds, causing enemies within to take magic damage every half second, increased by 0% − 170% (based on target's missing health). The first tick of damage is dealt instantly to enemies in the area at the time of cast. The total damage is increased by 50% against non-epic monsters.",
+        "Tormented Shadow's current  cooldown is reduced by 5% of its maximum whenever  Soul Siphon triggers. Simultaneous triggers from multiple targets will stack the cooldown reduction."
+      ]
     },
     {
       "name": "Black Shield",
@@ -79,7 +126,7 @@
         20,
         18
       ],
-      "description": "Active: Morgana <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields the target allied <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion or herself for up to 5 seconds, which absorbs magic damage and grants <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b1/Cc-immune_icon.png/revision/latest/scale-to-width-down/20?cb=20200327223512\" \t alt=\"Cc-immune icon\"  \tclass=\"\" \t \tdata-image-key=\"Cc-immune_icon.png\" \tdata-image-name=\"Cc-immune icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crowd control immunity while the shield holds.",
+      "description": "Active: Morgana  shields the target allied  champion or herself for up to 5 seconds, which absorbs magic damage and grants  crowd control immunity while the shield holds.",
       "leveling": "Magic Damage Shield:80 / 135 / 190 / 245 / 300 (+ 70% AP)",
       "skill": "E",
       "damageType": "",
@@ -97,7 +144,17 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Black Shield.png",
+      "icons": [
+        "Black Shield.png"
+      ],
+      "levelings": [
+        "Magic Damage Shield:80 / 135 / 190 / 245 / 300 (+ 70% AP)"
+      ],
+      "descriptions": [
+        "Active: Morgana  shields the target allied  champion or herself for up to 5 seconds, which absorbs magic damage and grants  crowd control immunity while the shield holds."
+      ]
     },
     {
       "name": "Soul Shackles",
@@ -112,7 +169,7 @@
         105,
         100
       ],
-      "description": "Active: Morgana latches <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Focused_Resolve.png/revision/latest/scale-to-width-down/20?cb=20130929122918\" \t alt=\"Focused Resolve\"  \tclass=\"\" \t \tdata-image-key=\"Focused_Resolve.png\" \tdata-image-name=\"Focused Resolve.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> chains of energy onto nearby enemy champions during the cast time, dealing them magic damage.",
+      "description": "Active: Morgana latches  chains of energy onto nearby enemy champions during the cast time, dealing them magic damage.",
       "leveling": "Magic Damage:»150 / 187.5 / 225 / 262.5 / 300 (+ 70% AP)«Total Magic Damage:300 / 375 / 450 / 525 / 600 (+ 140% AP)",
       "skill": "R",
       "damageType": "Magic",
@@ -130,7 +187,21 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.35
+      "castTime": 0.35,
+      "icon": "Soul Shackles.png",
+      "icons": [
+        "Soul Shackles.png"
+      ],
+      "levelings": [
+        "Magic Damage:»150 / 187.5 / 225 / 262.5 / 300 (+ 70% AP)«Total Magic Damage:300 / 375 / 450 / 525 / 600 (+ 140% AP)",
+        "Bonus Movement Speed:5 / 17.5 / 30 / 42.5 / 55%"
+      ],
+      "descriptions": [
+        "Active: Morgana latches  chains of energy onto nearby enemy champions during the cast time, dealing them magic damage.",
+        "The tethers maintain at range for 3 seconds,  revealing affected enemies and  slowing them by 20%. Additionally, Morgana gains bonus movement speed when moving towards them.",
+        "When the duration ends, tethered targets are  revealed and  stunned for 1.5 seconds and dealt the same magic damage again.",
+        "Soul Shackles does not require  sight of targets to be cast and tether to them."
+      ]
     }
   ],
   "id": "Morgana",
@@ -145,6 +216,7 @@
     "difficulty": 1
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Morgana.png",
     "full": "Morgana.png",
     "sprite": "champion2.png",
     "group": "champion",

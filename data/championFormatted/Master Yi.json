@@ -1,0 +1,271 @@
+{
+  "abilities": [
+    {
+      "name": "Double Strike",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Master Yi gains a stack of Double Strike for every basic attack on-hit within 4 seconds of each other. At 3 stacks, Master Yi's next basic attack on-attack within 4 seconds consumes the stacks to strike twice, the second strike dealing 50% AD physical damage.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Double Strike.png",
+      "icons": [
+        "Double Strike.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Master Yi gains a stack of Double Strike for every basic attack on-hit within 4 seconds of each other. At 3 stacks, Master Yi's next basic attack on-attack within 4 seconds consumes the stacks to strike twice, the second strike dealing 50% AD physical damage.",
+        "The second strike applies on-attack and on-hit effects at full effect and is affected by  critical strike modifiers.",
+        "If Master Yi's primary target is killed before the second strike, he automatically attacks another enemy within 300 range.",
+        "The second strike can  critically strike  structures."
+      ]
+    },
+    {
+      "name": "Alpha Strike",
+      "cost": [
+        50,
+        55,
+        60,
+        65,
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "description": "Active: Master Yi  vanishes and, after 0.231 seconds, marks the target enemy and then moves to mark the nearest  visible un-marked enemy within 600 units, recurring up to 3 times, once every 0.231 seconds.",
+      "leveling": "Physical Damage:»25 / 60 / 95 / 130 / 165 (+ 100% AD)«Monster Damage:»100 / 160 / 220 / 280 / 340 (+ 100% AD)«Monster Bonus Damage:75 / 100 / 125 / 150 / 175",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        25,
+        60,
+        95,
+        130,
+        165
+      ],
+      "ratios": [
+        {
+          "value": 100,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Alpha Strike.png",
+      "icons": [
+        "Alpha Strike.png"
+      ],
+      "levelings": [
+        "Physical Damage:»25 / 60 / 95 / 130 / 165 (+ 100% AD)«Monster Damage:»100 / 160 / 220 / 280 / 340 (+ 100% AD)«Monster Bonus Damage:75 / 100 / 125 / 150 / 175",
+        "Reduced Damage:»6.25 / 15 / 23.75 / 32.5 / 41.25 (+ 25% AD)«Reduced Monster Damage:25 / 40 / 55 / 70 / 85 (+ 25% AD)\nMaximum Single-Target Damage:»43.75 / 105 / 166.25 / 227.5 / 288.75 (+ 175% AD)«Max Monster Single-Target Damage:175 / 280 / 385 / 490 / 595 (+ 175% AD)"
+      ],
+      "descriptions": [
+        "Active: Master Yi  vanishes and, after 0.231 seconds, marks the target enemy and then moves to mark the nearest  visible un-marked enemy within 600 units, recurring up to 3 times, once every 0.231 seconds.",
+        "Upon finishing marking, or if there are no longer any targetable enemies, he  reappears「 after 0.165 seconds 」「 1.087 seconds after the start of the cast with 4 bounces 」in front of his target's current location and deals physical damage to all marked enemies, increased against  monsters. If his target  dies or gets too far away during the delay, he will reappear at the cast location instead.",
+        "If there are no other un-marked enemies in range, he may strike the same enemies again, dealing 25% damage instantly.",
+        "Alpha Strike's primary and lesser damage can  critically strike for (60% +  15%) AD bonus physical damage and (15% +  3.75%) AD bonus physical damage respectively.",
+        "Basic attacks reduce Alpha Strike's  cooldown by 1 second."
+      ]
+    },
+    {
+      "name": "Meditate",
+      "cost": [
+        50
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        28
+      ],
+      "description": "Active: Master Yi  channels for up to 4 seconds,  healing himself every 0.5 seconds, increased by 0% − 100% (based on missing health).",
+      "leveling": "Minimum Healing Per Half Second:»15 / 25 / 35 / 45 / 55 (+ 12.5% AP)«Maximum Healing Per Half Second:30 / 50 / 70 / 90 / 110 (+ 25% AP)Minimum Total Healing:»120 / 200 / 280 / 360 / 440 (+ 100% AP)«Maximum Total Healing:240 / 400 / 560 / 720 / 880 (+ 200% AP)",
+      "skill": "W",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        15,
+        25,
+        35,
+        45,
+        55
+      ],
+      "ratios": [
+        {
+          "value": 12.5,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Meditate.png",
+      "icons": [
+        "Meditate.png"
+      ],
+      "levelings": [
+        "Minimum Healing Per Half Second:»15 / 25 / 35 / 45 / 55 (+ 12.5% AP)«Maximum Healing Per Half Second:30 / 50 / 70 / 90 / 110 (+ 25% AP)Minimum Total Healing:»120 / 200 / 280 / 360 / 440 (+ 100% AP)«Maximum Total Healing:240 / 400 / 560 / 720 / 880 (+ 200% AP)",
+        "Damage Reduction:»60 / 62.5 / 65 / 67.5 / 70%«Turret Damage Reduction:30 / 31.25 / 32.5 / 33.75 / 35%",
+        "Post-Channel Damage Reduction:»40 / 37.5 / 35 / 32.5 / 30%«Post-Channel Turret Damage Reduction:70 / 68.75 / 67.5 / 66.25 / 65%"
+      ],
+      "descriptions": [
+        "Active: Master Yi  channels for up to 4 seconds,  healing himself every 0.5 seconds, increased by 0% − 100% (based on missing health).",
+        "While channeling, Master Yi reduces incoming damage, halved against turrets, pauses  Wuju Style's and  Highlander's duration, and grants one stack of  Double Strike per second.",
+        "After the channel ends, Master Yi reduces incoming damage for another 0.25 seconds, with lesser effectiveness against non-turret damage but greater effectiveness vs turret damage. *",
+        "Meditate  resets Master Yi's basic attack timer."
+      ]
+    },
+    {
+      "name": "Wuju Style",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "description": "Active: Master Yi empowers his sword, causing his basic attacks to deal  bonus true damage for 5 seconds.",
+      "leveling": "True Damage:18 / 26 / 34 / 42 / 50 (+ 35% bonus AD)",
+      "skill": "E",
+      "damageType": "True",
+      "isProjectile": "",
+      "flatDamage": [
+        18,
+        26,
+        34,
+        42,
+        50
+      ],
+      "ratios": [
+        {
+          "value": 35,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Wuju Style.png",
+      "icons": [
+        "Wuju Style.png"
+      ],
+      "levelings": [
+        "True Damage:18 / 26 / 34 / 42 / 50 (+ 35% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Master Yi empowers his sword, causing his basic attacks to deal  bonus true damage for 5 seconds."
+      ]
+    },
+    {
+      "name": "Highlander",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        85
+      ],
+      "description": "Passive: Champion  takedowns reduce the current  cooldown of Master Yi's basic abilities by 70%.",
+      "leveling": "Bonus Attack Speed:25 / 35 / 45 / 55 / 65%\nBonus Movement Speed:35 / 40 / 45 / 50 / 55%",
+      "skill": "R",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        25,
+        35,
+        45,
+        55,
+        65
+      ],
+      "ratios": [],
+      "castTime": null,
+      "icon": "false",
+      "icons": [
+        "false",
+        "Highlander.png"
+      ],
+      "levelings": [
+        "Bonus Attack Speed:25 / 35 / 45 / 55 / 65%\nBonus Movement Speed:35 / 40 / 45 / 50 / 55%"
+      ],
+      "descriptions": [
+        "Passive: Champion  takedowns reduce the current  cooldown of Master Yi's basic abilities by 70%.",
+        "Active: Master Yi  cleanses himself of all  slows and  cripples. For the next 7 seconds, he is  ghosted, gains  bonus attack speed and  bonus movement speed, and becomes  slow-immune and immune to  cripples.",
+        "While active, champion  takedowns extend the duration of Highlander by 7 seconds."
+      ]
+    }
+  ],
+  "id": "MasterYi",
+  "key": "11",
+  "name": "Master Yi",
+  "title": "the Wuju Bladesman",
+  "blurb": "Master Yi has tempered his body and sharpened his mind, so that thought and action have become almost as one. Though he chooses to enter into violence only as a last resort, the grace and speed of his blade ensures resolution is always swift. As one of...",
+  "info": {
+    "attack": 10,
+    "defense": 4,
+    "magic": 2,
+    "difficulty": 4
+  },
+  "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/MasterYi.png",
+    "full": "MasterYi.png",
+    "sprite": "champion2.png",
+    "group": "champion",
+    "x": 96,
+    "y": 48,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Assassin",
+    "Fighter"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 598.56,
+    "hpPerLevel": 92,
+    "mp": 250.56,
+    "mpPerLevel": 42,
+    "moveSpeed": 355,
+    "armor": 33,
+    "armorPerLevel": 3,
+    "spellBlock": 32.1,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 125,
+    "hpRegen": 7.5,
+    "hpRegenPerLevel": 0.65,
+    "mpRegen": 7.256,
+    "mpRegenPerLevel": 0.45,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 66,
+    "attackDamagePerLevel": 3,
+    "attackSpeedPerLevel": 2,
+    "attackSpeed": 0.679
+  },
+  "_level": 1,
+  "attackRange": 125,
+  "moveSpeed": 355,
+  "hp": 598.56,
+  "mp": 250.56,
+  "hpRegen": 7.5,
+  "mpRegen": 7.256,
+  "crit": 0,
+  "attackDamage": 66,
+  "attackSpeed": 0.679,
+  "armor": 33,
+  "spellBlock": 32.1
+}

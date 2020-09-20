@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Hextech Affinity",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Heimerdinger gains  20% bonus movement speed while near allied  turrets or his   own.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Hextech Affinity.png",
+    "icons": [
+      "Hextech Affinity.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Heimerdinger gains  20% bonus movement speed while near allied  turrets or his   own."
+    ]
+  },
+  {
+    "name": "H-28G Evolution Turret",
+    "cost": [
+      20
+    ],
+    "costType": "Mana + 1 Turret Kit",
+    "coolDown": [
+      1
+    ],
+    "description": "Passive: Heimerdinger periodically stocks a Turret Kit, up to a maximum of 3.",
+    "leveling": null,
+    "skill": "Q",
+    "damageType": "magic",
+    "isProjectile": "True",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": 0.25,
+    "icon": "H-28G Evolution Turret.png",
+    "icons": [
+      "H-28G Evolution Turret.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Passive: Heimerdinger periodically stocks a Turret Kit, up to a maximum of 3.",
+      "Active: Heimerdinger deploys a H-28G Evolution Turret at the target location, which lasts until destroyed.",
+      "Up to 3 H-28G Evolution Turrets can be deployed at a time, and deploying a fourth destroys the oldest one."
+    ]
+  },
+  {
+    "name": "Hextech Micro-Rockets",
+    "cost": [
+      50,
+      60,
+      70,
+      80,
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      11,
+      10,
+      9,
+      8,
+      7
+    ],
+    "description": "Active: Heimerdinger unleashes a wave of 5 rockets that converge to the target location and fan beyond it up to a maximum range, with each rocket dealing magic damage to the first enemy it hits. Every rocket hitting an enemy  champion grants 20% beam charge to all   turrets within 1000 range, up to a maximum of 100% beam charge when hitting 5 rockets on an enemy champion.",
+    "leveling": "Initial Rocket Magic Damage:50 / 80 / 110 / 140 / 170 (+ 45% AP)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      50,
+      80,
+      110,
+      140,
+      170
+    ],
+    "ratios": [
+      {
+        "value": 45,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Hextech Micro-Rockets.png",
+    "icons": [
+      "Hextech Micro-Rockets.png"
+    ],
+    "levelings": [
+      "Initial Rocket Magic Damage:50 / 80 / 110 / 140 / 170 (+ 45% AP)",
+      "Additional Damage:»10 / 16 / 22 / 28 / 34 (+ 12% AP)«Total Damage:90 / 144 / 198 / 252 / 306 (+ 93% AP)Additional Minion Damage:»30 / 48 / 66 / 84 / 102 (+ 35.75% AP)«Total Minion Damage:170 / 272 / 374 / 476 / 578 (+ 188% AP)"
+    ],
+    "descriptions": [
+      "Active: Heimerdinger unleashes a wave of 5 rockets that converge to the target location and fan beyond it up to a maximum range, with each rocket dealing magic damage to the first enemy it hits. Every rocket hitting an enemy  champion grants 20% beam charge to all   turrets within 1000 range, up to a maximum of 100% beam charge when hitting 5 rockets on an enemy champion.",
+      "Enemies can be hit by multiple rockets, with each one beyond the first dealing reduced damage, and  minions taking increased additional damage."
+    ]
+  },
+  {
+    "name": "CH-2 Electron Storm Grenade",
+    "cost": [
+      85
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12
+    ],
+    "description": "Active: Heimerdinger hurls a grenade at the target location, dealing magic damage upon impact to all nearby enemies and  slowing them by 35% for 2 seconds. If the grenade hits an enemy  champion, all   turrets within 1000 range of the impact gain 100% beam charge.",
+    "leveling": "Magic Damage:60 / 100 / 140 / 180 / 220 (+ 60% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      60,
+      100,
+      140,
+      180,
+      220
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "CH-2 Electron Storm Grenade.png",
+    "icons": [
+      "CH-2 Electron Storm Grenade.png"
+    ],
+    "levelings": [
+      "Magic Damage:60 / 100 / 140 / 180 / 220 (+ 60% AP)"
+    ],
+    "descriptions": [
+      "Active: Heimerdinger hurls a grenade at the target location, dealing magic damage upon impact to all nearby enemies and  slowing them by 35% for 2 seconds. If the grenade hits an enemy  champion, all   turrets within 1000 range of the impact gain 100% beam charge.",
+      "Enemies at the center of the grenade's impact are also  stunned for 1.5 seconds."
+    ]
+  },
+  {
+    "name": "UPGRADE!!!",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      100,
+      92,
+      85,
+      77,
+      70
+    ],
+    "description": "Active: Heimerdinger empowers his next basic ability, placing it on the same  cooldown as its basic form, modifying its damage and making it free to cast. UPGRADE!!! can be recast after 3 seconds.",
+    "leveling": null,
+    "skill": "R",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "UPGRADE!!!.png",
+    "icons": [
+      "UPGRADE!!!.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Active: Heimerdinger empowers his next basic ability, placing it on the same  cooldown as its basic form, modifying its damage and making it free to cast. UPGRADE!!! can be recast after 3 seconds.",
+      "Recast: Heimerdinger ends UPGRADE!!! and puts it on a 3-second cooldown.",
+      "UPGRADE!!! can be used while affected by  crowd control."
+    ]
+  }
+]

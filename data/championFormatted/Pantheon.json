@@ -1,6 +1,33 @@
 {
   "abilities": [
     {
+      "name": "Mortal Will",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Pantheon gains a stack of Mortal Will when he lands a basic attack on-hit or casts an ability, up to a maximum of 5. At 5 stacks, Pantheon's next basic ability consume the stacks to grant bonus effects.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Mortal Will.png",
+      "icons": [
+        "Mortal Will.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Pantheon gains a stack of Mortal Will when he lands a basic attack on-hit or casts an ability, up to a maximum of 5. At 5 stacks, Pantheon's next basic ability consume the stacks to grant bonus effects.",
+        "Pantheon gains full stacks upon starting the game and upon respawning."
+      ]
+    },
+    {
       "name": "Comet Spear",
       "cost": [
         40
@@ -13,7 +40,7 @@
         8,
         8
       ],
-      "description": "Active: Pantheon <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charges for up to 4 seconds, increasing Comet Spear's range while being <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed by 10%. Comet Spear can be recast at any time within its duration.",
+      "description": "Active: Pantheon  charges for up to 4 seconds, increasing Comet Spear's range while being  slowed by 10%. Comet Spear can be recast at any time within its duration.",
       "leveling": "Physical Damage:»75 / 110 / 145 / 180 / 215 (+ 100% bonus AD)«Increased Damage:»155 / 240 / 325 / 410 / 495 (+ 200% bonus AD)«Secondary Physical Damage:»37.5 / 55 / 72.5 / 90 / 107.5 (+ 50% bonus AD)«Increased Secondary Damage:77.5 / 120 / 162.5 / 205 / 247.5 (+ 100% bonus AD)",
       "skill": "Q",
       "damageType": "Physical",
@@ -31,7 +58,23 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Comet Spear.png",
+      "icons": [
+        "Comet Spear.png",
+        "Comet Spear 2.png"
+      ],
+      "levelings": [
+        "Physical Damage:»75 / 110 / 145 / 180 / 215 (+ 100% bonus AD)«Increased Damage:»155 / 240 / 325 / 410 / 495 (+ 200% bonus AD)«Secondary Physical Damage:»37.5 / 55 / 72.5 / 90 / 107.5 (+ 50% bonus AD)«Increased Secondary Damage:77.5 / 120 / 162.5 / 205 / 247.5 (+ 100% bonus AD)",
+        "Slow:20 / 25 / 30 / 35 / 40%"
+      ],
+      "descriptions": [
+        "Active: Pantheon  charges for up to 4 seconds, increasing Comet Spear's range while being  slowed by 10%. Comet Spear can be recast at any time within its duration.",
+        "Recast: Pantheon hurls his spear in the target direction, dealing physical damage to all enemies hit,  increased against enemies below 20% of their maximum health but reduced by 30% against  minions and by 50% against enemies beyond the first.",
+        "Releasing the ability within 0.35 seconds causes Pantheon to instead thrust his spear in the target direction, dealing the same physical damage to all enemies hit and refunding 50% of Comet Spear's  cooldown. The thrust's damage is not reduced against enemies beyond the first.",
+        "If Pantheon is  interrupted during the charge, or the charge completes without reactivation, Comet Spear is cancelled and the ability is put on full cooldown but refunds  half the mana cost.",
+        " Mortal Will: Deals an additional 20 − 240 (based on level) (+ 100% bonus AD) bonus physical damage, affected by the previous damage reductions, to all enemies hit and  slows them for 2.5 seconds."
+      ]
     },
     {
       "name": "Shield Vault",
@@ -46,7 +89,7 @@
         10,
         9
       ],
-      "description": "Active: Pantheon <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leaps to the front of the target enemy's location, dealing them physical damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning them for 1 second upon arrival.",
+      "description": "Active: Pantheon  leaps to the front of the target enemy's location, dealing them physical damage and  stunning them for 1 second upon arrival.",
       "leveling": "Physical Damage:60 / 80 / 100 / 120 / 140 (+ 100% AP)",
       "skill": "W",
       "damageType": "physical",
@@ -64,7 +107,22 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Shield Vault.png",
+      "icons": [
+        "Shield Vault.png",
+        "Shield Vault 2.png"
+      ],
+      "levelings": [
+        "Physical Damage:60 / 80 / 100 / 120 / 140 (+ 100% AP)"
+      ],
+      "descriptions": [
+        "Active: Pantheon  leaps to the front of the target enemy's location, dealing them physical damage and  stunning them for 1 second upon arrival.",
+        " Mortal Will: Pantheon's next basic attack within 4 seconds becomes  unstoppable and strikes his target 3 times, dealing 45% − 55% (based on level) AD physical damage per hit, up to 135% − 165% (based on level) AD. Each hit is affected by  critical strike modifiers and applies on-hit effects.",
+        "Empowered Shield Vault  resets Pantheon's basic attack timer.",
+        "The ability can be dodged if the target moves 800 units away.",
+        "Pantheon will attempt to basic attack the target at the end of the leap."
+      ]
     },
     {
       "name": "Aegis Assault",
@@ -79,7 +137,7 @@
         17,
         16
       ],
-      "description": "Active: Pantheon braces his shield in the target direction, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channeling for 1.5 seconds as well as becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed for between 0% − 50% (based on his movement direction). Aegis Assault cannot be <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> interrupted by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crowd control.",
+      "description": "Active: Pantheon braces his shield in the target direction,  channeling for 1.5 seconds as well as becoming  slowed for between 0% − 50% (based on his movement direction). Aegis Assault cannot be  interrupted by  crowd control.",
       "leveling": "Slam Damage:55 / 105 / 155 / 205 / 255 (+ 150% bonus AD)",
       "skill": "E",
       "damageType": "physical",
@@ -97,7 +155,22 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Aegis Assault.png",
+      "icons": [
+        "Aegis Assault.png",
+        "Aegis Assault 2.png"
+      ],
+      "levelings": [
+        "Slam Damage:55 / 105 / 155 / 205 / 255 (+ 150% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Pantheon braces his shield in the target direction,  channeling for 1.5 seconds as well as becoming  slowed for between 0% − 50% (based on his movement direction). Aegis Assault cannot be  interrupted by  crowd control.",
+        "For the duration, Pantheon is  invulnerable against damage dealt by enemies ( turrets included) from the target direction, and deals「 up to 100% AD physical damage over the duration 」「 8.3% AD physical damage every 0.125 seconds 」 in a cone to all enemies struck, reduced by 50% against  minions.",
+        "At the end of the duration, Pantheon slams with his shield after a 0.25-second delay, dealing physical damage. Aegis Assault can be recast after 0.3 seconds.",
+        "Recast: Pantheon slams with his shield early.",
+        " Mortal Will: Aegis Assault's duration is increased to 2.5 seconds, dealing「 up to 166.6% AD physical damage over the duration. 」「 8.3% AD physical damage every 0.125 seconds. 」"
+      ]
     },
     {
       "name": "Grand Starfall",
@@ -112,7 +185,7 @@
         157,
         150
       ],
-      "description": "Active: Pantheon <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels for 2 seconds to leap high into the air, then marks and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reveals his destination before crashing down along the target area 1.85 seconds later, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reappearing at the target location 0.75 seconds later and afterwards instantly readying <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7b/Mortal_Will.png/revision/latest/scale-to-width-down/20?cb=20190730164526\" \t alt=\"Mortal Will\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mortal_Will.png\" \tdata-image-name=\"Mortal Will.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mortal Will. Pantheon remains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8c/Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20160608033548\" \t alt=\"Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Hallucinate.png\" \tdata-image-name=\"Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> vanished and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b1/Cc-immune_icon.png/revision/latest/scale-to-width-down/20?cb=20200327223512\" \t alt=\"Cc-immune icon\"  \tclass=\"\" \t \tdata-image-key=\"Cc-immune_icon.png\" \tdata-image-name=\"Cc-immune icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crowd control immune until the landing is complete after the channel.",
+      "description": "Active: Pantheon  channels for 2 seconds to leap high into the air, then marks and  reveals his destination before crashing down along the target area 1.85 seconds later,  reappearing at the target location 0.75 seconds later and afterwards instantly readying  Mortal Will. Pantheon remains  vanished and  crowd control immune until the landing is complete after the channel.",
       "leveling": "Magic Damage:»300 / 400 / 500 / 600 / 700 (+ 100% AP)«Minimum Damage:150 / 200 / 250 / 300 / 350 (+ 50% AP)",
       "skill": "R",
       "damageType": "magic",
@@ -130,7 +203,20 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.1
+      "castTime": 0.1,
+      "icon": "Grand Starfall.png",
+      "icons": [
+        "Grand Starfall.png"
+      ],
+      "levelings": [
+        "Magic Damage:»300 / 400 / 500 / 600 / 700 (+ 100% AP)«Minimum Damage:150 / 200 / 250 / 300 / 350 (+ 50% AP)"
+      ],
+      "descriptions": [
+        "Active: Pantheon  channels for 2 seconds to leap high into the air, then marks and  reveals his destination before crashing down along the target area 1.85 seconds later,  reappearing at the target location 0.75 seconds later and afterwards instantly readying  Mortal Will. Pantheon remains  vanished and  crowd control immune until the landing is complete after the channel.",
+        "The landing deals magic damage to all enemies along the crashing path, decreased by up to 50% at the edges of the area.",
+        "Grand Starfall is put on a 30 second  cooldown if the channel is canceled.",
+        "Grand Starfall will cast at max range if cast beyond that."
+      ]
     }
   ],
   "id": "Pantheon",
@@ -145,6 +231,7 @@
     "difficulty": 4
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Pantheon.png",
     "full": "Pantheon.png",
     "sprite": "champion2.png",
     "group": "champion",

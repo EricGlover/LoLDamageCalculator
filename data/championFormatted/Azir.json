@@ -1,6 +1,33 @@
 {
   "abilities": [
     {
+      "name": "Shurima's Legacy",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Azir periodically places a marker above the ruins of all destroyed  turrets outside the enemy base.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Physical",
+      "isProjectile": "False",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Shurima's Legacy.png",
+      "icons": [
+        "Shurima's Legacy.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Azir periodically places a marker above the ruins of all destroyed  turrets outside the enemy base.",
+        "Innate - Disc of the Sun: Azir can target a marker to construct the Sun Disc above the ruins, which functions like a standard inner turret but gains (15% AP)  bonus attack damage and grants Azir any kill it does. The Sun Disc's  health decays over 60 seconds and loses  100 armor if Azir dies or moves too far away."
+      ]
+    },
+    {
       "name": "Conquering Sands",
       "cost": [
         70
@@ -13,7 +40,7 @@
         9,
         7
       ],
-      "description": "Active: Azir orders all Sand Soldiers to dash toward the target location, dealing magic damage to all enemies they pass through and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 25% for 1 second.",
+      "description": "Active: Azir orders all Sand Soldiers to dash toward the target location, dealing magic damage to all enemies they pass through and  slowing them by 25% for 1 second.",
       "leveling": "Magic Damage:70 / 90 / 110 / 130 / 150 (+ 30% AP)",
       "skill": "Q",
       "damageType": "Magic",
@@ -31,7 +58,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Conquering Sands.png",
+      "icons": [
+        "Conquering Sands.png"
+      ],
+      "levelings": [
+        "Magic Damage:70 / 90 / 110 / 130 / 150 (+ 30% AP)"
+      ],
+      "descriptions": [
+        "Active: Azir orders all Sand Soldiers to dash toward the target location, dealing magic damage to all enemies they pass through and  slowing them by 25% for 1 second.",
+        "Enemies hit by subsequent soldiers are instead  slowed by an additional 25% per soldier.",
+        "Conquering Sands will cast at max range if cast beyond that."
+      ]
     },
     {
       "name": "Arise!",
@@ -42,7 +81,7 @@
       "coolDown": [
         1
       ],
-      "description": "Passive: Azir periodically stocks a Sand Soldier, up to a maximum of 2. He also gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed, doubled for 5 seconds if he summons a third concurrent soldier.",
+      "description": "Passive: Azir periodically stocks a Sand Soldier, up to a maximum of 2. He also gains  bonus attack speed, doubled for 5 seconds if he summons a third concurrent soldier.",
       "leveling": "Bonus Attack Speed:»15 / 25 / 35 / 45 / 55%«Increased Attack Speed:30 / 50 / 70 / 90 / 110%",
       "skill": "W",
       "damageType": "Magic",
@@ -55,7 +94,21 @@
         55
       ],
       "ratios": [],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Arise!.png",
+      "icons": [
+        "Arise!.png"
+      ],
+      "levelings": [
+        "Bonus Attack Speed:»15 / 25 / 35 / 45 / 55%«Increased Attack Speed:30 / 50 / 70 / 90 / 110%"
+      ],
+      "descriptions": [
+        "Passive: Azir periodically stocks a Sand Soldier, up to a maximum of 2. He also gains  bonus attack speed, doubled for 5 seconds if he summons a third concurrent soldier.",
+        "Active: Azir summons an  untargetable Sand Soldier at the target location that lasts 10 seconds, expiring twice as fast while within range of an enemy  turret, and expiring instantly if Azir is not in control range.",
+        "When Azir selects an enemy in a soldier's attack range, the Sand Soldier attacks in his stead, dealing 60 −  160 (based on level) (+ 60% AP) magic damage in a line. Targets beyond the closest take 25 / 50 / 75 / 100% (based on level) damage. Subsequent Sand Soldiers beyond the first deal 25% damage.",
+        "Sand Soldiers cannot attack  structures,  wards, and  traps.",
+        "Arise! will cast at max range if cast beyond that."
+      ]
     },
     {
       "name": "Shifting Sands",
@@ -70,7 +123,7 @@
         16,
         15
       ],
-      "description": "Active: Azir <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields himself for 1.5 seconds and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target Sand Soldiers, dealing magic damage to enemies he passes through.",
+      "description": "Active: Azir  shields himself for 1.5 seconds and  dashes to the target Sand Soldiers, dealing magic damage to enemies he passes through.",
       "leveling": "Shield Strength:80 / 120 / 160 / 200 / 240 (+ 70% AP)Magic Damage:60 / 90 / 120 / 150 / 180 (+ 40% AP)",
       "skill": "E",
       "damageType": "Magic",
@@ -88,7 +141,18 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Shifting Sands.png",
+      "icons": [
+        "Shifting Sands.png"
+      ],
+      "levelings": [
+        "Shield Strength:80 / 120 / 160 / 200 / 240 (+ 70% AP)Magic Damage:60 / 90 / 120 / 150 / 180 (+ 40% AP)"
+      ],
+      "descriptions": [
+        "Active: Azir  shields himself for 1.5 seconds and  dashes to the target Sand Soldiers, dealing magic damage to enemies he passes through.",
+        "If Azir hits an enemy champion, he stops dashing and gains a charge of  Arise!."
+      ]
     },
     {
       "name": "Emperor's Divide",
@@ -114,7 +178,20 @@
         8
       ],
       "ratios": [],
-      "castTime": 0.5
+      "castTime": 0.5,
+      "icon": "Emperor's Divide.png",
+      "icons": [
+        "Emperor's Divide.png"
+      ],
+      "levelings": [
+        "Width:6 / 6.5 / 7 / 7.5 / 8 soldiers",
+        "Magic Damage:175 / 250 / 325 / 400 / 475 (+ 60% AP)"
+      ],
+      "descriptions": [
+        "Active: Azir calls forth a phalanx of soldiers from behind him, charging forward in the target direction.",
+        "Enemies impacted by the charge are dealt magic damage and  knocked back.",
+        "When the soldiers finish their charge, they stand as a wall for 5 seconds, acting as impassible terrain against enemies. Azir and his allies can move through the wall."
+      ]
     }
   ],
   "id": "Azir",
@@ -129,6 +206,7 @@
     "difficulty": 9
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Azir.png",
     "full": "Azir.png",
     "sprite": "champion0.png",
     "group": "champion",

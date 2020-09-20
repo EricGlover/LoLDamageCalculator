@@ -1,5 +1,225 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Nimble Fighter",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Fizz is permanently  ghosted, and takes 4 (+ 1% AP) reduced pre-mitigation damage from each tick of damage, up to a maximum of 50% reduction.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Nimble Fighter.png",
+      "icons": [
+        "Nimble Fighter.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Fizz is permanently  ghosted, and takes 4 (+ 1% AP) reduced pre-mitigation damage from each tick of damage, up to a maximum of 50% reduction."
+      ]
+    },
+    {
+      "name": "Urchin Strike",
+      "cost": [
+        50
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        8,
+        7,
+        7,
+        6,
+        6
+      ],
+      "description": "Active: Fizz  dashes a fixed distance towards the target enemy, dealing them magic damage plus 100% AD physical damage if they are in range upon arrival.",
+      "leveling": "Bonus Magic Damage:10 / 25 / 40 / 55 / 70 (+ 55% AP)",
+      "skill": "Q",
+      "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        10,
+        25,
+        40,
+        55,
+        70
+      ],
+      "ratios": [
+        {
+          "value": 55,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Urchin Strike.png",
+      "icons": [
+        "Urchin Strike.png"
+      ],
+      "levelings": [
+        "Bonus Magic Damage:10 / 25 / 40 / 55 / 70 (+ 55% AP)"
+      ],
+      "descriptions": [
+        "Active: Fizz  dashes a fixed distance towards the target enemy, dealing them magic damage plus 100% AD physical damage if they are in range upon arrival.",
+        "Urchin Strike applies on-hit effects."
+      ]
+    },
+    {
+      "name": "Seastone Trident",
+      "cost": [
+        30,
+        40,
+        50,
+        60,
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        7,
+        6,
+        6,
+        5,
+        5
+      ],
+      "description": "Passive: Fizz's basic attacks rend enemies on-hit, dealing magic damage every 0.5 seconds for 3 seconds, refreshing on-hit.",
+      "leveling": "Total Magic Damage:»20 / 30 / 40 / 50 / 60 (+ 40% AP)«Magic Damage per Tick:3.33 / 5 / 6.67 / 8.33 / 10 (+ 6.67% AP)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        20,
+        30,
+        40,
+        50,
+        60
+      ],
+      "ratios": [
+        {
+          "value": 40,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Seastone Trident.png",
+      "icons": [
+        "Seastone Trident.png"
+      ],
+      "levelings": [
+        "Total Magic Damage:»20 / 30 / 40 / 50 / 60 (+ 40% AP)«Magic Damage per Tick:3.33 / 5 / 6.67 / 8.33 / 10 (+ 6.67% AP)",
+        "Bonus Magic Damage:50 / 70 / 90 / 110 / 130 (+ 50% AP)",
+        "Mana Refunded:20 / 28 / 36 / 44 / 52\nBonus On-Hit Damage:10 / 15 / 20 / 25 / 30 (+ 35% AP)"
+      ],
+      "descriptions": [
+        "Passive: Fizz's basic attacks rend enemies on-hit, dealing magic damage every 0.5 seconds for 3 seconds, refreshing on-hit.",
+        "Active: Fizz's next basic attack becomes  unstoppable, deals bonus magic damage and gains  50 bonus range.",
+        "If Seastone Trident kills its target, its  cooldown is reduced to 1 second and refunds  mana. Otherwise, if Seastone Trident doesn't kill its target, Fizz's basic attacks deal bonus magic damage on-hit for 5 seconds.",
+        "Seastone Trident  resets Fizz's basic attack timer."
+      ]
+    },
+    {
+      "name": "Playful",
+      "cost": [
+        90,
+        95,
+        100,
+        105,
+        110
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        16,
+        14,
+        13,
+        11,
+        10
+      ],
+      "description": "Active: Fizz becomes  untargetable and  vaults toward the target location over 0.25 seconds while balancing on his trident. Fizz gains the ability to cast  Trickster after a 0.15-second delay until he begins to jump off the trident.",
+      "leveling": "Magic Damage:70 / 120 / 170 / 220 / 270 (+ 75% AP)Slow:40 / 45 / 50 / 55 / 60%",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        70,
+        120,
+        170,
+        220,
+        270
+      ],
+      "ratios": [
+        {
+          "value": 75,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Playful.png",
+      "icons": [
+        "Playful.png"
+      ],
+      "levelings": [
+        "Magic Damage:70 / 120 / 170 / 220 / 270 (+ 75% AP)Slow:40 / 45 / 50 / 55 / 60%"
+      ],
+      "descriptions": [
+        "Active: Fizz becomes  untargetable and  vaults toward the target location over 0.25 seconds while balancing on his trident. Fizz gains the ability to cast  Trickster after a 0.15-second delay until he begins to jump off the trident.",
+        "Fizz then hops off his trident and splashes onto the ground below him over 0.75 seconds, becoming targetable again and dealing magic damage to nearby enemies and  slowing them for 2 seconds."
+      ]
+    },
+    {
+      "name": "Chum the Waters",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        100,
+        92,
+        85,
+        77,
+        70
+      ],
+      "description": "Active: Fizz throws down a lure at the target location that attracts a shark,  revealing the affected area before emerging and letting out a crushing bite at the lure after 2 seconds, dealing magic damage to surrounding enemies,  knocking them back and  slowing them for 2 seconds. The further the lure travels in its initial flight, the larger the shark that is attracted, increasing its damage, slow, eruption radius and knock back distance.",
+      "leveling": "Guppy Damage:150 / 200 / 250 / 300 / 350 (+ 80% AP)",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "special",
+      "flatDamage": [
+        150,
+        200,
+        250,
+        300,
+        350
+      ],
+      "ratios": [
+        {
+          "value": 80,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Chum the Waters.png",
+      "icons": [
+        "Chum the Waters.png"
+      ],
+      "levelings": [
+        "Guppy Damage:150 / 200 / 250 / 300 / 350 (+ 80% AP)",
+        "Chomper Damage:225 / 275 / 325 / 375 / 425 (+ 100% AP)",
+        "Gigalodon Damage:300 / 350 / 400 / 450 / 500 (+ 120% AP)"
+      ],
+      "descriptions": [
+        "Active: Fizz throws down a lure at the target location that attracts a shark,  revealing the affected area before emerging and letting out a crushing bite at the lure after 2 seconds, dealing magic damage to surrounding enemies,  knocking them back and  slowing them for 2 seconds. The further the lure travels in its initial flight, the larger the shark that is attracted, increasing its damage, slow, eruption radius and knock back distance.",
+        "Guppy (<455): 40% slow, 200 eruption radius and 150 unit knock back distance.",
+        "Chomper (455-910): 60% slow, 325 eruption radius and 250 unit knock back distance.",
+        "Gigalodon (>910): 80% slow, 450 eruption radius and 350 unit knock back distance.",
+        "Enemy  champions can intercept the lure while it is in flight, which attaches to them and causes the shark to emerge at their position. The lure's holder is  slowed and  revealed for the duration and  knocked up for 1 second instead of knocked back."
+      ]
+    }
+  ],
   "id": "Fizz",
   "key": "105",
   "name": "Fizz",
@@ -12,6 +232,7 @@
     "difficulty": 6
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Fizz.png",
     "full": "Fizz.png",
     "sprite": "champion1.png",
     "group": "champion",

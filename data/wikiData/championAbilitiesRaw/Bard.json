@@ -1,0 +1,1273 @@
+[
+  {
+    "1": {
+      "value": "Traveler's Call",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Traveler's Call."
+    },
+    "champion": {
+      "value": "Bard",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "I",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Traveler's Call.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Innate - Ancient Chimes: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/37/Bard_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402215420\" \t alt=\"Bard OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Bard_OriginalSquare.png\" \tdata-image-name=\"Bard OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bard's presence causes magical chimes to appear, which grant him <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Experience_icon.png/revision/latest/scale-to-width-down/15?cb=20170714051126\" \t alt=\"Experience icon\"  \tclass=\"\" \t \tdata-image-key=\"Experience_icon.png\" \tdata-image-name=\"Experience icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> experience, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> mana, and burst of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> movement speed.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "Meeps: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/37/Bard_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402215420\" \t alt=\"Bard OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Bard_OriginalSquare.png\" \tdata-image-name=\"Bard OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bard is followed by lesser spirits that aid in his attacks - collecting chimes causes these meeps to gain power over the course of the game.",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Innate - Ancient Chimes: Bard's presence causes sacred chimes to appear at random locations and linger for up to 10 minutes. Collecting a chime grants Bard <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 24% bonus movement speed out of combat for 7 seconds, stacking up to 5 times, with every other chime collected beyond the first granting an additional 14% bonus movement speed, up to a total of 80% bonus movement speed, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Experience_icon.png/revision/latest/scale-to-width-down/15?cb=20170714051126\" \t alt=\"Experience icon\"  \tclass=\"\" \t \tdata-image-key=\"Experience_icon.png\" \tdata-image-name=\"Experience icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 20 + (1 per minute after 5 minutes) experience, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 12% maximum mana. Bard empowers his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Traveler%27s_Call_2.png/revision/latest/scale-to-width-down/20?cb=20170130231641\" \t alt=\"Traveler&amp;#039;s Call 2\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Traveler%27s_Call_2.png\" \tdata-image-name=\"Traveler&#39;s Call 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Meeps each time he collects 5 chimes.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "Traveler's Call 2.png",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Innate - Meeps: Bard's presence attracts small spirits known as Meeps to his side. On-attack he consumes a Meep, dealing 40 (+ 12 per 5 chimes collected) (+ 30% AP) bonus magic damage.\n At 5 chimes, Meeps start <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing damaged enemies by 25% − 75% (based on number of Chimes) for 1 second.\n At 15 chimes, Meeps deal splash damage to enemies within 150 units of his target as well as those in a cone behind them.\n At 35 chimes, the cone's radius increases.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Meeps spawn every 8 − 4 (based on number of Chimes) seconds and Bard can keep up to 1 − 9 (based on number of Chimes) of them at a time.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Passive",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "mixed",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "Special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "True",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Primary target takes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Disintegrate.png/revision/latest/scale-to-width-down/20?cb=20130929122652\" \t alt=\"Disintegrate\"  \tclass=\"\" \t \tdata-image-key=\"Disintegrate.png\" \tdata-image-name=\"Disintegrate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> spell damage, while secondary ones take <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Death_Lotus.png/revision/latest/scale-to-width-down/20?cb=20170707191154\" \t alt=\"Death Lotus\"  \tclass=\"\" \t \tdata-image-key=\"Death_Lotus.png\" \tdata-image-name=\"Death Lotus.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> area damage.\n Meeps grant additional stacks of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0a/Electrocute_rune.png/revision/latest/scale-to-width-down/20?cb=20171126182032\" \t alt=\"Electrocute rune\"  \tclass=\"\" \t \tdata-image-key=\"Electrocute_rune.png\" \tdata-image-name=\"Electrocute rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Electrocute, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/79/Phase_Rush_rune.png/revision/latest/scale-to-width-down/20?cb=20171126182204\" \t alt=\"Phase Rush rune\"  \tclass=\"\" \t \tdata-image-key=\"Phase_Rush_rune.png\" \tdata-image-name=\"Phase Rush rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Phase Rush and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Conqueror_rune.png/revision/latest/scale-to-width-down/20?cb=20180314225947\" \t alt=\"Conqueror rune\"  \tclass=\"\" \t \tdata-image-key=\"Conqueror_rune.png\" \tdata-image-name=\"Conqueror rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Conqueror.\n Chime spawns are weighted towards the areas of the map that Bard is currently present in, and spawn every 50 seconds in pairs, with the only exception being the second and third spawns on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/80/Summoner%27s_Rift_icon.png/revision/latest/scale-to-width-down/20?cb=20171101151627\" \t alt=\"Summoner&amp;#039;s Rift icon\"  \tclass=\"\" \t \tdata-image-key=\"Summoner%27s_Rift_icon.png\" \tdata-image-name=\"Summoner&#39;s Rift icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Summoner's Rift, which spawn only one.\n Chimes will not spawn in either team's base and will not spawn in the enemy team's jungle before the 5 minute mark.\n\n Only Bard can see a chime that is in the fog of war. All other players must have <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of a chime for it to be visible to them.\n Only Bard can see a minimap icon for uncollected chimes, regardless of whether other players have vision on it or not. The minimap icon will turn red when the chime is one minute away from expiration.\n Bard cannot see chimes while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/94/Nearsight_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Nearsight icon\"  \tclass=\"\" \t \tdata-image-key=\"Nearsight_icon.png\" \tdata-image-name=\"Nearsight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> nearsighted.\n\n Only Meep cone attacks are absorbed by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> spell shields. Those that deal damage together with the basic attack don't.\n PENDING FOR TEST: On-attack interaction with parrying effects (<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/66/Counter_Strike.png/revision/latest/scale-to-width-down/20?cb=20171223030746\" \t alt=\"Counter Strike\"  \tclass=\"\" \t \tdata-image-key=\"Counter_Strike.png\" \tdata-image-name=\"Counter Strike.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dodge, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5e/Spirit%27s_Refuge.png/revision/latest/scale-to-width-down/20?cb=20170217191016\" \t alt=\"Spirit&amp;#039;s Refuge\"  \tclass=\"\" \t \tdata-image-key=\"Spirit%27s_Refuge.png\" \tdata-image-name=\"Spirit&#39;s Refuge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> block, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/81/Blind_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224954\" \t alt=\"Blind icon\"  \tclass=\"\" \t \tdata-image-key=\"Blind_icon.png\" \tdata-image-name=\"Blind icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blind).\n\n\n\n Minimum Time\n Chimes\n Effects\n Base Damage\n\n\n3:20  5  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/aa/New.svg/revision/latest/scale-to-width-down/41?cb=20170525042324\" \t alt=\"New\"  \tclass=\"\" \t \tdata-image-key=\"New.svg\" \tdata-image-name=\"New.svg\" \t \t width=\"41\"  \t height=\"20\"  \t \t \t \t> Meeps now <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Slow by 25%.  52\n\n\n5:00  10  Meep limit increased to 2.  64\n\n\n7:30  15  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/aa/New.svg/revision/latest/scale-to-width-down/41?cb=20170525042324\" \t alt=\"New\"  \tclass=\"\" \t \tdata-image-key=\"New.svg\" \tdata-image-name=\"New.svg\" \t \t width=\"41\"  \t height=\"20\"  \t \t \t \t> Meeps now deal splash damage.  76\n\n\n9:10  20  Recharge time reduced to 7 seconds.  88\n\n\n11:40  25  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Slow increased to 35%.  100\n\n\n13:20  30  Meep limit increased to 3.  112\n\n\n15:50  35  Splash damage area increased.  124\n\n\n17:30  40  Recharge time reduced to 6 seconds.  136\n\n\n20:00  45  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Slow increased to 45%.  148\n\n\n21:40  50  Meep limit increased to 4.  160\n\n\n24:10  55  Recharge time reduced to 5 seconds.  172\n\n\n25:50  60  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Slow increased to 55%.  184\n\n\n28:20  65  Meep limit increased to 5.  196\n\n\n30:00  70  Recharge time reduced to 4 seconds.  208\n\n\n32:30  75  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Slow increased to 65%.  220\n\n\n34:10  80  Meep limit increased to 6.  232\n\n\n36:40  85  <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Slow increased to 75%. 244\n\n\n38:20  90  Meep limit increased to 7.  256\n\n\n40:50  95  Meep limit increased to 8.  268\n\n\n42:30  100  Meep limit increased to 9.  280\n\n\n Every 5 thereafter only grants 12 bonus damage.",
+      "description": "3:20"
+    },
+    "3:20": {
+      "value": "5",
+      "description": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/aa/New.svg/revision/latest/scale-to-width-down/41?cb=20170525042324\" \t alt=\"New\"  \tclass=\"\" \t \tdata-image-key=\"New.svg\" \tdata-image-name=\"New.svg\" \t \t width=\"41\"  \t height=\"20\"  \t \t \t \t> Meeps now <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Slow by 25%."
+    },
+    "5:00": {
+      "value": "10",
+      "description": "Meep limit increased to 2."
+    },
+    "7:30": {
+      "value": "15",
+      "description": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/aa/New.svg/revision/latest/scale-to-width-down/41?cb=20170525042324\" \t alt=\"New\"  \tclass=\"\" \t \tdata-image-key=\"New.svg\" \tdata-image-name=\"New.svg\" \t \t width=\"41\"  \t height=\"20\"  \t \t \t \t> Meeps now deal splash damage."
+    },
+    "9:10": {
+      "value": "20",
+      "description": "Recharge time reduced to 7 seconds."
+    },
+    "11:40": {
+      "value": "25",
+      "description": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Slow increased to 35%."
+    },
+    "13:20": {
+      "value": "30",
+      "description": "Meep limit increased to 3."
+    },
+    "15:50": {
+      "value": "35",
+      "description": "Splash damage area increased."
+    },
+    "17:30": {
+      "value": "40",
+      "description": "Recharge time reduced to 6 seconds."
+    },
+    "20:00": {
+      "value": "45",
+      "description": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Slow increased to 45%."
+    },
+    "21:40": {
+      "value": "50",
+      "description": "Meep limit increased to 4."
+    },
+    "24:10": {
+      "value": "55",
+      "description": "Recharge time reduced to 5 seconds."
+    },
+    "25:50": {
+      "value": "60",
+      "description": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Slow increased to 55%."
+    },
+    "28:20": {
+      "value": "65",
+      "description": "Meep limit increased to 5."
+    },
+    "30:00": {
+      "value": "70",
+      "description": "Recharge time reduced to 4 seconds."
+    },
+    "32:30": {
+      "value": "75",
+      "description": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Slow increased to 65%."
+    },
+    "34:10": {
+      "value": "80",
+      "description": "Meep limit increased to 6."
+    },
+    "36:40": {
+      "value": "85",
+      "description": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Slow increased to 75%."
+    },
+    "38:20": {
+      "value": "90",
+      "description": "Meep limit increased to 7."
+    },
+    "40:50": {
+      "value": "95",
+      "description": "Meep limit increased to 8."
+    },
+    "42:30": {
+      "value": "100",
+      "description": "Meep limit increased to 9."
+    },
+    "Every 5 thereafter only grants 12 bonus damage.": {},
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Cosmic Binding",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Cosmic Binding."
+    },
+    "champion": {
+      "value": "Bard",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "Q",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "850",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "1500",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "60",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "11 / 10 / 9 / 8 / 7",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Cosmic Binding.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Active: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/37/Bard_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402215420\" \t alt=\"Bard OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Bard_OriginalSquare.png\" \tdata-image-name=\"Bard OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bard fires a missile which will <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow the first enemy struck, and continue onward. If it strikes a wall, it will <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun the initial target; if it strikes another enemy, it will <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun them both.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Bard fires a burst of spirit energy in the target direction, dealing magic damage to the first enemy struck and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 60% for a duration.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "Magic Damage:80 / 125 / 170 / 215 / 260 (+ 65% AP)Disable Duration:1 / 1.2 / 1.4 / 1.6 / 1.8",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "After Cosmic Binding hits an enemy, the energy continues behind them for 300 units. If the burst hits terrain or a second enemy, it <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stuns both targets for the same duration, dealing the same magic damage to the second target as well.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "Magic",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "aoe",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "Special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "True",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shielding the ability as the first target will still have the energy pass through them, and, upon hitting a second target, only the second target will be stunned.\n If the ability is only spell shielded by the second target, the first target will still be stunned.\n If the ability hit the first target and then they activate a spell shield, the stun will not be blocked.\n\n The <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun will apply even if the first target becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable.\n Cosmic Binding will take into account player-created terrain such as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cf/Cataclysm.png/revision/latest/scale-to-width-down/20?cb=20130929122855\" \t alt=\"Cataclysm\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cataclysm.png\" \tdata-image-name=\"Cataclysm.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cataclysm and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/28/Crystallize.png/revision/latest/scale-to-width-down/20?cb=20160420184144\" \t alt=\"Crystallize\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crystallize.png\" \tdata-image-name=\"Crystallize.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crystallize.\n The <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun is still applied even if the first or second target dies to the ability itself or before the projectile can bind them.\n In <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/80/Summoner%27s_Rift_icon.png/revision/latest/scale-to-width-down/20?cb=20171101151627\" \t alt=\"Summoner&amp;#039;s Rift icon\"  \tclass=\"\" \t \tdata-image-key=\"Summoner%27s_Rift_icon.png\" \tdata-image-name=\"Summoner&#39;s Rift icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Summoner's Rift, the allied base entrance gates will not interact with Cosmic Binding as they are only considered terrain to the enemy.\n Cosmic Binding does not grant <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of enemies hit, but a hit can be seen and heard to indicate that at least one enemy is there.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "Bard QVideo.ogv",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Caretaker's Shrine",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Caretaker's Shrine."
+    },
+    "champion": {
+      "value": "Bard",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "W",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "800",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "70",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "14",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Caretaker's Shrine.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Active: conjures a healing shrine which powers up over a short time, disappearing after <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing the first ally <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion that touches it.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Bard conjures a shrine at the target location that builds up in power over 10 seconds, granting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of a small area around it for 1.8 seconds. Up to 3 shrines can be active at once, which last until they are consumed by champions stepping on them.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "If the champion was an ally or Bard himself, they are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healed for an amount based on the shrine's power and gain <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 30% bonus movement speed that decays over 1.5 seconds.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "Minimum Heal:»30 / 60 / 90 / 120 / 150 (+ 30% AP)«Maximum Heal:55 / 95 / 135 / 175 / 215 (+ 60% AP)",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "If the champion was an enemy, the shrine is destroyed.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Ground / Unit",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Allies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "Heal",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Caretaker's Shrine can be cast directly on an ally and it will be treated as a unit-targeted ability for effects such as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Guardian_rune.png/revision/latest/scale-to-width-down/20?cb=20171126182124\" \t alt=\"Guardian rune\"  \tclass=\"\" \t \tdata-image-key=\"Guardian_rune.png\" \tdata-image-name=\"Guardian rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Guardian.\n If Bard has 3 shrines on the map and creates a new one that is cast directly on himself or an ally, the oldest shrine will not be destroyed. This is because the shrine is used as an actual targeted heal on himself or someone else, and not a permanent shrine, so the other 3 may stay.\n The spell indicator of Caretaker's Shrine shows the area in which it can be used as a targeted heal. After a shrine has been placed on the ground its activation area becomes smaller: allies or enemies have to step directly on the shrine to use it or destroy it.\n\n Leveling up Caretaker's Shrine will update the healing of existing shrines.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "Bard WVideo.ogv",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Magical Journey",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Magical Journey."
+    },
+    "champion": {
+      "value": "Bard",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "E",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "900",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "900 / 1200",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.25",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "30",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "22 / 20.5 / 19 / 17.5 / 16",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Magical Journey.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Active: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/37/Bard_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402215420\" \t alt=\"Bard OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Bard_OriginalSquare.png\" \tdata-image-name=\"Bard OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bard opens a portal in nearby terrain. Ally and enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions alike can take a one-way trip through that terrain by moving into the portal, however allies will be faster.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Bard opens a one-way magical corridor through a piece of terrain in the target direction for 10 seconds. Magical Journey will not cast unless it can open a corridor.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Both allies and enemies can <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> pass through the corridor by clicking on it or its exit, with allies and Bard travelling at 33.3% increased speed.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "All units are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealed while taking Magical Journey.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Unit-targeted (Terrain)",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self, Allies, Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "False",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Terrain also includes structures.\n Magical Journey's tunnel has a max range of 2600 units (about two screens long)[3].\n Magical Journey will score assists for Bard if an ally that uses it scores a kill or assist shortly after.\n Magical Journey cannot be taken while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Grounded_icon.png/revision/latest/scale-to-width-down/20?cb=20160509000039\" \t alt=\"Grounded icon\"  \tclass=\"\" \t \tdata-image-key=\"Grounded_icon.png\" \tdata-image-name=\"Grounded icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> grounded or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooted. Bard can still cast the ability.\n There is no limit to how many times a given instance of Magical Journey may be used.\n Magical Journey cannot interact with player-created terrain due to its short lifespan.[4]\n Any abilities that continue during normal movement, such as point blank area of effects and various forms of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d2/Guerrilla_Warfare.png/revision/latest/scale-to-width-down/20?cb=20171221034119\" \t alt=\"Guerrilla Warfare\"  \tclass=\"\" \t \tdata-image-key=\"Guerrilla_Warfare.png\" \tdata-image-name=\"Guerrilla Warfare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stealth, will continue during the travel within Magical Journey.\n If a champion's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dash is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> interrupted while inside terrain using Magical Journey, they will be immediately displaced out to the nearest open space, but are not rendered <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> airborne.\n Taking Magical Journey is considered a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dash, and so will interact with effects such as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Sudden_Impact_rune.png/revision/latest/scale-to-width-down/20?cb=20171004082059\" \t alt=\"Sudden Impact rune\"  \tclass=\"\" \t \tdata-image-key=\"Sudden_Impact_rune.png\" \tdata-image-name=\"Sudden Impact rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sudden Impact and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ae/Knockdown_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223937\" \t alt=\"Knockdown icon\"  \tclass=\"\" \t \tdata-image-key=\"Knockdown_icon.png\" \tdata-image-name=\"Knockdown icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knockdown.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "Bard EVideo.ogv",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Tempered Fate",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Tempered Fate."
+    },
+    "champion": {
+      "value": "Bard",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "R",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "3400",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "350",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.5",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "100",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "110 / 95 / 80",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Tempered Fate.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Active: Bard sends spirit energy arcing to a location, putting all <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> turrets hit into <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis for a brief time.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Bard sends magical energy arcing to the target location, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing the area before putting all units inside into <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis for 2.5 seconds upon impact. Enemies hit are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealed for the duration.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Despite normally being <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b1/Cc-immune_icon.png/revision/latest/scale-to-width-down/20?cb=20200327223512\" \t alt=\"Cc-immune icon\"  \tclass=\"\" \t \tdata-image-key=\"Cc-immune_icon.png\" \tdata-image-name=\"Cc-immune icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crowd control immune, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> epic monsters and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> turrets also enter <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Ground",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "True",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "False",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Tempered Fate will affect all targetable <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> turrets, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f1/Ward_icon.png/revision/latest/scale-to-width-down/20?cb=20180828001331\" \t alt=\"Ward icon\"  \tclass=\"\" \t \tdata-image-key=\"Ward_icon.png\" \tdata-image-name=\"Ward icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> wards, and jungle plants.\n Tempered Fate has no effect on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable units or enemy champions that are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Unstoppable_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164427\" \t alt=\"Unstoppable icon\"  \tclass=\"\" \t \tdata-image-key=\"Unstoppable_icon.png\" \tdata-image-name=\"Unstoppable icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement immune or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b1/Cc-immune_icon.png/revision/latest/scale-to-width-down/20?cb=20200327223512\" \t alt=\"Cc-immune icon\"  \tclass=\"\" \t \tdata-image-key=\"Cc-immune_icon.png\" \tdata-image-name=\"Cc-immune icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> cc-immune.\n Tempered Fate cannot put an allied nor enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Rift_HeraldSquare.png/revision/latest/scale-to-width-down/20?cb=20171112190027\" \t alt=\"Rift HeraldSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rift_HeraldSquare.png\" \tdata-image-name=\"Rift HeraldSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rift Herald into <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis while she is winding up her leap attack and during her leap.\n Tempered Fate has special interactions with allies that are cc-immune. For example, it does not affect an allied <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7e/Olaf_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20150402220802\" \t alt=\"Olaf OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Olaf_OriginalSquare.png\" \tdata-image-name=\"Olaf OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Olaf while he is in <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/68/Ragnarok.png/revision/latest/scale-to-width-down/20?cb=20171223032521\" \t alt=\"Ragnarok\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ragnarok.png\" \tdata-image-name=\"Ragnarok.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ragnarok but it does to an ally with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/79/Morgana_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20190226165233\" \t alt=\"Morgana OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Morgana_OriginalSquare.png\" \tdata-image-name=\"Morgana OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Morgana's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/22/Black_Shield.png/revision/latest/scale-to-width-down/20?cb=20160608032305\" \t alt=\"Black Shield\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Black_Shield.png\" \tdata-image-name=\"Black Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Black Shield.\n Tempered Fate cannot put allies that are displacement immune into stasis.\n\n All <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions (including allies) during the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis are prohibited from activating <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Remove_Scurvy.png/revision/latest/scale-to-width-down/20?cb=20150707190028\" \t alt=\"Remove Scurvy\"  \tclass=\"\" \t \tdata-image-key=\"Remove_Scurvy.png\" \tdata-image-name=\"Remove Scurvy.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> cleansing effects for its duration.\n It will not disable <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f9/Quicksilver_Sash_item.png/revision/latest/scale-to-width-down/20?cb=20171221225953\" \t alt=\"Quicksilver Sash item\"  \tclass=\"\" \t \tdata-image-key=\"Quicksilver_Sash_item.png\" \tdata-image-name=\"Quicksilver Sash item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Quicksilver and instead put it on a 3-second <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown.\n\n Tempered Fate triggers in-combat effects such as drawing turret aggro and monster aggression, or applying <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/27/Elixir_of_Sorcery_item.png/revision/latest/scale-to-width-down/20?cb=20171221064113\" \t alt=\"Elixir of Sorcery item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Elixir_of_Sorcery_item.png\" \tdata-image-name=\"Elixir of Sorcery item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Elixir of Sorcery and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Sudden_Impact_rune.png/revision/latest/scale-to-width-down/20?cb=20171004082059\" \t alt=\"Sudden Impact rune\"  \tclass=\"\" \t \tdata-image-key=\"Sudden_Impact_rune.png\" \tdata-image-name=\"Sudden Impact rune.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sudden Impact.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/27/Elixir_of_Sorcery_item.png/revision/latest/scale-to-width-down/20?cb=20171221064113\" \t alt=\"Elixir of Sorcery item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Elixir_of_Sorcery_item.png\" \tdata-image-name=\"Elixir of Sorcery item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Elixir of Sorcery deals damage before the target is put into stasis.\n\n If Bard dies while Tempered Fate is still casting, it will go on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown and have no effect.\n Tempered Fate's travel time varies between ~0.65 at point blank and ~1.8 at max range, resulting in an overall delay of ~1.15-2.3 seconds including the cast time depending on distance covered.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "Bard RVideo.ogv",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  }
+]

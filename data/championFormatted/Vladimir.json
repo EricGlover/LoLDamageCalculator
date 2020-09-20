@@ -1,5 +1,220 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Crimson Pact",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Vladimir gains (2.5% bonus health) as  bonus ability power and (140% AP) as  bonus health. These two bonuses do not stack with each other.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Crimson Pact.png",
+      "icons": [
+        "Crimson Pact.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Vladimir gains (2.5% bonus health) as  bonus ability power and (140% AP) as  bonus health. These two bonuses do not stack with each other."
+      ]
+    },
+    {
+      "name": "Transfusion",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ],
+      "description": "Active: Vladimir drains blood from the target enemy, dealing magic damage and  healing himself.",
+      "leveling": "Magic Damage:80 / 100 / 120 / 140 / 160 (+ 60% AP)Heal:20 / 25 / 30 / 35 / 40 (+ 35% AP)",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "false",
+      "flatDamage": [
+        80,
+        100,
+        120,
+        140,
+        160
+      ],
+      "ratios": [
+        {
+          "value": 60,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Transfusion.png",
+      "icons": [
+        "Transfusion.png",
+        "Crimson Rush.png"
+      ],
+      "levelings": [
+        "Magic Damage:80 / 100 / 120 / 140 / 160 (+ 60% AP)Heal:20 / 25 / 30 / 35 / 40 (+ 35% AP)",
+        "Empowered Damage:148 / 185 / 222 / 259 / 296 (+ 111% AP)"
+      ],
+      "descriptions": [
+        "Active: Vladimir drains blood from the target enemy, dealing magic damage and  healing himself.",
+        "Each cast of Transfusion generates a stack of  Bloodthirst over its  cooldown, which is displayed in his secondary resource bar. At 2 stacks, Vladimir gains  10% bonus movement speed for 0.5 seconds, and Crimson Rush while the  Bloodthirst depletes over 2.5 seconds. The  Bloodthirst depletes 75% slower during  Tides of Blood,  Sanguine Pool or  stasis.",
+        "Crimson Rush: The next Transfusion deals  85% increased damage and heals for an additional 30 − 200 (based on level) (+ 5% (+ 4% per 100 AP) missing health), reduced to 35% against  minions, consuming all  Bloodthirst."
+      ]
+    },
+    {
+      "name": "Sanguine Pool",
+      "cost": [
+        20
+      ],
+      "costType": "current health",
+      "coolDown": [
+        28,
+        25,
+        22,
+        19,
+        16
+      ],
+      "description": "Active: Vladimir sinks into a pool of blood, gaining  37.5% bonus movement speed which decays exponentially over 1 second and becoming  untargetable and  ghosted for 2 seconds.",
+      "leveling": "Magic Damage Per Half-Second:»20 / 33.75 / 47.5 / 61.25 / 75 (+ 2.5% bonus health)«Maximum Magic Damage:80 / 135 / 190 / 245 / 300 (+ 10% bonus health)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        20,
+        33.75,
+        47.5,
+        61.25,
+        75
+      ],
+      "ratios": [
+        {
+          "value": 2.5,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Sanguine Pool.png",
+      "icons": [
+        "Sanguine Pool.png"
+      ],
+      "levelings": [
+        "Magic Damage Per Half-Second:»20 / 33.75 / 47.5 / 61.25 / 75 (+ 2.5% bonus health)«Maximum Magic Damage:80 / 135 / 190 / 245 / 300 (+ 10% bonus health)"
+      ],
+      "descriptions": [
+        "Active: Vladimir sinks into a pool of blood, gaining  37.5% bonus movement speed which decays exponentially over 1 second and becoming  untargetable and  ghosted for 2 seconds.",
+        "Enemies who stand upon the pool are  slowed by 40% and dealt magic damage every half second. Vladimir  heals himself for 15% of the damage dealt by Sanguine Pool.",
+        "Vladimir cannot use basic attacks or abilities during Sanguine Pool, but is still able to move. If  Tides of Blood is charging at the time of Sanguine Pool's activation, that ability may be recast."
+      ]
+    },
+    {
+      "name": "Tides of Blood",
+      "cost": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "costType": "maximum health",
+      "coolDown": [
+        13,
+        11,
+        9,
+        7,
+        5
+      ],
+      "description": "Active: Vladimir  charges for up to 1.5 seconds,  slowing himself by 20% if he charges for more than 1 second. Tides of Blood can be recast at any time within its duration. If Vladimir finishes charging or is  interrupted, he automatically initiates the recast.",
+      "leveling": "Minimum Magic Damage:»30 / 45 / 60 / 75 / 90 (+ 1.5% maximum health) (+ 35% AP)«Maximum Magic Damage:60 / 90 / 120 / 150 / 180 (+ 6% maximum health) (+ 80% AP)",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        30,
+        45,
+        60,
+        75,
+        90
+      ],
+      "ratios": [
+        {
+          "value": 1.5,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Tides of Blood.png",
+      "icons": [
+        "Tides of Blood.png"
+      ],
+      "levelings": [
+        "Minimum Magic Damage:»30 / 45 / 60 / 75 / 90 (+ 1.5% maximum health) (+ 35% AP)«Maximum Magic Damage:60 / 90 / 120 / 150 / 180 (+ 6% maximum health) (+ 80% AP)",
+        "Slow:40 / 45 / 50 / 55 / 60%"
+      ],
+      "descriptions": [
+        "Active: Vladimir  charges for up to 1.5 seconds,  slowing himself by 20% if he charges for more than 1 second. Tides of Blood can be recast at any time within its duration. If Vladimir finishes charging or is  interrupted, he automatically initiates the recast.",
+        "Recast: Vladimir unleashes a nova of 15 blood bolts, each of which collide with the first enemy they hit, dealing them magic damage that is increased based on how long Tides of Blood was charged, up to the first second.",
+        "If Tides of Blood was charged for at least 1 second, enemies hit are also  slowed for 0.5 seconds.",
+        "Enemies can intercept multiple bolts, but may only be damaged once.",
+        "If Vladimir is below 12% of his maximum health Tides of Blood will not cost any health, but will still increase in damage."
+      ]
+    },
+    {
+      "name": "Hemoplague",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        150,
+        142,
+        135,
+        127,
+        120
+      ],
+      "description": "Active: Vladimir infects all enemies in the target area with a virulent plague, increasing the damage they take from all sources by 10% for 4 seconds, after which all infected enemies take magic damage.",
+      "leveling": "Magic damage:150 / 200 / 250 / 300 / 350 (+ 70% AP)",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "false",
+      "flatDamage": [
+        150,
+        200,
+        250,
+        300,
+        350
+      ],
+      "ratios": [
+        {
+          "value": 70,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Hemoplague.png",
+      "icons": [
+        "Hemoplague.png"
+      ],
+      "levelings": [
+        "Magic damage:150 / 200 / 250 / 300 / 350 (+ 70% AP)",
+        "Maximum Heal:450 / 600 / 750 / 900 / 1050 (+ 210% AP)"
+      ],
+      "descriptions": [
+        "Active: Vladimir infects all enemies in the target area with a virulent plague, increasing the damage they take from all sources by 10% for 4 seconds, after which all infected enemies take magic damage.",
+        "The detonation brings the blood from enemy  champions hit to Vladimir after 0.4 seconds,  healing him for the pre-mitigation damage dealt against them once the blood reaches him, reduced to 50% after the first."
+      ]
+    }
+  ],
   "id": "Vladimir",
   "key": "8",
   "name": "Vladimir",
@@ -12,6 +227,7 @@
     "difficulty": 7
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Vladimir.png",
     "full": "Vladimir.png",
     "sprite": "champion4.png",
     "group": "champion",

@@ -1,5 +1,231 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Duelist's Dance",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Fiora identifies the Vitals of nearby  visible enemy champions, marked as an arc around themselves. Vitals take 1.75 seconds to become targetable and linger for 13.25 seconds afterwards while Fiora remains near the target. After a Vital is triggered or times out, Fiora identifies a new one on her target.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "True",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Duelist's Dance.png",
+      "icons": [
+        "Duelist's Dance.png",
+        "Duelist's Dance 2.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Fiora identifies the Vitals of nearby  visible enemy champions, marked as an arc around themselves. Vitals take 1.75 seconds to become targetable and linger for 13.25 seconds afterwards while Fiora remains near the target. After a Vital is triggered or times out, Fiora identifies a new one on her target.",
+        "Fiora's successful basic attacks and damaging abilities against a Vital trigger it to deal 2.5% (+ 4.5% per 100 bonus AD) of target's maximum health  bonus true damage,  heal Fiora for 40 − 115 (based on level) and grant her 20 / 30 / 40 / 50% (based on  Grand Challenge's Rank)  bonus movement speed that decays over 1.5 seconds."
+      ]
+    },
+    {
+      "name": "Lunge",
+      "cost": [
+        20,
+        25,
+        30,
+        35,
+        40
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        13,
+        11,
+        9,
+        7,
+        6
+      ],
+      "description": "Active: Fiora  dashes a short distance in the target direction then stabs a nearby enemy if one is present. Lunge can damage structures and  wards. Stabbing an enemy reduces Lunge's  cooldown by 50%.",
+      "leveling": "Physical Damage:70 / 80 / 90 / 100 / 110 (+ 95 / 100 / 105 / 110 / 115% bonus AD)",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        70,
+        80,
+        90,
+        100,
+        110
+      ],
+      "ratios": [
+        {
+          "value": 95,
+          "type": "bonus ad"
+        },
+        {
+          "value": 100,
+          "type": "bonus ad"
+        },
+        {
+          "value": 105,
+          "type": "bonus ad"
+        },
+        {
+          "value": 110,
+          "type": "bonus ad"
+        },
+        {
+          "value": 115,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Lunge.png",
+      "icons": [
+        "Lunge.png"
+      ],
+      "levelings": [
+        "Physical Damage:70 / 80 / 90 / 100 / 110 (+ 95 / 100 / 105 / 110 / 115% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Fiora  dashes a short distance in the target direction then stabs a nearby enemy if one is present. Lunge can damage structures and  wards. Stabbing an enemy reduces Lunge's  cooldown by 50%.",
+        "The stab deals physical damage and applies on-hit effects.",
+        "Lunge hits enemies regardless of having  sight of them or not.",
+        "Fiora's other abilities can be cast during the dash without cancelling it."
+      ]
+    },
+    {
+      "name": "Riposte",
+      "cost": [
+        50
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        24,
+        22,
+        20,
+        18,
+        16
+      ],
+      "description": "Active: Fiora poises to strike in the target direction for 0.75 seconds, during which she's unable to act but parries any incoming sources of non-turret damage as well as gains  crowd control immunity and  debuff immunity.",
+      "leveling": "Magic Damage:110 / 150 / 190 / 230 / 270 (+ 100% AP)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        110,
+        150,
+        190,
+        230,
+        270
+      ],
+      "ratios": [
+        {
+          "value": 100,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Riposte.png",
+      "icons": [
+        "Riposte.png"
+      ],
+      "levelings": [
+        "Magic Damage:110 / 150 / 190 / 230 / 270 (+ 100% AP)"
+      ],
+      "descriptions": [
+        "Active: Fiora poises to strike in the target direction for 0.75 seconds, during which she's unable to act but parries any incoming sources of non-turret damage as well as gains  crowd control immunity and  debuff immunity.",
+        "After the duration, Fiora sends a shock forward with her sword, dealing magic damage to enemies in a line.",
+        "The first enemy champion struck is also  slowed and  crippled by 50% for 2 seconds. If Fiora parries at least one  immobilizing effect, Riposte  stuns the target for the same duration instead."
+      ]
+    },
+    {
+      "name": "Bladework",
+      "cost": [
+        40
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        11,
+        9,
+        8,
+        6,
+        5
+      ],
+      "description": "Active: Fiora's next two basic attacks on-attack within 4 seconds gain  25 bonus range and  bonus attack speed.",
+      "leveling": "Bonus Attack Speed:50 / 60 / 70 / 80 / 90%",
+      "skill": "E",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        50,
+        60,
+        70,
+        80,
+        90
+      ],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Bladework.png",
+      "icons": [
+        "Bladework.png"
+      ],
+      "levelings": [
+        "Bonus Attack Speed:50 / 60 / 70 / 80 / 90%",
+        "Critical damage:160 / 170 / 180 / 190 / 200%"
+      ],
+      "descriptions": [
+        "Active: Fiora's next two basic attacks on-attack within 4 seconds gain  25 bonus range and  bonus attack speed.",
+        "The first attack  slows the target by 30% for 1 second but cannot  critically strike. The second attack will  critically strike for  reduced critical damage (including to  structures).",
+        "Bladework  resets Fiora's basic attack timer."
+      ]
+    },
+    {
+      "name": "Grand Challenge",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        110,
+        100,
+        90,
+        80,
+        70
+      ],
+      "description": "Passive:  Duelist's Dance's  bonus movement speed is increased.",
+      "leveling": "Bonus Movement Speed:10 / 15 / 20 / 25 / 30%",
+      "skill": "R",
+      "damageType": "True",
+      "isProjectile": "",
+      "flatDamage": [
+        10,
+        15,
+        20,
+        25,
+        30
+      ],
+      "ratios": [],
+      "castTime": null,
+      "icon": "false",
+      "icons": [
+        "false",
+        "Grand Challenge.png",
+        "Grand Challenge 2.png"
+      ],
+      "levelings": [
+        "Bonus Movement Speed:10 / 15 / 20 / 25 / 30%",
+        "Heal Per Second:»80 / 95 / 110 / 125 / 140 (+ 60% bonus AD)«Maximum Heal:400 / 475 / 550 / 625 / 700 (+ 300% bonus AD)"
+      ],
+      "descriptions": [
+        "Passive:  Duelist's Dance's  bonus movement speed is increased.",
+        "Active: Fiora challenges the target enemy  champion for 8 seconds, highlighting their four Vitals after a 0.5 second delay. While in effect,  Duelist's Dance does not identify new Vitals on Fiora's target.",
+        "While near the target, Fiora gains  Duelist's Dance's  bonus movement speed.",
+        "If she triggers at least one Vital before her target  dies, or triggers all four, she creates a  Victory Zone that  heals all allied units within it for 2 − 5 (based on Vitals hit) seconds.",
+        "Unlike  Duelist's Dance, the Vitals will keep on lingering even if Fiora is not nearby."
+      ]
+    }
+  ],
   "id": "Fiora",
   "key": "114",
   "name": "Fiora",
@@ -12,6 +238,7 @@
     "difficulty": 3
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Fiora.png",
     "full": "Fiora.png",
     "sprite": "champion0.png",
     "group": "champion",

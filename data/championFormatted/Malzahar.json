@@ -1,6 +1,33 @@
 {
   "abilities": [
     {
+      "name": "Void Shift",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Malzahar receives Void Shift if he hasn't taken non- minion damage nor been affected by  crowd control in the last 30 / 24 / 18 / 12 (based on level) seconds.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Void Shift.png",
+      "icons": [
+        "Void Shift.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Malzahar receives Void Shift if he hasn't taken non- minion damage nor been affected by  crowd control in the last 30 / 24 / 18 / 12 (based on level) seconds.",
+        "Void Shift phases out Malzahar, making him  immune to crowd control and causing him to take 90% reduced damage, lingering for 0.25 seconds after taking damage or blocking a  crowd control effect."
+      ]
+    },
+    {
       "name": "Call of the Void",
       "cost": [
         80
@@ -9,7 +36,7 @@
       "coolDown": [
         6
       ],
-      "description": "Active: Malzahar opens two portals that are each 200 units perpendicular from the target location, granting a small area of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight around them. After a 0.4-second delay, all enemies between the portals take magic damage and are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> silenced for a duration.",
+      "description": "Active: Malzahar opens two portals that are each 200 units perpendicular from the target location, granting a small area of  sight around them. After a 0.4-second delay, all enemies between the portals take magic damage and are  silenced for a duration.",
       "leveling": "Magic Damage:70 / 105 / 140 / 175 / 210 (+ 65% AP)\nSilence Duration:1 / 1.25 / 1.5 / 1.75 / 2",
       "skill": "Q",
       "damageType": "Magic",
@@ -27,7 +54,17 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Call of the Void.png",
+      "icons": [
+        "Call of the Void.png"
+      ],
+      "levelings": [
+        "Magic Damage:70 / 105 / 140 / 175 / 210 (+ 65% AP)\nSilence Duration:1 / 1.25 / 1.5 / 1.75 / 2"
+      ],
+      "descriptions": [
+        "Active: Malzahar opens two portals that are each 200 units perpendicular from the target location, granting a small area of  sight around them. After a 0.4-second delay, all enemies between the portals take magic damage and are  silenced for a duration."
+      ]
     },
     {
       "name": "Void Swarm",
@@ -55,7 +92,20 @@
         10
       ],
       "ratios": [],
-      "castTime": null
+      "castTime": null,
+      "icon": "Void Swarm.png",
+      "icons": [
+        "Void Swarm.png"
+      ],
+      "levelings": [
+        "Voidling Duration:8 / 8 / 9 / 9 / 10",
+        "Magic Damage:5 − 64.5 (based on level) (+ 12 / 14 / 16 / 18 / 20) (+ 40% bonus AD) (+ 20% AP)"
+      ],
+      "descriptions": [
+        "Passive: Malzahar gains a stack of Zz'Rot Swarm when he casts another ability, up to a maximum of 2.",
+        "Active: Malzahar consumes all Zz'Rot Swarm stacks and, after a 0.5-second delay, summons a  Voidling at the target location. Additional Voidlings are then summoned for each Zz'Rot Swarm stack consumed.",
+        "Voidlings deal magic damage with their attacks. Voidlings deal 50% damage to epic monsters, and 300% damage against enemy  minions affected by  Malefic Visions."
+      ]
     },
     {
       "name": "Malefic Visions",
@@ -74,7 +124,7 @@
         9,
         7
       ],
-      "description": "Active: Malzahar infects the target enemy's mind, dealing them magic damage every half second over 4 seconds. Damaging a target with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5f/Call_of_the_Void.png/revision/latest/scale-to-width-down/20?cb=20170308195023\" \t alt=\"Call of the Void\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Call_of_the_Void.png\" \tdata-image-name=\"Call of the Void.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Call of the Void or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4e/Nether_Grasp.png/revision/latest/scale-to-width-down/20?cb=20160420053221\" \t alt=\"Nether Grasp\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Nether_Grasp.png\" \tdata-image-name=\"Nether Grasp.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Nether Grasp will refresh the duration of Malefic Visions.",
+      "description": "Active: Malzahar infects the target enemy's mind, dealing them magic damage every half second over 4 seconds. Damaging a target with  Call of the Void or  Nether Grasp will refresh the duration of Malefic Visions.",
       "leveling": "Total Magic Damage:»80 / 115 / 150 / 185 / 220 (+ 80% AP)«Magic Damage Per Half Second:10 / 14.375 / 18.75 / 23.125 / 27.5 (+ 10% AP)",
       "skill": "E",
       "damageType": "Magic",
@@ -92,7 +142,18 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Malefic Visions.png",
+      "icons": [
+        "Malefic Visions.png"
+      ],
+      "levelings": [
+        "Total Magic Damage:»80 / 115 / 150 / 185 / 220 (+ 80% AP)«Magic Damage Per Half Second:10 / 14.375 / 18.75 / 23.125 / 27.5 (+ 10% AP)"
+      ],
+      "descriptions": [
+        "Active: Malzahar infects the target enemy's mind, dealing them magic damage every half second over 4 seconds. Damaging a target with  Call of the Void or  Nether Grasp will refresh the duration of Malefic Visions.",
+        "If the target dies during this time, they pass Malefic Visions onto the closest enemy, refreshing the duration and restoring  2% of Malzahar's maximum mana."
+      ]
     },
     {
       "name": "Nether Grasp",
@@ -107,7 +168,7 @@
         95,
         80
       ],
-      "description": "Active: Malzahar forms a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Focused_Resolve.png/revision/latest/scale-to-width-down/20?cb=20130929122918\" \t alt=\"Focused Resolve\"  \tclass=\"\" \t \tdata-image-key=\"Focused_Resolve.png\" \tdata-image-name=\"Focused Resolve.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> tether between him and the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ae/Knockdown_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223937\" \t alt=\"Knockdown icon\"  \tclass=\"\" \t \tdata-image-key=\"Knockdown_icon.png\" \tdata-image-name=\"Knockdown icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking them down. Malzahar then <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels for 2.5 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5f/Suppression_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223943\" \t alt=\"Suppression icon\"  \tclass=\"\" \t \tdata-image-key=\"Suppression_icon.png\" \tdata-image-name=\"Suppression icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> suppressing and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing the target and dealing them magic damage every 0.25 seconds.",
+      "description": "Active: Malzahar forms a  tether between him and the target enemy  champion,  knocking them down. Malzahar then  channels for 2.5 seconds,  suppressing and  revealing the target and dealing them magic damage every 0.25 seconds.",
       "leveling": "Total Magic Damage:»125 / 162.5 / 200 / 237.5 / 275 (+ 80% AP)«Damage Per Quarter-Second:12.5 / 16.25 / 20 / 23.75 / 27.5 (+ 8% AP)",
       "skill": "R",
       "damageType": "Magic",
@@ -125,7 +186,22 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Nether Grasp.png",
+      "icons": [
+        "Nether Grasp.png",
+        "Null Zone.png"
+      ],
+      "levelings": [
+        "Total Magic Damage:»125 / 162.5 / 200 / 237.5 / 275 (+ 80% AP)«Damage Per Quarter-Second:12.5 / 16.25 / 20 / 23.75 / 27.5 (+ 8% AP)",
+        "Total Magic Damage:»10 / 12.5 / 15 / 17.5 / 20% (+ 2.5% per 100 AP) of target's maximum health«Damage Per Half-Second:1 / 1.25 / 1.5 / 1.75 / 2% (+ 0.25% per 100 AP) of target's maximum health"
+      ],
+      "descriptions": [
+        "Active: Malzahar forms a  tether between him and the target enemy  champion,  knocking them down. Malzahar then  channels for 2.5 seconds,  suppressing and  revealing the target and dealing them magic damage every 0.25 seconds.",
+        " Cleansing effects will not remove the tether and Malzahar will continue to channel and deal damage.",
+        "A Null Zone is opened beneath the target that lasts 5 seconds, dealing magic damage every 0.5 seconds to all enemies within.",
+        "Null Zone will persist even if the ability is interrupted."
+      ]
     }
   ],
   "id": "Malzahar",
@@ -140,6 +216,7 @@
     "difficulty": 6
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Malzahar.png",
     "full": "Malzahar.png",
     "sprite": "champion2.png",
     "group": "champion",

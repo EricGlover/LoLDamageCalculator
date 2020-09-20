@@ -1,0 +1,185 @@
+[
+  {
+    "name": "Fury of the Xer'Sai",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Rek'Sai generates  25 Fury upon dealing damage with basic attack,  Prey Seeker,  Unburrow or  Furious Bite, and loses 20 Fury per second if she hasn't generated any in the last 5 seconds.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Fury of the Xer'Sai.png",
+    "icons": [
+      "Fury of the Xer'Sai.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Rek'Sai generates  25 Fury upon dealing damage with basic attack,  Prey Seeker,  Unburrow or  Furious Bite, and loses 20 Fury per second if she hasn't generated any in the last 5 seconds.",
+      "While  burrowed, Rek'Sai consumes her current Fury over 3 seconds,  healing for up to 20 − 190 (based on level) at 100 Fury, stopping once she consumes it all or returns to  full health."
+    ]
+  },
+  {
+    "name": "Queen's Wrath",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      4
+    ],
+    "description": " Unburrowed - Active: Rek'Sai's next three basic attacks within 5 seconds have a 0.25-second cast time and deal bonus physical damage to the target and all surrounding enemies. The damage to the primary target is affected by  critical strike modifiers.",
+    "leveling": "Physical Damage:»20 / 25 / 30 / 35 / 40 (+ 50% bonus AD)«Total Damage:60 / 75 / 90 / 105 / 120 (+ 150% bonus AD)",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Queen's Wrath.png",
+    "icons": [
+      "Queen's Wrath.png"
+    ],
+    "levelings": [
+      "Physical Damage:»20 / 25 / 30 / 35 / 40 (+ 50% bonus AD)«Total Damage:60 / 75 / 90 / 105 / 120 (+ 150% bonus AD)"
+    ],
+    "descriptions": [
+      " Unburrowed - Active: Rek'Sai's next three basic attacks within 5 seconds have a 0.25-second cast time and deal bonus physical damage to the target and all surrounding enemies. The damage to the primary target is affected by  critical strike modifiers.",
+      "Queen's Wrath ends prematurely and goes on cooldown if Rek'Sai is  burrowed for more than 1.5 seconds.",
+      "Queen's Wrath  resets Rek'Sai's basic attack timer."
+    ]
+  },
+  {
+    "name": "Burrow",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      4
+    ],
+    "description": " Unburrowed - Active: Rek'Sai burrows into the ground, reducing her  sight radius to 250 units, but gaining 15 / 20 / 25 / 30 (based on level)  bonus movement speed, becoming  ghosted, accessing an alternate set of basic abilities, and activating Tremor Sense.",
+    "leveling": null,
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Burrow.png",
+    "icons": [
+      "Burrow.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      " Unburrowed - Active: Rek'Sai burrows into the ground, reducing her  sight radius to 250 units, but gaining 15 / 20 / 25 / 30 (based on level)  bonus movement speed, becoming  ghosted, accessing an alternate set of basic abilities, and activating Tremor Sense.",
+      "Tremor Sense: Rek'Sai and her allies gain  obscured vision of nearby enemy units that are not  visible every 1.5 seconds if they are moving.",
+      "Rek'Sai automatically burrows upon respawning once Burrow has been learned."
+    ]
+  },
+  {
+    "name": "Furious Bite",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      12
+    ],
+    "description": " Unburrowed - Active: Rek'Sai bites the target enemy, dealing physical damage.",
+    "leveling": "Physical Damage:50 / 60 / 70 / 80 / 90 (+ 85% bonus AD)",
+    "skill": "E",
+    "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical damage / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Hybrid_penetration.png/revision/latest/scale-to-width-down/20?cb=20170514081634\" \t alt=\"Hybrid penetration\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration.png\" \tdata-image-name=\"Hybrid penetration.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> True damage",
+    "isProjectile": "",
+    "flatDamage": [
+      50,
+      60,
+      70,
+      80,
+      90
+    ],
+    "ratios": [
+      {
+        "value": 85,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Furious Bite.png",
+    "icons": [
+      "Furious Bite.png"
+    ],
+    "levelings": [
+      "Physical Damage:50 / 60 / 70 / 80 / 90 (+ 85% bonus AD)",
+      "True Damage:100 / 120 / 140 / 160 / 180 (+ 170% bonus AD)"
+    ],
+    "descriptions": [
+      " Unburrowed - Active: Rek'Sai bites the target enemy, dealing physical damage.",
+      "At maximum  Fury the damage is doubled and converted to  true damage."
+    ]
+  },
+  {
+    "name": "Void Rush",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      100,
+      95,
+      90,
+      85,
+      80
+    ],
+    "description": "Passive: Rek'Sai applies Mark as Prey to enemy champions she damages, lasting 5 seconds.",
+    "leveling": "Physical Damage:100 / 175 / 250 / 325 / 400 (+ 175% bonus AD) (+ 20 / 22.5 / 25 / 27.5 / 30% of target's missing health)",
+    "skill": "R",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      100,
+      175,
+      250,
+      325,
+      400
+    ],
+    "ratios": [
+      {
+        "value": 175,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Void Rush Mark.png",
+    "icons": [
+      "Void Rush Mark.png",
+      "Void Rush.png"
+    ],
+    "levelings": [
+      "Physical Damage:100 / 175 / 250 / 325 / 400 (+ 175% bonus AD) (+ 20 / 22.5 / 25 / 27.5 / 30% of target's missing health)"
+    ],
+    "descriptions": [
+      "Passive: Rek'Sai applies Mark as Prey to enemy champions she damages, lasting 5 seconds.",
+      "Active: Rek'Sai selects an enemy champion with Mark as Prey, becoming  displacement immune and  vanishing into the ground. After 1.5 seconds, she becomes targetable again and emerges from the ground as  Unburrowed near her target and  pounces a fixed distance in their direction to deal physical damage if she hits them.",
+      "The damage can be dodged if the target moves 1500 or more units away. If the target dies or is too far away before Rek'Sai vanishes, Void Rush is canceled with a 10 second  cooldown."
+    ]
+  }
+]

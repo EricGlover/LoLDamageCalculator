@@ -1,0 +1,199 @@
+[
+  {
+    "name": "Fury of the Dragonborn",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Shyvana deals 20% bonus physical and magic damage to  Dragons.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Fury of the Dragonborn.png",
+    "icons": [
+      "Fury of the Dragonborn.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Shyvana deals 20% bonus physical and magic damage to  Dragons.",
+      "Additionally, Shyvana starts with  5 bonus armor and  5 bonus magic resistance, which is permanently increased by 5 for every elemental drake ( Cloud Drake,  Infernal Drake,  Mountain Drake, and  Ocean Drake) and  Elder Dragon her team slays."
+    ]
+  },
+  {
+    "name": "Twin Bite",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      9,
+      8,
+      7,
+      6,
+      5
+    ],
+    "description": "Active: Shyvana's next basic attack within 6 seconds causes her to strike again after 0.25 seconds, dealing bonus physical damage.",
+    "leveling": "Bonus Physical Damage:20 / 35 / 50 / 65 / 80% AD",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      20,
+      35,
+      50,
+      65,
+      80
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Twin Bite.png",
+    "icons": [
+      "Twin Bite.png"
+    ],
+    "levelings": [
+      "Bonus Physical Damage:20 / 35 / 50 / 65 / 80% AD"
+    ],
+    "descriptions": [
+      "Active: Shyvana's next basic attack within 6 seconds causes her to strike again after 0.25 seconds, dealing bonus physical damage.",
+      "The second strike applies on-hit and on-attack effects and is affected by  critical strike modifiers.",
+      "Shyvana's basic attacks reduce Twin Bite's  cooldown by 0.5 seconds on-hit.",
+      "Twin Bite  resets Shyvana's basic attack timer.",
+      " Dragon Form: Shyvana instantly attacks all enemies in a cone around her target before applying Twin Bite's effects to each of them. The basic attacks deal 100% AD physical damage, are affected by  critical strike modifiers, and apply on-hit effects to each target hit. The second strike cannot  critically strike nor trigger on-attack effects, but it will still apply on-hit effects. Additionally, Twin Bite's empowered attack becomes  unstoppable."
+    ]
+  },
+  {
+    "name": "Burnout",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      12
+    ],
+    "description": "Active: Shyvana surrounds herself in flames for 3 seconds, gaining  bonus movement speed and dealing magic damage to surrounding enemies each second.",
+    "leveling": "Initial Movement Speed:30 / 35 / 40 / 45 / 50%Magic Damage Per Second:20 / 32.5 / 45 / 57.5 / 70 (+ 20% bonus AD)",
+    "skill": "W",
+    "damageType": "magic",
+    "isProjectile": "",
+    "flatDamage": [
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "ratios": [
+      {
+        "value": 20,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Burnout.png",
+    "icons": [
+      "Burnout.png"
+    ],
+    "levelings": [
+      "Initial Movement Speed:30 / 35 / 40 / 45 / 50%Magic Damage Per Second:20 / 32.5 / 45 / 57.5 / 70 (+ 20% bonus AD)",
+      "Magic Damage Per Hit:5 / 8.125 / 11.25 / 14.375 / 17.5 (+ 5% bonus AD)",
+      "Decay:4.5 / 5.25 / 6 / 6.75 / 7.5%"
+    ],
+    "descriptions": [
+      "Active: Shyvana surrounds herself in flames for 3 seconds, gaining  bonus movement speed and dealing magic damage to surrounding enemies each second.",
+      "Basic attacking an enemy while Burnout is active deals 25% of Burnout's damage to all enemies surrounding Shyvana and, against non-structures, extends Burnout's duration by 1 second, stacking up to 4 times for a maximum total duration of 7 seconds.",
+      " Bonus movement speed decays linearly over the duration.",
+      " Dragon Form: Burnout has increased effect radius, scaling with  Dragon's Descent's rank."
+    ]
+  },
+  {
+    "name": "Flame Breath",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      12,
+      11,
+      10,
+      9,
+      8
+    ],
+    "description": "Active: Shyvana unleashes a fireball in the target direction, stopping upon colliding with an enemy  champion and dealing magic damage to all enemies hit and marking them for 5 seconds.",
+    "leveling": "Magic Damage:60 / 100 / 140 / 180 / 220 (+ 30% AD) (+ 70% AP)",
+    "skill": "E",
+    "damageType": "magic",
+    "isProjectile": "true",
+    "flatDamage": [
+      60,
+      100,
+      140,
+      180,
+      220
+    ],
+    "ratios": [
+      {
+        "value": 30,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Flame Breath.png",
+    "icons": [
+      "Flame Breath.png"
+    ],
+    "levelings": [
+      "Magic Damage:60 / 100 / 140 / 180 / 220 (+ 30% AD) (+ 70% AP)",
+      "Empowered Magic Damage:100 − 160 (based on level) + 60 / 100 / 140 / 180 / 220 (+ 60% AD) (+ 100% AP)"
+    ],
+    "descriptions": [
+      "Active: Shyvana unleashes a fireball in the target direction, stopping upon colliding with an enemy  champion and dealing magic damage to all enemies hit and marking them for 5 seconds.",
+      "Shyvana's basic attacks against marked enemies deal 3.75% of the target's  maximum health as bonus magic damage, capped at 150 against monsters.",
+      " Dragon Form: Flame Breath explodes upon hitting an enemy champion or reaching the target location, dealing increased magic damage to them and surrounding enemies and scorching the earth for 4 seconds. Enemies standing on scorched earth take 30 − 60 (based on level) (+ 5% AD) (+ 10% AP) magic damage every 0.5 seconds."
+    ]
+  },
+  {
+    "name": "Dragon's Descent",
+    "cost": [
+      2
+    ],
+    "costType": "Fury every 0.5 seconds",
+    "coolDown": [
+      null
+    ],
+    "description": "Passive - Fury: Dragon's Descent has no cooldown or initial cost but can only be activated while Shyvana has  100 Fury. Shyvana passively generates Fury per second while she is alive and in human form, 2 Fury per basic attack on-hit in either form, and 100 Fury when Dragon's Descent is first learned.",
+    "leveling": "Passive Fury Generation:1 / 1.25 / 1.5 / 1.75 / 2",
+    "skill": "R",
+    "damageType": "magic",
+    "isProjectile": "",
+    "flatDamage": [
+      1,
+      1.25,
+      1.5,
+      1.75,
+      2
+    ],
+    "ratios": [],
+    "castTime": 0.25,
+    "icon": "Dragon's Descent.png",
+    "icons": [
+      "Dragon's Descent.png"
+    ],
+    "levelings": [
+      "Passive Fury Generation:1 / 1.25 / 1.5 / 1.75 / 2",
+      "Magic Damage:150 / 200 / 250 / 300 / 350 (+ 100% AP)",
+      "Bonus Health:150 / 200 / 250 / 300 / 350\nBonus Range:50 / 57.5 / 65 / 72.5 / 80\nSize Increase:0 / 8.5 / 16%"
+    ],
+    "descriptions": [
+      "Passive - Fury: Dragon's Descent has no cooldown or initial cost but can only be activated while Shyvana has  100 Fury. Shyvana passively generates Fury per second while she is alive and in human form, 2 Fury per basic attack on-hit in either form, and 100 Fury when Dragon's Descent is first learned.",
+      "Active: Shyvana transforms into a ferocious dragon, becoming  displacement immune,  dashing to the target location and  carrying and dealing magic damage to all enemies she passes through.",
+      "Shyvana's dragon form grants her  bonus health,  bonus attack range, increased size and empowers her basic abilities at the cost of 2.5 Fury per 0.5 seconds, returning to human form once depleted."
+    ]
+  }
+]

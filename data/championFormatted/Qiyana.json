@@ -1,5 +1,208 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Royal Privilege",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Qiyana's basic attacks and damaging abilities deal 15 − 83 (based on level) (+ 55% bonus AD) (+ 30% AP) bonus physical damage to affected enemies.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "physical",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Royal Privilege.png",
+      "icons": [
+        "Royal Privilege.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Qiyana's basic attacks and damaging abilities deal 15 − 83 (based on level) (+ 55% bonus AD) (+ 30% AP) bonus physical damage to affected enemies.",
+        "This effect cannot occur on the same target more than once every few seconds.",
+        "Royal Privilege's  cooldown is reset on all targets upon gathering or changing an  Element."
+      ]
+    },
+    {
+      "name": "Edge of Ixtal",
+      "cost": [
+        35
+      ],
+      "costType": "mana",
+      "coolDown": [
+        7
+      ],
+      "description": "Active: Qiyana slashes forward in the target direction, dealing physical damage to enemies in a line, reduced to 75% damage against targets beyond the first.",
+      "leveling": "Physical Damage:»60 / 85 / 110 / 135 / 160 (+ 90% bonus AD)«Reduced Damage:45 / 63.75 / 82.5 / 101.25 / 120 (+ 67.5% bonus AD)",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "False",
+      "flatDamage": [
+        60,
+        85,
+        110,
+        135,
+        160
+      ],
+      "ratios": [
+        {
+          "value": 90,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Edge of Ixtal.png",
+      "icons": [
+        "Edge of Ixtal.png"
+      ],
+      "levelings": [
+        "Physical Damage:»60 / 85 / 110 / 135 / 160 (+ 90% bonus AD)«Reduced Damage:45 / 63.75 / 82.5 / 101.25 / 120 (+ 67.5% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Qiyana slashes forward in the target direction, dealing physical damage to enemies in a line, reduced to 75% damage against targets beyond the first.",
+        "Upon gathering an element with  Terrashape, Edge of Ixtal is upgraded to Elemental Wrath and its  cooldown is reset."
+      ]
+    },
+    {
+      "name": "Terrashape",
+      "cost": [
+        25,
+        30,
+        35,
+        40,
+        45
+      ],
+      "costType": "mana",
+      "coolDown": [
+        7
+      ],
+      "description": "Passive: While holding an Element, Qiyana gains  bonus attack speed,  25 bonus attack range, bonus magic damage on her basic attacks and basic abilities, and out-of-combat  bonus movement speed while moving near the Element currently being held.",
+      "leveling": "Bonus Attack Speed:5 / 10 / 15 / 20 / 25%\nBonus Magic Damage:8 / 16 / 24 / 32 / 40 (+ 10% bonus AD) (+ 30% AP)\nBonus Movement Speed:5 / 6.25 / 7.5 / 8.75 / 10%",
+      "skill": "W",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        5,
+        10,
+        15,
+        20,
+        25
+      ],
+      "ratios": [
+        {
+          "value": 10,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Terrashape.png",
+      "icons": [
+        "Terrashape.png"
+      ],
+      "levelings": [
+        "Bonus Attack Speed:5 / 10 / 15 / 20 / 25%\nBonus Magic Damage:8 / 16 / 24 / 32 / 40 (+ 10% bonus AD) (+ 30% AP)\nBonus Movement Speed:5 / 6.25 / 7.5 / 8.75 / 10%"
+      ],
+      "descriptions": [
+        "Passive: While holding an Element, Qiyana gains  bonus attack speed,  25 bonus attack range, bonus magic damage on her basic attacks and basic abilities, and out-of-combat  bonus movement speed while moving near the Element currently being held.",
+        "Active: Qiyana  dashes towards the target location while gathering an Element of the nearest  Brush,  River or  Terrain she targeted, enchanting her blade.",
+        "A target Element is required to cast this ability.",
+        "Once Terrashape has been learned, Qiyana is automatically given the  Terrain element upon respawning."
+      ]
+    },
+    {
+      "name": "Audacity",
+      "cost": [
+        40,
+        45,
+        50,
+        55,
+        60
+      ],
+      "costType": "mana",
+      "coolDown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "description": "Active: Qiyana  dashes a fixed distance towards the target enemy, dealing physical damage.",
+      "leveling": "Physical Damage:60 / 90 / 120 / 150 / 180 (+ 70% bonus AD)",
+      "skill": "E",
+      "damageType": "physical",
+      "isProjectile": "",
+      "flatDamage": [
+        60,
+        90,
+        120,
+        150,
+        180
+      ],
+      "ratios": [
+        {
+          "value": 70,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Audacity.png",
+      "icons": [
+        "Audacity.png"
+      ],
+      "levelings": [
+        "Physical Damage:60 / 90 / 120 / 150 / 180 (+ 70% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Qiyana  dashes a fixed distance towards the target enemy, dealing physical damage.",
+        "Qiyana can cast any of her abilities during Audacity. Casting  Edge of Ixtal during Audacity will autonomously aim at the dash target."
+      ]
+    },
+    {
+      "name": "Supreme Display of Talent",
+      "cost": [
+        100
+      ],
+      "costType": "mana",
+      "coolDown": [
+        120
+      ],
+      "description": "Active: Qiyana sends a windblast in the target direction that  knocks back enemies. The windblast stops upon hitting terrain.",
+      "leveling": "Physical Damage:»100 / 135 / 170 / 205 / 240 (+ 170% bonus AD) (+ 10% of target's maximum health)«Capped percentage damage:500 / 625 / 750 / 875 / 1000",
+      "skill": "R",
+      "damageType": "physical",
+      "isProjectile": "True",
+      "flatDamage": [
+        100,
+        135,
+        170,
+        205,
+        240
+      ],
+      "ratios": [
+        {
+          "value": 170,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Supreme Display of Talent.png",
+      "icons": [
+        "Supreme Display of Talent.png"
+      ],
+      "levelings": [
+        "Physical Damage:»100 / 135 / 170 / 205 / 240 (+ 170% bonus AD) (+ 10% of target's maximum health)«Capped percentage damage:500 / 625 / 750 / 875 / 1000"
+      ],
+      "descriptions": [
+        "Active: Qiyana sends a windblast in the target direction that  knocks back enemies. The windblast stops upon hitting terrain.",
+        "The windblast then creates an erupting shockwave across any River or Brush it passes through, as well as around the borders of terrain it reaches, dealing physical damage, with the percentage damage capped against  monsters and  stunning enemies for 1 − 0.5 (based on proximity) seconds."
+      ]
+    }
+  ],
   "id": "Qiyana",
   "key": "246",
   "name": "Qiyana",
@@ -12,6 +215,7 @@
     "difficulty": 8
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Qiyana.png",
     "full": "Qiyana.png",
     "sprite": "champion3.png",
     "group": "champion",

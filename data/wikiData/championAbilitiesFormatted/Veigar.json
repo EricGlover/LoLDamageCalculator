@@ -1,0 +1,217 @@
+[
+  {
+    "name": "Phenomenal Evil Power",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Veigar gains a stack of Phenomenal Evil whenever he hits an enemy  champion with an ability, and 5 stacks whenever he scores a champion  takedown.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Phenomenal Evil Power.png",
+    "icons": [
+      "Phenomenal Evil Power.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Veigar gains a stack of Phenomenal Evil whenever he hits an enemy  champion with an ability, and 5 stacks whenever he scores a champion  takedown.",
+      "Veigar gains  1 ability power for every stack of Phenomenal Evil."
+    ]
+  },
+  {
+    "name": "Baleful Strike",
+    "cost": [
+      40,
+      45,
+      50,
+      55,
+      60
+    ],
+    "costType": "mana",
+    "coolDown": [
+      7,
+      6,
+      6,
+      5,
+      5
+    ],
+    "description": "Passive: Killing an enemy unit with Baleful Strike grants 1 stack of  Phenomenal Evil, doubled against large  minions and  monsters.",
+    "leveling": "Magic Damage:80 / 120 / 160 / 200 / 240 (+ 60% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      80,
+      120,
+      160,
+      200,
+      240
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Baleful Strike.png",
+    "icons": [
+      "Baleful Strike.png"
+    ],
+    "levelings": [
+      "Magic Damage:80 / 120 / 160 / 200 / 240 (+ 60% AP)"
+    ],
+    "descriptions": [
+      "Passive: Killing an enemy unit with Baleful Strike grants 1 stack of  Phenomenal Evil, doubled against large  minions and  monsters.",
+      "Active: Veigar unleashes a bolt of dark energy in the target direction, dealing magic damage to the first two enemies hit."
+    ]
+  },
+  {
+    "name": "Dark Matter",
+    "cost": [
+      60,
+      65,
+      70,
+      75,
+      80
+    ],
+    "costType": "mana",
+    "coolDown": [
+      8,
+      null,
+      null,
+      null,
+      null,
+      8,
+      88,
+      null,
+      null,
+      null,
+      null,
+      20
+    ],
+    "description": "Active: Veigar calls a mass of dark matter to fall from the sky which lands after a 1 second delay to the target location, dealing magic damage to all enemies hit.",
+    "leveling": "Magic Damage:100 / 150 / 200 / 250 / 300 (+ 100% AP)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      100,
+      150,
+      200,
+      250,
+      300
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Dark Matter.png",
+    "icons": [
+      "Dark Matter.png"
+    ],
+    "levelings": [
+      "Magic Damage:100 / 150 / 200 / 250 / 300 (+ 100% AP)"
+    ],
+    "descriptions": [
+      "Active: Veigar calls a mass of dark matter to fall from the sky which lands after a 1 second delay to the target location, dealing magic damage to all enemies hit.",
+      "Dark Matter's  cooldown is reduced by a percentage, scaling with  Phenomenal Evil."
+    ]
+  },
+  {
+    "name": "Event Horizon",
+    "cost": [
+      70,
+      75,
+      80,
+      85,
+      90
+    ],
+    "costType": "mana",
+    "coolDown": [
+      18,
+      16,
+      15,
+      13,
+      12
+    ],
+    "description": "Active: Veigar forms a cage around the target location which materializes after a 0.5 second delay and lasts for 3 seconds,  knocking down and  stunning all enemies who pass through its edges for the first time.",
+    "leveling": "Stun Duration:1.5 / 1.75 / 2 / 2.25 / 2.5",
+    "skill": "E",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      1.5,
+      1.75,
+      2,
+      2.25,
+      2.5
+    ],
+    "ratios": [],
+    "castTime": 0.25,
+    "icon": "Event Horizon.png",
+    "icons": [
+      "Event Horizon.png"
+    ],
+    "levelings": [
+      "Stun Duration:1.5 / 1.75 / 2 / 2.25 / 2.5"
+    ],
+    "descriptions": [
+      "Active: Veigar forms a cage around the target location which materializes after a 0.5 second delay and lasts for 3 seconds,  knocking down and  stunning all enemies who pass through its edges for the first time."
+    ]
+  },
+  {
+    "name": "Primordial Burst",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      120,
+      110,
+      100,
+      90,
+      80
+    ],
+    "description": "Active: Veigar blasts the target enemy champion with primordial energy, dealing magic damage to them, increased by 0% − 100% (based on target's missing health).",
+    "leveling": "Minimum Damage:»175 / 212.5 / 250 / 287.5 / 325 (+ 75% AP)«Maximum Damage:350 / 425 / 500 / 575 / 650 (+ 150% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      175,
+      212.5,
+      250,
+      287.5,
+      325
+    ],
+    "ratios": [
+      {
+        "value": 75,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Primordial Burst.png",
+    "icons": [
+      "Primordial Burst.png"
+    ],
+    "levelings": [
+      "Minimum Damage:»175 / 212.5 / 250 / 287.5 / 325 (+ 75% AP)«Maximum Damage:350 / 425 / 500 / 575 / 650 (+ 150% AP)"
+    ],
+    "descriptions": [
+      "Active: Veigar blasts the target enemy champion with primordial energy, dealing magic damage to them, increased by 0% − 100% (based on target's missing health)."
+    ]
+  }
+]

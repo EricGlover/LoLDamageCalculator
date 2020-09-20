@@ -1,0 +1,1192 @@
+[
+  {
+    "1": {
+      "value": "The Hitman and the Seer",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from The Hitman and the Seer."
+    },
+    "champion": {
+      "value": "Aphelios",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "I",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "The Hitman and the Seer.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Innate: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Aphelios_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20200304070938\" \t alt=\"Aphelios OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Aphelios_OriginalSquare.png\" \tdata-image-name=\"Aphelios OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Aphelios wields 5 Lunari Weapons made by his sister Alune. He has access to two at a time: main weapon and off-hand weapon. Each weapon has a unique <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cd/Basic_Attack.png/revision/latest/scale-to-width-down/20?cb=20200517010633\" \t alt=\"Basic Attack\"  \tclass=\"\" \t \tdata-image-key=\"Basic_Attack.png\" \tdata-image-name=\"Basic Attack.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> basic attack and active ability.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "Moonlight: Attacks and abilities consume a weapon's ammo. When out of ammo, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Aphelios_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20200304070938\" \t alt=\"Aphelios OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Aphelios_OriginalSquare.png\" \tdata-image-name=\"Aphelios OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Aphelios discards the weapon to the reserve and Alune summons the next of the 5.",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Innate: Aphelios has access to an arsenal of 5 Moonstone Weapons, created by his sister Alune. He equips two weapons at any one time, one as his main weapon and one as his off-hand. Each weapon has a unique basic attack and passive effect.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Aphelios begins the game with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Calibrum.png/revision/latest/scale-to-width-down/20?cb=20191213185839\" \t alt=\"Calibrum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Calibrum.png\" \tdata-image-name=\"Calibrum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Calibrum as his main weapon and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Severum.png/revision/latest/scale-to-width-down/20?cb=20191213190135\" \t alt=\"Severum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Severum.png\" \tdata-image-name=\"Severum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Severum in his off-hand, with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1e/Gravitum.png/revision/latest/scale-to-width-down/20?cb=20191213190004\" \t alt=\"Gravitum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gravitum.png\" \tdata-image-name=\"Gravitum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gravitum, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Infernum.png/revision/latest/scale-to-width-down/20?cb=20191213190016\" \t alt=\"Infernum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Infernum.png\" \tdata-image-name=\"Infernum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Infernum, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/96/Crescendum.png/revision/latest/scale-to-width-down/20?cb=20191213185918\" \t alt=\"Crescendum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crescendum.png\" \tdata-image-name=\"Crescendum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crescendum queued in reserve. The queue order can be rearranged based on weapon usage.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "The Hitman and the Seer 2.png",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "Innate - Moonlight: Weapons spawn with 50 Moonlight for ammunition, which is consumed on basic attacks or to cast his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d3/Q.png/revision/latest/scale-to-width-down/20?cb=20170225193556\" \t alt=\"Q\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Q.png\" \tdata-image-name=\"Q.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> abilities. Abilities that cause Aphelios to attack do not cost additional Moonlight on top of their ability cost. Once his main weapon is exhausted of Moonlight, it is moved to the end of the queue and Aphelios channels for 1 second to equip the next available weapon from his reserve.",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "Innate - Weapon Master: Aphelios cannot improve his abilities with skill points. He starts the game with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/46/Phase.png/revision/latest/scale-to-width-down/20?cb=20191213190103\" \t alt=\"Phase\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Phase.png\" \tdata-image-name=\"Phase.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Phase and gains access to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d3/Q.png/revision/latest/scale-to-width-down/20?cb=20170225193556\" \t alt=\"Q\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Q.png\" \tdata-image-name=\"Q.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> abilities at level 2. He gains access to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Moonlight_Vigil.png/revision/latest/scale-to-width-down/20?cb=20191213190035\" \t alt=\"Moonlight Vigil\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Moonlight_Vigil.png\" \tdata-image-name=\"Moonlight Vigil.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Moonlight Vigil at level 6, which improves automatically at levels 11 and 16. Instead, Aphelios may spend his skill points to gain <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack damage, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Armor_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_penetration_icon.png\" \tdata-image-name=\"Armor penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> lethality.",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "Bonus Attack Damage:4 / 8 / 12 / 16 / 20 / 24\nBonus Attack Speed:6 / 12 / 18 / 24 / 30 / 36%\nLethality:2 / 4 / 6 / 8 / 10 / 12",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Passive",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Self",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* The level up for the bonus attack damage, attack speed, and armor penetration have hotkeys Q, W, E, respectively.\n Assigning points does not follow the same rules as conventional point expenditure. The quickest you can get an individual statistic to rank-6 is by assigning points at 1 / 2 / 3 / 5 / 7 / 9.\n\n An ammunition counter will appear to the right side of the screen at 10 or less Moonlight.\n Abilities can still be used with less than the required amount of Moonlight, consuming all remaining Moonlight in the process.\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f5/Runaan%27s_Hurricane_item.png/revision/latest/scale-to-width-down/20?cb=20171221231511\" \t alt=\"Runaan&amp;#039;s Hurricane item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Runaan%27s_Hurricane_item.png\" \tdata-image-name=\"Runaan&#39;s Hurricane item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Runaan's Hurricane does not consume additional Moonlight for his basic attacks.\n The icon for this ability changes based on the active skin and functions as Alune's portrait, similarly to Aphelios' portrait.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Weapons of the Faithful",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Weapons of the Faithful."
+    },
+    "champion": {
+      "value": "Aphelios",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "Q",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Weapons of the Faithful.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "The active effect of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Aphelios_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20200304070938\" \t alt=\"Aphelios OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Aphelios_OriginalSquare.png\" \tdata-image-name=\"Aphelios OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Aphelios' <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d3/Q.png/revision/latest/scale-to-width-down/20?cb=20170225193556\" \t alt=\"Q\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Q.png\" \tdata-image-name=\"Q.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> varies based on his current main weapon.\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Calibrum.png/revision/latest/scale-to-width-down/20?cb=20191213185839\" \t alt=\"Calibrum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Calibrum.png\" \tdata-image-name=\"Calibrum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Calibrum - <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/93/Moonshot.png/revision/latest/scale-to-width-down/20?cb=20191213190044\" \t alt=\"Moonshot\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Moonshot.png\" \tdata-image-name=\"Moonshot.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Moonshot: Long range shot that marks its target for a long-range follow-up attack.\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Severum.png/revision/latest/scale-to-width-down/20?cb=20191213190135\" \t alt=\"Severum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Severum.png\" \tdata-image-name=\"Severum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Severum - <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c5/Onslaught.png/revision/latest/scale-to-width-down/20?cb=20191213190053\" \t alt=\"Onslaught\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Onslaught.png\" \tdata-image-name=\"Onslaught.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Onslaught: Gain <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed while attacking a single enemy with both weapons.\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1e/Gravitum.png/revision/latest/scale-to-width-down/20?cb=20191213190004\" \t alt=\"Gravitum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gravitum.png\" \tdata-image-name=\"Gravitum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gravitum - <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a6/Binding_Eclipse.png/revision/latest/scale-to-width-down/20?cb=20191213185829\" \t alt=\"Binding Eclipse\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Binding_Eclipse.png\" \tdata-image-name=\"Binding Eclipse.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Binding Eclipse: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Root all enemies who are *<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed by this weapon.\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Infernum.png/revision/latest/scale-to-width-down/20?cb=20191213190016\" \t alt=\"Infernum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Infernum.png\" \tdata-image-name=\"Infernum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Infernum - <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Duskwave.png/revision/latest/scale-to-width-down/20?cb=20191213185951\" \t alt=\"Duskwave\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Duskwave.png\" \tdata-image-name=\"Duskwave.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Duskwave: Blast enemies in a cone and attack them with your off-hand weapon.\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/96/Crescendum.png/revision/latest/scale-to-width-down/20?cb=20191213185918\" \t alt=\"Crescendum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crescendum.png\" \tdata-image-name=\"Crescendum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crescendum - <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e5/Sentry.png/revision/latest/scale-to-width-down/20?cb=20191213190115\" \t alt=\"Sentry\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sentry.png\" \tdata-image-name=\"Sentry.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sentry: Deploy a sentry that shoots your off-hand weapon.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "The active effect of Aphelios' <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d3/Q.png/revision/latest/scale-to-width-down/20?cb=20170225193556\" \t alt=\"Q\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Q.png\" \tdata-image-name=\"Q.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> varies based on his current main hand weapon.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "The individual actives do not share a cooldown.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "N/A",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* No additional details.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "Aphelios QVideo.ogv",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Phase",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Phase."
+    },
+    "champion": {
+      "value": "Aphelios",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "W",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "None",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "0.8",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Phase.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Active: Aphelios switches between his main weapon and off-hand weapon.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Aphelios switches between his main weapon and off-hand weapon over 0.25 seconds.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "none",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* Switching does not interrupt any commands Aphelios was issued before or during Phase.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "Aphelios WVideo.ogv",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Weapon Queue System",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Weapon Queue System."
+    },
+    "champion": {
+      "value": "Aphelios",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "E",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "false",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "The icon of this ability reflects the next weapon that is the next in the queue.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "The icon of this ability reflects the next weapon that is in reserve.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "Active: Aphelios receives a text prompt of the weapon Alune will create next.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "None",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* This ability also includes the icon of the off-hand.",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  },
+  {
+    "1": {
+      "value": "Moonlight Vigil",
+      "description": "Necessary: Used for identification."
+    },
+    "disp_name": {
+      "value": "",
+      "description": "Name of the ability\nOnly necessary if the value differs from Moonlight Vigil."
+    },
+    "champion": {
+      "value": "Aphelios",
+      "description": "champion"
+    },
+    "skill": {
+      "value": "R",
+      "description": "skill"
+    },
+    "range": {
+      "value": "",
+      "description": "range (deprecated)"
+    },
+    "target range": {
+      "value": "1300",
+      "description": "target range"
+    },
+    "attack range": {
+      "value": "",
+      "description": "attack range"
+    },
+    "travel distance": {
+      "value": "",
+      "description": "travel distance"
+    },
+    "collision radius": {
+      "value": "",
+      "description": "collision radius"
+    },
+    "effect radius": {
+      "value": "300",
+      "description": "effect radius"
+    },
+    "width": {
+      "value": "",
+      "description": "width"
+    },
+    "angle": {
+      "value": "",
+      "description": "angle"
+    },
+    "inner radius": {
+      "value": "",
+      "description": "inner radius"
+    },
+    "tether radius": {
+      "value": "",
+      "description": "tether radius"
+    },
+    "speed": {
+      "value": "",
+      "description": "speed"
+    },
+    "cast time": {
+      "value": "0.6",
+      "description": "cast time"
+    },
+    "cost": {
+      "value": "100",
+      "description": "cost"
+    },
+    "costtype": {
+      "value": "Mana",
+      "description": "costtype"
+    },
+    "static": {
+      "value": "",
+      "description": "static"
+    },
+    "cooldown": {
+      "value": "120 / 110 / 100 (based on level)",
+      "description": "cooldown"
+    },
+    "ontargetcd": {
+      "value": "",
+      "description": "ontargetcd"
+    },
+    "ontargetcdstatic": {
+      "value": "",
+      "description": "ontargetcdstatic"
+    },
+    "recharge": {
+      "value": "",
+      "description": "recharge"
+    },
+    "rechargestatic": {
+      "value": "",
+      "description": "rechargestatic"
+    },
+    "customlabel": {
+      "value": "",
+      "description": "customlabel"
+    },
+    "custominfo": {
+      "value": "",
+      "description": "custominfo"
+    },
+    "icon": {
+      "value": "Moonlight Vigil.png",
+      "description": "icon"
+    },
+    "blurb": {
+      "value": "Active: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Aphelios_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20200304070938\" \t alt=\"Aphelios OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Aphelios_OriginalSquare.png\" \tdata-image-name=\"Aphelios OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Aphelios fires a concentrated blast of moonlight that explodes on enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions dealing physical damage. Then <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cd/Basic_Attack.png/revision/latest/scale-to-width-down/20?cb=20200517010633\" \t alt=\"Basic Attack\"  \tclass=\"\" \t \tdata-image-key=\"Basic_Attack.png\" \tdata-image-name=\"Basic Attack.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> basic attacks raining from the sky to them, dealing physical damage and applying unique effects of his main weapon.\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Calibrum.png/revision/latest/scale-to-width-down/20?cb=20191213185839\" \t alt=\"Calibrum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Calibrum.png\" \tdata-image-name=\"Calibrum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Calibrum: Applies an empowered mark on all target.\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Severum.png/revision/latest/scale-to-width-down/20?cb=20191213190135\" \t alt=\"Severum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Severum.png\" \tdata-image-name=\"Severum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Severum: The initial blast <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals him, and so does the attacks.\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1e/Gravitum.png/revision/latest/scale-to-width-down/20?cb=20191213190004\" \t alt=\"Gravitum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gravitum.png\" \tdata-image-name=\"Gravitum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gravitum: An empowered <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow applied on all target.\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Infernum.png/revision/latest/scale-to-width-down/20?cb=20191213190016\" \t alt=\"Infernum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Infernum.png\" \tdata-image-name=\"Infernum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Infernum: The initial blast deals increased damage, and the attacks splashes on each target.\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/96/Crescendum.png/revision/latest/scale-to-width-down/20?cb=20191213185918\" \t alt=\"Crescendum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crescendum.png\" \tdata-image-name=\"Crescendum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crescendum: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Aphelios_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20200304070938\" \t alt=\"Aphelios OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Aphelios_OriginalSquare.png\" \tdata-image-name=\"Aphelios OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Aphelios gains more mirror chakrams the more target he hit with the initial blast.",
+      "description": "blurb"
+    },
+    "blurb2": {
+      "value": "",
+      "description": "blurb2"
+    },
+    "description": {
+      "value": "Active: Aphelios casts forth a lunar spotlight in the target direction that stops upon illuminating an enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion. Alune smites the area centered on the illuminated enemy, dealing 125 / 175 / 225 (based on level) (+ 20% bonus AD) (+ 100% AP) physical damage and locking-on to each enemy hit.",
+      "description": "description"
+    },
+    "leveling": {
+      "value": "",
+      "description": "leveling"
+    },
+    "icon2": {
+      "value": "",
+      "description": "icon2"
+    },
+    "description2": {
+      "value": "After 0.3 seconds of the illumination, attacks will begin raining from the sky based on Aphelios'  current main weapon, dealing 100% AD physical damage and applying on-hit effects upon each enemy locked-on by Moonlight Vigil. These attacks can <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critically strike for (20% + <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/15/Infinity_Edge_item.png/revision/latest/scale-to-width-down/20?cb=20180531105945\" \t alt=\"Infinity Edge item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Infinity_Edge_item.png\" \tdata-image-name=\"Infinity Edge item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 25%) AD bonus physical damage. There is no <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> range limit for locked-on targets.\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Calibrum.png/revision/latest/scale-to-width-down/20?cb=20191213185839\" \t alt=\"Calibrum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Calibrum.png\" \tdata-image-name=\"Calibrum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Calibrum: Applies an empowered mark that deals 20 / 45 / 70 (based on level) additional physical damage per mark.\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Severum.png/revision/latest/scale-to-width-down/20?cb=20191213190135\" \t alt=\"Severum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Severum.png\" \tdata-image-name=\"Severum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Severum: If at least one enemy is hit, Aphelios <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals for 200 / 300 / 400 (based on level).\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1e/Gravitum.png/revision/latest/scale-to-width-down/20?cb=20191213190004\" \t alt=\"Gravitum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gravitum.png\" \tdata-image-name=\"Gravitum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gravitum: The initial <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow is increased to 99%.\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Infernum.png/revision/latest/scale-to-width-down/20?cb=20191213190016\" \t alt=\"Infernum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Infernum.png\" \tdata-image-name=\"Infernum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Infernum: The initial blast deals an additional 50 / 100 / 150 (based on level) (+ 25% bonus AD) physical damage. Attacks <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/60/Umbra_Blades.png/revision/latest/scale-to-width-down/20?cb=20130929123129\" \t alt=\"Umbra Blades\"  \tclass=\"\" \t \tdata-image-key=\"Umbra_Blades.png\" \tdata-image-name=\"Umbra Blades.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> splash in a 400 unit circle instead of a cone, dealing 75% of that damage. Enemies will take damage from overlapping areas.\n\n<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/96/Crescendum.png/revision/latest/scale-to-width-down/20?cb=20191213185918\" \t alt=\"Crescendum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crescendum.png\" \tdata-image-name=\"Crescendum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crescendum: 3 additional spectral chakrams return to Aphelios from the first enemy hit, for a total of 4, on top of those from other enemies hit.",
+      "description": "description2"
+    },
+    "leveling2": {
+      "value": "",
+      "description": "leveling2"
+    },
+    "icon3": {
+      "value": "",
+      "description": "icon3"
+    },
+    "description3": {
+      "value": "",
+      "description": "description3"
+    },
+    "leveling3": {
+      "value": "",
+      "description": "leveling3"
+    },
+    "icon4": {
+      "value": "",
+      "description": "icon4"
+    },
+    "description4": {
+      "value": "",
+      "description": "description4"
+    },
+    "leveling4": {
+      "value": "",
+      "description": "leveling4"
+    },
+    "icon5": {
+      "value": "",
+      "description": "icon5"
+    },
+    "description5": {
+      "value": "",
+      "description": "description5"
+    },
+    "leveling5": {
+      "value": "",
+      "description": "leveling5"
+    },
+    "targeting": {
+      "value": "Direction",
+      "description": "Permafrost is a single target ability."
+    },
+    "affects": {
+      "value": "Enemies",
+      "description": "Permafrost affects enemy champions and large monsters"
+    },
+    "damagetype": {
+      "value": "physical",
+      "description": "Permafrost deals magic damage."
+    },
+    "spelleffects": {
+      "value": "aoe",
+      "description": "spelleffects"
+    },
+    "onhiteffects": {
+      "value": "",
+      "description": "onhiteffects can be set to 'true', for abilities that apply on-hit effects (from items or other abilities)"
+    },
+    "occurrence": {
+      "value": "",
+      "description": "occurrence can either be set to 'hit' or 'attack', and refers to on-hit effects"
+    },
+    "spellshield": {
+      "value": "special",
+      "description": "spellshield can either be set to true, or written with a custom description."
+    },
+    "projectile": {
+      "value": "Special",
+      "description": "true"
+    },
+    "callforhelp": {
+      "value": "",
+      "description": "callforhelp determines whether minion aggro will transfer to the caster"
+    },
+    "additional": {
+      "value": "",
+      "description": "Displays additional information in a smaller window below the template."
+    },
+    "notes": {
+      "value": "* The basic attacks always count as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Projectile.png/revision/latest/scale-to-width-down/20?cb=20150816082407\" \t alt=\"Projectile\"  \tclass=\"\" \t \tdata-image-key=\"Projectile.png\" \tdata-image-name=\"Projectile.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> projectiles unless <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Severum.png/revision/latest/scale-to-width-down/20?cb=20191213190135\" \t alt=\"Severum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Severum.png\" \tdata-image-name=\"Severum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Severum is being used. The lunar beam, however, may always be intercepted regardless of which weapon is in play as the main weapon.\n <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Spell_Shield.png/revision/latest/scale-to-width-down/20?cb=20170818194532\" \t alt=\"Spell Shield\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Shield.png\" \tdata-image-name=\"Spell Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell shield blocks the Moonlight Vigil's initial detonation damage but does not prevent the attacks from locking-on.\n The basic attacks from Moonlight Vigil <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critically strike independently from each other. Targets further away from the center of the blast are hit after a slightly longer delay. These attacks do not apply on-attack effects.\nChanging weapons while Moonlight Vigil is in flight does not change the effect it has when it hits.\n Moonlight Vigil is always cast from the original casting position.\n With <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Calibrum.png/revision/latest/scale-to-width-down/20?cb=20191213185839\" \t alt=\"Calibrum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Calibrum.png\" \tdata-image-name=\"Calibrum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Calibrum, the extra damage from consuming the mark is a bonus damage on top of Calibrum's  normal mark consumption damage.\n With <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Infernum.png/revision/latest/scale-to-width-down/20?cb=20191213190016\" \t alt=\"Infernum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Infernum.png\" \tdata-image-name=\"Infernum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Infernum, 14 fire bolts splash from each target hit (18 for <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critical strikes). This does not occur if the initial damage of Moonlight Vigil kills the target.\n With <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/96/Crescendum.png/revision/latest/scale-to-width-down/20?cb=20191213185918\" \t alt=\"Crescendum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crescendum.png\" \tdata-image-name=\"Crescendum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crescendum, 1 spectral chakram is gained for every target hit by the blast, meaning it is possible to gain up to 8 spectral chakrams with one use of Moonlight Vigil if it hits 5 enemy champions.\n With <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Severum.png/revision/latest/scale-to-width-down/20?cb=20191213190135\" \t alt=\"Severum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Severum.png\" \tdata-image-name=\"Severum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Severum, the extra flat heal is given only once, not per target. However, all damage done by Moonlight Vigil with it also heals him from Severum's  own passive effect.\n PENDING FOR TEST: Locked-on attacks' interaction with parrying effects (<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/66/Counter_Strike.png/revision/latest/scale-to-width-down/20?cb=20171223030746\" \t alt=\"Counter Strike\"  \tclass=\"\" \t \tdata-image-key=\"Counter_Strike.png\" \tdata-image-name=\"Counter Strike.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dodge, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5e/Spirit%27s_Refuge.png/revision/latest/scale-to-width-down/20?cb=20170217191016\" \t alt=\"Spirit&amp;#039;s Refuge\"  \tclass=\"\" \t \tdata-image-key=\"Spirit%27s_Refuge.png\" \tdata-image-name=\"Spirit&#39;s Refuge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> block, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/81/Blind_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224954\" \t alt=\"Blind icon\"  \tclass=\"\" \t \tdata-image-key=\"Blind_icon.png\" \tdata-image-name=\"Blind icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blind).\n Moonlight Vigil has different visual effects changed accordingly to each weapon. This may vary depending on the skin, this showcases the default:\n\n<img style=\"\" src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9e/Moonlight_Vigil_%28Calibrum%29_screenshot.png/revision/latest/scale-to-width-down/83?cb=20200215173038\" title=\"Moonlight Vigil (Calibrum) screenshot.png (237 KB)\" class=\"thumbimage\" alt=\"Moonlight Vigil (Calibrum) screenshot\" data-image-name=\"Moonlight Vigil (Calibrum) screenshot.png\" data-image-key=\"Moonlight_Vigil_%28Calibrum%29_screenshot.png\"><img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Calibrum.png/revision/latest/scale-to-width-down/20?cb=20191213185839\" \t alt=\"Calibrum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Calibrum.png\" \tdata-image-name=\"Calibrum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Calibrum<img style=\"\" src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1e/Moonlight_Vigil_%28Severum%29_screenshot.png/revision/latest/scale-to-width-down/93?cb=20200215173240\" title=\"Moonlight Vigil (Severum) screenshot.png (209 KB)\" class=\"thumbimage\" alt=\"Moonlight Vigil (Severum) screenshot\" data-image-name=\"Moonlight Vigil (Severum) screenshot.png\" data-image-key=\"Moonlight_Vigil_%28Severum%29_screenshot.png\"><img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Severum.png/revision/latest/scale-to-width-down/20?cb=20191213190135\" \t alt=\"Severum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Severum.png\" \tdata-image-name=\"Severum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Severum<img style=\"\" src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1a/Moonlight_Vigil_%28Gravitum%29_screenshot.png/revision/latest/scale-to-width-down/93?cb=20200215173319\" title=\"Moonlight Vigil (Gravitum) screenshot.png (249 KB)\" class=\"thumbimage\" alt=\"Moonlight Vigil (Gravitum) screenshot\" data-image-name=\"Moonlight Vigil (Gravitum) screenshot.png\" data-image-key=\"Moonlight_Vigil_%28Gravitum%29_screenshot.png\"><img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1e/Gravitum.png/revision/latest/scale-to-width-down/20?cb=20191213190004\" \t alt=\"Gravitum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Gravitum.png\" \tdata-image-name=\"Gravitum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gravitum<img style=\"\" src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Moonlight_Vigil_%28Infernum%29_screenshot.png/revision/latest/scale-to-width-down/95?cb=20200215173350\" title=\"Moonlight Vigil (Infernum) screenshot.png (278 KB)\" class=\"thumbimage\" alt=\"Moonlight Vigil (Infernum) screenshot\" data-image-name=\"Moonlight Vigil (Infernum) screenshot.png\" data-image-key=\"Moonlight_Vigil_%28Infernum%29_screenshot.png\"><img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Infernum.png/revision/latest/scale-to-width-down/20?cb=20191213190016\" \t alt=\"Infernum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Infernum.png\" \tdata-image-name=\"Infernum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Infernum<img style=\"\" src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/35/Moonlight_Vigil_%28Crescendum%29_screenshot.png/revision/latest/scale-to-width-down/87?cb=20200215173421\" title=\"Moonlight Vigil (Crescendum) screenshot.png (227 KB)\" class=\"thumbimage\" alt=\"Moonlight Vigil (Crescendum) screenshot\" data-image-name=\"Moonlight Vigil (Crescendum) screenshot.png\" data-image-key=\"Moonlight_Vigil_%28Crescendum%29_screenshot.png\"><img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/96/Crescendum.png/revision/latest/scale-to-width-down/20?cb=20191213185918\" \t alt=\"Crescendum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crescendum.png\" \tdata-image-name=\"Crescendum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> CrescendumJSSnippetsStack.push({dependencies:[{\"url\":\"https://slot1-images.wikia.nocookie.net/__am/1599831878410/group/-/wikia_photo_gallery_js\",\"type\":\"js\"},{\"url\":\"https://slot1-images.wikia.nocookie.net/__am/1599831878410/sass/background-dynamic%3Dtrue%26background-image%3Dhttps%253A%252F%252Fvignette.wikia.nocookie.net%252Fleagueoflegends%252Fimages%252F5%252F50%252FWiki-background%252Frevision%252Flatest%253Fcb%253D20200901074924%26background-image-height%3D1080%26background-image-width%3D1920%26color-body%3D%25230e1436%26color-body-middle%3D%2523000000%26color-buttons%3D%2523153b54%26color-community-header%3D%25230d1b2d%26color-header%3D%2523080f28%26color-links%3D%252370a8e0%26color-page%3D%25230d1b2d%26oasisTypography%3D1%26page-opacity%3D100%26widthType%3D0/extensions/wikia/WikiaPhotoGallery/css/gallery.scss\",\"type\":\"css\"}],callback:function(json){WikiaPhotoGalleryView.init(json)},id:\"WikiaPhotoGalleryView.init\"})",
+      "description": "Displays additional information with effect table to the right."
+    },
+    "flavorsound": {
+      "value": "\"I am with you!\"",
+      "description": "flavor sound"
+    },
+    "video": {
+      "value": "",
+      "description": "video"
+    },
+    "video2": {
+      "value": "",
+      "description": "video 2"
+    },
+    "yvideo": {
+      "value": "",
+      "description": "YouTube video"
+    },
+    "yvideo2": {
+      "value": "",
+      "description": "YouTube video 2"
+    }
+  }
+]

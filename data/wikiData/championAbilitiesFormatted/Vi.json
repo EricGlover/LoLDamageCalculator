@@ -1,0 +1,230 @@
+[
+  {
+    "name": "Blast Shield",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Hitting an enemy with an ability grants Vi a  shield equal to  15% of her maximum health for 3 seconds.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Blast Shield.png",
+    "icons": [
+      "Blast Shield.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Hitting an enemy with an ability grants Vi a  shield equal to  15% of her maximum health for 3 seconds.",
+      "Blast Shield's  cooldown is reduced by 3 seconds for every trigger of  Denting Blows."
+    ]
+  },
+  {
+    "name": "Vault Breaker",
+    "cost": [
+      50,
+      60,
+      70,
+      80,
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12,
+      10,
+      9,
+      7,
+      6
+    ],
+    "description": "Active: Vi  charges for up to 4 seconds to increase Vault Breaker's  range, speed, and damage while being  slowed by 15%. Vault Breaker can be recast at any time within its duration.",
+    "leveling": "Minimum Physical Damage:»55 / 80 / 105 / 130 / 155 (+ 70% bonus AD)«Maximum Damage:110 / 160 / 210 / 260 / 310 (+ 140% bonus AD)",
+    "skill": "Q",
+    "damageType": "physical",
+    "isProjectile": "",
+    "flatDamage": [
+      55,
+      80,
+      105,
+      130,
+      155
+    ],
+    "ratios": [
+      {
+        "value": 70,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Vault Breaker.png",
+    "icons": [
+      "Vault Breaker.png"
+    ],
+    "levelings": [
+      "Minimum Physical Damage:»55 / 80 / 105 / 130 / 155 (+ 70% bonus AD)«Maximum Damage:110 / 160 / 210 / 260 / 310 (+ 140% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Vi  charges for up to 4 seconds to increase Vault Breaker's  range, speed, and damage while being  slowed by 15%. Vault Breaker can be recast at any time within its duration.",
+      "If the charge completes without reactivation, Vault Breaker is canceled and goes on full cooldown.",
+      "Recast: Vi  dashes in the target direction, dealing physical damage to all enemies she passes through, increased by 0% − 100% (based on channel time).",
+      "Vi stops upon colliding with an enemy champion,  knocking them back while non-champion enemies in her path are instead  pulled towards her.",
+      "Vault Breaker will go on a 3-second  cooldown if the charge is canceled."
+    ]
+  },
+  {
+    "name": "Denting Blows",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Passive: Vi's basic attacks on-hit and  Vault Breaker apply Denting Blows to enemies hit, stacking up to 3 times. At 3 stacks, Vi consumes them to deal bonus physical damage and  reduce the target's armor by 20%, with the bonus damage capped at 300 against non-champions.",
+    "leveling": "Bonus Physical Damage:4 / 5.5 / 7 / 8.5 / 10% (+「 1% per 35 」「 2.86% per 100 」bonus AD) of target's maximum health",
+    "skill": "W",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      4,
+      5.5,
+      7,
+      8.5,
+      10
+    ],
+    "ratios": [
+      {
+        "value": 1,
+        "type": "bonus ad"
+      },
+      {
+        "value": 35,
+        "type": "bonus ad"
+      },
+      {
+        "value": 2.86,
+        "type": "bonus ad"
+      },
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Denting Blows.png",
+    "icons": [
+      "Denting Blows.png",
+      "Denting Blows 2.png"
+    ],
+    "levelings": [
+      "Bonus Physical Damage:4 / 5.5 / 7 / 8.5 / 10% (+「 1% per 35 」「 2.86% per 100 」bonus AD) of target's maximum health",
+      "Bonus Attack Speed:30 / 37.5 / 45 / 52.5 / 60%"
+    ],
+    "descriptions": [
+      "Passive: Vi's basic attacks on-hit and  Vault Breaker apply Denting Blows to enemies hit, stacking up to 3 times. At 3 stacks, Vi consumes them to deal bonus physical damage and  reduce the target's armor by 20%, with the bonus damage capped at 300 against non-champions.",
+      "After triggering Denting Blows, Vi gains  bonus attack speed for 4 seconds, refreshing on subsequent triggers.",
+      "The debuff is applied after the damage has been dealt."
+    ]
+  },
+  {
+    "name": "Excessive Force",
+    "cost": [
+      26,
+      32,
+      38,
+      44,
+      50
+    ],
+    "costType": "Mana + 1 charge",
+    "coolDown": [
+      1
+    ],
+    "description": "Passive: Vi periodically stores up to 2 Excessive Force charges.",
+    "leveling": "Physical Damage:10 / 30 / 50 / 70 / 90 (+ 110% AD) (+ 90% AP)",
+    "skill": "E",
+    "damageType": "physical",
+    "isProjectile": "",
+    "flatDamage": [
+      10,
+      30,
+      50,
+      70,
+      90
+    ],
+    "ratios": [
+      {
+        "value": 110,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Excessive Force.png",
+    "icons": [
+      "Excessive Force.png",
+      "Excessive Force 2.png"
+    ],
+    "levelings": [
+      "Physical Damage:10 / 30 / 50 / 70 / 90 (+ 110% AD) (+ 90% AP)"
+    ],
+    "descriptions": [
+      "Passive: Vi periodically stores up to 2 Excessive Force charges.",
+      "Active: Vi's next basic attack becomes  unstoppable, gains  50 bonus range and deals physical damage to all enemies in a cone in front of her. The damage can  critically strike for (100% +  25%) AD bonus physical damage.",
+      "Excessive Force  resets Vi's basic attack timer.",
+      "Excessive Force only affects  structures if they're the primary target."
+    ]
+  },
+  {
+    "name": "Assault and Battery",
+    "cost": [
+      100,
+      112,
+      125,
+      137,
+      150
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      120,
+      110,
+      100,
+      90,
+      80
+    ],
+    "description": "Active: Vi  reveals the target enemy  champion and  dashes with  displacement immunity towards them, dealing physical damage and  knocking them up for 1.25 seconds upon arrival.",
+    "leveling": "Physical Damage:150 / 237.5 / 325 / 412.5 / 500 (+ 110% bonus AD)",
+    "skill": "R",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      150,
+      237.5,
+      325,
+      412.5,
+      500
+    ],
+    "ratios": [
+      {
+        "value": 110,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Assault and Battery.png",
+    "icons": [
+      "Assault and Battery.png"
+    ],
+    "levelings": [
+      "Physical Damage:150 / 237.5 / 325 / 412.5 / 500 (+ 110% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Vi  reveals the target enemy  champion and  dashes with  displacement immunity towards them, dealing physical damage and  knocking them up for 1.25 seconds upon arrival.",
+      "Enemies along the way are dealt the same damage,  knocked aside by 350 units over 0.25 seconds, and simultaneously  stunned for 0.75 seconds."
+    ]
+  }
+]

@@ -1,0 +1,279 @@
+{
+  "abilities": [
+    {
+      "name": "Center of the Universe",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        2
+      ],
+      "description": "Innate: Aurelion Sol is constantly orbited by three Stars, each doing a full circumference in 5.25 seconds, and beyond them exists an Outer Limit affecting his damaging abilities.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Magic",
+      "isProjectile": "False",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Center of the Universe.png",
+      "icons": [
+        "Center of the Universe.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Aurelion Sol is constantly orbited by three Stars, each doing a full circumference in 5.25 seconds, and beyond them exists an Outer Limit affecting his damaging abilities.",
+        "The Stars deal 12 −  120 (based on level) (+ 5 / 10 / 15 / 20 / 25 (based on  Celestial Expansion's Rank) (+ 25% AP) magic damage to enemies that come in contact with them as well as execute enemy  minions that have less than  25 health, including if they are brought to or below that threshold."
+      ]
+    },
+    {
+      "name": "Starsurge",
+      "cost": [
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "description": "Active: Aurelion Sol fires the core of a newborn star in the target direction, which expands as long as it remains within the Outer Limit and grants him  20% bonus movement speed. Starsurge can be recast after 0.25 seconds.",
+      "leveling": "Magic Damage:70 / 110 / 150 / 190 / 230 (+ 65% AP)Minimum Stun Duration:»0.55 / 0.6 / 0.65 / 0.7 / 0.75«Maximum Stun Duration:2.2 / 2.4 / 2.6 / 2.8 / 3",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        70,
+        110,
+        150,
+        190,
+        230
+      ],
+      "ratios": [
+        {
+          "value": 65,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Starsurge.png",
+      "icons": [
+        "Starsurge.png",
+        "Starsurge 2.png"
+      ],
+      "levelings": [
+        "Magic Damage:70 / 110 / 150 / 190 / 230 (+ 65% AP)Minimum Stun Duration:»0.55 / 0.6 / 0.65 / 0.7 / 0.75«Maximum Stun Duration:2.2 / 2.4 / 2.6 / 2.8 / 3"
+      ],
+      "descriptions": [
+        "Active: Aurelion Sol fires the core of a newborn star in the target direction, which expands as long as it remains within the Outer Limit and grants him  20% bonus movement speed. Starsurge can be recast after 0.25 seconds.",
+        "Upon traveling beyond the Outer Limit, the core detonates, dealing magic damage to all enemies caught within and  stunning them for a duration, increased by 0% − 300% (based on time traveled).",
+        "Recast: Aurelion Sol detonates the core early.",
+        "If Aurelion Sol is faster than the missile, the missile speed will increase to keep up."
+      ]
+    },
+    {
+      "name": "Celestial Expansion",
+      "cost": [
+        70,
+        80,
+        90,
+        100,
+        110
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        8,
+        6,
+        5,
+        3,
+        2
+      ],
+      "description": "Passive: The  Stars' base damage is increased.",
+      "leveling": "Bonus Damage:5 / 10 / 15 / 20 / 25",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "False",
+      "flatDamage": [
+        5,
+        10,
+        15,
+        20,
+        25
+      ],
+      "ratios": [],
+      "castTime": null,
+      "icon": "false",
+      "icons": [
+        "false",
+        "Celestial Expansion.png",
+        "Celestial Expansion 2.png"
+      ],
+      "levelings": [
+        "Bonus Damage:5 / 10 / 15 / 20 / 25",
+        "Total Damage:16.8 −  168 (based on level) (+ 7 / 14 / 21 / 28 / 35) (+ 35% AP)"
+      ],
+      "descriptions": [
+        "Passive: The  Stars' base damage is increased.",
+        "Active: Aurelion Sol expands his  Stars out to the Outer Limit, rotating them at a high but decaying speed, and increasing their total damage by 40%. Celestial Expansion can be recast after 1 second.",
+        "After 3 seconds or immediately after casting  Comet of Legend, the stars retract and Aurelion Sol gains 40% bonus movement speed, decaying over 1.5 seconds.",
+        "Recast: Aurelion Sol commands the stars to retract early.",
+        "Celestial Expansion's recast can be used while affected by  crowd control."
+      ]
+    },
+    {
+      "name": "Comet of Legend",
+      "cost": [
+        60
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        80,
+        75,
+        70,
+        65,
+        60
+      ],
+      "description": "Active: Aurelion Sol pulls in his  Stars and  takes flight in the chosen direction. While in flight, Aurelion Sol is  ghosted, has  unobstructed vision, ignores terrain collision, and sets his movement speed to a static amount.  Immobilizing effects  interrupt the flight. Comet of Legend can be recast after 1.5 seconds.",
+      "leveling": "Static Movement Speed:600 / 650 / 700 / 750 / 800",
+      "skill": "E",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        600,
+        650,
+        700,
+        750,
+        800
+      ],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Comet of Legend.png",
+      "icons": [
+        "Comet of Legend.png",
+        "Comet of Legend 2.png"
+      ],
+      "levelings": [
+        "Static Movement Speed:600 / 650 / 700 / 750 / 800"
+      ],
+      "descriptions": [
+        "Active: Aurelion Sol pulls in his  Stars and  takes flight in the chosen direction. While in flight, Aurelion Sol is  ghosted, has  unobstructed vision, ignores terrain collision, and sets his movement speed to a static amount.  Immobilizing effects  interrupt the flight. Comet of Legend can be recast after 1.5 seconds.",
+        "If Aurelion Sol takes damage from enemy  champions or  turrets, Comet of Legend ends instantly and is placed on a 4 second  static cooldown.",
+        "Recast: Aurelion Sol ends Comet of Legend early.",
+        "The spot at which the flight will reach maximum range is highlighted to Aurelion Sol during Comet of Legend."
+      ]
+    },
+    {
+      "name": "Voice of Light",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        110,
+        100,
+        90,
+        80,
+        70
+      ],
+      "description": "Active: Aurelion Sol exhales a wave of star fire in a line in the target direction, dealing magic damage to all enemies hit,  slowing them for 2 seconds and  knocking them back to the Outer Limit if they are within.",
+      "leveling": "Magic Damage:150 / 200 / 250 / 300 / 350 (+ 70% AP)Slow:40 / 45 / 50 / 55 / 60%",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "False",
+      "flatDamage": [
+        150,
+        200,
+        250,
+        300,
+        350
+      ],
+      "ratios": [
+        {
+          "value": 70,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.35,
+      "icon": "Voice of Light.png",
+      "icons": [
+        "Voice of Light.png"
+      ],
+      "levelings": [
+        "Magic Damage:150 / 200 / 250 / 300 / 350 (+ 70% AP)Slow:40 / 45 / 50 / 55 / 60%"
+      ],
+      "descriptions": [
+        "Active: Aurelion Sol exhales a wave of star fire in a line in the target direction, dealing magic damage to all enemies hit,  slowing them for 2 seconds and  knocking them back to the Outer Limit if they are within.",
+        "Aurelion Sol  channels over 0.3 seconds until the star fire reaches maximum range. Voice of Light cannot be  interrupted by  crowd control.",
+        " Celestial Expansion can be cast during Voice of Light."
+      ]
+    }
+  ],
+  "id": "AurelionSol",
+  "key": "136",
+  "name": "Aurelion Sol",
+  "title": "The Star Forger",
+  "blurb": "Aurelion Sol once graced the vast emptiness of the cosmos with celestial wonders of his own devising. Now, he is forced to wield his awesome power at the behest of a space-faring empire that tricked him into servitude. Desiring a return to his...",
+  "info": {
+    "attack": 2,
+    "defense": 3,
+    "magic": 8,
+    "difficulty": 7
+  },
+  "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/AurelionSol.png",
+    "full": "AurelionSol.png",
+    "sprite": "champion0.png",
+    "group": "champion",
+    "x": 432,
+    "y": 0,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Mage"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 575,
+    "hpPerLevel": 92,
+    "mp": 350,
+    "mpPerLevel": 50,
+    "moveSpeed": 325,
+    "armor": 19,
+    "armorPerLevel": 3.6,
+    "spellBlock": 30,
+    "spellBlockPerLevel": 0.5,
+    "attackRange": 550,
+    "hpRegen": 7,
+    "hpRegenPerLevel": 0.6,
+    "mpRegen": 6,
+    "mpRegenPerLevel": 0.8,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 57,
+    "attackDamagePerLevel": 3.2,
+    "attackSpeedPerLevel": 1.36,
+    "attackSpeed": 0.625
+  },
+  "_level": 1,
+  "attackRange": 550,
+  "moveSpeed": 325,
+  "hp": 575,
+  "mp": 350,
+  "hpRegen": 7,
+  "mpRegen": 6,
+  "crit": 0,
+  "attackDamage": 57,
+  "attackSpeed": 0.625,
+  "armor": 19,
+  "spellBlock": 30
+}

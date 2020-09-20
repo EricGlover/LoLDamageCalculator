@@ -1,0 +1,179 @@
+[
+  {
+    "name": "Hextech Capacitor",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Each time Jayce switches between  Hammer Stance and  Cannon Stance he is  ghosted and gains  40 bonus movement speed for 1.25 seconds.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Hextech Capacitor.png",
+    "icons": [
+      "Hextech Capacitor.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Each time Jayce switches between  Hammer Stance and  Cannon Stance he is  ghosted and gains  40 bonus movement speed for 1.25 seconds."
+    ]
+  },
+  {
+    "name": "To the Skies!",
+    "cost": [
+      40
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      16,
+      14,
+      12,
+      10,
+      8,
+      6
+    ],
+    "description": "Active: Jayce  leaps to the target enemy's location and smashes his hammer on the ground upon arrival, dealing physical damage to all enemies in the area and  slowing them for 2 seconds.",
+    "leveling": "Physical Damage:55 / 95 / 135 / 175 / 215 / 255 (+ 120% bonus AD)Slow:30 / 35 / 40 / 45 / 50 / 55%",
+    "skill": "Q",
+    "damageType": "physical",
+    "isProjectile": "",
+    "flatDamage": [
+      55,
+      95,
+      135,
+      175,
+      215
+    ],
+    "ratios": [
+      {
+        "value": 120,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "To the Skies!.png",
+    "icons": [
+      "To the Skies!.png"
+    ],
+    "levelings": [
+      "Physical Damage:55 / 95 / 135 / 175 / 215 / 255 (+ 120% bonus AD)Slow:30 / 35 / 40 / 45 / 50 / 55%"
+    ],
+    "descriptions": [
+      "Active: Jayce  leaps to the target enemy's location and smashes his hammer on the ground upon arrival, dealing physical damage to all enemies in the area and  slowing them for 2 seconds."
+    ]
+  },
+  {
+    "name": "Lightning Field",
+    "cost": [
+      40
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      10
+    ],
+    "description": "Passive: Jayce restores  mana each time he hits an enemy with a basic attack.",
+    "leveling": "Mana Restored:6 / 8 / 10 / 12 / 14 / 16",
+    "skill": "W",
+    "damageType": "magic",
+    "isProjectile": "",
+    "flatDamage": [
+      6,
+      8,
+      10,
+      12,
+      14
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Lightning Field.png",
+    "icons": [
+      "Lightning Field.png"
+    ],
+    "levelings": [
+      "Mana Restored:6 / 8 / 10 / 12 / 14 / 16",
+      "Magic Damage Per Second:»25 / 40 / 55 / 70 / 85 / 100 (+ 25% AP)«Total Magic Damage: 100 / 160 / 220 / 280 / 340 / 400 (+ 100% AP)"
+    ],
+    "descriptions": [
+      "Passive: Jayce restores  mana each time he hits an enemy with a basic attack.",
+      "Active: Jayce surrounds himself with an electric field for 4 seconds, dealing magic damage each second to all nearby enemies."
+    ]
+  },
+  {
+    "name": "Thundering Blow",
+    "cost": [
+      55
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      20,
+      18,
+      16,
+      14,
+      12,
+      10
+    ],
+    "description": "Active: Jayce swings his hammer at the target enemy, dealing magic damage, capped against  monsters, while also marking a location 500 units away from him in the direction of the target,  pulling them to it.",
+    "leveling": "Magic Damage:»8 / 10.4 / 12.8 / 15.2 / 17.6 / 20% of target's maximum health (+ 100% bonus AD)«Maximum Monster Damage:200 / 300 / 400 / 500 / 600 / 700",
+    "skill": "E",
+    "damageType": "magic",
+    "isProjectile": "",
+    "flatDamage": [
+      8,
+      10.4,
+      12.8,
+      15.2,
+      17.6
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Thundering Blow.png",
+    "icons": [
+      "Thundering Blow.png"
+    ],
+    "levelings": [
+      "Magic Damage:»8 / 10.4 / 12.8 / 15.2 / 17.6 / 20% of target's maximum health (+ 100% bonus AD)«Maximum Monster Damage:200 / 300 / 400 / 500 / 600 / 700"
+    ],
+    "descriptions": [
+      "Active: Jayce swings his hammer at the target enemy, dealing magic damage, capped against  monsters, while also marking a location 500 units away from him in the direction of the target,  pulling them to it."
+    ]
+  },
+  {
+    "name": "Transform Mercury Cannon",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      6
+    ],
+    "description": "Active: Jayce transforms the  Mercury Hammer into the Mercury Cannon, gaining access to its abilities, having  ranged attacks with 500  range, and causing his next basic attack to reduce his target's  armor and  magic resistance by 10 / 15 / 20 / 25% (based on level) for 5 seconds.",
+    "leveling": null,
+    "skill": "R",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Transform Mercury Cannon.png",
+    "icons": [
+      "Transform Mercury Cannon.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Active: Jayce transforms the  Mercury Hammer into the Mercury Cannon, gaining access to its abilities, having  ranged attacks with 500  range, and causing his next basic attack to reduce his target's  armor and  magic resistance by 10 / 15 / 20 / 25% (based on level) for 5 seconds.",
+      "Jayce begins the game with Transform but cannot increase its rank. Instead, his basic abilities each have 6 ranks."
+    ]
+  }
+]

@@ -1,5 +1,187 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Mana Barrier",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Periodically, when Blitzcrank is damaged to  30% of his maximum health, a  shield is automatically generated that is equal to  30% of maximum mana, lasting up to 10 seconds.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Mana Barrier.png",
+      "icons": [
+        "Mana Barrier.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Periodically, when Blitzcrank is damaged to  30% of his maximum health, a  shield is automatically generated that is equal to  30% of maximum mana, lasting up to 10 seconds."
+      ]
+    },
+    {
+      "name": "Rocket Grab",
+      "cost": [
+        100
+      ],
+      "costType": "mana",
+      "coolDown": [
+        20,
+        19,
+        18,
+        17,
+        16
+      ],
+      "description": "Active: Blitzcrank fires the right hand in the target direction that catches the first enemy struck, dealing magic damage while  pulling them to Blitzcrank, then  stunning them for 0.5 seconds.",
+      "leveling": "Magic Damage:70 / 120 / 170 / 220 / 270 (+ 100% AP)",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        70,
+        120,
+        170,
+        220,
+        270
+      ],
+      "ratios": [
+        {
+          "value": 100,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Rocket Grab.png",
+      "icons": [
+        "Rocket Grab.png"
+      ],
+      "levelings": [
+        "Magic Damage:70 / 120 / 170 / 220 / 270 (+ 100% AP)"
+      ],
+      "descriptions": [
+        "Active: Blitzcrank fires the right hand in the target direction that catches the first enemy struck, dealing magic damage while  pulling them to Blitzcrank, then  stunning them for 0.5 seconds.",
+        "Blitzcrank is unable to move or attack while Rocket Grab is in flight."
+      ]
+    },
+    {
+      "name": "Overdrive",
+      "cost": [
+        75
+      ],
+      "costType": "mana",
+      "coolDown": [
+        15
+      ],
+      "description": "Active: Blitzcrank shifts into overdrive, gaining  bonus attack speed for 5 seconds and  bonus movement speed that decays to 10% after 2.5 seconds.",
+      "leveling": "Attack Speed:30 / 38 / 46 / 54 / 62%Movement Speed:70 / 75 / 80 / 85 / 90%",
+      "skill": "W",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        30,
+        38,
+        46,
+        54,
+        62
+      ],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Overdrive.png",
+      "icons": [
+        "Overdrive.png"
+      ],
+      "levelings": [
+        "Attack Speed:30 / 38 / 46 / 54 / 62%Movement Speed:70 / 75 / 80 / 85 / 90%"
+      ],
+      "descriptions": [
+        "Active: Blitzcrank shifts into overdrive, gaining  bonus attack speed for 5 seconds and  bonus movement speed that decays to 10% after 2.5 seconds.",
+        "When Overdrive ends, Blitzcrank is  slowed by 30% for 1.5 seconds."
+      ]
+    },
+    {
+      "name": "Power Fist",
+      "cost": [
+        25
+      ],
+      "costType": "mana",
+      "coolDown": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ],
+      "description": "Active: Blitzcrank's next basic attack within 5 seconds becomes  unstoppable, deals 200% AD modified physical damage and  knocks up the target for 1 second.",
+      "leveling": null,
+      "skill": "E",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Power Fist.png",
+      "icons": [
+        "Power Fist.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Active: Blitzcrank's next basic attack within 5 seconds becomes  unstoppable, deals 200% AD modified physical damage and  knocks up the target for 1 second.",
+        "Power Fist  resets Blitzcrank's basic attack timer."
+      ]
+    },
+    {
+      "name": "Static Field",
+      "cost": [
+        100
+      ],
+      "costType": "mana",
+      "coolDown": [
+        60,
+        50,
+        40,
+        30,
+        20
+      ],
+      "description": "Passive: While Static Field is available, Blitzcrank's basic attacks apply a mark that stacks up to 3 times. After every 1 second, 1 mark is consumed to deal magic damage.",
+      "leveling": "Bolt Magic Damage:50 / 75 / 100 / 125 / 150 (+ 30% AP)",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        50,
+        75,
+        100,
+        125,
+        150
+      ],
+      "ratios": [
+        {
+          "value": 30,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Static Field.png",
+      "icons": [
+        "Static Field.png"
+      ],
+      "levelings": [
+        "Bolt Magic Damage:50 / 75 / 100 / 125 / 150 (+ 30% AP)",
+        "Detonation Magic Damage:250 / 312.5 / 375 / 437.5 / 500 (+ 100% AP)"
+      ],
+      "descriptions": [
+        "Passive: While Static Field is available, Blitzcrank's basic attacks apply a mark that stacks up to 3 times. After every 1 second, 1 mark is consumed to deal magic damage.",
+        "Active: Blitzcrank detonates a static field, destroying damage-mitigating  shields of nearby enemies before dealing magic damage and  silencing them for 0.5 seconds."
+      ]
+    }
+  ],
   "id": "Blitzcrank",
   "key": "53",
   "name": "Blitzcrank",
@@ -12,6 +194,7 @@
     "difficulty": 4
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Blitzcrank.png",
     "full": "Blitzcrank.png",
     "sprite": "champion0.png",
     "group": "champion",

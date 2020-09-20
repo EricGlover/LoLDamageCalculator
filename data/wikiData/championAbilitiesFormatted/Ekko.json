@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Z-Drive Resonance",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate - Resonance: Ekko's basic attacks and damaging abilities apply a Resonance stack for 4 seconds.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Z-Drive Resonance.png",
+    "icons": [
+      "Z-Drive Resonance.png",
+      "Z-Drive Resonance 2.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate - Resonance: Ekko's basic attacks and damaging abilities apply a Resonance stack for 4 seconds.",
+      "At 3 stacks, Resonance is consumed to deal 30 −  140 (based on level) (+ 80% AP) magic damage, increased by 50% against  monsters, dealing 45 −  210 (based on level) (+ 120% AP), but capped at 600.",
+      "Resonance cannot affect the same target more than once every few seconds.",
+      "Innate - Stolen Time: Triggering Resonance against a  champion grants 50 / 60 / 70 / 80% (based on level)  bonus movement speed for 2 / 2.5 / 3 (based on level) seconds."
+    ]
+  },
+  {
+    "name": "Timewinder",
+    "cost": [
+      50,
+      60,
+      70,
+      80,
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      9,
+      8,
+      8,
+      7,
+      7
+    ],
+    "description": "Active: Ekko throws a temporal grenade in the target direction, dealing magic damage to enemies along its path.",
+    "leveling": "Outward Magic Damage:60 / 75 / 90 / 105 / 120 (+ 30% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      60,
+      75,
+      90,
+      105,
+      120
+    ],
+    "ratios": [
+      {
+        "value": 30,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Timewinder.png",
+    "icons": [
+      "Timewinder.png"
+    ],
+    "levelings": [
+      "Outward Magic Damage:60 / 75 / 90 / 105 / 120 (+ 30% AP)",
+      "Slow:32 / 39 / 46 / 53 / 60%",
+      "Returning Magic Damage:»40 / 65 / 90 / 115 / 140 (+ 60% AP)«Total Damage:100 / 140 / 180 / 220 / 260 (+ 90% AP)"
+    ],
+    "descriptions": [
+      "Active: Ekko throws a temporal grenade in the target direction, dealing magic damage to enemies along its path.",
+      "After traveling 700 units or upon hitting an enemy  champion, the grenade slows down for 1.75 seconds, expanding and creating a Temporal Sickness field that  slows nearby enemies, while continuing to travel in its direction for another 190 units and expanding for another 50 units.",
+      "After finishing its path, the grenade contracts and returns to Ekko at a higher speed, dealing magic damage to enemies along its path.",
+      "The traveling and returning pass each cannot affect the same enemy more than once."
+    ]
+  },
+  {
+    "name": "Parallel Convergence",
+    "cost": [
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      22,
+      20,
+      18,
+      16,
+      14
+    ],
+    "description": "Passive: Ekko's basic attacks deal 3% (+ 3% per 100 AP) of the target's missing health bonus magic damage to targets below  30% of their maximum health. The damage has a minimum threshold of 15 and is capped at 150 against  minions and  monsters.",
+    "leveling": "Shield Strength:80 / 100 / 120 / 140 / 160 (+ 150% AP)",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "False",
+    "flatDamage": [
+      80,
+      100,
+      120,
+      140,
+      160
+    ],
+    "ratios": [
+      {
+        "value": 150,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Parallel Convergence.png",
+    "icons": [
+      "Parallel Convergence.png"
+    ],
+    "levelings": [
+      "Shield Strength:80 / 100 / 120 / 140 / 160 (+ 150% AP)"
+    ],
+    "descriptions": [
+      "Passive: Ekko's basic attacks deal 3% (+ 3% per 100 AP) of the target's missing health bonus magic damage to targets below  30% of their maximum health. The damage has a minimum threshold of 15 and is capped at 150 against  minions and  monsters.",
+      "Active: Ekko calls upon an afterimage that bats a device to the target location. After traveling over 3 seconds, the device expands to  slow enemies by 40%, only revealing itself to enemies in the last second.",
+      "If Ekko enters the expansion within the next 1.5 seconds after it lands, it detonates to  shield him for 2 seconds and  stun any enemies within for 2.25 seconds."
+    ]
+  },
+  {
+    "name": "Phase Dive",
+    "cost": [
+      40,
+      45,
+      50,
+      55,
+      60
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      9,
+      8,
+      8,
+      7,
+      7
+    ],
+    "description": "Active: Ekko  dashes in the target direction, then causes his next basic attack within 3 seconds to have  300 bonus range and make him  blink within 125 range of the target after a 0.25 seconds cast time, dealing bonus magic damage.",
+    "leveling": "Bonus Magic Damage:50 / 75 / 100 / 125 / 150 (+ 40% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      50,
+      75,
+      100,
+      125,
+      150
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Phase Dive.png",
+    "icons": [
+      "Phase Dive.png"
+    ],
+    "levelings": [
+      "Bonus Magic Damage:50 / 75 / 100 / 125 / 150 (+ 40% AP)"
+    ],
+    "descriptions": [
+      "Active: Ekko  dashes in the target direction, then causes his next basic attack within 3 seconds to have  300 bonus range and make him  blink within 125 range of the target after a 0.25 seconds cast time, dealing bonus magic damage.",
+      "Phase Dive  resets Ekko's basic attack timer.",
+      "Ekko can cast any of his abilities while  dashing."
+    ]
+  },
+  {
+    "name": "Chronobreak",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      110,
+      95,
+      80,
+      65,
+      50
+    ],
+    "description": "Passive: Upon learning Chronobreak or if its current cooldown is lower than 4 seconds, Ekko spawns a time-delayed afterimage of himself that tracks where he was 4 seconds ago.",
+    "leveling": "Magic Damage:150 / 225 / 300 / 375 / 450 (+ 150% AP)Self-Heal:100 / 125 / 150 / 175 / 200 (+ 60% AP) (increased by 3% per 1% of health lost in the past 4 seconds)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      150,
+      225,
+      300,
+      375,
+      450
+    ],
+    "ratios": [
+      {
+        "value": 150,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.5,
+    "icon": "Chronobreak.png",
+    "icons": [
+      "Chronobreak.png"
+    ],
+    "levelings": [
+      "Magic Damage:150 / 225 / 300 / 375 / 450 (+ 150% AP)Self-Heal:100 / 125 / 150 / 175 / 200 (+ 60% AP) (increased by 3% per 1% of health lost in the past 4 seconds)"
+    ],
+    "descriptions": [
+      "Passive: Upon learning Chronobreak or if its current cooldown is lower than 4 seconds, Ekko spawns a time-delayed afterimage of himself that tracks where he was 4 seconds ago.",
+      "Active: Ekko enters  stasis and becomes immune to  displacements at the start of the cast time, after which he  heals himself and  traces back to his afterimage over 0.5 seconds, dealing magic damage to surrounding enemies on arrival."
+    ]
+  }
+]

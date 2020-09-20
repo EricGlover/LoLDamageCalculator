@@ -1,6 +1,35 @@
 {
   "abilities": [
     {
+      "name": "Unseen Predator",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Rengar generates 1 Ferocity whenever he casts a basic ability. Reaching 4 Ferocity makes his next basic ability empowered, granting an additional cast along with 30 / 40 / 50% (based on level)  bonus movement speed for 1.5 seconds at the cost of all Ferocity. Reaching 4 Ferocity with  Savagery or  Bola Strike locks its empowered version from use for 0.1 seconds before and after casting it. All Ferocity is lost after being out of combat for 8 seconds.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Unseen Predator.png",
+      "icons": [
+        "Unseen Predator.png",
+        "Bonetooth Necklace.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Rengar generates 1 Ferocity whenever he casts a basic ability. Reaching 4 Ferocity makes his next basic ability empowered, granting an additional cast along with 30 / 40 / 50% (based on level)  bonus movement speed for 1.5 seconds at the cost of all Ferocity. Reaching 4 Ferocity with  Savagery or  Bola Strike locks its empowered version from use for 0.1 seconds before and after casting it. All Ferocity is lost after being out of combat for 8 seconds.",
+        "While in  brush, Rengar's basic attacks have massively increased range and cause him to  leap to his target's location, attacking the target upon arrival and landing closer than his normal  melee range. This effect lingers for 0.25 seconds upon exiting brush but is lost immediately if Rengar casts  Flash or  Hexflash to do so. Leaping with 0 Ferocity generates 1 Ferocity.",
+        "Innate - Bonetooth Necklace:  Takedowns within 1.5 seconds of being damaged by Rengar grant him a Trophy per unique enemy champion, up to 5. An  additional one is made available through the event The Hunt is On!. Trophies grant 1% − 36% (based on  trophies) bonus AD as  bonus attack damage."
+      ]
+    },
+    {
       "name": "Savagery",
       "cost": [
         null
@@ -13,7 +42,7 @@
         4,
         4
       ],
-      "description": "Active: Rengar's next two basic attacks within 3 seconds gain <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 40% bonus attack speed, with the first also becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Excessive_Force_2.png/revision/latest/scale-to-width-down/20?cb=20160608034953\" \t alt=\"Excessive Force 2\"  \tclass=\"\" \t \tdata-image-key=\"Excessive_Force_2.png\" \tdata-image-name=\"Excessive Force 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unstoppable, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 25 bonus range and dealing bonus physical damage.",
+      "description": "Active: Rengar's next two basic attacks within 3 seconds gain  40% bonus attack speed, with the first also becoming  unstoppable, gaining  25 bonus range and dealing bonus physical damage.",
       "leveling": "Bonus Physical Damage:30 / 60 / 90 / 120 / 150 (+ 0 / 5 / 10 / 15 / 20% AD)",
       "skill": "Q",
       "damageType": "Physical",
@@ -47,7 +76,21 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Savagery.png",
+      "icons": [
+        "Savagery.png",
+        "Savagery 2.png"
+      ],
+      "levelings": [
+        "Bonus Physical Damage:30 / 60 / 90 / 120 / 150 (+ 0 / 5 / 10 / 15 / 20% AD)",
+        "Empowered Bonus Physical Damage:30 − 240 (based on level) (+ 40% AD)"
+      ],
+      "descriptions": [
+        "Active: Rengar's next two basic attacks within 3 seconds gain  40% bonus attack speed, with the first also becoming  unstoppable, gaining  25 bonus range and dealing bonus physical damage.",
+        "Empowered Active: Savagery's bonus physical damage is modified and grants Rengar 50% − 101% (based on level)  bonus attack speed for 5 seconds.",
+        "Savagery  resets Rengar's basic attack timer."
+      ]
     },
     {
       "name": "Battle Roar",
@@ -62,7 +105,7 @@
         11,
         10
       ],
-      "description": "Active: Rengar lets out a battle roar, dealing magic damage to nearby enemies and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing himself for 50% of the damage he's taken in the last 1.5 seconds. This is increased to 75% of damage taken versus <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+      "description": "Active: Rengar lets out a battle roar, dealing magic damage to nearby enemies and  healing himself for 50% of the damage he's taken in the last 1.5 seconds. This is increased to 75% of damage taken versus  monsters.",
       "leveling": "Magic Damage:50 / 80 / 110 / 140 / 170 (+ 80% AP)",
       "skill": "W",
       "damageType": "Magic",
@@ -80,7 +123,20 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Battle Roar.png",
+      "icons": [
+        "Battle Roar.png",
+        "Battle Roar 2.png"
+      ],
+      "levelings": [
+        "Magic Damage:50 / 80 / 110 / 140 / 170 (+ 80% AP)",
+        "Empowered Magic Damage:50 − 220 (based on level) (+ 80% AP)"
+      ],
+      "descriptions": [
+        "Active: Rengar lets out a battle roar, dealing magic damage to nearby enemies and  healing himself for 50% of the damage he's taken in the last 1.5 seconds. This is increased to 75% of damage taken versus  monsters.",
+        "Empowered Active: Battle Roar's magic damage is modified and additionally  cleanses Rengar of all  crowd control."
+      ]
     },
     {
       "name": "Bola Strike",
@@ -91,7 +147,7 @@
       "coolDown": [
         10
       ],
-      "description": "Active: Rengar throws a bola in the target direction, dealing physical damage to the first enemy hit and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them for 1.75 seconds.",
+      "description": "Active: Rengar throws a bola in the target direction, dealing physical damage to the first enemy hit and  slowing them for 1.75 seconds.",
       "leveling": "Physical Damage:55 / 100 / 145 / 190 / 235 (+ 80% bonus AD)Slow:30 / 45 / 60 / 75 / 90%",
       "skill": "E",
       "damageType": "Physical",
@@ -109,7 +165,20 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Bola Strike.png",
+      "icons": [
+        "Bola Strike.png",
+        "Bola Strike 2.png"
+      ],
+      "levelings": [
+        "Physical Damage:55 / 100 / 145 / 190 / 235 (+ 80% bonus AD)Slow:30 / 45 / 60 / 75 / 90%",
+        "Empowered Physical Damage:50 − 305 (based on level) (+ 80% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Rengar throws a bola in the target direction, dealing physical damage to the first enemy hit and  slowing them for 1.75 seconds.",
+        "Empowered Active: Bola Strike's physical damage is modified and  roots its target for 1.75 seconds."
+      ]
     },
     {
       "name": "Thrill of the Hunt",
@@ -122,7 +191,7 @@
         90,
         70
       ],
-      "description": "Active: Rengar activates his predatory instincts, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20150808161653\" \t alt=\"True Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"True_Sight_icon.png\" \tdata-image-name=\"True Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing the nearest enemy champion and gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed for a duration.",
+      "description": "Active: Rengar activates his predatory instincts,  revealing the nearest enemy champion and gaining  bonus movement speed for a duration.",
       "leveling": "Duration:12 / 16 / 20\nBonus Movement Speed:40 / 50 / 60%",
       "skill": "R",
       "damageType": "Physical",
@@ -135,7 +204,23 @@
         50
       ],
       "ratios": [],
-      "castTime": null
+      "castTime": null,
+      "icon": "Thrill of the Hunt.png",
+      "icons": [
+        "Thrill of the Hunt.png",
+        "Thrill of the Hunt 2.png"
+      ],
+      "levelings": [
+        "Duration:12 / 16 / 20\nBonus Movement Speed:40 / 50 / 60%",
+        "Armor Reduction:12 / 18 / 24"
+      ],
+      "descriptions": [
+        "Active: Rengar activates his predatory instincts,  revealing the nearest enemy champion and gaining  bonus movement speed for a duration.",
+        "After 2 seconds, he also becomes  camouflaged and gains  Unseen Predator for the remaining duration. His next basic attack within normal attack range against any enemy unit or with Unseen Predator against the nearest enemy champion deals 50% AD bonus physical damage and  reduces the target's armor for 4 seconds.",
+        "The nearest enemy champion to Rengar alerts all of their allies within 1200 range about his presence, and they can sense him at 1600 range.",
+        "Attacking or casting abilities, though not  Savagery, ends Thrill of the Hunt immediately.",
+        "Enemy champions spotted by Thrill of the Hunt stay  revealed within Rengar's reveal range while the stealth persists."
+      ]
     }
   ],
   "id": "Rengar",
@@ -150,6 +235,7 @@
     "difficulty": 8
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Rengar.png",
     "full": "Rengar.png",
     "sprite": "champion3.png",
     "group": "champion",

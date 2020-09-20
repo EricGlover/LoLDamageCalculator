@@ -1,5 +1,225 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Fey Feathers",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        40
+      ],
+      "description": "Innate: Rakan periodically generates a 33 − 254 (based on level) (+ 90% AP)  shield that lasts until broken. If the shield is damaged, but not destroyed after being out of combat for 5 seconds, it will regenerate 10% of its maximum value every second.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Fey Feathers.png",
+      "icons": [
+        "Fey Feathers.png",
+        "ProfileIcon1634 Blazing Feathers.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Rakan periodically generates a 33 − 254 (based on level) (+ 90% AP)  shield that lasts until broken. If the shield is damaged, but not destroyed after being out of combat for 5 seconds, it will regenerate 10% of its maximum value every second.",
+        "Basic attacks and abilities reduce Fey Feathers'  cooldown by 1 second for each enemy  champion hit.",
+        "Innate - Lover's Leap: If either Rakan or  Xayah is channeling  Recall, the other may move nearby and channel their own to join them. Both reach base at the time of which the initiator's recall ends."
+      ]
+    },
+    {
+      "name": "Gleaming Quill",
+      "cost": [
+        60
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "description": "Active: Rakan slings an enchanted feather in the target direction, dealing magic damage to the first enemy hit.",
+      "leveling": "Magic Damage:70 / 115 / 160 / 205 / 250 (+ 60% AP)",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        70,
+        115,
+        160,
+        205,
+        250
+      ],
+      "ratios": [
+        {
+          "value": 60,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Gleaming Quill.png",
+      "icons": [
+        "Gleaming Quill.png"
+      ],
+      "levelings": [
+        "Magic Damage:70 / 115 / 160 / 205 / 250 (+ 60% AP)"
+      ],
+      "descriptions": [
+        "Active: Rakan slings an enchanted feather in the target direction, dealing magic damage to the first enemy hit.",
+        "If the target was an enemy  champion or  epic monster, an area is marked around Rakan.",
+        "After 3 seconds or if an ally champion comes within the marked area, Rakan  heals himself and surrounding allies for 18 − 120 (based on level) (+ 70% AP)."
+      ]
+    },
+    {
+      "name": "Grand Entrance",
+      "cost": [
+        50,
+        60,
+        70,
+        80,
+        90
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        18,
+        16,
+        15,
+        13,
+        12
+      ],
+      "description": "Active: Rakan  dashes to the target location.",
+      "leveling": "Magic Damage:70 / 125 / 180 / 235 / 290 (+ 70% AP)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        70,
+        125,
+        180,
+        235,
+        290
+      ],
+      "ratios": [
+        {
+          "value": 70,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Grand Entrance.png",
+      "icons": [
+        "Grand Entrance.png"
+      ],
+      "levelings": [
+        "Magic Damage:70 / 125 / 180 / 235 / 290 (+ 70% AP)"
+      ],
+      "descriptions": [
+        "Active: Rakan  dashes to the target location.",
+        "After a 0.35-second delay upon arrival, he leaps into the air, dealing magic damage and  knocking up surrounding enemies for 1 second.",
+        "Rakan will be  knocked down by any  immobilizing crowd control during Grand Entrance.",
+        "Grand Entrance will cast at max range if cast beyond that."
+      ]
+    },
+    {
+      "name": "Battle Dance",
+      "cost": [
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ],
+      "description": "Active: Rakan  shields the target allied champion for 3 seconds and then  dashes to and around them. Battle Dance can be recast within 5 seconds without a cost at no delay.",
+      "leveling": "Shield Strength:40 / 65 / 90 / 115 / 140 (+ 80% AP)",
+      "skill": "E",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        40,
+        65,
+        90,
+        115,
+        140
+      ],
+      "ratios": [
+        {
+          "value": 80,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Battle Dance.png",
+      "icons": [
+        "Battle Dance.png",
+        "Battle Dance 2.png"
+      ],
+      "levelings": [
+        "Shield Strength:40 / 65 / 90 / 115 / 140 (+ 80% AP)"
+      ],
+      "descriptions": [
+        "Active: Rakan  shields the target allied champion for 3 seconds and then  dashes to and around them. Battle Dance can be recast within 5 seconds without a cost at no delay.",
+        "Recast: Rakan mimics the first cast's effects.",
+        "Rakan will be  knocked down by any  immobilizing crowd control during Battle Dance.",
+        "If  Xayah is the target, Battle Dance can be cast from an increased range."
+      ]
+    },
+    {
+      "name": "The Quickness",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        130,
+        110,
+        90
+      ],
+      "description": "Active: Rakan breaks into a captivating sprint for 4 seconds, gaining  75% bonus movement speed and becoming  ghosted for the duration. During this time he deals magic damage to all enemy units he collides with, in addition to  charming and  slowing them by 75%. Colliding with an enemy  champion increases The Quickness'  duration by 0.25 seconds. This may only occur once per champion.",
+      "leveling": "Magic Damage:100 / 200 / 300 (+ 50% AP)\nCharm Duration:1 / 1.25 / 1.5",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        100,
+        200,
+        300,
+        50,
+        1
+      ],
+      "ratios": [
+        {
+          "value": 50,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "The Quickness.png",
+      "icons": [
+        "The Quickness.png"
+      ],
+      "levelings": [
+        "Magic Damage:100 / 200 / 300 (+ 50% AP)\nCharm Duration:1 / 1.25 / 1.5"
+      ],
+      "descriptions": [
+        "Active: Rakan breaks into a captivating sprint for 4 seconds, gaining  75% bonus movement speed and becoming  ghosted for the duration. During this time he deals magic damage to all enemy units he collides with, in addition to  charming and  slowing them by 75%. Colliding with an enemy  champion increases The Quickness'  duration by 0.25 seconds. This may only occur once per champion.",
+        "When Rakan collides with his first enemy  champion he gains an additional  75% bonus movement speed, which starts decaying after 0.5 seconds by 20% every 0.5 seconds and then by 15% after decaying by 60% over 1.5 seconds.",
+        "During the first 0.5 seconds of The Quickness, Rakan is in cast time.",
+        "During The Quickness, Rakan cannot basic attack enemy champions if he did not charm them, unless the attack command was inputted before the ability was activated."
+      ]
+    }
+  ],
   "id": "Rakan",
   "key": "497",
   "name": "Rakan",
@@ -12,6 +232,7 @@
     "difficulty": 5
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Rakan.png",
     "full": "Rakan.png",
     "sprite": "champion3.png",
     "group": "champion",

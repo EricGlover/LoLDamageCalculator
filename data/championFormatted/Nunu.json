@@ -1,0 +1,283 @@
+{
+  "abilities": [
+    {
+      "name": "Call of the Freljord",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Nunu's and Willump's next instance of damage dealt to an enemy  champion, large  monster or  structure grants both Willump and the nearest allied champion within range Call of the Freljord for 4 seconds, prioritizing the ally with  highest attack speed.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Call of the Freljord.png",
+      "icons": [
+        "Call of the Freljord.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Nunu's and Willump's next instance of damage dealt to an enemy  champion, large  monster or  structure grants both Willump and the nearest allied champion within range Call of the Freljord for 4 seconds, prioritizing the ally with  highest attack speed.",
+        "Call of the Freljord: Gain  20% bonus attack speed and  10% bonus movement speed. Additionally, Willump gains splash damage on his basic attacks, dealing 30% AD physical damage in a cone to enemies behind the target.",
+        "Nunu and Willump cannot trigger Call of the Freljord from the same enemy again for a time. Successive triggers of Call of the Freljord will stack the duration."
+      ]
+    },
+    {
+      "name": "Consume",
+      "cost": [
+        60
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "description": "Active: Willump takes a bite out of the target enemy, dealing magic damage and  healing himself. The heal is increased by 50% when below  50% of maximum health.",
+      "leveling": "Champion Damage:60 / 100 / 140 / 180 / 220 (+ 65% AP) (+ 5% bonus health)\nBase Healing from Champions:»60 / 88 / 116 / 144 / 172 (+ 72% AP) (+ 8% bonus health)«Empowered Healing from Champions:90 / 132 / 174 / 216 / 258 (+ 108% AP) (+ 12% bonus health)",
+      "skill": "Q",
+      "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Hybrid_penetration.png/revision/latest/scale-to-width-down/20?cb=20170514081634\" \t alt=\"Hybrid penetration\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration.png\" \tdata-image-name=\"Hybrid penetration.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> True damage / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic damage",
+      "isProjectile": "",
+      "flatDamage": [
+        60,
+        100,
+        140,
+        180,
+        220
+      ],
+      "ratios": [
+        {
+          "value": 65,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.3,
+      "icon": "Consume.png",
+      "icons": [
+        "Consume.png"
+      ],
+      "levelings": [
+        "Champion Damage:60 / 100 / 140 / 180 / 220 (+ 65% AP) (+ 5% bonus health)\nBase Healing from Champions:»60 / 88 / 116 / 144 / 172 (+ 72% AP) (+ 8% bonus health)«Empowered Healing from Champions:90 / 132 / 174 / 216 / 258 (+ 108% AP) (+ 12% bonus health)",
+        "Non-Champion Damage:340 / 500 / 660 / 820 / 980\nBase Healing from Non-Champions:»75 / 110 / 145 / 180 / 215 (+ 90% AP) (+ 10% bonus health)«Empowered Healing from Non-Champions:112.5 / 165 / 217.5 / 270 / 322.5 (+ 135% AP) (+ 15% bonus health)"
+      ],
+      "descriptions": [
+        "Active: Willump takes a bite out of the target enemy, dealing magic damage and  healing himself. The heal is increased by 50% when below  50% of maximum health.",
+        "Against  minions and  monsters he deals  true damage instead, and restores 25% more health."
+      ]
+    },
+    {
+      "name": "Biggest Snowball Ever!",
+      "cost": [
+        50,
+        55,
+        60,
+        65,
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        14
+      ],
+      "description": "Active: Willump  breaks free of active  slowing effects, becomes  ghosted, gains a slightly larger field of view, and conjures a  snowball that he  begins rolling in the direction of the cursor for up to 10 seconds, increasing in power over 5 seconds, while automatically navigating his movement. Its size radius also increases to 75 − 200 (based on charge time) units. He can steer with a slow turn rate that increases over time; changing direction resets the turn rate.",
+      "leveling": "Minimum Explosion Damage:»36 / 45 / 54 / 63 / 72 (+ 30% AP)«Maximum Explosion Damage:180 / 225 / 270 / 315 / 360 (+ 150% AP)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "False",
+      "flatDamage": [
+        36,
+        45,
+        54,
+        63,
+        72
+      ],
+      "ratios": [
+        {
+          "value": 30,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Biggest Snowball Ever!.png",
+      "icons": [
+        "Biggest Snowball Ever!.png",
+        "Biggest Snowball Ever! 2.png"
+      ],
+      "levelings": [
+        "Minimum Explosion Damage:»36 / 45 / 54 / 63 / 72 (+ 30% AP)«Maximum Explosion Damage:180 / 225 / 270 / 315 / 360 (+ 150% AP)",
+        "Minimum Rollover Damage:»11.988 / 14.985 / 17.982 / 20.979 / 23.976 (+ 9.99% AP)«Maximum Rollover Damage:59.94 / 74.925 / 89.91 / 104.895 / 119.88 (+ 49.95% AP)"
+      ],
+      "descriptions": [
+        "Active: Willump  breaks free of active  slowing effects, becomes  ghosted, gains a slightly larger field of view, and conjures a  snowball that he  begins rolling in the direction of the cursor for up to 10 seconds, increasing in power over 5 seconds, while automatically navigating his movement. Its size radius also increases to 75 − 200 (based on charge time) units. He can steer with a slow turn rate that increases over time; changing direction resets the turn rate.",
+        "The duo is  slowed by 50% for the first 1 second, but is  slow-immune* and keeps all increases in movement speed at time of cast for the duration of the charge. After a delay, the duo gains  14 movement speed every 0.25 seconds, up to the greater value between 「 Total MS + 85 − 255 (based on level) 」「 Total Uncapped Flat MS + 85 − 255 (based on level) 」 (click to toggle). The bonus movement speed from Biggest Snowball Ever! ignores the movement speed cap.",
+        "The snowball explodes upon colliding with an enemy  champion,  large pet, medium-large  monster or terrain, dealing magic damage to surrounding enemies, increased by 0% − 400% (based on charge time),  knocking them up for 0.5 − 0.75 (based on charge time) seconds and subsequently  stunning them for 0 − 0.5 (based on charge time) seconds.",
+        "The snowball rolls over enemy  minions and small monsters in its path dealing 33.3% of the damage as magic damage.",
+        "After 10 seconds, or if the duo is  interrupted, they will let loose the snowball, sending it rolling forward for an additional 750 − 1750 (based on charge time) units during which it will not grow any larger and will explode upon colliding with any enemy unit. Biggest Snowball Ever! can be recast after 0.5 seconds."
+      ]
+    },
+    {
+      "name": "Snowball Barrage",
+      "cost": [
+        50,
+        55,
+        60,
+        65,
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        14
+      ],
+      "description": "Active: Nunu swiftly throws a volley of 3 snowballs in the target direction over 0.4 seconds, each snowball shattering upon hitting an enemy, dealing magic damage to enemies in a cone.",
+      "leveling": "Damage Per Snowball:»16 / 24 / 32 / 40 / 48 (+ 6% AP)«Damage Per Volley:»48 / 72 / 96 / 120 / 144 (+ 18% AP)«Total Magic Damage:144 / 216 / 288 / 360 / 432 (+ 54% AP)",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "true",
+      "flatDamage": [
+        16,
+        24,
+        32,
+        40,
+        48
+      ],
+      "ratios": [
+        {
+          "value": 6,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Snowball Barrage.png",
+      "icons": [
+        "Snowball Barrage.png"
+      ],
+      "levelings": [
+        "Damage Per Snowball:»16 / 24 / 32 / 40 / 48 (+ 6% AP)«Damage Per Volley:»48 / 72 / 96 / 120 / 144 (+ 18% AP)«Total Magic Damage:144 / 216 / 288 / 360 / 432 (+ 54% AP)",
+        "Slow:30 / 35 / 40 / 45 / 50%",
+        "Magic Damage:20 / 30 / 40 / 50 / 60 (+ 80% AP)"
+      ],
+      "descriptions": [
+        "Active: Nunu swiftly throws a volley of 3 snowballs in the target direction over 0.4 seconds, each snowball shattering upon hitting an enemy, dealing magic damage to enemies in a cone.",
+        "Enemies hit 3 times are  slowed for 1 second. Champions and large monsters hit once are also Snowbound for 4 seconds, refreshing on each hit. Snowball Barrage can be recast twice within 3 seconds at no additional cost.",
+        "Recast: Nunu hurls another volley of snowballs, mimicking the first cast's effects. An enemy may only be  slowed once for being hit by 3 snowballs.",
+        "After 3 seconds of the first cast, Snowbound enemies around Willump take magic damage and are  rooted for 0.5 − 1.5 (based on level) seconds."
+      ]
+    },
+    {
+      "name": "Absolute Zero",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        110,
+        105,
+        100,
+        95,
+        90
+      ],
+      "description": "Active: Nunu and Willump start  channeling, sapping heat from the surrounding area for 3 seconds,  slowing enemies within by 0% − 95% (based on channel time), as well as gaining a  shield. The affected area is hidden if the duo is not  visible to the enemy team. Absolute Zero can be recast after 0.5 seconds.",
+      "leveling": "Shield:65 / 70 / 75 / 80 / 85 (+ 150% AP) (+ 30 / 35 / 40 / 45 / 50% bonus health)",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        65,
+        70,
+        75,
+        80,
+        85
+      ],
+      "ratios": [
+        {
+          "value": 150,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Absolute Zero.png",
+      "icons": [
+        "Absolute Zero.png",
+        "Absolute Zero 2.png"
+      ],
+      "levelings": [
+        "Shield:65 / 70 / 75 / 80 / 85 (+ 150% AP) (+ 30 / 35 / 40 / 45 / 50% bonus health)",
+        "Magic Damage:625 / 787.5 / 950 / 1112.5 / 1275 (+ 250% AP)"
+      ],
+      "descriptions": [
+        "Active: Nunu and Willump start  channeling, sapping heat from the surrounding area for 3 seconds,  slowing enemies within by 0% − 95% (based on channel time), as well as gaining a  shield. The affected area is hidden if the duo is not  visible to the enemy team. Absolute Zero can be recast after 0.5 seconds.",
+        "At the end of the duration, or if the channel is  interrupted, surrounding enemies take 0% −  100% (based on channel time) of its damage as magic damage. Once the channel ends, affected enemies will remain  slowed for 0 − 3 (based on channel time) seconds and any remaining shield will decay over 3 seconds.",
+        "Recast: Nunu and Willump end the  channel early."
+      ]
+    }
+  ],
+  "id": "Nunu",
+  "key": "20",
+  "name": "Nunu & Willump",
+  "title": "the Boy and His Yeti",
+  "blurb": "Once upon a time, there was a boy who wanted to prove he was a hero by slaying a fearsome monster—only to discover that the beast, a lonely and magical yeti, merely needed a friend. Bound together by ancient power and a shared love of snowballs, Nunu...",
+  "info": {
+    "attack": 4,
+    "defense": 6,
+    "magic": 7,
+    "difficulty": 4
+  },
+  "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Nunu.png",
+    "full": "Nunu.png",
+    "sprite": "champion2.png",
+    "group": "champion",
+    "x": 144,
+    "y": 96,
+    "w": 48,
+    "h": 48
+  },
+  "tags": [
+    "Tank",
+    "Fighter"
+  ],
+  "partype": "Mana",
+  "inventoryItemLimit": 6,
+  "_items": [],
+  "baseStats": {
+    "hp": 570,
+    "hpPerLevel": 82,
+    "mp": 280,
+    "mpPerLevel": 42,
+    "moveSpeed": 345,
+    "armor": 32,
+    "armorPerLevel": 3,
+    "spellBlock": 32.1,
+    "spellBlockPerLevel": 1.25,
+    "attackRange": 125,
+    "hpRegen": 5,
+    "hpRegenPerLevel": 0.8,
+    "mpRegen": 7,
+    "mpRegenPerLevel": 0.5,
+    "crit": 0,
+    "critPerLevel": 0,
+    "attackDamage": 61,
+    "attackDamagePerLevel": 3,
+    "attackSpeedPerLevel": 2.25,
+    "attackSpeed": 0.625
+  },
+  "_level": 1,
+  "attackRange": 125,
+  "moveSpeed": 345,
+  "hp": 570,
+  "mp": 280,
+  "hpRegen": 5,
+  "mpRegen": 7,
+  "crit": 0,
+  "attackDamage": 61,
+  "attackSpeed": 0.625,
+  "armor": 32,
+  "spellBlock": 32.1
+}

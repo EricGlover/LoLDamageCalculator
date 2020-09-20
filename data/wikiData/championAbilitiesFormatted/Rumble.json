@@ -1,0 +1,208 @@
+[
+  {
+    "name": "Junkyard Titan",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Rumble gains  Heat each time he uses a basic ability and loses 10  Heat per second after not using any abilities for 4 seconds. Rumble gains Danger Zone when at or above 50  Heat, and Overheated when at 100  Heat.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Junkyard Titan.png",
+    "icons": [
+      "Junkyard Titan.png",
+      "Junkyard Titan 2.png",
+      "Junkyard Titan 3.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Rumble gains  Heat each time he uses a basic ability and loses 10  Heat per second after not using any abilities for 4 seconds. Rumble gains Danger Zone when at or above 50  Heat, and Overheated when at 100  Heat.",
+      "Danger Zone: Rumble's basic abilities are enhanced.",
+      "Overheating: Rumble's abilities are disabled for 6 seconds. During this time, his basic attacks deal 25 − 110 (based on level) (+ 30% AP) bonus magic damage to non- structures while his  Heat decays back to 0 over the duration."
+    ]
+  },
+  {
+    "name": "Flamespitter",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      10,
+      9,
+      8,
+      7,
+      6
+    ],
+    "description": "Active: Rumble activates his flamethrower for 3 seconds, gaining 20  Heat and dealing magic damage every 0.25 seconds to all enemies in a cone in front of him, reduced against  minions.",
+    "leveling": "Total Magic Damage:»180 / 220 / 260 / 300 / 340 (+ 110% AP)«Damage Per 0.25 Seconds:15 / 18.333 / 21.667 / 25 / 28.333 (+ 9.17% AP)\nMinion Damage Percentage:»60 / 65 / 70 / 75 / 80%«Total Minion Damage:»108 / 143 / 182 / 225 / 272 (+ 66 / 71.5 / 77 / 82.5 / 88% AP)«Minion Damage per 0.25 Seconds:1296 / 1716 / 2184 / 2700 / 3264 (+ 792 / 858 / 924 / 990 / 1056% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "False",
+    "flatDamage": [
+      180,
+      220,
+      260,
+      300,
+      340
+    ],
+    "ratios": [
+      {
+        "value": 110,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Flamespitter.png",
+    "icons": [
+      "Flamespitter.png"
+    ],
+    "levelings": [
+      "Total Magic Damage:»180 / 220 / 260 / 300 / 340 (+ 110% AP)«Damage Per 0.25 Seconds:15 / 18.333 / 21.667 / 25 / 28.333 (+ 9.17% AP)\nMinion Damage Percentage:»60 / 65 / 70 / 75 / 80%«Total Minion Damage:»108 / 143 / 182 / 225 / 272 (+ 66 / 71.5 / 77 / 82.5 / 88% AP)«Minion Damage per 0.25 Seconds:1296 / 1716 / 2184 / 2700 / 3264 (+ 792 / 858 / 924 / 990 / 1056% AP)",
+      "Total Enhanced Damage:»270 / 330 / 390 / 450 / 510 (+ 165% AP)«Enhanced Damage Per 0.25 Seconds:22.5 / 27.5 / 32.5 / 37.5 / 42.5 (+ 13.75% AP)\nTotal Enhanced Minion Damage:»162 / 214.5 / 273 / 337.5 / 408 (+ 99 / 107.25 / 115.5 / 123.75 / 132% AP)«Minion Damage per 0.25 Seconds:864 / 1144 / 1456 / 1800 / 2176 (+ 528 / 572 / 616 / 660 / 704% AP)"
+    ],
+    "descriptions": [
+      "Active: Rumble activates his flamethrower for 3 seconds, gaining 20  Heat and dealing magic damage every 0.25 seconds to all enemies in a cone in front of him, reduced against  minions.",
+      " Danger Zone: Flamespitter's damage is increased by 50%."
+    ]
+  },
+  {
+    "name": "Scrap Shield",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      6
+    ],
+    "description": "Active: Rumble  shields himself for 1.5 seconds, gaining 20  Heat.",
+    "leveling": "Shield Strength:60 / 95 / 130 / 165 / 200 (+ 50% AP)",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      60,
+      95,
+      130,
+      165,
+      200
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Scrap Shield.png",
+    "icons": [
+      "Scrap Shield.png",
+      "Scrap Shield 2.png"
+    ],
+    "levelings": [
+      "Shield Strength:60 / 95 / 130 / 165 / 200 (+ 50% AP)",
+      "Bonus Movement Speed:15 / 20 / 25 / 30 / 35%",
+      "Enhanced Shield Strength:90 / 142.5 / 195 / 247.5 / 300 (+ 75% AP)\nEnhanced Bonus Movement Speed:22.5 / 30 / 37.5 / 45 / 52.5%"
+    ],
+    "descriptions": [
+      "Active: Rumble  shields himself for 1.5 seconds, gaining 20  Heat.",
+      "Rumble also gains  bonus movement speed for the duration.",
+      " Danger Zone: Scrap Shield's effects are increased by 50%."
+    ]
+  },
+  {
+    "name": "Electro Harpoon",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      0
+    ],
+    "description": "Passive: Rumble periodically stocks an Electro Harpoon charge, up to a maximum of 2.",
+    "leveling": "Magic Damage:»60 / 85 / 110 / 135 / 160 (+ 40% AP)«Total Magic Damage:120 / 170 / 220 / 270 / 320 (+ 80% AP)Slow:»15 / 20 / 25 / 30 / 35%«Total Slow:30 / 40 / 50 / 60 / 70%",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      60,
+      85,
+      110,
+      135,
+      160
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Electro Harpoon.png",
+    "icons": [
+      "Electro Harpoon.png",
+      "Electro Harpoon 2.png"
+    ],
+    "levelings": [
+      "Magic Damage:»60 / 85 / 110 / 135 / 160 (+ 40% AP)«Total Magic Damage:120 / 170 / 220 / 270 / 320 (+ 80% AP)Slow:»15 / 20 / 25 / 30 / 35%«Total Slow:30 / 40 / 50 / 60 / 70%",
+      "Enhanced Magic Damage:»90 / 127.5 / 165 / 202.5 / 240 (+ 60% AP)«Total Enhanced Magic Damage:180 / 255 / 330 / 405 / 480 (+ 120% AP)Enhanced Slow:»22.5 / 30 / 37.5 / 45 / 52.5%«Total Enhanced Slow:45 / 60 / 75 / 90 / 105%"
+    ],
+    "descriptions": [
+      "Passive: Rumble periodically stocks an Electro Harpoon charge, up to a maximum of 2.",
+      "Active: Rumble shoots a harpoon in the target direction, gaining 10  Heat and dealing magic damage to the first enemy hit and  slowing them for 2 seconds. Hitting the same target with another harpoon enhances the  slow, stacking additively.",
+      " Danger Zone: Electro Harpoon's effects are increased by 50%."
+    ]
+  },
+  {
+    "name": "The Equalizer",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      100,
+      92,
+      85,
+      77,
+      70
+    ],
+    "description": "Active: Rumble deploys a barrage of rockets along the target path, landing in a line over 1 second and lasting for 5 seconds.",
+    "leveling": "Magic Damage Per Half-Second:»70 / 87.5 / 105 / 122.5 / 140 (+ 17.5% AP)«Maximum Magic Damage:840 / 1050 / 1260 / 1470 / 1680 (+ 210% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      70,
+      87.5,
+      105,
+      122.5,
+      140
+    ],
+    "ratios": [
+      {
+        "value": 17.5,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.5833,
+    "icon": "The Equalizer.png",
+    "icons": [
+      "The Equalizer.png"
+    ],
+    "levelings": [
+      "Magic Damage Per Half-Second:»70 / 87.5 / 105 / 122.5 / 140 (+ 17.5% AP)«Maximum Magic Damage:840 / 1050 / 1260 / 1470 / 1680 (+ 210% AP)"
+    ],
+    "descriptions": [
+      "Active: Rumble deploys a barrage of rockets along the target path, landing in a line over 1 second and lasting for 5 seconds.",
+      "Enemies within the line of rockets take magic damage every 0.5 seconds and are  slowed by 35%. The damage lingers for 1 second after leaving the area or it expires."
+    ]
+  }
+]

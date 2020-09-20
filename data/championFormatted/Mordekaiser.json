@@ -1,5 +1,186 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Darkness Rise",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Mordekaiser's basic attacks deal 40% AP  bonus magic damage on-hit.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Darkness Rise.png",
+      "icons": [
+        "Darkness Rise.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Mordekaiser's basic attacks deal 40% AP  bonus magic damage on-hit.",
+        "Damaging basic abilities or basic attacks on-attack grant 1 stack per enemy champion or large monster hit, up to a maximum of 3. At 3 stacks, Mordekaiser gains Darkness Rise for 4 seconds. Further basic attacks and abilities against enemy champions and large monsters refresh the duration.",
+        "Darkness Rise: Mordekaiser deals 「 5 − 15.2 (based on level) (+ 30% AP) (+ 1% − 5% (based on level) of target's maximum health) magic damage per second 」「 0.63 − 1.9 (based on level) (+ 3.75% AP) (+ 0.13% − 0.63% (based on level) of target's maximum health) magic damage every 0.125 seconds 」 to all nearby enemies and gains 3% bonus movement speed. The damage against  monsters is capped at 28 − 164 (based on level)."
+      ]
+    },
+    {
+      "name": "Obliterate",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        9,
+        7,
+        6,
+        5,
+        4
+      ],
+      "description": "Active: Mordekaiser smashes the area in the target direction, dealing magic damage to all enemies hit,  increased if it hits only one enemy.",
+      "leveling": "Magic Damage:5 −  139 (based on level) (+ 75 / 95 / 115 / 135 / 155) (+ 60% AP)\nDamage Increase:»20 / 25 / 30 / 35 / 40%«Maximum Bonus Damage:90 / 118.75 / 149.5 / 182.25 / 217 (+ 72 / 75 / 78 / 81 / 84% AP)",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "False",
+      "flatDamage": [
+        5,
+        139,
+        75,
+        95,
+        115
+      ],
+      "ratios": [],
+      "castTime": 0.5,
+      "icon": "Obliterate.png",
+      "icons": [
+        "Obliterate.png"
+      ],
+      "levelings": [
+        "Magic Damage:5 −  139 (based on level) (+ 75 / 95 / 115 / 135 / 155) (+ 60% AP)\nDamage Increase:»20 / 25 / 30 / 35 / 40%«Maximum Bonus Damage:90 / 118.75 / 149.5 / 182.25 / 217 (+ 72 / 75 / 78 / 81 / 84% AP)"
+      ],
+      "descriptions": [
+        "Active: Mordekaiser smashes the area in the target direction, dealing magic damage to all enemies hit,  increased if it hits only one enemy."
+      ]
+    },
+    {
+      "name": "Indestructible",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "description": "Passive: Mordekaiser stores 35% of the post-mitigation damage he deals and 15% of the pre-mitigation damage he takes,「 reduced by 75% for non-champion sources 」「 reduced to 8.75% of damage dealt and 3.75% of damage taken for non-champion sources 」, as Potential Shield on his secondary resource bar, up to  30% of his maximum health. The Potential Shield decays by 8 − 25 (based on level) every second after not dealing or taking damage for 1 second, down to a minimum of 5% of his maximum health.",
+      "leveling": "Healing:40 / 42.5 / 45 / 47.5 / 50%",
+      "skill": "W",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        40,
+        42.5,
+        45,
+        47.5,
+        50
+      ],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Indestructible.png",
+      "icons": [
+        "Indestructible.png",
+        "Indestructible 2.png"
+      ],
+      "levelings": [
+        "Healing:40 / 42.5 / 45 / 47.5 / 50%"
+      ],
+      "descriptions": [
+        "Passive: Mordekaiser stores 35% of the post-mitigation damage he deals and 15% of the pre-mitigation damage he takes,「 reduced by 75% for non-champion sources 」「 reduced to 8.75% of damage dealt and 3.75% of damage taken for non-champion sources 」, as Potential Shield on his secondary resource bar, up to  30% of his maximum health. The Potential Shield decays by 8 − 25 (based on level) every second after not dealing or taking damage for 1 second, down to a minimum of 5% of his maximum health.",
+        "Active: Mordekaiser consumes all his current Potential Shield to  shield himself for 4 seconds for the same amount. At start the shield decays very slowly but exponentially increases near the end. Indestructible can be recast after 0.5 seconds.",
+        "Recast: Mordekaiser consumes the remaining shield,  healing for a percentage of the amount."
+      ]
+    },
+    {
+      "name": "Death's Grasp",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        24,
+        21,
+        18,
+        15,
+        12
+      ],
+      "description": "Passive: Mordekaiser gains  magic penetration.",
+      "leveling": "Magic Penetration:5 / 7.5 / 10 / 12.5 / 15%",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "false",
+      "flatDamage": [
+        5,
+        7.5,
+        10,
+        12.5,
+        15
+      ],
+      "ratios": [],
+      "castTime": 0.25,
+      "icon": "Death's Grasp.png",
+      "icons": [
+        "Death's Grasp.png"
+      ],
+      "levelings": [
+        "Magic Penetration:5 / 7.5 / 10 / 12.5 / 15%",
+        "Magic Damage:80 / 95 / 110 / 125 / 140 (+ 60% AP)"
+      ],
+      "descriptions": [
+        "Passive: Mordekaiser gains  magic penetration.",
+        "Active: Mordekaiser grants  sight of the targeted area briefly and, after 0.5 seconds,  pulls all enemies within for 250 units, dealing them magic damage."
+      ]
+    },
+    {
+      "name": "Realm of Death",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        140,
+        130,
+        120,
+        110,
+        100
+      ],
+      "description": "Active: Mordekaiser  slows the target enemy  champion by 75% during the cast time. If the target is still in range and targetable by the end of the cast time they're  banished together with Mordekaiser to the Death Realm for 7 seconds.",
+      "leveling": null,
+      "skill": "R",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": 0.5,
+      "icon": "Realm of Death.png",
+      "icons": [
+        "Realm of Death.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Active: Mordekaiser  slows the target enemy  champion by 75% during the cast time. If the target is still in range and targetable by the end of the cast time they're  banished together with Mordekaiser to the Death Realm for 7 seconds.",
+        "Units between realms see each other as spirits, considering each other dead and negating any interactions between the two. Only the target and Mordekaiser will enter the realm; other champions cannot follow them. Everything that occurs inside the Death Realm is hidden, and all non-champion pets still inside are killed at the end.",
+        "For the same duration, Mordekaiser also reduces the target's current  attack damage,  ability power,  total attack speed,  maximum health,  armor,  magic resist, and size by 10%, in addition to gaining them for himself. If the target dies while inside, Mordekaiser keeps their partial stats until they respawn.",
+        "If one of the two affected champions leave the Death Realm, because of having died or having it dispelled, the other will do so as well, but the stats will remain stolen for the full duration."
+      ]
+    }
+  ],
   "id": "Mordekaiser",
   "key": "82",
   "name": "Mordekaiser",
@@ -12,6 +193,7 @@
     "difficulty": 4
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Mordekaiser.png",
     "full": "Mordekaiser.png",
     "sprite": "champion2.png",
     "group": "champion",

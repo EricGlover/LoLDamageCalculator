@@ -1,5 +1,225 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Second Skin",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Kai'Sa's basic attacks deal 4 − 10 (based on level) (+ 1 − 5 (based on level) per Plasma stack) (+ 10% − 20% (based on Plasma stacks) AP) bonus magic damage.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Second Skin.png",
+      "icons": [
+        "Second Skin.png",
+        "Kai'Sa Plasma.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Kai'Sa's basic attacks deal 4 − 10 (based on level) (+ 1 − 5 (based on level) per Plasma stack) (+ 10% − 20% (based on Plasma stacks) AP) bonus magic damage.",
+        "Innate - Caustic Wounds: Kai'Sa's basic attacks,  Void Seeker, and nearby allies'  immobilizing effects mark enemies with Plasma for 4 seconds, stacking up to 4 times. Kai'Sa's attacks or  Void Seeker can then rupture enemies with 4 Plasma, consuming them to deal 15% (+ 2.5% per 100 AP) of the target's  missing health magic damage, capped at 400 against  monsters.",
+        "Innate - Living Weapon: Upon gaining a set amount of permanent stats from items and stat growth, Kai'Sa can evolve the related basic ability after being in cast time for 2 seconds. The upgrade is lost if the stat requirement is no longer met."
+      ]
+    },
+    {
+      "name": "Icathian Rain",
+      "cost": [
+        55
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        8,
+        7,
+        7,
+        6,
+        6
+      ],
+      "description": "Active: Kai'Sa releases a swarm of 6 missiles over 1 second that evenly distributes among nearby  visible enemies, each one hitting their target after 0.25 seconds and dealing physical damage.  Minions below  35% health take double damage.",
+      "leveling": "Physical Damage:45 / 61.25 / 77.5 / 93.75 / 110 (+ 40% bonus AD) (+ 25% AP)",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "True",
+      "flatDamage": [
+        45,
+        61.25,
+        77.5,
+        93.75,
+        110
+      ],
+      "ratios": [
+        {
+          "value": 40,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Icathian Rain.png",
+      "icons": [
+        "Icathian Rain.png",
+        "Icathian Rain 2.png"
+      ],
+      "levelings": [
+        "Physical Damage:45 / 61.25 / 77.5 / 93.75 / 110 (+ 40% bonus AD) (+ 25% AP)",
+        "Reduced Damage:»11.25 / 15.3125 / 19.375 / 23.4375 / 27.5 (+ 10% bonus AD) (+ 6.25% AP)«Maximum Single-Target Damage:101.25 / 137.8125 / 174.375 / 210.9375 / 247.5 (+ 90% bonus AD) (+ 56.25% AP)",
+        "Maximum Evolved Single-Target Damage:168.75 / 229.6875 / 290.625 / 351.5625 / 412.5 (+ 150% bonus AD) (+ 93.75% AP)"
+      ],
+      "descriptions": [
+        "Active: Kai'Sa releases a swarm of 6 missiles over 1 second that evenly distributes among nearby  visible enemies, each one hitting their target after 0.25 seconds and dealing physical damage.  Minions below  35% health take double damage.",
+        "Non-minions take 25% damage from missiles beyond their first.",
+        " Living Weapon: Requires  100 − 66 (based on level) attack damage from items to upgrade – Icathian Rain fires 12 missiles. Duration and travel time unchanged."
+      ]
+    },
+    {
+      "name": "Void Seeker",
+      "cost": [
+        55,
+        60,
+        65,
+        70,
+        75
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        22,
+        20,
+        18,
+        16,
+        14
+      ],
+      "description": "Active: Kai'Sa fires a void blast in the target direction, stopping at the first enemy hit, dealing magic damage,  revealing them for 4 seconds and applying 2 Plasma.",
+      "leveling": "Magic Damage:30 / 55 / 80 / 105 / 130 (+ 130% AD) (+ 70% AP)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        30,
+        55,
+        80,
+        105,
+        130
+      ],
+      "ratios": [
+        {
+          "value": 130,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.4,
+      "icon": "Void Seeker.png",
+      "icons": [
+        "Void Seeker.png",
+        "Void Seeker 2.png"
+      ],
+      "levelings": [
+        "Magic Damage:30 / 55 / 80 / 105 / 130 (+ 130% AD) (+ 70% AP)"
+      ],
+      "descriptions": [
+        "Active: Kai'Sa fires a void blast in the target direction, stopping at the first enemy hit, dealing magic damage,  revealing them for 4 seconds and applying 2 Plasma.",
+        " Living Weapon: Requires  100 ability power from items to upgrade – Void Seeker applies 3 Plasma and refunds 70% of the  cooldown if it hits an enemy  champion."
+      ]
+    },
+    {
+      "name": "Supercharge",
+      "cost": [
+        30
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "description": "Active: Kai'Sa charges for the duration of the cast time, during which she's still allowed to move, is  ghosted and gains  bonus movement speed, increased by 0% − 100% (based on bonus attack speed).",
+      "leveling": "Minimum Movement Speed:»55 / 60 / 65 / 70 / 75%«Maximum Movement Speed:110 / 120 / 130 / 140 / 150%",
+      "skill": "E",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        55,
+        60,
+        65,
+        70,
+        75
+      ],
+      "ratios": [],
+      "castTime": 1.2,
+      "icon": "Supercharge.png",
+      "icons": [
+        "Supercharge.png",
+        "Supercharge 2.png"
+      ],
+      "levelings": [
+        "Minimum Movement Speed:»55 / 60 / 65 / 70 / 75%«Maximum Movement Speed:110 / 120 / 130 / 140 / 150%",
+        "Bonus Attack Speed:40 / 50 / 60 / 70 / 80%"
+      ],
+      "descriptions": [
+        "Active: Kai'Sa charges for the duration of the cast time, during which she's still allowed to move, is  ghosted and gains  bonus movement speed, increased by 0% − 100% (based on bonus attack speed).",
+        "After charging up, Kai'Sa gains  bonus attack speed and her basic attack windup percentage is reduced to 6.44% for 4 seconds.",
+        "Supercharge's  cooldown is reduced by 0.5 seconds on-attack.",
+        " Living Weapon: Requires  100% − 70% (based on level) attack speed from items to upgrade – Supercharge grants  invisibility for 0.5 seconds."
+      ]
+    },
+    {
+      "name": "Killer Instinct",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        110,
+        90,
+        70
+      ],
+      "description": "Active: Kai'Sa instantly  shields herself for 2 seconds and swiftly  dashes to a target location near a  visible enemy champion recently affected by Plasma. The shield's duration refreshes once the dash ends.",
+      "leveling": "Shield Strength:75 / 100 / 125 (+ 100 / 150 / 200% AD) (+ 75% AP)",
+      "skill": "R",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        75,
+        100,
+        125,
+        100,
+        150
+      ],
+      "ratios": [
+        {
+          "value": 100,
+          "type": "bonus ad"
+        },
+        {
+          "value": 150,
+          "type": "bonus ad"
+        },
+        {
+          "value": 200,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Killer Instinct.png",
+      "icons": [
+        "Killer Instinct.png"
+      ],
+      "levelings": [
+        "Shield Strength:75 / 100 / 125 (+ 100 / 150 / 200% AD) (+ 75% AP)"
+      ],
+      "descriptions": [
+        "Active: Kai'Sa instantly  shields herself for 2 seconds and swiftly  dashes to a target location near a  visible enemy champion recently affected by Plasma. The shield's duration refreshes once the dash ends.",
+        "Killer Instinct  resets Kai'Sa's basic attack timer."
+      ]
+    }
+  ],
   "id": "Kaisa",
   "key": "145",
   "name": "Kai'Sa",
@@ -12,6 +232,7 @@
     "difficulty": 6
   },
   "image": {
+    "smallSquareSprite": "http://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/Kaisa.png",
     "full": "Kaisa.png",
     "sprite": "champion1.png",
     "group": "champion",

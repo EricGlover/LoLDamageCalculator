@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Illumination",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Lux's damaging abilities mark enemies with light energy for 6 seconds.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Illumination.png",
+    "icons": [
+      "Illumination.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Lux's damaging abilities mark enemies with light energy for 6 seconds.",
+      "Lux's basic attacks and  Final Spark consume the mark to deal 20 − 190 (based on level) (+ 20% AP) bonus magic damage."
+    ]
+  },
+  {
+    "name": "Light Binding",
+    "cost": [
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      11,
+      10,
+      10,
+      9,
+      9
+    ],
+    "description": "Active: Lux releases a sphere of light in the target direction that deals magic damage to the first two enemies hit and  roots them for 2 seconds.",
+    "leveling": "Magic Damage:80 / 125 / 170 / 215 / 260 (+ 60% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      80,
+      125,
+      170,
+      215,
+      260
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Light Binding.png",
+    "icons": [
+      "Light Binding.png"
+    ],
+    "levelings": [
+      "Magic Damage:80 / 125 / 170 / 215 / 260 (+ 60% AP)"
+    ],
+    "descriptions": [
+      "Active: Lux releases a sphere of light in the target direction that deals magic damage to the first two enemies hit and  roots them for 2 seconds."
+    ]
+  },
+  {
+    "name": "Prismatic Barrier",
+    "cost": [
+      60,
+      65,
+      70,
+      75,
+      80
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      14,
+      13,
+      12,
+      11,
+      10
+    ],
+    "description": "Active: Lux launches her wand in the target direction which returns to her after reaching maximum range.",
+    "leveling": "Shield Strength:45 / 65 / 85 / 105 / 125 (+ 35% AP)",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "special",
+    "flatDamage": [
+      45,
+      65,
+      85,
+      105,
+      125
+    ],
+    "ratios": [
+      {
+        "value": 35,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Prismatic Barrier.png",
+    "icons": [
+      "Prismatic Barrier.png"
+    ],
+    "levelings": [
+      "Shield Strength:45 / 65 / 85 / 105 / 125 (+ 35% AP)",
+      "Maximum Shield:90 / 130 / 170 / 210 / 250 (+ 70% AP)"
+    ],
+    "descriptions": [
+      "Active: Lux launches her wand in the target direction which returns to her after reaching maximum range.",
+      "Lux and allied  champions touched by the outgoing wand are  shielded for 2.5 seconds.",
+      "Allied champions near the return location and those touched by the returning wand are shielded for the same amount and for the same duration, stacking with the previous shield and resetting its remaining duration.",
+      "The shields can only stack up to 2 times. Additional shields will neither reset the duration nor strengthen it."
+    ]
+  },
+  {
+    "name": "Lucent Singularity",
+    "cost": [
+      70,
+      80,
+      90,
+      100,
+      110
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      10,
+      9,
+      9,
+      8,
+      8
+    ],
+    "description": "Active: Lux sends an anomaly of twisted light to the target area for up to 5 seconds,  slowing enemies inside and granting a 600 radius  vision around it. Lucent Singularity can be recast at no delay.",
+    "leveling": "Slow:25 / 30 / 35 / 40 / 45%",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      25,
+      30,
+      35,
+      40,
+      45
+    ],
+    "ratios": [],
+    "castTime": 0.25,
+    "icon": "Lucent Singularity.png",
+    "icons": [
+      "Lucent Singularity.png"
+    ],
+    "levelings": [
+      "Slow:25 / 30 / 35 / 40 / 45%",
+      "Magic Damage:60 / 105 / 150 / 195 / 240 (+ 60% AP)"
+    ],
+    "descriptions": [
+      "Active: Lux sends an anomaly of twisted light to the target area for up to 5 seconds,  slowing enemies inside and granting a 600 radius  vision around it. Lucent Singularity can be recast at no delay.",
+      "At the end of the duration or if Lucent Singularity is reactivated, the area detonates, dealing magic damage.",
+      "Recast: Lux detonates Lucent Singularity early. If recast while in flight, the ability will detonate on arrival.",
+      "The slow lingers for 1 second after leaving the area. Enemies hit by Lucent Singularity are slowed for 1 second."
+    ]
+  },
+  {
+    "name": "Final Spark",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      80,
+      70,
+      60,
+      50,
+      40
+    ],
+    "description": "Active: Lux fires a massive laser of light in a line in the target direction that deals magic damage to all enemies hit, briefly  revealing enemies as well as the surrounding area.",
+    "leveling": "Magic Damage:300 / 350 / 400 / 450 / 500 (+ 100% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "False",
+    "flatDamage": [
+      300,
+      350,
+      400,
+      450,
+      500
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 1,
+    "icon": "Final Spark.png",
+    "icons": [
+      "Final Spark.png"
+    ],
+    "levelings": [
+      "Magic Damage:300 / 350 / 400 / 450 / 500 (+ 100% AP)"
+    ],
+    "descriptions": [
+      "Active: Lux fires a massive laser of light in a line in the target direction that deals magic damage to all enemies hit, briefly  revealing enemies as well as the surrounding area."
+    ]
+  }
+]

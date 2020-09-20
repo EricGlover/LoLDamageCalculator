@@ -1,0 +1,220 @@
+[
+  {
+    "name": "Tailwind",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Janna passively gains  8% bonus movement speed and grants the same amount to nearby allied champions moving towards her.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Tailwind.png",
+    "icons": [
+      "Tailwind.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Janna passively gains  8% bonus movement speed and grants the same amount to nearby allied champions moving towards her.",
+      "Janna's basic attacks on-hit and  Zephyr deal bonus magic damage equal to 25 / 35% (based on level) of her bonus movement speed."
+    ]
+  },
+  {
+    "name": "Howling Gale",
+    "cost": [
+      60,
+      80,
+      100,
+      120,
+      140
+    ],
+    "costType": "mana",
+    "coolDown": [
+      12
+    ],
+    "description": "Active: Janna summons a whirlwind at her current location which charges up over 3 seconds. Its range, speed, damage, and  knockup duration increase for each second it is left charging. Howling Gale can be recast after a short delay.",
+    "leveling": "Minimum Magic Damage:60 / 85 / 110 / 135 / 160 (+ 35% AP)Bonus Magic Damage Per Second:»15 / 20 / 25 / 30 / 35 (+ 10% AP)«Maximum Magic Damage:105 / 145 / 185 / 225 / 265 (+ 65% AP)",
+    "skill": "Q",
+    "damageType": "magic",
+    "isProjectile": "true",
+    "flatDamage": [
+      60,
+      85,
+      110,
+      135,
+      160
+    ],
+    "ratios": [
+      {
+        "value": 35,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Howling Gale.png",
+    "icons": [
+      "Howling Gale.png"
+    ],
+    "levelings": [
+      "Minimum Magic Damage:60 / 85 / 110 / 135 / 160 (+ 35% AP)Bonus Magic Damage Per Second:»15 / 20 / 25 / 30 / 35 (+ 10% AP)«Maximum Magic Damage:105 / 145 / 185 / 225 / 265 (+ 65% AP)"
+    ],
+    "descriptions": [
+      "Active: Janna summons a whirlwind at her current location which charges up over 3 seconds. Its range, speed, damage, and  knockup duration increase for each second it is left charging. Howling Gale can be recast after a short delay.",
+      "At the end of the duration, the whirlwind launches itself for 1.5 seconds in the target direction, dealing magic damage to all enemies it passes through and  knocking them up for 0.5 − 1.25 (based on seconds charged) seconds.",
+      "Recast: Janna launches the whirlwind early."
+    ]
+  },
+  {
+    "name": "Zephyr",
+    "cost": [
+      50,
+      60,
+      70,
+      80,
+      90
+    ],
+    "costType": "mana",
+    "coolDown": [
+      8,
+      7,
+      7,
+      6,
+      6
+    ],
+    "description": "Passive: While Zephyr is not on cooldown, Janna is aided by an air elemental who  ghosts her and grants her  bonus movement speed.",
+    "leveling": "Bonus Movement Speed:6 / 7 / 8 / 9 / 10% (+ 2% per 100 AP)",
+    "skill": "W",
+    "damageType": "magic",
+    "isProjectile": "true",
+    "flatDamage": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "ratios": [
+      {
+        "value": 2,
+        "type": "bonus ad"
+      },
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.245,
+    "icon": "Zephyr.png",
+    "icons": [
+      "Zephyr.png"
+    ],
+    "levelings": [
+      "Bonus Movement Speed:6 / 7 / 8 / 9 / 10% (+ 2% per 100 AP)",
+      "Magic Damage:55 / 85 / 115 / 145 / 175 (+ 50% AP) (+ 25 / 35% (based on level)  MS)\nSlow:24 / 28 / 32 / 36 / 40% (+ 6% per 100 AP)"
+    ],
+    "descriptions": [
+      "Passive: While Zephyr is not on cooldown, Janna is aided by an air elemental who  ghosts her and grants her  bonus movement speed.",
+      "Active: Janna commands her air elemental to attack the target enemy, dealing them magic damage and  slowing them for 2 seconds by an amount, capped at a maximum of 99%."
+    ]
+  },
+  {
+    "name": "Eye of the Storm",
+    "cost": [
+      70,
+      80,
+      90,
+      100,
+      110
+    ],
+    "costType": "mana",
+    "coolDown": [
+      16,
+      15,
+      14,
+      13,
+      12
+    ],
+    "description": "Active: Janna  shields the target allied champion or herself for 5 seconds, decaying over the duration after 0.75 seconds.",
+    "leveling": "Shield Strength:80 / 115 / 150 / 185 / 220 (+ 70% AP)",
+    "skill": "E",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      80,
+      115,
+      150,
+      185,
+      220
+    ],
+    "ratios": [
+      {
+        "value": 70,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Eye of the Storm.png",
+    "icons": [
+      "Eye of the Storm.png"
+    ],
+    "levelings": [
+      "Shield Strength:80 / 115 / 150 / 185 / 220 (+ 70% AP)",
+      "Bonus AD:10 / 17.5 / 25 / 32.5 / 40 (+ 10% AP)"
+    ],
+    "descriptions": [
+      "Active: Janna  shields the target allied champion or herself for 5 seconds, decaying over the duration after 0.75 seconds.",
+      "While the shield holds, her target gains  bonus attack damage.",
+      " Slowing or applying an  airborne effect with an ability to at least one enemy champion reduces Eye of the Storm's cooldown by 20%. This can only occur once per cast.",
+      "Eye of the Storm can be used on  turrets, causing Janna to be credited for any  champion kills it earns while the shield holds."
+    ]
+  },
+  {
+    "name": "Monsoon",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      150,
+      135,
+      120
+    ],
+    "description": "Active: Janna  channels for 3 seconds,  knocking back all nearby enemies at the time of cast to up to 875 units (but not through terrain) over 0.5 seconds based on their proximity to her.",
+    "leveling": "Heal Per Half Second:»50 / 75 / 100 (+ 25% AP)«Total Heal:300 / 450 / 600 (+ 150% AP)",
+    "skill": "R",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      50,
+      75,
+      100,
+      25,
+      300
+    ],
+    "ratios": [
+      {
+        "value": 25,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Monsoon.png",
+    "icons": [
+      "Monsoon.png"
+    ],
+    "levelings": [
+      "Heal Per Half Second:»50 / 75 / 100 (+ 25% AP)«Total Heal:300 / 450 / 600 (+ 150% AP)"
+    ],
+    "descriptions": [
+      "Active: Janna  channels for 3 seconds,  knocking back all nearby enemies at the time of cast to up to 875 units (but not through terrain) over 0.5 seconds based on their proximity to her.",
+      "While channeling, Janna releases soothing winds that  heal nearby allies every 0.5 seconds."
+    ]
+  }
+]
