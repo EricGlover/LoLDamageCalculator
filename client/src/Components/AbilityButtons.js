@@ -2,14 +2,15 @@ import React from "react";
 const { Button } = require("antd");
 
 function AbilityButtons ({props}){
-    let {choosableAbilities, setSelectedAbilites, selectedAbilities}=props;
+    let {championAbilities, setSelectedAbilites, selectedAbilities}=props;
+    console.log('stuff',championAbilities)
     let handleAbilityClick = (ability)=>{
         console.log(selectedAbilities);
         setSelectedAbilites(selectedAbilities.concat([ability]));
         console.log(selectedAbilities.concat([ability]));
     };
     return(<div>
-        {choosableAbilities ? choosableAbilities.map((ability)=>{
+        {championAbilities ? championAbilities.map((ability)=>{
             return(<Button onClick={()=>handleAbilityClick(ability)}>
                 {ability.name}
             </Button>)

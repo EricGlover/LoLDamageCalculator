@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import AatroxSplash from "../data/champion-splash-tiles/Aatrox_Splash_Tile_0.jpg";
-
+import ChampSplashs from "../data/champion-splash-tiles/championImages";
 const { AutoComplete, Avatar } = require("antd");
 
 function LeftWindow ({props}){
     const [value, setValue] = useState('')
     const [options, setOptions] = useState([]);
-    const [selectedChampion, setSelectedChampion]=useState({name:'no name'});
+    const {selectedChampion, setSelectedChampion} = props;
 
 
 
@@ -17,7 +17,13 @@ function LeftWindow ({props}){
         setOptions(newOptions);
     },[]);
     
-   const onAutoCompleteSelectChampion = data=>setSelectedChampion({name:data});
+   const onAutoCompleteSelectChampion = data=>{
+       setSelectedChampion({name:data})
+       let newOptions = championNames.map(championSTR=>{
+        return {label: championSTR, value: championSTR};
+    }) 
+       setOptions(newOptions)
+    };
    const onAutoCompleteChampionChange = (data) => {
         const filteredOptions=[]   
         championNames.forEach(championName=>{
@@ -27,7 +33,11 @@ function LeftWindow ({props}){
         })
         setOptions(filteredOptions);
     };
-
+    const onChampClick=(championName)=>{
+        //todo make axios call for specific champion
+        setSelectedChampion({name:championName})
+        console.log(championName)
+    }
     return(<div>
         <div>Search Champion:</div>
         <AutoComplete
@@ -38,14 +48,16 @@ function LeftWindow ({props}){
         />
         <div>{selectedChampion.name}</div>
         <div style={{overflow:"auto", maxHeight:"400px", paddingRight:"40px"}}>
-            {championNames.map(championName=>{return(
-            <span style={{paddingRight:"10px", paddingBottom:"10px", display:"inline-block"}}>
+            {options.map(championName=>{return(
+            <span style={{paddingRight:"10px", paddingBottom:"10px", display:"inline-block"}}
+            onClick={()=>onChampClick(championName.value)}
+            >
                 <Avatar
                     size="large"
                     shape='square'
-                    src={AatroxSplash}
+                    src={ChampSplashs[championName.value]}
 
-                >{championName}</Avatar>
+                >{championName.value}</Avatar>
             </span>
             )})}
         </div>

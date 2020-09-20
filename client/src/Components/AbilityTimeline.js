@@ -16,7 +16,7 @@ function AbilityTimeline ({props}){
             >
          {selectedAbilities.map((ability, index)=>(
          <Step 
-         title={ability.key}
+         title={ability.skill}
             description=
             {
                 <div>
