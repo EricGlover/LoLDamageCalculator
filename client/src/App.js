@@ -24,10 +24,13 @@ ogStuff = [
 function App() {
   const [championAbilities, setchampionAbilities] = useState(ogStuff);
   const [selectedAbilities, setSelectedAbilites] = useState([]);
-  const [selectedChampion, setSelectedChampion]=useState({name:'no name'});
+  const [selectedChampion, setSelectedChampion]=useState({
+    name:'no name',
+    image: {smallSquareSprite:'stuff'}
+  });
   const [enemyChampion, setEnemyChampion] = useState({name:'no name'})
   const [levels, setLevels] =useState({
-    Q: 0,
+    Q:0,
     W:0,
     E:0,
     R:0,
@@ -69,7 +72,7 @@ function App() {
     </Col>
     <Col span="12">
       combo segment        
-      <ComboSegment props={{championAbilities, selectedAbilities, setSelectedAbilites, selectedChampion}}></ComboSegment>
+      <ComboSegment props={{championAbilities, selectedAbilities, setSelectedAbilites, selectedChampion,levels, setLevels}}></ComboSegment>
     </Col>
   </Row>
 </div>

@@ -6,15 +6,15 @@ import AbilityTimeline from "./AbilityTimeline";
 import AbilityTimeLineZoomed from "./AbilityTimeLineZoomed";
 import EnemyHP from "./EnemyHP";
 import axios from "axios";
+import SelectChampionAndEnemyLevels from "./SelectChampionAndEnemyLevels"
 function ComboSegment ({props}){
     const [currentStep, setCurrentStep] = useState(0);
-    const [enemy, setEnemy]= useState({});
-    const [abilitylevelDictionary, setAbilityLevelDictionary] = useState({
-        Q:1,
-        W:1,
-        E:1,
-        R:1,
+    const [enemy, setEnemy]= useState({
+        baseStats: {
+            hp:10
+        }
     });
+ 
     let myChampionStats = {}
     useEffect(()=>{
         axios.get(`/champion/caitlyn`)
@@ -34,11 +34,20 @@ function ComboSegment ({props}){
             console.log(err)})
     }, [])
 
-    const {selectedAbilities, championAbilities, setSelectedAbilites, selectedChampion} = props;
+    const {selectedAbilities, championAbilities, setSelectedAbilites, selectedChampion, levels, setLevels} = props;
     let damageWithCurrentItems = 0; 
     if(selectedAbilities.length!==0){
         damageWithCurrentItems= selectedAbilities.reduce((total,ability)=>{
-            return total+ability.flatDamage[abilitylevelDictionary[ability.skill]]
+            if (ability.skill !== "I"){
+                let abilityRank=levels[ability.skill]
+                if (abilityRank> 0){
+                    return total+ability.flatDamage[abilityRank-1]
+                } else {
+                    return total;
+                }
+            } else {
+                return total;
+            }
         }, 0);
     }
     let damageWithOptimalItems = 100;
@@ -55,7 +64,8 @@ function ComboSegment ({props}){
             selectedAbilities,
             enemy,
             damageWithCurrentItems,
-            damageWithOptimalItems
+            damageWithOptimalItems,
+            levels,
         }}/>
         <AbilityTimeline props={{
             selectedAbilities, 
@@ -69,8 +79,11 @@ function ComboSegment ({props}){
         <p></p>
         <AbilityButtons props={{championAbilities, 
             setSelectedAbilites, 
-            selectedAbilities
+            selectedAbilities,
+            levels,
+            setLevels
             }}/>
+        <SelectChampionAndEnemyLevels props={{selectedChampion, enemy, levels, setLevels,}} />
     </div>);
 }
 export default ComboSegment;
