@@ -1,6 +1,36 @@
 {
   "abilities": [
     {
+      "name": "Living Forge",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Ornn increases <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus armor by 10% and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus magic resistance by 10% from all sources.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Living Forge.png",
+      "icons": [
+        "Living Forge.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Ornn increases <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus armor by 10% and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus magic resistance by 10% from all sources.",
+        "Innate - Living Forge: Ornn can purchase non-consumable items from anywhere on the field by forging them himself, and is also presented a Forge Menu with his recommended items to select to be forged. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Forging takes 4 seconds and the process is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> interrupted if Ornn enters combat, disabling Living Forge. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/10/Gold.png/revision/latest/scale-to-width-down/20?cb=20181122055358\" \t alt=\"Gold\"  \tclass=\"\" \t \tdata-image-key=\"Gold.png\" \tdata-image-name=\"Gold.png\" \t \t width=\"20\"  \t height=\"15\"  \t \t \t \t> Gold is only expended upon completing the forge.",
+        "Innate - Master Craftman: When Ornn reaches level 13, any upgradable (Masterwork) item Ornn owns or purchases for the rest of the game is upgraded for free, up to a maximum of two. Additionally, for each level after 13 (levels 14, 15, 16 and 17), Ornn can upgrade one of an allied champion's upgradable items (Masterwork) by getting within 600 range of them and clicking on them, up to a maximum of 1 per ally.\n Masterwork items: \n Attack Damage Items: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Might_of_the_Ruined_King_item.png/revision/latest/scale-to-width-down/20?cb=20190410130950\" \t alt=\"Might of the Ruined King item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Might_of_the_Ruined_King_item.png\" \tdata-image-name=\"Might of the Ruined King item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Might of the Ruined King, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Molten_Edge_item.png/revision/latest/scale-to-width-down/20?cb=20180531110016\" \t alt=\"Molten Edge item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Molten_Edge_item.png\" \tdata-image-name=\"Molten Edge item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Molten Edge, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/46/Obsidian_Cleaver_item.png/revision/latest/scale-to-width-down/20?cb=20171222000120\" \t alt=\"Obsidian Cleaver item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Obsidian_Cleaver_item.png\" \tdata-image-name=\"Obsidian Cleaver item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Obsidian Cleaver, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d0/Trinity_Fusion_item.png/revision/latest/scale-to-width-down/20?cb=20171222001537\" \t alt=\"Trinity Fusion item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Trinity_Fusion_item.png\" \tdata-image-name=\"Trinity Fusion item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Trinity Fusion, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/Youmuu%27s_Wraithblade_item.png/revision/latest/scale-to-width-down/20?cb=20190410130857\" \t alt=\"Youmuu&amp;#039;s Wraithblade item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Youmuu%27s_Wraithblade_item.png\" \tdata-image-name=\"Youmuu&#39;s Wraithblade item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Youmuu's Wraithblade.\n Ability Power Items: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b2/Luden%27s_Pulse_item.png/revision/latest/scale-to-width-down/20?cb=20190410131035\" \t alt=\"Luden&amp;#039;s Pulse item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Luden%27s_Pulse_item.png\" \tdata-image-name=\"Luden&#39;s Pulse item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Luden's Pulse, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ad/Rabadon%27s_Deathcrown_item.png/revision/latest/scale-to-width-down/20?cb=20171221230224\" \t alt=\"Rabadon&amp;#039;s Deathcrown item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rabadon%27s_Deathcrown_item.png\" \tdata-image-name=\"Rabadon&#39;s Deathcrown item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rabadon's Deathcrown, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9a/Zhonya%27s_Paradox_item.png/revision/latest/scale-to-width-down/20?cb=20171222002803\" \t alt=\"Zhonya&amp;#039;s Paradox item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Zhonya%27s_Paradox_item.png\" \tdata-image-name=\"Zhonya&#39;s Paradox item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Zhonya's Paradox.\n Tank Items: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/46/Forgefire_Cape_item.png/revision/latest/scale-to-width-down/20?cb=20171221181218\" \t alt=\"Forgefire Cape item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Forgefire_Cape_item.png\" \tdata-image-name=\"Forgefire Cape item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Forgefire Cape, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/fb/Frozen_Fist_item.png/revision/latest/scale-to-width-down/20?cb=20190410131109\" \t alt=\"Frozen Fist item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Frozen_Fist_item.png\" \tdata-image-name=\"Frozen Fist item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Frozen Fist, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Infernal_Mask_item.png/revision/latest/scale-to-width-down/20?cb=20171221190101\" \t alt=\"Infernal Mask item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Infernal_Mask_item.png\" \tdata-image-name=\"Infernal Mask item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Infernal Mask.\n Support Items: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Circlet_of_the_Iron_Solari_item.png/revision/latest/scale-to-width-down/20?cb=20171221054845\" \t alt=\"Circlet of the Iron Solari item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Circlet_of_the_Iron_Solari_item.png\" \tdata-image-name=\"Circlet of the Iron Solari item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Circlet of the Iron Solari, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/de/Salvation_item.png/revision/latest/scale-to-width-down/20?cb=20171221231553\" \t alt=\"Salvation item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Salvation_item.png\" \tdata-image-name=\"Salvation item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Salvation.",
+        "Innate - Temper: Ornn's basic attacks against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Brittle_icon.png/revision/latest/scale-to-width-down/20?cb=20171206061104\" \t alt=\"Brittle icon\"  \tclass=\"\" \t \tdata-image-key=\"Brittle_icon.png\" \tdata-image-name=\"Brittle icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Brittle enemies briefly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocks them back.",
+        "Enemies made <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Brittle_icon.png/revision/latest/scale-to-width-down/20?cb=20171206061104\" \t alt=\"Brittle icon\"  \tclass=\"\" \t \tdata-image-key=\"Brittle_icon.png\" \tdata-image-name=\"Brittle icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Brittle by Ornn take 10% − 18% (based on Ornn's level) of their maximum health as bonus magic damage the next time they are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> immobilized by Ornn or his allies, consuming Brittle."
+      ]
+    },
+    {
       "name": "Volcanic Rupture",
       "cost": [
         45
@@ -31,7 +61,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Volcanic Rupture.png",
+      "icons": [
+        "Volcanic Rupture.png"
+      ],
+      "levelings": [
+        "Physical Damage:20 / 45 / 70 / 95 / 120 (+ 110% AD)"
+      ],
+      "descriptions": [
+        "Active:  Ornn slams the ground, sending a fissure in the target direction that stops at maximum range or 200 units behind a hit enemy champion, dealing physical damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing enemies hit by 40% for 2 seconds.",
+        "After a 1.125-second delay, a magma pillar erupts at maximum range, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking aside enemies hit and lingering as impassible terrain for 4 seconds.",
+        "The pillar will not expire while Ornn is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Searing_Charge.png/revision/latest/scale-to-width-down/20?cb=20170816203416\" \t alt=\"Searing Charge\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Searing_Charge.png\" \tdata-image-name=\"Searing Charge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charging."
+      ]
     },
     {
       "name": "Bellows Breath",
@@ -63,7 +105,20 @@
         16
       ],
       "ratios": [],
-      "castTime": null
+      "castTime": null,
+      "icon": "Bellows Breath.png",
+      "icons": [
+        "Bellows Breath.png"
+      ],
+      "levelings": [
+        "Total Magic Damage:»12 / 13 / 14 / 15 / 16% of target's maximum health«Damage Per Instance:2.4 / 2.6 / 2.8 / 3 / 3.2% of target's maximum health",
+        "Total Minimum/Minion Damage:»80 / 130 / 180 / 230 / 280«Minimum/Minion Damage Per Instance:16 / 26 / 36 / 46 / 56\nTotal Monster Damage:»155 / 180 / 205 / 230 / 255«Monster Damage Per Instance:31 / 36 / 41 / 46 / 51"
+      ],
+      "descriptions": [
+        "Active: Ornn marches with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Unstoppable_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164427\" \t alt=\"Unstoppable icon\"  \tclass=\"\" \t \tdata-image-key=\"Unstoppable_icon.png\" \tdata-image-name=\"Unstoppable icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement immunity in the target direction with 35% reduced <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> movement speed for 0.75 seconds.",
+        "Over the march he belches fire over a cone in front of him, dealing magic damage every 0.15 seconds to enemies hit. The final bout of flame will apply <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Brittle_icon.png/revision/latest/scale-to-width-down/20?cb=20171206061104\" \t alt=\"Brittle icon\"  \tclass=\"\" \t \tdata-image-key=\"Brittle_icon.png\" \tdata-image-name=\"Brittle icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Brittle for 3 seconds.",
+        "Bellows Breath has a minimum damage threshold, which is also the damage dealt to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Monsters take modified damage as well."
+      ]
     },
     {
       "name": "Searing Charge",
@@ -100,7 +155,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.35
+      "castTime": 0.35,
+      "icon": "Searing Charge.png",
+      "icons": [
+        "Searing Charge.png"
+      ],
+      "levelings": [
+        "Physical Damage:80 / 125 / 170 / 215 / 260 (+ 40% bonus armor) (+ 40% bonus magic resistance)"
+      ],
+      "descriptions": [
+        "Active: Ornn <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charges in the target direction, dealing physical damage to enemies he passes through, stopping upon colliding with terrain.",
+        "If Ornn collides with terrain while charging he creates a shockwave that deals the same damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocks up and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stuns enemies within for 1.25 seconds. Enemies can only be damaged once by Searing Charge.",
+        "The shockwave destroys the pillar formed by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/89/Volcanic_Rupture.png/revision/latest/scale-to-width-down/20?cb=20170816203441\" \t alt=\"Volcanic Rupture\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Volcanic_Rupture.png\" \tdata-image-name=\"Volcanic Rupture.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Volcanic Rupture and partially destroys terrain created by enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions."
+      ]
     },
     {
       "name": "Call of the Forge God",
@@ -131,7 +198,21 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.5
+      "castTime": 0.5,
+      "icon": "Call of the Forge God.png",
+      "icons": [
+        "Call of the Forge God.png",
+        "Call of the Forge God 2.png"
+      ],
+      "levelings": [
+        "Magic Damage:»125 / 175 / 225 (+ 20% AP)«Total Magic Damage:250 / 350 / 450 (+ 40% AP)Maximum Slow:40 / 60 / 80%"
+      ],
+      "descriptions": [
+        "Active: Ornn sounds his horn over the cast time, after which an elemental is summoned at maximum range from the target direction that stampedes towards his casting position for 3000 range at increasing speed, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing enemies hit for 2 seconds. The <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow scales with the distance traveled by the elemental, with a minimum of 10%.",
+        "Ornn can recast Call of the Forge God after a 1.25-second delay.",
+        "Recast: Ornn <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes 300 units in the target direction (but not through terrain). If Ornn collides with the elemental, he headbutts it, sending it stampeding again in the new direction dealing the same magic damage and empowering it to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knock up and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun enemies hit for 1 second, reduced to 0.5 seconds after the first enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion hit.",
+        "Each pass applies <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Brittle_icon.png/revision/latest/scale-to-width-down/20?cb=20171206061104\" \t alt=\"Brittle icon\"  \tclass=\"\" \t \tdata-image-key=\"Brittle_icon.png\" \tdata-image-name=\"Brittle icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Brittle to targets for 3 seconds and can affect enemies only once."
+      ]
     }
   ],
   "id": "Ornn",

@@ -1,0 +1,201 @@
+[
+  {
+    "name": "Pyromania",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate - Pyromania: Annie gains a stack of Pyromania when she casts an ability, up to a maximum of 4, at which she gains Energized.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Pyromania.png",
+    "icons": [
+      "Pyromania.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate - Pyromania: Annie gains a stack of Pyromania when she casts an ability, up to a maximum of 4, at which she gains Energized.",
+      "Energized: When Annie succeeds in her next cast damaging ability, she consumes all Pyromania stacks and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stuns enemies hit for 1.25 / 1.5 / 1.75 (based on level) seconds.",
+      "Annie loses Energized and all Pyromania stacks upon death."
+    ]
+  },
+  {
+    "name": "Disintegrate",
+    "cost": [
+      60,
+      65,
+      70,
+      75,
+      80
+    ],
+    "costType": "mana",
+    "coolDown": [
+      4
+    ],
+    "description": "Active: Annie hurls a fireball at the target enemy, dealing magic damage.",
+    "leveling": "Magic damage:80 / 115 / 150 / 185 / 220 (+ 80% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      80,
+      115,
+      150,
+      185,
+      220
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Disintegrate.png",
+    "icons": [
+      "Disintegrate.png"
+    ],
+    "levelings": [
+      "Magic damage:80 / 115 / 150 / 185 / 220 (+ 80% AP)"
+    ],
+    "descriptions": [
+      "Active: Annie hurls a fireball at the target enemy, dealing magic damage.",
+      "If Disintegrate kills its target, it refunds its <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> mana cost and half of its <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown is immediately refreshed."
+    ]
+  },
+  {
+    "name": "Incinerate",
+    "cost": [
+      70,
+      80,
+      90,
+      100,
+      110
+    ],
+    "costType": "mana",
+    "coolDown": [
+      8
+    ],
+    "description": "Active: Annie releases a cone of fire in the target direction, dealing magic damage to all enemies in the area.",
+    "leveling": "Magic damage:70 / 115 / 160 / 205 / 250 (+ 85% AP)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "False",
+    "flatDamage": [
+      70,
+      115,
+      160,
+      205,
+      250
+    ],
+    "ratios": [
+      {
+        "value": 85,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Incinerate.png",
+    "icons": [
+      "Incinerate.png"
+    ],
+    "levelings": [
+      "Magic damage:70 / 115 / 160 / 205 / 250 (+ 85% AP)"
+    ],
+    "descriptions": [
+      "Active: Annie releases a cone of fire in the target direction, dealing magic damage to all enemies in the area."
+    ]
+  },
+  {
+    "name": "Molten Shield",
+    "cost": [
+      20
+    ],
+    "costType": "mana",
+    "coolDown": [
+      14,
+      13,
+      12,
+      11,
+      10
+    ],
+    "description": "Active: Annie wraps herself and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/50/Tibbers_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20140614013543\" \t alt=\"Tibbers OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tibbers_OriginalSquare.png\" \tdata-image-name=\"Tibbers OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tibbers in a fiery aura, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 30% − 60% (based on level) bonus movement speed that decays over 1.5 seconds, and reducing damage taken for 3 seconds.",
+    "leveling": "Damage reduction:13 / 17 / 21 / 25 / 29%",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      13,
+      17,
+      21,
+      25,
+      29
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Molten Shield.png",
+    "icons": [
+      "Molten Shield.png"
+    ],
+    "levelings": [
+      "Damage reduction:13 / 17 / 21 / 25 / 29%",
+      "Magic Damage:20 / 30 / 40 / 50 / 60 (+ 20% AP)"
+    ],
+    "descriptions": [
+      "Active: Annie wraps herself and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/50/Tibbers_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20140614013543\" \t alt=\"Tibbers OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tibbers_OriginalSquare.png\" \tdata-image-name=\"Tibbers OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tibbers in a fiery aura, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 30% − 60% (based on level) bonus movement speed that decays over 1.5 seconds, and reducing damage taken for 3 seconds.",
+      "Enemies that damage Annie or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/50/Tibbers_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20140614013543\" \t alt=\"Tibbers OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tibbers_OriginalSquare.png\" \tdata-image-name=\"Tibbers OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tibbers with basic attacks during this time are dealt magic damage."
+    ]
+  },
+  {
+    "name": "Summon: Tibbers",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      120,
+      100,
+      80
+    ],
+    "description": "Active: Annie summons <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/50/Tibbers_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20140614013543\" \t alt=\"Tibbers OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tibbers_OriginalSquare.png\" \tdata-image-name=\"Tibbers OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tibbers to the target location in a burst of flame, dealing magic damage to surrounding enemies.",
+    "leveling": "Initial Magic Damage:150 / 212.5 / 275 / 337.5 / 400 (+ 75% AP)",
+    "skill": "R",
+    "damageType": "magic",
+    "isProjectile": "",
+    "flatDamage": [
+      150,
+      212.5,
+      275,
+      337.5,
+      400
+    ],
+    "ratios": [
+      {
+        "value": 75,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Summon Tibbers.png",
+    "icons": [
+      "Summon Tibbers.png",
+      "Command- Tibbers.png"
+    ],
+    "levelings": [
+      "Initial Magic Damage:150 / 212.5 / 275 / 337.5 / 400 (+ 75% AP)"
+    ],
+    "descriptions": [
+      "Active: Annie summons <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/50/Tibbers_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20140614013543\" \t alt=\"Tibbers OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tibbers_OriginalSquare.png\" \tdata-image-name=\"Tibbers OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tibbers to the target location in a burst of flame, dealing magic damage to surrounding enemies.",
+      "He then remains on the field as a controllable <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e7/Summon-_Tibbers.png/revision/latest/scale-to-width-down/20?cb=20170818001022\" \t alt=\"Summon- Tibbers\"  \tclass=\"\" \t \tdata-image-key=\"Summon-_Tibbers.png\" \tdata-image-name=\"Summon- Tibbers.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> pet for up to 45 seconds.",
+      "Recast: Annie directs Tibbers to the target location."
+    ]
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "name": "Way of the Hunter",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate - Intent: Yone doubles his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c6/Critical_strike_chance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203445\" \t alt=\"Critical strike chance icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_chance_icon.png\" \tdata-image-name=\"Critical strike chance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> total critical strike chance from all other sources, but his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critical strikes deal only (80% + <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/15/Infinity_Edge_item.png/revision/latest/scale-to-width-down/20?cb=20180531105945\" \t alt=\"Infinity Edge item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Infinity_Edge_item.png\" \tdata-image-name=\"Infinity Edge item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 22.5%) AD bonus physical damage.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Way of the Hunter.png",
+    "icons": [
+      "Way of the Hunter.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate - Intent: Yone doubles his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c6/Critical_strike_chance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203445\" \t alt=\"Critical strike chance icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_chance_icon.png\" \tdata-image-name=\"Critical strike chance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> total critical strike chance from all other sources, but his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critical strikes deal only (80% + <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/15/Infinity_Edge_item.png/revision/latest/scale-to-width-down/20?cb=20180531105945\" \t alt=\"Infinity Edge item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Infinity_Edge_item.png\" \tdata-image-name=\"Infinity Edge item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 22.5%) AD bonus physical damage.",
+      "Innate: Yone's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cd/Basic_Attack.png/revision/latest/scale-to-width-down/20?cb=20200517010633\" \t alt=\"Basic Attack\"  \tclass=\"\" \t \tdata-image-key=\"Basic_Attack.png\" \tdata-image-name=\"Basic Attack.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> basic attacks alternate between using his Steel Sword and Azakana Sword on-attack. Yone begins attacking with his Steel Sword, and basic attacks with the Azakana Sword deal 50% AD physical damage and 50% AD magic damage."
+    ]
+  },
+  {
+    "name": "Mortal Steel",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Active: Yone thrusts his Steel Sword in the target direction, dealing physical damage to enemies hit and applying on-hit and on-attack effects to the first enemy hit. Mortal Steel can <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critically strike for (60% + <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/15/Infinity_Edge_item.png/revision/latest/scale-to-width-down/20?cb=20180531105945\" \t alt=\"Infinity Edge item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Infinity_Edge_item.png\" \tdata-image-name=\"Infinity Edge item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 20%) AD bonus physical damage.",
+    "leveling": "Physical Damage:20 / 40 / 60 / 80 / 100 (+ 100% AD)",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "special",
+    "flatDamage": [
+      20,
+      40,
+      60,
+      80,
+      100
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.4,
+    "icon": "Mortal Steel.png",
+    "icons": [
+      "Mortal Steel.png",
+      "Mortal Steel 2.png"
+    ],
+    "levelings": [
+      "Physical Damage:20 / 40 / 60 / 80 / 100 (+ 100% AD)"
+    ],
+    "descriptions": [
+      "Active: Yone thrusts his Steel Sword in the target direction, dealing physical damage to enemies hit and applying on-hit and on-attack effects to the first enemy hit. Mortal Steel can <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critically strike for (60% + <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/15/Infinity_Edge_item.png/revision/latest/scale-to-width-down/20?cb=20180531105945\" \t alt=\"Infinity Edge item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Infinity_Edge_item.png\" \tdata-image-name=\"Infinity Edge item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 20%) AD bonus physical damage.",
+      "If Mortal Steel hits an enemy with the thrust, Yone gains a Gathering Storm stack for 6 seconds, which refreshes upon receiving the second stack.",
+      "While Yone has two stacks of Gathering Storm, the effect of Mortal Steel changes: the stacks are consumed and Yone <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes a fixed distance in the target direction and unleashes a whirlwind that moves in the same direction. The dash and the whirlwind both deal the same amount of damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knock up all the enemies hit in their path for 0.75 seconds but cannot affect the same target twice.",
+      "Mortal Steel's thrust is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> interrupted if Yone is affected by total crowd control during the cast time but its <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown is reset to 0.1 seconds."
+    ]
+  },
+  {
+    "name": "Spirit Cleave",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Active: Yone cleaves with his Azakana Sword in the target direction, dealing equal parts physical and magic damage to enemies hit in a cone. The total mixed damage has a minimum threshold of 40 −  410 (based on level) against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions and a maximum threshold of 150 −  320 (based on level) against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+    "leveling": "Total Mixed Damage:»10 / 20 / 30 / 40 / 50 (+ 11 / 12 / 13 / 14 / 15% of target's maximum health)«Physical Damage:»5 / 10 / 15 / 20 / 25 (+ 5.5 / 6 / 6.5 / 7 / 7.5% of target's maximum health)«Magic Damage:5 / 10 / 15 / 20 / 25 (+ 5.5 / 6 / 6.5 / 7 / 7.5% of target's maximum health)",
+    "skill": "W",
+    "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic",
+    "isProjectile": "false",
+    "flatDamage": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "ratios": [
+      {
+        "value": 11,
+        "type": "bonus ad"
+      },
+      {
+        "value": 12,
+        "type": "bonus ad"
+      },
+      {
+        "value": 13,
+        "type": "bonus ad"
+      },
+      {
+        "value": 14,
+        "type": "bonus ad"
+      },
+      {
+        "value": 15,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.5,
+    "icon": "Spirit Cleave.png",
+    "icons": [
+      "Spirit Cleave.png"
+    ],
+    "levelings": [
+      "Total Mixed Damage:»10 / 20 / 30 / 40 / 50 (+ 11 / 12 / 13 / 14 / 15% of target's maximum health)«Physical Damage:»5 / 10 / 15 / 20 / 25 (+ 5.5 / 6 / 6.5 / 7 / 7.5% of target's maximum health)«Magic Damage:5 / 10 / 15 / 20 / 25 (+ 5.5 / 6 / 6.5 / 7 / 7.5% of target's maximum health)"
+    ],
+    "descriptions": [
+      "Active: Yone cleaves with his Azakana Sword in the target direction, dealing equal parts physical and magic damage to enemies hit in a cone. The total mixed damage has a minimum threshold of 40 −  410 (based on level) against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions and a maximum threshold of 150 −  320 (based on level) against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+      "Yone <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields himself for 40 − 60 (based on level) (+ 60% bonus AD) for 1.5 seconds if Spirit Cleave hits an enemy, increased by 100% − 200% (based on number of enemy champions hit)."
+    ]
+  },
+  {
+    "name": "Soul Unbound",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      22,
+      19,
+      16,
+      13,
+      10
+    ],
+    "description": "Active: Yone <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes a fixed distance in the target direction, gaining Spirit Form for 5 seconds as well as creating an <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Command_Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20170204131432\" \t alt=\"Command Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Command_Hallucinate.png\" \tdata-image-name=\"Command Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> clone that is sent the same distance behind the cast location, though not through terrain. After a 0.5-second delay, Yone can recast Soul Unbound.",
+    "leveling": "Damage Stored:25 / 27.5 / 30 / 32.5 / 35% of damage dealt",
+    "skill": "E",
+    "damageType": "True",
+    "isProjectile": "",
+    "flatDamage": [
+      25,
+      27.5,
+      30,
+      32.5,
+      35
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Soul Unbound.png",
+    "icons": [
+      "Soul Unbound.png",
+      "Soul Unbound 2.png"
+    ],
+    "levelings": [
+      "Damage Stored:25 / 27.5 / 30 / 32.5 / 35% of damage dealt"
+    ],
+    "descriptions": [
+      "Active: Yone <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes a fixed distance in the target direction, gaining Spirit Form for 5 seconds as well as creating an <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Command_Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20170204131432\" \t alt=\"Command Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Command_Hallucinate.png\" \tdata-image-name=\"Command Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> clone that is sent the same distance behind the cast location, though not through terrain. After a 0.5-second delay, Yone can recast Soul Unbound.",
+      "Spirit Form: Yone becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted, gains 10% − 30% (based on time active) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed and marks champions damaged with basic attacks or abilities. Each mark stores a percentage of the post-mitigation physical damage and magic damage that Yone deals to them with his basic attacks and abilities.",
+      "Activation resets <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a5/Way_of_the_Hunter.png/revision/latest/scale-to-width-down/20?cb=20200726104444\" \t alt=\"Way of the Hunter\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Way_of_the_Hunter.png\" \tdata-image-name=\"Way of the Hunter.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Way of the Hunter's current state.",
+      "Recast: Yone casts for 0.25 seconds then <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes back to his body, detonating the marks on each champion to deal true damage equal to the amount stored against them. Yone is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Unstoppable_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164427\" \t alt=\"Unstoppable icon\"  \tclass=\"\" \t \tdata-image-key=\"Unstoppable_icon.png\" \tdata-image-name=\"Unstoppable icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement immune from the point of re-activation until the dash is completed, and he will initially <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Remove_Scurvy.png/revision/latest/scale-to-width-down/20?cb=20150707190028\" \t alt=\"Remove Scurvy\"  \tclass=\"\" \t \tdata-image-key=\"Remove_Scurvy.png\" \tdata-image-name=\"Remove Scurvy.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> cleanse himself from all <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/81/Blind_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224954\" \t alt=\"Blind icon\"  \tclass=\"\" \t \tdata-image-key=\"Blind_icon.png\" \tdata-image-name=\"Blind icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Cripple_icon.png/revision/latest/scale-to-width-down/20?cb=20171202000853\" \t alt=\"Cripple icon\"  \tclass=\"\" \t \tdata-image-key=\"Cripple_icon.png\" \tdata-image-name=\"Cripple icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> cripples, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f7/Drowsy_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223936\" \t alt=\"Drowsy icon\"  \tclass=\"\" \t \tdata-image-key=\"Drowsy_icon.png\" \tdata-image-name=\"Drowsy icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> drowsy effects as well as any <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> immobilizing effects that were applied to him during the cast time.",
+      "After the duration ends, Soul Unbound will recast automatically. The automatic recast is delayed if Yone is unable to recast Soul Unbound under any circumstances, which includes if he cannot move or cast abilities. Soul Unbound will also immediately recast upon Yone's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> death."
+    ]
+  },
+  {
+    "name": "Fate Sealed",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      120,
+      110,
+      100,
+      90,
+      80
+    ],
+    "description": "Active: After the cast time, Yone marks all enemies in a line in the target direction and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stuns them for 1 second as well as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinking 200 units beyond the center of the last enemy champion struck. If no enemy champions are struck, Yone <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinks to maximum range instead.",
+    "leveling": "Total Mixed Damage:»200 / 300 / 400 / 500 / 600 (+ 80% AD)«Physical Damage:»100 / 150 / 200 / 250 / 300 (+ 40% AD)«Magic Damage:100 / 150 / 200 / 250 / 300 (+ 40% AD)",
+    "skill": "R",
+    "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic",
+    "isProjectile": "false",
+    "flatDamage": [
+      200,
+      300,
+      400,
+      500,
+      600
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.75,
+    "icon": "Fate Sealed.png",
+    "icons": [
+      "Fate Sealed.png"
+    ],
+    "levelings": [
+      "Total Mixed Damage:»200 / 300 / 400 / 500 / 600 (+ 80% AD)«Physical Damage:»100 / 150 / 200 / 250 / 300 (+ 40% AD)«Magic Damage:100 / 150 / 200 / 250 / 300 (+ 40% AD)"
+    ],
+    "descriptions": [
+      "Active: After the cast time, Yone marks all enemies in a line in the target direction and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stuns them for 1 second as well as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinking 200 units beyond the center of the last enemy champion struck. If no enemy champions are struck, Yone <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinks to maximum range instead.",
+      "After a further 0.125 seconds, wind rushes along the same line, dealing marked enemies that are within the area equal parts physical and magic damage while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> pulling them towards Yone's blinking position and subsequently <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking them up for 0.75 seconds.",
+      "Yone is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/77/Lockout_icon.png/revision/latest/scale-to-width-down/20?cb=20200726194309\" \t alt=\"Lockout icon\"  \tclass=\"\" \t \tdata-image-key=\"Lockout_icon.png\" \tdata-image-name=\"Lockout icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> locked out for a total of 0.3 seconds upon blinking.",
+      "The <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun ends prematurely upon the knock up."
+    ]
+  }
+]

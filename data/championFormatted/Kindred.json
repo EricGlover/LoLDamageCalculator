@@ -1,6 +1,36 @@
 {
   "abilities": [
     {
+      "name": "Mark of the Kindred",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Both Lamb and Wolf mark targets to hunt. Scoring a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Damage_rating.png/revision/latest/scale-to-width-down/20?cb=20170514053710\" \t alt=\"Damage rating\"  \tclass=\"\" \t \tdata-image-key=\"Damage_rating.png\" \tdata-image-name=\"Damage rating.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> takedown on a marked target permanently empowers Kindred's abilities, as well as granting Lamb 75 − 250 (based on Marks) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus range on her basic attacks and abilities.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Mark of the Kindred.png",
+      "icons": [
+        "Mark of the Kindred.png",
+        "Lamb's Mask profileicon.png",
+        "Wolf's Mask profileicon.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Both Lamb and Wolf mark targets to hunt. Scoring a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Damage_rating.png/revision/latest/scale-to-width-down/20?cb=20170514053710\" \t alt=\"Damage rating\"  \tclass=\"\" \t \tdata-image-key=\"Damage_rating.png\" \tdata-image-name=\"Damage rating.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> takedown on a marked target permanently empowers Kindred's abilities, as well as granting Lamb 75 − 250 (based on Marks) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus range on her basic attacks and abilities.",
+        "Innate - Lamb: Lamb is offered a selection of enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions to take down, which is hidden while in combat with an enemy champion. Once selected, there's an 8 second delay before the Mark can be collected, and Lamb can change her target if the target hasn't died during a period of time. Targets successfully hunted cannot be targeted again for 4 minutes.",
+        "Innate - Wolf: Starting at 3:15, Wolf periodically selects a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monster camp within the enemy's jungle based on Lamb's current Marks for 180 seconds:\n 0 : <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a2/Rift_ScuttlerSquare.png/revision/latest/scale-to-width-down/20?cb=20141111231735\" \t alt=\"Rift ScuttlerSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rift_ScuttlerSquare.png\" \tdata-image-name=\"Rift ScuttlerSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rift Scuttler\n 1 – 3: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a2/Rift_ScuttlerSquare.png/revision/latest/scale-to-width-down/20?cb=20141111231735\" \t alt=\"Rift ScuttlerSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rift_ScuttlerSquare.png\" \tdata-image-name=\"Rift ScuttlerSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rift Scuttler, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/94/Crimson_RaptorSquare.png/revision/latest/scale-to-width-down/20?cb=20161029234307\" \t alt=\"Crimson RaptorSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crimson_RaptorSquare.png\" \tdata-image-name=\"Crimson RaptorSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crimson Raptor, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/GrompSquare.png/revision/latest/scale-to-width-down/20?cb=20161029234737\" \t alt=\"GrompSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"GrompSquare.png\" \tdata-image-name=\"GrompSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Gromp\n 4 – 7: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/fe/Ancient_KrugSquare.png/revision/latest/scale-to-width-down/20?cb=20170408140308\" \t alt=\"Ancient KrugSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ancient_KrugSquare.png\" \tdata-image-name=\"Ancient KrugSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ancient Krug, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/85/Blue_SentinelSquare.png/revision/latest/scale-to-width-down/20?cb=20140620025405\" \t alt=\"Blue SentinelSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blue_SentinelSquare.png\" \tdata-image-name=\"Blue SentinelSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Blue Sentinel, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Greater_Murk_WolfSquare.png/revision/latest/scale-to-width-down/20?cb=20141111151412\" \t alt=\"Greater Murk WolfSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Greater_Murk_WolfSquare.png\" \tdata-image-name=\"Greater Murk WolfSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Greater Murk Wolf, or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e7/Red_BramblebackSquare.png/revision/latest/scale-to-width-down/20?cb=20140620025406\" \t alt=\"Red BramblebackSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Red_BramblebackSquare.png\" \tdata-image-name=\"Red BramblebackSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Red Brambleback\n 8 + : <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Rift_HeraldSquare.png/revision/latest/scale-to-width-down/20?cb=20171112190027\" \t alt=\"Rift HeraldSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rift_HeraldSquare.png\" \tdata-image-name=\"Rift HeraldSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rift Herald or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/38/Baron_NashorSquare.png/revision/latest/scale-to-width-down/20?cb=20140620025404\" \t alt=\"Baron NashorSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Baron_NashorSquare.png\" \tdata-image-name=\"Baron NashorSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Baron Nashor, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c9/DragonSquare.png/revision/latest/scale-to-width-down/20?cb=20140620025407\" \t alt=\"DragonSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"DragonSquare.png\" \tdata-image-name=\"DragonSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dragon or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/34/Elder_DragonSquare.png/revision/latest/scale-to-width-down/20?cb=20170408123953\" \t alt=\"Elder DragonSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Elder_DragonSquare.png\" \tdata-image-name=\"Elder DragonSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Elder Dragon\n\nWolf will select another monster camp 40 seconds after killing a marked monster. If an ally kills a hunted jungle monster within 6 seconds of Kindred damaging it, Kindred will still acquire the stack.\nThe marked camp is highlighted on the mini map to both teams. The mark is removed when the camp is cleared even if Kindred are not involved."
+      ]
+    },
+    {
       "name": "Dance of Arrows",
       "cost": [
         35
@@ -27,7 +57,21 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Dance of Arrows.png",
+      "icons": [
+        "Dance of Arrows.png"
+      ],
+      "levelings": [
+        "Physical Damage:60 / 80 / 100 / 120 / 140 (+ 65% bonus AD)",
+        "Static Cooldown:4 / 3.5 / 3 / 2.5 / 2"
+      ],
+      "descriptions": [
+        "Active: Lamb <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 25% (+ 5% per <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f5/Mark_of_the_Kindred.png/revision/latest/scale-to-width-down/20?cb=20170818190657\" \t alt=\"Mark of the Kindred\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mark_of_the_Kindred.png\" \tdata-image-name=\"Mark of the Kindred.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mark) bonus attack speed for 4 seconds and firing up to three arrows to nearby <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible targets after dashing, each one dealing physical damage. Lamb's current attack target at any proximity will be prioritized by one of the arrows.",
+        "Casting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/08/Wolf%27s_Frenzy.png/revision/latest/scale-to-width-down/20?cb=20170818190726\" \t alt=\"Wolf&amp;#039;s Frenzy\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Wolf%27s_Frenzy.png\" \tdata-image-name=\"Wolf&#39;s Frenzy.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Wolf's Frenzy or using Dance of Arrows while inside its area will reduce this ability's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown to an amount.",
+        "Lamb can cast any of her abilities during Dance of Arrows'  dash.",
+        "Dance of Arrows <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resets Lamb's basic attack timer."
+      ]
     },
     {
       "name": "Wolf's Frenzy",
@@ -60,7 +104,20 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Wolf's Frenzy.png",
+      "icons": [
+        "Wolf's Frenzy.png"
+      ],
+      "levelings": [
+        "Magic Damage:25 / 30 / 35 / 40 / 45 (+ 20% bonus AD) (+ 1.5% (+ 1% per <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f5/Mark_of_the_Kindred.png/revision/latest/scale-to-width-down/20?cb=20170818190657\" \t alt=\"Mark of the Kindred\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mark_of_the_Kindred.png\" \tdata-image-name=\"Mark of the Kindred.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mark) of target's current health)"
+      ],
+      "descriptions": [
+        "Passive: As Kindred move and attack, they build up to 100 stacks of Hunter's Vigor. At full stacks, Lamb's next basic attack <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals her for up to 49 − 100 (based on level), based on Kindred's missing health.",
+        "Active: Wolf <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target location and claims the surrounding area as his territory for the next 8.5 seconds, separating from Lamb. Wolf autonomously attacks enemies within the area, prioritizing Lamb's attack target.",
+        "Wolf's basic attacks deal magic damage and scale with 25% of Kindred's bonus attack speed. Against monsters, Wolf deals 50% increased damage and his attacks <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow the target by 50% for 2 seconds.",
+        "Wolf's Frenzy ends immediately if Lamb leaves the area or dies."
+      ]
     },
     {
       "name": "Mounting Dread",
@@ -93,7 +150,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Mounting Dread.png",
+      "icons": [
+        "Mounting Dread.png"
+      ],
+      "levelings": [
+        "Bonus Physical Damage:80 / 100 / 120 / 140 / 160 (+ 80% bonus AD) (+ 8% (+ 0.5% per <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f5/Mark_of_the_Kindred.png/revision/latest/scale-to-width-down/20?cb=20170818190657\" \t alt=\"Mark of the Kindred\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mark_of_the_Kindred.png\" \tdata-image-name=\"Mark of the Kindred.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mark) of target's missing health)"
+      ],
+      "descriptions": [
+        "Active: Lamb applies a mark to the target enemy for 4 seconds and cripples them, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 50% for 1 second.",
+        "Lamb's attacks against the target refreshes the mark's duration. If she manages to basic attack the marked target twice, her third attack directs Wolf to pounce them, consuming the mark to deal bonus physical damage, capped at 300 against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+        "Wolf's pounce will <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critically strike for (50% + <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/15/Infinity_Edge_item.png/revision/latest/scale-to-width-down/20?cb=20180531105945\" \t alt=\"Infinity Edge item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Infinity_Edge_item.png\" \tdata-image-name=\"Infinity Edge item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 37.5%) bonus physical damage against targets below 15% − 65% (based on critical strike chance) of their <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> maximum health."
+      ]
     },
     {
       "name": "Lamb's Respite",
@@ -121,7 +190,18 @@
         400
       ],
       "ratios": [],
-      "castTime": null
+      "castTime": null,
+      "icon": "Lamb's Respite.png",
+      "icons": [
+        "Lamb's Respite.png"
+      ],
+      "levelings": [
+        "Heal:250 / 287.5 / 325 / 362.5 / 400"
+      ],
+      "descriptions": [
+        "Active: Lamb blesses the ground under herself for 4 seconds and enters a 0.264 seconds cast time. All units inside the zone cannot be reduced below <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 10% of their maximum health, and will become <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c1/Cosmic_Radiance.png/revision/latest/scale-to-width-down/20?cb=20160608034537\" \t alt=\"Cosmic Radiance\"  \tclass=\"\" \t \tdata-image-key=\"Cosmic_Radiance.png\" \tdata-image-name=\"Cosmic Radiance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invulnerable for the remaining duration when they reach or are at the threshold, during which they also cannot be <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healed, but can still <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/31/Health_regeneration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203536\" \t alt=\"Health regeneration icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_regeneration_icon.png\" \tdata-image-name=\"Health regeneration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> regenerate health.",
+        "All targetable units within the zone are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healed immediately when the blessing ends."
+      ]
     }
   ],
   "id": "Kindred",

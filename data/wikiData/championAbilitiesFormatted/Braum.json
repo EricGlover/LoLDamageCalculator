@@ -1,0 +1,213 @@
+[
+  {
+    "name": "Concussive Blows",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Braum's basic attacks and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Winter%27s_Bite.png/revision/latest/scale-to-width-down/20?cb=20170818001627\" \t alt=\"Winter&amp;#039;s Bite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Winter%27s_Bite.png\" \tdata-image-name=\"Winter&#39;s Bite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Winter's Bite each apply Concussive Blows to his target for 4 seconds, stacking up to 4 times, refreshing with each application. Once the first stack has been applied, any allied champion's basic attack on the target generates an additional stack.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Concussive Blows.png",
+    "icons": [
+      "Concussive Blows.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Braum's basic attacks and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Winter%27s_Bite.png/revision/latest/scale-to-width-down/20?cb=20170818001627\" \t alt=\"Winter&amp;#039;s Bite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Winter%27s_Bite.png\" \tdata-image-name=\"Winter&#39;s Bite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Winter's Bite each apply Concussive Blows to his target for 4 seconds, stacking up to 4 times, refreshing with each application. Once the first stack has been applied, any allied champion's basic attack on the target generates an additional stack.",
+      "At 4 stacks, Concussive Blows is consumed to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun the target for 1.25 − 1.75 (based on level) seconds and deal 26 − 196 (based on level) magic damage.",
+      "This effect cannot occur on the same target more than once every few seconds, but during this immunity period, affected targets instead take「 20% of the trigger damage as bonus magic damage 」「 5.2 − 39.2 (based on level) bonus magic damage 」 from Braum's basic attacks and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Winter%27s_Bite.png/revision/latest/scale-to-width-down/20?cb=20170818001627\" \t alt=\"Winter&amp;#039;s Bite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Winter%27s_Bite.png\" \tdata-image-name=\"Winter&#39;s Bite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Winter's Bite."
+    ]
+  },
+  {
+    "name": "Winter's Bite",
+    "cost": [
+      55,
+      60,
+      65,
+      70,
+      75
+    ],
+    "costType": "mana",
+    "coolDown": [
+      10,
+      9,
+      8,
+      7,
+      6
+    ],
+    "description": "Active: Braum propels ice from his shield in the target direction, dealing magic damage to the first enemy hit and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 70% decaying over 2 seconds.",
+    "leveling": "Magic Damage:60 / 110 / 160 / 210 / 260 (+ 2.5% of Braum's maximum health)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      60,
+      110,
+      160,
+      210,
+      260
+    ],
+    "ratios": [
+      {
+        "value": 2.5,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Winter's Bite.png",
+    "icons": [
+      "Winter's Bite.png"
+    ],
+    "levelings": [
+      "Magic Damage:60 / 110 / 160 / 210 / 260 (+ 2.5% of Braum's maximum health)"
+    ],
+    "descriptions": [
+      "Active: Braum propels ice from his shield in the target direction, dealing magic damage to the first enemy hit and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 70% decaying over 2 seconds."
+    ]
+  },
+  {
+    "name": "Stand Behind Me",
+    "cost": [
+      40
+    ],
+    "costType": "mana",
+    "coolDown": [
+      12,
+      11,
+      10,
+      9,
+      8
+    ],
+    "description": "Active: Braum <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target ally's location, positioning himself between their location and the closest enemy champion, and granting himself and the ally <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus magic resistance for 3 seconds.",
+    "leveling": "Self Bonus Armor:»10 / 14 / 18 / 22 / 26 (+ 36% bonus armor)«Self Bonus MR:10 / 14 / 18 / 22 / 26 (+ 36% bonus magic resistance)\nAlly Bonus Armor:»10 / 14 / 18 / 22 / 26 (+ 12% bonus armor)«Ally Bonus MR:10 / 14 / 18 / 22 / 26 (+ 12% bonus magic resistance)",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      10,
+      14,
+      18,
+      22,
+      26
+    ],
+    "ratios": [
+      {
+        "value": 36,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Stand Behind Me.png",
+    "icons": [
+      "Stand Behind Me.png"
+    ],
+    "levelings": [
+      "Self Bonus Armor:»10 / 14 / 18 / 22 / 26 (+ 36% bonus armor)«Self Bonus MR:10 / 14 / 18 / 22 / 26 (+ 36% bonus magic resistance)\nAlly Bonus Armor:»10 / 14 / 18 / 22 / 26 (+ 12% bonus armor)«Ally Bonus MR:10 / 14 / 18 / 22 / 26 (+ 12% bonus magic resistance)"
+    ],
+    "descriptions": [
+      "Active: Braum <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target ally's location, positioning himself between their location and the closest enemy champion, and granting himself and the ally <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus magic resistance for 3 seconds.",
+      "Stand Behind Me can be self cast to instantly grant Braum the bonus resistances.",
+      "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ef/Unbreakable.png/revision/latest/scale-to-width-down/20?cb=20170818001617\" \t alt=\"Unbreakable\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Unbreakable.png\" \tdata-image-name=\"Unbreakable.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Unbreakable can be cast while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashing."
+    ]
+  },
+  {
+    "name": "Unbreakable",
+    "cost": [
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      18,
+      16,
+      14,
+      12,
+      10
+    ],
+    "description": "Active: Braum raises his shield in the target direction for a few seconds, creating a barrier that intercepts incoming enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Projectile.png/revision/latest/scale-to-width-down/20?cb=20150816082407\" \t alt=\"Projectile\"  \tclass=\"\" \t \tdata-image-key=\"Projectile.png\" \tdata-image-name=\"Projectile.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> projectiles and reduces the damage Braum takes through the shield. The first instance of damage blocked by his shield is negated completely.",
+    "leveling": "Damage reduction:30 / 32.5 / 35 / 37.5 / 40%Duration:3 / 3.25 / 3.5 / 3.75 / 4",
+    "skill": "E",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      30,
+      32.5,
+      35,
+      37.5,
+      40
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Unbreakable.png",
+    "icons": [
+      "Unbreakable.png"
+    ],
+    "levelings": [
+      "Damage reduction:30 / 32.5 / 35 / 37.5 / 40%Duration:3 / 3.25 / 3.5 / 3.75 / 4"
+    ],
+    "descriptions": [
+      "Active: Braum raises his shield in the target direction for a few seconds, creating a barrier that intercepts incoming enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Projectile.png/revision/latest/scale-to-width-down/20?cb=20150816082407\" \t alt=\"Projectile\"  \tclass=\"\" \t \tdata-image-key=\"Projectile.png\" \tdata-image-name=\"Projectile.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> projectiles and reduces the damage Braum takes through the shield. The first instance of damage blocked by his shield is negated completely.",
+      "While his shield is raised, Braum also gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 10% bonus movement speed and is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted.",
+      "Unbreakable has no effect on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> turret shots."
+    ]
+  },
+  {
+    "name": "Glacial Fissure",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      140,
+      130,
+      120,
+      110,
+      100
+    ],
+    "description": "Active: Braum leaps into the air and slams his shield into the ground, creating a fissure in the target direction that deals magic damage to enemies as well as those around him.",
+    "leveling": "Magic Damage:150 / 225 / 300 / 375 / 450 (+ 60% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      150,
+      225,
+      300,
+      375,
+      450
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.5,
+    "icon": "Glacial Fissure.png",
+    "icons": [
+      "Glacial Fissure.png"
+    ],
+    "levelings": [
+      "Magic Damage:150 / 225 / 300 / 375 / 450 (+ 60% AP)",
+      "Maximum Knockup Duration:1 / 1.25 / 1.5",
+      "Slow:40 / 45 / 50 / 55 / 60%"
+    ],
+    "descriptions": [
+      "Active: Braum leaps into the air and slams his shield into the ground, creating a fissure in the target direction that deals magic damage to enemies as well as those around him.",
+      "The first target hit is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked up for at least 0.3 seconds, increased if they are further away from Braum. All other enemies hit are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked up for 0.3 seconds.",
+      "A field of ice then remains at the fissure's location for 4 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing enemies within every 0.25 seconds."
+    ]
+  }
+]

@@ -1,0 +1,185 @@
+[
+  {
+    "name": "Gift of the Drowned Ones",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Pyke's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> maximum health cannot increase except through growth (per level), instead he gains「 <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 1 bonus attack damage per 14 bonus health. 」「 (7.143% bonus health) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack damage. 」",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Gift of the Drowned Ones.png",
+    "icons": [
+      "Gift of the Drowned Ones.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Pyke's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> maximum health cannot increase except through growth (per level), instead he gains「 <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 1 bonus attack damage per 14 bonus health. 」「 (7.143% bonus health) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack damage. 」",
+      "Pyke also stores 25% − 50% (based on level) of the damage he takes from enemy champions as Grey Health on his health bar, up to 80 (+ 800% bonus AD), with an upper cap of 60% of his maximum health.",
+      "When Pyke is unseen by enemies, he rapidly consumes his Grey Health to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heal for the same amount.",
+      "Hidden innate: Pyke gains 1 bonus movement speed while in the river."
+    ]
+  },
+  {
+    "name": "Bone Skewer",
+    "cost": [
+      50,
+      55,
+      60,
+      65,
+      70
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      10,
+      9,
+      9,
+      8,
+      8
+    ],
+    "description": "Active: Pyke <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charges for up to 3 seconds, increasing Bone Skewer's range while being <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed by 20%. Bone Skewer can be recast at any time within its duration.",
+    "leveling": "Physical Damage:85 / 135 / 185 / 235 / 285 (+ 60% bonus AD)",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "special",
+    "flatDamage": [
+      85,
+      135,
+      185,
+      235,
+      285
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Bone Skewer.png",
+    "icons": [
+      "Bone Skewer.png"
+    ],
+    "levelings": [
+      "Physical Damage:85 / 135 / 185 / 235 / 285 (+ 60% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Pyke <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charges for up to 3 seconds, increasing Bone Skewer's range while being <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed by 20%. Bone Skewer can be recast at any time within its duration.",
+      "Recast: Pyke <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Projectile.png/revision/latest/scale-to-width-down/20?cb=20150816082407\" \t alt=\"Projectile\"  \tclass=\"\" \t \tdata-image-key=\"Projectile.png\" \tdata-image-name=\"Projectile.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> hurls his harpoon in the target direction, dealing physical damage to the first enemy struck, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> pulling them towards his direction, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 90% for 1 second, and briefly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them.",
+      "Releasing the ability within 0.4 seconds causes Pyke to instead thrust his blade in the target direction, dealing  the same damage to the closest enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion, or closest enemy if no champion is hit.",
+      "If Pyke is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> interrupted during the charge, or the charge completes without reactivation, Bone Skewer is cancelled and the ability is put on full <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown but refunds <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> half the mana cost."
+    ]
+  },
+  {
+    "name": "Ghostwater Dive",
+    "cost": [
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12,
+      11,
+      11,
+      10,
+      10
+    ],
+    "description": "Active: Pyke submerges into water, entering <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Ambush_2.png/revision/latest/scale-to-width-down/20?cb=20171221051757\" \t alt=\"Ambush 2\"  \tclass=\"\" \t \tdata-image-key=\"Ambush_2.png\" \tdata-image-name=\"Ambush 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> camouflage for 5 seconds and gaining 40% (+ 1.5% per 1 Lethality) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed that decays over the duration. Enemies are notified if Pyke is within 1500 units of them.",
+    "leveling": null,
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Ghostwater Dive.png",
+    "icons": [
+      "Ghostwater Dive.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Active: Pyke submerges into water, entering <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Ambush_2.png/revision/latest/scale-to-width-down/20?cb=20171221051757\" \t alt=\"Ambush 2\"  \tclass=\"\" \t \tdata-image-key=\"Ambush_2.png\" \tdata-image-name=\"Ambush 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> camouflage for 5 seconds and gaining 40% (+ 1.5% per 1 Lethality) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed that decays over the duration. Enemies are notified if Pyke is within 1500 units of them.",
+      "Attacking or casting abilities immediately ends Ghostwater Dive."
+    ]
+  },
+  {
+    "name": "Phantom Undertow",
+    "cost": [
+      40
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      15
+    ],
+    "description": "Active: Pyke <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction, leaving behind a Phantom for 1 second.",
+    "leveling": "Physical Damage:105 / 135 / 165 / 195 / 225 (+ 100% bonus AD)",
+    "skill": "E",
+    "damageType": "Physical",
+    "isProjectile": "true",
+    "flatDamage": [
+      105,
+      135,
+      165,
+      195,
+      225
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Phantom Undertow.png",
+    "icons": [
+      "Phantom Undertow.png"
+    ],
+    "levelings": [
+      "Physical Damage:105 / 135 / 165 / 195 / 225 (+ 100% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Pyke <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction, leaving behind a Phantom for 1 second.",
+      "Afterwards, the Phantom returns to Pyke, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning enemies around it and those it passes through along the way for 1.25 (+ 0.1 per 10 Lethality) seconds. Enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions also take physical damage."
+    ]
+  },
+  {
+    "name": "Death from Below",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      120,
+      110,
+      100,
+      90,
+      80
+    ],
+    "description": "Active: Pyke marks the target area with an X before striking it, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/85/Death_from_Below.png/revision/latest/scale-to-width-down/20?cb=20180516185259\" \t alt=\"Death from Below\"  \tclass=\"\" \t \tdata-image-key=\"Death_from_Below.png\" \tdata-image-name=\"Death from Below.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> executing enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions below 250 −  550 (based on level) (+ 80% bonus AD) (+ 1.5 per 1 Lethality) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> health while dealing「 50% of the amount as physical damage 」「 125 −  275 (based on level) (+ 40% bonus AD) (+ 0.75 per 1 Lethality) physical damage 」to non-champion enemy units and enemy champions not within the threshold for execution.",
+    "leveling": null,
+    "skill": "R",
+    "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical damage / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Hybrid_penetration.png/revision/latest/scale-to-width-down/20?cb=20170514081634\" \t alt=\"Hybrid penetration\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration.png\" \tdata-image-name=\"Hybrid penetration.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> True damage",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": 0.5,
+    "icon": "Death from Below.png",
+    "icons": [
+      "Death from Below.png",
+      "Death from Below 2.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Active: Pyke marks the target area with an X before striking it, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/85/Death_from_Below.png/revision/latest/scale-to-width-down/20?cb=20180516185259\" \t alt=\"Death from Below\"  \tclass=\"\" \t \tdata-image-key=\"Death_from_Below.png\" \tdata-image-name=\"Death from Below.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> executing enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions below 250 −  550 (based on level) (+ 80% bonus AD) (+ 1.5 per 1 Lethality) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> health while dealing「 50% of the amount as physical damage 」「 125 −  275 (based on level) (+ 40% bonus AD) (+ 0.75 per 1 Lethality) physical damage 」to non-champion enemy units and enemy champions not within the threshold for execution.",
+      "If Death from Below hits an enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion or one <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dies inside it, Pyke will <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blink to the center of the X. For the latter case Pyke also gains the ability to recast within 20 seconds at no cost.",
+      "Each execution grants one <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/01/%27Your_Cut%27_item.png/revision/latest/scale-to-width-down/20?cb=20180517191237\" \t alt=\"&amp;#039;Your Cut&amp;#039; item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"%27Your_Cut%27_item.png\" \tdata-image-name=\"&#39;Your Cut&#39; item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 'Your Cut' to both Pyke and the last assisting ally, instead of its natural assist <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/10/Gold.png/revision/latest/scale-to-width-down/20?cb=20181122055358\" \t alt=\"Gold\"  \tclass=\"\" \t \tdata-image-key=\"Gold.png\" \tdata-image-name=\"Gold.png\" \t \t width=\"20\"  \t height=\"15\"  \t \t \t \t> gold. In addition, each enemy champion killed inside the X by an ally grants Pyke two stacks of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/01/%27Your_Cut%27_item.png/revision/latest/scale-to-width-down/20?cb=20180517191237\" \t alt=\"&amp;#039;Your Cut&amp;#039; item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"%27Your_Cut%27_item.png\" \tdata-image-name=\"&#39;Your Cut&#39; item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 'Your Cut'."
+    ]
+  }
+]

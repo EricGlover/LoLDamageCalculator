@@ -1,0 +1,207 @@
+[
+  {
+    "name": "Double Strike",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Master Yi gains a stack of Double Strike for every basic attack on-hit within 4 seconds of each other. At 3 stacks, Master Yi's next basic attack on-attack within 4 seconds consumes the stacks to strike twice, the second strike dealing 50% AD physical damage.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Double Strike.png",
+    "icons": [
+      "Double Strike.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Master Yi gains a stack of Double Strike for every basic attack on-hit within 4 seconds of each other. At 3 stacks, Master Yi's next basic attack on-attack within 4 seconds consumes the stacks to strike twice, the second strike dealing 50% AD physical damage.",
+      "The second strike applies on-attack and on-hit effects at full effect and is affected by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critical strike modifiers.",
+      "If Master Yi's primary target is killed before the second strike, he automatically attacks another enemy within 300 range.",
+      "The second strike can <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critically strike <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> structures."
+    ]
+  },
+  {
+    "name": "Alpha Strike",
+    "cost": [
+      50,
+      55,
+      60,
+      65,
+      70
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      18,
+      17,
+      16,
+      15,
+      14
+    ],
+    "description": "Active: Master Yi <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8c/Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20160608033548\" \t alt=\"Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Hallucinate.png\" \tdata-image-name=\"Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> vanishes and, after 0.231 seconds, marks the target enemy and then moves to mark the nearest <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible un-marked enemy within 600 units, recurring up to 3 times, once every 0.231 seconds.",
+    "leveling": "Physical Damage:»25 / 60 / 95 / 130 / 165 (+ 100% AD)«Monster Damage:»100 / 160 / 220 / 280 / 340 (+ 100% AD)«Monster Bonus Damage:75 / 100 / 125 / 150 / 175",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      25,
+      60,
+      95,
+      130,
+      165
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Alpha Strike.png",
+    "icons": [
+      "Alpha Strike.png"
+    ],
+    "levelings": [
+      "Physical Damage:»25 / 60 / 95 / 130 / 165 (+ 100% AD)«Monster Damage:»100 / 160 / 220 / 280 / 340 (+ 100% AD)«Monster Bonus Damage:75 / 100 / 125 / 150 / 175",
+      "Reduced Damage:»6.25 / 15 / 23.75 / 32.5 / 41.25 (+ 25% AD)«Reduced Monster Damage:25 / 40 / 55 / 70 / 85 (+ 25% AD)\nMaximum Single-Target Damage:»43.75 / 105 / 166.25 / 227.5 / 288.75 (+ 175% AD)«Max Monster Single-Target Damage:175 / 280 / 385 / 490 / 595 (+ 175% AD)"
+    ],
+    "descriptions": [
+      "Active: Master Yi <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8c/Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20160608033548\" \t alt=\"Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Hallucinate.png\" \tdata-image-name=\"Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> vanishes and, after 0.231 seconds, marks the target enemy and then moves to mark the nearest <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible un-marked enemy within 600 units, recurring up to 3 times, once every 0.231 seconds.",
+      "Upon finishing marking, or if there are no longer any targetable enemies, he <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reappears「 after 0.165 seconds 」「 1.087 seconds after the start of the cast with 4 bounces 」in front of his target's current location and deals physical damage to all marked enemies, increased against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters. If his target <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dies or gets too far away during the delay, he will reappear at the cast location instead.",
+      "If there are no other un-marked enemies in range, he may strike the same enemies again, dealing 25% damage instantly.",
+      "Alpha Strike's primary and lesser damage can <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critically strike for (60% + <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/15/Infinity_Edge_item.png/revision/latest/scale-to-width-down/20?cb=20180531105945\" \t alt=\"Infinity Edge item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Infinity_Edge_item.png\" \tdata-image-name=\"Infinity Edge item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 15%) AD bonus physical damage and (15% + <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/15/Infinity_Edge_item.png/revision/latest/scale-to-width-down/20?cb=20180531105945\" \t alt=\"Infinity Edge item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Infinity_Edge_item.png\" \tdata-image-name=\"Infinity Edge item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 3.75%) AD bonus physical damage respectively.",
+      "Basic attacks reduce Alpha Strike's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown by 1 second."
+    ]
+  },
+  {
+    "name": "Meditate",
+    "cost": [
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      28
+    ],
+    "description": "Active: Master Yi <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels for up to 4 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing himself every 0.5 seconds, increased by 0% − 100% (based on missing health).",
+    "leveling": "Minimum Healing Per Half Second:»15 / 25 / 35 / 45 / 55 (+ 12.5% AP)«Maximum Healing Per Half Second:30 / 50 / 70 / 90 / 110 (+ 25% AP)Minimum Total Healing:»120 / 200 / 280 / 360 / 440 (+ 100% AP)«Maximum Total Healing:240 / 400 / 560 / 720 / 880 (+ 200% AP)",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      15,
+      25,
+      35,
+      45,
+      55
+    ],
+    "ratios": [
+      {
+        "value": 12.5,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Meditate.png",
+    "icons": [
+      "Meditate.png"
+    ],
+    "levelings": [
+      "Minimum Healing Per Half Second:»15 / 25 / 35 / 45 / 55 (+ 12.5% AP)«Maximum Healing Per Half Second:30 / 50 / 70 / 90 / 110 (+ 25% AP)Minimum Total Healing:»120 / 200 / 280 / 360 / 440 (+ 100% AP)«Maximum Total Healing:240 / 400 / 560 / 720 / 880 (+ 200% AP)",
+      "Damage Reduction:»60 / 62.5 / 65 / 67.5 / 70%«Turret Damage Reduction:30 / 31.25 / 32.5 / 33.75 / 35%",
+      "Post-Channel Damage Reduction:»40 / 37.5 / 35 / 32.5 / 30%«Post-Channel Turret Damage Reduction:70 / 68.75 / 67.5 / 66.25 / 65%"
+    ],
+    "descriptions": [
+      "Active: Master Yi <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels for up to 4 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing himself every 0.5 seconds, increased by 0% − 100% (based on missing health).",
+      "While channeling, Master Yi reduces incoming damage, halved against turrets, pauses <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Wuju_Style.png/revision/latest/scale-to-width-down/20?cb=20170818192025\" \t alt=\"Wuju Style\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Wuju_Style.png\" \tdata-image-name=\"Wuju Style.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Wuju Style's and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/34/Highlander.png/revision/latest/scale-to-width-down/20?cb=20170818191955\" \t alt=\"Highlander\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Highlander.png\" \tdata-image-name=\"Highlander.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Highlander's duration, and grants one stack of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/65/Double_Strike.png/revision/latest/scale-to-width-down/20?cb=20170818191944\" \t alt=\"Double Strike\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Double_Strike.png\" \tdata-image-name=\"Double Strike.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Double Strike per second.",
+      "After the channel ends, Master Yi reduces incoming damage for another 0.25 seconds, with lesser effectiveness against non-turret damage but greater effectiveness vs turret damage. *",
+      "Meditate <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resets Master Yi's basic attack timer."
+    ]
+  },
+  {
+    "name": "Wuju Style",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      18,
+      17,
+      16,
+      15,
+      14
+    ],
+    "description": "Active: Master Yi empowers his sword, causing his basic attacks to deal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c0/Hybrid_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20171001102450\" \t alt=\"Hybrid penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration_icon.png\" \tdata-image-name=\"Hybrid penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus true damage for 5 seconds.",
+    "leveling": "True Damage:18 / 26 / 34 / 42 / 50 (+ 35% bonus AD)",
+    "skill": "E",
+    "damageType": "True",
+    "isProjectile": "",
+    "flatDamage": [
+      18,
+      26,
+      34,
+      42,
+      50
+    ],
+    "ratios": [
+      {
+        "value": 35,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Wuju Style.png",
+    "icons": [
+      "Wuju Style.png"
+    ],
+    "levelings": [
+      "True Damage:18 / 26 / 34 / 42 / 50 (+ 35% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Master Yi empowers his sword, causing his basic attacks to deal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c0/Hybrid_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20171001102450\" \t alt=\"Hybrid penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration_icon.png\" \tdata-image-name=\"Hybrid penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus true damage for 5 seconds."
+    ]
+  },
+  {
+    "name": "Highlander",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      85
+    ],
+    "description": "Passive: Champion <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Damage_rating.png/revision/latest/scale-to-width-down/20?cb=20170514053710\" \t alt=\"Damage rating\"  \tclass=\"\" \t \tdata-image-key=\"Damage_rating.png\" \tdata-image-name=\"Damage rating.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> takedowns reduce the current <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown of Master Yi's basic abilities by 70%.",
+    "leveling": "Bonus Attack Speed:25 / 35 / 45 / 55 / 65%\nBonus Movement Speed:35 / 40 / 45 / 50 / 55%",
+    "skill": "R",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      25,
+      35,
+      45,
+      55,
+      65
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "false",
+    "icons": [
+      "false",
+      "Highlander.png"
+    ],
+    "levelings": [
+      "Bonus Attack Speed:25 / 35 / 45 / 55 / 65%\nBonus Movement Speed:35 / 40 / 45 / 50 / 55%"
+    ],
+    "descriptions": [
+      "Passive: Champion <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Damage_rating.png/revision/latest/scale-to-width-down/20?cb=20170514053710\" \t alt=\"Damage rating\"  \tclass=\"\" \t \tdata-image-key=\"Damage_rating.png\" \tdata-image-name=\"Damage rating.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> takedowns reduce the current <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown of Master Yi's basic abilities by 70%.",
+      "Active: Master Yi <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Remove_Scurvy.png/revision/latest/scale-to-width-down/20?cb=20150707190028\" \t alt=\"Remove Scurvy\"  \tclass=\"\" \t \tdata-image-key=\"Remove_Scurvy.png\" \tdata-image-name=\"Remove Scurvy.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> cleanses himself of all <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Cripple_icon.png/revision/latest/scale-to-width-down/20?cb=20171202000853\" \t alt=\"Cripple icon\"  \tclass=\"\" \t \tdata-image-key=\"Cripple_icon.png\" \tdata-image-name=\"Cripple icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> cripples. For the next 7 seconds, he is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted, gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed, and becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a9/Slow_immune_2.png/revision/latest/scale-to-width-down/20?cb=20200327223234\" \t alt=\"Slow immune 2\"  \tclass=\"\" \t \tdata-image-key=\"Slow_immune_2.png\" \tdata-image-name=\"Slow immune 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow-immune and immune to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Cripple_icon.png/revision/latest/scale-to-width-down/20?cb=20171202000853\" \t alt=\"Cripple icon\"  \tclass=\"\" \t \tdata-image-key=\"Cripple_icon.png\" \tdata-image-name=\"Cripple icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> cripples.",
+      "While active, champion <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Damage_rating.png/revision/latest/scale-to-width-down/20?cb=20170514053710\" \t alt=\"Damage rating\"  \tclass=\"\" \t \tdata-image-key=\"Damage_rating.png\" \tdata-image-name=\"Damage rating.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> takedowns extend the duration of Highlander by 7 seconds."
+    ]
+  }
+]

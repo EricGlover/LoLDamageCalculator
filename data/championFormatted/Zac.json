@@ -1,6 +1,38 @@
 {
   "abilities": [
     {
+      "name": "Cell Division",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate - The Secret Weapon: Zac gains increased percentage size equal to 1.5% of his bonus health, capped at 35% increased size at 2333.33 bonus health. Zac's size also reduces based on his missing health, down to 70% total size while at 0% health.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "false",
+      "icons": [
+        "false",
+        "Cell Division.png",
+        "Cell Division 2.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate - The Secret Weapon: Zac gains increased percentage size equal to 1.5% of his bonus health, capped at 35% increased size at 2333.33 bonus health. Zac's size also reduces based on his missing health, down to 70% total size while at 0% health.",
+        "Innate: Every time Zac damages at least one enemy with an ability, he sheds, depending on the ability, a number of chunks of himself to a nearby location, landing towards visible nearby enemy champions and lasting for 6 seconds.",
+        "Both Zac and his enemies can interact with these chunks by being within 50 units of them: Zac can move over them to consume them, restoring 4 / 5 / 6 / 7% (based on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/32/Let%27s_Bounce%21.png/revision/latest/scale-to-width-down/20?cb=20170818200420\" \t alt=\"Let&amp;#039;s Bounce!\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Let%27s_Bounce%21.png\" \tdata-image-name=\"Let&#39;s Bounce!.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Let's Bounce!'s rank) of his maximum health; enemies can move over them to destroy them.",
+        "Periodically, upon taking <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> fatal damage, Zac <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/45/Rebirth.png/revision/latest/scale-to-width-down/20?cb=20160420184226\" \t alt=\"Rebirth\"  \tclass=\"\" \t \tdata-image-key=\"Rebirth.png\" \tdata-image-name=\"Rebirth.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dispels all <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3e/Malefic_Visions.png/revision/latest/scale-to-width-down/20?cb=20170217194900\" \t alt=\"Malefic Visions\"  \tclass=\"\" \t \tdata-image-key=\"Malefic_Visions.png\" \tdata-image-name=\"Malefic Visions.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> debuffs, sets his current health to 50%, and temporarily becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable, creating 4 uncontrollable bloblets that are briefly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable while splitting, each having 12% of Zac's maximum health, which move to Zac's final location over 8 / 7 / 6 / 5 / 4 (based on level) seconds. If any of these bloblets remain alive until the end of the duration, Zac <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Revival_icon.png/revision/latest/scale-to-width-down/20?cb=20170714051127\" \t alt=\"Revival icon\"  \tclass=\"\" \t \tdata-image-key=\"Revival_icon.png\" \tdata-image-name=\"Revival icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> recombines and returns at 10 - 50% maximum health.",
+        "Upon splitting, the bloblets stop upon colliding with terrain."
+      ]
+    },
+    {
       "name": "Stretching Strikes",
       "cost": [
         8
@@ -13,7 +45,7 @@
         10,
         9
       ],
-      "description": "Active: Zac stretches his left arm in the target direction, dealing <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing the first enemy hit by 40% for 0.5 seconds, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Focused_Resolve.png/revision/latest/scale-to-width-down/20?cb=20130929122918\" \t alt=\"Focused Resolve\"  \tclass=\"\" \t \tdata-image-key=\"Focused_Resolve.png\" \tdata-image-name=\"Focused Resolve.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> attaching it to the target for 2 seconds and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20150808161653\" \t alt=\"True Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"True_Sight_icon.png\" \tdata-image-name=\"True Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them for the duration while the tether persists.",
+      "description": "Active: Zac stretches his left arm in the target direction, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing the first enemy hit by 40% for 0.5 seconds, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Focused_Resolve.png/revision/latest/scale-to-width-down/20?cb=20130929122918\" \t alt=\"Focused Resolve\"  \tclass=\"\" \t \tdata-image-key=\"Focused_Resolve.png\" \tdata-image-name=\"Focused Resolve.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> attaching it to the target for 2 seconds and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20150808161653\" \t alt=\"True Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"True_Sight_icon.png\" \tdata-image-name=\"True Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them for the duration while the tether persists.",
       "leveling": "Magic Damage:»40 / 55 / 70 / 85 / 100 (+ 30% AP) (+ 2.5% of Zac's maximum health)«Total Magic Damage:80 / 110 / 140 / 170 / 200 (+ 60% AP) (+ 5% of Zac's maximum health)",
       "skill": "Q",
       "damageType": "Magic",
@@ -31,7 +63,20 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Stretching Strikes.png",
+      "icons": [
+        "Stretching Strikes.png"
+      ],
+      "levelings": [
+        "Magic Damage:»40 / 55 / 70 / 85 / 100 (+ 30% AP) (+ 2.5% of Zac's maximum health)«Total Magic Damage:80 / 110 / 140 / 170 / 200 (+ 60% AP) (+ 5% of Zac's maximum health)"
+      ],
+      "descriptions": [
+        "Active: Zac stretches his left arm in the target direction, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing the first enemy hit by 40% for 0.5 seconds, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Focused_Resolve.png/revision/latest/scale-to-width-down/20?cb=20130929122918\" \t alt=\"Focused Resolve\"  \tclass=\"\" \t \tdata-image-key=\"Focused_Resolve.png\" \tdata-image-name=\"Focused Resolve.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> attaching it to the target for 2 seconds and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20150808161653\" \t alt=\"True Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"True_Sight_icon.png\" \tdata-image-name=\"True Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them for the duration while the tether persists.",
+        "While his arm is attached, his next basic attack is replaced by a second Stretching Strike and gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 200 range, dealing the same magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow after a 0.25-second cast time, but without being able to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critically strike.",
+        "If the two Stretching Strikes affect different targets, he <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> roots both targets for 0.5 seconds and then <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> flings them towards each other for 300 range.",
+        "If the two targets are near each other, they're instead slammed against each other, both taking the initial magic damage and applied the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow again and also becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunned for 0.25 seconds."
+      ]
     },
     {
       "name": "Unstable Matter",
@@ -84,7 +129,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Unstable Matter.png",
+      "icons": [
+        "Unstable Matter.png"
+      ],
+      "levelings": [
+        "Magic Damage:»25 / 40 / 55 / 70 / 85 (+ 4 / 5 / 6 / 7 / 8% (+ 2% per 100 AP) of target's maximum health)«Capped Damage:225 / 240 / 255 / 270 / 285"
+      ],
+      "descriptions": [
+        "Active: Zac's body explodes outward, dealing magic damage to all nearby enemies, capped against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+        "Zac grants <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosting to monsters hit for 5 seconds.",
+        "Unstable Matter's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown is reduced by 1 second every time Zac picks up a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/59/Cell_Division.png/revision/latest/scale-to-width-down/20?cb=20170818200403\" \t alt=\"Cell Division\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cell_Division.png\" \tdata-image-name=\"Cell Division.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cell Division chunk."
+      ]
     },
     {
       "name": "Elastic Slingshot",
@@ -112,7 +169,20 @@
         1.3
       ],
       "ratios": [],
-      "castTime": null
+      "castTime": null,
+      "icon": "Elastic Slingshot.png",
+      "icons": [
+        "Elastic Slingshot.png"
+      ],
+      "levelings": [
+        "Maximum Range Channel Duration:0.9 / 1 / 1.1 / 1.2 / 1.3",
+        "Magic Damage:60 / 110 / 160 / 210 / 260 (+ 90% AP)"
+      ],
+      "descriptions": [
+        "Active: Zac <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charges up to 4.5 seconds, increasing Elastic Slingshot's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> range over a cone in the target direction. Elastic Slingshot can be recast at any time within its duration.",
+        "If Zac cancels the channel himself, or the charge completes without reactivation, 50% of Elastic Slingshot's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> health cost and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown are refunded.",
+        "Recast: Zac <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target location, dealing magic damage to all nearby enemies on impact and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking them up for 0.5 − 1 (based on duration of the charge) seconds."
+      ]
     },
     {
       "name": "Let's Bounce!",
@@ -140,7 +210,21 @@
         7
       ],
       "ratios": [],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Let's Bounce!.png",
+      "icons": [
+        "Let's Bounce!.png"
+      ],
+      "levelings": [
+        "Chunk Healing:5 / 5.5 / 6 / 6.5 / 7% of his maximum health",
+        "Magic Damage:»140 / 175 / 210 / 245 / 280 (+ 40% AP)«Reduced Damage:»70 / 87.5 / 105 / 122.5 / 140 (+ 20% AP)«Maximum Single-Target Damage:350 / 437.5 / 525 / 612.5 / 700 (+ 100% AP)"
+      ],
+      "descriptions": [
+        "Passive: Increases <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/59/Cell_Division.png/revision/latest/scale-to-width-down/20?cb=20170818200403\" \t alt=\"Cell Division\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cell_Division.png\" \tdata-image-name=\"Cell Division.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cell Division's healing from chunks.",
+        "Active: Zac bounces 4 times over 3 seconds, gaining 20% − 50% (based on duration) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed, but becoming unable to declare basic attacks and use <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5e/Stretching_Strikes.png/revision/latest/scale-to-width-down/20?cb=20170818200433\" \t alt=\"Stretching Strikes\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Stretching_Strikes.png\" \tdata-image-name=\"Stretching Strikes.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Stretching Strikes and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/be/Elastic_Slingshot.png/revision/latest/scale-to-width-down/20?cb=20170818200352\" \t alt=\"Elastic Slingshot\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Elastic_Slingshot.png\" \tdata-image-name=\"Elastic Slingshot.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Elastic Slingshot for the duration. There is a 1-second delay between each bounce.",
+        "Each bounce deals magic damage to all nearby enemies, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking them back for 1 second and subsequently <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 20% for the same duration.",
+        "Enemies can be damaged by multiple bounces, with each beyond the first dealing 50% damage but not <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacing them."
+      ]
     }
   ],
   "id": "Zac",

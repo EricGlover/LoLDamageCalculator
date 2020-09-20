@@ -1,6 +1,35 @@
 {
   "abilities": [
     {
+      "name": "Power Chord",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate - Aura: Sona's basic abilities each generate a unique aura for 3 seconds that empowers her and all allied <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions who enter its radius, also incurring a 0.5 seconds period during which she cannot cast her other basic abilities.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Power Chord 2.png",
+      "icons": [
+        "Power Chord 2.png",
+        "Power Chord.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate - Aura: Sona's basic abilities each generate a unique aura for 3 seconds that empowers her and all allied <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions who enter its radius, also incurring a 0.5 seconds period during which she cannot cast her other basic abilities.",
+        "Innate - Power Chord: After casting 3 basic abilities, Sona's next basic attack becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Excessive_Force_2.png/revision/latest/scale-to-width-down/20?cb=20160608034953\" \t alt=\"Excessive Force 2\"  \tclass=\"\" \t \tdata-image-key=\"Excessive_Force_2.png\" \tdata-image-name=\"Excessive Force 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unstoppable, deals 20 −  240 (based on level) (+ 20% AP) bonus magic damage and applies an additional effect depending on the last basic ability cast.",
+        "Power Chord <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resets Sona's basic attack timer."
+      ]
+    },
+    {
       "name": "Hymn of Valor",
       "cost": [
         75,
@@ -34,7 +63,22 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Hymn of Valor.png",
+      "icons": [
+        "Hymn of Valor.png",
+        "Tempo Hymn of Valor.png"
+      ],
+      "levelings": [
+        "Magic Damage:40 / 70 / 100 / 130 / 160 (+ 40% AP)",
+        "Bonus Magic Damage:10 / 15 / 20 / 25 / 30 (+ 20% AP)"
+      ],
+      "descriptions": [
+        "Active: Sona sends out bolts of sound that deal magic damage to the two nearest <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible enemies, prioritizing champions.",
+        "Aura: Sona and tagged allied champions deal bonus magic damage on their next basic attack within 3 seconds.",
+        "Granting an ally (other than herself) the aura refunds 30 mana per cast.",
+        "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/77/Power_Chord.png/revision/latest/scale-to-width-down/20?cb=20170818194652\" \t alt=\"Power Chord\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Power_Chord.png\" \tdata-image-name=\"Power Chord.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Power Chord – Staccato: Power Chord deals「 40% bonus magic damage. 」「 28 −  336 (based on level) (+ 28% AP) total magic damage. 」"
+      ]
     },
     {
       "name": "Aria of Perseverance",
@@ -70,7 +114,22 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Aria of Perseverance.png",
+      "icons": [
+        "Aria of Perseverance.png",
+        "Tempo Aria of Perseverance.png"
+      ],
+      "levelings": [
+        "Heal:30 / 50 / 70 / 90 / 110 (+ 20% AP)",
+        "Shield Strength:25 / 50 / 75 / 100 / 125 (+ 30% AP)"
+      ],
+      "descriptions": [
+        "Active: Sona <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals herself and the most wounded nearby allied champion.",
+        "Aura: Sona and tagged allied champions receive a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shield lasting up to 1.5 seconds.",
+        "Granting an ally (other than herself) the aura refunds 30 mana per cast.",
+        "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/77/Power_Chord.png/revision/latest/scale-to-width-down/20?cb=20170818194652\" \t alt=\"Power Chord\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Power_Chord.png\" \tdata-image-name=\"Power Chord.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Power Chord – Diminuendo: Power Chord reduces its target's size by 8% and damage output by 25% (+ 4% per 100 AP) for 3 seconds."
+      ]
     },
     {
       "name": "Song of Celerity",
@@ -106,7 +165,21 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Song of Celerity.png",
+      "icons": [
+        "Song of Celerity.png",
+        "Tempo Song of Celerity.png"
+      ],
+      "levelings": [
+        "Aura Bonus Movement Speed:10 / 11 / 12 / 13 / 14% (+ 2% per 100 AP)"
+      ],
+      "descriptions": [
+        "Active: Sona gains 20% (+ 2% per 100 AP) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed for 3 seconds, extended to up to 7 seconds if she doesn't take damage.",
+        "Aura: Tagged allied champions gain bonus movement speed for 3 seconds.",
+        "Granting an ally (other than herself) the aura refunds 30 mana per cast.",
+        "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/77/Power_Chord.png/revision/latest/scale-to-width-down/20?cb=20170818194652\" \t alt=\"Power Chord\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Power_Chord.png\" \tdata-image-name=\"Power Chord.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Power Chord – Tempo: Power Chord <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows its target by 40% (+ 4% per 100 AP) for 2 seconds, capped at a maximum of 99%."
+      ]
     },
     {
       "name": "Crescendo",
@@ -130,7 +203,20 @@
         40
       ],
       "ratios": [],
-      "castTime": 0.2
+      "castTime": 0.2,
+      "icon": "false",
+      "icons": [
+        "false",
+        "Crescendo.png"
+      ],
+      "levelings": [
+        "Basic Ability Base Cooldown Reduction:10 / 25 / 40%",
+        "Magic Damage:150 / 250 / 350 (+ 50% AP)"
+      ],
+      "descriptions": [
+        "Passive: Reduces the base <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown of Sona's basic abilities.",
+        "Active: Sona plays an irresistible chord in the target direction, dealing magic damage to all enemy champions struck and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning them for 1.5 seconds."
+      ]
     }
   ],
   "id": "Sona",

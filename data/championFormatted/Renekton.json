@@ -1,5 +1,204 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Reign of Anger",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Renekton generates <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 5 Fury each time he lands a basic attack on an enemy, and loses 4 Fury per second if he hasn't dealt or taken damage in the last 12 seconds.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Reign of Anger.png",
+      "icons": [
+        "Reign of Anger.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Renekton generates <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 5 Fury each time he lands a basic attack on an enemy, and loses 4 Fury per second if he hasn't dealt or taken damage in the last 12 seconds.",
+        "When at or above 50 Fury, Renekton's next basic ability consumes 50 Fury to enhance its effects. The enhanced ability does not generate Fury.",
+        "Renekton generates 50% bonus Fury from all sources while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> below 50% of his maximum health."
+      ]
+    },
+    {
+      "name": "Cull the Meek",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        8
+      ],
+      "description": "Active: Renekton deals physical damage to all nearby enemies and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals himself for each enemy hit, up to a cap.",
+      "leveling": "Physical Damage:»65 / 100 / 135 / 170 / 205 (+ 80% bonus AD)«Enhanced Physical Damage:100 / 150 / 200 / 250 / 300 (+ 120% bonus AD)\nHealing Cap:»50 / 75 / 100 / 125 / 150«Enhanced Healing Cap:200 / 300 / 400 / 500 / 600\nNon-Champion Healing:»3 / 4.5 / 6 / 7.5 / 9 (+ 4% bonus AD)«Enhanced Non-Champion Healing:9 / 13.5 / 18 / 22.5 / 27 (+ 12% bonus AD)",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        65,
+        100,
+        135,
+        170,
+        205
+      ],
+      "ratios": [
+        {
+          "value": 80,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Cull the Meek.png",
+      "icons": [
+        "Cull the Meek.png"
+      ],
+      "levelings": [
+        "Physical Damage:»65 / 100 / 135 / 170 / 205 (+ 80% bonus AD)«Enhanced Physical Damage:100 / 150 / 200 / 250 / 300 (+ 120% bonus AD)\nHealing Cap:»50 / 75 / 100 / 125 / 150«Enhanced Healing Cap:200 / 300 / 400 / 500 / 600\nNon-Champion Healing:»3 / 4.5 / 6 / 7.5 / 9 (+ 4% bonus AD)«Enhanced Non-Champion Healing:9 / 13.5 / 18 / 22.5 / 27 (+ 12% bonus AD)",
+        "Champion Healing:»12 / 18 / 24 / 30 / 36 (+ 16% bonus AD)«Enhanced Champion Healing:36 / 54 / 72 / 90 / 108 (+ 48% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Renekton deals physical damage to all nearby enemies and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals himself for each enemy hit, up to a cap.",
+        "Against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions, the healing is increased by 300%.",
+        "Renekton generates <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 2.5 Fury for each non-champion hit and 10 Fury for each champion hit, with the Fury generated per cast capped at 30.",
+        "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/fa/Reign_of_Anger.png/revision/latest/scale-to-width-down/20?cb=20180301214818\" \t alt=\"Reign of Anger\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Reign_of_Anger.png\" \tdata-image-name=\"Reign of Anger.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Reign of Anger: Cull the Meek deals additional damage, increases the total healing by 200%, and the healing cap by 300%.",
+        "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ad/Slice.png/revision/latest/scale-to-width-down/20?cb=20180301214849\" \t alt=\"Slice\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Slice.png\" \tdata-image-name=\"Slice.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Slice and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4c/Dice.png/revision/latest/scale-to-width-down/20?cb=20171221045308\" \t alt=\"Dice\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dice.png\" \tdata-image-name=\"Dice.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dice cannot be cast for 0.25 seconds after Cull the Meek's activation."
+      ]
+    },
+    {
+      "name": "Ruthless Predator",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        13,
+        12,
+        11,
+        10,
+        9
+      ],
+      "description": "Active: Renekton enhances his cleaver, causing his next basic attack within 7 seconds to have a 0.25-second cast time, gain <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 50 bonus range and strike his target twice, dealing modified physical damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning them for 0.75 seconds. Each slash applies on-hit effects and grants <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Fury. Striking an enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion grants 10 bonus Fury.",
+      "leveling": "Total Physical Damage:»10 / 30 / 50 / 70 / 90 (+ 150% AD)«Physical Damage Per Hit:5 / 15 / 25 / 35 / 45 (+ 75% AD)",
+      "skill": "W",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        10,
+        30,
+        50,
+        70,
+        90
+      ],
+      "ratios": [
+        {
+          "value": 150,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Ruthless Predator.png",
+      "icons": [
+        "Ruthless Predator.png"
+      ],
+      "levelings": [
+        "Total Physical Damage:»10 / 30 / 50 / 70 / 90 (+ 150% AD)«Physical Damage Per Hit:5 / 15 / 25 / 35 / 45 (+ 75% AD)",
+        "Total Enhanced Damage:15 / 45 / 75 / 105 / 135 (+ 225% AD)"
+      ],
+      "descriptions": [
+        "Active: Renekton enhances his cleaver, causing his next basic attack within 7 seconds to have a 0.25-second cast time, gain <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 50 bonus range and strike his target twice, dealing modified physical damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning them for 0.75 seconds. Each slash applies on-hit effects and grants <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Fury. Striking an enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion grants 10 bonus Fury.",
+        "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/fa/Reign_of_Anger.png/revision/latest/scale-to-width-down/20?cb=20180301214818\" \t alt=\"Reign of Anger\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Reign_of_Anger.png\" \tdata-image-name=\"Reign of Anger.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Reign of Anger: Renekton destroys damage-mitigating <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields on the target before striking them 3 times, dealing 50% bonus damage and increasing the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun duration to 1.5 seconds.",
+        "Ruthless Predator <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resets Renekton's basic attack timer."
+      ]
+    },
+    {
+      "name": "Slice",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "description": "Active: Renekton <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction, dealing physical damage to all enemies he passes through.",
+      "leveling": "Physical Damage:40 / 70 / 100 / 130 / 160 (+ 90% bonus AD)",
+      "skill": "E",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        40,
+        70,
+        100,
+        130,
+        160
+      ],
+      "ratios": [
+        {
+          "value": 90,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Slice.png",
+      "icons": [
+        "Slice.png"
+      ],
+      "levelings": [
+        "Physical Damage:40 / 70 / 100 / 130 / 160 (+ 90% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Renekton <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction, dealing physical damage to all enemies he passes through.",
+        "Hitting an enemy allows Renekton to cast Dice within the next 4 seconds."
+      ]
+    },
+    {
+      "name": "Dominus",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        120
+      ],
+      "description": "Active: Renekton empowers himself for 15 seconds, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus health, 20% increased size, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 25 bonus range and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 20 Fury.",
+      "leveling": "Bonus Health:250 / 375 / 500 / 625 / 750",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        250,
+        375,
+        500,
+        625,
+        750
+      ],
+      "ratios": [],
+      "castTime": 0.25,
+      "icon": "Dominus.png",
+      "icons": [
+        "Dominus.png"
+      ],
+      "levelings": [
+        "Bonus Health:250 / 375 / 500 / 625 / 750",
+        "Magic Damage Per Half Second:»20 / 30 / 40 / 50 / 60 (+ 10% AP)«Total Magic Damage:600 / 900 / 1200 / 1500 / 1800 (+ 300% AP)"
+      ],
+      "descriptions": [
+        "Active: Renekton empowers himself for 15 seconds, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus health, 20% increased size, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 25 bonus range and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 20 Fury.",
+        "For the duration, he deals magic damage every 0.5 seconds to all nearby enemies and generates 5 Fury per second, up to a maximum of 75 Fury."
+      ]
+    }
+  ],
   "id": "Renekton",
   "key": "58",
   "name": "Renekton",

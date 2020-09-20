@@ -1,0 +1,188 @@
+[
+  {
+    "name": "More Sparkles!",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: After casting an ability, Zoe's next basic attack or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Spell_Thief.png/revision/latest/scale-to-width-down/20?cb=20171221181743\" \t alt=\"Spell Thief\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spell_Thief.png\" \tdata-image-name=\"Spell Thief.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell Thief bubble within 5 seconds becomes a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Projectile.png/revision/latest/scale-to-width-down/20?cb=20150816082407\" \t alt=\"Projectile\"  \tclass=\"\" \t \tdata-image-key=\"Projectile.png\" \tdata-image-name=\"Projectile.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> non-projectile and deals 16 − 130 (based on level) (+ 20% AP) bonus magic damage.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Magic",
+    "isProjectile": "False",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "More Sparkles!.png",
+    "icons": [
+      "More Sparkles!.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: After casting an ability, Zoe's next basic attack or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e8/Spell_Thief.png/revision/latest/scale-to-width-down/20?cb=20171221181743\" \t alt=\"Spell Thief\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spell_Thief.png\" \tdata-image-name=\"Spell Thief.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell Thief bubble within 5 seconds becomes a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Projectile.png/revision/latest/scale-to-width-down/20?cb=20150816082407\" \t alt=\"Projectile\"  \tclass=\"\" \t \tdata-image-key=\"Projectile.png\" \tdata-image-name=\"Projectile.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> non-projectile and deals 16 − 130 (based on level) (+ 20% AP) bonus magic damage."
+    ]
+  },
+  {
+    "name": "Paddle Star",
+    "cost": [
+      50,
+      55,
+      60,
+      65,
+      70
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      8,
+      8,
+      7,
+      7,
+      6
+    ],
+    "description": "Active: Zoe shoots a star in the target direction that collides with the first enemy hit, dealing magic damage in a small area, reduced to 80% to enemies hit beyond the first. The total damage is increased by 0% − 150% (based on distance traveled).",
+    "leveling": "Minimum Magic Damage:»7 − 50 (based on level) (+ 50 / 80 / 110 / 140 / 170) (+ 60% AP)«Maximum Magic Damage:17.5 − 125 (based on level) (+ 125 / 200 / 275 / 350 / 425) (+ 150% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      7,
+      50,
+      50,
+      80,
+      110
+    ],
+    "ratios": [],
+    "castTime": 0.25,
+    "icon": "Paddle Star.png",
+    "icons": [
+      "Paddle Star.png",
+      "Paddle Star 2.png"
+    ],
+    "levelings": [
+      "Minimum Magic Damage:»7 − 50 (based on level) (+ 50 / 80 / 110 / 140 / 170) (+ 60% AP)«Maximum Magic Damage:17.5 − 125 (based on level) (+ 125 / 200 / 275 / 350 / 425) (+ 150% AP)"
+    ],
+    "descriptions": [
+      "Active: Zoe shoots a star in the target direction that collides with the first enemy hit, dealing magic damage in a small area, reduced to 80% to enemies hit beyond the first. The total damage is increased by 0% − 150% (based on distance traveled).",
+      "If the star does not hit an enemy, it lingers at maximum range for 1 second, allowing Paddle Star to be recast after 0.25 seconds in the duration.",
+      "Recast: Zoe redirects the star to a new location near her, resetting its damage modifier on cast. The redirected star can travel beyond the new target location, continuing forward until it moves more than 800 units from Zoe.",
+      "Paddle Star's recast can be used while affected by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crowd control."
+    ]
+  },
+  {
+    "name": "Spell Thief",
+    "cost": [
+      null
+    ],
+    "costType": "No cost",
+    "coolDown": [
+      0
+    ],
+    "description": "Passive - Spell Thief: Whenever enemy champions cast a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8e/Summoner_spell_icon.png/revision/latest/scale-to-width-down/20?cb=20181118191801\" \t alt=\"Summoner spell icon\"  \tclass=\"\" \t \tdata-image-key=\"Summoner_spell_icon.png\" \tdata-image-name=\"Summoner spell icon.png\" \t \t width=\"20\"  \t height=\"11\"  \t \t \t \t> summoner spell or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a4/Active_ability_item_icon.png/revision/latest/scale-to-width-down/20?cb=20181123012001\" \t alt=\"Active ability item icon\"  \tclass=\"\" \t \tdata-image-key=\"Active_ability_item_icon.png\" \tdata-image-name=\"Active ability item icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> item active, they drop the corresponding <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6a/Spell_Thief_Minimap.png/revision/latest?cb=20181123010411\" \t alt=\"Spell Thief Minimap\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Thief_Minimap.png\" \tdata-image-name=\"Spell Thief Minimap.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell Shard onto the ground that grants <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight over a 100-radius area and remains for 40 seconds. Some enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions spawn with random Spell Shards that only drop to the ground for 20 seconds if killed by Zoe.",
+    "leveling": "Bonus Movement Speed:30 / 40 / 50 / 60 / 70%Bonus Movement Speed Duration:2 / 2.25 / 2.5 / 2.75 / 3",
+    "skill": "W",
+    "damageType": "Varied",
+    "isProjectile": "Special",
+    "flatDamage": [
+      30,
+      40,
+      50,
+      60,
+      70
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Spell Thief.png",
+    "icons": [
+      "Spell Thief.png"
+    ],
+    "levelings": [
+      "Bonus Movement Speed:30 / 40 / 50 / 60 / 70%Bonus Movement Speed Duration:2 / 2.25 / 2.5 / 2.75 / 3",
+      "Magic Damage Per Orb:»25 / 35 / 45 / 55 / 65 (+ 13.3% AP)«Total Magic Damage:75 / 105 / 135 / 165 / 195 (+ 40% AP)"
+    ],
+    "descriptions": [
+      "Passive - Spell Thief: Whenever enemy champions cast a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8e/Summoner_spell_icon.png/revision/latest/scale-to-width-down/20?cb=20181118191801\" \t alt=\"Summoner spell icon\"  \tclass=\"\" \t \tdata-image-key=\"Summoner_spell_icon.png\" \tdata-image-name=\"Summoner spell icon.png\" \t \t width=\"20\"  \t height=\"11\"  \t \t \t \t> summoner spell or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a4/Active_ability_item_icon.png/revision/latest/scale-to-width-down/20?cb=20181123012001\" \t alt=\"Active ability item icon\"  \tclass=\"\" \t \tdata-image-key=\"Active_ability_item_icon.png\" \tdata-image-name=\"Active ability item icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> item active, they drop the corresponding <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6a/Spell_Thief_Minimap.png/revision/latest?cb=20181123010411\" \t alt=\"Spell Thief Minimap\"  \tclass=\"\" \t \tdata-image-key=\"Spell_Thief_Minimap.png\" \tdata-image-name=\"Spell Thief Minimap.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spell Shard onto the ground that grants <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight over a 100-radius area and remains for 40 seconds. Some enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions spawn with random Spell Shards that only drop to the ground for 20 seconds if killed by Zoe.",
+      "Collecting a Spell Shard allows Zoe to activate Spell Thief within the next 60 seconds. She can replace her current Spell Thief active by moving directly onto another Spell Shard.",
+      "Active: Zoe mimics the active of the collected Spell Shard.",
+      "Passive - Wheeeee: Casting Spell Thief or one of her own summoner spells grants Zoe <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed for the next few seconds, and summons three bubbles that orbit her for the next 10 seconds.",
+      "If Zoe is not <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> immobilized she hurls one bubble at a time at the nearest enemy in range, prioritizing her attack target, dealing magic damage."
+    ]
+  },
+  {
+    "name": "Sleepy Trouble Bubble",
+    "cost": [
+      80
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      20,
+      18,
+      17,
+      15,
+      14
+    ],
+    "description": "Active: Zoe kicks a bubble in the target direction that bursts on the first enemy hit, or else forming a trap at maximum range for 5 seconds that arms after 0.8 seconds. The bubble can only move through terrain once but may do so indefinitely, can only move up to 650 units once outside terrain, and will fall short if it would enter terrain again.",
+    "leveling": "Maximum Slow:10 / 15 / 20 / 25 / 30%\nMagic Damage:60 / 100 / 140 / 180 / 220 (+ 40% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      10,
+      15,
+      20,
+      25,
+      30
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Sleepy Trouble Bubble.png",
+    "icons": [
+      "Sleepy Trouble Bubble.png"
+    ],
+    "levelings": [
+      "Maximum Slow:10 / 15 / 20 / 25 / 30%\nMagic Damage:60 / 100 / 140 / 180 / 220 (+ 40% AP)",
+      "Maximum Mixed Damage:120 / 200 / 280 / 360 / 440 (+ 80% AP)"
+    ],
+    "descriptions": [
+      "Active: Zoe kicks a bubble in the target direction that bursts on the first enemy hit, or else forming a trap at maximum range for 5 seconds that arms after 0.8 seconds. The bubble can only move through terrain once but may do so indefinitely, can only move up to 650 units once outside terrain, and will fall short if it would enter terrain again.",
+      "The bubble deals magic damage on contact with an enemy and renders them <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f7/Drowsy_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223936\" \t alt=\"Drowsy icon\"  \tclass=\"\" \t \tdata-image-key=\"Drowsy_icon.png\" \tdata-image-name=\"Drowsy icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> drowsy for 1.4 seconds, which gradually <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows them, after which they fall <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2f/Sleep_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223939\" \t alt=\"Sleep icon\"  \tclass=\"\" \t \tdata-image-key=\"Sleep_icon.png\" \tdata-image-name=\"Sleep icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> asleep for 2.25 seconds. Zoe will gain <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/db/Sweeper_Drone_icon.png/revision/latest/scale-to-width-down/20?cb=20171031123433\" \t alt=\"Sweeper Drone icon\"  \tclass=\"\" \t \tdata-image-key=\"Sweeper_Drone_icon.png\" \tdata-image-name=\"Sweeper Drone icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> obscured vision of the target while they're <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2f/Sleep_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223939\" \t alt=\"Sleep icon\"  \tclass=\"\" \t \tdata-image-key=\"Sleep_icon.png\" \tdata-image-name=\"Sleep icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> asleep if they are not <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible.",
+      "The next non-<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Blaze.png/revision/latest/scale-to-width-down/20?cb=20160420084402\" \t alt=\"Blaze\"  \tclass=\"\" \t \tdata-image-key=\"Blaze.png\" \tdata-image-name=\"Blaze.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> persistent non-<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minion damage taken by the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2f/Sleep_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223939\" \t alt=\"Sleep icon\"  \tclass=\"\" \t \tdata-image-key=\"Sleep_icon.png\" \tdata-image-name=\"Sleep icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sleeping target consumes the debuff to deal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c0/Hybrid_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20171001102450\" \t alt=\"Hybrid penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration_icon.png\" \tdata-image-name=\"Hybrid penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus true damage equal to the post-mitigation damage dealt, capped at Sleepy Trouble Bubble's damage. The bonus damage is dealt before the triggering damage."
+    ]
+  },
+  {
+    "name": "Portal Jump",
+    "cost": [
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      11,
+      8,
+      5
+    ],
+    "description": "Active: Zoe dives into a portal that she opens beneath her, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinking to the target location for 0.75 seconds, during which she sets her movement speed to a static 0 and has <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b5/Stealth_Ward_icon.png/revision/latest/scale-to-width-down/20?cb=20171031100405\" \t alt=\"Stealth Ward icon\"  \tclass=\"\" \t \tdata-image-key=\"Stealth_Ward_icon.png\" \tdata-image-name=\"Stealth Ward icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unobstructed vision. After 1 second, she blinks back to her cast location.",
+    "leveling": null,
+    "skill": "R",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": 0.25,
+    "icon": "Portal Jump.png",
+    "icons": [
+      "Portal Jump.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Active: Zoe dives into a portal that she opens beneath her, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinking to the target location for 0.75 seconds, during which she sets her movement speed to a static 0 and has <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b5/Stealth_Ward_icon.png/revision/latest/scale-to-width-down/20?cb=20171031100405\" \t alt=\"Stealth Ward icon\"  \tclass=\"\" \t \tdata-image-key=\"Stealth_Ward_icon.png\" \tdata-image-name=\"Stealth Ward icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unobstructed vision. After 1 second, she blinks back to her cast location.",
+      "Zoe is unable to basic attack and cast her abilities and movement spells for 0.75 seconds after casting Portal Jump and for 0.5 seconds after blinking back."
+    ]
+  }
+]

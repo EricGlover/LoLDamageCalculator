@@ -1,5 +1,196 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Adaptive Defenses",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Periodically, Camille's next basic attack against enemy champions is enhanced to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shield her for <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 20% of her maximum health for 2 seconds from either exclusively <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> physical damage or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> magic damage, based on which type the target has previously dealt most of against champions as well as on Camille's current <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> magic resistance.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Adaptive Defenses.png",
+      "icons": [
+        "Adaptive Defenses.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Periodically, Camille's next basic attack against enemy champions is enhanced to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shield her for <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 20% of her maximum health for 2 seconds from either exclusively <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> physical damage or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> magic damage, based on which type the target has previously dealt most of against champions as well as on Camille's current <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> magic resistance."
+      ]
+    },
+    {
+      "name": "Precision Protocol",
+      "cost": [
+        25
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        9,
+        8,
+        7,
+        6,
+        6
+      ],
+      "description": "Active: Camille's next basic attack becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Excessive_Force_2.png/revision/latest/scale-to-width-down/20?cb=20160608034953\" \t alt=\"Excessive Force 2\"  \tclass=\"\" \t \tdata-image-key=\"Excessive_Force_2.png\" \tdata-image-name=\"Excessive Force 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unstoppable, gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 50 bonus range, deals bonus physical damage and grants her <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed for 1 second.",
+      "leveling": "Bonus Physical Damage:20 / 25 / 30 / 35 / 40% ADBonus Movement Speed:20 / 25 / 30 / 35 / 40%",
+      "skill": "Q",
+      "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical damage / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Hybrid_penetration.png/revision/latest/scale-to-width-down/20?cb=20170514081634\" \t alt=\"Hybrid penetration\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration.png\" \tdata-image-name=\"Hybrid penetration.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> True damage",
+      "isProjectile": "",
+      "flatDamage": [
+        20,
+        25,
+        30,
+        35,
+        40
+      ],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Precision Protocol.png",
+      "icons": [
+        "Precision Protocol.png",
+        "Precision Protocol 2.png",
+        "Precision Protocol 3.png"
+      ],
+      "levelings": [
+        "Bonus Physical Damage:20 / 25 / 30 / 35 / 40% ADBonus Movement Speed:20 / 25 / 30 / 35 / 40%",
+        "Increased Mixed Damage:40 / 50 / 60 / 70 / 80% AD"
+      ],
+      "descriptions": [
+        "Active: Camille's next basic attack becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Excessive_Force_2.png/revision/latest/scale-to-width-down/20?cb=20160608034953\" \t alt=\"Excessive Force 2\"  \tclass=\"\" \t \tdata-image-key=\"Excessive_Force_2.png\" \tdata-image-name=\"Excessive Force 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unstoppable, gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 50 bonus range, deals bonus physical damage and grants her <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed for 1 second.",
+        "Precision Protocol can then be recast within the next 3.5 seconds at no extra cost.",
+        "Recast: Camille mimics the first cast's effects. If recast at least 1.5 seconds after the first attack, Precision Protocol's damage is doubled and 40% − 100% (based on level) of the total damage is dealt as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c0/Hybrid_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20171001102450\" \t alt=\"Hybrid penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration_icon.png\" \tdata-image-name=\"Hybrid penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> true damage.",
+        "Both casts of Precision Protocol <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reset Camille's basic attack timer. The attacks' animations can be cancelled by casting other abilities, but the attacks will still land."
+      ]
+    },
+    {
+      "name": "Tactical Sweep",
+      "cost": [
+        50,
+        55,
+        60,
+        65,
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        15,
+        13,
+        12,
+        10,
+        9
+      ],
+      "description": "Active: Camille sweeps her leg to deal physical damage to all enemies in a cone in the target direction after a 1.1-second delay, during which she's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted and is unable to declare basic attacks.",
+      "leveling": "Physical Damage:»70 / 100 / 130 / 160 / 190 (+ 60% bonus AD)«Non-Epic Monster Damage:35 / 50 / 65 / 80 / 95 (+ 30% bonus AD)",
+      "skill": "W",
+      "damageType": "Physical",
+      "isProjectile": "False",
+      "flatDamage": [
+        70,
+        100,
+        130,
+        160,
+        190
+      ],
+      "ratios": [
+        {
+          "value": 60,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Tactical Sweep.png",
+      "icons": [
+        "Tactical Sweep.png"
+      ],
+      "levelings": [
+        "Physical Damage:»70 / 100 / 130 / 160 / 190 (+ 60% bonus AD)«Non-Epic Monster Damage:35 / 50 / 65 / 80 / 95 (+ 30% bonus AD)",
+        "Outer Cone Bonus Damage:»6 / 6.5 / 7 / 7.5 / 8% (+ 3.3% per 100 bonus AD) of target's maximum health«Bonus Non-Epic Monster Damage:3 / 3.25 / 3.5 / 3.75 / 4% (+ 1.6% per 100 bonus AD) of target's maximum health"
+      ],
+      "descriptions": [
+        "Active: Camille sweeps her leg to deal physical damage to all enemies in a cone in the target direction after a 1.1-second delay, during which she's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted and is unable to declare basic attacks.",
+        "Enemies hit by the outer half of the cone take bonus physical damage and are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed by 80% that decays over 2 seconds, capped at 300 damage against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters. Camille is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healed for the bonus damage dealt against enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions.",
+        "Non-epic monsters take 50% damage from Tactical Sweep.",
+        "Other abilities can be cast during the animation without cancelling it."
+      ]
+    },
+    {
+      "name": "Hookshot",
+      "cost": [
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        16,
+        14,
+        13,
+        11,
+        10
+      ],
+      "description": "Active: Camille fires a grapple in the target direction. If the grapple collides with terrain, Camille will <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dash toward and bind to the terrain for 0.75 seconds. While bound, she gains the ability to cast <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Wall_Dive.png/revision/latest/scale-to-width-down/20?cb=20170215215244\" \t alt=\"Wall Dive\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Wall_Dive.png\" \tdata-image-name=\"Wall Dive.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Wall Dive.",
+      "leveling": null,
+      "skill": "E",
+      "damageType": "",
+      "isProjectile": "true",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Hookshot.png",
+      "icons": [
+        "Hookshot.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Active: Camille fires a grapple in the target direction. If the grapple collides with terrain, Camille will <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dash toward and bind to the terrain for 0.75 seconds. While bound, she gains the ability to cast <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Wall_Dive.png/revision/latest/scale-to-width-down/20?cb=20170215215244\" \t alt=\"Wall Dive\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Wall_Dive.png\" \tdata-image-name=\"Wall Dive.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Wall Dive.",
+        "Other abilities can be cast during the ability. Casting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f4/The_Hextech_Ultimatum.png/revision/latest/scale-to-width-down/20?cb=20170818002324\" \t alt=\"The Hextech Ultimatum\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"The_Hextech_Ultimatum.png\" \tdata-image-name=\"The Hextech Ultimatum.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> The Hextech Ultimatum will cancel the grapple."
+      ]
+    },
+    {
+      "name": "The Hextech Ultimatum",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        140,
+        115,
+        90
+      ],
+      "description": "Active: Camille becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leaps with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Unstoppable_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164427\" \t alt=\"Unstoppable icon\"  \tclass=\"\" \t \tdata-image-key=\"Unstoppable_icon.png\" \tdata-image-name=\"Unstoppable icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement immunity towards the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion over 0.6 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> disrupting their ongoing <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels.",
+      "leveling": "Zone Duration:2.5 / 3.25 / 4",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        2.5,
+        3.25,
+        4
+      ],
+      "ratios": [],
+      "castTime": null,
+      "icon": "The Hextech Ultimatum.png",
+      "icons": [
+        "The Hextech Ultimatum.png"
+      ],
+      "levelings": [
+        "Zone Duration:2.5 / 3.25 / 4",
+        "Bonus Magic Damage:5 / 10 / 15 (+ 4 / 6 / 8% of target's current health)"
+      ],
+      "descriptions": [
+        "Active: Camille becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leaps with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Unstoppable_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164427\" \t alt=\"Unstoppable icon\"  \tclass=\"\" \t \tdata-image-key=\"Unstoppable_icon.png\" \tdata-image-name=\"Unstoppable icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement immunity towards the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion over 0.6 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> disrupting their ongoing <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels.",
+        "When she lands, she becomes targetable again and creates a hexagonal zone around the target's current location for a duration, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking away all other nearby enemies on impact.",
+        "The target cannot escape the zone through any means. While within the zone, Camille's basic attacks deal bonus magic damage.",
+        "The Hextech Ultimatum ends automatically within 1 second if Camille leaves the area or dies."
+      ]
+    }
+  ],
   "id": "Camille",
   "key": "164",
   "name": "Camille",

@@ -1,6 +1,33 @@
 {
   "abilities": [
     {
+      "name": "Fury of the Dragonborn",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Shyvana deals 20% bonus physical and magic damage to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c9/DragonSquare.png/revision/latest/scale-to-width-down/20?cb=20140620025407\" \t alt=\"DragonSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"DragonSquare.png\" \tdata-image-name=\"DragonSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dragons.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Fury of the Dragonborn.png",
+      "icons": [
+        "Fury of the Dragonborn.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Shyvana deals 20% bonus physical and magic damage to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c9/DragonSquare.png/revision/latest/scale-to-width-down/20?cb=20140620025407\" \t alt=\"DragonSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"DragonSquare.png\" \tdata-image-name=\"DragonSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dragons.",
+        "Additionally, Shyvana starts with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 5 bonus armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 5 bonus magic resistance, which is permanently increased by 5 for every elemental drake (<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/47/Cloud_DrakeSquare.png/revision/latest/scale-to-width-down/20?cb=20170408123837\" \t alt=\"Cloud DrakeSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cloud_DrakeSquare.png\" \tdata-image-name=\"Cloud DrakeSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cloud Drake, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a0/Infernal_DrakeSquare.png/revision/latest/scale-to-width-down/20?cb=20170408124043\" \t alt=\"Infernal DrakeSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Infernal_DrakeSquare.png\" \tdata-image-name=\"Infernal DrakeSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Infernal Drake, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/00/Mountain_DrakeSquare.png/revision/latest/scale-to-width-down/20?cb=20170408124115\" \t alt=\"Mountain DrakeSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mountain_DrakeSquare.png\" \tdata-image-name=\"Mountain DrakeSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mountain Drake, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Ocean_DrakeSquare.png/revision/latest/scale-to-width-down/20?cb=20170408124213\" \t alt=\"Ocean DrakeSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Ocean_DrakeSquare.png\" \tdata-image-name=\"Ocean DrakeSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Ocean Drake) and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/34/Elder_DragonSquare.png/revision/latest/scale-to-width-down/20?cb=20170408123953\" \t alt=\"Elder DragonSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Elder_DragonSquare.png\" \tdata-image-name=\"Elder DragonSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Elder Dragon her team slays."
+      ]
+    },
+    {
       "name": "Twin Bite",
       "cost": [
         null
@@ -26,7 +53,21 @@
         80
       ],
       "ratios": [],
-      "castTime": null
+      "castTime": null,
+      "icon": "Twin Bite.png",
+      "icons": [
+        "Twin Bite.png"
+      ],
+      "levelings": [
+        "Bonus Physical Damage:20 / 35 / 50 / 65 / 80% AD"
+      ],
+      "descriptions": [
+        "Active: Shyvana's next basic attack within 6 seconds causes her to strike again after 0.25 seconds, dealing bonus physical damage.",
+        "The second strike applies on-hit and on-attack effects and is affected by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critical strike modifiers.",
+        "Shyvana's basic attacks reduce Twin Bite's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown by 0.5 seconds on-hit.",
+        "Twin Bite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resets Shyvana's basic attack timer.",
+        "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/50/Dragon%27s_Descent.png/revision/latest/scale-to-width-down/20?cb=20130929123243\" \t alt=\"Dragon&amp;#039;s Descent\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dragon%27s_Descent.png\" \tdata-image-name=\"Dragon&#39;s Descent.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dragon Form: Shyvana instantly attacks all enemies in a cone around her target before applying Twin Bite's effects to each of them. The basic attacks deal 100% AD physical damage, are affected by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critical strike modifiers, and apply on-hit effects to each target hit. The second strike cannot <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critically strike nor trigger on-attack effects, but it will still apply on-hit effects. Additionally, Twin Bite's empowered attack becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Excessive_Force_2.png/revision/latest/scale-to-width-down/20?cb=20160608034953\" \t alt=\"Excessive Force 2\"  \tclass=\"\" \t \tdata-image-key=\"Excessive_Force_2.png\" \tdata-image-name=\"Excessive Force 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unstoppable."
+      ]
     },
     {
       "name": "Burnout",
@@ -55,7 +96,22 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Burnout.png",
+      "icons": [
+        "Burnout.png"
+      ],
+      "levelings": [
+        "Initial Movement Speed:30 / 35 / 40 / 45 / 50%Magic Damage Per Second:20 / 32.5 / 45 / 57.5 / 70 (+ 20% bonus AD)",
+        "Magic Damage Per Hit:5 / 8.125 / 11.25 / 14.375 / 17.5 (+ 5% bonus AD)",
+        "Decay:4.5 / 5.25 / 6 / 6.75 / 7.5%"
+      ],
+      "descriptions": [
+        "Active: Shyvana surrounds herself in flames for 3 seconds, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed and dealing magic damage to surrounding enemies each second.",
+        "Basic attacking an enemy while Burnout is active deals 25% of Burnout's damage to all enemies surrounding Shyvana and, against non-structures, extends Burnout's duration by 1 second, stacking up to 4 times for a maximum total duration of 7 seconds.",
+        "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> Bonus movement speed decays linearly over the duration.",
+        "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/50/Dragon%27s_Descent.png/revision/latest/scale-to-width-down/20?cb=20130929123243\" \t alt=\"Dragon&amp;#039;s Descent\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dragon%27s_Descent.png\" \tdata-image-name=\"Dragon&#39;s Descent.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dragon Form: Burnout has increased effect radius, scaling with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/50/Dragon%27s_Descent.png/revision/latest/scale-to-width-down/20?cb=20130929123243\" \t alt=\"Dragon&amp;#039;s Descent\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dragon%27s_Descent.png\" \tdata-image-name=\"Dragon&#39;s Descent.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dragon's Descent's rank."
+      ]
     },
     {
       "name": "Flame Breath",
@@ -88,7 +144,20 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Flame Breath.png",
+      "icons": [
+        "Flame Breath.png"
+      ],
+      "levelings": [
+        "Magic Damage:60 / 100 / 140 / 180 / 220 (+ 30% AD) (+ 70% AP)",
+        "Empowered Magic Damage:100 − 160 (based on level) + 60 / 100 / 140 / 180 / 220 (+ 60% AD) (+ 100% AP)"
+      ],
+      "descriptions": [
+        "Active: Shyvana unleashes a fireball in the target direction, stopping upon colliding with an enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion and dealing magic damage to all enemies hit and marking them for 5 seconds.",
+        "Shyvana's basic attacks against marked enemies deal 3.75% of the target's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> maximum health as bonus magic damage, capped at 150 against monsters.",
+        "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/50/Dragon%27s_Descent.png/revision/latest/scale-to-width-down/20?cb=20130929123243\" \t alt=\"Dragon&amp;#039;s Descent\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dragon%27s_Descent.png\" \tdata-image-name=\"Dragon&#39;s Descent.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dragon Form: Flame Breath explodes upon hitting an enemy champion or reaching the target location, dealing increased magic damage to them and surrounding enemies and scorching the earth for 4 seconds. Enemies standing on scorched earth take 30 − 60 (based on level) (+ 5% AD) (+ 10% AP) magic damage every 0.5 seconds."
+      ]
     },
     {
       "name": "Dragon's Descent",
@@ -112,7 +181,21 @@
         2
       ],
       "ratios": [],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Dragon's Descent.png",
+      "icons": [
+        "Dragon's Descent.png"
+      ],
+      "levelings": [
+        "Passive Fury Generation:1 / 1.25 / 1.5 / 1.75 / 2",
+        "Magic Damage:150 / 200 / 250 / 300 / 350 (+ 100% AP)",
+        "Bonus Health:150 / 200 / 250 / 300 / 350\nBonus Range:50 / 57.5 / 65 / 72.5 / 80\nSize Increase:0 / 8.5 / 16%"
+      ],
+      "descriptions": [
+        "Passive - Fury: Dragon's Descent has no cooldown or initial cost but can only be activated while Shyvana has <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 100 Fury. Shyvana passively generates Fury per second while she is alive and in human form, 2 Fury per basic attack on-hit in either form, and 100 Fury when Dragon's Descent is first learned.",
+        "Active: Shyvana transforms into a ferocious dragon, becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Unstoppable_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164427\" \t alt=\"Unstoppable icon\"  \tclass=\"\" \t \tdata-image-key=\"Unstoppable_icon.png\" \tdata-image-name=\"Unstoppable icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement immune, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashing to the target location and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> carrying and dealing magic damage to all enemies she passes through.",
+        "Shyvana's dragon form grants her <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus health, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack range, increased size and empowers her basic abilities at the cost of 2.5 Fury per 0.5 seconds, returning to human form once depleted."
+      ]
     }
   ],
   "id": "Shyvana",

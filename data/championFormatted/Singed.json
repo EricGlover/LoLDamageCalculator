@@ -1,5 +1,206 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Noxious Slipstream",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Moving near a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion grants Singed <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 20% bonus movement speed for 2 seconds. The effects of Noxious Slipstream can stack up to 25 times.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Noxious Slipstream.png",
+      "icons": [
+        "Noxious Slipstream.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Moving near a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion grants Singed <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 20% bonus movement speed for 2 seconds. The effects of Noxious Slipstream can stack up to 25 times.",
+        "This effect cannot occur on the same target more than once every few seconds."
+      ]
+    },
+    {
+      "name": "Poison Trail",
+      "cost": [
+        13
+      ],
+      "costType": "Mana per second",
+      "coolDown": [
+        null
+      ],
+      "description": "Toggle: Singed leaves a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Poison_icon.png/revision/latest/scale-to-width-down/20?cb=20150129035607\" \t alt=\"Poison icon\"  \tclass=\"\" \t \tdata-image-key=\"Poison_icon.png\" \tdata-image-name=\"Poison icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> poison cloud behind him for 3.25 seconds.",
+      "leveling": "Magic Damage per 0.25 Seconds:»5 / 7.5 / 10 / 12.5 / 15 (+ 10% AP)«Total Magic Damage:40 / 60 / 80 / 100 / 120 (+ 80% AP)",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        0.25,
+        5,
+        7.5,
+        10,
+        12.5
+      ],
+      "ratios": [
+        {
+          "value": 10,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Poison Trail.png",
+      "icons": [
+        "Poison Trail.png"
+      ],
+      "levelings": [
+        "Magic Damage per 0.25 Seconds:»5 / 7.5 / 10 / 12.5 / 15 (+ 10% AP)«Total Magic Damage:40 / 60 / 80 / 100 / 120 (+ 80% AP)"
+      ],
+      "descriptions": [
+        "Toggle: Singed leaves a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Poison_icon.png/revision/latest/scale-to-width-down/20?cb=20150129035607\" \t alt=\"Poison icon\"  \tclass=\"\" \t \tdata-image-key=\"Poison_icon.png\" \tdata-image-name=\"Poison icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> poison cloud behind him for 3.25 seconds.",
+        "Enemies standing in the cloud's trail are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Poison_icon.png/revision/latest/scale-to-width-down/20?cb=20150129035607\" \t alt=\"Poison icon\"  \tclass=\"\" \t \tdata-image-key=\"Poison_icon.png\" \tdata-image-name=\"Poison icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> poisoned for 2 seconds, taking magic damage every 0.25 seconds for the duration, continuously refreshing while remaining in the affected area."
+      ]
+    },
+    {
+      "name": "Mega Adhesive",
+      "cost": [
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        17,
+        16,
+        15,
+        14,
+        13
+      ],
+      "description": "Active: Singed covers the target area with a potent adhesive for 3 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing by 60% and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Grounded_icon.png/revision/latest/scale-to-width-down/20?cb=20160509000039\" \t alt=\"Grounded icon\"  \tclass=\"\" \t \tdata-image-key=\"Grounded_icon.png\" \tdata-image-name=\"Grounded icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> grounding all enemies within.",
+      "leveling": null,
+      "skill": "W",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": 0.25,
+      "icon": "Mega Adhesive.png",
+      "icons": [
+        "Mega Adhesive.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Active: Singed covers the target area with a potent adhesive for 3 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing by 60% and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Grounded_icon.png/revision/latest/scale-to-width-down/20?cb=20160509000039\" \t alt=\"Grounded icon\"  \tclass=\"\" \t \tdata-image-key=\"Grounded_icon.png\" \tdata-image-name=\"Grounded icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> grounding all enemies within."
+      ]
+    },
+    {
+      "name": "Fling",
+      "cost": [
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        10
+      ],
+      "description": "Active: Singed <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> flings the target enemy over his shoulder, dropping at a location 550 units behind Singed's casting position after 0.75 seconds and dealing magic damage, capped against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+      "leveling": "Magic Damage:»50 / 65 / 80 / 95 / 110 (+ 6 / 6.5 / 7 / 7.5 / 8% of target's maximum health) (+ 75% AP)«Maximum Non-Champion Damage:350 / 365 / 380 / 395 / 410 (+ 75% AP)",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        50,
+        65,
+        80,
+        95,
+        110
+      ],
+      "ratios": [
+        {
+          "value": 6,
+          "type": "bonus ad"
+        },
+        {
+          "value": 6.5,
+          "type": "bonus ad"
+        },
+        {
+          "value": 7,
+          "type": "bonus ad"
+        },
+        {
+          "value": 7.5,
+          "type": "bonus ad"
+        },
+        {
+          "value": 8,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Fling.png",
+      "icons": [
+        "Fling.png"
+      ],
+      "levelings": [
+        "Magic Damage:»50 / 65 / 80 / 95 / 110 (+ 6 / 6.5 / 7 / 7.5 / 8% of target's maximum health) (+ 75% AP)«Maximum Non-Champion Damage:350 / 365 / 380 / 395 / 410 (+ 75% AP)",
+        "Root Duration:1 / 1.25 / 1.5 / 1.75 / 2"
+      ],
+      "descriptions": [
+        "Active: Singed <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> flings the target enemy over his shoulder, dropping at a location 550 units behind Singed's casting position after 0.75 seconds and dealing magic damage, capped against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+        "Targets flung into <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Mega_Adhesive.png/revision/latest/scale-to-width-down/20?cb=20141023220531\" \t alt=\"Mega Adhesive\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Mega_Adhesive.png\" \tdata-image-name=\"Mega Adhesive.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mega Adhesive's area of effect are temporarily <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooted."
+      ]
+    },
+    {
+      "name": "Insanity Potion",
+      "cost": [
+        100
+      ],
+      "costType": "mana",
+      "coolDown": [
+        120,
+        115,
+        110,
+        105,
+        100
+      ],
+      "description": "Active: Singed drinks a potent chemical brew, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0a/Ability_power_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203441\" \t alt=\"Ability power icon\"  \tclass=\"\" \t \tdata-image-key=\"Ability_power_icon.png\" \tdata-image-name=\"Ability power icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus ability power, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus armor, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus magic resistance, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/31/Health_regeneration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203536\" \t alt=\"Health regeneration icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_regeneration_icon.png\" \tdata-image-name=\"Health regeneration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus health regeneration, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Mana_regeneration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Mana regeneration icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_regeneration_icon.png\" \tdata-image-name=\"Mana regeneration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus mana regeneration, all for the next 25 seconds.",
+      "leveling": "Bonus Stats:30 / 45 / 60 / 75 / 90\nRegeneration per Second:»6 / 9 / 12 / 15 / 18«Total Regeneration:150 / 225 / 300 / 375 / 450",
+      "skill": "R",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [
+        30,
+        45,
+        60,
+        75,
+        90
+      ],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Insanity Potion.png",
+      "icons": [
+        "Insanity Potion.png"
+      ],
+      "levelings": [
+        "Bonus Stats:30 / 45 / 60 / 75 / 90\nRegeneration per Second:»6 / 9 / 12 / 15 / 18«Total Regeneration:150 / 225 / 300 / 375 / 450"
+      ],
+      "descriptions": [
+        "Active: Singed drinks a potent chemical brew, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0a/Ability_power_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203441\" \t alt=\"Ability power icon\"  \tclass=\"\" \t \tdata-image-key=\"Ability_power_icon.png\" \tdata-image-name=\"Ability power icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus ability power, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus armor, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus magic resistance, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/31/Health_regeneration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203536\" \t alt=\"Health regeneration icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_regeneration_icon.png\" \tdata-image-name=\"Health regeneration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus health regeneration, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Mana_regeneration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Mana regeneration icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_regeneration_icon.png\" \tdata-image-name=\"Mana regeneration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus mana regeneration, all for the next 25 seconds."
+      ]
+    }
+  ],
   "id": "Singed",
   "key": "27",
   "name": "Singed",

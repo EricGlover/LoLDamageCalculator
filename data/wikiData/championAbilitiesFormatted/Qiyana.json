@@ -1,0 +1,204 @@
+[
+  {
+    "name": "Royal Privilege",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Qiyana's basic attacks and damaging abilities deal 15 − 83 (based on level) (+ 55% bonus AD) (+ 30% AP) bonus physical damage to affected enemies.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "physical",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Royal Privilege.png",
+    "icons": [
+      "Royal Privilege.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Qiyana's basic attacks and damaging abilities deal 15 − 83 (based on level) (+ 55% bonus AD) (+ 30% AP) bonus physical damage to affected enemies.",
+      "This effect cannot occur on the same target more than once every few seconds.",
+      "Royal Privilege's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown is reset on all targets upon gathering or changing an <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Terrashape.png/revision/latest/scale-to-width-down/20?cb=20190607182326\" \t alt=\"Terrashape\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Terrashape.png\" \tdata-image-name=\"Terrashape.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Element."
+    ]
+  },
+  {
+    "name": "Edge of Ixtal",
+    "cost": [
+      35
+    ],
+    "costType": "mana",
+    "coolDown": [
+      7
+    ],
+    "description": "Active: Qiyana slashes forward in the target direction, dealing physical damage to enemies in a line, reduced to 75% damage against targets beyond the first.",
+    "leveling": "Physical Damage:»60 / 85 / 110 / 135 / 160 (+ 90% bonus AD)«Reduced Damage:45 / 63.75 / 82.5 / 101.25 / 120 (+ 67.5% bonus AD)",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "False",
+    "flatDamage": [
+      60,
+      85,
+      110,
+      135,
+      160
+    ],
+    "ratios": [
+      {
+        "value": 90,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Edge of Ixtal.png",
+    "icons": [
+      "Edge of Ixtal.png"
+    ],
+    "levelings": [
+      "Physical Damage:»60 / 85 / 110 / 135 / 160 (+ 90% bonus AD)«Reduced Damage:45 / 63.75 / 82.5 / 101.25 / 120 (+ 67.5% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Qiyana slashes forward in the target direction, dealing physical damage to enemies in a line, reduced to 75% damage against targets beyond the first.",
+      "Upon gathering an element with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Terrashape.png/revision/latest/scale-to-width-down/20?cb=20190607182326\" \t alt=\"Terrashape\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Terrashape.png\" \tdata-image-name=\"Terrashape.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Terrashape, Edge of Ixtal is upgraded to Elemental Wrath and its <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown is reset."
+    ]
+  },
+  {
+    "name": "Terrashape",
+    "cost": [
+      25,
+      30,
+      35,
+      40,
+      45
+    ],
+    "costType": "mana",
+    "coolDown": [
+      7
+    ],
+    "description": "Passive: While holding an Element, Qiyana gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 25 bonus attack range, bonus magic damage on her basic attacks and basic abilities, and out-of-combat <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed while moving near the Element currently being held.",
+    "leveling": "Bonus Attack Speed:5 / 10 / 15 / 20 / 25%\nBonus Magic Damage:8 / 16 / 24 / 32 / 40 (+ 10% bonus AD) (+ 30% AP)\nBonus Movement Speed:5 / 6.25 / 7.5 / 8.75 / 10%",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      5,
+      10,
+      15,
+      20,
+      25
+    ],
+    "ratios": [
+      {
+        "value": 10,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Terrashape.png",
+    "icons": [
+      "Terrashape.png"
+    ],
+    "levelings": [
+      "Bonus Attack Speed:5 / 10 / 15 / 20 / 25%\nBonus Magic Damage:8 / 16 / 24 / 32 / 40 (+ 10% bonus AD) (+ 30% AP)\nBonus Movement Speed:5 / 6.25 / 7.5 / 8.75 / 10%"
+    ],
+    "descriptions": [
+      "Passive: While holding an Element, Qiyana gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 25 bonus attack range, bonus magic damage on her basic attacks and basic abilities, and out-of-combat <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed while moving near the Element currently being held.",
+      "Active: Qiyana <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes towards the target location while gathering an Element of the nearest <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e0/Terrashape_Brush.png/revision/latest/scale-to-width-down/20?cb=20190630041720\" \t alt=\"Terrashape Brush\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Terrashape_Brush.png\" \tdata-image-name=\"Terrashape Brush.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Brush, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d9/Terrashape_River.png/revision/latest/scale-to-width-down/20?cb=20190630041727\" \t alt=\"Terrashape River\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Terrashape_River.png\" \tdata-image-name=\"Terrashape River.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> River or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ed/Terrashape_Rock.png/revision/latest/scale-to-width-down/20?cb=20190630041700\" \t alt=\"Terrashape Rock\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Terrashape_Rock.png\" \tdata-image-name=\"Terrashape Rock.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Terrain she targeted, enchanting her blade.",
+      "A target Element is required to cast this ability.",
+      "Once Terrashape has been learned, Qiyana is automatically given the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ed/Terrashape_Rock.png/revision/latest/scale-to-width-down/20?cb=20190630041700\" \t alt=\"Terrashape Rock\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Terrashape_Rock.png\" \tdata-image-name=\"Terrashape Rock.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Terrain element upon respawning."
+    ]
+  },
+  {
+    "name": "Audacity",
+    "cost": [
+      40,
+      45,
+      50,
+      55,
+      60
+    ],
+    "costType": "mana",
+    "coolDown": [
+      12,
+      11,
+      10,
+      9,
+      8
+    ],
+    "description": "Active: Qiyana <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes a fixed distance towards the target enemy, dealing physical damage.",
+    "leveling": "Physical Damage:60 / 90 / 120 / 150 / 180 (+ 70% bonus AD)",
+    "skill": "E",
+    "damageType": "physical",
+    "isProjectile": "",
+    "flatDamage": [
+      60,
+      90,
+      120,
+      150,
+      180
+    ],
+    "ratios": [
+      {
+        "value": 70,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Audacity.png",
+    "icons": [
+      "Audacity.png"
+    ],
+    "levelings": [
+      "Physical Damage:60 / 90 / 120 / 150 / 180 (+ 70% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Qiyana <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes a fixed distance towards the target enemy, dealing physical damage.",
+      "Qiyana can cast any of her abilities during Audacity. Casting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a6/Edge_of_Ixtal.png/revision/latest/scale-to-width-down/20?cb=20190607182242\" \t alt=\"Edge of Ixtal\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Edge_of_Ixtal.png\" \tdata-image-name=\"Edge of Ixtal.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Edge of Ixtal during Audacity will autonomously aim at the dash target."
+    ]
+  },
+  {
+    "name": "Supreme Display of Talent",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      120
+    ],
+    "description": "Active: Qiyana sends a windblast in the target direction that <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocks back enemies. The windblast stops upon hitting terrain.",
+    "leveling": "Physical Damage:»100 / 135 / 170 / 205 / 240 (+ 170% bonus AD) (+ 10% of target's maximum health)«Capped percentage damage:500 / 625 / 750 / 875 / 1000",
+    "skill": "R",
+    "damageType": "physical",
+    "isProjectile": "True",
+    "flatDamage": [
+      100,
+      135,
+      170,
+      205,
+      240
+    ],
+    "ratios": [
+      {
+        "value": 170,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Supreme Display of Talent.png",
+    "icons": [
+      "Supreme Display of Talent.png"
+    ],
+    "levelings": [
+      "Physical Damage:»100 / 135 / 170 / 205 / 240 (+ 170% bonus AD) (+ 10% of target's maximum health)«Capped percentage damage:500 / 625 / 750 / 875 / 1000"
+    ],
+    "descriptions": [
+      "Active: Qiyana sends a windblast in the target direction that <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocks back enemies. The windblast stops upon hitting terrain.",
+      "The windblast then creates an erupting shockwave across any River or Brush it passes through, as well as around the borders of terrain it reaches, dealing physical damage, with the percentage damage capped against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning enemies for 1 − 0.5 (based on proximity) seconds."
+    ]
+  }
+]

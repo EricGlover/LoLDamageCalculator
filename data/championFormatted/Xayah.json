@@ -1,6 +1,35 @@
 {
   "abilities": [
     {
+      "name": "Clean Cuts",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: After casting an ability, Xayah's next 3 basic attacks penetrate through all enemies along a 900 range line, dealing 100% damage to her main target and 30 / 40 / 50% (based on level) pass-through damage to other enemies.  At the end of their path, a Feather will be left in the ground for 6 seconds.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "special",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Clean Cuts.png",
+      "icons": [
+        "Clean Cuts.png",
+        "ProfileIcon1634 Blazing Feathers.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: After casting an ability, Xayah's next 3 basic attacks penetrate through all enemies along a 900 range line, dealing 100% damage to her main target and 30 / 40 / 50% (based on level) pass-through damage to other enemies.  At the end of their path, a Feather will be left in the ground for 6 seconds.",
+        "Xayah can store up to 5 empowered attacks for 8 seconds, refreshed with further ability use or upon attacking structures.",
+        "Lover's Leap: If either Xayah or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9a/Rakan_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20170404193836\" \t alt=\"Rakan OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rakan_OriginalSquare.png\" \tdata-image-name=\"Rakan OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rakan is channeling <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recall, the other may move nearby and channel their own to join them. Both reach base at the time of which the initiator's recall ends."
+      ]
+    },
+    {
       "name": "Double Daggers",
       "cost": [
         50
@@ -13,7 +42,7 @@
         7,
         6
       ],
-      "description": "Active: Xayah throws two feather-blades in the target direction with quick succession, dealing <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> physical damage to all enemies hit and leaving two Feathers on the ground.",
+      "description": "Active: Xayah throws two feather-blades in the target direction with quick succession, dealing physical damage to all enemies hit and leaving two Feathers on the ground.",
       "leveling": "Damage Per Blade:»45 / 65 / 85 / 105 / 125 (+ 50% bonus AD)«Maximum Total Damage:90 / 130 / 170 / 210 / 250 (+ 100% bonus AD)",
       "skill": "Q",
       "damageType": "Physical",
@@ -31,7 +60,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Double Daggers.png",
+      "icons": [
+        "Double Daggers.png"
+      ],
+      "levelings": [
+        "Damage Per Blade:»45 / 65 / 85 / 105 / 125 (+ 50% bonus AD)«Maximum Total Damage:90 / 130 / 170 / 210 / 250 (+ 100% bonus AD)",
+        "Minimum Damage Per Blade:»22.5 / 32.5 / 42.5 / 52.5 / 62.5 (+ 25% bonus AD)«Minimum Total Damage:45 / 65 / 85 / 105 / 125 (+ 50% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Xayah throws two feather-blades in the target direction with quick succession, dealing physical damage to all enemies hit and leaving two Feathers on the ground.",
+        "Targets hit after the first take 50% damage."
+      ]
     },
     {
       "name": "Deadly Plumage",
@@ -63,7 +104,19 @@
         55
       ],
       "ratios": [],
-      "castTime": null
+      "castTime": null,
+      "icon": "Deadly Plumage.png",
+      "icons": [
+        "Deadly Plumage.png"
+      ],
+      "levelings": [
+        "Bonus Attack Speed:35 / 40 / 45 / 50 / 55%"
+      ],
+      "descriptions": [
+        "Active: Xayah creates a storm of blades for 4 seconds that grants her <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed and causes her basic attacks to strike the target an additional time for 20% damage.",
+        "If Deadly Plumage strikes an enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion, Xayah gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 30% bonus movement speed for 1.5 seconds.",
+        "If <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9a/Rakan_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20170404193836\" \t alt=\"Rakan OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Rakan_OriginalSquare.png\" \tdata-image-name=\"Rakan OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rakan is nearby he will also gain the effects of Deadly Plumage, while also gaining the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed when Xayah strikes an enemy champion."
+      ]
     },
     {
       "name": "Bladecaller",
@@ -96,7 +149,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Bladecaller.png",
+      "icons": [
+        "Bladecaller.png"
+      ],
+      "levelings": [
+        "Physical Damage Per Feather:»55 / 65 / 75 / 85 / 95 (+ 60% bonus AD)«Minion Damage Per Feather:27.5 / 32.5 / 37.5 / 42.5 / 47.5 (+ 30% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Xayah calls all Feathers back to her, dealing physical damage to enemies they pass through, increased by 0% − 50% (based on critical chance). <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Minions take 50% damage. Bladecaller can only hit enemies once per Feather.",
+        "Enemies take 100% −  10% (based on previous feathers hit) damage from a Feather.",
+        "Enemies hit by at least 3 Feathers are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooted for 1.25 seconds."
+      ]
     },
     {
       "name": "Featherstorm",
@@ -129,7 +194,18 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Featherstorm.png",
+      "icons": [
+        "Featherstorm.png"
+      ],
+      "levelings": [
+        "Physical Damage:125 / 187.5 / 250 / 312.5 / 375 (+ 100% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Xayah leaps into the air, becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted for 1.5 seconds, then rains down daggers in a cone in the target direction which deal physical damage to enemies hit and leave behind a line of 5 Feathers.",
+        "Xayah is unable to attack and cast her abilities during Featherstorm, but she can still move."
+      ]
     }
   ],
   "id": "Xayah",

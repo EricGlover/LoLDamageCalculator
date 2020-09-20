@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Stone Skin",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Wukong gains 5 − 9 (based on level) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus armor and regenerates 0.5% of his maximum health per 5 seconds.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Stone Skin.png",
+    "icons": [
+      "Stone Skin.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Wukong gains 5 − 9 (based on level) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus armor and regenerates 0.5% of his maximum health per 5 seconds.",
+      "These effects are increased by 50% for 5 seconds whenever Wukong or his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/Warrior_Trickster.png/revision/latest/scale-to-width-down/20?cb=20130929123452\" \t alt=\"Warrior Trickster\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Warrior_Trickster.png\" \tdata-image-name=\"Warrior Trickster.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> clone damage an enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monster. Bonuses stack up to 10 times to a maximum of 30 − 54 (based on level) bonus armor and 3% maximum health regeneration."
+    ]
+  },
+  {
+    "name": "Crushing Blow",
+    "cost": [
+      40
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      9,
+      8,
+      8,
+      7,
+      7
+    ],
+    "description": "Active: Wukong and his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/Warrior_Trickster.png/revision/latest/scale-to-width-down/20?cb=20130929123452\" \t alt=\"Warrior Trickster\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Warrior_Trickster.png\" \tdata-image-name=\"Warrior Trickster.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> clone empower their staffs, causing their next basic attack within 5 seconds to become <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Excessive_Force_2.png/revision/latest/scale-to-width-down/20?cb=20160608034953\" \t alt=\"Excessive Force 2\"  \tclass=\"\" \t \tdata-image-key=\"Excessive_Force_2.png\" \tdata-image-name=\"Excessive Force 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unstoppable, gain <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus range, deal bonus physical damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Armor_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_penetration_icon.png\" \tdata-image-name=\"Armor penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> reduce the target's armor for 3 seconds.",
+    "leveling": "Bonus Range:75 / 100 / 125 / 150 / 175\nBonus Physical Damage:20 / 45 / 70 / 95 / 120 (+ 50% bonus AD)\nArmor Reduction:10 / 15 / 20 / 25 / 30% of target's armor",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      75,
+      100,
+      125,
+      150,
+      175
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Crushing Blow.png",
+    "icons": [
+      "Crushing Blow.png"
+    ],
+    "levelings": [
+      "Bonus Range:75 / 100 / 125 / 150 / 175\nBonus Physical Damage:20 / 45 / 70 / 95 / 120 (+ 50% bonus AD)\nArmor Reduction:10 / 15 / 20 / 25 / 30% of target's armor"
+    ],
+    "descriptions": [
+      "Active: Wukong and his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/Warrior_Trickster.png/revision/latest/scale-to-width-down/20?cb=20130929123452\" \t alt=\"Warrior Trickster\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Warrior_Trickster.png\" \tdata-image-name=\"Warrior Trickster.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> clone empower their staffs, causing their next basic attack within 5 seconds to become <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Excessive_Force_2.png/revision/latest/scale-to-width-down/20?cb=20160608034953\" \t alt=\"Excessive Force 2\"  \tclass=\"\" \t \tdata-image-key=\"Excessive_Force_2.png\" \tdata-image-name=\"Excessive Force 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unstoppable, gain <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus range, deal bonus physical damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Armor_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_penetration_icon.png\" \tdata-image-name=\"Armor penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> reduce the target's armor for 3 seconds.",
+      "Crushing Blow's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown is reduced by 0.5 seconds whenever Wukong or his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/Warrior_Trickster.png/revision/latest/scale-to-width-down/20?cb=20130929123452\" \t alt=\"Warrior Trickster\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Warrior_Trickster.png\" \tdata-image-name=\"Warrior Trickster.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> clone damages an enemy.",
+      "Crushing Blow <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resets Wukong and his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/Warrior_Trickster.png/revision/latest/scale-to-width-down/20?cb=20130929123452\" \t alt=\"Warrior Trickster\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Warrior_Trickster.png\" \tdata-image-name=\"Warrior Trickster.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> clone's basic attack timer.",
+      "Other abilities can be used during the attack's animation."
+    ]
+  },
+  {
+    "name": "Warrior Trickster",
+    "cost": [
+      80,
+      70,
+      60,
+      50,
+      40
+    ],
+    "costType": "mana",
+    "coolDown": [
+      20,
+      19,
+      18,
+      17,
+      16
+    ],
+    "description": "Active: Wukong <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction, though not through terrain, while entering <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d8/Twilight_Shroud_old2.png/revision/latest/scale-to-width-down/20?cb=20180716212930\" \t alt=\"Twilight Shroud old2\"  \tclass=\"\" \t \tdata-image-key=\"Twilight_Shroud_old2.png\" \tdata-image-name=\"Twilight Shroud old2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invisibility for 1 second and leaving behind a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Command_Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20170204131432\" \t alt=\"Command Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Command_Hallucinate.png\" \tdata-image-name=\"Command Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> decoy of himself for 3.25 seconds.",
+    "leveling": "Clone Damage:35 / 40 / 45 / 50 / 55%",
+    "skill": "W",
+    "damageType": "physical",
+    "isProjectile": "",
+    "flatDamage": [
+      35,
+      40,
+      45,
+      50,
+      55
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Warrior Trickster.png",
+    "icons": [
+      "Warrior Trickster.png"
+    ],
+    "levelings": [
+      "Clone Damage:35 / 40 / 45 / 50 / 55%"
+    ],
+    "descriptions": [
+      "Active: Wukong <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction, though not through terrain, while entering <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d8/Twilight_Shroud_old2.png/revision/latest/scale-to-width-down/20?cb=20180716212930\" \t alt=\"Twilight Shroud old2\"  \tclass=\"\" \t \tdata-image-key=\"Twilight_Shroud_old2.png\" \tdata-image-name=\"Twilight Shroud old2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invisibility for 1 second and leaving behind a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Command_Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20170204131432\" \t alt=\"Command Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Command_Hallucinate.png\" \tdata-image-name=\"Command Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> decoy of himself for 3.25 seconds.",
+      "The clone can basic attack autonomously, prioritizing the last enemy Wukong damaged. It can also gain <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/10/Crushing_Blow.png/revision/latest/scale-to-width-down/20?cb=20130929123450\" \t alt=\"Crushing Blow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crushing_Blow.png\" \tdata-image-name=\"Crushing Blow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crushing Blow, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e0/Nimbus_Strike.png/revision/latest/scale-to-width-down/20?cb=20130929123453\" \t alt=\"Nimbus Strike\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Nimbus_Strike.png\" \tdata-image-name=\"Nimbus Strike.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Nimbus Strike's bonus attack speed, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/79/Cyclone.png/revision/latest/scale-to-width-down/20?cb=20130929123451\" \t alt=\"Cyclone\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cyclone.png\" \tdata-image-name=\"Cyclone.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cyclone.",
+      "The clone deals reduced outgoing damage.",
+      "Wukong can cast any of his abilities during Warrior Trickster's dash."
+    ]
+  },
+  {
+    "name": "Nimbus Strike",
+    "cost": [
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "costType": "mana",
+    "coolDown": [
+      10,
+      9,
+      9,
+      8,
+      8
+    ],
+    "description": "Active: Wukong <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes on a cloud to the target enemy's location and sends out <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable clones to attack up to two additional enemies near the target's location, dealing magic damage to each enemy struck. The clones can block non-targeted attacks or abilities for 0.25 seconds after hitting their targets.",
+    "leveling": "Magic Damage:80 / 110 / 140 / 170 / 200 (+ 80% AP)",
+    "skill": "E",
+    "damageType": "magic",
+    "isProjectile": "false",
+    "flatDamage": [
+      80,
+      110,
+      140,
+      170,
+      200
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Nimbus Strike.png",
+    "icons": [
+      "Nimbus Strike.png"
+    ],
+    "levelings": [
+      "Magic Damage:80 / 110 / 140 / 170 / 200 (+ 80% AP)",
+      "Bonus Attack Speed:40 / 45 / 50 / 55 / 60%"
+    ],
+    "descriptions": [
+      "Active: Wukong <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes on a cloud to the target enemy's location and sends out <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable clones to attack up to two additional enemies near the target's location, dealing magic damage to each enemy struck. The clones can block non-targeted attacks or abilities for 0.25 seconds after hitting their targets.",
+      "Upon hitting his target, Wukong and his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/Warrior_Trickster.png/revision/latest/scale-to-width-down/20?cb=20130929123452\" \t alt=\"Warrior Trickster\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Warrior_Trickster.png\" \tdata-image-name=\"Warrior Trickster.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> clone gain <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed for 5 seconds.",
+      "Wukong cannot cast <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/Warrior_Trickster.png/revision/latest/scale-to-width-down/20?cb=20130929123452\" \t alt=\"Warrior Trickster\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Warrior_Trickster.png\" \tdata-image-name=\"Warrior Trickster.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Warrior Trickster nor <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/79/Cyclone.png/revision/latest/scale-to-width-down/20?cb=20130929123451\" \t alt=\"Cyclone\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Cyclone.png\" \tdata-image-name=\"Cyclone.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Cyclone while dashing, but he may still buffer them. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/10/Crushing_Blow.png/revision/latest/scale-to-width-down/20?cb=20130929123450\" \t alt=\"Crushing Blow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crushing_Blow.png\" \tdata-image-name=\"Crushing Blow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crushing Blow can be used."
+    ]
+  },
+  {
+    "name": "Cyclone",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      120,
+      112,
+      105,
+      97,
+      90
+    ],
+    "description": "Active: Wukong and his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/Warrior_Trickster.png/revision/latest/scale-to-width-down/20?cb=20130929123452\" \t alt=\"Warrior Trickster\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Warrior_Trickster.png\" \tdata-image-name=\"Warrior Trickster.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> clone spin their staffs around for up to 2 seconds, becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted and gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 20% bonus movement speed. The spin deals physical damage to nearby enemies every 0.25 seconds. Enemies affected by an active Cyclone for the first time are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked up for 0.6 seconds. Cyclone can be canceled by casting another ability or recasting after 0.5 seconds. Cyclone can be reactivated within 8 seconds of the first cast after 1 second.",
+    "leveling": "Damage Per Tick:»1 / 1.25 / 1.5 / 1.75 / 2% of target's maximum health (+ 27.5% AD) «Total Damage:16 / 20 / 24 / 28 / 32% of target's maximum health (+ 440% AD)",
+    "skill": "R",
+    "damageType": "physical",
+    "isProjectile": "",
+    "flatDamage": [
+      1,
+      1.25,
+      1.5,
+      1.75,
+      2
+    ],
+    "ratios": [
+      {
+        "value": 27.5,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Cyclone.png",
+    "icons": [
+      "Cyclone.png",
+      "Cyclone 2.png"
+    ],
+    "levelings": [
+      "Damage Per Tick:»1 / 1.25 / 1.5 / 1.75 / 2% of target's maximum health (+ 27.5% AD) «Total Damage:16 / 20 / 24 / 28 / 32% of target's maximum health (+ 440% AD)"
+    ],
+    "descriptions": [
+      "Active: Wukong and his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/Warrior_Trickster.png/revision/latest/scale-to-width-down/20?cb=20130929123452\" \t alt=\"Warrior Trickster\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Warrior_Trickster.png\" \tdata-image-name=\"Warrior Trickster.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> clone spin their staffs around for up to 2 seconds, becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted and gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 20% bonus movement speed. The spin deals physical damage to nearby enemies every 0.25 seconds. Enemies affected by an active Cyclone for the first time are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked up for 0.6 seconds. Cyclone can be canceled by casting another ability or recasting after 0.5 seconds. Cyclone can be reactivated within 8 seconds of the first cast after 1 second.",
+      "Recast: Wukong and his <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/Warrior_Trickster.png/revision/latest/scale-to-width-down/20?cb=20130929123452\" \t alt=\"Warrior Trickster\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Warrior_Trickster.png\" \tdata-image-name=\"Warrior Trickster.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> clone spin their staffs a second time, mimicking the first cast's effects. If recast while spinning, Wukong stops spinning early instead; Wukong can still spin a second time after stopping his first spin early, and can end his second spin early as well.",
+      "The clone's Cyclone will not <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knock up enemies who were already hit by Wukong's active Cyclone.",
+      "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e0/Nimbus_Strike.png/revision/latest/scale-to-width-down/20?cb=20130929123453\" \t alt=\"Nimbus Strike\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Nimbus_Strike.png\" \tdata-image-name=\"Nimbus Strike.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Nimbus Strike's bonus attack speed duration is continuously refreshed while spinning.",
+      "Cyclone's damage is capped at 200 / 400 / 600 (based on level) per second against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters."
+    ]
+  }
+]

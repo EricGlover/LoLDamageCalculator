@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Dream-Laden Bough",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Lillia's abilities apply Dream Dust, dealing 5% of the target's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> maximum health as magic damage over 3 seconds, capped at 40 − 100 (based on level) damage against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "magic",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Dream-Laden Bough.png",
+    "icons": [
+      "Dream-Laden Bough.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Lillia's abilities apply Dream Dust, dealing 5% of the target's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> maximum health as magic damage over 3 seconds, capped at 40 − 100 (based on level) damage against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters."
+    ]
+  },
+  {
+    "name": "Blooming Blows",
+    "cost": [
+      45
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      4
+    ],
+    "description": "Passive: Lillia gains a Prance stack for 5 seconds whenever she hits at least 1 enemy with her abilities, refreshing up to 5 stacks. Stacks are lost by one every 1 second. Each stack grants Lillia <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed.",
+    "leveling": "Bonus Movement Speed:»7 / 8 / 9 / 10 / 11% (+ 1% per 100 AP)«Maximum Bonus Movement Speed:35 / 40 / 45 / 50 / 55% (+ 5% per 100 AP)",
+    "skill": "Q",
+    "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Hybrid_penetration.png/revision/latest/scale-to-width-down/20?cb=20170514081634\" \t alt=\"Hybrid penetration\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration.png\" \tdata-image-name=\"Hybrid penetration.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> True",
+    "isProjectile": "",
+    "flatDamage": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "ratios": [
+      {
+        "value": 1,
+        "type": "bonus ad"
+      },
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Prance.png",
+    "icons": [
+      "Prance.png",
+      "Blooming Blows.png"
+    ],
+    "levelings": [
+      "Bonus Movement Speed:»7 / 8 / 9 / 10 / 11% (+ 1% per 100 AP)«Maximum Bonus Movement Speed:35 / 40 / 45 / 50 / 55% (+ 5% per 100 AP)",
+      "Magic Damage:»30 / 45 / 60 / 75 / 90 (+ 40% AP)«Total Mixed Damage:60 / 90 / 120 / 150 / 180 (+ 80% AP)"
+    ],
+    "descriptions": [
+      "Passive: Lillia gains a Prance stack for 5 seconds whenever she hits at least 1 enemy with her abilities, refreshing up to 5 stacks. Stacks are lost by one every 1 second. Each stack grants Lillia <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed.",
+      "Active: Lillia swings her censer around her, dealing magic damage to nearby enemies. Enemies hit within the outer edge of the area additionally take the same amount as bonus true damage."
+    ]
+  },
+  {
+    "name": "Watch Out! Eep!",
+    "cost": [
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      14,
+      13,
+      12,
+      11,
+      10
+    ],
+    "description": "Active: Lillia <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to 150 units in front of the target area over 0.759 seconds, though not through terrain, and deals magic damage in an area around the target spot. Enemies hit within the center are dealt <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Critical_magic_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20190827073648\" \t alt=\"Critical magic strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_magic_strike_icon.png\" \tdata-image-name=\"Critical magic strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 200% increased damage.",
+    "leveling": "Magic Damage:»70 / 85 / 100 / 115 / 130 (+ 30% AP)«Maximum Damage:210 / 255 / 300 / 345 / 390 (+ 90% AP)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      70,
+      85,
+      100,
+      115,
+      130
+    ],
+    "ratios": [
+      {
+        "value": 30,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Watch Out! Eep!.png",
+    "icons": [
+      "Watch Out! Eep!.png"
+    ],
+    "levelings": [
+      "Magic Damage:»70 / 85 / 100 / 115 / 130 (+ 30% AP)«Maximum Damage:210 / 255 / 300 / 345 / 390 (+ 90% AP)",
+      "Minion Damage:»35 / 42.5 / 50 / 57.5 / 65 (+ 15% AP)«Maximum Minion Damage:105 / 127.5 / 150 / 172.5 / 195 (+ 45% AP)"
+    ],
+    "descriptions": [
+      "Active: Lillia <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to 150 units in front of the target area over 0.759 seconds, though not through terrain, and deals magic damage in an area around the target spot. Enemies hit within the center are dealt <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Critical_magic_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20190827073648\" \t alt=\"Critical magic strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_magic_strike_icon.png\" \tdata-image-name=\"Critical magic strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 200% increased damage.",
+      "Watch Out! Eep! deals 50% damage to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions."
+    ]
+  },
+  {
+    "name": "Swirlseed",
+    "cost": [
+      70
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12
+    ],
+    "description": "Active: Lillia lobs a seed at the target area that rolls forward indefinitely. The seed detonates upon colliding with an enemy or terrain upon landing or while rolling, dealing magic damage to enemies in a cone, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them for 3 seconds and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them for 2 seconds.",
+    "leveling": "Magic Damage:70 / 90 / 110 / 130 / 150 (+ 40% AP)\nSlow:25 / 30 / 35 / 40 / 45%",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "true",
+    "flatDamage": [
+      70,
+      90,
+      110,
+      130,
+      150
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.4,
+    "icon": "Swirlseed.png",
+    "icons": [
+      "Swirlseed.png"
+    ],
+    "levelings": [
+      "Magic Damage:70 / 90 / 110 / 130 / 150 (+ 40% AP)\nSlow:25 / 30 / 35 / 40 / 45%"
+    ],
+    "descriptions": [
+      "Active: Lillia lobs a seed at the target area that rolls forward indefinitely. The seed detonates upon colliding with an enemy or terrain upon landing or while rolling, dealing magic damage to enemies in a cone, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them for 3 seconds and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them for 2 seconds.",
+      "Swirlseed will cast at max range if cast beyond that. The spot at which the seed will last collide with terrain is highlighted to Lillia while it is rolling."
+    ]
+  },
+  {
+    "name": "Lilting Lullaby",
+    "cost": [
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      130,
+      120,
+      110,
+      100,
+      90
+    ],
+    "description": "Active: Lillia casts a magical lullaby over all targetable enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions affected by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a0/Dream-Laden_Bough.png/revision/latest/scale-to-width-down/20?cb=20200707160244\" \t alt=\"Dream-Laden Bough\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dream-Laden_Bough.png\" \tdata-image-name=\"Dream-Laden Bough.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dream Dust, rendering them <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f7/Drowsy_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223936\" \t alt=\"Drowsy icon\"  \tclass=\"\" \t \tdata-image-key=\"Drowsy_icon.png\" \tdata-image-name=\"Drowsy icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> drowsy for 1.5 seconds, which <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows them by 25% to 50% (increasing over the duration), after which they fall <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2f/Sleep_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223939\" \t alt=\"Sleep icon\"  \tclass=\"\" \t \tdata-image-key=\"Sleep_icon.png\" \tdata-image-name=\"Sleep icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> asleep for a few seconds.",
+    "leveling": "Sleep Duration:2 / 2.25 / 2.5 / 2.75 / 3",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "true",
+    "flatDamage": [
+      2,
+      2.25,
+      2.5,
+      2.75,
+      3
+    ],
+    "ratios": [],
+    "castTime": 0.4,
+    "icon": "Lilting Lullaby.png",
+    "icons": [
+      "Lilting Lullaby.png",
+      "Lilting Lullaby 2.png"
+    ],
+    "levelings": [
+      "Sleep Duration:2 / 2.25 / 2.5 / 2.75 / 3",
+      "Magic Damage:100 / 125 / 150 / 175 / 200 (+ 30% AP)"
+    ],
+    "descriptions": [
+      "Active: Lillia casts a magical lullaby over all targetable enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions affected by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a0/Dream-Laden_Bough.png/revision/latest/scale-to-width-down/20?cb=20200707160244\" \t alt=\"Dream-Laden Bough\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dream-Laden_Bough.png\" \tdata-image-name=\"Dream-Laden Bough.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Dream Dust, rendering them <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f7/Drowsy_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223936\" \t alt=\"Drowsy icon\"  \tclass=\"\" \t \tdata-image-key=\"Drowsy_icon.png\" \tdata-image-name=\"Drowsy icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> drowsy for 1.5 seconds, which <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows them by 25% to 50% (increasing over the duration), after which they fall <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2f/Sleep_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223939\" \t alt=\"Sleep icon\"  \tclass=\"\" \t \tdata-image-key=\"Sleep_icon.png\" \tdata-image-name=\"Sleep icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> asleep for a few seconds.",
+      "The next non-<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Blaze.png/revision/latest/scale-to-width-down/20?cb=20160420084402\" \t alt=\"Blaze\"  \tclass=\"\" \t \tdata-image-key=\"Blaze.png\" \tdata-image-name=\"Blaze.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> persistent non-<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minion damage taken by the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2f/Sleep_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223939\" \t alt=\"Sleep icon\"  \tclass=\"\" \t \tdata-image-key=\"Sleep_icon.png\" \tdata-image-name=\"Sleep icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sleeping targets consumes the debuff to deal additional magic damage."
+    ]
+  }
+]

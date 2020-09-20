@@ -1,5 +1,199 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Friend of the Forest",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Ivern cannot attack nor damage non-epic <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters. Instead, targeting a jungle camp initiates a 2.5 seconds <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channel that, upon completion, places the monsters within a grove. Placing a grove costs <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 131.63 − 121 (based on level) health and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 148.5 − 110.25 (based on level) mana, and cannot be placed if Ivern lacks the amount of resources. The channel cannot be cancelled in the first 0.15 seconds and in the last 0.5 seconds.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Friend of the Forest.png",
+      "icons": [
+        "Friend of the Forest.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Ivern cannot attack nor damage non-epic <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters. Instead, targeting a jungle camp initiates a 2.5 seconds <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channel that, upon completion, places the monsters within a grove. Placing a grove costs <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 131.63 − 121 (based on level) health and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 148.5 − 110.25 (based on level) mana, and cannot be placed if Ivern lacks the amount of resources. The channel cannot be cancelled in the first 0.15 seconds and in the last 0.5 seconds.",
+        "The grove matures over 40 − 1 (based on level) seconds. When fully matured, Ivern can interact with the camp again to free the monsters after a 0.5-second cast time, sending them away while receiving their <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/10/Gold.png/revision/latest/scale-to-width-down/20?cb=20181122055358\" \t alt=\"Gold\"  \tclass=\"\" \t \tdata-image-key=\"Gold.png\" \tdata-image-name=\"Gold.png\" \t \t width=\"20\"  \t height=\"15\"  \t \t \t \t> full gold and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Experience_icon.png/revision/latest/scale-to-width-down/15?cb=20170714051126\" \t alt=\"Experience icon\"  \tclass=\"\" \t \tdata-image-key=\"Experience_icon.png\" \tdata-image-name=\"Experience icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> full experience bounties. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Smite.png/revision/latest/scale-to-width-down/20?cb=20180514003641\" \t alt=\"Smite\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Smite.png\" \tdata-image-name=\"Smite.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Smiting a large monster within a grove will instantly free the camp's monsters, regardless of its maturity or the monsters' current health.",
+        "If the camp's large monster has already been slain, Ivern will free the camp upon completing the channel at no cost. Similarly, the grove will instantly mature if the large monster is slain.",
+        "Starting at level 5, freeing the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e7/Red_BramblebackSquare.png/revision/latest/scale-to-width-down/20?cb=20140620025406\" \t alt=\"Red BramblebackSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Red_BramblebackSquare.png\" \tdata-image-name=\"Red BramblebackSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Red Brambleback or the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/85/Blue_SentinelSquare.png/revision/latest/scale-to-width-down/20?cb=20140620025405\" \t alt=\"Blue SentinelSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blue_SentinelSquare.png\" \tdata-image-name=\"Blue SentinelSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Blue Sentinel leaves behind a sapling for 1 minute that can be picked up by an allied champion to gain the camp's buff, consuming it in the process. If at least one allied champion is nearby, Ivern can pick up the sapling to transfer it to the nearest one in range. If an ally kills either monster, they also leave behind a sapling that only Ivern can consume."
+      ]
+    },
+    {
+      "name": "Rootcaller",
+      "cost": [
+        60
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "description": "Active: Ivern throws a vine in the target direction, dealing magic damage to the first enemy hit and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooting and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them for a short duration. Ivern can recast Rootcaller if it hits a target.",
+      "leveling": "Magic Damage:80 / 125 / 170 / 215 / 260 (+ 70% AP)Root Duration:1.2 / 1.4 / 1.6 / 1.8 / 2",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        80,
+        125,
+        170,
+        215,
+        260
+      ],
+      "ratios": [
+        {
+          "value": 70,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Rootcaller.png",
+      "icons": [
+        "Rootcaller.png"
+      ],
+      "levelings": [
+        "Magic Damage:80 / 125 / 170 / 215 / 260 (+ 70% AP)Root Duration:1.2 / 1.4 / 1.6 / 1.8 / 2"
+      ],
+      "descriptions": [
+        "Active: Ivern throws a vine in the target direction, dealing magic damage to the first enemy hit and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooting and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them for a short duration. Ivern can recast Rootcaller if it hits a target.",
+        "Ivern and his allies can click on the target <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooted by Rootcaller to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dash to their location, with allies stopping at <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> their attack range and Ivern stopping at <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 125 range from the target.",
+        "Recast: Ivern <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target."
+      ]
+    },
+    {
+      "name": "Brushmaker",
+      "cost": [
+        30
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        null
+      ],
+      "description": "Passive: While in <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cd/Brushmaker.png/revision/latest/scale-to-width-down/20?cb=20170818003622\" \t alt=\"Brushmaker\"  \tclass=\"\" \t \tdata-image-key=\"Brushmaker.png\" \tdata-image-name=\"Brushmaker.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> brush, Ivern's basic attacks deal bonus magic damage. This bonus persists for 3 seconds after leaving brush.",
+      "leveling": "Bonus Magic Damage:30 / 37.5 / 45 / 52.5 / 60 (+ 30% AP)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        30,
+        37.5,
+        45,
+        52.5,
+        60
+      ],
+      "ratios": [
+        {
+          "value": 30,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Brushmaker.png",
+      "icons": [
+        "Brushmaker.png"
+      ],
+      "levelings": [
+        "Bonus Magic Damage:30 / 37.5 / 45 / 52.5 / 60 (+ 30% AP)"
+      ],
+      "descriptions": [
+        "Passive: While in <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cd/Brushmaker.png/revision/latest/scale-to-width-down/20?cb=20170818003622\" \t alt=\"Brushmaker\"  \tclass=\"\" \t \tdata-image-key=\"Brushmaker.png\" \tdata-image-name=\"Brushmaker.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> brush, Ivern's basic attacks deal bonus magic damage. This bonus persists for 3 seconds after leaving brush.",
+        "Ivern periodically stocks a Brushmaker charge, up to a maximum of 3.",
+        "Active: Ivern grows a patch of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cd/Brushmaker.png/revision/latest/scale-to-width-down/20?cb=20170818003622\" \t alt=\"Brushmaker\"  \tclass=\"\" \t \tdata-image-key=\"Brushmaker.png\" \tdata-image-name=\"Brushmaker.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> brush at the target location for 30 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing the area within and around it for 3 seconds. Brushmaker spawns more brush if used near terrain or other brush.",
+        "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cd/Brushmaker.png/revision/latest/scale-to-width-down/20?cb=20170818003622\" \t alt=\"Brushmaker\"  \tclass=\"\" \t \tdata-image-key=\"Brushmaker.png\" \tdata-image-name=\"Brushmaker.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Brush grown in the line of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> turrets will cause Ivern and allied units within the brush to be <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2b/Exposed_icon.png/revision/latest/scale-to-width-down/20?cb=20171031105839\" \t alt=\"Exposed icon\"  \tclass=\"\" \t \tdata-image-key=\"Exposed_icon.png\" \tdata-image-name=\"Exposed icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> exposed."
+      ]
+    },
+    {
+      "name": "Triggerseed",
+      "cost": [
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "description": "Active: Ivern gifts a Triggerseed to the target allied champion, himself or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ee/Daisy_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160928223425\" \t alt=\"Daisy OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Daisy_OriginalSquare.png\" \tdata-image-name=\"Daisy OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Daisy, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shielding them for 2 seconds.",
+      "leveling": "Shield:80 / 115 / 150 / 185 / 220 (+ 80% AP)",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        80,
+        115,
+        150,
+        185,
+        220
+      ],
+      "ratios": [
+        {
+          "value": 80,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Triggerseed.png",
+      "icons": [
+        "Triggerseed.png"
+      ],
+      "levelings": [
+        "Shield:80 / 115 / 150 / 185 / 220 (+ 80% AP)",
+        "Magic Damage:70 / 95 / 120 / 145 / 170 (+ 80% AP)\nSlow:50 / 55 / 60 / 65 / 70%"
+      ],
+      "descriptions": [
+        "Active: Ivern gifts a Triggerseed to the target allied champion, himself or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ee/Daisy_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160928223425\" \t alt=\"Daisy OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Daisy_OriginalSquare.png\" \tdata-image-name=\"Daisy OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Daisy, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shielding them for 2 seconds.",
+        "At the end of its duration, Triggerseed bursts, dealing magic damage to all nearby enemies and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them for 2 seconds."
+      ]
+    },
+    {
+      "name": "Daisy!",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        140,
+        135,
+        130,
+        125,
+        120
+      ],
+      "description": "Active: Ivern summons his sentinel friend <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ee/Daisy_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160928223425\" \t alt=\"Daisy OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Daisy_OriginalSquare.png\" \tdata-image-name=\"Daisy OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Daisy at his side to the target location, who remains on the field for up to 60 seconds as a controllable <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e7/Summon-_Tibbers.png/revision/latest/scale-to-width-down/20?cb=20170818001022\" \t alt=\"Summon- Tibbers\"  \tclass=\"\" \t \tdata-image-key=\"Summon-_Tibbers.png\" \tdata-image-name=\"Summon- Tibbers.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> pet.",
+      "leveling": null,
+      "skill": "R",
+      "damageType": "physical",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": 0.5,
+      "icon": "Daisy!.png",
+      "icons": [
+        "Daisy!.png",
+        "Daisy, wait!.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Active: Ivern summons his sentinel friend <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ee/Daisy_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160928223425\" \t alt=\"Daisy OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Daisy_OriginalSquare.png\" \tdata-image-name=\"Daisy OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Daisy at his side to the target location, who remains on the field for up to 60 seconds as a controllable <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e7/Summon-_Tibbers.png/revision/latest/scale-to-width-down/20?cb=20170818001022\" \t alt=\"Summon- Tibbers\"  \tclass=\"\" \t \tdata-image-key=\"Summon-_Tibbers.png\" \tdata-image-name=\"Summon- Tibbers.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> pet.",
+        "Recast: Ivern commands Daisy! to move to the target location. If cast on Ivern, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ee/Daisy_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20160928223425\" \t alt=\"Daisy OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Daisy_OriginalSquare.png\" \tdata-image-name=\"Daisy OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Daisy will follow him."
+      ]
+    }
+  ],
   "id": "Ivern",
   "key": "427",
   "name": "Ivern",

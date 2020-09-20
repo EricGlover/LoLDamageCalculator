@@ -1,6 +1,32 @@
 {
   "abilities": [
     {
+      "name": "Berserker Rage",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Olaf gains 0% − 100% (based on missing health) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Berserker Rage.png",
+      "icons": [
+        "Berserker Rage.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Olaf gains 0% − 100% (based on missing health) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed."
+      ]
+    },
+    {
       "name": "Undertow",
       "cost": [
         60
@@ -27,7 +53,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Undertow.png",
+      "icons": [
+        "Undertow.png"
+      ],
+      "levelings": [
+        "Physical Damage:80 / 125 / 170 / 215 / 260 (+ 100% bonus AD)\nSlow:29 / 33 / 37 / 41 / 45%"
+      ],
+      "descriptions": [
+        "Active: Olaf throws an axe to the target location, dealing physical damage to all enemies it passes through and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them for 1.5 − 2.5 (based on distance traveled) seconds.",
+        "Olaf grants <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosting to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters hit for 6 seconds.",
+        "The axe remains at the target location for a duration equal to the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown. Olaf reduces the cooldown of Undertow by 4.5 seconds upon retrieving an axe."
+      ]
     },
     {
       "name": "Vicious Strikes",
@@ -51,7 +89,18 @@
         95
       ],
       "ratios": [],
-      "castTime": null
+      "castTime": null,
+      "icon": "Vicious Strikes.png",
+      "icons": [
+        "Vicious Strikes.png"
+      ],
+      "levelings": [
+        "Bonus Attack Speed:55 / 65 / 75 / 85 / 95%\nLife Steal:14 / 16 / 18 / 20 / 22%"
+      ],
+      "descriptions": [
+        "Active: For 6 seconds, Olaf gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed, bonus <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Life_steal_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Life steal icon\"  \tclass=\"\" \t \tdata-image-key=\"Life_steal_icon.png\" \tdata-image-name=\"Life steal icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> life steal, and 0% − 50% (based on missing health) enhanced <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing from all sources.",
+        "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Life_steal_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Life steal icon\"  \tclass=\"\" \t \tdata-image-key=\"Life_steal_icon.png\" \tdata-image-name=\"Life steal icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> Life steal and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f2/Spell_vamp_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203541\" \t alt=\"Spell vamp icon\"  \tclass=\"\" \t \tdata-image-key=\"Spell_vamp_icon.png\" \tdata-image-name=\"Spell vamp icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> spell vamp bonuses are calculated on-cast and remain static for the full duration."
+      ]
     },
     {
       "name": "Reckless Swing",
@@ -88,7 +137,18 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Reckless Swing.png",
+      "icons": [
+        "Reckless Swing.png"
+      ],
+      "levelings": [
+        "True Damage:70 / 115 / 160 / 205 / 250 (+ 50% AD)"
+      ],
+      "descriptions": [
+        "Active: Olaf strikes thunder onto the target enemy, dealing them <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c0/Hybrid_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20171001102450\" \t alt=\"Hybrid penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration_icon.png\" \tdata-image-name=\"Hybrid penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> true damage.",
+        "Reckless Swing <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals Olaf for <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> its health cost if it kills its target and its <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown is reduced by 1 second every time Olaf lands a basic attack."
+      ]
     },
     {
       "name": "Ragnarok",
@@ -112,7 +172,19 @@
         40
       ],
       "ratios": [],
-      "castTime": null
+      "castTime": null,
+      "icon": "Ragnarok.png",
+      "icons": [
+        "Ragnarok.png"
+      ],
+      "levelings": [
+        "Bonus Resistances:20 / 30 / 40",
+        "Bonus AD:15 / 20 / 25 (+ 30% AD)\nBonus Movement Speed:20 / 45 / 70%"
+      ],
+      "descriptions": [
+        "Passive: Olaf gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus magic resistance while Ragnarok is inactive.",
+        "Active: Olaf <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Remove_Scurvy.png/revision/latest/scale-to-width-down/20?cb=20150707190028\" \t alt=\"Remove Scurvy\"  \tclass=\"\" \t \tdata-image-key=\"Remove_Scurvy.png\" \tdata-image-name=\"Remove Scurvy.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> cleanses himself of all <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crowd control. For the next 6 seconds, he becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b1/Cc-immune_icon.png/revision/latest/scale-to-width-down/20?cb=20200327223512\" \t alt=\"Cc-immune icon\"  \tclass=\"\" \t \tdata-image-key=\"Cc-immune_icon.png\" \tdata-image-name=\"Cc-immune icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> immune to crowd control and gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack damage as well as 10% increased size. For the first second of Ragnarok, he also gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed when moving towards nearby <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions."
+      ]
     }
   ],
   "id": "Olaf",

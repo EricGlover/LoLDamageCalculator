@@ -1,0 +1,218 @@
+[
+  {
+    "name": "A Harmless Scarecrow",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate - Scarecrow Effigy: Fiddlesticks begins the game with an exclusive <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b3/Scarecrow_Effigy_item.png/revision/latest/scale-to-width-down/20?cb=20200318013105\" \t alt=\"Scarecrow Effigy item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Scarecrow_Effigy_item.png\" \tdata-image-name=\"Scarecrow Effigy item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Scarecrow Effigy, which permanently occupies the trinket slot. Fiddlesticks can pretend to be an Effigy, after standing still for 2 seconds, adjusting its body into a scarecrow and extending its arm out to expose its lantern. Its health bar is also hidden to enemies while idle, similarly to an Effigy. However, casting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a6/Crowstorm.png/revision/latest/scale-to-width-down/20?cb=20200317230159\" \t alt=\"Crowstorm\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crowstorm.png\" \tdata-image-name=\"Crowstorm.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crowstorm will cancel it early.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "A Harmless Scarecrow.png",
+    "icons": [
+      "A Harmless Scarecrow.png",
+      "A Harmless Scarecrow 2.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate - Scarecrow Effigy: Fiddlesticks begins the game with an exclusive <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b3/Scarecrow_Effigy_item.png/revision/latest/scale-to-width-down/20?cb=20200318013105\" \t alt=\"Scarecrow Effigy item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Scarecrow_Effigy_item.png\" \tdata-image-name=\"Scarecrow Effigy item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Scarecrow Effigy, which permanently occupies the trinket slot. Fiddlesticks can pretend to be an Effigy, after standing still for 2 seconds, adjusting its body into a scarecrow and extending its arm out to expose its lantern. Its health bar is also hidden to enemies while idle, similarly to an Effigy. However, casting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a6/Crowstorm.png/revision/latest/scale-to-width-down/20?cb=20200317230159\" \t alt=\"Crowstorm\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Crowstorm.png\" \tdata-image-name=\"Crowstorm.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Crowstorm will cancel it early.",
+      "Innate - A Harmless Scarecrow: From level 6 onward, placing an <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/46/Totem_Ward_icon.png/revision/latest/scale-to-width-down/20?cb=20171031100406\" \t alt=\"Totem Ward icon\"  \tclass=\"\" \t \tdata-image-key=\"Totem_Ward_icon.png\" \tdata-image-name=\"Totem Ward icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Effigy also summons a demonic eyeball at the location that grants <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/db/Sweeper_Drone_icon.png/revision/latest/scale-to-width-down/20?cb=20171031123433\" \t alt=\"Sweeper Drone icon\"  \tclass=\"\" \t \tdata-image-key=\"Sweeper_Drone_icon.png\" \tdata-image-name=\"Sweeper Drone icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> obscured vision of enemy units in the area for 6 seconds, which also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20150808161653\" \t alt=\"True Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"True_Sight_icon.png\" \tdata-image-name=\"True Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reveals and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Disabled_Ward_icon.png/revision/latest/scale-to-width-down/20?cb=20171031101848\" \t alt=\"Disabled Ward icon\"  \tclass=\"\" \t \tdata-image-key=\"Disabled_Ward_icon.png\" \tdata-image-name=\"Disabled Ward icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> disables enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f1/Ward_icon.png/revision/latest/scale-to-width-down/20?cb=20180828001331\" \t alt=\"Ward icon\"  \tclass=\"\" \t \tdata-image-key=\"Ward_icon.png\" \tdata-image-name=\"Ward icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> wards and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/21/Noxious_Trap.png/revision/latest/scale-to-width-down/20?cb=20171221034223\" \t alt=\"Noxious Trap\"  \tclass=\"\" \t \tdata-image-key=\"Noxious_Trap.png\" \tdata-image-name=\"Noxious Trap.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stealthed traps."
+    ]
+  },
+  {
+    "name": "Terrify",
+    "cost": [
+      65
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      15,
+      14,
+      14,
+      13,
+      13
+    ],
+    "description": "Passive: While Fiddlesticks has been out of combat for at least 2.5 seconds and is unseen by the enemy team, or is pretending to be an <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/53/A_Harmless_Scarecrow.png/revision/latest/scale-to-width-down/20?cb=20200318130329\" \t alt=\"A Harmless Scarecrow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"A_Harmless_Scarecrow.png\" \tdata-image-name=\"A Harmless Scarecrow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Effigy, Fiddlesticks' next damaging ability <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Flee_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223937\" \t alt=\"Flee icon\"  \tclass=\"\" \t \tdata-image-key=\"Flee_icon.png\" \tdata-image-name=\"Flee icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> fears all targets struck.",
+    "leveling": "Fear Duration:1 / 1.25 / 1.5 / 1.75 / 2",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "false",
+    "flatDamage": [
+      1,
+      1.25,
+      1.5,
+      1.75,
+      2
+    ],
+    "ratios": [],
+    "castTime": 0.35,
+    "icon": "false",
+    "icons": [
+      "false",
+      "Terrify.png"
+    ],
+    "levelings": [
+      "Fear Duration:1 / 1.25 / 1.5 / 1.75 / 2",
+      "Magic Damage:»6 / 7 / 8 / 9 / 10% (+ 2% per 100 AP) of target's current health«Minimum Damage:40 / 60 / 80 / 100 / 120",
+      "Increased Magic Damage:»12 / 14 / 16 / 18 / 20% (+ 4% per 100 AP) of target's current health«Increased Minimum Damage:80 / 120 / 160 / 200 / 240"
+    ],
+    "descriptions": [
+      "Passive: While Fiddlesticks has been out of combat for at least 2.5 seconds and is unseen by the enemy team, or is pretending to be an <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/53/A_Harmless_Scarecrow.png/revision/latest/scale-to-width-down/20?cb=20200318130329\" \t alt=\"A Harmless Scarecrow\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"A_Harmless_Scarecrow.png\" \tdata-image-name=\"A Harmless Scarecrow.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Effigy, Fiddlesticks' next damaging ability <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Flee_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223937\" \t alt=\"Flee icon\"  \tclass=\"\" \t \tdata-image-key=\"Flee_icon.png\" \tdata-image-name=\"Flee icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> fears all targets struck.",
+      "Targets feared by Fiddlesticks are placed on a cooldown equal to Terrify's cooldown, during which they cannot be feared by it again.",
+      "Active: Fiddlesticks screeches at the target enemy, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Flee_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223937\" \t alt=\"Flee icon\"  \tclass=\"\" \t \tdata-image-key=\"Flee_icon.png\" \tdata-image-name=\"Flee icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> fearing them. This has a minimum damage threshold and is capped at 400 against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+      "Against targets with a cooldown, Terrify instead will have its damage and minimum threshold doubled.",
+      "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Minions are always feared if Fiddlesticks is not attacking them and there is no enemy champion in its view."
+    ]
+  },
+  {
+    "name": "Bountiful Harvest",
+    "cost": [
+      60,
+      65,
+      70,
+      75,
+      80
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      9,
+      8,
+      8,
+      7,
+      7
+    ],
+    "description": "Active: At the time of cast, Fiddlesticks <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Focused_Resolve.png/revision/latest/scale-to-width-down/20?cb=20130929122918\" \t alt=\"Focused Resolve\"  \tclass=\"\" \t \tdata-image-key=\"Focused_Resolve.png\" \tdata-image-name=\"Focused Resolve.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> tethers itself to all nearby enemies, then <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reveals itself for up to 2 seconds, harvesting their souls.",
+    "leveling": "Damage per Tick:»15 / 22.5 / 30 / 37.5 / 45 (+ 8.75% AP)«Last Tick of Damage:»15 / 22.5 / 30 / 37.5 / 45 (+ 8.75% AP) (+ 12 / 14.5 / 17 / 19.5 / 22% of target's missing health)«Total Magic Damage:120 / 180 / 240 / 300 / 360 (+ 70% AP) (+ 12 / 14.5 / 17 / 19.5 / 22% of target's missing health)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      15,
+      22.5,
+      30,
+      37.5,
+      45
+    ],
+    "ratios": [
+      {
+        "value": 8.75,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Bountiful Harvest.png",
+    "icons": [
+      "Bountiful Harvest.png"
+    ],
+    "levelings": [
+      "Damage per Tick:»15 / 22.5 / 30 / 37.5 / 45 (+ 8.75% AP)«Last Tick of Damage:»15 / 22.5 / 30 / 37.5 / 45 (+ 8.75% AP) (+ 12 / 14.5 / 17 / 19.5 / 22% of target's missing health)«Total Magic Damage:120 / 180 / 240 / 300 / 360 (+ 70% AP) (+ 12 / 14.5 / 17 / 19.5 / 22% of target's missing health)",
+      "Heal Percentage:»30 / 35 / 40 / 45 / 50%«Total Heal per Non-Minion:»36 / 63 / 96 / 135 / 180 (+ 21 / 24.5 / 28 / 31.5 / 35% AP) (+ 7.2 / 9.45 / 12 / 14.85 / 18% of target's missing health)«Total Heal per Minion:9 / 13.5 / 18 / 22.5 / 27 (+ 5.25% AP) (+ 1.8 / 2.025 / 2.25 / 2.475 / 2.7% of target's missing health)"
+    ],
+    "descriptions": [
+      "Active: At the time of cast, Fiddlesticks <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0c/Focused_Resolve.png/revision/latest/scale-to-width-down/20?cb=20130929122918\" \t alt=\"Focused Resolve\"  \tclass=\"\" \t \tdata-image-key=\"Focused_Resolve.png\" \tdata-image-name=\"Focused Resolve.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> tethers itself to all nearby enemies, then <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reveals itself for up to 2 seconds, harvesting their souls.",
+      "During the channel, tethered enemies are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20150808161653\" \t alt=\"True Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"True_Sight_icon.png\" \tdata-image-name=\"True Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealed and dealt magic damage every 0.25 seconds, with the last tick dealing additional magic damage. Total damage is reduced to 50% against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions.",
+      "Fiddlesticks <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals itself for a percentage of the pre-mitigation damage dealt, reduced to 15% against minions.",
+      "Bountiful Harvest ends if all targets have died or broken their tethers. If the channel was not interrupted, 60% of the remaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown is refunded.",
+      "A target enemy is required to cast this ability. Fiddlesticks does not need <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of the target to tether itself to them."
+    ]
+  },
+  {
+    "name": "Reap",
+    "cost": [
+      40,
+      45,
+      50,
+      55,
+      60
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      10,
+      9,
+      8,
+      7,
+      6
+    ],
+    "description": "Active: Fiddlesticks slashes all enemies in the target area with its scythe, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing enemies hit for 1.25 seconds.",
+    "leveling": "Magic Damage:70 / 105 / 140 / 175 / 210 (+ 50% AP)\nSlow:30 / 35 / 40 / 45 / 50%",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      70,
+      105,
+      140,
+      175,
+      210
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.4,
+    "icon": "Reap.png",
+    "icons": [
+      "Reap.png"
+    ],
+    "levelings": [
+      "Magic Damage:70 / 105 / 140 / 175 / 210 (+ 50% AP)\nSlow:30 / 35 / 40 / 45 / 50%"
+    ],
+    "descriptions": [
+      "Active: Fiddlesticks slashes all enemies in the target area with its scythe, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing enemies hit for 1.25 seconds.",
+      "Enemies hit in the center of the area are also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> silenced for 1.25 seconds."
+    ]
+  },
+  {
+    "name": "Crowstorm",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      140,
+      125,
+      110,
+      95,
+      80
+    ],
+    "description": "Active: After <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channeling for 1.5 seconds, Fiddlesticks <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinks to the target location with a murder of crows flying wildly around it for 5 seconds, dealing magic damage to nearby enemies every 0.25 seconds.",
+    "leveling": "Damage per Tick:»31.25 / 43.75 / 56.25 / 68.75 / 81.25 (+ 11.25% AP)«Total Magic Damage:625 / 875 / 1125 / 1375 / 1625 (+ 225% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      31.25,
+      43.75,
+      56.25,
+      68.75,
+      81.25
+    ],
+    "ratios": [
+      {
+        "value": 11.25,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Crowstorm.png",
+    "icons": [
+      "Crowstorm.png"
+    ],
+    "levelings": [
+      "Damage per Tick:»31.25 / 43.75 / 56.25 / 68.75 / 81.25 (+ 11.25% AP)«Total Magic Damage:625 / 875 / 1125 / 1375 / 1625 (+ 225% AP)"
+    ],
+    "descriptions": [
+      "Active: After <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channeling for 1.5 seconds, Fiddlesticks <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinks to the target location with a murder of crows flying wildly around it for 5 seconds, dealing magic damage to nearby enemies every 0.25 seconds."
+    ]
+  }
+]

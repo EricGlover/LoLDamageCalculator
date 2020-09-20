@@ -8,10 +8,48 @@ const path = require('path');
 class Importer {
     constructor() {
         this.championNames = null;
+        this.wikiAbilitiesRawDir = './data/wikiData/championAbilitiesRaw';
+        this.wikiAbilitiesFormattedDir = './data/wikiData/championAbilitiesFormatted';
+        this.formattedAbilitiesDir = './data/formattedWikiData';
+        this.dataDragonChampions = `./data/champions.json`;
+        this.dataDragonChampionDetailsDir = `./data/champions`;
+    }
+
+    importFormattedChampionData(name) {
+        let obj = fs.readFileSync(`./data/championFormatted/${name}.json`);
+        return JSON.parse(obj);
+    }
+
+    async importFormattedAbilityData() {
+        const basePath = this.wikiAbilitiesFormattedDir;
+        const dir = await fs.promises.opendir(basePath);
+        const errors = [];
+        const championMap = new Map();
+        for await (const dirent of dir) {
+            if(dirent.isFile()) {
+                const path = `${basePath}/${dirent.name}`;
+                console.log(`reading ${path}`);
+                let data = fs.readFileSync(`${path}`);
+                let obj = JSON.parse(data);
+                if(!Array.isArray(obj) || obj.length === 0) {
+                    console.error(`can not read ${path}`, data);
+                    errors.push(`can not read ${path}`, data);
+                    fs.unlinkSync(`${path}`)
+                    console.log(`${path} deleted`);
+                    continue;
+                }
+                championMap.set(dirent.name.replace('.json', ''), obj);
+            }
+        }
+        if(errors.length > 0) {
+            console.log('errors : ', errors);
+        }
+
+        return championMap;
     }
 
     async importRawAbilityData() {
-        const basePath = './data/wikiData/championAbilitiesRaw';
+        const basePath = this.wikiAbilitiesRawDir;
         const dir = await fs.promises.opendir(basePath);
         const errors = [];
         const championMap = new Map();
@@ -40,7 +78,7 @@ class Importer {
     }
 
     async loadAbilities(championName) {
-        let data = fs.readFileSync(`./data/formattedWikiData/${championName}.json`);
+        let data = fs.readFileSync(`${this.formattedAbilitiesDir}/${championName}.json`);
         return JSON.parse(data);
     }
 
@@ -49,7 +87,7 @@ class Importer {
         if(this.championNames) return this.championNames;
 
         return new Promise(async (resolve, reject) => {
-            fs.readFile('./data/champions.json', 'utf8', (err, data) => {
+            fs.readFile(this.dataDragonChampions, 'utf8', (err, data) => {
                 let obj = JSON.parse(data);
                 if (err) {
                     console.error(err)
@@ -67,7 +105,7 @@ class Importer {
      */
     async loadFullChampionDetails() {
         const championData = [];
-        const basePath = "./data/champions";
+        const basePath = this.dataDragonChampionDetailsDir;
         const dir = await fs.promises.opendir(basePath);
         for await (const dirent of dir) {
             if(dirent.isFile()) {

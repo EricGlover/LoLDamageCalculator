@@ -1,5 +1,198 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Dismounted Skaarl the Cowardly Lizard",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Kled is only vulnerable to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> death while dismounted. Kled has <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 340 − 1530 (based on level) base health, which is not improved by sources of bonus health, as well as reduced base movement speed and increased <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> attack range. Percent-health effects consider Kled & Skaarl's combined maximum health, meaning that an unmounted Kled is always considered to be low health.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Dismounted Skaarl the Cowardly Lizard.png",
+      "icons": [
+        "Dismounted Skaarl the Cowardly Lizard.png",
+        "Skaarl the Cowardly Lizard 3.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Kled is only vulnerable to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> death while dismounted. Kled has <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 340 − 1530 (based on level) base health, which is not improved by sources of bonus health, as well as reduced base movement speed and increased <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> attack range. Percent-health effects consider Kled & Skaarl's combined maximum health, meaning that an unmounted Kled is always considered to be low health.",
+        "Kled gains 100 − 185 (based on level) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed when moving towards enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions within 900 range, but his basic attacks against them are reduced to 80% AD damage. Additionally, he gains the ability to restore Skaarl's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/47/Skaarl_the_Cowardly_Lizard_3.png/revision/latest/scale-to-width-down/20?cb=20160811031410\" \t alt=\"Skaarl the Cowardly Lizard 3\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Skaarl_the_Cowardly_Lizard_3.png\" \tdata-image-name=\"Skaarl the Cowardly Lizard 3.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Courage to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ac/Skaarl_the_Cowardly_Lizard.png/revision/latest/scale-to-width-down/20?cb=20160811031310\" \t alt=\"Skaarl the Cowardly Lizard\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Skaarl_the_Cowardly_Lizard.png\" \tdata-image-name=\"Skaarl the Cowardly Lizard.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reunite again.",
+        "Innate - Courage: Kled gains 15 Courage when basic attacking an enemy champion, 20 Courage whenever an enemy champion he damaged dies within 3 seconds, 4 Courage for <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minion kills, and 5 Courage when basic attacking a structure or epic <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monster. At 100 Courage, Skaarl returns with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 50 / 60 / 70 / 80% (based on level) of Skaarl's maximum health. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ac/Skaarl_the_Cowardly_Lizard.png/revision/latest/scale-to-width-down/20?cb=20160811031310\" \t alt=\"Skaarl the Cowardly Lizard\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Skaarl_the_Cowardly_Lizard.png\" \tdata-image-name=\"Skaarl the Cowardly Lizard.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Mounting up resets the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldowns of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/70/Bear_Trap_on_a_Rope.png/revision/latest/scale-to-width-down/20?cb=20160811031538\" \t alt=\"Bear Trap on a Rope\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Bear_Trap_on_a_Rope.png\" \tdata-image-name=\"Bear Trap on a Rope.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bear Trap on a Rope and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cb/Jousting.png/revision/latest/scale-to-width-down/20?cb=20160811031851\" \t alt=\"Jousting\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Jousting.png\" \tdata-image-name=\"Jousting.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Jousting.",
+        "While at the allied fountain, 25 Courage is generated every 0.25 seconds. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/43/Recall.png/revision/latest/scale-to-width-down/20?cb=20171227214733\" \t alt=\"Recall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Recall.png\" \tdata-image-name=\"Recall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Recalling fully restores Skaarl's Courage and health. If reuniting outside of base, Skaarl gets Frayed Nerves, which prevents him from gaining Courage for 30 seconds.",
+        "The current status of Kled's own health is preserved between subsequent dismounts. While mounted, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing will first affect Skaarl's health and will only restore Kled's health while Skaarl is at full health."
+      ]
+    },
+    {
+      "name": "Pocket Pistol",
+      "cost": [
+        1
+      ],
+      "costType": "Charge",
+      "coolDown": [
+        3
+      ],
+      "description": "Passive: Kled periodically stocks an ammo charge, up to a maximum of 2. Kled will store ammo even while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ac/Skaarl_the_Cowardly_Lizard.png/revision/latest/scale-to-width-down/20?cb=20160811031310\" \t alt=\"Skaarl the Cowardly Lizard\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Skaarl_the_Cowardly_Lizard.png\" \tdata-image-name=\"Skaarl the Cowardly Lizard.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> mounted.",
+      "leveling": "Physical Damage:»35 / 50 / 65 / 80 / 95 (+ 80% bonus AD)«Maximum Damage:63 / 90 / 117 / 144 / 171 (+ 144% bonus AD)",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "True",
+      "flatDamage": [
+        35,
+        50,
+        65,
+        80,
+        95
+      ],
+      "ratios": [
+        {
+          "value": 80,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Pocket Pistol.png",
+      "icons": [
+        "Pocket Pistol.png"
+      ],
+      "levelings": [
+        "Physical Damage:»35 / 50 / 65 / 80 / 95 (+ 80% bonus AD)«Maximum Damage:63 / 90 / 117 / 144 / 171 (+ 144% bonus AD)"
+      ],
+      "descriptions": [
+        "Passive: Kled periodically stocks an ammo charge, up to a maximum of 2. Kled will store ammo even while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ac/Skaarl_the_Cowardly_Lizard.png/revision/latest/scale-to-width-down/20?cb=20160811031310\" \t alt=\"Skaarl the Cowardly Lizard\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Skaarl_the_Cowardly_Lizard.png\" \tdata-image-name=\"Skaarl the Cowardly Lizard.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> mounted.",
+        "Active: Kled sprays a cone of five pellets in the target direction, dealing physical damage while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> recoiling 250 units in the opposite direction.",
+        "Pellets collide into the first enemy champion they hit, and deal 20% damage per pellet beyond the first. Each pellet that hits an enemy champion or epic monster restores <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/47/Skaarl_the_Cowardly_Lizard_3.png/revision/latest/scale-to-width-down/20?cb=20160811031410\" \t alt=\"Skaarl the Cowardly Lizard 3\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Skaarl_the_Cowardly_Lizard_3.png\" \tdata-image-name=\"Skaarl the Cowardly Lizard 3.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Courage, by 5 and 2.5 respectively."
+      ]
+    },
+    {
+      "name": "Violent Tendencies",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        14,
+        12,
+        11,
+        9,
+        8
+      ],
+      "description": "Passive: Kled periodically enters a frenzy that grants him <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 150% bonus attack speed on his next 4 basic attacks within 4 seconds after the first, with the final attack dealing bonus physical damage, capped against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+      "leveling": "Bonus Physical Damage:»20 / 30 / 40 / 50 / 60 (+ 4.5 / 5 / 5.5 / 6 / 6.5% (+ 5% per 100 bonus AD) of target's maximum health)«Maximum Damage Against Monsters:220 / 230 / 240 / 250 / 260",
+      "skill": "W",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [
+        20,
+        30,
+        40,
+        50,
+        60
+      ],
+      "ratios": [
+        {
+          "value": 4.5,
+          "type": "bonus ad"
+        },
+        {
+          "value": 5,
+          "type": "bonus ad"
+        },
+        {
+          "value": 5.5,
+          "type": "bonus ad"
+        },
+        {
+          "value": 6,
+          "type": "bonus ad"
+        },
+        {
+          "value": 6.5,
+          "type": "bonus ad"
+        },
+        {
+          "value": 5,
+          "type": "bonus ad"
+        },
+        {
+          "value": 100,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Violent Tendencies.png",
+      "icons": [
+        "Violent Tendencies.png"
+      ],
+      "levelings": [
+        "Bonus Physical Damage:»20 / 30 / 40 / 50 / 60 (+ 4.5 / 5 / 5.5 / 6 / 6.5% (+ 5% per 100 bonus AD) of target's maximum health)«Maximum Damage Against Monsters:220 / 230 / 240 / 250 / 260"
+      ],
+      "descriptions": [
+        "Passive: Kled periodically enters a frenzy that grants him <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 150% bonus attack speed on his next 4 basic attacks within 4 seconds after the first, with the final attack dealing bonus physical damage, capped against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+        "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Turrets are only affected by the base damage."
+      ]
+    },
+    {
+      "name": "Unmounted Jousting",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "This ability is unusable while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Dismounted_Skaarl_the_Cowardly_Lizard.png/revision/latest/scale-to-width-down/20?cb=20160811031340\" \t alt=\"Dismounted Skaarl the Cowardly Lizard\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dismounted_Skaarl_the_Cowardly_Lizard.png\" \tdata-image-name=\"Dismounted Skaarl the Cowardly Lizard.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unmounted.",
+      "leveling": null,
+      "skill": "E",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Unmounted Jousting.png",
+      "icons": [
+        "Unmounted Jousting.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "This ability is unusable while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Dismounted_Skaarl_the_Cowardly_Lizard.png/revision/latest/scale-to-width-down/20?cb=20160811031340\" \t alt=\"Dismounted Skaarl the Cowardly Lizard\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dismounted_Skaarl_the_Cowardly_Lizard.png\" \tdata-image-name=\"Dismounted Skaarl the Cowardly Lizard.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unmounted."
+      ]
+    },
+    {
+      "name": "Unmounted Chaaaaaaaarge!!!",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "This ability is unusable while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Dismounted_Skaarl_the_Cowardly_Lizard.png/revision/latest/scale-to-width-down/20?cb=20160811031340\" \t alt=\"Dismounted Skaarl the Cowardly Lizard\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dismounted_Skaarl_the_Cowardly_Lizard.png\" \tdata-image-name=\"Dismounted Skaarl the Cowardly Lizard.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unmounted.",
+      "leveling": null,
+      "skill": "R",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Unmounted Chaaaaaaaarge!!!.png",
+      "icons": [
+        "Unmounted Chaaaaaaaarge!!!.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "This ability is unusable while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Dismounted_Skaarl_the_Cowardly_Lizard.png/revision/latest/scale-to-width-down/20?cb=20160811031340\" \t alt=\"Dismounted Skaarl the Cowardly Lizard\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Dismounted_Skaarl_the_Cowardly_Lizard.png\" \tdata-image-name=\"Dismounted Skaarl the Cowardly Lizard.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unmounted."
+      ]
+    }
+  ],
   "id": "Kled",
   "key": "240",
   "name": "Kled",

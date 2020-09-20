@@ -1,5 +1,221 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Organic Deconstruction",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Vel'Koz's abilities apply a Deconstruction stack for 7 seconds, stacking up to 3 times. Basic attacks refresh the duration on-hit.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "True",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Organic Deconstruction.png",
+      "icons": [
+        "Organic Deconstruction.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Vel'Koz's abilities apply a Deconstruction stack for 7 seconds, stacking up to 3 times. Basic attacks refresh the duration on-hit.",
+        "The third stack consumes them all, dealing 33 − 169 (based on level) (+ 50% AP) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c0/Hybrid_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20171001102450\" \t alt=\"Hybrid penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration_icon.png\" \tdata-image-name=\"Hybrid penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus true damage."
+      ]
+    },
+    {
+      "name": "Plasma Fission",
+      "cost": [
+        40,
+        45,
+        50,
+        55,
+        60
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        7
+      ],
+      "description": "Active: Vel'Koz fires a plasma bolt in the target direction that collides with the first enemy hit to deal them magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow them by 70% for a few seconds, decaying over the duration. Plasma Fission can be recast after 0.25 seconds.",
+      "leveling": "Magic Damage:80 / 120 / 160 / 200 / 240 (+ 80% AP)Slow Duration:1 / 1.4 / 1.8 / 2.2 / 2.6",
+      "skill": "Q",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        80,
+        120,
+        160,
+        200,
+        240
+      ],
+      "ratios": [
+        {
+          "value": 80,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Plasma Fission.png",
+      "icons": [
+        "Plasma Fission.png",
+        "Plasma Fission 2.png"
+      ],
+      "levelings": [
+        "Magic Damage:80 / 120 / 160 / 200 / 240 (+ 80% AP)Slow Duration:1 / 1.4 / 1.8 / 2.2 / 2.6",
+        "Mana Restored On-Kill:»20 / 22.5 / 25 / 27.5 / 30«Maximum Mana Restored:60 / 67.5 / 75 / 82.5 / 90"
+      ],
+      "descriptions": [
+        "Active: Vel'Koz fires a plasma bolt in the target direction that collides with the first enemy hit to deal them magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow them by 70% for a few seconds, decaying over the duration. Plasma Fission can be recast after 0.25 seconds.",
+        "At the end of its range or upon colliding with an enemy, the bolt splits in half, each part firing in opposite directions perpendicular to the primary bolt's trajectory, both dealing the same damage and applying the same <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow to the first enemy they collide with.",
+        "Recast: Vel'Koz splits Plasma Fission early.",
+        "Plasma Fission restores <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> mana per target killed."
+      ]
+    },
+    {
+      "name": "Void Rift",
+      "cost": [
+        50,
+        55,
+        60,
+        65,
+        70
+      ],
+      "costType": "Mana + 1 Charge",
+      "coolDown": [
+        null
+      ],
+      "description": "Passive: Vel'Koz periodically stocks a Void Rift charge, up to a maximum of 2.",
+      "leveling": "Initial Magic Damage:30 / 50 / 70 / 90 / 110 (+ 15% AP)",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "Special",
+      "flatDamage": [
+        30,
+        50,
+        70,
+        90,
+        110
+      ],
+      "ratios": [
+        {
+          "value": 15,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Void Rift.png",
+      "icons": [
+        "Void Rift.png"
+      ],
+      "levelings": [
+        "Initial Magic Damage:30 / 50 / 70 / 90 / 110 (+ 15% AP)",
+        "Detonation Magic Damage:»45 / 75 / 105 / 135 / 165 (+ 25% AP)«Total Damage:75 / 125 / 175 / 225 / 275 (+ 40% AP)"
+      ],
+      "descriptions": [
+        "Passive: Vel'Koz periodically stocks a Void Rift charge, up to a maximum of 2.",
+        "Active: Vel'Koz opens a rift to the void that cuts through the ground in a line in the target direction over 1 second, dealing magic damage to enemies hit and leaving behind a trail.",
+        "After 0.75 seconds, the trail detonates, dealing magic damage to enemies within."
+      ]
+    },
+    {
+      "name": "Tectonic Disruption",
+      "cost": [
+        50,
+        55,
+        60,
+        65,
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "description": "Active: Vel'Koz hurls a disruptive anomaly that reaches the target location after 0.75 seconds, briefly providing <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking up and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning enemies in the area for 0.75 seconds. If the area is created close to Vel'Koz, enemies hit are also slightly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked back in the direction of the cast.",
+      "leveling": "Magic Damage:70 / 100 / 130 / 160 / 190 (+ 30% AP)",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "Special",
+      "flatDamage": [
+        70,
+        100,
+        130,
+        160,
+        190
+      ],
+      "ratios": [
+        {
+          "value": 30,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Tectonic Disruption.png",
+      "icons": [
+        "Tectonic Disruption.png"
+      ],
+      "levelings": [
+        "Magic Damage:70 / 100 / 130 / 160 / 190 (+ 30% AP)"
+      ],
+      "descriptions": [
+        "Active: Vel'Koz hurls a disruptive anomaly that reaches the target location after 0.75 seconds, briefly providing <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking up and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning enemies in the area for 0.75 seconds. If the area is created close to Vel'Koz, enemies hit are also slightly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked back in the direction of the cast."
+      ]
+    },
+    {
+      "name": "Life Form Disintegration Ray",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        120,
+        110,
+        100,
+        90,
+        80
+      ],
+      "description": "Passive - Researched: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5c/Organic_Deconstruction.png/revision/latest/scale-to-width-down/20?cb=20170818195645\" \t alt=\"Organic Deconstruction\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Organic_Deconstruction.png\" \tdata-image-name=\"Organic Deconstruction.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Deconstructing enemy champions marks them as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3b/Researched.png/revision/latest/scale-to-width-down/20?cb=20160423194314\" \t alt=\"Researched\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Researched.png\" \tdata-image-name=\"Researched.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Researched for 7 seconds. Basic attacks on-hit and ability hits refresh the duration.",
+      "leveling": "Damage Per Tick:»34.62 / 41.35 / 48.08 / 54.81 / 61.54 (+ 9.62% AP)«Maximum Damage:450 / 537.5 / 625 / 712.5 / 800 (+ 125% AP)",
+      "skill": "R",
+      "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/92/Hybrid_penetration.png/revision/latest/scale-to-width-down/20?cb=20170514081634\" \t alt=\"Hybrid penetration\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration.png\" \tdata-image-name=\"Hybrid penetration.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> True",
+      "isProjectile": "False",
+      "flatDamage": [
+        34.62,
+        41.35,
+        48.08,
+        54.81,
+        61.54
+      ],
+      "ratios": [
+        {
+          "value": 9.62,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": null,
+      "icon": "Researched.png",
+      "icons": [
+        "Researched.png",
+        "Lifeform Disintegration Ray.png"
+      ],
+      "levelings": [
+        "Damage Per Tick:»34.62 / 41.35 / 48.08 / 54.81 / 61.54 (+ 9.62% AP)«Maximum Damage:450 / 537.5 / 625 / 712.5 / 800 (+ 125% AP)"
+      ],
+      "descriptions": [
+        "Passive - Researched: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5c/Organic_Deconstruction.png/revision/latest/scale-to-width-down/20?cb=20170818195645\" \t alt=\"Organic Deconstruction\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Organic_Deconstruction.png\" \tdata-image-name=\"Organic Deconstruction.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Deconstructing enemy champions marks them as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3b/Researched.png/revision/latest/scale-to-width-down/20?cb=20160423194314\" \t alt=\"Researched\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Researched.png\" \tdata-image-name=\"Researched.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Researched for 7 seconds. Basic attacks on-hit and ability hits refresh the duration.",
+        "Active: After a 0.2-second delay, Vel'Koz <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reveals himself and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels for 2.6 seconds to project an energy beam in a line. The ray's trajectory updates itself over the duration to face the target direction. After 1 second, Life Form Disintegration Ray can be recast.",
+        "The ray deals magic damage to enemies within in 0.2-second intervals, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows them by 20%, lingering for 1 second. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5c/Organic_Deconstruction.png/revision/latest/scale-to-width-down/20?cb=20170818195645\" \t alt=\"Organic Deconstruction\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Organic_Deconstruction.png\" \tdata-image-name=\"Organic Deconstruction.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Deconstruction is applied every 0.7 seconds to enemies hit. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3b/Researched.png/revision/latest/scale-to-width-down/20?cb=20160423194314\" \t alt=\"Researched\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Researched.png\" \tdata-image-name=\"Researched.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Researched enemies take true damage instead.",
+        "Recast: Vel'Koz ends Life Form Disintegration Ray early."
+      ]
+    }
+  ],
   "id": "Velkoz",
   "key": "161",
   "name": "Vel'Koz",

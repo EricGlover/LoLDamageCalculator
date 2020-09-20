@@ -3,6 +3,11 @@
 const fs = require('fs');
 // console.log(numbers);
 
+let z = 'jarvan IV.json';
+console.log(z.replace('.json', ''));
+
+return;
+
 const paragraph = 'The quick brown fox jumps over the lazy dog. It barked.';
 const regex = /[A-Z]/g;
 const found = paragraph.match(regex);

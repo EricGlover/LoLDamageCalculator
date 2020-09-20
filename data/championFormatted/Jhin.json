@@ -1,5 +1,241 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Whisper",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate - Death In 4 Acts: Jhin's basic attacks consume ammunition for 4 rounds. He will reload over 2.5 seconds immediately after expending all rounds or withholding leftover rounds after 10 seconds out of combat. The latter reload can be interrupted by declaring an attack or casting an ability.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Whisper.png",
+      "icons": [
+        "Whisper.png",
+        "Caught Out.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate - Death In 4 Acts: Jhin's basic attacks consume ammunition for 4 rounds. He will reload over 2.5 seconds immediately after expending all rounds or withholding leftover rounds after 10 seconds out of combat. The latter reload can be interrupted by declaring an attack or casting an ability.",
+        "Jhin's final round attack will become <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Excessive_Force_2.png/revision/latest/scale-to-width-down/20?cb=20160608034953\" \t alt=\"Excessive Force 2\"  \tclass=\"\" \t \tdata-image-key=\"Excessive_Force_2.png\" \tdata-image-name=\"Excessive Force 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unstoppable, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critically strike, and deal 15 / 20 / 25% (based on level) of the target's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> missing health bonus physical damage. This critical strike will occur versus structures but deals only (50% + <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/15/Infinity_Edge_item.png/revision/latest/scale-to-width-down/20?cb=20180531105945\" \t alt=\"Infinity Edge item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Infinity_Edge_item.png\" \tdata-image-name=\"Infinity Edge item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 18.75%) AD bonus physical damage.",
+        "Innate - Every Moment Matters: Jhin gains 4% − 44% (based on level)「 (+ 0.4% per 1% critical strike chance) (+ 0.25% per 1% bonus attack speed) 」「 (+ 40% of his critical strike chance) (+ 25% of his bonus attack speed) 」 <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack damage.",
+        "Additionally, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critical strikes grant Jhin 10% (+ 0.4% per 1% bonus attack speed) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed for 2 seconds.",
+        "Innate - Caught Out: Enemies who are Caught Out are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealed."
+      ]
+    },
+    {
+      "name": "Dancing Grenade",
+      "cost": [
+        40,
+        45,
+        50,
+        55,
+        60
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        7,
+        6,
+        6,
+        5,
+        5
+      ],
+      "description": "Active: Jhin launches a canister at the target enemy, dealing them physical damage. The canister then bounces to up to three additional enemies beyond the first, with each kill it performs increasing its damage by 35% of the base damage.",
+      "leveling": "Minimum Physical Damage:»45 / 70 / 95 / 120 / 145 (+ 45 / 52.5 / 60 / 67.5 / 75% AD) (+ 60% AP)«Maximum Damage:92.25 / 143.5 / 194.75 / 246 / 297.25 (+ 92.25 / 107.625 / 123 / 138.375 / 153.75% AD) (+ 123% AP)",
+      "skill": "Q",
+      "damageType": "Physical",
+      "isProjectile": "True",
+      "flatDamage": [
+        45,
+        70,
+        95,
+        120,
+        145
+      ],
+      "ratios": [
+        {
+          "value": 45,
+          "type": "bonus ad"
+        },
+        {
+          "value": 52.5,
+          "type": "bonus ad"
+        },
+        {
+          "value": 60,
+          "type": "bonus ad"
+        },
+        {
+          "value": 67.5,
+          "type": "bonus ad"
+        },
+        {
+          "value": 75,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Dancing Grenade.png",
+      "icons": [
+        "Dancing Grenade.png"
+      ],
+      "levelings": [
+        "Minimum Physical Damage:»45 / 70 / 95 / 120 / 145 (+ 45 / 52.5 / 60 / 67.5 / 75% AD) (+ 60% AP)«Maximum Damage:92.25 / 143.5 / 194.75 / 246 / 297.25 (+ 92.25 / 107.625 / 123 / 138.375 / 153.75% AD) (+ 123% AP)"
+      ],
+      "descriptions": [
+        "Active: Jhin launches a canister at the target enemy, dealing them physical damage. The canister then bounces to up to three additional enemies beyond the first, with each kill it performs increasing its damage by 35% of the base damage.",
+        "The damage will also increase if Jhin kills the target the grenade last bounced off."
+      ]
+    },
+    {
+      "name": "Deadly Flourish",
+      "cost": [
+        50,
+        60,
+        70,
+        80,
+        90
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        12
+      ],
+      "description": "Passive: Enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions who cross over a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/71/Captive_Audience.png/revision/latest/scale-to-width-down/20?cb=20171221042004\" \t alt=\"Captive Audience\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Captive_Audience.png\" \tdata-image-name=\"Captive Audience.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Lotus Trap or are damaged by Jhin or his allied champions are marked for 4 seconds.",
+      "leveling": "Physical Damage:»50 / 85 / 120 / 155 / 190 (+ 50% AD)«Non-Champion Damage:37.5 / 63.75 / 90 / 116.25 / 142.5 (+ 37.5% AD)",
+      "skill": "W",
+      "damageType": "Physical",
+      "isProjectile": "True",
+      "flatDamage": [
+        50,
+        85,
+        120,
+        155,
+        190
+      ],
+      "ratios": [
+        {
+          "value": 50,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.75,
+      "icon": "false",
+      "icons": [
+        "false",
+        "Deadly Flourish.png"
+      ],
+      "levelings": [
+        "Physical Damage:»50 / 85 / 120 / 155 / 190 (+ 50% AD)«Non-Champion Damage:37.5 / 63.75 / 90 / 116.25 / 142.5 (+ 37.5% AD)",
+        "Root Duration:1 / 1.25 / 1.5 / 1.75 / 2"
+      ],
+      "descriptions": [
+        "Passive: Enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions who cross over a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/71/Captive_Audience.png/revision/latest/scale-to-width-down/20?cb=20171221042004\" \t alt=\"Captive Audience\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Captive_Audience.png\" \tdata-image-name=\"Captive Audience.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Lotus Trap or are damaged by Jhin or his allied champions are marked for 4 seconds.",
+        "Active: Jhin fires a shot in the target direction that deals physical damage to all enemies in a line until colliding with an enemy champion, reduced by 25% against non-champions.",
+        "Striking a marked champion <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> roots them and grants Jhin <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/44/Whisper.png/revision/latest/scale-to-width-down/20?cb=20171221042759\" \t alt=\"Whisper\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Whisper.png\" \tdata-image-name=\"Whisper.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Every Moment Matters' <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed."
+      ]
+    },
+    {
+      "name": "Captive Audience",
+      "cost": [
+        30,
+        35,
+        40,
+        45,
+        50
+      ],
+      "costType": "Mana + 1 Charge",
+      "coolDown": [
+        2
+      ],
+      "description": "Passive: Jhin periodically stocks a Lotus Trap charge, up to a maximum of 2.",
+      "leveling": "Magic Damage:»20 / 80 / 140 / 200 / 260 (+ 120% AD) (+ 100% AP)«Reduced Damage:13 / 52 / 91 / 130 / 169 (+ 78% AD) (+ 65% AP)",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "Special",
+      "flatDamage": [
+        20,
+        80,
+        140,
+        200,
+        260
+      ],
+      "ratios": [
+        {
+          "value": 120,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Captive Audience.png",
+      "icons": [
+        "Captive Audience.png"
+      ],
+      "levelings": [
+        "Magic Damage:»20 / 80 / 140 / 200 / 260 (+ 120% AD) (+ 100% AP)«Reduced Damage:13 / 52 / 91 / 130 / 169 (+ 78% AD) (+ 65% AP)"
+      ],
+      "descriptions": [
+        "Passive: Jhin periodically stocks a Lotus Trap charge, up to a maximum of 2.",
+        "Passive - Beauty in Death: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Damage_rating.png/revision/latest/scale-to-width-down/20?cb=20170514053710\" \t alt=\"Damage rating\"  \tclass=\"\" \t \tdata-image-key=\"Damage_rating.png\" \tdata-image-name=\"Damage rating.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Takedowns on enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions summon a free Blooming Lotus Trap under them.",
+        "Active: Jhin places a Lotus Trap at the target location which <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/21/Noxious_Trap.png/revision/latest/scale-to-width-down/20?cb=20171221034223\" \t alt=\"Noxious Trap\"  \tclass=\"\" \t \tdata-image-key=\"Noxious_Trap.png\" \tdata-image-name=\"Noxious Trap.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stealths and arms after 1 second, lasting for up to 180 seconds and granting a small area of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight in and around it. The Lotus Trap Blooms upon enemy contact, with enemies in the area at the time of its trigger becoming Caught Out for 4 seconds.",
+        "Blooming Lotus Traps <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow enemies within by 35% for 2 seconds before detonating, dealing magic damage to all enemies caught in the explosion. Lotus Traps deal 65% damage against non-champions and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions who have recently been struck by another Lotus Trap."
+      ]
+    },
+    {
+      "name": "Curtain Call",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        120,
+        112,
+        105,
+        97,
+        90
+      ],
+      "description": "Active: Jhin <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reveals himself for up to 10 seconds, gaining a wider field of view, though not a larger <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> vision range, during which he has the ability to recast Curtain Call up to 4 times with a 1 second static cooldown between casts.",
+      "leveling": "Minimum Damage:»50 / 87.5 / 125 / 162.5 / 200 (+ 20% AD)«Maximum Damage:200 / 350 / 500 / 650 / 800 (+ 80% AD)",
+      "skill": "R",
+      "damageType": "Physical",
+      "isProjectile": "True",
+      "flatDamage": [
+        50,
+        87.5,
+        125,
+        162.5,
+        200
+      ],
+      "ratios": [
+        {
+          "value": 20,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 1,
+      "icon": "Curtain Call.png",
+      "icons": [
+        "Curtain Call.png",
+        "Curtain Call 2.png",
+        "Curtain Call 3.png"
+      ],
+      "levelings": [
+        "Minimum Damage:»50 / 87.5 / 125 / 162.5 / 200 (+ 20% AD)«Maximum Damage:200 / 350 / 500 / 650 / 800 (+ 80% AD)"
+      ],
+      "descriptions": [
+        "Active: Jhin <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reveals himself for up to 10 seconds, gaining a wider field of view, though not a larger <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> vision range, during which he has the ability to recast Curtain Call up to 4 times with a 1 second static cooldown between casts.",
+        "Recast: After 0.25 seconds, Jhin fires a round in the target direction that grants <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight around its trajectory for 0.5 seconds and deals physical damage, which is increased by 0% − 300% (based on target's missing health), to all enemies in a line until colliding with an enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 80% for 0.5 seconds, and rendering them Caught Out for 2 seconds.",
+        "The fourth shot <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critically strikes for (100% + <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/15/Infinity_Edge_item.png/revision/latest/scale-to-width-down/20?cb=20180531105945\" \t alt=\"Infinity Edge item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Infinity_Edge_item.png\" \tdata-image-name=\"Infinity Edge item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 25%) bonus physical damage."
+      ]
+    }
+  ],
   "id": "Jhin",
   "key": "202",
   "name": "Jhin",

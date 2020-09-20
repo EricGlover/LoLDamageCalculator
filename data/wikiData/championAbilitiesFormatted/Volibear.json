@@ -1,0 +1,201 @@
+[
+  {
+    "name": "The Relentless Storm",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Volibear gains 1 stack of The Relentless Storm whenever he damages an enemy with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cd/Basic_Attack.png/revision/latest/scale-to-width-down/20?cb=20200517010633\" \t alt=\"Basic Attack\"  \tclass=\"\" \t \tdata-image-key=\"Basic_Attack.png\" \tdata-image-name=\"Basic Attack.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> basic attacks on-hit and abilities, up to a maximum of 5. The Relentless Storm lasts for 6 seconds, refreshing whenever Volibear gains a stack. At maximum stacks, he gains Lightning Claws.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Magic",
+    "isProjectile": "false",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "The Relentless Storm.png",
+    "icons": [
+      "The Relentless Storm.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Volibear gains 1 stack of The Relentless Storm whenever he damages an enemy with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cd/Basic_Attack.png/revision/latest/scale-to-width-down/20?cb=20200517010633\" \t alt=\"Basic Attack\"  \tclass=\"\" \t \tdata-image-key=\"Basic_Attack.png\" \tdata-image-name=\"Basic Attack.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> basic attacks on-hit and abilities, up to a maximum of 5. The Relentless Storm lasts for 6 seconds, refreshing whenever Volibear gains a stack. At maximum stacks, he gains Lightning Claws.",
+      "The Relentless Storm: Volibear gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 5% bonus attack speed per stack, up to 25% bonus attack speed.",
+      "Lightning Claws: Volibear's claws ignite with lightning, causing his basic attacks on-hit to deal 11 −  60 (based on level) (+ 40% AP) bonus magic damage to the target and the closest <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible enemy within 450 units of the target, chaining up to 4 subsequent targets."
+    ]
+  },
+  {
+    "name": "Thundering Smash",
+    "cost": [
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      14,
+      13,
+      12,
+      11,
+      10
+    ],
+    "description": "Active: Volibear drops on all fours, becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted and gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed for 4 seconds, doubled when moving towards <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions.",
+    "leveling": "Bonus Movement Speed:»10 / 14 / 18 / 22 / 26%«Increased Movement Speed:20 / 28 / 36 / 44 / 52%",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      10,
+      14,
+      18,
+      22,
+      26
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Thundering Smash.png",
+    "icons": [
+      "Thundering Smash.png"
+    ],
+    "levelings": [
+      "Bonus Movement Speed:»10 / 14 / 18 / 22 / 26%«Increased Movement Speed:20 / 28 / 36 / 44 / 52%",
+      "Bonus Damage:20 / 40 / 60 / 80 / 100 (+ 120% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Volibear drops on all fours, becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted and gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed for 4 seconds, doubled when moving towards <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions.",
+      "While active, Volibear's next basic attack within the duration becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Excessive_Force_2.png/revision/latest/scale-to-width-down/20?cb=20160608034953\" \t alt=\"Excessive Force 2\"  \tclass=\"\" \t \tdata-image-key=\"Excessive_Force_2.png\" \tdata-image-name=\"Excessive Force 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unstoppable, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> pounces on the target, deals bonus physical damage, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stuns the target for 1 second.",
+      "If Volibear becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> immobilized while Thundering Smash is active, the effect ends prematurely and the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown is reset.",
+      "Thundering Smash <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resets Volibear's basic attack timer, benefits from <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Life_steal_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Life steal icon\"  \tclass=\"\" \t \tdata-image-key=\"Life_steal_icon.png\" \tdata-image-name=\"Life steal icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> life steal and is affected by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critical strike modifiers."
+    ]
+  },
+  {
+    "name": "Frenzied Maul",
+    "cost": [
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      5
+    ],
+    "description": "Active: Volibear strikes the target enemy, dealing physical damage, applying on-hit and on-attack effects, and Wounding them for 8 seconds.",
+    "leveling": "Physical Damage:»10 / 35 / 60 / 85 / 110 (+ 100% AD) (+ 6% of his bonus health)«Increased Damage:15 / 52.5 / 90 / 127.5 / 165 (+ 150% AD) (+ 9% of his bonus health)",
+    "skill": "W",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      10,
+      35,
+      60,
+      85,
+      110
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Frenzied Maul.png",
+    "icons": [
+      "Frenzied Maul.png"
+    ],
+    "levelings": [
+      "Physical Damage:»10 / 35 / 60 / 85 / 110 (+ 100% AD) (+ 6% of his bonus health)«Increased Damage:15 / 52.5 / 90 / 127.5 / 165 (+ 150% AD) (+ 9% of his bonus health)",
+      "Champion Heal:»20 / 35 / 50 / 65 / 80 (+ 8 / 10 / 12 / 14 / 16% of his missing health)«Non-Champion Heal:10 / 17.5 / 25 / 32.5 / 40 (+ 4 / 5 / 6 / 7 / 8% of his missing health)"
+    ],
+    "descriptions": [
+      "Active: Volibear strikes the target enemy, dealing physical damage, applying on-hit and on-attack effects, and Wounding them for 8 seconds.",
+      "Against a Wounded enemy, Volibear instead bites the target, dealing <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 50% increased damage, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing himself. The heal is halved against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+      "Frenzied Maul also benefits from <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Life_steal_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Life steal icon\"  \tclass=\"\" \t \tdata-image-key=\"Life_steal_icon.png\" \tdata-image-name=\"Life steal icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> life steal."
+    ]
+  },
+  {
+    "name": "Sky Splitter",
+    "cost": [
+      60
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      15
+    ],
+    "description": "Active: Volibear summons a lightning bolt to strike at the target location after a 2-second delay. Enemies can see the cast location indicator after a 1-second delay. If Volibear is within the lightning strike, he <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields himself for 15% of his maximum health (+ 80% AP) for 3 seconds.",
+    "leveling": "Magic Damage:»80 / 110 / 140 / 170 / 200 (+ 80% AP) (+ 11 / 12 / 13 / 14 / 15% of target's maximum health)«Capped Damage:150 / 250 / 350 / 450 / 550",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      80,
+      110,
+      140,
+      170,
+      200
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Sky Splitter.png",
+    "icons": [
+      "Sky Splitter.png",
+      "Sky Splitter 2.png"
+    ],
+    "levelings": [
+      "Magic Damage:»80 / 110 / 140 / 170 / 200 (+ 80% AP) (+ 11 / 12 / 13 / 14 / 15% of target's maximum health)«Capped Damage:150 / 250 / 350 / 450 / 550"
+    ],
+    "descriptions": [
+      "Active: Volibear summons a lightning bolt to strike at the target location after a 2-second delay. Enemies can see the cast location indicator after a 1-second delay. If Volibear is within the lightning strike, he <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields himself for 15% of his maximum health (+ 80% AP) for 3 seconds.",
+      "The lightning bolt deals magic damage to all enemies struck, capped against non-champions, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 40% for 2 seconds, and grants <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of the area for 1 second."
+    ]
+  },
+  {
+    "name": "Stormbringer",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      160,
+      140,
+      120
+    ],
+    "description": "Active: Volibear gains Stormbringer for 12 seconds and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leaps to the target location with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b1/Cc-immune_icon.png/revision/latest/scale-to-width-down/20?cb=20200327223512\" \t alt=\"Cc-immune icon\"  \tclass=\"\" \t \tdata-image-key=\"Cc-immune_icon.png\" \tdata-image-name=\"Cc-immune icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> immunity to crowd control as well as granting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of the area in a 500 radius during it. If <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Thundering_Smash.png/revision/latest/scale-to-width-down/20?cb=20200512213235\" \t alt=\"Thundering Smash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Thundering_Smash.png\" \tdata-image-name=\"Thundering Smash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Thundering Smash is active when Stormbringer is cast, its duration is paused during the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leap.",
+    "leveling": "Bonus Health:200 / 300 / 400 / 500 / 600",
+    "skill": "R",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      200,
+      300,
+      400,
+      500,
+      600
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Stormbringer.png",
+    "icons": [
+      "Stormbringer.png"
+    ],
+    "levelings": [
+      "Bonus Health:200 / 300 / 400 / 500 / 600",
+      "Physical Damage:300 / 400 / 500 / 600 / 700 (+ 250% bonus AD) (+ 125% AP)",
+      "Turret Disable Duration:3 / 3.5 / 4 / 4.5 / 5"
+    ],
+    "descriptions": [
+      "Active: Volibear gains Stormbringer for 12 seconds and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leaps to the target location with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b1/Cc-immune_icon.png/revision/latest/scale-to-width-down/20?cb=20200327223512\" \t alt=\"Cc-immune icon\"  \tclass=\"\" \t \tdata-image-key=\"Cc-immune_icon.png\" \tdata-image-name=\"Cc-immune icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> immunity to crowd control as well as granting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of the area in a 500 radius during it. If <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Thundering_Smash.png/revision/latest/scale-to-width-down/20?cb=20200512213235\" \t alt=\"Thundering Smash\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Thundering_Smash.png\" \tdata-image-name=\"Thundering Smash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Thundering Smash is active when Stormbringer is cast, its duration is paused during the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leap.",
+      "Stormbringer: Volibear becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted and gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus health, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 50 bonus attack range, 25 increased range on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/63/Frenzied_Maul.png/revision/latest/scale-to-width-down/20?cb=20200512213213\" \t alt=\"Frenzied Maul\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Frenzied_Maul.png\" \tdata-image-name=\"Frenzied Maul.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Frenzied Maul, and 35% increased size.",
+      "Volibear impacts after a 1 second delay, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing all enemies in an area by 50%, decaying over 1 second. Enemies in the epicenter are also dealt physical damage.",
+      "Volibear also disables enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> turrets (including <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable ones and those in <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis, excluding <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d2/Nexus_Obelisk.png/revision/latest/scale-to-width-down/20?cb=20200128025852\" \t alt=\"Nexus Obelisk\"  \tclass=\"\" \t \tdata-image-key=\"Nexus_Obelisk.png\" \tdata-image-name=\"Nexus Obelisk.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Nexus Obelisk) in an area for a few seconds, rendering them unable to attack, as well as dealing them the same physical damage.*",
+      "Stormbringer will cast at max range if cast beyond that."
+    ]
+  }
+]

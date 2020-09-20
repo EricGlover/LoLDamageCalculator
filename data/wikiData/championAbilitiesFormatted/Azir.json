@@ -1,0 +1,195 @@
+[
+  {
+    "name": "Shurima's Legacy",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Azir periodically places a marker above the ruins of all destroyed <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> turrets outside the enemy base.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Physical",
+    "isProjectile": "False",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Shurima's Legacy.png",
+    "icons": [
+      "Shurima's Legacy.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Azir periodically places a marker above the ruins of all destroyed <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> turrets outside the enemy base.",
+      "Innate - Disc of the Sun: Azir can target a marker to construct the Sun Disc above the ruins, which functions like a standard inner turret but gains (15% AP) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack damage and grants Azir any kill it does. The Sun Disc's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> health decays over 60 seconds and loses <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 100 armor if Azir dies or moves too far away."
+    ]
+  },
+  {
+    "name": "Conquering Sands",
+    "cost": [
+      70
+    ],
+    "costType": "mana",
+    "coolDown": [
+      15,
+      13,
+      11,
+      9,
+      7
+    ],
+    "description": "Active: Azir orders all Sand Soldiers to dash toward the target location, dealing magic damage to all enemies they pass through and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 25% for 1 second.",
+    "leveling": "Magic Damage:70 / 90 / 110 / 130 / 150 (+ 30% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "Special",
+    "flatDamage": [
+      70,
+      90,
+      110,
+      130,
+      150
+    ],
+    "ratios": [
+      {
+        "value": 30,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Conquering Sands.png",
+    "icons": [
+      "Conquering Sands.png"
+    ],
+    "levelings": [
+      "Magic Damage:70 / 90 / 110 / 130 / 150 (+ 30% AP)"
+    ],
+    "descriptions": [
+      "Active: Azir orders all Sand Soldiers to dash toward the target location, dealing magic damage to all enemies they pass through and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 25% for 1 second.",
+      "Enemies hit by subsequent soldiers are instead <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed by an additional 25% per soldier.",
+      "Conquering Sands will cast at max range if cast beyond that."
+    ]
+  },
+  {
+    "name": "Arise!",
+    "cost": [
+      40
+    ],
+    "costType": "mana + 1 Sand Soldier",
+    "coolDown": [
+      1
+    ],
+    "description": "Passive: Azir periodically stocks a Sand Soldier, up to a maximum of 2. He also gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed, doubled for 5 seconds if he summons a third concurrent soldier.",
+    "leveling": "Bonus Attack Speed:»15 / 25 / 35 / 45 / 55%«Increased Attack Speed:30 / 50 / 70 / 90 / 110%",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "False",
+    "flatDamage": [
+      15,
+      25,
+      35,
+      45,
+      55
+    ],
+    "ratios": [],
+    "castTime": 0.25,
+    "icon": "Arise!.png",
+    "icons": [
+      "Arise!.png"
+    ],
+    "levelings": [
+      "Bonus Attack Speed:»15 / 25 / 35 / 45 / 55%«Increased Attack Speed:30 / 50 / 70 / 90 / 110%"
+    ],
+    "descriptions": [
+      "Passive: Azir periodically stocks a Sand Soldier, up to a maximum of 2. He also gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed, doubled for 5 seconds if he summons a third concurrent soldier.",
+      "Active: Azir summons an <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable Sand Soldier at the target location that lasts 10 seconds, expiring twice as fast while within range of an enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> turret, and expiring instantly if Azir is not in control range.",
+      "When Azir selects an enemy in a soldier's attack range, the Sand Soldier attacks in his stead, dealing 60 −  160 (based on level) (+ 60% AP) magic damage in a line. Targets beyond the closest take 25 / 50 / 75 / 100% (based on level) damage. Subsequent Sand Soldiers beyond the first deal 25% damage.",
+      "Sand Soldiers cannot attack <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> structures, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f1/Ward_icon.png/revision/latest/scale-to-width-down/20?cb=20180828001331\" \t alt=\"Ward icon\"  \tclass=\"\" \t \tdata-image-key=\"Ward_icon.png\" \tdata-image-name=\"Ward icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> wards, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/21/Noxious_Trap.png/revision/latest/scale-to-width-down/20?cb=20171221034223\" \t alt=\"Noxious Trap\"  \tclass=\"\" \t \tdata-image-key=\"Noxious_Trap.png\" \tdata-image-name=\"Noxious Trap.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> traps.",
+      "Arise! will cast at max range if cast beyond that."
+    ]
+  },
+  {
+    "name": "Shifting Sands",
+    "cost": [
+      60
+    ],
+    "costType": "mana",
+    "coolDown": [
+      19,
+      18,
+      17,
+      16,
+      15
+    ],
+    "description": "Active: Azir <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields himself for 1.5 seconds and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target Sand Soldiers, dealing magic damage to enemies he passes through.",
+    "leveling": "Shield Strength:80 / 120 / 160 / 200 / 240 (+ 70% AP)Magic Damage:60 / 90 / 120 / 150 / 180 (+ 40% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      80,
+      120,
+      160,
+      200,
+      240
+    ],
+    "ratios": [
+      {
+        "value": 70,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Shifting Sands.png",
+    "icons": [
+      "Shifting Sands.png"
+    ],
+    "levelings": [
+      "Shield Strength:80 / 120 / 160 / 200 / 240 (+ 70% AP)Magic Damage:60 / 90 / 120 / 150 / 180 (+ 40% AP)"
+    ],
+    "descriptions": [
+      "Active: Azir <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields himself for 1.5 seconds and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target Sand Soldiers, dealing magic damage to enemies he passes through.",
+      "If Azir hits an enemy champion, he stops dashing and gains a charge of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/61/Arise%21.png/revision/latest/scale-to-width-down/20?cb=20171201215426\" \t alt=\"Arise!\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Arise%21.png\" \tdata-image-name=\"Arise!.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Arise!."
+    ]
+  },
+  {
+    "name": "Emperor's Divide",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      120,
+      105,
+      90
+    ],
+    "description": "Active: Azir calls forth a phalanx of soldiers from behind him, charging forward in the target direction.",
+    "leveling": "Width:6 / 6.5 / 7 / 7.5 / 8 soldiers",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "Special",
+    "flatDamage": [
+      6,
+      6.5,
+      7,
+      7.5,
+      8
+    ],
+    "ratios": [],
+    "castTime": 0.5,
+    "icon": "Emperor's Divide.png",
+    "icons": [
+      "Emperor's Divide.png"
+    ],
+    "levelings": [
+      "Width:6 / 6.5 / 7 / 7.5 / 8 soldiers",
+      "Magic Damage:175 / 250 / 325 / 400 / 475 (+ 60% AP)"
+    ],
+    "descriptions": [
+      "Active: Azir calls forth a phalanx of soldiers from behind him, charging forward in the target direction.",
+      "Enemies impacted by the charge are dealt magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked back.",
+      "When the soldiers finish their charge, they stand as a wall for 5 seconds, acting as impassible terrain against enemies. Azir and his allies can move through the wall."
+    ]
+  }
+]

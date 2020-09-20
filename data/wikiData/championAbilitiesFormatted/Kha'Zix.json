@@ -1,0 +1,191 @@
+[
+  {
+    "name": "Unseen Threat",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate - Isolation: Kha'Zix marks any enemy unit that does not have one of their allies within 425 units as Isolated. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6a/Taste_Their_Fear.png/revision/latest/scale-to-width-down/20?cb=20180516194018\" \t alt=\"Taste Their Fear\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Taste_Their_Fear.png\" \tdata-image-name=\"Taste Their Fear.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Taste Their Fear, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Evolved_Enlarged_Claws.png/revision/latest/scale-to-width-down/20?cb=20180516193923\" \t alt=\"Evolved Enlarged Claws\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Evolved_Enlarged_Claws.png\" \tdata-image-name=\"Evolved Enlarged Claws.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Evolved Reaper Claws, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7e/Evolved_Spike_Racks.png/revision/latest/scale-to-width-down/20?cb=20180516193937\" \t alt=\"Evolved Spike Racks\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Evolved_Spike_Racks.png\" \tdata-image-name=\"Evolved Spike Racks.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Evolved Spike Racks have special interactions against Isolated targets.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Unseen Threat 2.png",
+    "icons": [
+      "Unseen Threat 2.png",
+      "Unseen Threat.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate - Isolation: Kha'Zix marks any enemy unit that does not have one of their allies within 425 units as Isolated. <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6a/Taste_Their_Fear.png/revision/latest/scale-to-width-down/20?cb=20180516194018\" \t alt=\"Taste Their Fear\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Taste_Their_Fear.png\" \tdata-image-name=\"Taste Their Fear.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Taste Their Fear, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Evolved_Enlarged_Claws.png/revision/latest/scale-to-width-down/20?cb=20180516193923\" \t alt=\"Evolved Enlarged Claws\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Evolved_Enlarged_Claws.png\" \tdata-image-name=\"Evolved Enlarged Claws.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Evolved Reaper Claws, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7e/Evolved_Spike_Racks.png/revision/latest/scale-to-width-down/20?cb=20180516193937\" \t alt=\"Evolved Spike Racks\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Evolved_Spike_Racks.png\" \tdata-image-name=\"Evolved Spike Racks.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Evolved Spike Racks have special interactions against Isolated targets.",
+      "Innate: Kha'Zix gains Unseen Threat whenever the enemy loses <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of him or he activates <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Void_Assault.png/revision/latest/scale-to-width-down/20?cb=20180516194041\" \t alt=\"Void Assault\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Void_Assault.png\" \tdata-image-name=\"Void Assault.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Void Assault. Unseen Threat causes his next basic attack against an enemy champion to deal 14 −  116 (based on level) (+ 40% bonus AD) bonus magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow them by 25% for 2 seconds. Once gained, the empowered attack lasts until used."
+    ]
+  },
+  {
+    "name": "Taste Their Fear",
+    "cost": [
+      20
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      4
+    ],
+    "description": "Active: Kha'Zix slashes the target enemy, dealing physical damage, increased by 110% against Isolated targets.",
+    "leveling": "Physical damage:»60 / 85 / 110 / 135 / 160 (+ 130% bonus AD)«Isolation Physical Damage:126 / 178.5 / 231 / 283.5 / 336 (+ 273% bonus AD)",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      60,
+      85,
+      110,
+      135,
+      160
+    ],
+    "ratios": [
+      {
+        "value": 130,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Taste Their Fear.png",
+    "icons": [
+      "Taste Their Fear.png"
+    ],
+    "levelings": [
+      "Physical damage:»60 / 85 / 110 / 135 / 160 (+ 130% bonus AD)«Isolation Physical Damage:126 / 178.5 / 231 / 283.5 / 336 (+ 273% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Kha'Zix slashes the target enemy, dealing physical damage, increased by 110% against Isolated targets."
+    ]
+  },
+  {
+    "name": "Void Spike",
+    "cost": [
+      55,
+      60,
+      65,
+      70,
+      75
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      9
+    ],
+    "description": "Active: Kha'Zix fires a cluster of spikes in the target direction that detonates upon hitting an enemy, dealing them physical damage.",
+    "leveling": "Physical Damage:85 / 115 / 145 / 175 / 205 (+ 100% bonus AD)",
+    "skill": "W",
+    "damageType": "physical",
+    "isProjectile": "true",
+    "flatDamage": [
+      85,
+      115,
+      145,
+      175,
+      205
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Void Spike.png",
+    "icons": [
+      "Void Spike.png"
+    ],
+    "levelings": [
+      "Physical Damage:85 / 115 / 145 / 175 / 205 (+ 100% bonus AD)",
+      "Heal:60 / 85 / 110 / 135 / 160 (+ 50% AP)"
+    ],
+    "descriptions": [
+      "Active: Kha'Zix fires a cluster of spikes in the target direction that detonates upon hitting an enemy, dealing them physical damage.",
+      "Kha'Zix <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals himself if he is within the detonation radius."
+    ]
+  },
+  {
+    "name": "Leap",
+    "cost": [
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "description": "Active: Kha'Zix <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leaps to the target location, dealing physical damage to enemies in the area upon landing.",
+    "leveling": "Physical Damage:65 / 100 / 135 / 170 / 205 (+ 20% bonus AD)",
+    "skill": "E",
+    "damageType": "physical",
+    "isProjectile": "",
+    "flatDamage": [
+      65,
+      100,
+      135,
+      170,
+      205
+    ],
+    "ratios": [
+      {
+        "value": 20,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Leap.png",
+    "icons": [
+      "Leap.png"
+    ],
+    "levelings": [
+      "Physical Damage:65 / 100 / 135 / 170 / 205 (+ 20% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Kha'Zix <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leaps to the target location, dealing physical damage to enemies in the area upon landing.",
+      "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6a/Taste_Their_Fear.png/revision/latest/scale-to-width-down/20?cb=20180516194018\" \t alt=\"Taste Their Fear\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Taste_Their_Fear.png\" \tdata-image-name=\"Taste Their Fear.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Taste Their Fear may be used mid-dash."
+    ]
+  },
+  {
+    "name": "Void Assault",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      100,
+      85,
+      70
+    ],
+    "description": "Passive: Each rank in Void Assault allows Kha'Zix to evolve one of his abilities, granting it additional effects. Choosing an ability initiates a 2 second cast time, during which he advances his form, receiving the evolution once it completes.",
+    "leveling": null,
+    "skill": "R",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "false",
+    "icons": [
+      "false",
+      "Void Assault.png",
+      "Void Assault 2.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Passive: Each rank in Void Assault allows Kha'Zix to evolve one of his abilities, granting it additional effects. Choosing an ability initiates a 2 second cast time, during which he advances his form, receiving the evolution once it completes.",
+      "Active: Kha'Zix enters <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d8/Twilight_Shroud_old2.png/revision/latest/scale-to-width-down/20?cb=20180716212930\" \t alt=\"Twilight Shroud old2\"  \tclass=\"\" \t \tdata-image-key=\"Twilight_Shroud_old2.png\" \tdata-image-name=\"Twilight Shroud old2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invisibility for 1.25 seconds, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 40% bonus movement speed while stealthed.",
+      "After 2 seconds of leaving <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d8/Twilight_Shroud_old2.png/revision/latest/scale-to-width-down/20?cb=20180716212930\" \t alt=\"Twilight Shroud old2\"  \tclass=\"\" \t \tdata-image-key=\"Twilight_Shroud_old2.png\" \tdata-image-name=\"Twilight Shroud old2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invisibility, and for the next 10 seconds, Void Assault can be cast a second time at no additional cost.",
+      "Recast: Kha'Zix mimics the first cast's effects."
+    ]
+  }
+]

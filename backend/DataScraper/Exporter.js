@@ -7,9 +7,18 @@ class Exporter {
     constructor() {
         this.wikiDataDir = './data/wikiData';
     }
+    async saveFormattedChampion(name, data) {
+        await this._printToFilePath(`./data/championFormatted/${name}.json`, JSON.stringify(data, null, 2));
+        console.log(`Saved ${name} formatted champion data.`);
+    }
     async saveWikiAbilityTemplate(data) {
         await this._printToFilePath(`${this.wikiDataDir}/abilityTemplate.json`, JSON.stringify(data, null, 2));
         console.log("Template data written");
+    }
+
+    async saveFormattedAbilityData(championName, data) {
+        await this._printToFilePath(`${this.wikiDataDir}/championAbilitiesFormatted/${championName}.json`, JSON.stringify(data, null, 2))
+        console.log(`${championName} formatted ability data saved.`);
     }
 
     async saveWikiChampionAbilities(data, championName) {
@@ -17,14 +26,7 @@ class Exporter {
         await this._printToFilePath(file, JSON.stringify(data, null, 2));
         console.log(`${championName} abilities saved ${file}`);
     }
-    // save the data to an output file
-    // async _printToFile(fileName, data) {
-    //     return new Promise(resolve => {
-    //         fs.writeFile(`./data/wikiData/${fileName}.json`, data, function() {
-    //             resolve();
-    //         });
-    //     })
-    // }
+
     async _printToFilePath(filePath, data) {
         return new Promise(resolve => {
             fs.writeFile(filePath, data, function() {

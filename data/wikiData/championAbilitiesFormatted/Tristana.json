@@ -1,0 +1,204 @@
+[
+  {
+    "name": "Draw a Bead",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: The <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> range of Tristana's basic attacks, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1d/Explosive_Charge.png/revision/latest/scale-to-width-down/20?cb=20170818195216\" \t alt=\"Explosive Charge\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Explosive_Charge.png\" \tdata-image-name=\"Explosive Charge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Explosive Charge and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f3/Buster_Shot.png/revision/latest/scale-to-width-down/20?cb=20150117180853\" \t alt=\"Buster Shot\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Buster_Shot.png\" \tdata-image-name=\"Buster Shot.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Buster Shot are increased by 0 − 136 (based on level) for a total of 525 − 661 (based on level) range.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Draw a Bead.png",
+    "icons": [
+      "Draw a Bead.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: The <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> range of Tristana's basic attacks, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1d/Explosive_Charge.png/revision/latest/scale-to-width-down/20?cb=20170818195216\" \t alt=\"Explosive Charge\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Explosive_Charge.png\" \tdata-image-name=\"Explosive Charge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Explosive Charge and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f3/Buster_Shot.png/revision/latest/scale-to-width-down/20?cb=20150117180853\" \t alt=\"Buster Shot\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Buster_Shot.png\" \tdata-image-name=\"Buster Shot.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Buster Shot are increased by 0 − 136 (based on level) for a total of 525 − 661 (based on level) range."
+    ]
+  },
+  {
+    "name": "Rapid Fire",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      20,
+      19,
+      18,
+      17,
+      16
+    ],
+    "description": "Active: Tristana empowers her cannon, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed for 7 seconds.",
+    "leveling": "Bonus Attack Speed:50 / 65 / 80 / 95 / 110%",
+    "skill": "Q",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      50,
+      65,
+      80,
+      95,
+      110
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Rapid Fire.png",
+    "icons": [
+      "Rapid Fire.png"
+    ],
+    "levelings": [
+      "Bonus Attack Speed:50 / 65 / 80 / 95 / 110%"
+    ],
+    "descriptions": [
+      "Active: Tristana empowers her cannon, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed for 7 seconds."
+    ]
+  },
+  {
+    "name": "Rocket Jump",
+    "cost": [
+      60
+    ],
+    "costType": "mana",
+    "coolDown": [
+      22,
+      20,
+      18,
+      16,
+      14
+    ],
+    "description": "Active: Tristana <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> jumps to the target location, dealing magic damage to all nearby enemies on impact and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 60%.",
+    "leveling": "Magic Damage:95 / 145 / 195 / 245 / 295 (+ 50% AP)\nSlow Duration:1 / 1.5 / 2 / 2.5 / 3",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      95,
+      145,
+      195,
+      245,
+      295
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Rocket Jump.png",
+    "icons": [
+      "Rocket Jump.png"
+    ],
+    "levelings": [
+      "Magic Damage:95 / 145 / 195 / 245 / 295 (+ 50% AP)\nSlow Duration:1 / 1.5 / 2 / 2.5 / 3"
+    ],
+    "descriptions": [
+      "Active: Tristana <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> jumps to the target location, dealing magic damage to all nearby enemies on impact and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 60%.",
+      "On enemy champion <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Damage_rating.png/revision/latest/scale-to-width-down/20?cb=20170514053710\" \t alt=\"Damage rating\"  \tclass=\"\" \t \tdata-image-key=\"Damage_rating.png\" \tdata-image-name=\"Damage rating.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> takedowns or upon detonating <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1d/Explosive_Charge.png/revision/latest/scale-to-width-down/20?cb=20170818195216\" \t alt=\"Explosive Charge\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Explosive_Charge.png\" \tdata-image-name=\"Explosive Charge.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Explosive Charge at maximum stacks on an enemy champion, Rocket Jump's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown is reset."
+    ]
+  },
+  {
+    "name": "Explosive Charge",
+    "cost": [
+      50,
+      55,
+      60,
+      65,
+      70
+    ],
+    "costType": "mana",
+    "coolDown": [
+      16,
+      15,
+      15,
+      14,
+      14
+    ],
+    "description": "Passive: Enemies explode when killed by Tristana's basic attacks, dealing magic damage to all nearby enemies.",
+    "leveling": "Magic Damage:55 / 80 / 105 / 130 / 155 (+ 25% AP)",
+    "skill": "E",
+    "damageType": "Physical",
+    "isProjectile": "True",
+    "flatDamage": [
+      55,
+      80,
+      105,
+      130,
+      155
+    ],
+    "ratios": [
+      {
+        "value": 25,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Explosive Charge.png",
+    "icons": [
+      "Explosive Charge.png"
+    ],
+    "levelings": [
+      "Magic Damage:55 / 80 / 105 / 130 / 155 (+ 25% AP)",
+      "Minimum Physical Damage:70 / 80 / 90 / 100 / 110 (+ 50 / 75 / 100 / 125 / 150% bonus AD) (+ 50% AP)",
+      "Bonus Damage Per Stack:»21 / 24 / 27 / 30 / 33 (+ 15 / 22.5 / 30 / 37.5 / 45% bonus AD) (+ 15% AP)«Maximum Physical Damage:154 / 176 / 198 / 220 / 242 (+ 110 / 165 / 220 / 275 / 330% bonus AD) (+ 110% AP)"
+    ],
+    "descriptions": [
+      "Passive: Enemies explode when killed by Tristana's basic attacks, dealing magic damage to all nearby enemies.",
+      "Active: Tristana places an explosive charge on the target enemy or enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> turret. After 4 seconds, the charge detonates, dealing physical damage to nearby enemies and turrets. The explosion radius is doubled when used on a turret.",
+      "Tristana's basic attacks and abilities against the target increase Explosive Charge's damage by 30%, stacking up to 4 times for a maximum 120% increase, upon which the charge also detonates instantly.",
+      "Explosive Charge's total damage is increased by 0% − 33.3% (based on critical strike chance).",
+      "If <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f3/Buster_Shot.png/revision/latest/scale-to-width-down/20?cb=20150117180853\" \t alt=\"Buster Shot\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Buster_Shot.png\" \tdata-image-name=\"Buster Shot.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Buster Shot is used to apply the last stack, the detonation will instead be delayed until the end of the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knock back or the 4 seconds expire."
+    ]
+  },
+  {
+    "name": "Buster Shot",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      120,
+      110,
+      100
+    ],
+    "description": "Active: Tristana fires a massive cannonball at the target enemy, dealing magic damage to them and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking back and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning all enemies in a radius around them, including the target, for up-to 0.75 seconds.",
+    "leveling": "Magic Damage:300 / 400 / 500 (+ 100% AP)Knockback Distance:600 / 800 / 1000",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      300,
+      400,
+      500,
+      100,
+      600
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Buster Shot.png",
+    "icons": [
+      "Buster Shot.png"
+    ],
+    "levelings": [
+      "Magic Damage:300 / 400 / 500 (+ 100% AP)Knockback Distance:600 / 800 / 1000"
+    ],
+    "descriptions": [
+      "Active: Tristana fires a massive cannonball at the target enemy, dealing magic damage to them and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking back and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning all enemies in a radius around them, including the target, for up-to 0.75 seconds."
+    ]
+  }
+]

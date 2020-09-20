@@ -1,5 +1,203 @@
 {
-  "abilities": null,
+  "abilities": [
+    {
+      "name": "Backstab",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Shaco's basic attacks deal 10 − 25 (based on level) (+ 15% bonus AD) bonus physical damage when striking a non-<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> structure from behind. This damage can <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critically strike.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Backstab.png",
+      "icons": [
+        "Backstab.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Shaco's basic attacks deal 10 − 25 (based on level) (+ 15% bonus AD) bonus physical damage when striking a non-<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> structure from behind. This damage can <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critically strike.",
+        "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/38/Deceive.png/revision/latest/scale-to-width-down/20?cb=20160608033455\" \t alt=\"Deceive\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Deceive.png\" \tdata-image-name=\"Deceive.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Deceive and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3b/Two-Shiv_Poison.png/revision/latest/scale-to-width-down/20?cb=20160608033643\" \t alt=\"Two-Shiv Poison\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Two-Shiv_Poison.png\" \tdata-image-name=\"Two-Shiv Poison.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Two-Shiv Poison also have additional effects when striking an enemy from behind."
+      ]
+    },
+    {
+      "name": "Deceive",
+      "cost": [
+        60
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        12,
+        11,
+        11,
+        10,
+        10
+      ],
+      "description": "Active: After a 0.125-second delay, Shaco <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinks  to the target location, becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d8/Twilight_Shroud_old2.png/revision/latest/scale-to-width-down/20?cb=20180716212930\" \t alt=\"Twilight Shroud old2\"  \tclass=\"\" \t \tdata-image-key=\"Twilight_Shroud_old2.png\" \tdata-image-name=\"Twilight Shroud old2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invisible for a few seconds.",
+      "leveling": "Invisibility Duration:2.5 / 2.75 / 3 / 3.25 / 3.5",
+      "skill": "Q",
+      "damageType": "physical",
+      "isProjectile": "",
+      "flatDamage": [
+        2.5,
+        2.75,
+        3,
+        3.25,
+        3.5
+      ],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Deceive.png",
+      "icons": [
+        "Deceive.png"
+      ],
+      "levelings": [
+        "Invisibility Duration:2.5 / 2.75 / 3 / 3.25 / 3.5",
+        "Physical Damage:25 / 35 / 45 / 55 / 65 (+ 25% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: After a 0.125-second delay, Shaco <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinks  to the target location, becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d8/Twilight_Shroud_old2.png/revision/latest/scale-to-width-down/20?cb=20180716212930\" \t alt=\"Twilight Shroud old2\"  \tclass=\"\" \t \tdata-image-key=\"Twilight_Shroud_old2.png\" \tdata-image-name=\"Twilight Shroud old2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invisible for a few seconds.",
+        "After exiting invisibility, his next basic attack within 0.25 seconds deals bonus physical damage. This damage can <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critically strike.",
+        "Deceive's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d8/Twilight_Shroud_old2.png/revision/latest/scale-to-width-down/20?cb=20180716212930\" \t alt=\"Twilight Shroud old2\"  \tclass=\"\" \t \tdata-image-key=\"Twilight_Shroud_old2.png\" \tdata-image-name=\"Twilight Shroud old2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invisibility breaks when Shaco uses a basic attack or casts <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3b/Two-Shiv_Poison.png/revision/latest/scale-to-width-down/20?cb=20160608033643\" \t alt=\"Two-Shiv Poison\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Two-Shiv_Poison.png\" \tdata-image-name=\"Two-Shiv Poison.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Two-Shiv Poison, but not from casting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8c/Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20160608033548\" \t alt=\"Hallucinate\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hallucinate.png\" \tdata-image-name=\"Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hallucinate. Casting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Jack_in_the_Box.png/revision/latest/scale-to-width-down/20?cb=20160608033612\" \t alt=\"Jack in the Box\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Jack_in_the_Box.png\" \tdata-image-name=\"Jack in the Box.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Jack in the Box causes Shaco to shimmer instead, revealing his position to enemies.",
+        "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Backstab.png/revision/latest/scale-to-width-down/20?cb=20160608033432\" \t alt=\"Backstab\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Backstab.png\" \tdata-image-name=\"Backstab.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Backstab: Guarantees the basic attack to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critically strike for (30% + <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/15/Infinity_Edge_item.png/revision/latest/scale-to-width-down/20?cb=20180531105945\" \t alt=\"Infinity Edge item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Infinity_Edge_item.png\" \tdata-image-name=\"Infinity Edge item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 25%) bonus physical damage."
+      ]
+    },
+    {
+      "name": "Jack in the Box",
+      "cost": [
+        50,
+        55,
+        60,
+        65,
+        70
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        16
+      ],
+      "description": "Active: Shaco summons a Jack in the Box at the target location, lasting for up to 40 (+ 5% AP) seconds. The box arms after 2 seconds, afterwards becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/21/Noxious_Trap.png/revision/latest/scale-to-width-down/20?cb=20171221034223\" \t alt=\"Noxious Trap\"  \tclass=\"\" \t \tdata-image-key=\"Noxious_Trap.png\" \tdata-image-name=\"Noxious Trap.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stealthed, during which it is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c1/Cosmic_Radiance.png/revision/latest/scale-to-width-down/20?cb=20160608034537\" \t alt=\"Cosmic Radiance\"  \tclass=\"\" \t \tdata-image-key=\"Cosmic_Radiance.png\" \tdata-image-name=\"Cosmic Radiance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invulnerable and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable to enemies.",
+      "leveling": "Champion Flee Duration:0.5 / 0.75 / 1 / 1.25 / 1.5",
+      "skill": "W",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        0.5,
+        0.75,
+        1,
+        1.25,
+        1.5
+      ],
+      "ratios": [],
+      "castTime": 0.25,
+      "icon": "Jack in the Box.png",
+      "icons": [
+        "Jack in the Box.png"
+      ],
+      "levelings": [
+        "Champion Flee Duration:0.5 / 0.75 / 1 / 1.25 / 1.5",
+        "Magic Damage:»15 / 20 / 25 / 30 / 35 (+ 10% AP)«Increased Damage:35 / 50 / 65 / 80 / 95 (+ 20% AP)"
+      ],
+      "descriptions": [
+        "Active: Shaco summons a Jack in the Box at the target location, lasting for up to 40 (+ 5% AP) seconds. The box arms after 2 seconds, afterwards becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/21/Noxious_Trap.png/revision/latest/scale-to-width-down/20?cb=20171221034223\" \t alt=\"Noxious Trap\"  \tclass=\"\" \t \tdata-image-key=\"Noxious_Trap.png\" \tdata-image-name=\"Noxious Trap.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stealthed, during which it is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c1/Cosmic_Radiance.png/revision/latest/scale-to-width-down/20?cb=20160608034537\" \t alt=\"Cosmic Radiance\"  \tclass=\"\" \t \tdata-image-key=\"Cosmic_Radiance.png\" \tdata-image-name=\"Cosmic Radiance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invulnerable and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable to enemies.",
+        "Enemies that come or are near the box will cause it to trigger, causing them to turn and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Flee_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223937\" \t alt=\"Flee icon\"  \tclass=\"\" \t \tdata-image-key=\"Flee_icon.png\" \tdata-image-name=\"Flee icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> flee for 2 seconds, reduced against champions, who are also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooted for 0.5 seconds. While fleeing, enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions are set to a static 100 <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> movement speed, reduced to a static 60 for <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+        "Once triggered, the box will also become targetable and automatically start firing every 0.5 seconds at all nearby <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible enemies, dealing magic damage with each attack, reduced by 50% against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> structures. If the box attacks only one unit, it deals increased damage.",
+        "The box stays active for 5 seconds or until destroyed, independently from its remaining inactive duration."
+      ]
+    },
+    {
+      "name": "Two-Shiv Poison",
+      "cost": [
+        65
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        8
+      ],
+      "description": "Passive: Shaco's basic attacks <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow enemies for 2 seconds while Two-Shiv Poison is off cooldown.",
+      "leveling": "Slow:20 / 22.5 / 25 / 27.5 / 30%",
+      "skill": "E",
+      "damageType": "Magic",
+      "isProjectile": "True",
+      "flatDamage": [
+        20,
+        22.5,
+        25,
+        27.5,
+        30
+      ],
+      "ratios": [],
+      "castTime": 0.25,
+      "icon": "false",
+      "icons": [
+        "false",
+        "Two-Shiv Poison.png"
+      ],
+      "levelings": [
+        "Slow:20 / 22.5 / 25 / 27.5 / 30%",
+        "Magic Damage:»70 / 95 / 120 / 145 / 170 (+ 70% bonus AD) (+ 55% AP)«Increased Damage:105 / 142.5 / 180 / 217.5 / 255 (+ 105% bonus AD) (+ 82.5% AP)"
+      ],
+      "descriptions": [
+        "Passive: Shaco's basic attacks <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow enemies for 2 seconds while Two-Shiv Poison is off cooldown.",
+        "Active: Shaco throws a dagger at the target enemy, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them for 3 seconds and dealing magic damage, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Critical_magic_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20190827073648\" \t alt=\"Critical magic strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_magic_strike_icon.png\" \tdata-image-name=\"Critical magic strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> increased by 50% against targets below 30% of their maximum health.",
+        "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Backstab.png/revision/latest/scale-to-width-down/20?cb=20160608033432\" \t alt=\"Backstab\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Backstab.png\" \tdata-image-name=\"Backstab.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Backstab: Deals an additional 15 − 50 (based on level) (+ 10% AP) bonus magic damage, increased to 22.5 − 75 (based on level) (+ 15% AP) when the target is below 30% of their maximum health."
+      ]
+    },
+    {
+      "name": "Hallucinate",
+      "cost": [
+        100
+      ],
+      "costType": "Mana",
+      "coolDown": [
+        100,
+        95,
+        90,
+        85,
+        80
+      ],
+      "description": "Active: Shaco <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8c/Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20160608033548\" \t alt=\"Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Hallucinate.png\" \tdata-image-name=\"Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> vanishes for 0.5 seconds and then <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinks in the target direction while creating a copy of himself that blinks in the opposite direction, remaining within control range of him as a controllable <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Command_Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20170204131432\" \t alt=\"Command Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Command_Hallucinate.png\" \tdata-image-name=\"Command Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> clone for up to 18 seconds.",
+      "leveling": "Magic Damage:150 / 187.5 / 225 / 262.5 / 300 (+ 70% AP)",
+      "skill": "R",
+      "damageType": "Magic",
+      "isProjectile": "",
+      "flatDamage": [
+        150,
+        187.5,
+        225,
+        262.5,
+        300
+      ],
+      "ratios": [
+        {
+          "value": 70,
+          "type": "bonus ad"
+        }
+      ],
+      "castTime": 0.25,
+      "icon": "Hallucinate.png",
+      "icons": [
+        "Hallucinate.png",
+        "Command Hallucinate.png"
+      ],
+      "levelings": [
+        "Magic Damage:150 / 187.5 / 225 / 262.5 / 300 (+ 70% AP)",
+        "Mini-Box Magic Damage:»10 / 15 / 20 / 25 / 30 (+ 10% AP)«Mini-Box Increased Damage:25 / 37.5 / 50 / 62.5 / 75 (+ 15% AP)"
+      ],
+      "descriptions": [
+        "Active: Shaco <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8c/Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20160608033548\" \t alt=\"Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Hallucinate.png\" \tdata-image-name=\"Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> vanishes for 0.5 seconds and then <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/74/Flash.png/revision/latest/scale-to-width-down/20?cb=20180514003149\" \t alt=\"Flash\"  \tclass=\"\" \t \tdata-image-key=\"Flash.png\" \tdata-image-name=\"Flash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> blinks in the target direction while creating a copy of himself that blinks in the opposite direction, remaining within control range of him as a controllable <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Command_Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20170204131432\" \t alt=\"Command Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Command_Hallucinate.png\" \tdata-image-name=\"Command Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> clone for up to 18 seconds.",
+        "Recast: While the Hallucination is active, Hallucinate can be used to move it to the target location or attack a enemy unit on the cursor.",
+        "When the Hallucination dies or expires, it explodes, dealing magic damage to enemy units around it and leaving three <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Jack_in_the_Box.png/revision/latest/scale-to-width-down/20?cb=20160608033612\" \t alt=\"Jack in the Box\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Jack_in_the_Box.png\" \tdata-image-name=\"Jack in the Box.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> mini-boxes behind which activate instantly, causing nearby enemies to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Flee_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223937\" \t alt=\"Flee icon\"  \tclass=\"\" \t \tdata-image-key=\"Flee_icon.png\" \tdata-image-name=\"Flee icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> flee for 1 second.",
+        "The three boxes possess Jack in the Box's effects, except they have a doubled, but shared <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> health, and deal modified magic damage with each attack, increased if attacking a single unit."
+      ]
+    }
+  ],
   "id": "Shaco",
   "key": "35",
   "name": "Shaco",

@@ -37,7 +37,9 @@ class Ratio {
 }
 
 class Ability {
-    constructor(name, cost, costType, coolDown, description, leveling, skill, damageType, isProjectile, flatDamage, ratios, castTime) {
+    constructor(name, cost, costType, coolDown, description,
+                leveling, skill, damageType, isProjectile, flatDamage, ratios, castTime, icon,
+                icons, levelings, descriptions) {
         this.name = name;
         this.cost = cost;
         this.costType = costType;
@@ -51,6 +53,10 @@ class Ability {
         this.flatDamage = flatDamage;   // ints
         this.ratios = ratios;
         this.castTime = castTime;
+        this.icon = icon;
+        this.icons = icons;
+        this.levelings = levelings;
+        this.descriptions = descriptions;
     }
 
     static makeFromWikiData(obj) {
@@ -62,35 +68,68 @@ class Ability {
             v[key] = val.value;
         });
 
+        // todo:: abilities can have 5 levelings , icons, and descriptions
+
         let leveling = null;
         if(v.leveling5) leveling = v.leveling5;
         if(v.leveling4) leveling = v.leveling4;
         if(v.leveling3) leveling = v.leveling3;
         if(v.leveling2) leveling = v.leveling2;
         if(v.leveling) leveling = v.leveling;
-
-        // extract leveling data
-        // let s = "Physical Damage:»50 / 90 / 130 / 170 / 210 (+ 130 / 140 / 150 / 160 / 170% AD)";
-        let numberRgx = /\d+\.?\d*/g;
-        let ratioRegex = /\([^\)]+\)/g;
-        let ratioStr = null;
-        let ratioType = null;
-        if(ratioRegex.test(leveling)) {
-            ratioStr = leveling.match(ratioRegex)[0];
-            if (/bonus ad/) {
-                ratioType = 'bonus ad';
-            }else if(/ad/i.test(ratioStr)) {
-                ratioType = 'ad';
-            } else if (/ap/i.test(ratioStr)) {
-                ratioType = 'ap';
-            }
-        }
         let ratios = [];
-        if(ratioStr) {
-            ratios = ratioStr.match(numberRgx).map(n => new Ratio(Number.parseFloat(n), ratioType));
+        let flatDamage = [];
+        if(!leveling) {
+            // console.error("leveling null ? ", v);
+            console.error("leveling null ? ");
+        } else {
+            // extract leveling data
+            // let s = "Physical Damage:»50 / 90 / 130 / 170 / 210 (+ 130 / 140 / 150 / 160 / 170% AD)";
+            let numberRgx = /\d+\.?\d*/g;
+            let ratioRegex = /\([^\)]+\)/g;
+            let ratioStr = null;
+            let ratioType = null;
+            if(ratioRegex.test(leveling)) {
+                ratioStr = leveling.match(ratioRegex)[0];
+                if (/bonus ad/) {
+                    ratioType = 'bonus ad';
+                }else if(/ad/i.test(ratioStr)) {
+                    ratioType = 'ad';
+                } else if (/ap/i.test(ratioStr)) {
+                    ratioType = 'ap';
+                }
+            }
+            ratios = [];
+            if(ratioStr && numberRgx.test(ratioStr)) {
+                try {
+                    ratios = ratioStr.match(numberRgx).map(n => new Ratio(Number.parseFloat(n), ratioType));
+                } catch(e) {
+                    ratios = [];
+                    console.error(`${e}\n\n ${ratioStr} ${leveling}`);
+                    console.error(ratioStr.match(numberRgx), numberRgx.test(ratioStr));
+                }
+
+            }
+             flatDamage = leveling.match(numberRgx).slice(0, 5).map(n => Number.parseFloat(n));
         }
-        let flatDamage = leveling.match(numberRgx).slice(0, 5).map(n => Number.parseFloat(n));
         let castTime = Number.parseFloat(v['cast time']);
+        let levelings = [];
+        ['leveling', 'leveling2', 'leveling3', 'leveling4', 'leveling5'].forEach(prop => {
+            if(v[prop] ) {
+                levelings.push(v[prop]);
+            }
+        })
+        let icons = [];
+        ['icon', 'icon2', 'icon3', 'icon4', 'icon5'].forEach(prop => {
+            if(v[prop] ) {
+                icons.push(v[prop]);
+            }
+        })
+        let descriptions = [];
+        ['description', 'description2', 'description3', 'description4', 'description5'].forEach(prop => {
+            if(v[prop] ) {
+                descriptions.push(v[prop]);
+            }
+        })
 
         return new Ability(
             v[1],
@@ -104,7 +143,11 @@ class Ability {
             v.projectile,
             flatDamage,
             ratios,
-            castTime
+            castTime,
+            v.icon,
+            icons,
+            levelings,
+            descriptions
         )
     }
 }

@@ -1,0 +1,221 @@
+[
+  {
+    "name": "Nimble Fighter",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Fizz is permanently <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted, and takes 4 (+ 1% AP) reduced pre-mitigation damage from each tick of damage, up to a maximum of 50% reduction.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Nimble Fighter.png",
+    "icons": [
+      "Nimble Fighter.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Fizz is permanently <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted, and takes 4 (+ 1% AP) reduced pre-mitigation damage from each tick of damage, up to a maximum of 50% reduction."
+    ]
+  },
+  {
+    "name": "Urchin Strike",
+    "cost": [
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      8,
+      7,
+      7,
+      6,
+      6
+    ],
+    "description": "Active: Fizz <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes a fixed distance towards the target enemy, dealing them magic damage plus 100% AD physical damage if they are in range upon arrival.",
+    "leveling": "Bonus Magic Damage:10 / 25 / 40 / 55 / 70 (+ 55% AP)",
+    "skill": "Q",
+    "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      10,
+      25,
+      40,
+      55,
+      70
+    ],
+    "ratios": [
+      {
+        "value": 55,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Urchin Strike.png",
+    "icons": [
+      "Urchin Strike.png"
+    ],
+    "levelings": [
+      "Bonus Magic Damage:10 / 25 / 40 / 55 / 70 (+ 55% AP)"
+    ],
+    "descriptions": [
+      "Active: Fizz <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes a fixed distance towards the target enemy, dealing them magic damage plus 100% AD physical damage if they are in range upon arrival.",
+      "Urchin Strike applies on-hit effects."
+    ]
+  },
+  {
+    "name": "Seastone Trident",
+    "cost": [
+      30,
+      40,
+      50,
+      60,
+      70
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      7,
+      6,
+      6,
+      5,
+      5
+    ],
+    "description": "Passive: Fizz's basic attacks rend enemies on-hit, dealing magic damage every 0.5 seconds for 3 seconds, refreshing on-hit.",
+    "leveling": "Total Magic Damage:»20 / 30 / 40 / 50 / 60 (+ 40% AP)«Magic Damage per Tick:3.33 / 5 / 6.67 / 8.33 / 10 (+ 6.67% AP)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Seastone Trident.png",
+    "icons": [
+      "Seastone Trident.png"
+    ],
+    "levelings": [
+      "Total Magic Damage:»20 / 30 / 40 / 50 / 60 (+ 40% AP)«Magic Damage per Tick:3.33 / 5 / 6.67 / 8.33 / 10 (+ 6.67% AP)",
+      "Bonus Magic Damage:50 / 70 / 90 / 110 / 130 (+ 50% AP)",
+      "Mana Refunded:20 / 28 / 36 / 44 / 52\nBonus On-Hit Damage:10 / 15 / 20 / 25 / 30 (+ 35% AP)"
+    ],
+    "descriptions": [
+      "Passive: Fizz's basic attacks rend enemies on-hit, dealing magic damage every 0.5 seconds for 3 seconds, refreshing on-hit.",
+      "Active: Fizz's next basic attack becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Excessive_Force_2.png/revision/latest/scale-to-width-down/20?cb=20160608034953\" \t alt=\"Excessive Force 2\"  \tclass=\"\" \t \tdata-image-key=\"Excessive_Force_2.png\" \tdata-image-name=\"Excessive Force 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unstoppable, deals bonus magic damage and gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 50 bonus range.",
+      "If Seastone Trident kills its target, its <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown is reduced to 1 second and refunds <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> mana. Otherwise, if Seastone Trident doesn't kill its target, Fizz's basic attacks deal bonus magic damage on-hit for 5 seconds.",
+      "Seastone Trident <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resets Fizz's basic attack timer."
+    ]
+  },
+  {
+    "name": "Playful",
+    "cost": [
+      90,
+      95,
+      100,
+      105,
+      110
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      16,
+      14,
+      13,
+      11,
+      10
+    ],
+    "description": "Active: Fizz becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> vaults toward the target location over 0.25 seconds while balancing on his trident. Fizz gains the ability to cast <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Trickster.png/revision/latest/scale-to-width-down/20?cb=20161018215411\" \t alt=\"Trickster\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Trickster.png\" \tdata-image-name=\"Trickster.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Trickster after a 0.15-second delay until he begins to jump off the trident.",
+    "leveling": "Magic Damage:70 / 120 / 170 / 220 / 270 (+ 75% AP)Slow:40 / 45 / 50 / 55 / 60%",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      70,
+      120,
+      170,
+      220,
+      270
+    ],
+    "ratios": [
+      {
+        "value": 75,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Playful.png",
+    "icons": [
+      "Playful.png"
+    ],
+    "levelings": [
+      "Magic Damage:70 / 120 / 170 / 220 / 270 (+ 75% AP)Slow:40 / 45 / 50 / 55 / 60%"
+    ],
+    "descriptions": [
+      "Active: Fizz becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> vaults toward the target location over 0.25 seconds while balancing on his trident. Fizz gains the ability to cast <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bd/Trickster.png/revision/latest/scale-to-width-down/20?cb=20161018215411\" \t alt=\"Trickster\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Trickster.png\" \tdata-image-name=\"Trickster.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Trickster after a 0.15-second delay until he begins to jump off the trident.",
+      "Fizz then hops off his trident and splashes onto the ground below him over 0.75 seconds, becoming targetable again and dealing magic damage to nearby enemies and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them for 2 seconds."
+    ]
+  },
+  {
+    "name": "Chum the Waters",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      100,
+      92,
+      85,
+      77,
+      70
+    ],
+    "description": "Active: Fizz throws down a lure at the target location that attracts a shark, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing the affected area before emerging and letting out a crushing bite at the lure after 2 seconds, dealing magic damage to surrounding enemies, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking them back and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them for 2 seconds. The further the lure travels in its initial flight, the larger the shark that is attracted, increasing its damage, slow, eruption radius and knock back distance.",
+    "leveling": "Guppy Damage:150 / 200 / 250 / 300 / 350 (+ 80% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "special",
+    "flatDamage": [
+      150,
+      200,
+      250,
+      300,
+      350
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Chum the Waters.png",
+    "icons": [
+      "Chum the Waters.png"
+    ],
+    "levelings": [
+      "Guppy Damage:150 / 200 / 250 / 300 / 350 (+ 80% AP)",
+      "Chomper Damage:225 / 275 / 325 / 375 / 425 (+ 100% AP)",
+      "Gigalodon Damage:300 / 350 / 400 / 450 / 500 (+ 120% AP)"
+    ],
+    "descriptions": [
+      "Active: Fizz throws down a lure at the target location that attracts a shark, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing the affected area before emerging and letting out a crushing bite at the lure after 2 seconds, dealing magic damage to surrounding enemies, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking them back and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them for 2 seconds. The further the lure travels in its initial flight, the larger the shark that is attracted, increasing its damage, slow, eruption radius and knock back distance.",
+      "Guppy (<455): 40% slow, 200 eruption radius and 150 unit knock back distance.",
+      "Chomper (455-910): 60% slow, 325 eruption radius and 250 unit knock back distance.",
+      "Gigalodon (>910): 80% slow, 450 eruption radius and 350 unit knock back distance.",
+      "Enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions can intercept the lure while it is in flight, which attaches to them and causes the shark to emerge at their position. The lure's holder is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20150808161653\" \t alt=\"True Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"True_Sight_icon.png\" \tdata-image-name=\"True Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealed for the duration and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked up for 1 second instead of knocked back."
+    ]
+  }
+]

@@ -1,0 +1,214 @@
+[
+  {
+    "name": "Salvation",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Soraka gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 70% bonus movement speed when moving towards allied champions below <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 40% of their maximum health.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Salvation.png",
+    "icons": [
+      "Salvation.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Soraka gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 70% bonus movement speed when moving towards allied champions below <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 40% of their maximum health."
+    ]
+  },
+  {
+    "name": "Starcall",
+    "cost": [
+      45,
+      50,
+      55,
+      60,
+      65
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      8,
+      7,
+      6,
+      5,
+      4
+    ],
+    "description": "Active: Soraka calls down a star upon the target area, granting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight over it before landing after 0.25 − 1 (based on target range) seconds, dealing magic damage to enemies hit and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 30% for 1.5 seconds.",
+    "leveling": "Magic Damage:85 / 120 / 155 / 190 / 225 (+ 35% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      85,
+      120,
+      155,
+      190,
+      225
+    ],
+    "ratios": [
+      {
+        "value": 35,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Starcall.png",
+    "icons": [
+      "Starcall.png"
+    ],
+    "levelings": [
+      "Magic Damage:85 / 120 / 155 / 190 / 225 (+ 35% AP)",
+      "Total Self-Heal:50 / 60 / 70 / 80 / 90 (+ 30% AP)\nBonus Movement Speed:15 / 17.5 / 20 / 22.5 / 25%"
+    ],
+    "descriptions": [
+      "Active: Soraka calls down a star upon the target area, granting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight over it before landing after 0.25 − 1 (based on target range) seconds, dealing magic damage to enemies hit and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 30% for 1.5 seconds.",
+      "Hitting at least one enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion returns the star dust toward Soraka, granting her Rejuvenation for 2.5 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing her every 0.5 seconds and granting her <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed, decaying over the duration.",
+      "While Soraka is Rejuvenated she can Rejuvenate other allies with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6f/Astral_Infusion.png/revision/latest/scale-to-width-down/20?cb=20170818194809\" \t alt=\"Astral Infusion\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Astral_Infusion.png\" \tdata-image-name=\"Astral Infusion.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Astral Infusion, granting them the same effects for the same duration."
+    ]
+  },
+  {
+    "name": "Astral Infusion",
+    "cost": [
+      10
+    ],
+    "costType": "Maximum Health + 40 / 45 / 50 / 55 / 60 Mana",
+    "coolDown": [
+      6,
+      5,
+      4,
+      3,
+      2
+    ],
+    "description": "Active: Soraka <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals the target ally champion (excluding herself).",
+    "leveling": "Heal:80 / 115 / 150 / 185 / 220 (+ 60% AP)",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "False",
+    "flatDamage": [
+      80,
+      115,
+      150,
+      185,
+      220
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Astral Infusion.png",
+    "icons": [
+      "Astral Infusion.png"
+    ],
+    "levelings": [
+      "Heal:80 / 115 / 150 / 185 / 220 (+ 60% AP)",
+      "Health Cost Reduction:80 / 85 / 90 / 95 / 100%"
+    ],
+    "descriptions": [
+      "Active: Soraka <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals the target ally champion (excluding herself).",
+      "If cast while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cd/Starcall.png/revision/latest/scale-to-width-down/20?cb=20170818194914\" \t alt=\"Starcall\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Starcall.png\" \tdata-image-name=\"Starcall.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Rejuvenated, the health cost will be reduced by a percentage.",
+      "Astral Infusion cannot be cast if Soraka is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> below 5% of her maximum health."
+    ]
+  },
+  {
+    "name": "Equinox",
+    "cost": [
+      70,
+      75,
+      80,
+      85,
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      20,
+      19,
+      18,
+      17,
+      16
+    ],
+    "description": "Active: Soraka creates a celestial zone at the target location, dealing magic damage to enemy champions that were inside it upon creation. The zone then persists for 1.5 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> silencing all enemy champions within it every 0.25 seconds.",
+    "leveling": "Magic Damage:»70 / 95 / 120 / 145 / 170 (+ 40% AP)«Total Magic Damage:140 / 190 / 240 / 290 / 340 (+ 80% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      70,
+      95,
+      120,
+      145,
+      170
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Equinox.png",
+    "icons": [
+      "Equinox.png"
+    ],
+    "levelings": [
+      "Magic Damage:»70 / 95 / 120 / 145 / 170 (+ 40% AP)«Total Magic Damage:140 / 190 / 240 / 290 / 340 (+ 80% AP)",
+      "Root Duration:1 / 1.25 / 1.5 / 1.75 / 2"
+    ],
+    "descriptions": [
+      "Active: Soraka creates a celestial zone at the target location, dealing magic damage to enemy champions that were inside it upon creation. The zone then persists for 1.5 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> silencing all enemy champions within it every 0.25 seconds.",
+      "After the duration, the zone detonates, dealing the same magic damage to all enemy champions within and briefly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooting them."
+    ]
+  },
+  {
+    "name": "Wish",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      160,
+      145,
+      130
+    ],
+    "description": "Active: Soraka calls upon the stars, instantly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing all allied champions, and herself, which is increased by 50% on targets below <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 40% of their maximum health.",
+    "leveling": "Heal:»150 / 250 / 350 (+ 55% AP)«Enhanced Heal:225 / 375 / 525 (+ 82.5% AP)",
+    "skill": "R",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      150,
+      250,
+      350,
+      55,
+      225
+    ],
+    "ratios": [
+      {
+        "value": 55,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Wish.png",
+    "icons": [
+      "Wish.png"
+    ],
+    "levelings": [
+      "Heal:»150 / 250 / 350 (+ 55% AP)«Enhanced Heal:225 / 375 / 525 (+ 82.5% AP)"
+    ],
+    "descriptions": [
+      "Active: Soraka calls upon the stars, instantly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing all allied champions, and herself, which is increased by 50% on targets below <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 40% of their maximum health."
+    ]
+  }
+]

@@ -1,0 +1,216 @@
+[
+  {
+    "name": "Crimson Pact",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Vladimir gains (2.5% bonus health) as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0a/Ability_power_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203441\" \t alt=\"Ability power icon\"  \tclass=\"\" \t \tdata-image-key=\"Ability_power_icon.png\" \tdata-image-name=\"Ability power icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus ability power and (140% AP) as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus health. These two bonuses do not stack with each other.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Crimson Pact.png",
+    "icons": [
+      "Crimson Pact.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Vladimir gains (2.5% bonus health) as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0a/Ability_power_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203441\" \t alt=\"Ability power icon\"  \tclass=\"\" \t \tdata-image-key=\"Ability_power_icon.png\" \tdata-image-name=\"Ability power icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus ability power and (140% AP) as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus health. These two bonuses do not stack with each other."
+    ]
+  },
+  {
+    "name": "Transfusion",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      9,
+      8,
+      7,
+      6,
+      5
+    ],
+    "description": "Active: Vladimir drains blood from the target enemy, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing himself.",
+    "leveling": "Magic Damage:80 / 100 / 120 / 140 / 160 (+ 60% AP)Heal:20 / 25 / 30 / 35 / 40 (+ 35% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "false",
+    "flatDamage": [
+      80,
+      100,
+      120,
+      140,
+      160
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Transfusion.png",
+    "icons": [
+      "Transfusion.png",
+      "Crimson Rush.png"
+    ],
+    "levelings": [
+      "Magic Damage:80 / 100 / 120 / 140 / 160 (+ 60% AP)Heal:20 / 25 / 30 / 35 / 40 (+ 35% AP)",
+      "Empowered Damage:148 / 185 / 222 / 259 / 296 (+ 111% AP)"
+    ],
+    "descriptions": [
+      "Active: Vladimir drains blood from the target enemy, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing himself.",
+      "Each cast of Transfusion generates a stack of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bloodthirst over its <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown, which is displayed in his secondary resource bar. At 2 stacks, Vladimir gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 10% bonus movement speed for 0.5 seconds, and Crimson Rush while the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bloodthirst depletes over 2.5 seconds. The <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bloodthirst depletes 75% slower during <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/65/Tides_of_Blood.png/revision/latest/scale-to-width-down/20?cb=20160616212716\" \t alt=\"Tides of Blood\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tides_of_Blood.png\" \tdata-image-name=\"Tides of Blood.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tides of Blood, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/86/Sanguine_Pool.png/revision/latest/scale-to-width-down/20?cb=20160616212644\" \t alt=\"Sanguine Pool\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Sanguine_Pool.png\" \tdata-image-name=\"Sanguine Pool.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Sanguine Pool or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis.",
+      "Crimson Rush: The next Transfusion deals <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Critical_magic_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20190827073648\" \t alt=\"Critical magic strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_magic_strike_icon.png\" \tdata-image-name=\"Critical magic strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 85% increased damage and heals for an additional 30 − 200 (based on level) (+ 5% (+ 4% per 100 AP) missing health), reduced to 35% against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions, consuming all <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d7/Fury_resource.png/revision/latest/scale-to-width-down/20?cb=20170518230505\" \t alt=\"Fury resource\"  \tclass=\"\" \t \tdata-image-key=\"Fury_resource.png\" \tdata-image-name=\"Fury resource.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bloodthirst."
+    ]
+  },
+  {
+    "name": "Sanguine Pool",
+    "cost": [
+      20
+    ],
+    "costType": "current health",
+    "coolDown": [
+      28,
+      25,
+      22,
+      19,
+      16
+    ],
+    "description": "Active: Vladimir sinks into a pool of blood, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 37.5% bonus movement speed which decays exponentially over 1 second and becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted for 2 seconds.",
+    "leveling": "Magic Damage Per Half-Second:»20 / 33.75 / 47.5 / 61.25 / 75 (+ 2.5% bonus health)«Maximum Magic Damage:80 / 135 / 190 / 245 / 300 (+ 10% bonus health)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      20,
+      33.75,
+      47.5,
+      61.25,
+      75
+    ],
+    "ratios": [
+      {
+        "value": 2.5,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Sanguine Pool.png",
+    "icons": [
+      "Sanguine Pool.png"
+    ],
+    "levelings": [
+      "Magic Damage Per Half-Second:»20 / 33.75 / 47.5 / 61.25 / 75 (+ 2.5% bonus health)«Maximum Magic Damage:80 / 135 / 190 / 245 / 300 (+ 10% bonus health)"
+    ],
+    "descriptions": [
+      "Active: Vladimir sinks into a pool of blood, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 37.5% bonus movement speed which decays exponentially over 1 second and becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted for 2 seconds.",
+      "Enemies who stand upon the pool are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed by 40% and dealt magic damage every half second. Vladimir <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals himself for 15% of the damage dealt by Sanguine Pool.",
+      "Vladimir cannot use basic attacks or abilities during Sanguine Pool, but is still able to move. If <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/65/Tides_of_Blood.png/revision/latest/scale-to-width-down/20?cb=20160616212716\" \t alt=\"Tides of Blood\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tides_of_Blood.png\" \tdata-image-name=\"Tides of Blood.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tides of Blood is charging at the time of Sanguine Pool's activation, that ability may be recast."
+    ]
+  },
+  {
+    "name": "Tides of Blood",
+    "cost": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "costType": "maximum health",
+    "coolDown": [
+      13,
+      11,
+      9,
+      7,
+      5
+    ],
+    "description": "Active: Vladimir <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charges for up to 1.5 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing himself by 20% if he charges for more than 1 second. Tides of Blood can be recast at any time within its duration. If Vladimir finishes charging or is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> interrupted, he automatically initiates the recast.",
+    "leveling": "Minimum Magic Damage:»30 / 45 / 60 / 75 / 90 (+ 1.5% maximum health) (+ 35% AP)«Maximum Magic Damage:60 / 90 / 120 / 150 / 180 (+ 6% maximum health) (+ 80% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      30,
+      45,
+      60,
+      75,
+      90
+    ],
+    "ratios": [
+      {
+        "value": 1.5,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Tides of Blood.png",
+    "icons": [
+      "Tides of Blood.png"
+    ],
+    "levelings": [
+      "Minimum Magic Damage:»30 / 45 / 60 / 75 / 90 (+ 1.5% maximum health) (+ 35% AP)«Maximum Magic Damage:60 / 90 / 120 / 150 / 180 (+ 6% maximum health) (+ 80% AP)",
+      "Slow:40 / 45 / 50 / 55 / 60%"
+    ],
+    "descriptions": [
+      "Active: Vladimir <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> charges for up to 1.5 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing himself by 20% if he charges for more than 1 second. Tides of Blood can be recast at any time within its duration. If Vladimir finishes charging or is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> interrupted, he automatically initiates the recast.",
+      "Recast: Vladimir unleashes a nova of 15 blood bolts, each of which collide with the first enemy they hit, dealing them magic damage that is increased based on how long Tides of Blood was charged, up to the first second.",
+      "If Tides of Blood was charged for at least 1 second, enemies hit are also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed for 0.5 seconds.",
+      "Enemies can intercept multiple bolts, but may only be damaged once.",
+      "If Vladimir is below 12% of his maximum health Tides of Blood will not cost any health, but will still increase in damage."
+    ]
+  },
+  {
+    "name": "Hemoplague",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      150,
+      142,
+      135,
+      127,
+      120
+    ],
+    "description": "Active: Vladimir infects all enemies in the target area with a virulent plague, increasing the damage they take from all sources by 10% for 4 seconds, after which all infected enemies take magic damage.",
+    "leveling": "Magic damage:150 / 200 / 250 / 300 / 350 (+ 70% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "false",
+    "flatDamage": [
+      150,
+      200,
+      250,
+      300,
+      350
+    ],
+    "ratios": [
+      {
+        "value": 70,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Hemoplague.png",
+    "icons": [
+      "Hemoplague.png"
+    ],
+    "levelings": [
+      "Magic damage:150 / 200 / 250 / 300 / 350 (+ 70% AP)",
+      "Maximum Heal:450 / 600 / 750 / 900 / 1050 (+ 210% AP)"
+    ],
+    "descriptions": [
+      "Active: Vladimir infects all enemies in the target area with a virulent plague, increasing the damage they take from all sources by 10% for 4 seconds, after which all infected enemies take magic damage.",
+      "The detonation brings the blood from enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions hit to Vladimir after 0.4 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing him for the pre-mitigation damage dealt against them once the blood reaches him, reduced to 50% after the first."
+    ]
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "name": "Martial Cadence",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Jarvan IV's basic attacks against non-<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> structures deal 8% of the target's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> current health physical damage, with a minimum threshold of 20 damage and a maximum threshold of 400 damage against non-champions.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Martial Cadence.png",
+    "icons": [
+      "Martial Cadence.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Jarvan IV's basic attacks against non-<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> structures deal 8% of the target's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> current health physical damage, with a minimum threshold of 20 damage and a maximum threshold of 400 damage against non-champions.",
+      "This effect cannot occur on the same target more than once every few seconds."
+    ]
+  },
+  {
+    "name": "Dragon Strike",
+    "cost": [
+      45,
+      50,
+      55,
+      60,
+      65
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      10,
+      9,
+      8,
+      7,
+      6
+    ],
+    "description": "Active: Jarvan IV extends his lance in the target direction, dealing physical damage to all enemies and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Armor_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_penetration_icon.png\" \tdata-image-name=\"Armor penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> reducing their armor for 3 seconds.",
+    "leveling": "Physical Damage:90 / 130 / 170 / 210 / 250 (+ 120% bonus AD)Armor Reduction:10 / 14 / 18 / 22 / 26% of target's armor",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      90,
+      130,
+      170,
+      210,
+      250
+    ],
+    "ratios": [
+      {
+        "value": 120,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.4,
+    "icon": "Dragon Strike.png",
+    "icons": [
+      "Dragon Strike.png"
+    ],
+    "levelings": [
+      "Physical Damage:90 / 130 / 170 / 210 / 250 (+ 120% bonus AD)Armor Reduction:10 / 14 / 18 / 22 / 26% of target's armor"
+    ],
+    "descriptions": [
+      "Active: Jarvan IV extends his lance in the target direction, dealing physical damage to all enemies and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Armor_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_penetration_icon.png\" \tdata-image-name=\"Armor penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> reducing their armor for 3 seconds.",
+      "If the lance connects with a deployed <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/65/Demacian_Standard.png/revision/latest/scale-to-width-down/20?cb=20130929122856\" \t alt=\"Demacian Standard\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Demacian_Standard.png\" \tdata-image-name=\"Demacian Standard.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Demacian Standard, Jarvan IV <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to its location, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking up nearby enemies along his path and at the destination for 0.75 seconds."
+    ]
+  },
+  {
+    "name": "Golden Aegis",
+    "cost": [
+      30
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12
+    ],
+    "description": "Active: Jarvan IV <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows all nearby enemies for 2 seconds.",
+    "leveling": "Slow:15 / 20 / 25 / 30 / 35%",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      15,
+      20,
+      25,
+      30,
+      35
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Golden Aegis.png",
+    "icons": [
+      "Golden Aegis.png"
+    ],
+    "levelings": [
+      "Slow:15 / 20 / 25 / 30 / 35%",
+      "Base Shield:60 / 85 / 110 / 135 / 160"
+    ],
+    "descriptions": [
+      "Active: Jarvan IV <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows all nearby enemies for 2 seconds.",
+      "Jarvan IV also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields himself for 5 seconds, increased by 1.5% of his maximum health for each enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion hit by Golden Aegis."
+    ]
+  },
+  {
+    "name": "Demacian Standard",
+    "cost": [
+      55
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12
+    ],
+    "description": "Passive: Jarvan IV gains permanent <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed.",
+    "leveling": "Bonus Attack Speed:20 / 22.5 / 25 / 27.5 / 30%",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      20,
+      22.5,
+      25,
+      27.5,
+      30
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "false",
+    "icons": [
+      "false",
+      "Demacian Standard.png"
+    ],
+    "levelings": [
+      "Bonus Attack Speed:20 / 22.5 / 25 / 27.5 / 30%",
+      "Magic Damage:80 / 120 / 160 / 200 / 240 (+ 80% AP)"
+    ],
+    "descriptions": [
+      "Passive: Jarvan IV gains permanent <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed.",
+      "Active: Jarvan IV throws a Demacian flag to the target location, dealing magic damage to all nearby enemies.",
+      "The flag then remains for 8 seconds, granting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of its surroundings and providing an aura that grants Demacian Standard's passive bonus attack speed to Jarvan IV and all nearby allied champions.",
+      "Demacian Standard will cast at max range if cast beyond that."
+    ]
+  },
+  {
+    "name": "Cataclysm",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      120,
+      112,
+      105,
+      97,
+      90
+    ],
+    "description": "Active: Jarvan IV <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leaps with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Unstoppable_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164427\" \t alt=\"Unstoppable icon\"  \tclass=\"\" \t \tdata-image-key=\"Unstoppable_icon.png\" \tdata-image-name=\"Unstoppable icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement immunity to the target enemy champion's location over 0.35 seconds and deals physical damage to all nearby enemies upon arrival.",
+    "leveling": "Physical Damage:200 / 262.5 / 325 / 387.5 / 450 (+ 150% bonus AD)",
+    "skill": "R",
+    "damageType": "Physical",
+    "isProjectile": "",
+    "flatDamage": [
+      200,
+      262.5,
+      325,
+      387.5,
+      450
+    ],
+    "ratios": [
+      {
+        "value": 150,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Cataclysm.png",
+    "icons": [
+      "Cataclysm.png"
+    ],
+    "levelings": [
+      "Physical Damage:200 / 262.5 / 325 / 387.5 / 450 (+ 150% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Jarvan IV <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leaps with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Unstoppable_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164427\" \t alt=\"Unstoppable icon\"  \tclass=\"\" \t \tdata-image-key=\"Unstoppable_icon.png\" \tdata-image-name=\"Unstoppable icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement immunity to the target enemy champion's location over 0.35 seconds and deals physical damage to all nearby enemies upon arrival.",
+      "Upon impact, he creates a circle of impassable terrain that initially pulls units inside it, though not rendering them <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> airborne. The terrain lasts for 3.5 seconds and grants <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of the inside and surrounding area. Cataclysm can be recast after 1 second.",
+      "Recast: Jarvan IV destroys the terrain created by Cataclysm."
+    ]
+  }
+]

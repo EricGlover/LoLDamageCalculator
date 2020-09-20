@@ -1,0 +1,205 @@
+[
+  {
+    "name": "Ravenous Flock",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      10
+    ],
+    "description": "Innate - Ravenous: Swain can periodically target a nearby <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> immobilized enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion to rip out a Soul Fragment from them, dealing them 20 − 105 (based on level) (+ 30% AP) magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> pulling them 290-units towards him over a 0.25-second cast time. If the target would be brought past Swain, they are instead <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked back the excess distance.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Magic",
+    "isProjectile": "false",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Ravenous Flock.png",
+    "icons": [
+      "Ravenous Flock.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate - Ravenous: Swain can periodically target a nearby <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> immobilized enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion to rip out a Soul Fragment from them, dealing them 20 − 105 (based on level) (+ 30% AP) magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> pulling them 290-units towards him over a 0.25-second cast time. If the target would be brought past Swain, they are instead <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked back the excess distance.",
+      "Enemy champions also leave behind a Soul Fragment for 16 seconds upon their <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> death, which can be harvested after 1 second if Swain is near them.",
+      "Innate - Flock: Swain's ravens bring nearby Soul Fragments to him, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing him for 4 / 5.5 / 7% (based on level) of his maximum health. Each Soul Fragment collected permanently increases his maximum health by 5."
+    ]
+  },
+  {
+    "name": "Death's Hand",
+    "cost": [
+      65,
+      70,
+      75,
+      80,
+      85
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      9,
+      7,
+      6,
+      4,
+      3
+    ],
+    "description": "Active: Swain unleashes five bolts of eldritch power in the target direction, dealing magic damage to all enemies in a cone. Enemies can be hit by multiple bolts, taking bonus magic damage.",
+    "leveling": "Magic Damage:55 / 75 / 95 / 115 / 135 (+ 40% AP)\nBonus Magic Damage Per Bolt:»15 / 20 / 25 / 30 / 35%«Maximum Damage:88 / 135 / 190 / 253 / 324 (+ 64 / 72 / 80 / 88 / 96% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "False",
+    "flatDamage": [
+      55,
+      75,
+      95,
+      115,
+      135
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Death's Hand.png",
+    "icons": [
+      "Death's Hand.png"
+    ],
+    "levelings": [
+      "Magic Damage:55 / 75 / 95 / 115 / 135 (+ 40% AP)\nBonus Magic Damage Per Bolt:»15 / 20 / 25 / 30 / 35%«Maximum Damage:88 / 135 / 190 / 253 / 324 (+ 64 / 72 / 80 / 88 / 96% AP)"
+    ],
+    "descriptions": [
+      "Active: Swain unleashes five bolts of eldritch power in the target direction, dealing magic damage to all enemies in a cone. Enemies can be hit by multiple bolts, taking bonus magic damage."
+    ]
+  },
+  {
+    "name": "Vision of Empire",
+    "cost": [
+      70,
+      80,
+      90,
+      100,
+      110
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      22,
+      21,
+      20,
+      19,
+      18
+    ],
+    "description": "Active: Swain summons a demonic eye at the target location, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing it for 2 seconds, which explodes after 1.5 seconds, dealing magic damage to all enemies hit, halved against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them for 2.5 seconds.",
+    "leveling": "Magic Damage:»80 / 120 / 160 / 200 / 240 (+ 70% AP)«Reduced Damage:40 / 60 / 80 / 100 / 120 (+ 35% AP)\nSlow Strength:25 / 35 / 45 / 55 / 65%",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      80,
+      120,
+      160,
+      200,
+      240
+    ],
+    "ratios": [
+      {
+        "value": 70,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Vision of Empire.png",
+    "icons": [
+      "Vision of Empire.png"
+    ],
+    "levelings": [
+      "Magic Damage:»80 / 120 / 160 / 200 / 240 (+ 70% AP)«Reduced Damage:40 / 60 / 80 / 100 / 120 (+ 35% AP)\nSlow Strength:25 / 35 / 45 / 55 / 65%",
+      "Reveal Duration:4 / 5 / 6 / 7 / 8"
+    ],
+    "descriptions": [
+      "Active: Swain summons a demonic eye at the target location, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing it for 2 seconds, which explodes after 1.5 seconds, dealing magic damage to all enemies hit, halved against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them for 2.5 seconds.",
+      "Enemy champions hit are also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealed for a duration and have a Soul Fragment ripped from them."
+    ]
+  },
+  {
+    "name": "Nevermove",
+    "cost": [
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      10
+    ],
+    "description": "Active: Swain launches a demonic wave in the target direction, dealing magic damage to enemies it passes through.",
+    "leveling": "Magic Damage:35 / 70 / 105 / 140 / 175 (+ 25% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      35,
+      70,
+      105,
+      140,
+      175
+    ],
+    "ratios": [
+      {
+        "value": 25,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Nevermove.png",
+    "icons": [
+      "Nevermove.png"
+    ],
+    "levelings": [
+      "Magic Damage:35 / 70 / 105 / 140 / 175 (+ 25% AP)",
+      "Detonation Damage:»35 / 45 / 55 / 65 / 75 (+ 25% AP)«Maximum Damage:70 / 115 / 160 / 205 / 250 (+ 50% AP)"
+    ],
+    "descriptions": [
+      "Active: Swain launches a demonic wave in the target direction, dealing magic damage to enemies it passes through.",
+      "Upon reaching its maximum distance, the wave returns to Swain, detonating at the first enemy hit, dealing magic damage to all nearby enemies and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooting them for 1.5 seconds."
+    ]
+  },
+  {
+    "name": "Demonic Ascension",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      120
+    ],
+    "description": "Active: Swain frees the demon within for 12 seconds, becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus health and doubling the health gained from Soul Fragments.",
+    "leveling": "Bonus Health:125 / 162.5 / 200 / 237.5 / 275",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "False",
+    "flatDamage": [
+      125,
+      162.5,
+      200,
+      237.5,
+      275
+    ],
+    "ratios": [],
+    "castTime": 0.5,
+    "icon": "Demonic Ascension.png",
+    "icons": [
+      "Demonic Ascension.png"
+    ],
+    "levelings": [
+      "Bonus Health:125 / 162.5 / 200 / 237.5 / 275",
+      "Damage per Second:»35 / 42.5 / 50 / 57.5 / 65 (+ 14.167% AP)«Maximum Damage:420 / 510 / 600 / 690 / 780 (+ 170% AP)\nHeal per Second:»20 / 27.5 / 35 / 42.5 / 50 (+ 16% AP)«Reduced Healing:»2 / 2.75 / 3.5 / 4.25 / 5 (+ 1.6% AP)«Maximum Single-Champion Heal:»240 / 330 / 420 / 510 / 600 (+ 192% AP)«Maximum Single-Minion Heal:24 / 33 / 42 / 51 / 60 (+ 19.2% AP)"
+    ],
+    "descriptions": [
+      "Active: Swain frees the demon within for 12 seconds, becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosted, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus health and doubling the health gained from Soul Fragments.",
+      "While Demonic Ascension is active, Swain drains all nearby enemies, dealing magic damage each second and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> healing himself for each enemy hit, reduced by 90% against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+      "After a 0.5-second delay, Swain can end Demonic Ascension's effects early to cast <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9a/Demonflare.png/revision/latest/scale-to-width-down/20?cb=20180411161503\" \t alt=\"Demonflare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Demonflare.png\" \tdata-image-name=\"Demonflare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Demonflare, and automatically does so at the end of its duration.",
+      "Demonic Ascension drains enemies regardless of having <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of them or not."
+    ]
+  }
+]

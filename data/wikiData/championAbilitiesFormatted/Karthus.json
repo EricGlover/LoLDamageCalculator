@@ -1,0 +1,196 @@
+[
+  {
+    "name": "Death Defied",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Upon taking <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> fatal damage, Karthus <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Omen_of_Death.png/revision/latest/scale-to-width-down/20?cb=20130929123503\" \t alt=\"Omen of Death\"  \tclass=\"\" \t \tdata-image-key=\"Omen_of_Death.png\" \tdata-image-name=\"Omen of Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> remains active for 7 seconds, rendering himself unable to move, basic attack, use summoner spells, or activate items, but becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c1/Cosmic_Radiance.png/revision/latest/scale-to-width-down/20?cb=20160608034537\" \t alt=\"Cosmic Radiance\"  \tclass=\"\" \t \tdata-image-key=\"Cosmic_Radiance.png\" \tdata-image-name=\"Cosmic Radiance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invulnerable, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b1/Cc-immune_icon.png/revision/latest/scale-to-width-down/20?cb=20200327223512\" \t alt=\"Cc-immune icon\"  \tclass=\"\" \t \tdata-image-key=\"Cc-immune_icon.png\" \tdata-image-name=\"Cc-immune icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> immune to crowd control for the duration as well as being able to use abilities at no cost.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Death Defied.png",
+    "icons": [
+      "Death Defied.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Upon taking <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> fatal damage, Karthus <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c2/Omen_of_Death.png/revision/latest/scale-to-width-down/20?cb=20130929123503\" \t alt=\"Omen of Death\"  \tclass=\"\" \t \tdata-image-key=\"Omen_of_Death.png\" \tdata-image-name=\"Omen of Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> remains active for 7 seconds, rendering himself unable to move, basic attack, use summoner spells, or activate items, but becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c1/Cosmic_Radiance.png/revision/latest/scale-to-width-down/20?cb=20160608034537\" \t alt=\"Cosmic Radiance\"  \tclass=\"\" \t \tdata-image-key=\"Cosmic_Radiance.png\" \tdata-image-name=\"Cosmic Radiance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invulnerable, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b1/Cc-immune_icon.png/revision/latest/scale-to-width-down/20?cb=20200327223512\" \t alt=\"Cc-immune icon\"  \tclass=\"\" \t \tdata-image-key=\"Cc-immune_icon.png\" \tdata-image-name=\"Cc-immune icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> immune to crowd control for the duration as well as being able to use abilities at no cost.",
+      "If <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f9/Defile.png/revision/latest/scale-to-width-down/20?cb=20170818010046\" \t alt=\"Defile\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Defile.png\" \tdata-image-name=\"Defile.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Defile has been learned, it will remain toggled on for Death Defied's entire duration."
+    ]
+  },
+  {
+    "name": "Lay Waste",
+    "cost": [
+      20,
+      26,
+      32,
+      38,
+      44
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      1
+    ],
+    "description": "Active: Karthus creates a blast at the target location, briefly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing the area and detonating after a 0.528 seconds to 0.759 seconds delay, dealing magic damage to all enemies within, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Critical_magic_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20190827073648\" \t alt=\"Critical magic strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_magic_strike_icon.png\" \tdata-image-name=\"Critical magic strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> doubled when hitting only one target.",
+    "leveling": "Magic Damage:»50 / 70 / 90 / 110 / 130 (+ 30% AP)«Enhanced Damage:100 / 140 / 180 / 220 / 260 (+ 60% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      50,
+      70,
+      90,
+      110,
+      130
+    ],
+    "ratios": [
+      {
+        "value": 30,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Lay Waste.png",
+    "icons": [
+      "Lay Waste.png"
+    ],
+    "levelings": [
+      "Magic Damage:»50 / 70 / 90 / 110 / 130 (+ 30% AP)«Enhanced Damage:100 / 140 / 180 / 220 / 260 (+ 60% AP)",
+      "Monster Damage:»42.5 / 59.5 / 76.5 / 93.5 / 110.5 (+ 25.5% AP)«Enhanced Monster Damage:85 / 119 / 153 / 187 / 221 (+ 51% AP)"
+    ],
+    "descriptions": [
+      "Active: Karthus creates a blast at the target location, briefly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing the area and detonating after a 0.528 seconds to 0.759 seconds delay, dealing magic damage to all enemies within, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/26/Critical_magic_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20190827073648\" \t alt=\"Critical magic strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_magic_strike_icon.png\" \tdata-image-name=\"Critical magic strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> doubled when hitting only one target.",
+      "Lay Waste's damage is reduced by 15% against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+      "During <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Death_Defied.png/revision/latest/scale-to-width-down/20?cb=20170818010029\" \t alt=\"Death Defied\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Death_Defied.png\" \tdata-image-name=\"Death Defied.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Death Defied, Lay Waste will cast at maximum range if cast beyond that."
+    ]
+  },
+  {
+    "name": "Wall of Pain",
+    "cost": [
+      70
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      15
+    ],
+    "description": "Active: Karthus summons a passable wall of energy at the target location perpendicular to his facing for 5 seconds, granting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight around its pillars and center.",
+    "leveling": "Wall Length:800 / 900 / 1000 / 1100 / 1200",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      800,
+      900,
+      1000,
+      1100,
+      1200
+    ],
+    "ratios": [],
+    "castTime": 0.25,
+    "icon": "Wall of Pain.png",
+    "icons": [
+      "Wall of Pain.png"
+    ],
+    "levelings": [
+      "Wall Length:800 / 900 / 1000 / 1100 / 1200",
+      "Slow:»40 / 50 / 60 / 70 / 80%«Reduced Slow:20 / 25 / 30 / 35 / 40%"
+    ],
+    "descriptions": [
+      "Active: Karthus summons a passable wall of energy at the target location perpendicular to his facing for 5 seconds, granting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight around its pillars and center.",
+      "For the duration, any enemy unit whose <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/48/Gameplay_radius.png/revision/latest/scale-to-width-down/20?cb=20191206134117\" \t alt=\"Gameplay radius\"  \tclass=\"\" \t \tdata-image-key=\"Gameplay_radius.png\" \tdata-image-name=\"Gameplay radius.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> gameplay radius touches it is both <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed for 4 seconds, decaying over its duration, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Magic_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203538\" \t alt=\"Magic penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_penetration_icon.png\" \tdata-image-name=\"Magic penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> loses 15% magic resistance for the same duration.",
+      "Each unit can only be affected once per cast."
+    ]
+  },
+  {
+    "name": "Defile",
+    "cost": [
+      30,
+      42,
+      54,
+      66,
+      78
+    ],
+    "costType": "Mana per second",
+    "coolDown": [
+      null
+    ],
+    "description": "Passive: Karthus restores <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> mana whenever he kills an enemy.",
+    "leveling": "Mana Restored:20 / 27 / 34 / 41 / 48",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      20,
+      27,
+      34,
+      41,
+      48
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Defile.png",
+    "icons": [
+      "Defile.png"
+    ],
+    "levelings": [
+      "Mana Restored:20 / 27 / 34 / 41 / 48",
+      "Magic Damage Per Tick:»7.5 / 12.5 / 17.5 / 22.5 / 27.5 (+ 5% AP)«Damage Per Second:30 / 50 / 70 / 90 / 110 (+ 20% AP)"
+    ],
+    "descriptions": [
+      "Passive: Karthus restores <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> mana whenever he kills an enemy.",
+      "Toggle: Karthus deals magic damage every 0.25 seconds to all nearby enemies. Toggling Defile off deals 1 tick's worth of damage.",
+      "Defile cannot be toggled off during <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Death_Defied.png/revision/latest/scale-to-width-down/20?cb=20170818010029\" \t alt=\"Death Defied\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Death_Defied.png\" \tdata-image-name=\"Death Defied.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Death Defied, but it can be while channeling <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Requiem.png/revision/latest/scale-to-width-down/20?cb=20170818190320\" \t alt=\"Requiem\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Requiem.png\" \tdata-image-name=\"Requiem.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Requiem."
+    ]
+  },
+  {
+    "name": "Requiem",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      200,
+      190,
+      180,
+      170,
+      160
+    ],
+    "description": "Active: Karthus <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels for 3 seconds then deals magic damage to all targetable enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions upon its completion.",
+    "leveling": "Magic Damage:200 / 275 / 350 / 425 / 500 (+ 75% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      200,
+      275,
+      350,
+      425,
+      500
+    ],
+    "ratios": [
+      {
+        "value": 75,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Requiem.png",
+    "icons": [
+      "Requiem.png"
+    ],
+    "levelings": [
+      "Magic Damage:200 / 275 / 350 / 425 / 500 (+ 75% AP)"
+    ],
+    "descriptions": [
+      "Active: Karthus <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channels for 3 seconds then deals magic damage to all targetable enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions upon its completion."
+    ]
+  }
+]

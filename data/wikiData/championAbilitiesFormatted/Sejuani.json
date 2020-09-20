@@ -1,0 +1,214 @@
+[
+  {
+    "name": "Fury of the North",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate - Frost Armor: Sejuani receives <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2d/Sejuani_Frost_Armor.png/revision/latest/scale-to-width-down/18?cb=20170916160049\" \t alt=\"Sejuani Frost Armor\"  \tclass=\"\" \t \tdata-image-key=\"Sejuani_Frost_Armor.png\" \tdata-image-name=\"Sejuani Frost Armor.png\" \t \t width=\"18\"  \t height=\"18\"  \t \t \t \t> Frost Armor if she hasn't taken damage from monsters or enemy champions in the last 12 seconds, lingering for 3 seconds after taking damage.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Fury of the North.png",
+    "icons": [
+      "Fury of the North.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate - Frost Armor: Sejuani receives <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2d/Sejuani_Frost_Armor.png/revision/latest/scale-to-width-down/18?cb=20170916160049\" \t alt=\"Sejuani Frost Armor\"  \tclass=\"\" \t \tdata-image-key=\"Sejuani_Frost_Armor.png\" \tdata-image-name=\"Sejuani Frost Armor.png\" \t \t width=\"18\"  \t height=\"18\"  \t \t \t \t> Frost Armor if she hasn't taken damage from monsters or enemy champions in the last 12 seconds, lingering for 3 seconds after taking damage.",
+      "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2d/Sejuani_Frost_Armor.png/revision/latest/scale-to-width-down/18?cb=20170916160049\" \t alt=\"Sejuani Frost Armor\"  \tclass=\"\" \t \tdata-image-key=\"Sejuani_Frost_Armor.png\" \tdata-image-name=\"Sejuani Frost Armor.png\" \t \t width=\"18\"  \t height=\"18\"  \t \t \t \t> Frost Armor engulfs <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Bristle_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20140804005744\" \t alt=\"Bristle OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Bristle_OriginalSquare.png\" \tdata-image-name=\"Bristle OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bristle in True Ice, becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/a9/Slow_immune_2.png/revision/latest/scale-to-width-down/20?cb=20200327223234\" \t alt=\"Slow immune 2\"  \tclass=\"\" \t \tdata-image-key=\"Slow_immune_2.png\" \tdata-image-name=\"Slow immune 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow-immune and immune to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Cripple_icon.png/revision/latest/scale-to-width-down/20?cb=20171202000853\" \t alt=\"Cripple icon\"  \tclass=\"\" \t \tdata-image-key=\"Cripple_icon.png\" \tdata-image-name=\"Cripple icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> cripples and gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 10 (+ 50% bonus armor) bonus armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 10 (+ 50% bonus magic resistance) bonus magic resistance.",
+      "Innate - Icebreaker: Enemies <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunned by Sejuani are Frozen. Sejuani's basic attacks and abilities against Frozen enemies consume the effect to deal 10% of their <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> maximum health as bonus magic damage, capped at 300 against epic monsters."
+    ]
+  },
+  {
+    "name": "Arctic Assault",
+    "cost": [
+      70,
+      75,
+      80,
+      85,
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "description": "Active: Sejuani signals <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Bristle_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20140804005744\" \t alt=\"Bristle OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Bristle_OriginalSquare.png\" \tdata-image-name=\"Bristle OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bristle to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dash in the target direction, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking up all enemies hit for 0.5 seconds. The charge will prematurely end upon colliding with an enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion.",
+    "leveling": "Magic Damage:80 / 130 / 180 / 230 / 280 (+ 60% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      80,
+      130,
+      180,
+      230,
+      280
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Arctic Assault.png",
+    "icons": [
+      "Arctic Assault.png"
+    ],
+    "levelings": [
+      "Magic Damage:80 / 130 / 180 / 230 / 280 (+ 60% AP)"
+    ],
+    "descriptions": [
+      "Active: Sejuani signals <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/20/Bristle_OriginalSquare.png/revision/latest/scale-to-width-down/20?cb=20140804005744\" \t alt=\"Bristle OriginalSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Bristle_OriginalSquare.png\" \tdata-image-name=\"Bristle OriginalSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Bristle to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dash in the target direction, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking up all enemies hit for 0.5 seconds. The charge will prematurely end upon colliding with an enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion.",
+      "Sejuani can cast any of her abilities during Arctic Assault."
+    ]
+  },
+  {
+    "name": "Winter's Wrath",
+    "cost": [
+      65
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      9,
+      8,
+      7,
+      6,
+      5
+    ],
+    "description": "Active: After 0.25 seconds into the cast time, Sejuani swings her flail in a cone in the target direction, dealing physical damage to all enemies hit and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking back <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+    "leveling": "Physical Damage:20 / 25 / 30 / 35 / 40 (+ 20% AP) (+ 2% of her maximum health)",
+    "skill": "W",
+    "damageType": "Physical",
+    "isProjectile": "False",
+    "flatDamage": [
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "ratios": [
+      {
+        "value": 20,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 1,
+    "icon": "Winter's Wrath.png",
+    "icons": [
+      "Winter's Wrath.png"
+    ],
+    "levelings": [
+      "Physical Damage:20 / 25 / 30 / 35 / 40 (+ 20% AP) (+ 2% of her maximum health)",
+      "Physical Damage:»30 / 70 / 110 / 150 / 190 (+ 60% AP) (+ 5.25% of her maximum health)«Total Damage:50 / 95 / 140 / 185 / 230 (+ 80% AP) (+ 7.25% of her maximum health)"
+    ],
+    "descriptions": [
+      "Active: After 0.25 seconds into the cast time, Sejuani swings her flail in a cone in the target direction, dealing physical damage to all enemies hit and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking back <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+      "She then lashes out with her flail after the remaining 0.75 seconds of the cast time in a straight line in the same direction, dealing additional physical damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing all enemies hit by 75% for 0.25 seconds.",
+      "Sejuani can move freely during Winter's Wrath. Both swings will strike in the cast direction, but their hitboxes follow Sejuani's movement."
+    ]
+  },
+  {
+    "name": "Permafrost",
+    "cost": [
+      20
+    ],
+    "costType": "Mana + 4 Frost Stacks",
+    "coolDown": [
+      1
+    ],
+    "description": "Passive: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5d/Winter%27s_Wrath.png/revision/latest/scale-to-width-down/20?cb=20170818194057\" \t alt=\"Winter&amp;#039;s Wrath\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Winter%27s_Wrath.png\" \tdata-image-name=\"Winter&#39;s Wrath.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Winter's Wrath and both Sejuani's and nearby allied <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2d/Melee_role.png/revision/latest/scale-to-width-down/20?cb=20170624104045\" \t alt=\"Melee role\"  \tclass=\"\" \t \tdata-image-key=\"Melee_role.png\" \tdata-image-name=\"Melee role.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> melee champions' basic attacks apply Frost to enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions, epic, large and medium monsters, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6c/Blue_Siege_MinionSquare.png/revision/latest/scale-to-width-down/20?cb=20140731204558\" \t alt=\"Blue Siege MinionSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blue_Siege_MinionSquare.png\" \tdata-image-name=\"Blue Siege MinionSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> siege minions and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Blue_Super_MinionSquare.png/revision/latest/scale-to-width-down/20?cb=20140731204557\" \t alt=\"Blue Super MinionSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blue_Super_MinionSquare.png\" \tdata-image-name=\"Blue Super MinionSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> super minions for 5 seconds, stacking up to 4 times.",
+    "leveling": "Magic Damage:55 / 105 / 155 / 205 / 255 (+ 60% AP)",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      55,
+      105,
+      155,
+      205,
+      255
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Sejuani Frost Stack.png",
+    "icons": [
+      "Sejuani Frost Stack.png",
+      "Permafrost.png"
+    ],
+    "levelings": [
+      "Magic Damage:55 / 105 / 155 / 205 / 255 (+ 60% AP)"
+    ],
+    "descriptions": [
+      "Passive: <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/5d/Winter%27s_Wrath.png/revision/latest/scale-to-width-down/20?cb=20170818194057\" \t alt=\"Winter&amp;#039;s Wrath\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Winter%27s_Wrath.png\" \tdata-image-name=\"Winter&#39;s Wrath.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Winter's Wrath and both Sejuani's and nearby allied <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/2d/Melee_role.png/revision/latest/scale-to-width-down/20?cb=20170624104045\" \t alt=\"Melee role\"  \tclass=\"\" \t \tdata-image-key=\"Melee_role.png\" \tdata-image-name=\"Melee role.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> melee champions' basic attacks apply Frost to enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions, epic, large and medium monsters, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6c/Blue_Siege_MinionSquare.png/revision/latest/scale-to-width-down/20?cb=20140731204558\" \t alt=\"Blue Siege MinionSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blue_Siege_MinionSquare.png\" \tdata-image-name=\"Blue Siege MinionSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> siege minions and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Blue_Super_MinionSquare.png/revision/latest/scale-to-width-down/20?cb=20140731204557\" \t alt=\"Blue Super MinionSquare\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blue_Super_MinionSquare.png\" \tdata-image-name=\"Blue Super MinionSquare.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> super minions for 5 seconds, stacking up to 4 times.",
+      "Active: Sejuani encases the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> visible enemy with 4 stacks of Frost closest to the cursor in ice, consuming all stacks to deal magic damage, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ae/Knockdown_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223937\" \t alt=\"Knockdown icon\"  \tclass=\"\" \t \tdata-image-key=\"Knockdown_icon.png\" \tdata-image-name=\"Knockdown icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knock them down, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stun them for 1 second.",
+      "Enemy champions <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunned by Sejuani cannot gain Frost for 8 seconds.",
+      "Permafrost <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resets Sejuani's basic attack timer."
+    ]
+  },
+  {
+    "name": "Glacial Prison",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      120,
+      110,
+      100,
+      90,
+      80
+    ],
+    "description": "Active: Sejuani throws an ice bola in the target direction, stopping at the first enemy champion hit, dealing magic damage, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them for 1 second.",
+    "leveling": "Magic Damage:»100 / 112.5 / 125 / 137.5 / 150 (+ 40% AP)«Empowered Magic Damage:150 / 200 / 250 / 300 / 350 (+ 80% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      100,
+      112.5,
+      125,
+      137.5,
+      150
+    ],
+    "ratios": [
+      {
+        "value": 40,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Glacial Prison.png",
+    "icons": [
+      "Glacial Prison.png"
+    ],
+    "levelings": [
+      "Magic Damage:»100 / 112.5 / 125 / 137.5 / 150 (+ 40% AP)«Empowered Magic Damage:150 / 200 / 250 / 300 / 350 (+ 80% AP)",
+      "Magic Damage:150 / 200 / 250 / 300 / 350 (+ 80% AP)"
+    ],
+    "descriptions": [
+      "Active: Sejuani throws an ice bola in the target direction, stopping at the first enemy champion hit, dealing magic damage, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them for 1 second.",
+      "The bola deals increased damage, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stuns and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reveals for 1.5 seconds and shatters upon reaching maximum range or upon colliding with an enemy champion beyond 400 range, creating a frost storm for 2 seconds which forms a glacier on the ground that <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows enemies within by 30% and grants <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of the area in a smaller radius.",
+      "At the end of the duration, the glacier breaks, dealing the same damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing enemies by 80% for 1 second as well as briefly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them and the area.",
+      "The enemy hit by the bola is not affected by the storm's effects."
+    ]
+  }
+]

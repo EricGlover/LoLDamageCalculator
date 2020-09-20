@@ -1,0 +1,205 @@
+[
+  {
+    "name": "Assassin's Mark",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Akali's ability damage against enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions creates a ring around them for 4 seconds and grants her 40 / 50 / 60 / 70% (based on level) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed for 2 seconds while moving away from them. Subsequent ability damage while a ring is active will only refresh its duration.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Assassin's Mark.png",
+    "icons": [
+      "Assassin's Mark.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Akali's ability damage against enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions creates a ring around them for 4 seconds and grants her 40 / 50 / 60 / 70% (based on level) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed for 2 seconds while moving away from them. Subsequent ability damage while a ring is active will only refresh its duration.",
+      "If Akali leaves the ring within its duration, she regains the bonus movement speed towards enemy champions for 2 seconds and gains Swinging Kama for 4 seconds.",
+      "Swinging Kama: Akali's next basic attack's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> range is doubled, deals 39 −  180 (based on level) (+ 60% bonus AD) (+ 50% AP) bonus magic damage and restores <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7d/Energy_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203447\" \t alt=\"Energy icon\"  \tclass=\"\" \t \tdata-image-key=\"Energy_icon.png\" \tdata-image-name=\"Energy icon.png\" \t \t width=\"15\"  \t height=\"16\"  \t \t \t \t> 10 / 15 / 20 (based on level) energy."
+    ]
+  },
+  {
+    "name": "Five Point Strike",
+    "cost": [
+      120,
+      115,
+      110,
+      105,
+      100
+    ],
+    "costType": "energy",
+    "coolDown": [
+      1
+    ],
+    "description": "Active: Akali throws a flurry of kunais in the target direction, dealing magic damage to enemies hit. Enemies hit at maximum range are also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed by 50% for 0.5 seconds.",
+    "leveling": "Magic Damage:30 / 55 / 80 / 105 / 130 (+ 65% AD) (+ 60% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      30,
+      55,
+      80,
+      105,
+      130
+    ],
+    "ratios": [
+      {
+        "value": 65,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Five Point Strike.png",
+    "icons": [
+      "Five Point Strike.png"
+    ],
+    "levelings": [
+      "Magic Damage:30 / 55 / 80 / 105 / 130 (+ 65% AD) (+ 60% AP)"
+    ],
+    "descriptions": [
+      "Active: Akali throws a flurry of kunais in the target direction, dealing magic damage to enemies hit. Enemies hit at maximum range are also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed by 50% for 0.5 seconds.",
+      "At rank 5, Five Point Strike deals「 25% bonus magic damage 」「 162.5 (+ 81.25% AD) (+ 75% AP) total magic damage 」to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters."
+    ]
+  },
+  {
+    "name": "Twilight Shroud",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      20
+    ],
+    "description": "Active: Akali restores <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7d/Energy_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203447\" \t alt=\"Energy icon\"  \tclass=\"\" \t \tdata-image-key=\"Energy_icon.png\" \tdata-image-name=\"Energy icon.png\" \t \t width=\"15\"  \t height=\"16\"  \t \t \t \t> 80 energy, gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed that decays over 2 seconds, and detonates a smoke bomb a fixed distance away in the target direction, creating a circular shroud that expands over the next 5 seconds into a ring. The shroud does not permeate terrain.",
+    "leveling": "Bonus Movement Speed:30 / 35 / 40 / 45 / 50%\nShroud Duration:5 / 5.5 / 6 / 6.5 / 7",
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "ratios": [],
+    "castTime": 0.3,
+    "icon": "Twilight Shroud.png",
+    "icons": [
+      "Twilight Shroud.png"
+    ],
+    "levelings": [
+      "Bonus Movement Speed:30 / 35 / 40 / 45 / 50%\nShroud Duration:5 / 5.5 / 6 / 6.5 / 7"
+    ],
+    "descriptions": [
+      "Active: Akali restores <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7d/Energy_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203447\" \t alt=\"Energy icon\"  \tclass=\"\" \t \tdata-image-key=\"Energy_icon.png\" \tdata-image-name=\"Energy icon.png\" \t \t width=\"15\"  \t height=\"16\"  \t \t \t \t> 80 energy, gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed that decays over 2 seconds, and detonates a smoke bomb a fixed distance away in the target direction, creating a circular shroud that expands over the next 5 seconds into a ring. The shroud does not permeate terrain.",
+      "Entering the shroud renders Akali <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d8/Twilight_Shroud_old2.png/revision/latest/scale-to-width-down/20?cb=20180716212930\" \t alt=\"Twilight Shroud old2\"  \tclass=\"\" \t \tdata-image-key=\"Twilight_Shroud_old2.png\" \tdata-image-name=\"Twilight Shroud old2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invisible, unless she is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashing.",
+      "Akali's basic attacks and abilities will break the invisibility and prevent her from entering it for 1 − 0.625 (based on minutes) seconds, refreshing on subsequent attacks and casts.",
+      "The <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/48/Shuriken_Flip.png/revision/latest/scale-to-width-down/20?cb=20180718213349\" \t alt=\"Shuriken Flip\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shuriken_Flip.png\" \tdata-image-name=\"Shuriken Flip.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> marked section of Twilight Shroud's will linger for the mark's duration, even after the shroud ends."
+    ]
+  },
+  {
+    "name": "Shuriken Flip",
+    "cost": [
+      30
+    ],
+    "costType": "energy",
+    "coolDown": [
+      16,
+      14,
+      13,
+      11,
+      10
+    ],
+    "description": "Active: Akali <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> flips in the opposite direction and fires a shuriken in the target direction that stops upon hitting an enemy, dealing them magic damage.",
+    "leveling": "Magic Damage:50 / 85 / 120 / 155 / 190 (+ 35% AD) (+ 50% AP)",
+    "skill": "E",
+    "damageType": "magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      50,
+      85,
+      120,
+      155,
+      190
+    ],
+    "ratios": [
+      {
+        "value": 35,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.4,
+    "icon": "Shuriken Flip.png",
+    "icons": [
+      "Shuriken Flip.png",
+      "Shuriken Flip 2.png"
+    ],
+    "levelings": [
+      "Magic Damage:50 / 85 / 120 / 155 / 190 (+ 35% AD) (+ 50% AP)",
+      "Total Damage:100 / 170 / 240 / 310 / 380 (+ 70% AD) (+ 100% AP)"
+    ],
+    "descriptions": [
+      "Active: Akali <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> flips in the opposite direction and fires a shuriken in the target direction that stops upon hitting an enemy, dealing them magic damage.",
+      "The shuriken marks the enemy or the last <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/21/Twilight_Shroud.png/revision/latest/scale-to-width-down/20?cb=20180718213404\" \t alt=\"Twilight Shroud\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Twilight_Shroud.png\" \tdata-image-name=\"Twilight Shroud.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> smoke section hit for 3 seconds. While the target or smoke section is marked, Akali can reactivate Shuriken Flip.",
+      "Recast: Akali <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes towards the marked target or smoke section, consuming the mark, regardless of distance. Against enemies it deals the same magic damage upon arrival."
+    ]
+  },
+  {
+    "name": "Perfect Execution",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      100,
+      90,
+      80,
+      70,
+      60
+    ],
+    "description": "Active: Akali <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes 675 −  825 (based on distance from target) units towards the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion, dealing physical damage to all enemies in her path.",
+    "leveling": "Physical Damage:125 / 175 / 225 / 275 / 325 (+ 50% bonus AD)",
+    "skill": "R",
+    "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      125,
+      175,
+      225,
+      275,
+      325
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Perfect Execution.png",
+    "icons": [
+      "Perfect Execution.png",
+      "Perfect Execution 2.png"
+    ],
+    "levelings": [
+      "Physical Damage:125 / 175 / 225 / 275 / 325 (+ 50% bonus AD)",
+      "Minimum Magic Damage:»75 / 110 / 145 / 180 / 215 (+ 30% AP)«Maximum Magic Damage:225 / 330 / 435 / 540 / 645 (+ 90% AP)"
+    ],
+    "descriptions": [
+      "Active: Akali <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes 675 −  825 (based on distance from target) units towards the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion, dealing physical damage to all enemies in her path.",
+      "Perfect Execution can be recast after a 2.5 second static cooldown within 10 seconds of the first activation.",
+      "Recast: Akali <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction, dealing magic damage to all enemies in her path, increased by 0% − 200% (based on target's missing health)."
+    ]
+  }
+]

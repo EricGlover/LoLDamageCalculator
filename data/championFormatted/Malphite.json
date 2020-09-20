@@ -1,6 +1,34 @@
 {
   "abilities": [
     {
+      "name": "Granite Shield",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate- Shard of the Monolith: Malphite gains increased percentage size equal to 8% of his total armor, capped at 35% increased size at 437.5 armor.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "false",
+      "icons": [
+        "false",
+        "Granite Shield.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate- Shard of the Monolith: Malphite gains increased percentage size equal to 8% of his total armor, capped at 35% increased size at 437.5 armor.",
+        "Innate: Malphite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields himself for <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 10% of his maximum health.\nThe shield lasts until it is broken, and refreshes if he has not taken damage in the last few seconds."
+      ]
+    },
+    {
       "name": "Seismic Shard",
       "cost": [
         70,
@@ -31,7 +59,17 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Seismic Shard.png",
+      "icons": [
+        "Seismic Shard.png"
+      ],
+      "levelings": [
+        "Magic Damage:70 / 120 / 170 / 220 / 270 (+ 60% AP)\nSlow:20 / 25 / 30 / 35 / 40%"
+      ],
+      "descriptions": [
+        "Active: Malphite sends a rock rolling to the target enemy, dealing magic damage to them upon impact, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them for 3 seconds and gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed equal to the raw amount the target lost."
+      ]
     },
     {
       "name": "Thunderclap",
@@ -59,7 +97,20 @@
         30
       ],
       "ratios": [],
-      "castTime": null
+      "castTime": null,
+      "icon": "Thunderclap.png",
+      "icons": [
+        "Thunderclap.png"
+      ],
+      "levelings": [
+        "Bonus Armor:»10 / 15 / 20 / 25 / 30% armor«Increased Armor:30 / 45 / 60 / 75 / 90% armor",
+        "Bonus Physical Damage:»30 / 45 / 60 / 75 / 90 (+ 20% AP) (+ 15% armor)«Cone Damage:10 / 20 / 30 / 40 / 50 (+ 20% AP) (+ 10% armor)"
+      ],
+      "descriptions": [
+        "Passive: Malphite gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus armor, tripled while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c1/Granite_Shield.png/revision/latest/scale-to-width-down/20?cb=20171223032054\" \t alt=\"Granite Shield\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Granite_Shield.png\" \tdata-image-name=\"Granite Shield.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Granite Shield is active.",
+        "Active: Malphite's next <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/cd/Basic_Attack.png/revision/latest/scale-to-width-down/20?cb=20200517010633\" \t alt=\"Basic Attack\"  \tclass=\"\" \t \tdata-image-key=\"Basic_Attack.png\" \tdata-image-name=\"Basic Attack.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> basic attack within 6 seconds gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 50 bonus attack range and deals bonus physical damage on-hit. It and other basic attacks for the next 5 seconds also trigger a cone on-hit in the direction of the target, dealing physical damage to all enemies hit.",
+        "Thunderclap <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resets Malphite's basic attack timer."
+      ]
     },
     {
       "name": "Ground Slam",
@@ -92,7 +143,17 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.2419
+      "castTime": 0.2419,
+      "icon": "Ground Slam.png",
+      "icons": [
+        "Ground Slam.png"
+      ],
+      "levelings": [
+        "Magic Damage:60 / 95 / 130 / 165 / 200 (+ 60% AP) (+ 40% armor)Cripple:30 / 35 / 40 / 45 / 50%"
+      ],
+      "descriptions": [
+        "Active: Malphite slams the ground, dealing magic damage to all nearby enemies and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9f/Cripple_icon.png/revision/latest/scale-to-width-down/20?cb=20171202000853\" \t alt=\"Cripple icon\"  \tclass=\"\" \t \tdata-image-key=\"Cripple_icon.png\" \tdata-image-name=\"Cripple icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> crippling them for 3 seconds."
+      ]
     },
     {
       "name": "Unstoppable Force",
@@ -122,7 +183,18 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Unstoppable Force.png",
+      "icons": [
+        "Unstoppable Force.png"
+      ],
+      "levelings": [
+        "Magic Damage:200 / 300 / 400 (+ 80% AP)"
+      ],
+      "descriptions": [
+        "Active: Malphite <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/42/Unstoppable_icon.png/revision/latest/scale-to-width-down/20?cb=20171207164427\" \t alt=\"Unstoppable icon\"  \tclass=\"\" \t \tdata-image-key=\"Unstoppable_icon.png\" \tdata-image-name=\"Unstoppable icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> displacement immunity to the target location and, upon impact, deals magic damage to all nearby enemies and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocks them up for 1.5 seconds.",
+        "Unstoppable Force will cast at max range if cast beyond that."
+      ]
     }
   ],
   "id": "Malphite",

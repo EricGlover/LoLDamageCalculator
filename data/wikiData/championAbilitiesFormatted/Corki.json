@@ -1,0 +1,217 @@
+[
+  {
+    "name": "Hextech Munitions",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate - Hextech Shrapnel Shells: Corki's basic attacks are permanently modified to deal 20% AD physical damage and 80% AD magic damage.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Hextech Munitions.png",
+    "icons": [
+      "Hextech Munitions.png",
+      "The Package.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate - Hextech Shrapnel Shells: Corki's basic attacks are permanently modified to deal 20% AD physical damage and 80% AD magic damage.",
+      "Innate - The Package: After 8 minutes elapse, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/79/The_Package.png/revision/latest/scale-to-width-down/20?cb=20171221035122\" \t alt=\"The Package\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"The_Package.png\" \tdata-image-name=\"The Package.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> The Package is delivered to both corners of Corki's fountain, which he can pick up after <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channeling for 1 second. Doing so grants him <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/20?cb=20180514003209\" \t alt=\"Ghost\"  \tclass=\"\" \t \tdata-image-key=\"Ghost.png\" \tdata-image-name=\"Ghost.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> ghosting and one cast of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/db/Special_Delivery.png/revision/latest/scale-to-width-down/20?cb=20171221035059\" \t alt=\"Special Delivery\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Special_Delivery.png\" \tdata-image-name=\"Special Delivery.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Special Delivery which must be cast before <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d5/Valkyrie.png/revision/latest/scale-to-width-down/20?cb=20170629230506\" \t alt=\"Valkyrie\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Valkyrie.png\" \tdata-image-name=\"Valkyrie.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Valkyrie within the next 60 seconds, as well as <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 40% bonus movement speed out of combat prior to the ability being cast, after which <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/79/The_Package.png/revision/latest/scale-to-width-down/20?cb=20171221035122\" \t alt=\"The Package\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"The_Package.png\" \tdata-image-name=\"The Package.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> The Package goes on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown before being delivered again.",
+      "Corki cannot pick up the package while he is unable to cast abilities."
+    ]
+  },
+  {
+    "name": "Phosphorus Bomb",
+    "cost": [
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      8
+    ],
+    "description": "Active: Corki launches a bomb at the target area that explodes upon impact, dealing magic damage to enemies hit.",
+    "leveling": "Magic Damage:75 / 120 / 165 / 210 / 255 (+ 50% bonus AD) (+ 50% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      75,
+      120,
+      165,
+      210,
+      255
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Phosphorus Bomb.png",
+    "icons": [
+      "Phosphorus Bomb.png"
+    ],
+    "levelings": [
+      "Magic Damage:75 / 120 / 165 / 210 / 255 (+ 50% bonus AD) (+ 50% AP)"
+    ],
+    "descriptions": [
+      "Active: Corki launches a bomb at the target area that explodes upon impact, dealing magic damage to enemies hit.",
+      "The bomb also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reveals the area and enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions hit for 6 seconds."
+    ]
+  },
+  {
+    "name": "Valkyrie",
+    "cost": [
+      100
+    ],
+    "costType": "mana",
+    "coolDown": [
+      20,
+      19,
+      18,
+      17,
+      16
+    ],
+    "description": "Active: Corki <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target location, dropping bombs that leave up to 3 blazing patches along his path, depending on the distance traveled, lasting for 2 seconds.",
+    "leveling": "Magic Damage Per Tick:»15 / 22.5 / 30 / 37.5 / 45 (+ 10% AP)«Total Magic Damage:120 / 180 / 240 / 300 / 360 (+ 80% AP)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      15,
+      22.5,
+      30,
+      37.5,
+      45
+    ],
+    "ratios": [
+      {
+        "value": 10,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Valkyrie.png",
+    "icons": [
+      "Valkyrie.png"
+    ],
+    "levelings": [
+      "Magic Damage Per Tick:»15 / 22.5 / 30 / 37.5 / 45 (+ 10% AP)«Total Magic Damage:120 / 180 / 240 / 300 / 360 (+ 80% AP)"
+    ],
+    "descriptions": [
+      "Active: Corki <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes to the target location, dropping bombs that leave up to 3 blazing patches along his path, depending on the distance traveled, lasting for 2 seconds.",
+      "These patches deal magic damage every 0.25 seconds to enemies within."
+    ]
+  },
+  {
+    "name": "Gatling Gun",
+    "cost": [
+      50
+    ],
+    "costType": "mana",
+    "coolDown": [
+      16
+    ],
+    "description": "Active: Corki sprays bullets in a frontal cone for 4 seconds, dealing equal parts physical and magic damage every 0.25 seconds to all enemies hit, and reducing the target's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Armor_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_penetration_icon.png\" \tdata-image-name=\"Armor penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Magic_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203538\" \t alt=\"Magic penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_penetration_icon.png\" \tdata-image-name=\"Magic penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> magic resistance with each tick, stacking up to 8 times, lingering for 2 seconds.",
+    "leveling": "Mixed Damage Per Tick:»7.5 / 10.625 / 13.75 / 16.875 / 20 (+ 10% bonus AD)«Total Mixed Damage:120 / 170 / 220 / 270 / 320 (+ 160% bonus AD)Resistance Reduction Per Tick:»1 / 1.375 / 1.75 / 2.125 / 2.5«Total Resistance Reduction:8 / 11 / 14 / 17 / 20",
+    "skill": "E",
+    "damageType": "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Attack_damage.png/revision/latest/scale-to-width-down/20?cb=20170514064911\" \t alt=\"Attack damage\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage.png\" \tdata-image-name=\"Attack damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Physical damage / <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Magic_damage.png/revision/latest/scale-to-width-down/20?cb=20190705135718\" \t alt=\"Magic damage\"  \tclass=\"\" \t \tdata-image-key=\"Magic_damage.png\" \tdata-image-name=\"Magic damage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Magic damage",
+    "isProjectile": "False",
+    "flatDamage": [
+      7.5,
+      10.625,
+      13.75,
+      16.875,
+      20
+    ],
+    "ratios": [
+      {
+        "value": 10,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Gatling Gun.png",
+    "icons": [
+      "Gatling Gun.png"
+    ],
+    "levelings": [
+      "Mixed Damage Per Tick:»7.5 / 10.625 / 13.75 / 16.875 / 20 (+ 10% bonus AD)«Total Mixed Damage:120 / 170 / 220 / 270 / 320 (+ 160% bonus AD)Resistance Reduction Per Tick:»1 / 1.375 / 1.75 / 2.125 / 2.5«Total Resistance Reduction:8 / 11 / 14 / 17 / 20"
+    ],
+    "descriptions": [
+      "Active: Corki sprays bullets in a frontal cone for 4 seconds, dealing equal parts physical and magic damage every 0.25 seconds to all enemies hit, and reducing the target's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Armor_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_penetration_icon.png\" \tdata-image-name=\"Armor penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/62/Magic_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203538\" \t alt=\"Magic penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_penetration_icon.png\" \tdata-image-name=\"Magic penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> magic resistance with each tick, stacking up to 8 times, lingering for 2 seconds."
+    ]
+  },
+  {
+    "name": "Missile Barrage",
+    "cost": [
+      20
+    ],
+    "costType": "mana + 1 Ammo",
+    "coolDown": [
+      null
+    ],
+    "description": "Passive: Corki periodically stocks a missile ammo, up to a maximum of 7, and starts with 7 missile ammo every time he respawns.",
+    "leveling": "Magic Damage:90 / 107.5 / 125 / 142.5 / 160 (+ 15 / 30 / 45 / 60 / 75% AD) (+ 20% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      90,
+      107.5,
+      125,
+      142.5,
+      160
+    ],
+    "ratios": [
+      {
+        "value": 15,
+        "type": "bonus ad"
+      },
+      {
+        "value": 30,
+        "type": "bonus ad"
+      },
+      {
+        "value": 45,
+        "type": "bonus ad"
+      },
+      {
+        "value": 60,
+        "type": "bonus ad"
+      },
+      {
+        "value": 75,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.175,
+    "icon": "Missile Barrage.png",
+    "icons": [
+      "Missile Barrage.png",
+      "Big One.png"
+    ],
+    "levelings": [
+      "Magic Damage:90 / 107.5 / 125 / 142.5 / 160 (+ 15 / 30 / 45 / 60 / 75% AD) (+ 20% AP)",
+      "Increased Magic Damage:180 / 215 / 250 / 285 / 320 (+ 30 / 60 / 90 / 120 / 150% AD) (+ 40% AP)"
+    ],
+    "descriptions": [
+      "Passive: Corki periodically stocks a missile ammo, up to a maximum of 7, and starts with 7 missile ammo every time he respawns.",
+      "Active: Corki fires a missile in the target direction that explodes upon the first enemy hit, dealing magic damage in an area.",
+      "Every third missile Corki fires is a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0f/Big_One.png/revision/latest/scale-to-width-down/20?cb=20171221035027\" \t alt=\"Big One\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Big_One.png\" \tdata-image-name=\"Big One.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Big One, dealing 100% increased damage with increased range and explosion radius."
+    ]
+  }
+]

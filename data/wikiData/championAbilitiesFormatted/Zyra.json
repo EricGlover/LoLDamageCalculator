@@ -1,0 +1,191 @@
+[
+  {
+    "name": "Garden of Thorns",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Zyra periodically spawns one or two Seeds nearby that last for 30 seconds, briefly granting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight over the surrounding area.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Garden of Thorns.png",
+    "icons": [
+      "Garden of Thorns.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Zyra periodically spawns one or two Seeds nearby that last for 30 seconds, briefly granting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight over the surrounding area.",
+      "After at least 1 second, enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions can destroy Seeds by stepping on them.",
+      "Zyra can only have a total of 8 Seeds planted at a time, preserving placed Seeds over those spawned by Garden of Thorns."
+    ]
+  },
+  {
+    "name": "Deadly Spines",
+    "cost": [
+      70
+    ],
+    "costType": "mana",
+    "coolDown": [
+      7,
+      6,
+      6,
+      5,
+      5
+    ],
+    "description": "Active: Zyra sprouts thorny spines at the target location that appear after a 0.625-seconds delay, dealing magic damage to all enemies they hit.",
+    "leveling": "Magic Damage:60 / 95 / 130 / 165 / 200 (+ 60% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      60,
+      95,
+      130,
+      165,
+      200
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Deadly Spines.png",
+    "icons": [
+      "Deadly Spines.png"
+    ],
+    "levelings": [
+      "Magic Damage:60 / 95 / 130 / 165 / 200 (+ 60% AP)"
+    ],
+    "descriptions": [
+      "Active: Zyra sprouts thorny spines at the target location that appear after a 0.625-seconds delay, dealing magic damage to all enemies they hit.",
+      "If Deadly Spines hits a Seed, it sprouts into a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c4/Zyra_Deadly_Spines_Render.png/revision/latest/scale-to-width-down/20?cb=20200402210945\" \t alt=\"Zyra Deadly Spines Render\"  \tclass=\"\" \t \tdata-image-key=\"Zyra_Deadly_Spines_Render.png\" \tdata-image-name=\"Zyra Deadly Spines Render.png\" \t \t width=\"20\"  \t height=\"25\"  \t \t \t \t> Thorn Spitter, which remains on the battlefield for 8 seconds."
+    ]
+  },
+  {
+    "name": "Rampant Growth",
+    "cost": [
+      1
+    ],
+    "costType": "Seed",
+    "coolDown": [
+      null
+    ],
+    "description": "Passive: Zyra periodically stores a Seed, up to 2. Killing an enemy unit grants 20% charge toward a Seed, increased to 100% for large enemy units killed and enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Damage_rating.png/revision/latest/scale-to-width-down/20?cb=20170514053710\" \t alt=\"Damage rating\"  \tclass=\"\" \t \tdata-image-key=\"Damage_rating.png\" \tdata-image-name=\"Damage rating.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> takedowns.",
+    "leveling": null,
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Rampant Growth.png",
+    "icons": [
+      "Rampant Growth.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Passive: Zyra periodically stores a Seed, up to 2. Killing an enemy unit grants 20% charge toward a Seed, increased to 100% for large enemy units killed and enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/07/Damage_rating.png/revision/latest/scale-to-width-down/20?cb=20170514053710\" \t alt=\"Damage rating\"  \tclass=\"\" \t \tdata-image-key=\"Damage_rating.png\" \tdata-image-name=\"Damage rating.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> takedowns.",
+      "Active: Zyra plants a Seed at the target location, which lasts for 60 seconds and briefly grants <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of the spot Zyra planted it in.",
+      "After 1.5 seconds, enemy champions can destroy Seeds by stepping on them, but doing so <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/18/True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20150808161653\" \t alt=\"True Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"True_Sight_icon.png\" \tdata-image-name=\"True Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reveals them for 2 seconds."
+    ]
+  },
+  {
+    "name": "Grasping Roots",
+    "cost": [
+      70,
+      75,
+      80,
+      85,
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12
+    ],
+    "description": "Active: Zyra sends a surge of vines in the target direction, dealing magic damage to all enemies hit and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooting them for a short duration.",
+    "leveling": "Magic Damage:60 / 105 / 150 / 195 / 240 (+ 50% AP)Root Duration:1 / 1.25 / 1.5 / 1.75 / 2",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      60,
+      105,
+      150,
+      195,
+      240
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Grasping Roots.png",
+    "icons": [
+      "Grasping Roots.png"
+    ],
+    "levelings": [
+      "Magic Damage:60 / 105 / 150 / 195 / 240 (+ 50% AP)Root Duration:1 / 1.25 / 1.5 / 1.75 / 2"
+    ],
+    "descriptions": [
+      "Active: Zyra sends a surge of vines in the target direction, dealing magic damage to all enemies hit and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooting them for a short duration.",
+      "If Grasping Roots hits a Seed, it sprouts into a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Zyra_Grasping_Roots_Render.png/revision/latest/scale-to-width-down/20?cb=20200402211000\" \t alt=\"Zyra Grasping Roots Render\"  \tclass=\"\" \t \tdata-image-key=\"Zyra_Grasping_Roots_Render.png\" \tdata-image-name=\"Zyra Grasping Roots Render.png\" \t \t width=\"20\"  \t height=\"32\"  \t \t \t \t> Vine Lasher, which remains on the battlefield for 8 seconds."
+    ]
+  },
+  {
+    "name": "Stranglethorns",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      110,
+      105,
+      100,
+      95,
+      90
+    ],
+    "description": "Active: Zyra summons a monstrous thicket at the target location, dealing magic damage to all enemies in the area as it expands.",
+    "leveling": "Magic Damage:180 / 222.5 / 265 / 307.5 / 350 (+ 70% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      180,
+      222.5,
+      265,
+      307.5,
+      350
+    ],
+    "ratios": [
+      {
+        "value": 70,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Stranglethorns.png",
+    "icons": [
+      "Stranglethorns.png"
+    ],
+    "levelings": [
+      "Magic Damage:180 / 222.5 / 265 / 307.5 / 350 (+ 70% AP)"
+    ],
+    "descriptions": [
+      "Active: Zyra summons a monstrous thicket at the target location, dealing magic damage to all enemies in the area as it expands.",
+      "After 2 seconds, the vines snap upward, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking up all enemies caught in the thicket for 1 second.",
+      "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e3/Garden_of_Thorns.png/revision/latest/scale-to-width-down/20?cb=20160608035341\" \t alt=\"Garden of Thorns\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Garden_of_Thorns.png\" \tdata-image-name=\"Garden of Thorns.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Plants hit by the thicket are enraged, restoring <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 50% of their current health, increasing their <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> maximum health by 50%, gaining 25% increased size and refreshing their duration while the thicket expands. Additionally they attack in a flurry, launching two shots per attack, dealing 「 150% damage per flurry. 」「 75% damage per shot. 」"
+    ]
+  }
+]

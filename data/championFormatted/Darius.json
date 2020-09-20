@@ -1,6 +1,36 @@
 {
   "abilities": [
     {
+      "name": "Hemorrhage",
+      "cost": [
+        null
+      ],
+      "costType": "",
+      "coolDown": [
+        null
+      ],
+      "description": "Innate: Damaging basic attacks on-attack and abilities cause the target to bleed every 1.25 seconds for 5 seconds, dealing 13 − 30 (based on level) (+ 30% bonus AD) physical damage over the duration. This can stack up to 5 times for a maximum of 65 − 150 (based on level) (+ 150% bonus AD) physical damage over the duration. The total damage is increased by 75% against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+      "leveling": null,
+      "skill": "I",
+      "damageType": "Physical",
+      "isProjectile": "",
+      "flatDamage": [],
+      "ratios": [],
+      "castTime": null,
+      "icon": "Hemorrhage.png",
+      "icons": [
+        "Hemorrhage.png",
+        "Hemorrhage 3.png",
+        "Hemorrhage 2.png"
+      ],
+      "levelings": [],
+      "descriptions": [
+        "Innate: Damaging basic attacks on-attack and abilities cause the target to bleed every 1.25 seconds for 5 seconds, dealing 13 − 30 (based on level) (+ 30% bonus AD) physical damage over the duration. This can stack up to 5 times for a maximum of 65 − 150 (based on level) (+ 150% bonus AD) physical damage over the duration. The total damage is increased by 75% against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters.",
+        "Upon applying full Hemorrhage stacks to an enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion or killing one with <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3b/Noxian_Guillotine.png/revision/latest/scale-to-width-down/20?cb=20130929122730\" \t alt=\"Noxian Guillotine\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Noxian_Guillotine.png\" \tdata-image-name=\"Noxian Guillotine.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Noxian Guillotine, Darius gains Noxian Might for 5 seconds.",
+        "Noxian Might: Darius gains 30 − 230 (based on level) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Attack_damage_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack damage icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_damage_icon.png\" \tdata-image-name=\"Attack damage icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack damage and instantly applies full Hemorrhage stacks through his usual means."
+      ]
+    },
+    {
       "name": "Decimate",
       "cost": [
         30,
@@ -51,7 +81,19 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": null
+      "castTime": null,
+      "icon": "Decimate.png",
+      "icons": [
+        "Decimate.png"
+      ],
+      "levelings": [
+        "Blade Physical Damage:»50 / 80 / 110 / 140 / 170 (+ 100 / 110 / 120 / 130 / 140% AD)«Handle Physical Damage:17.5 / 28 / 38.5 / 49 / 59.5 (+ 35 / 38.5 / 42 / 45.5 / 49% AD)"
+      ],
+      "descriptions": [
+        "Active: Darius hefts his axe for 0.75 seconds, and then swings it around himself, dealing physical damage to nearby enemies, reduced to 35% against enemies hit by the handle.",
+        "Against champions and large monsters, Darius <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/76/Heal_power.png/revision/latest/scale-to-width-down/20?cb=20170909150244\" \t alt=\"Heal power\"  \tclass=\"\" \t \tdata-image-key=\"Heal_power.png\" \tdata-image-name=\"Heal power.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> heals for <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 15% − 45% (based on enemies hit by the blade) of his missing health. The handle of Darius'  axe will not apply <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8f/Hemorrhage.png/revision/latest/scale-to-width-down/20?cb=20191111171216\" \t alt=\"Hemorrhage\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Hemorrhage.png\" \tdata-image-name=\"Hemorrhage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hemorrhage nor heal him.",
+        "Darius is unable to declare basic attacks or cast <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Apprehend.png/revision/latest/scale-to-width-down/20?cb=20130929122726\" \t alt=\"Apprehend\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Apprehend.png\" \tdata-image-name=\"Apprehend.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Apprehend or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/3b/Noxian_Guillotine.png/revision/latest/scale-to-width-down/20?cb=20130929122730\" \t alt=\"Noxian Guillotine\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Noxian_Guillotine.png\" \tdata-image-name=\"Noxian Guillotine.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Noxian Guillotine during Decimate."
+      ]
     },
     {
       "name": "Crippling Strike",
@@ -79,7 +121,20 @@
         60
       ],
       "ratios": [],
-      "castTime": null
+      "castTime": null,
+      "icon": "Crippling Strike.png",
+      "icons": [
+        "Crippling Strike.png"
+      ],
+      "levelings": [
+        "Bonus Physical Damage:40 / 45 / 50 / 55 / 60% AD"
+      ],
+      "descriptions": [
+        "Active: Darius'  next basic attack within 4 seconds becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Excessive_Force_2.png/revision/latest/scale-to-width-down/20?cb=20160608034953\" \t alt=\"Excessive Force 2\"  \tclass=\"\" \t \tdata-image-key=\"Excessive_Force_2.png\" \tdata-image-name=\"Excessive Force 2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> unstoppable, gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/13/Range_icon.png/revision/latest/scale-to-width-down/15?cb=20170715002053\" \t alt=\"Range icon\"  \tclass=\"\" \t \tdata-image-key=\"Range_icon.png\" \tdata-image-name=\"Range icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 25 bonus range, deals bonus physical damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows the target by 90% for 1 second.",
+        "If Crippling Strike kills the target, it refunds its <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> mana cost and half of its <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown.",
+        "Crippling Strike <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resets Darius'  basic attack timer, and is affected by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> critical strike modifiers.",
+        "The attack's animation can be cancelled by casting <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/04/Decimate.png/revision/latest/scale-to-width-down/20?cb=20170818002434\" \t alt=\"Decimate\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Decimate.png\" \tdata-image-name=\"Decimate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Decimate, but the attack will still land."
+      ]
     },
     {
       "name": "Apprehend",
@@ -111,7 +166,18 @@
         35
       ],
       "ratios": [],
-      "castTime": 0.25
+      "castTime": 0.25,
+      "icon": "Apprehend.png",
+      "icons": [
+        "Apprehend.png"
+      ],
+      "levelings": [
+        "Armor Penetration:15 / 20 / 25 / 30 / 35%"
+      ],
+      "descriptions": [
+        "Passive: Darius gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/64/Armor_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_penetration_icon.png\" \tdata-image-name=\"Armor penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> armor penetration.",
+        "Active: Darius <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> pulls in all enemies in front of him in the target direction, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them by 40% for 1 second, and briefly gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight of the area around the pull."
+      ]
     },
     {
       "name": "Noxian Guillotine",
@@ -144,7 +210,20 @@
           "type": "bonus ad"
         }
       ],
-      "castTime": 0.3667
+      "castTime": 0.3667,
+      "icon": "Noxian Guillotine.png",
+      "icons": [
+        "Noxian Guillotine.png"
+      ],
+      "levelings": [
+        "True Damage:»100 / 200 / 300 (+ 75% bonus AD)«Bonus Damage Per Stack:»20 / 40 / 60 (+ 15% bonus AD)«Maximum True Damage:200 / 400 / 600 (+ 150% bonus AD)"
+      ],
+      "descriptions": [
+        "Active: Darius attempts to execute the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Bear_Stance.png/revision/latest/scale-to-width-down/20?cb=20171223035155\" \t alt=\"Bear Stance\"  \tclass=\"\" \t \tdata-image-key=\"Bear_Stance.png\" \tdata-image-name=\"Bear Stance.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> leaping towards them to deal <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c0/Hybrid_penetration_icon.png/revision/latest/scale-to-width-down/15?cb=20171001102450\" \t alt=\"Hybrid penetration icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_penetration_icon.png\" \tdata-image-name=\"Hybrid penetration icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> true damage, increased by 0% −  100% (based on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8f/Hemorrhage.png/revision/latest/scale-to-width-down/20?cb=20191111171216\" \t alt=\"Hemorrhage\"  \tclass=\"\" \t \tdata-image-key=\"Hemorrhage.png\" \tdata-image-name=\"Hemorrhage.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Hemorrhage stacks).",
+        "If the target dies within 0.15 seconds after being hit by Noxian Guillotine, Darius causes all nearby <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/3/30/Minion_icon.png/revision/latest/scale-to-width-down/20?cb=20180701050249\" \t alt=\"Minion icon\"  \tclass=\"\" \t \tdata-image-key=\"Minion_icon.png\" \tdata-image-name=\"Minion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> minions and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monsters to <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Flee_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223937\" \t alt=\"Flee icon\"  \tclass=\"\" \t \tdata-image-key=\"Flee_icon.png\" \tdata-image-name=\"Flee icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> flee for 3 seconds during which they are rapidly <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed by up to 99% over the duration, and is able to recast the ability within 20 seconds at no cost, which refreshes on further executions.",
+        "At rank 3, Noxian Guillotine has no <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8b/Mana_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Mana icon\"  \tclass=\"\" \t \tdata-image-key=\"Mana_icon.png\" \tdata-image-name=\"Mana icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> mana cost and instead completely resets its <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown if it kills its target.",
+        "Darius is unable to cast <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/04/Decimate.png/revision/latest/scale-to-width-down/20?cb=20170818002434\" \t alt=\"Decimate\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Decimate.png\" \tdata-image-name=\"Decimate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Decimate and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Apprehend.png/revision/latest/scale-to-width-down/20?cb=20130929122726\" \t alt=\"Apprehend\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Apprehend.png\" \tdata-image-name=\"Apprehend.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Apprehend for 0.25 seconds after Noxian Guillotine's cast time."
+      ]
     }
   ],
   "id": "Darius",

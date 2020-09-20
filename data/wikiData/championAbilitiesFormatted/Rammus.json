@@ -1,0 +1,213 @@
+[
+  {
+    "name": "Spiked Shell",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Rammus'  basic attacks deal 10 (+ 10% armor) bonus magic damage, increased to 15 (+ 15% armor) while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f7/Defensive_Ball_Curl.png/revision/latest/scale-to-width-down/20?cb=20150312020949\" \t alt=\"Defensive Ball Curl\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Defensive_Ball_Curl.png\" \tdata-image-name=\"Defensive Ball Curl.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Defensive Ball Curl is active.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Spiked Shell.png",
+    "icons": [
+      "Spiked Shell.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Rammus'  basic attacks deal 10 (+ 10% armor) bonus magic damage, increased to 15 (+ 15% armor) while <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f7/Defensive_Ball_Curl.png/revision/latest/scale-to-width-down/20?cb=20150312020949\" \t alt=\"Defensive Ball Curl\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Defensive_Ball_Curl.png\" \tdata-image-name=\"Defensive Ball Curl.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Defensive Ball Curl is active."
+    ]
+  },
+  {
+    "name": "Powerball",
+    "cost": [
+      60
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      16,
+      13,
+      11,
+      8,
+      6
+    ],
+    "description": "Active: Rammus tucks into a ball and begins to roll, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channeling for up to 6 seconds, gaining 25% − 39.17% (based on level) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed per second over the duration, up to a maximum of 150% − 235% (based on level) bonus movement speed.",
+    "leveling": "Magic Damage:100 / 135 / 170 / 205 / 240 (+ 100% AP)\nSlow:40 / 50 / 60 / 70 / 80%",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      100,
+      135,
+      170,
+      205,
+      240
+    ],
+    "ratios": [
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Powerball.png",
+    "icons": [
+      "Powerball.png"
+    ],
+    "levelings": [
+      "Magic Damage:100 / 135 / 170 / 205 / 240 (+ 100% AP)\nSlow:40 / 50 / 60 / 70 / 80%"
+    ],
+    "descriptions": [
+      "Active: Rammus tucks into a ball and begins to roll, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channeling for up to 6 seconds, gaining 25% − 39.17% (based on level) <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed per second over the duration, up to a maximum of 150% − 235% (based on level) bonus movement speed.",
+      "Rammus stops rolling upon colliding with an enemy, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocking back all nearby enemies 100 units over 0.75 seconds, dealing them magic damage, and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing them for 1 second. Powerball can be recast after 1 second.",
+      "Recast: Rammus ends the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channel early."
+    ]
+  },
+  {
+    "name": "Defensive Ball Curl",
+    "cost": [
+      40
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      6
+    ],
+    "description": "Active: Rammus drops into a defensive stance for 6 seconds, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus magic resistance, becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed by 30%, increasing <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f7/Spiked_Shell.png/revision/latest/scale-to-width-down/20?cb=20150312023232\" \t alt=\"Spiked Shell\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spiked_Shell.png\" \tdata-image-name=\"Spiked Shell.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spiked Shell's damage by 50%, and applying it to enemies whenever they land a basic attack on-hit to Rammus. Defensive Ball Curl can be recast after 1 second.",
+    "leveling": "Bonus Armor:30 (+ 60 / 70 / 80 / 90 / 100% total armor)\nBonus Magic Resistance:10 (+ 30 / 35 / 40 / 45 / 50% total magic resistance)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      30,
+      60,
+      70,
+      80,
+      90
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      },
+      {
+        "value": 70,
+        "type": "bonus ad"
+      },
+      {
+        "value": 80,
+        "type": "bonus ad"
+      },
+      {
+        "value": 90,
+        "type": "bonus ad"
+      },
+      {
+        "value": 100,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Defensive Ball Curl.png",
+    "icons": [
+      "Defensive Ball Curl.png"
+    ],
+    "levelings": [
+      "Bonus Armor:30 (+ 60 / 70 / 80 / 90 / 100% total armor)\nBonus Magic Resistance:10 (+ 30 / 35 / 40 / 45 / 50% total magic resistance)"
+    ],
+    "descriptions": [
+      "Active: Rammus drops into a defensive stance for 6 seconds, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus armor and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/84/Magic_resistance_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203539\" \t alt=\"Magic resistance icon\"  \tclass=\"\" \t \tdata-image-key=\"Magic_resistance_icon.png\" \tdata-image-name=\"Magic resistance icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus magic resistance, becoming <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowed by 30%, increasing <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f7/Spiked_Shell.png/revision/latest/scale-to-width-down/20?cb=20150312023232\" \t alt=\"Spiked Shell\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Spiked_Shell.png\" \tdata-image-name=\"Spiked Shell.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Spiked Shell's damage by 50%, and applying it to enemies whenever they land a basic attack on-hit to Rammus. Defensive Ball Curl can be recast after 1 second.",
+      "Recast: Rammus ends Defensive Ball Curl early."
+    ]
+  },
+  {
+    "name": "Frenzying Taunt",
+    "cost": [
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12,
+      11,
+      11,
+      10,
+      10
+    ],
+    "description": "Active: Rammus <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Taunt_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223944\" \t alt=\"Taunt icon\"  \tclass=\"\" \t \tdata-image-key=\"Taunt_icon.png\" \tdata-image-name=\"Taunt icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> taunts the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monster, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed for the duration.",
+    "leveling": "Effect Duration:1.25 / 1.5 / 1.75 / 2 / 2.25Bonus Attack Speed:20 / 25 / 30 / 35 / 40%",
+    "skill": "E",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      1.25,
+      1.5,
+      1.75,
+      2,
+      2.25
+    ],
+    "ratios": [],
+    "castTime": 0.25,
+    "icon": "Frenzying Taunt.png",
+    "icons": [
+      "Frenzying Taunt.png"
+    ],
+    "levelings": [
+      "Effect Duration:1.25 / 1.5 / 1.75 / 2 / 2.25Bonus Attack Speed:20 / 25 / 30 / 35 / 40%"
+    ],
+    "descriptions": [
+      "Active: Rammus <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6e/Taunt_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223944\" \t alt=\"Taunt icon\"  \tclass=\"\" \t \tdata-image-key=\"Taunt_icon.png\" \tdata-image-name=\"Taunt icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> taunts the target enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monster, gaining <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed for the duration.",
+      "While <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/8d/Powerball.png/revision/latest/scale-to-width-down/20?cb=20150312023510\" \t alt=\"Powerball\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Powerball.png\" \tdata-image-name=\"Powerball.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Powerball, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f7/Defensive_Ball_Curl.png/revision/latest/scale-to-width-down/20?cb=20150312020949\" \t alt=\"Defensive Ball Curl\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Defensive_Ball_Curl.png\" \tdata-image-name=\"Defensive Ball Curl.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Defensive Ball Curl or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/1c/Tremors.png/revision/latest/scale-to-width-down/20?cb=20150312023125\" \t alt=\"Tremors\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tremors.png\" \tdata-image-name=\"Tremors.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tremors is active, the <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed duration refreshes."
+    ]
+  },
+  {
+    "name": "Tremors",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      100,
+      90,
+      80,
+      70,
+      60
+    ],
+    "description": "Active: Rammus creates an earthquake around himself for 8 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing and dealing magic damage each second to nearby enemies for the duration. Structures receive double damage.",
+    "leveling": "Magic Damage Per Second:»30 / 45 / 60 / 75 / 90 (+ 20% AP)«Total Magic Damage:240 / 360 / 480 / 600 / 720 (+ 160% AP)\nStructure Magic Damage Per Second:»60 / 90 / 120 / 150 / 180 (+ 40% AP)«Structure Total Magic Damage:480 / 720 / 960 / 1200 / 1440 (+ 320% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      30,
+      45,
+      60,
+      75,
+      90
+    ],
+    "ratios": [
+      {
+        "value": 20,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Tremors.png",
+    "icons": [
+      "Tremors.png"
+    ],
+    "levelings": [
+      "Magic Damage Per Second:»30 / 45 / 60 / 75 / 90 (+ 20% AP)«Total Magic Damage:240 / 360 / 480 / 600 / 720 (+ 160% AP)\nStructure Magic Damage Per Second:»60 / 90 / 120 / 150 / 180 (+ 40% AP)«Structure Total Magic Damage:480 / 720 / 960 / 1200 / 1440 (+ 320% AP)",
+      "Slow:»8 / 9 / 10 / 11 / 12%«Maximum Slow:64 / 72 / 80 / 88 / 96%"
+    ],
+    "descriptions": [
+      "Active: Rammus creates an earthquake around himself for 8 seconds, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing and dealing magic damage each second to nearby enemies for the duration. Structures receive double damage.",
+      "The <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slow persists for 1.5 seconds and stacks up to 8 times."
+    ]
+  }
+]

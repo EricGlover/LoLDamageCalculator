@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Time in a Bottle",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Zilean generates <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Experience_icon.png/revision/latest/scale-to-width-down/15?cb=20170714051126\" \t alt=\"Experience icon\"  \tclass=\"\" \t \tdata-image-key=\"Experience_icon.png\" \tdata-image-name=\"Experience icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 2 / 3.5 / 5 / 6 / 12 (based on level) experience (does not count towards his own level up) every 5 seconds. Time in a Bottle is on cooldown when the game starts.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Time in a Bottle.png",
+    "icons": [
+      "Time in a Bottle.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Zilean generates <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Experience_icon.png/revision/latest/scale-to-width-down/15?cb=20170714051126\" \t alt=\"Experience icon\"  \tclass=\"\" \t \tdata-image-key=\"Experience_icon.png\" \tdata-image-name=\"Experience icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> 2 / 3.5 / 5 / 6 / 12 (based on level) experience (does not count towards his own level up) every 5 seconds. Time in a Bottle is on cooldown when the game starts.",
+      "When the amount stored is enough to level up an allied <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion and Zilean has been out of combat for the last 10 seconds, he can select a target ally to initiate a 1 second <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/bb/Channeling_icon.png/revision/latest/scale-to-width-down/20?cb=20180628192319\" \t alt=\"Channeling icon\"  \tclass=\"\" \t \tdata-image-key=\"Channeling_icon.png\" \tdata-image-name=\"Channeling icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> channel which starts after a 0.5-second delay. If the channel is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/49/Silence_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Silence icon\"  \tclass=\"\" \t \tdata-image-key=\"Silence_icon.png\" \tdata-image-name=\"Silence icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> interrupted, Time in a Bottle goes on a 2 second <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown.",
+      "A successful channel levels up the target and rewards Zilean the granted amount of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Experience_icon.png/revision/latest/scale-to-width-down/15?cb=20170714051126\" \t alt=\"Experience icon\"  \tclass=\"\" \t \tdata-image-key=\"Experience_icon.png\" \tdata-image-name=\"Experience icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> experience for himself as well."
+    ]
+  },
+  {
+    "name": "Time Bomb",
+    "cost": [
+      60,
+      65,
+      70,
+      75,
+      80
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      10,
+      9,
+      9,
+      8,
+      8
+    ],
+    "description": "Active: Zilean throws a ticking time bomb to the target location that <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reveals the area and detonates after 3 seconds, dealing magic damage to all surrounding enemies.",
+    "leveling": "Magic Damage:75 / 115 / 165 / 230 / 300 (+ 90% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      75,
+      115,
+      165,
+      230,
+      300
+    ],
+    "ratios": [
+      {
+        "value": 90,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Time Bomb.png",
+    "icons": [
+      "Time Bomb.png"
+    ],
+    "levelings": [
+      "Magic Damage:75 / 115 / 165 / 230 / 300 (+ 90% AP)",
+      "Stun Duration:1.1 / 1.2 / 1.3 / 1.4 / 1.5"
+    ],
+    "descriptions": [
+      "Active: Zilean throws a ticking time bomb to the target location that <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> reveals the area and detonates after 3 seconds, dealing magic damage to all surrounding enemies.",
+      "Time Bomb will attach itself to units hit directly, or those who move within a small radius of its center while it is on the ground, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> revealing them if they are an enemy and detonating at their location when the duration ends, or immediately when they die.",
+      "Time Bomb detonates immediately if another one attaches itself to the same unit, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning all nearby enemies for a short duration."
+    ]
+  },
+  {
+    "name": "Rewind",
+    "cost": [
+      35
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      14,
+      12,
+      10,
+      8,
+      6
+    ],
+    "description": "Active: Zilean reduces <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Time_Bomb.png/revision/latest/scale-to-width-down/20?cb=20150210202805\" \t alt=\"Time Bomb\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Time_Bomb.png\" \tdata-image-name=\"Time Bomb.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Time Bomb's and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b3/Time_Warp.png/revision/latest/scale-to-width-down/20?cb=20150210202916\" \t alt=\"Time Warp\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Time_Warp.png\" \tdata-image-name=\"Time Warp.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Time Warp's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldowns by 10 seconds each.",
+    "leveling": null,
+    "skill": "W",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Rewind.png",
+    "icons": [
+      "Rewind.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Active: Zilean reduces <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Time_Bomb.png/revision/latest/scale-to-width-down/20?cb=20150210202805\" \t alt=\"Time Bomb\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Time_Bomb.png\" \tdata-image-name=\"Time Bomb.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Time Bomb's and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b3/Time_Warp.png/revision/latest/scale-to-width-down/20?cb=20150210202916\" \t alt=\"Time Warp\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Time_Warp.png\" \tdata-image-name=\"Time Warp.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Time Warp's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldowns by 10 seconds each."
+    ]
+  },
+  {
+    "name": "Time Warp",
+    "cost": [
+      50
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      15
+    ],
+    "description": "Active: Zilean bends time around the target champion, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing enemies for 2.5 seconds or granting allies or himself <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed for the same duration.",
+    "leveling": "Movement Speed Modifier:40 / 55 / 70 / 85 / 99%",
+    "skill": "E",
+    "damageType": "",
+    "isProjectile": "False",
+    "flatDamage": [
+      40,
+      55,
+      70,
+      85,
+      99
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Time Warp.png",
+    "icons": [
+      "Time Warp.png"
+    ],
+    "levelings": [
+      "Movement Speed Modifier:40 / 55 / 70 / 85 / 99%"
+    ],
+    "descriptions": [
+      "Active: Zilean bends time around the target champion, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slowing enemies for 2.5 seconds or granting allies or himself <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed for the same duration."
+    ]
+  },
+  {
+    "name": "Chronoshift",
+    "cost": [
+      125,
+      137,
+      150,
+      162,
+      175
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      120,
+      105,
+      90,
+      75,
+      60
+    ],
+    "description": "Active: Zilean places a protective time rune on the target ally <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion or himself, lasting for 5 seconds.",
+    "leveling": "Health Regained:600 / 725 / 850 / 975 / 1100 (+ 200% AP)",
+    "skill": "R",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      600,
+      725,
+      850,
+      975,
+      1100
+    ],
+    "ratios": [
+      {
+        "value": 200,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Chronoshift.png",
+    "icons": [
+      "Chronoshift.png"
+    ],
+    "levelings": [
+      "Health Regained:600 / 725 / 850 / 975 / 1100 (+ 200% AP)"
+    ],
+    "descriptions": [
+      "Active: Zilean places a protective time rune on the target ally <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion or himself, lasting for 5 seconds.",
+      "If the target takes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/c/c3/Death.png/revision/latest/scale-to-width-down/20?cb=20200415031113\" \t alt=\"Death\"  \tclass=\"\" \t \tdata-image-key=\"Death.png\" \tdata-image-name=\"Death.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> fatal damage during that time, they are put in <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/e2/Stasis_icon.png/revision/latest/scale-to-width-down/20?cb=20150225124408\" \t alt=\"Stasis icon\"  \tclass=\"\" \t \tdata-image-key=\"Stasis_icon.png\" \tdata-image-name=\"Stasis icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stasis for 3 seconds and then <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7c/Revival_icon.png/revision/latest/scale-to-width-down/20?cb=20170714051127\" \t alt=\"Revival icon\"  \tclass=\"\" \t \tdata-image-key=\"Revival_icon.png\" \tdata-image-name=\"Revival icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resurrected, regaining a set amount of <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/17/Health_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203537\" \t alt=\"Health icon\"  \tclass=\"\" \t \tdata-image-key=\"Health_icon.png\" \tdata-image-name=\"Health icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> health."
+    ]
+  }
+]

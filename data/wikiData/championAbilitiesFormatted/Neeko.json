@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Inherent Glamour",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate: Neeko is offered a selection of allied <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions to take their appearance. Once selected, there's a 2.5-second delay before another champion can be selected.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Inherent Glamour.png",
+    "icons": [
+      "Inherent Glamour.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate: Neeko is offered a selection of allied <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champions to take their appearance. Once selected, there's a 2.5-second delay before another champion can be selected.",
+      "While disguised, Neeko can use basic attacks while keeping her form. Taking damage from enemy champions, or casting either <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Blooming_Burst.png/revision/latest/scale-to-width-down/20?cb=20181119234256\" \t alt=\"Blooming Burst\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Blooming_Burst.png\" \tdata-image-name=\"Blooming Burst.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Blooming Burst or <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/44/Tangle-Barbs.png/revision/latest/scale-to-width-down/20?cb=20181119234349\" \t alt=\"Tangle-Barbs\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Tangle-Barbs.png\" \tdata-image-name=\"Tangle-Barbs.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Tangle-Barbs or leaping by <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7b/Pop_Blossom.png/revision/latest/scale-to-width-down/20?cb=20181119234348\" \t alt=\"Pop Blossom\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Pop_Blossom.png\" \tdata-image-name=\"Pop Blossom.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Pop Blossom breaks the illusion and puts Inherent Glamour on <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown.",
+      "When disguised, Neeko can select herself to deactivate her disguise, putting Inherent Glamour on a 2-second <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown."
+    ]
+  },
+  {
+    "name": "Blooming Burst",
+    "cost": [
+      50,
+      60,
+      70,
+      80,
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      7
+    ],
+    "description": "Active: Neeko propels a seed into the target area that deals magic damage to enemies hit.",
+    "leveling": "Magic Damage:80 / 125 / 170 / 215 / 260 (+ 50% AP)",
+    "skill": "Q",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      80,
+      125,
+      170,
+      215,
+      260
+    ],
+    "ratios": [
+      {
+        "value": 50,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Blooming Burst.png",
+    "icons": [
+      "Blooming Burst.png"
+    ],
+    "levelings": [
+      "Magic Damage:80 / 125 / 170 / 215 / 260 (+ 50% AP)",
+      "Second and Third Bloom Damage:»40 / 60 / 80 / 100 / 120 (+ 20% AP)«Total Maximum Damage:160 / 245 / 330 / 415 / 500 (+ 90% AP)"
+    ],
+    "descriptions": [
+      "Active: Neeko propels a seed into the target area that deals magic damage to enemies hit.",
+      "If the seed kills an enemy or damages a champion or large <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d1/Monster_icon.png/revision/latest?cb=20181123222641\" \t alt=\"Monster icon\"  \tclass=\"\" \t \tdata-image-key=\"Monster_icon.png\" \tdata-image-name=\"Monster icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> monster, it will bloom again after a 0.75-second delay to deal magic damage. This cannot happen more than twice per Blooming Burst."
+    ]
+  },
+  {
+    "name": "Shapesplitter",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      20,
+      19,
+      18,
+      17,
+      16
+    ],
+    "description": "Passive: Basic attacks on-hit grant Neeko a stack of Shapesplitter. At 2 stacks, Neeko's next basic attack on-attack consumes the stacks to turn her attack into a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Projectile.png/revision/latest/scale-to-width-down/20?cb=20150816082407\" \t alt=\"Projectile\"  \tclass=\"\" \t \tdata-image-key=\"Projectile.png\" \tdata-image-name=\"Projectile.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> non-projectile, deal bonus magic damage and grant her <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed for 1 second.",
+    "leveling": "Bonus Magic Damage:50 / 70 / 90 / 110 / 130 (+ 60% AP)\nPassive Movement Speed:10 / 15 / 20 / 25 / 30%",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "False",
+    "flatDamage": [
+      50,
+      70,
+      90,
+      110,
+      130
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Shapesplitter.png",
+    "icons": [
+      "Shapesplitter.png"
+    ],
+    "levelings": [
+      "Bonus Magic Damage:50 / 70 / 90 / 110 / 130 (+ 60% AP)\nPassive Movement Speed:10 / 15 / 20 / 25 / 30%",
+      "Active Movement Speed:20 / 25 / 30 / 35 / 40%"
+    ],
+    "descriptions": [
+      "Passive: Basic attacks on-hit grant Neeko a stack of Shapesplitter. At 2 stacks, Neeko's next basic attack on-attack consumes the stacks to turn her attack into a <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Projectile.png/revision/latest/scale-to-width-down/20?cb=20150816082407\" \t alt=\"Projectile\"  \tclass=\"\" \t \tdata-image-key=\"Projectile.png\" \tdata-image-name=\"Projectile.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> non-projectile, deal bonus magic damage and grant her <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ea/Movement_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203540\" \t alt=\"Movement speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Movement_speed_icon.png\" \tdata-image-name=\"Movement speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus movement speed for 1 second.",
+      "Active: Neeko becomes <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d8/Twilight_Shroud_old2.png/revision/latest/scale-to-width-down/20?cb=20180716212930\" \t alt=\"Twilight Shroud old2\"  \tclass=\"\" \t \tdata-image-key=\"Twilight_Shroud_old2.png\" \tdata-image-name=\"Twilight Shroud old2.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> invisible for 0.5 seconds, sending a temporary <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/4a/Command_Hallucinate.png/revision/latest/scale-to-width-down/20?cb=20170204131432\" \t alt=\"Command Hallucinate\"  \tclass=\"\" \t \tdata-image-key=\"Command_Hallucinate.png\" \tdata-image-name=\"Command Hallucinate.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> clone of her <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/61/Inherent_Glamour.png/revision/latest/scale-to-width-down/20?cb=20181119234347\" \t alt=\"Inherent Glamour\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Inherent_Glamour.png\" \tdata-image-name=\"Inherent Glamour.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> current form sprinting in the target direction for 3 seconds and up to 900 units away until it encounters terrain, at which it stops and remains idle. The clone is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9c/Playful.png/revision/latest/scale-to-width-down/20?cb=20161018215400\" \t alt=\"Playful\"  \tclass=\"\" \t \tdata-image-key=\"Playful.png\" \tdata-image-name=\"Playful.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> untargetable for the first 0.5 seconds.",
+      "Both Neeko and the clone gain bonus movement speed for 3 seconds."
+    ]
+  },
+  {
+    "name": "Tangle-Barbs",
+    "cost": [
+      60,
+      65,
+      70,
+      75,
+      80
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12,
+      11,
+      11,
+      10,
+      10
+    ],
+    "description": "Active: Neeko slings a magical spiral in the target direction, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooting enemies it passes through.",
+    "leveling": "Magic Damage:80 / 115 / 150 / 185 / 220 (+ 60% AP)\nRoot Duration:0.7 / 0.9 / 1.1 / 1.3 / 1.5",
+    "skill": "E",
+    "damageType": "Magic",
+    "isProjectile": "True",
+    "flatDamage": [
+      80,
+      115,
+      150,
+      185,
+      220
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Tangle-Barbs.png",
+    "icons": [
+      "Tangle-Barbs.png"
+    ],
+    "levelings": [
+      "Magic Damage:80 / 115 / 150 / 185 / 220 (+ 60% AP)\nRoot Duration:0.7 / 0.9 / 1.1 / 1.3 / 1.5",
+      "Empowered Root Duration:1.8 / 2.1 / 2.4 / 2.7 / 3"
+    ],
+    "descriptions": [
+      "Active: Neeko slings a magical spiral in the target direction, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/6b/Root_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224302\" \t alt=\"Root icon\"  \tclass=\"\" \t \tdata-image-key=\"Root_icon.png\" \tdata-image-name=\"Root icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> rooting enemies it passes through.",
+      "If Tangle-Barbs hits at least one enemy, it thereafter grows in size and speed, with the root duration increased."
+    ]
+  },
+  {
+    "name": "Pop Blossom",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      90
+    ],
+    "description": "Active: Neeko sprouts a blossom over 1.25 seconds, marking an area around her that is invisible to enemies while she is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/61/Inherent_Glamour.png/revision/latest/scale-to-width-down/20?cb=20181119234347\" \t alt=\"Inherent Glamour\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Inherent_Glamour.png\" \tdata-image-name=\"Inherent Glamour.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> disguised.",
+    "leveling": "Shield:75 / 87.5 / 100 / 112.5 / 125 (+ 75% AP)\nBonus Shield Per Champion:»40 / 50 / 60 / 70 / 80 (+ 40% AP)«Total Shield vs. 5 Champions:275 / 337.5 / 400 / 462.5 / 525 (+ 275% AP)",
+    "skill": "R",
+    "damageType": "Magic",
+    "isProjectile": "",
+    "flatDamage": [
+      75,
+      87.5,
+      100,
+      112.5,
+      125
+    ],
+    "ratios": [
+      {
+        "value": 75,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": null,
+    "icon": "Pop Blossom.png",
+    "icons": [
+      "Pop Blossom.png"
+    ],
+    "levelings": [
+      "Shield:75 / 87.5 / 100 / 112.5 / 125 (+ 75% AP)\nBonus Shield Per Champion:»40 / 50 / 60 / 70 / 80 (+ 40% AP)«Total Shield vs. 5 Champions:275 / 337.5 / 400 / 462.5 / 525 (+ 275% AP)",
+      "Magic Damage:200 / 312.5 / 425 / 537.5 / 650 (+ 130% AP)"
+    ],
+    "descriptions": [
+      "Active: Neeko sprouts a blossom over 1.25 seconds, marking an area around her that is invisible to enemies while she is <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/6/61/Inherent_Glamour.png/revision/latest/scale-to-width-down/20?cb=20181119234347\" \t alt=\"Inherent Glamour\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Inherent_Glamour.png\" \tdata-image-name=\"Inherent Glamour.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> disguised.",
+      "Neeko then <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Hybrid_resistances_icon.png/revision/latest/scale-to-width-down/20?cb=20170516021237\" \t alt=\"Hybrid resistances icon\"  \tclass=\"\" \t \tdata-image-key=\"Hybrid_resistances_icon.png\" \tdata-image-name=\"Hybrid resistances icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> shields herself for 2 seconds, increased for each enemy <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/2/25/Champion_icon.png/revision/latest/scale-to-width-down/20?cb=20181122022630\" \t alt=\"Champion icon\"  \tclass=\"\" \t \tdata-image-key=\"Champion_icon.png\" \tdata-image-name=\"Champion icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> champion nearby, as she leaps into the air for 0.6 seconds, causing <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/75/Shapesplitter.png/revision/latest/scale-to-width-down/20?cb=20181119234349\" \t alt=\"Shapesplitter\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Shapesplitter.png\" \tdata-image-name=\"Shapesplitter.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Shapesplitter clones to disappear in the process.",
+      "Upon landing, the blossom bursts, dealing magic damage and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/9d/Stun_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223940\" \t alt=\"Stun icon\"  \tclass=\"\" \t \tdata-image-key=\"Stun_icon.png\" \tdata-image-name=\"Stun icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> stunning nearby enemies for 1.25 seconds."
+    ]
+  }
+]

@@ -3,7 +3,8 @@ const app = express();
 const fs = require('fs');
 const port = process.env.PORT || 8080;
 let router = express.Router();
-
+const Importer = require('./backend/DataScraper/Importer.js');
+const importer = new Importer();
 
 
 router.get("/champion/caitlyn", (req, res) => {
@@ -21,9 +22,12 @@ router.get("/champion/caitlyn", (req, res) => {
 });
 
 router.get("/champion/:name", (req, res) => {
+    // res.send(req.params.name);
+    // return;
     let championName = req.params.name;
+    let champion = importer.importFormattedChampionData(championName);
 
-    res.send(req.params.name);
+    res.json(champion);
 });
 
 app.use('/', router);

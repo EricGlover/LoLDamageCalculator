@@ -1,0 +1,209 @@
+[
+  {
+    "name": "New Destiny",
+    "cost": [
+      null
+    ],
+    "costType": "",
+    "coolDown": [
+      null
+    ],
+    "description": "Innate - Double Barrel: Graves' basic attacks consume ammunition for 2 shells. He will reload over a few seconds immediately after expending all shells or withholding leftover shells for a while. The reload time is reduced by Graves' level and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed, and can be interrupted by declaring an attack or casting an ability.",
+    "leveling": null,
+    "skill": "I",
+    "damageType": "Physical",
+    "isProjectile": "True",
+    "flatDamage": [],
+    "ratios": [],
+    "castTime": null,
+    "icon": "New Destiny.png",
+    "icons": [
+      "New Destiny.png"
+    ],
+    "levelings": [],
+    "descriptions": [
+      "Innate - Double Barrel: Graves' basic attacks consume ammunition for 2 shells. He will reload over a few seconds immediately after expending all shells or withholding leftover shells for a while. The reload time is reduced by Graves' level and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/91/Attack_speed_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203443\" \t alt=\"Attack speed icon\"  \tclass=\"\" \t \tdata-image-key=\"Attack_speed_icon.png\" \tdata-image-name=\"Attack speed icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus attack speed, and can be interrupted by declaring an attack or casting an ability.",
+      "Innate - 12-Gauge: Graves' basic attacks spray 4 pellets in a cone, dealing 70% − 100% (based on level) AD physical damage plus「 a third of the damage 」「 23.33% − 33.33% (based on level) AD damage 」for each subsequent pellet, up to a maximum of 140% − 200% (based on level) AD physical damage. Pellets deal 25% reduced damage against <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/8/82/Turret_icon.png/revision/latest/scale-to-width-down/20?cb=20180701054101\" \t alt=\"Turret icon\"  \tclass=\"\" \t \tdata-image-key=\"Turret_icon.png\" \tdata-image-name=\"Turret icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> turrets.",
+      "<img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/4/41/Critical_strike_icon.png/revision/latest/scale-to-width-down/20?cb=20191126102550\" \t alt=\"Critical strike icon\"  \tclass=\"\" \t \tdata-image-key=\"Critical_strike_icon.png\" \tdata-image-name=\"Critical strike icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> Critical strikes spray 6 pellets over a 50% wider cone, with each pellet dealing (40% + <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/1/15/Infinity_Edge_item.png/revision/latest/scale-to-width-down/20?cb=20180531105945\" \t alt=\"Infinity Edge item\"  \tclass=\"thumbborder \" \t \tdata-image-key=\"Infinity_Edge_item.png\" \tdata-image-name=\"Infinity Edge item.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> 10%) bonus physical damage.",
+      "Innate - Buckshot: Pellets collide into the first enemy unit or structure they hit. Non-champion units hit by more than one pellet are <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d6/Airborne_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223933\" \t alt=\"Airborne icon\"  \tclass=\"\" \t \tdata-image-key=\"Airborne_icon.png\" \tdata-image-name=\"Airborne icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> knocked back. Each pellet applies on-hit effects, but enemies are affected by them once per attack."
+    ]
+  },
+  {
+    "name": "End of the Line",
+    "cost": [
+      60
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      12,
+      11,
+      10,
+      9,
+      8
+    ],
+    "description": "Active: Graves fires a round in the target direction that deals physical damage to all enemies it passes through and leaves behind a powder trail.",
+    "leveling": "Initial Physical Damage:45 / 60 / 75 / 90 / 105 (+ 80% bonus AD)",
+    "skill": "Q",
+    "damageType": "Physical",
+    "isProjectile": "Special",
+    "flatDamage": [
+      45,
+      60,
+      75,
+      90,
+      105
+    ],
+    "ratios": [
+      {
+        "value": 80,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "End of the Line.png",
+    "icons": [
+      "End of the Line.png"
+    ],
+    "levelings": [
+      "Initial Physical Damage:45 / 60 / 75 / 90 / 105 (+ 80% bonus AD)",
+      "Detonation Damage:»85 / 120 / 155 / 190 / 225 (+ 40 / 70 / 100 / 130 / 160% bonus AD)«Total Damage:130 / 180 / 230 / 280 / 330 (+ 120 / 150 / 180 / 210 / 240% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Graves fires a round in the target direction that deals physical damage to all enemies it passes through and leaves behind a powder trail.",
+      "After 2 seconds or after 0.25 seconds upon colliding with terrain, the round detonates, dealing physical damage to all enemies in a wide perpendicular area and in a reverse wave along the powder trail."
+    ]
+  },
+  {
+    "name": "Smoke Screen",
+    "cost": [
+      70,
+      75,
+      80,
+      85,
+      90
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      26,
+      24,
+      22,
+      20,
+      18
+    ],
+    "description": "Active: Graves fires a smoke canister at the target location that, upon impact, deals magic damage to enemies in the area and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows them by 50% for 0.5 seconds.",
+    "leveling": "Magic Damage:60 / 110 / 160 / 210 / 260 (+ 60% AP)",
+    "skill": "W",
+    "damageType": "Magic",
+    "isProjectile": "true",
+    "flatDamage": [
+      60,
+      110,
+      160,
+      210,
+      260
+    ],
+    "ratios": [
+      {
+        "value": 60,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Smoke Screen.png",
+    "icons": [
+      "Smoke Screen.png"
+    ],
+    "levelings": [
+      "Magic Damage:60 / 110 / 160 / 210 / 260 (+ 60% AP)"
+    ],
+    "descriptions": [
+      "Active: Graves fires a smoke canister at the target location that, upon impact, deals magic damage to enemies in the area and <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/7/78/Slow_icon.png/revision/latest/scale-to-width-down/20?cb=20171201224744\" \t alt=\"Slow icon\"  \tclass=\"\" \t \tdata-image-key=\"Slow_icon.png\" \tdata-image-name=\"Slow icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> slows them by 50% for 0.5 seconds.",
+      "The canister creates a cloud of smoke for 4 seconds that applies <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/94/Nearsight_icon.png/revision/latest/scale-to-width-down/20?cb=20171201223938\" \t alt=\"Nearsight icon\"  \tclass=\"\" \t \tdata-image-key=\"Nearsight_icon.png\" \tdata-image-name=\"Nearsight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> nearsight of outside the area to all enemies within every 0.25 seconds, reducing their <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/0e/Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20130928145820\" \t alt=\"Sight icon\"  \tclass=\"\" \t \tdata-image-key=\"Sight_icon.png\" \tdata-image-name=\"Sight icon.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> sight radius to 250 units relative to the center."
+    ]
+  },
+  {
+    "name": "Quickdraw",
+    "cost": [
+      40
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      16,
+      15,
+      14,
+      13,
+      12
+    ],
+    "description": "Active: Graves <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resetting his basic attack timer and reloading one shell while gaining a stack of True Grit for 4 seconds, stacking up to 8 times. Dashing towards an enemy grants 2 stacks of True Grit.",
+    "leveling": "Bonus Armor:»8 / 11 / 14 / 17 / 20«Maximum Armor:64 / 88 / 112 / 136 / 160",
+    "skill": "E",
+    "damageType": "",
+    "isProjectile": "",
+    "flatDamage": [
+      8,
+      11,
+      14,
+      17,
+      20
+    ],
+    "ratios": [],
+    "castTime": null,
+    "icon": "Quickdraw.png",
+    "icons": [
+      "Quickdraw.png"
+    ],
+    "levelings": [
+      "Bonus Armor:»8 / 11 / 14 / 17 / 20«Maximum Armor:64 / 88 / 112 / 136 / 160"
+    ],
+    "descriptions": [
+      "Active: Graves <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> dashes in the target direction, <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/0/05/Bladework.png/revision/latest/scale-to-width-down/20?cb=20150721193304\" \t alt=\"Bladework\"  \tclass=\"\" \t \tdata-image-key=\"Bladework.png\" \tdata-image-name=\"Bladework.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> resetting his basic attack timer and reloading one shell while gaining a stack of True Grit for 4 seconds, stacking up to 8 times. Dashing towards an enemy grants 2 stacks of True Grit.",
+      "Quickdraw's <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/9/95/Cooldown_reduction_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203444\" \t alt=\"Cooldown reduction icon\"  \tclass=\"\" \t \tdata-image-key=\"Cooldown_reduction_icon.png\" \tdata-image-name=\"Cooldown reduction icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> cooldown is reduced by 0.5 seconds for every pellet impacting an enemy.",
+      "True Grit: Graves gains <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/f/f0/Armor_icon.png/revision/latest/scale-to-width-down/15?cb=20170515203442\" \t alt=\"Armor icon\"  \tclass=\"\" \t \tdata-image-key=\"Armor_icon.png\" \tdata-image-name=\"Armor icon.png\" \t \t width=\"15\"  \t height=\"15\"  \t \t \t \t> bonus armor. Attacks versus non-minions will refresh the duration of True Grit.",
+      "If Graves dashes while reloading, he can cast his other abilities during the dash.*"
+    ]
+  },
+  {
+    "name": "Collateral Damage",
+    "cost": [
+      100
+    ],
+    "costType": "Mana",
+    "coolDown": [
+      120,
+      105,
+      90,
+      75,
+      60
+    ],
+    "description": "Active: Graves fires an explosive shell in the target direction which deals physical damage to all enemies hit while also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> recoiling in the opposite direction.",
+    "leveling": "Physical Damage:»250 / 325 / 400 / 475 / 550 (+ 150% bonus AD)«Explosion Physical Damage:200 / 260 / 320 / 380 / 440 (+ 120% bonus AD)",
+    "skill": "R",
+    "damageType": "Physical",
+    "isProjectile": "True",
+    "flatDamage": [
+      250,
+      325,
+      400,
+      475,
+      550
+    ],
+    "ratios": [
+      {
+        "value": 150,
+        "type": "bonus ad"
+      }
+    ],
+    "castTime": 0.25,
+    "icon": "Collateral Damage.png",
+    "icons": [
+      "Collateral Damage.png"
+    ],
+    "levelings": [
+      "Physical Damage:»250 / 325 / 400 / 475 / 550 (+ 150% bonus AD)«Explosion Physical Damage:200 / 260 / 320 / 380 / 440 (+ 120% bonus AD)"
+    ],
+    "descriptions": [
+      "Active: Graves fires an explosive shell in the target direction which deals physical damage to all enemies hit while also <img src=\"https://vignette.wikia.nocookie.net/leagueoflegends/images/5/55/Dash.png/revision/latest/scale-to-width-down/20?cb=20180514002826\" \t alt=\"Dash\"  \tclass=\"\" \t \tdata-image-key=\"Dash.png\" \tdata-image-name=\"Dash.png\" \t \t width=\"20\"  \t height=\"20\"  \t \t \t \t> recoiling in the opposite direction.",
+      "After hitting an enemy champion or reaching the end of its range, the shell explodes to deal 80% of its original damage in a cone. The same unit cannot be damaged by both the shell and the explosion."
+    ]
+  }
+]
