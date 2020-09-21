@@ -27,7 +27,8 @@
         "Innate: Kai'Sa's basic attacks deal 4 − 10 (based on level) (+ 1 − 5 (based on level) per Plasma stack) (+ 10% − 20% (based on Plasma stacks) AP) bonus magic damage.",
         "Innate - Caustic Wounds: Kai'Sa's basic attacks,  Void Seeker, and nearby allies'  immobilizing effects mark enemies with Plasma for 4 seconds, stacking up to 4 times. Kai'Sa's attacks or  Void Seeker can then rupture enemies with 4 Plasma, consuming them to deal 15% (+ 2.5% per 100 AP) of the target's  missing health magic damage, capped at 400 against  monsters.",
         "Innate - Living Weapon: Upon gaining a set amount of permanent stats from items and stat growth, Kai'Sa can evolve the related basic ability after being in cast time for 2 seconds. The upgrade is lost if the stat requirement is no longer met."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Icathian Rain",
@@ -83,6 +84,33 @@
         "Active: Kai'Sa releases a swarm of 6 missiles over 1 second that evenly distributes among nearby  visible enemies, each one hitting their target after 0.25 seconds and dealing physical damage.  Minions below  35% health take double damage.",
         "Non-minions take 25% damage from missiles beyond their first.",
         " Living Weapon: Requires  100 − 66 (based on level) attack damage from items to upgrade – Icathian Rain fires 12 missiles. Duration and travel time unchanged."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 45,
+              "ratio": 40,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 61,
+              "ratio": 40,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            45,
+            61
+          ],
+          "ratios": [
+            {
+              "value": 40,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -140,6 +168,51 @@
       "descriptions": [
         "Active: Kai'Sa fires a void blast in the target direction, stopping at the first enemy hit, dealing magic damage,  revealing them for 4 seconds and applying 2 Plasma.",
         " Living Weapon: Requires  100 ability power from items to upgrade – Void Seeker applies 3 Plasma and refunds 70% of the  cooldown if it hits an enemy  champion."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 30,
+              "ratio": 130,
+              "ratioType": "ad"
+            },
+            {
+              "base": 55,
+              "ratio": 130,
+              "ratioType": "ad"
+            },
+            {
+              "base": 80,
+              "ratio": 130,
+              "ratioType": "ad"
+            },
+            {
+              "base": 105,
+              "ratio": 130,
+              "ratioType": "ad"
+            },
+            {
+              "base": 130,
+              "ratio": 130,
+              "ratioType": "ad"
+            }
+          ],
+          "flatValues": [
+            30,
+            55,
+            80,
+            105,
+            130
+          ],
+          "ratios": [
+            {
+              "value": 130,
+              "type": "ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -183,7 +256,8 @@
         "After charging up, Kai'Sa gains  bonus attack speed and her basic attack windup percentage is reduced to 6.44% for 4 seconds.",
         "Supercharge's  cooldown is reduced by 0.5 seconds on-attack.",
         " Living Weapon: Requires  100% − 70% (based on level) attack speed from items to upgrade – Supercharge grants  invisibility for 0.5 seconds."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Killer Instinct",
@@ -235,7 +309,8 @@
       "descriptions": [
         "Active: Kai'Sa instantly  shields herself for 2 seconds and swiftly  dashes to a target location near a  visible enemy champion recently affected by Plasma. The shield's duration refreshes once the dash ends.",
         "Killer Instinct  resets Kai'Sa's basic attack timer."
-      ]
+      ],
+      "damageEffects": null
     }
   ],
   "id": "Kaisa",

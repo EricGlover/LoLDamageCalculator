@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Galio's next basic attack becomes  unstoppable and deals 15 − 200 (based on level) (+ 100% AD) (+ 50% AP) (+ 60% bonus magic resistance)  total magic damage to its target and all enemies around it.",
       "Colossal Smash can  critically strike, dealing (100% +  25%) AD bonus magic damage to all targets hit."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Winds of War",
@@ -75,6 +76,51 @@
     "descriptions": [
       "Active: Galio fires two windblasts that arc to either side before converging to the target area, dealing magic damage to all enemies they pass through.",
       "When the blasts meet, the gusts form a tornado that advances for 2 seconds, dealing magic damage every 0.5 seconds to every enemy within, with the target's health ratio capped at 150 damage against  monsters."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 75,
+            "ratioType": "ap"
+          },
+          {
+            "base": 105,
+            "ratio": 75,
+            "ratioType": "ap"
+          },
+          {
+            "base": 140,
+            "ratio": 75,
+            "ratioType": "ap"
+          },
+          {
+            "base": 175,
+            "ratio": 75,
+            "ratioType": "ap"
+          },
+          {
+            "base": 210,
+            "ratio": 75,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          70,
+          105,
+          140,
+          175,
+          210
+        ],
+        "ratios": [
+          {
+            "value": 75,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -119,6 +165,14 @@
       "Anti-Magic Bulwark: Gain a  shield that absorbs magic damage.",
       "Active: Galio  charges for up to 3 seconds,  slowing himself by 15%, and gaining magic damage reduction and half of that amount as physical damage reduction; charging increases Shield of Durand's radius, damage and  taunt duration. Shield of Durand can be recast at any time within its duration. If Galio finishes charging or is  interrupted, he automatically initiates the recast.",
       "Recast: Galio refreshes the damage reduction for 2 seconds and deals magic damage to nearby enemy  champions, increased by 0% − 200% (based on channel time), and  taunts them and sets their  movement speed to a static 60 for 0.5 − 1.5 (based on channel time) seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "",
+        "abilityRanks": [],
+        "flatValues": [],
+        "ratios": []
+      }
     ]
   },
   {
@@ -171,6 +225,94 @@
     "descriptions": [
       "Active: Galio steps backwards in the opposite direction, and after the cast time he  dashes in the target direction, though not through terrain.",
       "Galio stops upon colliding with an enemy champion, dealing magic damage to them and all enemies hit along the way, while also  knocking them up for 0.75 seconds. Non-champions receive 50% damage."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 90,
+            "ratio": 90,
+            "ratioType": "ap"
+          },
+          {
+            "base": 130,
+            "ratio": 90,
+            "ratioType": "ap"
+          },
+          {
+            "base": 170,
+            "ratio": 90,
+            "ratioType": "ap"
+          },
+          {
+            "base": 210,
+            "ratio": 90,
+            "ratioType": "ap"
+          },
+          {
+            "base": 250,
+            "ratio": 90,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          90,
+          130,
+          170,
+          210,
+          250
+        ],
+        "ratios": [
+          {
+            "value": 90,
+            "type": "ap"
+          }
+        ]
+      },
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 45,
+            "ratio": 45,
+            "ratioType": "ap"
+          },
+          {
+            "base": 65,
+            "ratio": 45,
+            "ratioType": "ap"
+          },
+          {
+            "base": 85,
+            "ratio": 45,
+            "ratioType": "ap"
+          },
+          {
+            "base": 105,
+            "ratio": 45,
+            "ratioType": "ap"
+          },
+          {
+            "base": 125,
+            "ratio": 45,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          45,
+          65,
+          85,
+          105,
+          125
+        ],
+        "ratios": [
+          {
+            "value": 45,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -214,6 +356,39 @@
     "descriptions": [
       "Active: Galio designates the target allied  champion's location at the time of cast as his landing spot, resetting  Shield of Durand's passive magic  shield for himself and additionally granting it to all allied champions in the area he casted it at for 5 seconds, and  channels for 2.75 seconds.",
       "After 1.25 seconds of the activation, Galio becomes  untargetable and  crowd control immune then leaps into the air for 0.85 seconds before  dashing to the location over 0.25 seconds, after which he lands and becomes targetable again, retaining the immunity for 0.4 seconds and dealing magic damage to all nearby enemies on impact as well as  knocking them back 100 units over 0.75 seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 150,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 250,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 350,
+            "ratio": 70,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          150,
+          250,
+          350
+        ],
+        "ratios": [
+          {
+            "value": 70,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   }
 ]

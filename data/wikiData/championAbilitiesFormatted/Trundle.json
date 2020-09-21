@@ -23,7 +23,8 @@
     "levelings": [],
     "descriptions": [
       "Innate: Whenever an enemy dies near Trundle, he  heals for  2 / 3 / 4 / 5 / 6% (based on level) of their maximum health."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Chomp",
@@ -71,6 +72,67 @@
       "Active: Trundle's next basic attack becomes  unstoppable, deals bonus physical damage and  slows the target by 75% for 0.1 seconds.",
       "After biting his target, Trundle gains  bonus attack damage for 5 seconds and reduces his target's attack damage by half that amount for the same duration.",
       "Chomp  resets Trundle's basic attack timer."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 20,
+            "ratio": 10,
+            "ratioType": "ad"
+          },
+          {
+            "base": 40,
+            "ratio": 20,
+            "ratioType": "ad"
+          },
+          {
+            "base": 60,
+            "ratio": 30,
+            "ratioType": "ad"
+          },
+          {
+            "base": 80,
+            "ratio": 40,
+            "ratioType": "ad"
+          },
+          {
+            "base": 100,
+            "ratio": 50,
+            "ratioType": "ad"
+          }
+        ],
+        "flatValues": [
+          20,
+          40,
+          60,
+          80,
+          100
+        ],
+        "ratios": [
+          {
+            "value": 10,
+            "type": "ad"
+          },
+          {
+            "value": 20,
+            "type": "ad"
+          },
+          {
+            "value": 30,
+            "type": "ad"
+          },
+          {
+            "value": 40,
+            "type": "ad"
+          },
+          {
+            "value": 50,
+            "type": "ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -105,7 +167,8 @@
     ],
     "descriptions": [
       "Active: Trundle coats the target area in ice for 8 seconds. While inside, he gains  bonus attack speed,  bonus movement speed, and 25% increased  healing from all sources."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Pillar of Ice",
@@ -143,7 +206,8 @@
     ],
     "descriptions": [
       "Active: Trundle projects a pillar of ice at the target location for 6 seconds,  knocking back all units directly over it 225 units on cast, acting as impassable terrain for the duration and  slowing enemies around it."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Subjugate",
@@ -204,6 +268,72 @@
     "descriptions": [
       "Active: Trundle starts draining the life force out of the target enemy  champion,  healing for a percentage of their maximum health, dealing the same amount as magic damage, stealing 40% of their  armor and  magic resistance, and increasing in size by 18% as well as reducing his target's size by 9.9%. Half of the total damage and stealing is applied instantly, and the other half, as well as the size modifiers, are applied over the next 4 seconds, even if the target has  died.",
       "The armor and magic resistance will remain stolen for 4 seconds after the drain has ended."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 20,
+            "ratio": 2,
+            "ratioType": "ap"
+          },
+          {
+            "base": 23,
+            "ratio": 100,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          20,
+          23
+        ],
+        "ratios": [
+          {
+            "value": 2,
+            "type": "ap"
+          },
+          {
+            "value": 100,
+            "type": "ap"
+          }
+        ]
+      },
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 10,
+            "ratio": 1,
+            "ratioType": "ap"
+          },
+          {
+            "base": 11,
+            "ratio": 100,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          10,
+          11
+        ],
+        "ratios": [
+          {
+            "value": 1,
+            "type": "ap"
+          },
+          {
+            "value": 100,
+            "type": "ap"
+          }
+        ]
+      },
+      {
+        "type": "",
+        "abilityRanks": [],
+        "flatValues": [],
+        "ratios": []
+      }
     ]
   }
 ]

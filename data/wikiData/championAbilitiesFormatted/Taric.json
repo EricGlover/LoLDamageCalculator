@@ -23,7 +23,8 @@
     "levelings": [],
     "descriptions": [
       "Innate: After casting an ability, Taric's next two basic attacks within 4 seconds gain  100% total attack speed, each dealing 25 − 93 (based on level) (+ 15% bonus armor) bonus magic damage and reducing the  cooldowns of his basic abilities by 1 second, as well as refreshing Bravado's duration on the first attack."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Starlight's Touch",
@@ -62,7 +63,8 @@
     "descriptions": [
       "Passive: Taric stores a charge of Starlight's Touch periodically, up to a maximum at once.  Bravado empowered attacks grant one charge.",
       "Active: Taric  heals himself and all nearby allied champions for 30 (+ 20% AP) (+ 1% of Taric's maximum health) per stored charge at the time of cast, up to a maximum of 150 (+ 100% AP) (+ 5% of Taric's maximum health) at 5 charges."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Bastion",
@@ -100,7 +102,8 @@
       "Passive: Taric gains  bonus armor and  links to his ally. While linked, the bonus armor and Taric's abilities are replicated on the ally, though the effects do not stack.",
       "Active: Taric  shields himself and the target allied champion for 2.5 seconds, blessing them with the Bastion link.",
       "Taric can self-cast Bastion to shield himself, or to the nearest unlinked ally in range. Only one champion can be marked at a time, and selecting a new ally clears the previous mark."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Dazzle",
@@ -151,6 +154,51 @@
     ],
     "descriptions": [
       "Active: Taric projects a beam of starlight in the target direction, erupting after a 1 second delay, dealing magic damage to all enemies hit and  stunning them for 1.25 seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 90,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 130,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 170,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 210,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 250,
+            "ratio": 50,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          90,
+          130,
+          170,
+          210,
+          250
+        ],
+        "ratios": [
+          {
+            "value": 50,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -179,6 +227,7 @@
     "levelings": [],
     "descriptions": [
       "Active: Taric calls upon the heavens, summoning a star above him that descends down over 2.5 seconds, afterwards bestowing Taric and all nearby allied  champions with cosmic energy, rendering them  invulnerable for 2.5 seconds."
-    ]
+    ],
+    "damageEffects": []
   }
 ]

@@ -24,15 +24,15 @@
       "ratios": [
         {
           "value": [],
-          "type": ""
+          "type": null
         },
         {
           "value": [],
-          "type": ""
+          "type": null
         },
         {
           "value": [],
-          "type": ""
+          "type": null
         }
       ],
       "castTime": null,
@@ -51,7 +51,8 @@
         "Innate - Rage Gene: Mini Gnar generates 4 / 7 / 11 (based on level)  Rage over 2 seconds upon dealing or receiving damage. Against non-champions, basic attacks and  Boomerang Throw instantly generate「 0.5 / 0.875 / 1.375 (based on level) Rage. 」「 12.5% of the amount. 」 Against champions,  Boomerang Throw instantly generates「 1 / 1.75 / 2.75 (based on level) Rage, 」「 25% of the amount, 」and basic attacks instantly generate「 2 / 3.5 / 5.5 (based on level). 」「 50% of the amount. 」 Boomerang Throw can only generate Rage once per cast, and grants Rage based on the first enemy hit. Gnar's Rage decays if he has not dealt or taken damage in the last 13 seconds.",
         "At maximum  Rage, casting an ability or after 4 seconds will  transform Mini Gnar into  Mega Gnar for 15 seconds, during which Gnar's Rage depletes. Afterwards Gnar returns to Mini Gnar and is too  tired to generate Rage for 15 seconds. Gnar retains his  current percentage health when he returns to Mini Gnar.",
         "Innate - Mega Gnar: Mega Gnar has different abilities, although they share Mini Gnar's ability cooldowns. While in Mega Gnar form, Gnar loses all of Mini Gnar's buffs and instead has increased  base AD,  base health,  base armor, and  base magic resistance. Gnar restores  health equal to the increase."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Boomerang Throw",
@@ -103,6 +104,57 @@
       "descriptions": [
         "Active: Gnar throws a boomerang in a line in the target direction that deals physical damage and  slows enemies hit for 2 seconds. The boomerang returns towards Gnar in a fixed line after reaching its maximum range or hitting an enemy, dealing 50% damage to subsequent targets.",
         "Each enemy can only be hit once. Catching the boomerang while it is returning back refunds 40% of its  maximum cooldown."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 5,
+              "ratio": 115,
+              "ratioType": "ad"
+            },
+            {
+              "base": 45,
+              "ratio": 115,
+              "ratioType": "ad"
+            },
+            {
+              "base": 85,
+              "ratio": 115,
+              "ratioType": "ad"
+            },
+            {
+              "base": 125,
+              "ratio": 115,
+              "ratioType": "ad"
+            },
+            {
+              "base": 165,
+              "ratio": 115,
+              "ratioType": "ad"
+            }
+          ],
+          "flatValues": [
+            5,
+            45,
+            85,
+            125,
+            165
+          ],
+          "ratios": [
+            {
+              "value": 115,
+              "type": "ad"
+            }
+          ]
+        },
+        {
+          "type": "",
+          "abilityRanks": [],
+          "flatValues": [],
+          "ratios": []
+        }
       ]
     },
     {
@@ -155,6 +207,67 @@
       "descriptions": [
         "Passive: Every  third attack or ability on the same target within 3.5 seconds deals bonus magic damage and grants Gnar 30 / 45 / 60 / 75% (based on  GNAR!'s rank)  bonus movement speed that decays over 3 seconds. The damage is capped at 300 (+ 100% AP) against  monsters.",
         "Gnar gains Hyper's  bonus movement speed when he leaves  Mega form."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 10,
+              "ratio": 6,
+              "ratioType": "maximum health"
+            },
+            {
+              "base": 20,
+              "ratio": 8,
+              "ratioType": "maximum health"
+            },
+            {
+              "base": 30,
+              "ratio": 10,
+              "ratioType": "maximum health"
+            },
+            {
+              "base": 40,
+              "ratio": 12,
+              "ratioType": "maximum health"
+            },
+            {
+              "base": 50,
+              "ratio": 14,
+              "ratioType": "maximum health"
+            }
+          ],
+          "flatValues": [
+            10,
+            20,
+            30,
+            40,
+            50
+          ],
+          "ratios": [
+            {
+              "value": 6,
+              "type": "maximum health"
+            },
+            {
+              "value": 8,
+              "type": "maximum health"
+            },
+            {
+              "value": 10,
+              "type": "maximum health"
+            },
+            {
+              "value": 12,
+              "type": "maximum health"
+            },
+            {
+              "value": 14,
+              "type": "maximum health"
+            }
+          ]
+        }
       ]
     },
     {
@@ -197,7 +310,8 @@
         "If Gnar lands on a unit he will  bounce 525 units further in the same direction.",
         "Landing on an enemy deals them physical damage and  slows them by 80% for 0.5 seconds.",
         "Gnar will not bounce if he's  immobilized during the first leap."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "GNAR!",
@@ -239,7 +353,8 @@
         " Mini Gnar - Passive: Increases  Hyper's  bonus movement speed.",
         " Mega Gnar - Active: Gnar  knocks back nearby enemies up to 590 units in the target direction, dealing physical damage and  slowing them by 45% after a 0.4-second delay.",
         "Enemies that collide with terrain take  50% bonus damage instantly and are  stunned instead of  slowed."
-      ]
+      ],
+      "damageEffects": null
     }
   ],
   "id": "Gnar",

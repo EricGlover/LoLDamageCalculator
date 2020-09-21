@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Periodically, Yuumi's next basic attack against an enemy  champion becomes  unstoppable, gains  50 bonus range and becomes a  non-projectile. This attack restores 25 − 100 (based on level) (+ 8% maximum mana)  mana and grants her a 60 −  400 (based on level) (+ 30% AP)  shield that lasts until it is broken.",
       "While  attached, the shield transfers to her Anchor."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Prowling Projectile",
@@ -74,6 +75,57 @@
       "Active: Yuumi fires an errant missile in the target direction that deals magic damage to the first enemy hit.",
       "If the missile is in flight for 1 second, it deals increased magic damage, and  slows enemy  champions struck by 20% for 1 second.",
       "While  attached, Yuumi instead directs the trajectory of the missile using the cursor for up to 2 seconds before fizzling, during which she and the Anchor can see the effective range. This cannot be done while channeling  Final Chapter."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 40,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 70,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 100,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 130,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 160,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 190,
+            "ratio": 30,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          40,
+          70,
+          100,
+          130,
+          160,
+          190
+        ],
+        "ratios": [
+          {
+            "value": 30,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -136,7 +188,8 @@
       "Active: After a 0.25-second  channel, Yuumi  dashes to the target allied champion and  attaches to them. This dash is  interrupted by  immobilizing effects. While attached, Yuumi follows her Anchor's movement, is  untargetable (except from  turrets and in-flight  projectiles targeting her), and casts her spells from the Anchor's position. The cooldown starts ticking down upon completing the  channel. You and Me! can be recast after 0.5 seconds of the attachment.",
       "Recast: Yuumi can switch her Anchor at no cooldown, and will detach automatically if her Anchor dies or under certain circumstances. If recast without a valid target, Yuumi will detach from her Anchor and dash 250 units in the target direction, putting the ability on cooldown.",
       "You and Me! is placed on a 5-second cooldown if Yuumi is  immobilized or  grounded."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Zoomies",
@@ -186,7 +239,8 @@
     "descriptions": [
       "Active: Yuumi  heals herself and gains 15% (+ 10% per 100 AP)  bonus movement speed and  bonus attack speed for 3 seconds.",
       "While  attached, the Anchor is affected by the ability instead."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Final Chapter",
@@ -249,6 +303,14 @@
     ],
     "descriptions": [
       "Active: Yuumi and Book  channel for 3.5 seconds, launching 7 waves in the target direction over the duration each dealing magic damage. Enemy  champions hit take only 50% damage from subsequent waves, and when struck with three waves, they are  rooted for 1.75 seconds, this can only occur once per target."
+    ],
+    "damageEffects": [
+      {
+        "type": "",
+        "abilityRanks": [],
+        "flatValues": [],
+        "ratios": []
+      }
     ]
   }
 ]

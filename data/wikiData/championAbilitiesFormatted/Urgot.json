@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Urgot's six legs each conceal a shotgun that covers an arc, together forming a full circle of cover around him. Each shotgun has one shell and an individual reload timer.",
       "The next basic attack on-hit in the direction and range of a loaded shotgun causes it to fire, instantly dealing 40% − 100% (based on level) AD (+ 2% − 6% (based on level) of target's maximum health) physical damage to enemies in a cone, up to 60 − 360 (based on level) against  monsters."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Corrosive Charge",
@@ -69,6 +70,51 @@
     ],
     "descriptions": [
       "Active: Urgot launches a canister at the target location that explodes 0.3 seconds after it lands, dealing physical damage and  slowing all enemies hit for 1.25 seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 25,
+            "ratio": 70,
+            "ratioType": "ad"
+          },
+          {
+            "base": 70,
+            "ratio": 70,
+            "ratioType": "ad"
+          },
+          {
+            "base": 115,
+            "ratio": 70,
+            "ratioType": "ad"
+          },
+          {
+            "base": 160,
+            "ratio": 70,
+            "ratioType": "ad"
+          },
+          {
+            "base": 205,
+            "ratio": 70,
+            "ratioType": "ad"
+          }
+        ],
+        "flatValues": [
+          25,
+          70,
+          115,
+          160,
+          205
+        ],
+        "ratios": [
+          {
+            "value": 70,
+            "type": "ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -127,7 +173,8 @@
       "Attacks with Purge deal modified damage, with a minimum threshold of 50 against  minions. On-hit damage is only 50% and the attacks cannot  critically strike.",
       "Recast: Urgot ends Purge early.",
       "At maximum rank, Purge lasts indefinitely and becomes a toggled ability."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Disdain",
@@ -169,7 +216,7 @@
         "value": [
           15
         ],
-        "type": ""
+        "type": null
       }
     ],
     "castTime": 0.45,
@@ -185,7 +232,8 @@
       "Active: Urgot  shields himself for 4 seconds.",
       "After the cast time, Urgot  dashes in the target direction, though not through terrain, dealing physical damage to all enemies in the way and  knocking them aside.",
       "Urgot comes to a stop upon colliding with an enemy champion,  stunning them for 1.5 seconds and, after 0.25 seconds, also  flinging them to the location 100 units behind him over 0.5 seconds."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Fear Beyond Death",
@@ -236,6 +284,33 @@
       "Recast: Urgot launches chains at the target, then starts  channeling once they latch on,  suppressing them,  revealing them, and pushing them up to 1000 units away based on Urgot's proximity to them, after which they're reeled in over 1.5 seconds, during which they are  untargetable and  invulnerable to damage from other sources. This channel cannot be  interrupted by  crowd control.",
       "If the channel is successful, the target is  executed and surrounding enemies are  feared for 1.5 seconds,  slowing them by 75%.",
       "Fear Beyond Death's recast can be used while affected by  crowd control."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 100,
+            "ratio": 50,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 162,
+            "ratio": 50,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          100,
+          162
+        ],
+        "ratios": [
+          {
+            "value": 50,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   }
 ]

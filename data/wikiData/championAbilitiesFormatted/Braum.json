@@ -25,7 +25,8 @@
       "Innate: Braum's basic attacks and  Winter's Bite each apply Concussive Blows to his target for 4 seconds, stacking up to 4 times, refreshing with each application. Once the first stack has been applied, any allied champion's basic attack on the target generates an additional stack.",
       "At 4 stacks, Concussive Blows is consumed to  stun the target for 1.25 − 1.75 (based on level) seconds and deal 26 − 196 (based on level) magic damage.",
       "This effect cannot occur on the same target more than once every few seconds, but during this immunity period, affected targets instead take「 20% of the trigger damage as bonus magic damage 」「 5.2 − 39.2 (based on level) bonus magic damage 」 from Braum's basic attacks and  Winter's Bite."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Winter's Bite",
@@ -74,6 +75,51 @@
     ],
     "descriptions": [
       "Active: Braum propels ice from his shield in the target direction, dealing magic damage to the first enemy hit and  slowing them by 70% decaying over 2 seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 60,
+            "ratio": 2.5,
+            "ratioType": "maximum health"
+          },
+          {
+            "base": 110,
+            "ratio": 2.5,
+            "ratioType": "maximum health"
+          },
+          {
+            "base": 160,
+            "ratio": 2.5,
+            "ratioType": "maximum health"
+          },
+          {
+            "base": 210,
+            "ratio": 2.5,
+            "ratioType": "maximum health"
+          },
+          {
+            "base": 260,
+            "ratio": 2.5,
+            "ratioType": "maximum health"
+          }
+        ],
+        "flatValues": [
+          60,
+          110,
+          160,
+          210,
+          260
+        ],
+        "ratios": [
+          {
+            "value": 2.5,
+            "type": "maximum health"
+          }
+        ]
+      }
     ]
   },
   {
@@ -139,7 +185,8 @@
       "Active: Braum  dashes to the target ally's location, positioning himself between their location and the closest enemy champion, and granting himself and the ally  bonus armor and  bonus magic resistance for 3 seconds.",
       "Stand Behind Me can be self cast to instantly grant Braum the bonus resistances.",
       " Unbreakable can be cast while  dashing."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Unbreakable",
@@ -183,7 +230,8 @@
       "Active: Braum raises his shield in the target direction for a few seconds, creating a barrier that intercepts incoming enemy  projectiles and reduces the damage Braum takes through the shield. The first instance of damage blocked by his shield is negated completely.",
       "While his shield is raised, Braum also gains  10% bonus movement speed and is  ghosted.",
       "Unbreakable has no effect on  turret shots."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Glacial Fissure",
@@ -232,6 +280,51 @@
       "Active: Braum leaps into the air and slams his shield into the ground, creating a fissure in the target direction that deals magic damage to enemies as well as those around him.",
       "The first target hit is  knocked up for at least 0.3 seconds, increased if they are further away from Braum. All other enemies hit are  knocked up for 0.3 seconds.",
       "A field of ice then remains at the fissure's location for 4 seconds,  slowing enemies within every 0.25 seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 150,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 225,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 300,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 375,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 450,
+            "ratio": 60,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          150,
+          225,
+          300,
+          375,
+          450
+        ],
+        "ratios": [
+          {
+            "value": 60,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   }
 ]

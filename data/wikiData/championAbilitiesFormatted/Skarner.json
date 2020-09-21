@@ -27,7 +27,8 @@
       "Crystal Spires grant  30 gold split among its captors upon being captured, or  15 gold if only a single champion participated in its capture, and provide  sight around them for 1.5 seconds upon being captured, becoming unable to be recaptured for 15 seconds.",
       "Skarner gains Crystal Charge while within range of a Crystal Spire controlled by his team, for 1.25 seconds after triggering  Crystal Venom, or for 1.75 seconds after stinging an enemy champion with  Impale.",
       "Crystal Charge: Skarner gains 70 − 120 (based on level)  bonus movement speed, 43% − 160% (based on level)  bonus attack speed and restores  1% maximum mana every 0.5 seconds."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Crystal Slash",
@@ -75,6 +76,33 @@
       "Active: Skarner slashes around himself, dealing physical damage to all surrounding enemies.",
       "If an enemy is hit, subsequent uses of Crystal Slash within 5 seconds deal bonus magic damage.",
       "Basic attacks against non-structures reduce Crystal Slash's  cooldown by 0.25 seconds, quadrupled to 1 against enemy champions."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 1,
+            "ratio": 20,
+            "ratioType": "ad"
+          },
+          {
+            "base": 1,
+            "ratio": 20,
+            "ratioType": "ad"
+          }
+        ],
+        "flatValues": [
+          1,
+          1
+        ],
+        "ratios": [
+          {
+            "value": 20,
+            "type": "ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -120,7 +148,8 @@
     ],
     "descriptions": [
       "Active: Skarner crystallizes himself, gaining a  shield for up to 6 seconds and initial  bonus movement speed that accelerates by 100% over 3 seconds while the shield holds."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Fracture",
@@ -170,6 +199,51 @@
       "Passive: Every time Skarner triggers  Crystal Venom or stings an enemy with  Impale, Fracture's  cooldown is reduced by the corresponding base duration of the disable.",
       "Active: Skarner launches a blast of crystalline energy in the target direction, dealing magic damage to all enemies struck and  slowing them for 2.5 seconds, as well as marking them with  Crystal Venom for 5 seconds.",
       "Skarner's next basic attack against a target marked with  Crystal Venom consumes the mark to deal them bonus physical damage and  stun them for 1.25 seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 40,
+            "ratio": 20,
+            "ratioType": "ap"
+          },
+          {
+            "base": 65,
+            "ratio": 20,
+            "ratioType": "ap"
+          },
+          {
+            "base": 90,
+            "ratio": 20,
+            "ratioType": "ap"
+          },
+          {
+            "base": 115,
+            "ratio": 20,
+            "ratioType": "ap"
+          },
+          {
+            "base": 140,
+            "ratio": 20,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          40,
+          65,
+          90,
+          115,
+          140
+        ],
+        "ratios": [
+          {
+            "value": 20,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -229,6 +303,51 @@
       "Active: Skarner  roots the target enemy  champion during the ability's cast time and attempts to impale them with his stinger. Upon successfully impaling the target, he deals them 60% AD physical damage and bonus magic damage, and  reveals and  suppresses them for 1.75 seconds, during which he can drag his victim with himself. At the end of the duration, the target takes the same damage again.",
       "Impale pierces through  displacement immunity, dragging them out.*",
       "During the ability Skarner is locked out from basic attacking, casting  Fracture, or using  Flash."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 20,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 40,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 60,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 80,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 100,
+            "ratio": 50,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          20,
+          40,
+          60,
+          80,
+          100
+        ],
+        "ratios": [
+          {
+            "value": 50,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   }
 ]

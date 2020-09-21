@@ -26,7 +26,8 @@
       "Innate: When LeBlanc reaches  below 40% maximum health, she creates a controllable  clone of herself, after which they both instantly become  invisible for 1 second.",
       "The clone can basic attack but deals no damage, lasts for 8 seconds, and starts running 1900 units towards a random place in front of LeBlanc decided the moment it spawns.",
       "Mirror Image can only occur once every few seconds."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Sigil of Malice",
@@ -73,6 +74,51 @@
     "descriptions": [
       "Active: LeBlanc projects an orb at the target enemy, dealing magic damage and marking them for 3.5 seconds.",
       "The mark will be  consumed once LeBlanc damages the marked target with an ability, dealing the same damage again."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 55,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 80,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 105,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 130,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 155,
+            "ratio": 40,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          55,
+          80,
+          105,
+          130,
+          155
+        ],
+        "ratios": [
+          {
+            "value": 40,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -124,6 +170,51 @@
     "descriptions": [
       "Active: LeBlanc  dashes to the target location, dealing magic damage to all nearby enemies upon arrival and leaving a return pad at the cast location for 4 seconds. Distortion can be recast after 0.2 seconds of the dash's completion.",
       "Recast: LeBlanc  blinks to Distortion's return pad, regardless of range."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 75,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 115,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 155,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 195,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 235,
+            "ratio": 60,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          75,
+          115,
+          155,
+          195,
+          235
+        ],
+        "ratios": [
+          {
+            "value": 60,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -171,6 +262,51 @@
     "descriptions": [
       "Active: LeBlanc flings an illusory chain in the target direction, dealing magic damage to the first enemy it hits and  tethering LeBlanc to them for 1.5 seconds.",
       "The target is  revealed while the tether persists, and if it is not broken until the end of its duration they will be  revealed and  rooted for 1.5 seconds and dealt magic damage."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 40,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 60,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 80,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 100,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 120,
+            "ratio": 30,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          40,
+          60,
+          80,
+          100,
+          120
+        ],
+        "ratios": [
+          {
+            "value": 30,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -233,6 +369,51 @@
       " Mimic Sigil of Malice: Deals modified damage and double damage upon triggering the mark.",
       " Mimic Distortion: Deals modified damage.",
       " Mimic Ethereal Chains: Deals modified damage and double damage upon rooting."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 105,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 140,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 175,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 210,
+            "ratio": 40,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          70,
+          105,
+          140,
+          175,
+          210
+        ],
+        "ratios": [
+          {
+            "value": 40,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   }
 ]

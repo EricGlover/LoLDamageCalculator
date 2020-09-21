@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Shaco's basic attacks deal 10 − 25 (based on level) (+ 15% bonus AD) bonus physical damage when striking a non- structure from behind. This damage can  critically strike.",
       " Deceive and  Two-Shiv Poison also have additional effects when striking an enemy from behind."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Deceive",
@@ -66,7 +67,8 @@
       "After exiting invisibility, his next basic attack within 0.25 seconds deals bonus physical damage. This damage can  critically strike.",
       "Deceive's  invisibility breaks when Shaco uses a basic attack or casts  Two-Shiv Poison, but not from casting  Hallucinate. Casting  Jack in the Box causes Shaco to shimmer instead, revealing his position to enemies.",
       " Backstab: Guarantees the basic attack to  critically strike for (30% +  25%) bonus physical damage."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Jack in the Box",
@@ -108,7 +110,8 @@
       "Enemies that come or are near the box will cause it to trigger, causing them to turn and  flee for 2 seconds, reduced against champions, who are also  rooted for 0.5 seconds. While fleeing, enemy  champions are set to a static 100  movement speed, reduced to a static 60 for  minions and  monsters.",
       "Once triggered, the box will also become targetable and automatically start firing every 0.5 seconds at all nearby  visible enemies, dealing magic damage with each attack, reduced by 50% against  structures. If the box attacks only one unit, it deals increased damage.",
       "The box stays active for 5 seconds or until destroyed, independently from its remaining inactive duration."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Two-Shiv Poison",
@@ -146,7 +149,8 @@
       "Passive: Shaco's basic attacks  slow enemies for 2 seconds while Two-Shiv Poison is off cooldown.",
       "Active: Shaco throws a dagger at the target enemy,  slowing them for 3 seconds and dealing magic damage,  increased by 50% against targets below 30% of their maximum health.",
       " Backstab: Deals an additional 15 − 50 (based on level) (+ 10% AP) bonus magic damage, increased to 22.5 − 75 (based on level) (+ 15% AP) when the target is below 30% of their maximum health."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Hallucinate",
@@ -196,6 +200,33 @@
       "Recast: While the Hallucination is active, Hallucinate can be used to move it to the target location or attack a enemy unit on the cursor.",
       "When the Hallucination dies or expires, it explodes, dealing magic damage to enemy units around it and leaving three  mini-boxes behind which activate instantly, causing nearby enemies to  flee for 1 second.",
       "The three boxes possess Jack in the Box's effects, except they have a doubled, but shared  health, and deal modified magic damage with each attack, increased if attacking a single unit."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 150,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 187,
+            "ratio": 70,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          150,
+          187
+        ],
+        "ratios": [
+          {
+            "value": 70,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   }
 ]

@@ -24,7 +24,8 @@
       "levelings": [],
       "descriptions": [
         "Innate: Morgana  heals herself equal to 20% of ability damage dealt to  champions, large  minions, and large  monsters."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Dark Binding",
@@ -69,6 +70,51 @@
       ],
       "descriptions": [
         "Active: Morgana releases a sphere of dark magic that travels in the target direction, dealing magic damage to the first enemy hit and  rooting them for a duration."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 90,
+              "ratioType": "ap"
+            },
+            {
+              "base": 135,
+              "ratio": 90,
+              "ratioType": "ap"
+            },
+            {
+              "base": 190,
+              "ratio": 90,
+              "ratioType": "ap"
+            },
+            {
+              "base": 245,
+              "ratio": 90,
+              "ratioType": "ap"
+            },
+            {
+              "base": 300,
+              "ratio": 90,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            80,
+            135,
+            190,
+            245,
+            300
+          ],
+          "ratios": [
+            {
+              "value": 90,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -133,7 +179,8 @@
       "descriptions": [
         "Active: Morgana infects the target area for 5 seconds, causing enemies within to take magic damage every half second, increased by 0% − 170% (based on target's missing health). The first tick of damage is dealt instantly to enemies in the area at the time of cast. The total damage is increased by 50% against non-epic monsters.",
         "Tormented Shadow's current  cooldown is reduced by 5% of its maximum whenever  Soul Siphon triggers. Simultaneous triggers from multiple targets will stack the cooldown reduction."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Black Shield",
@@ -178,6 +225,14 @@
       ],
       "descriptions": [
         "Active: Morgana  shields the target allied  champion or herself for up to 5 seconds, which absorbs magic damage and grants  crowd control immunity while the shield holds."
+      ],
+      "damageEffects": [
+        {
+          "type": "",
+          "abilityRanks": [],
+          "flatValues": [],
+          "ratios": []
+        }
       ]
     },
     {
@@ -233,6 +288,76 @@
         "The tethers maintain at range for 3 seconds,  revealing affected enemies and  slowing them by 20%. Additionally, Morgana gains bonus movement speed when moving towards them.",
         "When the duration ends, tethered targets are  revealed and  stunned for 1.5 seconds and dealt the same magic damage again.",
         "Soul Shackles does not require  sight of targets to be cast and tether to them."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 150,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 187,
+              "ratio": 70,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            150,
+            187
+          ],
+          "ratios": [
+            {
+              "value": 70,
+              "type": "ap"
+            }
+          ]
+        },
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 300,
+              "ratio": 140,
+              "ratioType": "ap"
+            },
+            {
+              "base": 375,
+              "ratio": 140,
+              "ratioType": "ap"
+            },
+            {
+              "base": 450,
+              "ratio": 140,
+              "ratioType": "ap"
+            },
+            {
+              "base": 525,
+              "ratio": 140,
+              "ratioType": "ap"
+            },
+            {
+              "base": 600,
+              "ratio": 140,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            300,
+            375,
+            450,
+            525,
+            600
+          ],
+          "ratios": [
+            {
+              "value": 140,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     }
   ],

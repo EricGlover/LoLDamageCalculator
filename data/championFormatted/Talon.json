@@ -25,7 +25,8 @@
       "descriptions": [
         "Innate: Talon's damaging abilities wound enemy  champions and large  monsters, lasting 6 seconds and stacking up to 3 times. Basic attacks refresh the duration on-hit.",
         "Talon's next basic attack against a target with 3 wound stacks will consume them, causing the target to bleed for 75 − 245 (based on level) (+ 200% bonus AD) physical damage over 2 seconds, with each tick occurring every 0.125 seconds. The total damage is increased by 20% against monsters."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Noxian Diplomacy",
@@ -79,6 +80,70 @@
         "If Noxian Diplomacy kills the target, Talon  heals for 10 − 70 (based on level) and 50% of its  cooldown is refunded.",
         "The stab version of Noxian Diplomacy  resets Talon's basic attack timer and increases the  range of his next basic attack within 1 second by 75.",
         "Noxian Diplomacy will cause Talon to automatically basic attack the target."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 65,
+              "ratio": 110,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 90,
+              "ratio": 110,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 115,
+              "ratio": 110,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 140,
+              "ratio": 110,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 165,
+              "ratio": 110,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            65,
+            90,
+            115,
+            140,
+            165
+          ],
+          "ratios": [
+            {
+              "value": 110,
+              "type": "bonus ad"
+            }
+          ]
+        },
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 97,
+              "ratio": 165,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            97
+          ],
+          "ratios": [
+            {
+              "value": 165,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -127,6 +192,51 @@
         "Active: Talon sends out a volley of daggers in the target direction, dealing physical damage to all enemies they pass through.",
         "The daggers then linger for 0.75 seconds before flying back to Talon, dealing physical damage to all enemies they pass through and  slowing them for 1 second.",
         "The traveling and returning pass each cannot affect the same enemy more than once."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 45,
+              "ratio": 40,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 60,
+              "ratio": 40,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 75,
+              "ratio": 40,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 90,
+              "ratio": 40,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 105,
+              "ratio": 40,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            45,
+            60,
+            75,
+            90,
+            105
+          ],
+          "ratios": [
+            {
+              "value": 40,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -154,7 +264,8 @@
       "descriptions": [
         "Active: Talon  dashes a maximum of 800 units over the target structure or piece of terrain, with the dash's speed based on his own  movement speed.",
         "Talon cannot cast Assassin's Path on the same area of terrain for a set duration."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Shadow Assault",
@@ -207,6 +318,76 @@
         "Active: Talon disperses a ring of blades, dealing physical damage to all enemies hit, while gaining  invisibility and  bonus movement speed for up to 2.5 seconds. Shadow Assault can be recast after 1 second.",
         "When Talon emerges from invisibility, the blades converge to his location, dealing the same physical damage to all enemies they pass through. Breaking invisibility with a basic attack or  Noxian Diplomacy causes the blades to converge to his target instead.",
         "Recast: Talon ends Shadow Assault early."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 90,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 112,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            90,
+            112
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "bonus ad"
+            }
+          ]
+        },
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 180,
+              "ratio": 200,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 225,
+              "ratio": 200,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 270,
+              "ratio": 200,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 315,
+              "ratio": 200,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 360,
+              "ratio": 200,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            180,
+            225,
+            270,
+            315,
+            360
+          ],
+          "ratios": [
+            {
+              "value": 200,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     }
   ],

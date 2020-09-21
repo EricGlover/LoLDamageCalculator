@@ -24,7 +24,8 @@
       "levelings": [],
       "descriptions": [
         "Innate: Ezreal's abilities generate a stack of Rising Spell Force whenever they hit an enemy, stacking up to 5 times and lasting for 6 seconds, refreshing on subsequent ability hits. Each stack grants him  10% bonus attack speed, up to 50% at maximum stacks."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Mystic Shot",
@@ -80,6 +81,51 @@
       "descriptions": [
         "Active: Ezreal fires a bolt of energy in a line in the target direction, dealing physical damage to the first enemy hit, applying on-hit and on-attack effects and healing off  life steal instead of  spell vamp.",
         "If Mystic Shot successfully hits an enemy, Ezreal's abilities'  cooldowns are reduced by 1.5 seconds (including Mystic Shot's)."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 20,
+              "ratio": 120,
+              "ratioType": "ad"
+            },
+            {
+              "base": 45,
+              "ratio": 120,
+              "ratioType": "ad"
+            },
+            {
+              "base": 70,
+              "ratio": 120,
+              "ratioType": "ad"
+            },
+            {
+              "base": 95,
+              "ratio": 120,
+              "ratioType": "ad"
+            },
+            {
+              "base": 120,
+              "ratio": 120,
+              "ratioType": "ad"
+            }
+          ],
+          "flatValues": [
+            20,
+            45,
+            70,
+            95,
+            120
+          ],
+          "ratios": [
+            {
+              "value": 120,
+              "type": "ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -133,6 +179,51 @@
         "Active: Ezreal fires an orb in the target direction that sticks to first enemy  champion,  epic monster, or structure hit for 4 seconds.",
         "Hitting the target with a damaging ability or basic attack detonates the orb, dealing magic damage.",
         "Detonating with an ability fully refunds the cost of that ability and restores  60 mana."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 135,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 190,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 245,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 300,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            80,
+            135,
+            190,
+            245,
+            300
+          ],
+          "ratios": [
+            {
+              "value": 60,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -186,6 +277,51 @@
         "Active: Ezreal  blinks to the target location, firing a homing bolt that deals magic damage to the nearest enemy and briefly  reveals them upon arrival.",
         "Arcane Shift prioritizes targets hit by  Essence Flux.",
         "The bolt fires at the target regardless of having  sight of them or not."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 50,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 130,
+              "ratio": 50,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 180,
+              "ratio": 50,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 230,
+              "ratio": 50,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 280,
+              "ratio": 50,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            80,
+            130,
+            180,
+            230,
+            280
+          ],
+          "ratios": [
+            {
+              "value": 50,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -236,6 +372,51 @@
       "descriptions": [
         "Active: Ezreal fires a wide energy projectile in the target direction, which briefly  reveals the area it flies through and deals magic damage to enemies it passes through.",
         " Minions and non-epic  monsters take 50% reduced damage."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 350,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 425,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 500,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 575,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 650,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            350,
+            425,
+            500,
+            575,
+            650
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     }
   ],

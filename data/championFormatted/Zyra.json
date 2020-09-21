@@ -26,7 +26,8 @@
         "Innate: Zyra periodically spawns one or two Seeds nearby that last for 30 seconds, briefly granting  sight over the surrounding area.",
         "After at least 1 second, enemy  champions can destroy Seeds by stepping on them.",
         "Zyra can only have a total of 8 Seeds planted at a time, preserving placed Seeds over those spawned by Garden of Thorns."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Deadly Spines",
@@ -72,6 +73,51 @@
       "descriptions": [
         "Active: Zyra sprouts thorny spines at the target location that appear after a 0.625-seconds delay, dealing magic damage to all enemies they hit.",
         "If Deadly Spines hits a Seed, it sprouts into a  Thorn Spitter, which remains on the battlefield for 8 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 60,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 95,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 130,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 165,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 200,
+              "ratio": 60,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            60,
+            95,
+            130,
+            165,
+            200
+          ],
+          "ratios": [
+            {
+              "value": 60,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -100,7 +146,8 @@
         "Passive: Zyra periodically stores a Seed, up to 2. Killing an enemy unit grants 20% charge toward a Seed, increased to 100% for large enemy units killed and enemy  champion  takedowns.",
         "Active: Zyra plants a Seed at the target location, which lasts for 60 seconds and briefly grants  sight of the spot Zyra planted it in.",
         "After 1.5 seconds, enemy champions can destroy Seeds by stepping on them, but doing so  reveals them for 2 seconds."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Grasping Roots",
@@ -146,6 +193,51 @@
       "descriptions": [
         "Active: Zyra sends a surge of vines in the target direction, dealing magic damage to all enemies hit and  rooting them for a short duration.",
         "If Grasping Roots hits a Seed, it sprouts into a  Vine Lasher, which remains on the battlefield for 8 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 60,
+              "ratio": 50,
+              "ratioType": "ap"
+            },
+            {
+              "base": 105,
+              "ratio": 50,
+              "ratioType": "ap"
+            },
+            {
+              "base": 150,
+              "ratio": 50,
+              "ratioType": "ap"
+            },
+            {
+              "base": 195,
+              "ratio": 50,
+              "ratioType": "ap"
+            },
+            {
+              "base": 240,
+              "ratio": 50,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            60,
+            105,
+            150,
+            195,
+            240
+          ],
+          "ratios": [
+            {
+              "value": 50,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -193,6 +285,33 @@
         "Active: Zyra summons a monstrous thicket at the target location, dealing magic damage to all enemies in the area as it expands.",
         "After 2 seconds, the vines snap upward,  knocking up all enemies caught in the thicket for 1 second.",
         " Plants hit by the thicket are enraged, restoring  50% of their current health, increasing their  maximum health by 50%, gaining 25% increased size and refreshing their duration while the thicket expands. Additionally they attack in a flurry, launching two shots per attack, dealing 「 150% damage per flurry. 」「 75% damage per shot. 」"
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 180,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 222,
+              "ratio": 70,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            180,
+            222
+          ],
+          "ratios": [
+            {
+              "value": 70,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     }
   ],

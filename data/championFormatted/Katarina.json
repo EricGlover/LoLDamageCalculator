@@ -27,7 +27,8 @@
         "Innate: Whenever an enemy champion dies within 3 seconds of Katarina damaging them, her abilities' current  cooldowns are reduced by 15 seconds.",
         "Innate - Sinister Steel: Whenever Katarina retrieves a Dagger, she uses it to slash through all nearby enemies, dealing 68 − 240 (based on level) (+ 100% bonus AD) (+ 55 / 66 / 77 / 88% (based on level) AP)  magic damage and reducing  Shunpo's current  cooldown by 78 / 84 / 90 / 96% (based on level).",
         "Daggers take 1 second to land, and will disappear after being on the ground for 4 seconds."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Bouncing Blade",
@@ -74,6 +75,51 @@
         "Active: Katarina throws a Dagger at the target enemy that bounces to up to 2 nearby enemies, dealing magic damage to each target.",
         "The Dagger then lands on the ground 350 units opposite from where it struck the target.",
         "The Dagger bounces to targets regardless of having  sight of them or not."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 75,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 105,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 135,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 165,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 195,
+              "ratio": 30,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            75,
+            105,
+            135,
+            165,
+            195
+          ],
+          "ratios": [
+            {
+              "value": 30,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -112,7 +158,8 @@
       ],
       "descriptions": [
         "Active: Katarina tosses a Dagger into the air above her current location, gaining  ghosting and a decaying  bonus movement speed until it lands after 1.25 seconds."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Shunpo",
@@ -165,6 +212,51 @@
         "Active: Katarina instantly  blinks to the target location around the target non- ward unit or Dagger, dealing magic damage to the nearest enemy in range.",
         "Shunpo  resets Katarina's basic attack timer.",
         "Upon blinking, Katarina remains unable to act via a cast time for 0.15 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 15,
+              "ratio": 50,
+              "ratioType": "ad"
+            },
+            {
+              "base": 30,
+              "ratio": 50,
+              "ratioType": "ad"
+            },
+            {
+              "base": 45,
+              "ratio": 50,
+              "ratioType": "ad"
+            },
+            {
+              "base": 60,
+              "ratio": 50,
+              "ratioType": "ad"
+            },
+            {
+              "base": 75,
+              "ratio": 50,
+              "ratioType": "ad"
+            }
+          ],
+          "flatValues": [
+            15,
+            30,
+            45,
+            60,
+            75
+          ],
+          "ratios": [
+            {
+              "value": 50,
+              "type": "ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -227,6 +319,14 @@
       "descriptions": [
         "Active: Katarina rapidly  spins in place for 2.5 seconds, throwing a dagger every 0.166 seconds to up to 3 nearby enemy  champions, dealing magic damage and  grievously wounding them by 60% for 3 seconds.",
         "A nearby enemy champion is required to cast this ability. Katarina does not need to have  sight of the target to hit them, and she will prioritize the closest ones."
+      ],
+      "damageEffects": [
+        {
+          "type": "",
+          "abilityRanks": [],
+          "flatValues": [],
+          "ratios": []
+        }
       ]
     }
   ],

@@ -24,7 +24,8 @@
       "levelings": [],
       "descriptions": [
         "Innate: Whenever Cho'Gath kills an enemy unit or destroys an enemy structure, he  heals for 20 − 71 (based on level) and restores  3.5 − 7.75 (based on level) mana."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Rupture",
@@ -65,6 +66,51 @@
       ],
       "descriptions": [
         "Active: Cho'Gath gains  sight of the target area which, after a 0.627 seconds delay, he makes rupture dealing magic damage and  knocking up enemies within for 1 second, then  slowing them by 60% for 1.5 seconds afterwards."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 135,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 190,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 245,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 300,
+              "ratio": 100,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            80,
+            135,
+            190,
+            245,
+            300
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -116,6 +162,51 @@
       "descriptions": [
         "Active: Cho'Gath roars in the target direction, dealing magic damage to enemies in a cone.",
         "Enemy  champions and  Rift Scuttlers hit are also  silenced for a duration."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 75,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 125,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 175,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 225,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 275,
+              "ratio": 70,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            75,
+            125,
+            175,
+            225,
+            275
+          ],
+          "ratios": [
+            {
+              "value": 70,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -161,7 +252,7 @@
             20,
             20
           ],
-          "type": ""
+          "type": null
         },
         {
           "value": [
@@ -180,7 +271,7 @@
             20,
             20
           ],
-          "type": ""
+          "type": null
         }
       ],
       "castTime": null,
@@ -194,6 +285,51 @@
       "descriptions": [
         "Active: Cho'Gath's next 3 basic attacks within 6 seconds have  50 bonus range and launch a volley of spikes in a line in the direction of the target, dealing magic damage and applying a decaying  slow over the next 1.5 seconds to enemies hit.",
         "Vorpal Spikes  resets Cho'Gath's basic attack timer."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 22,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 37,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 52,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 67,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 82,
+              "ratio": 30,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            22,
+            37,
+            52,
+            67,
+            82
+          ],
+          "ratios": [
+            {
+              "value": 30,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -228,7 +364,7 @@
           "value": [
             10
           ],
-          "type": ""
+          "type": null
         }
       ],
       "castTime": 0.25,
@@ -244,7 +380,8 @@
         "Active: Cho'Gath attempts to eat the target enemy, dealing  true damage. Against non-champions, the base damage is increased to 1000.",
         "If Feast kills its target, Cho'Gath gains a Feast stack. Only 6 stacks can be gained from non-epic  monsters or  minions.",
         "Each stack of Feast grants Cho'Gath  bonus health as well as  bonus attack range and increased size, capping at  75 bonus attack range and 100% increased size."
-      ]
+      ],
+      "damageEffects": null
     }
   ],
   "id": "Chogath",

@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Veigar gains a stack of Phenomenal Evil whenever he hits an enemy  champion with an ability, and 5 stacks whenever he scores a champion  takedown.",
       "Veigar gains  1 ability power for every stack of Phenomenal Evil."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Baleful Strike",
@@ -74,6 +75,51 @@
     "descriptions": [
       "Passive: Killing an enemy unit with Baleful Strike grants 1 stack of  Phenomenal Evil, doubled against large  minions and  monsters.",
       "Active: Veigar unleashes a bolt of dark energy in the target direction, dealing magic damage to the first two enemies hit."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 80,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 120,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 160,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 200,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 240,
+            "ratio": 60,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          80,
+          120,
+          160,
+          200,
+          240
+        ],
+        "ratios": [
+          {
+            "value": 60,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -131,6 +177,51 @@
     "descriptions": [
       "Active: Veigar calls a mass of dark matter to fall from the sky which lands after a 1 second delay to the target location, dealing magic damage to all enemies hit.",
       "Dark Matter's  cooldown is reduced by a percentage, scaling with  Phenomenal Evil."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 100,
+            "ratio": 100,
+            "ratioType": "ap"
+          },
+          {
+            "base": 150,
+            "ratio": 100,
+            "ratioType": "ap"
+          },
+          {
+            "base": 200,
+            "ratio": 100,
+            "ratioType": "ap"
+          },
+          {
+            "base": 250,
+            "ratio": 100,
+            "ratioType": "ap"
+          },
+          {
+            "base": 300,
+            "ratio": 100,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          100,
+          150,
+          200,
+          250,
+          300
+        ],
+        "ratios": [
+          {
+            "value": 100,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -173,7 +264,8 @@
     ],
     "descriptions": [
       "Active: Veigar forms a cage around the target location which materializes after a 0.5 second delay and lasts for 3 seconds,  knocking down and  stunning all enemies who pass through its edges for the first time."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Primordial Burst",
@@ -224,6 +316,7 @@
     ],
     "descriptions": [
       "Active: Veigar blasts the target enemy champion with primordial energy, dealing magic damage to them, increased by 0% − 100% (based on target's missing health)."
-    ]
+    ],
+    "damageEffects": null
   }
 ]

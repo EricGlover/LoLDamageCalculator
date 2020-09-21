@@ -27,7 +27,8 @@
       "Killing an enemy that is ablazed restores  20 − 40 (based on level) mana.",
       "After reaching 3 stacks on  large monsters or enemy  champions, an area is marked around the target which grants  sight in its radius and explodes after 2 seconds, consuming all the stacks. All enemies struck are dealt 12% − 16% (based on level)「 (+ 1.5% per 100 AP) 」「 (+ 1% per 66 AP) 」 of their maximum health as magic damage and have a stack of Blaze applied to them. The explosion will still trigger if the target dies to the ability reaching 3 stacks or during the delay.",
       "Brand cannot stack Blaze more than once on enemies who have exploded in the past 4 seconds."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Sear",
@@ -73,6 +74,51 @@
     "descriptions": [
       "Active: Brand launches a fireball in the target direction that deals magic damage to the first enemy it hits.",
       " Blaze: The target is also  stunned for 1.5 seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 80,
+            "ratio": 55,
+            "ratioType": "ap"
+          },
+          {
+            "base": 110,
+            "ratio": 55,
+            "ratioType": "ap"
+          },
+          {
+            "base": 140,
+            "ratio": 55,
+            "ratioType": "ap"
+          },
+          {
+            "base": 170,
+            "ratio": 55,
+            "ratioType": "ap"
+          },
+          {
+            "base": 200,
+            "ratio": 55,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          80,
+          110,
+          140,
+          170,
+          200
+        ],
+        "ratios": [
+          {
+            "value": 55,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -124,6 +170,51 @@
     "descriptions": [
       "Active: After a 0.625-second delay, Brand erupts the target area in flames, dealing magic damage to enemies within.",
       " Blaze: Pillar of Flame deals 25% bonus damage."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 75,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 120,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 165,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 210,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 255,
+            "ratio": 60,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          75,
+          120,
+          165,
+          210,
+          255
+        ],
+        "ratios": [
+          {
+            "value": 60,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -175,6 +266,51 @@
       "Active: Brand sets the target enemy aflame, dealing magic damage.",
       " Blaze: Conflagration also spreads to all enemies around the target.",
       "Conflagration spreads to enemies regardless of having  sight of them or not."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 45,
+            "ratioType": "ap"
+          },
+          {
+            "base": 95,
+            "ratio": 45,
+            "ratioType": "ap"
+          },
+          {
+            "base": 120,
+            "ratio": 45,
+            "ratioType": "ap"
+          },
+          {
+            "base": 145,
+            "ratio": 45,
+            "ratioType": "ap"
+          },
+          {
+            "base": 170,
+            "ratio": 45,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          70,
+          95,
+          120,
+          145,
+          170
+        ],
+        "ratios": [
+          {
+            "value": 45,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -229,6 +365,39 @@
       "Pyroclasm prioritizes getting 3  Blaze stacks on an enemy, with enemy champions having the highest priority.",
       "The fireball bounces to targets regardless of having  sight of them or not.",
       " Blaze: Pyroclasm  slows enemies hit for 0.25 seconds. This can affect the same target more than once."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 100,
+            "ratio": 25,
+            "ratioType": "ap"
+          },
+          {
+            "base": 200,
+            "ratio": 25,
+            "ratioType": "ap"
+          },
+          {
+            "base": 300,
+            "ratio": 25,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          100,
+          200,
+          300
+        ],
+        "ratios": [
+          {
+            "value": 25,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   }
 ]

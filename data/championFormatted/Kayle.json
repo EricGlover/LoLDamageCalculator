@@ -29,7 +29,8 @@
         "Level 6 - Arisen:  Kayle becomes  ranged and gains  350 bonus attack range, for a total of  525.",
         "Level 11 - Aflame: While  Exalted, Kayle on-attack against non-structures additionally launches a wave of fire in the target's direction, dealing 15 − 35 (based on  Starfire Spellblade's Rank) (+ 10% bonus AD) (+ 25% AP) magic damage to enemies hit. The wave is affected by  critical strike modifiers.",
         "Level 16 - Transcendent: Kayle permanently has maximum stacks of  Zeal and gains  50 bonus attack range, for a total of  575."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Radiant Blast",
@@ -86,6 +87,51 @@
       "descriptions": [
         "Active: Kayle conjures a portal in front of her that faces the target direction. After a 0.25 second delay, a celestial sword launches forward from it.",
         "The sword explodes in a cross-like shape upon colliding with an enemy. Targets struck are dealt magic damage,  slowed for 2 seconds, and have their  armor and  magic resistance reduced by 15% for 4 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 60,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 100,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 140,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 180,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 220,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            60,
+            100,
+            140,
+            180,
+            220
+          ],
+          "ratios": [
+            {
+              "value": 60,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -139,7 +185,8 @@
       "descriptions": [
         "Active: Kayle and the target allied champion are  healed and gain bonus movement speed for 2 seconds.",
         "If cast without a valid target, or self-cast, Celestial Blessing will automatically target the closest allied champion in range, prioritizing the one with the least amount of  health."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Starfire Spellblade",
@@ -196,7 +243,8 @@
         "Active: Kayle kindles her blade, causing her next basic attack within 6 seconds to become  unstoppable and deal additional bonus magic damage based on the target's  missing health on-hit, capped at 400 against  monsters. This effect also grants her  525 range prior to ascending to Arisen.",
         "After ascending to Aflame, Starfire Spellblade is upgraded, causing the basic attack to explode around the target, dealing 100% AD physical damage (affected by  critical strike modifiers) to all enemies struck and applying on-hit effects to each.",
         "Starfire Spellblade  resets Kayle's basic attack timer."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Divine Judgment",
@@ -241,7 +289,8 @@
         "Active: At the start of the cast time, Kayle grants herself or the target allied champion  invulnerability for a few seconds, conjuring swords of holy fire, and highlighting the area around the target.",
         "Upon completing the cast time, the swords rain down, dealing magic damage in the highlighted area.",
         "Divine Judgment will prioritize casting on allies over Kayle."
-      ]
+      ],
+      "damageEffects": null
     }
   ],
   "id": "Kayle",

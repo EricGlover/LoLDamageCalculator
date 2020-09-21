@@ -25,7 +25,8 @@
       "descriptions": [
         "Innate: Azir periodically places a marker above the ruins of all destroyed  turrets outside the enemy base.",
         "Innate - Disc of the Sun: Azir can target a marker to construct the Sun Disc above the ruins, which functions like a standard inner turret but gains (15% AP)  bonus attack damage and grants Azir any kill it does. The Sun Disc's  health decays over 60 seconds and loses  100 armor if Azir dies or moves too far away."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Conquering Sands",
@@ -72,6 +73,51 @@
         "Active: Azir orders all Sand Soldiers to dash toward the target location, dealing magic damage to all enemies they pass through and  slowing them by 25% for 1 second.",
         "Enemies hit by subsequent soldiers are instead  slowed by an additional 25% per soldier.",
         "Conquering Sands will cast at max range if cast beyond that."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 70,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 90,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 110,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 130,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 150,
+              "ratio": 30,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            70,
+            90,
+            110,
+            130,
+            150
+          ],
+          "ratios": [
+            {
+              "value": 30,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -110,7 +156,8 @@
         "When Azir selects an enemy in a soldier's attack range, the Sand Soldier attacks in his stead, dealing 60 −  160 (based on level) (+ 60% AP) magic damage in a line. Targets beyond the closest take 25 / 50 / 75 / 100% (based on level) damage. Subsequent Sand Soldiers beyond the first deal 25% damage.",
         "Sand Soldiers cannot attack  structures,  wards, and  traps.",
         "Arise! will cast at max range if cast beyond that."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Shifting Sands",
@@ -162,6 +209,51 @@
       "descriptions": [
         "Active: Azir  shields himself for 1.5 seconds and  dashes to the target Sand Soldiers, dealing magic damage to enemies he passes through.",
         "If Azir hits an enemy champion, he stops dashing and gains a charge of  Arise!."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 60,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 90,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 120,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 150,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 180,
+              "ratio": 40,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            60,
+            90,
+            120,
+            150,
+            180
+          ],
+          "ratios": [
+            {
+              "value": 40,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -201,7 +293,8 @@
         "Active: Azir calls forth a phalanx of soldiers from behind him, charging forward in the target direction.",
         "Enemies impacted by the charge are dealt magic damage and  knocked back.",
         "When the soldiers finish their charge, they stand as a wall for 5 seconds, acting as impassible terrain against enemies. Azir and his allies can move through the wall."
-      ]
+      ],
+      "damageEffects": null
     }
   ],
   "id": "Azir",

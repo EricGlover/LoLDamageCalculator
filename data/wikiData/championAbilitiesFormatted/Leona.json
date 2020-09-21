@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Leona's abilities mark enemies hit with Sunlight for 1.5 seconds. Subsequent applications of Sunlight will refresh its duration.",
       "Damage dealt to marked enemies by allied  champions (excluding Leona) consumes Sunlight, dealing an additional 25 − 144 (based on level) magic damage."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Shield of Daybreak",
@@ -70,6 +71,51 @@
     "descriptions": [
       "Active: Leona illuminates her shield, causing her next basic attack within 6 seconds to gain  50 bonus range and, after a 0.25-second cast time, deal bonus magic damage and  stun the target for 1 second.",
       "Shield of Daybreak  resets Leona's basic attack timer."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 10,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 35,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 60,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 85,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 110,
+            "ratio": 30,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          10,
+          35,
+          60,
+          85,
+          110
+        ],
+        "ratios": [
+          {
+            "value": 30,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -123,7 +169,8 @@
     "descriptions": [
       "Active: Leona radiates a solar eclipse around herself for 3 seconds, taking reduced pre-mitigation damage from each tick of damage, up to a maximum of 50% reduction. Leona also gains  bonus armor and  bonus magic resistance.",
       "The eclipse detonates after the duration, dealing magic damage to all nearby enemies and granting Leona Eclipse's damage reduction and bonus resistances for an additional 3 seconds if she hits an enemy."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Zenith Blade",
@@ -170,6 +217,51 @@
       "Active: Leona projects a solar image of her sword in the target direction, dealing magic damage to all enemies hit.",
       "If she hits at least one enemy champion, she will  dash 225 units behind the last one struck within 3000 range and  root them for 0.5 seconds.",
       "Leona is unable to move or attack while Zenith Blade is in flight."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 50,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 90,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 130,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 170,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 210,
+            "ratio": 40,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          50,
+          90,
+          130,
+          170,
+          210
+        ],
+        "ratios": [
+          {
+            "value": 40,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -213,6 +305,39 @@
     "descriptions": [
       "Active: Leona calls down a beam of solar energy to the target location which strikes after a 0.625-second delay, dealing magic damage to all enemies struck and granting  sight of the area in a 350 radius for 3.8 seconds.",
       "Enemies hit are  slowed by 80% for 1.5 seconds, and also  stunned for the same duration if hit by the epicenter."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 100,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 175,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 250,
+            "ratio": 80,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          100,
+          175,
+          250
+        ],
+        "ratios": [
+          {
+            "value": 80,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   }
 ]

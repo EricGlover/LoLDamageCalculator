@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Riven gains a Charge for 6 seconds every time she uses an ability, stacking up to 3 times and refreshing on subsequent ability casts. Riven's basic attacks consume a Charge to deal 30% − 60% (based on level) AD bonus physical damage.",
       "Runic Blade is affected by  critical strike modifiers."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Broken Wings",
@@ -83,6 +84,126 @@
       "First Cast: Riven  dashes up to 225 units towards the target enemy or in the direction she is currently facing, affecting all enemies around the target area 100 units away. This cast cannot cross terrain.",
       "Second Cast: Riven mimics the first cast's effects.",
       "Third Cast: Riven mimics the first cast's effects in an expanded radius while also  knocking back all affected enemies 75 units over 0.75 seconds. This cast can cross terrain."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 15,
+            "ratio": 45,
+            "ratioType": "ad"
+          },
+          {
+            "base": 35,
+            "ratio": 50,
+            "ratioType": "ad"
+          },
+          {
+            "base": 55,
+            "ratio": 55,
+            "ratioType": "ad"
+          },
+          {
+            "base": 75,
+            "ratio": 60,
+            "ratioType": "ad"
+          },
+          {
+            "base": 95,
+            "ratio": 65,
+            "ratioType": "ad"
+          }
+        ],
+        "flatValues": [
+          15,
+          35,
+          55,
+          75,
+          95
+        ],
+        "ratios": [
+          {
+            "value": 45,
+            "type": "ad"
+          },
+          {
+            "value": 50,
+            "type": "ad"
+          },
+          {
+            "value": 55,
+            "type": "ad"
+          },
+          {
+            "value": 60,
+            "type": "ad"
+          },
+          {
+            "value": 65,
+            "type": "ad"
+          }
+        ]
+      },
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 45,
+            "ratio": 135,
+            "ratioType": "ad"
+          },
+          {
+            "base": 105,
+            "ratio": 150,
+            "ratioType": "ad"
+          },
+          {
+            "base": 165,
+            "ratio": 165,
+            "ratioType": "ad"
+          },
+          {
+            "base": 225,
+            "ratio": 180,
+            "ratioType": "ad"
+          },
+          {
+            "base": 285,
+            "ratio": 195,
+            "ratioType": "ad"
+          }
+        ],
+        "flatValues": [
+          45,
+          105,
+          165,
+          225,
+          285
+        ],
+        "ratios": [
+          {
+            "value": 135,
+            "type": "ad"
+          },
+          {
+            "value": 150,
+            "type": "ad"
+          },
+          {
+            "value": 165,
+            "type": "ad"
+          },
+          {
+            "value": 180,
+            "type": "ad"
+          },
+          {
+            "value": 195,
+            "type": "ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -128,6 +249,51 @@
     ],
     "descriptions": [
       "Active: Riven's sword emits a burst of runic energy that shocks nearby enemies, dealing physical damage and applying a  stun for 0.75 seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 55,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 85,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 115,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 145,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 175,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          55,
+          85,
+          115,
+          145,
+          175
+        ],
+        "ratios": [
+          {
+            "value": 100,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -175,7 +341,8 @@
       "Active: Riven  dashes to the target location (but not through terrain) while  shielding herself for 1.5 seconds.",
       "Other abilities can be cast during the dash, and  Broken Wings may be cast during  Ki Burst or  Blade of the Exile cast times if they're used at the end or briefly after the dash.*",
       "Valor will cast at max range if cast beyond that."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Blade of the Exile",
@@ -203,6 +370,7 @@
     "levelings": [],
     "descriptions": [
       "Active: Riven mends her broken blade and empowers it for 15 seconds, gaining 20% AD  bonus attack damage,  75 bonus range on her basic attacks, and increased range on  Broken Wings and  Ki Burst. After 0.5 seconds, she gains the ability to cast  Wind Slash once for the duration."
-    ]
+    ],
+    "damageEffects": []
   }
 ]

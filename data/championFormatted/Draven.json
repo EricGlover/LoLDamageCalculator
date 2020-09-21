@@ -27,7 +27,8 @@
         "In addition, killing a  minion or destroying a  ward or  trap grants a  Strike stack for 10 seconds, up to a maximum of 6. If he drops an  axe he loses all Strike stacks. At 6 stacks, he consumes all of his Strike stacks and gains 2 Adoration stacks.",
         "When Draven kills an enemy  champion, he consumes all of his Adoration stacks and gains  25 + (2 × stacks) bonus gold.",
         "Draven loses 75% of his Adoration stacks upon death."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Spinning Axe",
@@ -79,6 +80,67 @@
         "Active: Draven starts spinning his axe, causing his next basic attack within 5.8 seconds to deal bonus physical damage.",
         "The axe ricochets off the target high up into the air, landing 2 seconds later at a location determined by Draven's current movement. If Draven catches an axe, Spinning Axe is reapplied for no additional cost on his next basic attack.",
         "Draven can hold up to two Spinning Axes in his hands at once."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 35,
+              "ratio": 65,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 40,
+              "ratio": 75,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 45,
+              "ratio": 85,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 50,
+              "ratio": 95,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 55,
+              "ratio": 105,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            35,
+            40,
+            45,
+            50,
+            55
+          ],
+          "ratios": [
+            {
+              "value": 65,
+              "type": "bonus ad"
+            },
+            {
+              "value": 75,
+              "type": "bonus ad"
+            },
+            {
+              "value": 85,
+              "type": "bonus ad"
+            },
+            {
+              "value": 95,
+              "type": "bonus ad"
+            },
+            {
+              "value": 105,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -118,7 +180,8 @@
       "descriptions": [
         "Active: Draven becomes  ghosted for 1.5 seconds, gaining  bonus attack speed for 3 seconds and  bonus movement speed which decays over 1.5 seconds.",
         "Catching a  Spinning Axe resets Blood Rush's  cooldown."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Stand Aside",
@@ -163,6 +226,51 @@
       ],
       "descriptions": [
         "Active: Draven throws his axes in a line in the target direction, dealing physical damage to all enemies hit,  knocking them aside and  slowing them for 2 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 75,
+              "ratio": 50,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 110,
+              "ratio": 50,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 145,
+              "ratio": 50,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 180,
+              "ratio": 50,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 215,
+              "ratio": 50,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            75,
+            110,
+            145,
+            180,
+            215
+          ],
+          "ratios": [
+            {
+              "value": 50,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -228,6 +336,126 @@
         "Upon reaching the edge of the map, striking an enemy  champion, or upon reactivation, the axes slowly come to a stop before homing back to Draven, dealing the same damage to every enemy struck on the way back.",
         "Whirling Death deals 100% − 40% (based on enemies hit) damage, this reduction resets when the axes reverse direction.",
         "Recast: Draven reverses the direction of the axes early."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 175,
+              "ratio": 110,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 225,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 275,
+              "ratio": 130,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 325,
+              "ratio": 140,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 375,
+              "ratio": 150,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            175,
+            225,
+            275,
+            325,
+            375
+          ],
+          "ratios": [
+            {
+              "value": 110,
+              "type": "bonus ad"
+            },
+            {
+              "value": 120,
+              "type": "bonus ad"
+            },
+            {
+              "value": 130,
+              "type": "bonus ad"
+            },
+            {
+              "value": 140,
+              "type": "bonus ad"
+            },
+            {
+              "value": 150,
+              "type": "bonus ad"
+            }
+          ]
+        },
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 350,
+              "ratio": 220,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 450,
+              "ratio": 240,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 550,
+              "ratio": 260,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 650,
+              "ratio": 280,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 750,
+              "ratio": 300,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            350,
+            450,
+            550,
+            650,
+            750
+          ],
+          "ratios": [
+            {
+              "value": 220,
+              "type": "bonus ad"
+            },
+            {
+              "value": 240,
+              "type": "bonus ad"
+            },
+            {
+              "value": 260,
+              "type": "bonus ad"
+            },
+            {
+              "value": 280,
+              "type": "bonus ad"
+            },
+            {
+              "value": 300,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     }
   ],

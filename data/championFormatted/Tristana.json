@@ -24,7 +24,8 @@
       "levelings": [],
       "descriptions": [
         "Innate: The  range of Tristana's basic attacks,  Explosive Charge and  Buster Shot are increased by 0 − 136 (based on level) for a total of 525 − 661 (based on level) range."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Rapid Fire",
@@ -62,7 +63,8 @@
       ],
       "descriptions": [
         "Active: Tristana empowers her cannon, gaining  bonus attack speed for 7 seconds."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Rocket Jump",
@@ -108,6 +110,51 @@
       "descriptions": [
         "Active: Tristana  jumps to the target location, dealing magic damage to all nearby enemies on impact and  slowing them by 60%.",
         "On enemy champion  takedowns or upon detonating  Explosive Charge at maximum stacks on an enemy champion, Rocket Jump's  cooldown is reset."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 95,
+              "ratio": 50,
+              "ratioType": "ap"
+            },
+            {
+              "base": 145,
+              "ratio": 50,
+              "ratioType": "ap"
+            },
+            {
+              "base": 195,
+              "ratio": 50,
+              "ratioType": "ap"
+            },
+            {
+              "base": 245,
+              "ratio": 50,
+              "ratioType": "ap"
+            },
+            {
+              "base": 295,
+              "ratio": 50,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            95,
+            145,
+            195,
+            245,
+            295
+          ],
+          "ratios": [
+            {
+              "value": 50,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -163,6 +210,51 @@
         "Tristana's basic attacks and abilities against the target increase Explosive Charge's damage by 30%, stacking up to 4 times for a maximum 120% increase, upon which the charge also detonates instantly.",
         "Explosive Charge's total damage is increased by 0% − 33.3% (based on critical strike chance).",
         "If  Buster Shot is used to apply the last stack, the detonation will instead be delayed until the end of the  knock back or the 4 seconds expire."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 55,
+              "ratio": 25,
+              "ratioType": "ap"
+            },
+            {
+              "base": 80,
+              "ratio": 25,
+              "ratioType": "ap"
+            },
+            {
+              "base": 105,
+              "ratio": 25,
+              "ratioType": "ap"
+            },
+            {
+              "base": 130,
+              "ratio": 25,
+              "ratioType": "ap"
+            },
+            {
+              "base": 155,
+              "ratio": 25,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            55,
+            80,
+            105,
+            130,
+            155
+          ],
+          "ratios": [
+            {
+              "value": 25,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -206,6 +298,39 @@
       ],
       "descriptions": [
         "Active: Tristana fires a massive cannonball at the target enemy, dealing magic damage to them and  knocking back and  stunning all enemies in a radius around them, including the target, for up-to 0.75 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 300,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 400,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 500,
+              "ratio": 100,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            300,
+            400,
+            500
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     }
   ],

@@ -25,7 +25,8 @@
       "Innate:  Valor marks enemies hit by  Blinding Assault,  Skystrike or targeted by  Vault as Vulnerable,  revealing them for 4 seconds. If no Vulnerable target exists for 1 second,  Valor automatically marks a nearby visible enemy, but is not able to do so again for 8 −  2.93 (based on critical strike chance) seconds after the mark has timed out, was consumed or was overwritten by another mark.",
       "Quinn's next basic attack on-hit against a Vulnerable target consumes the mark to deal 10 − 95 (based on level) (+ 16% − 50% (based on level) AD) bonus physical damage.",
       "While  Behind Enemy Lines is active, Harrier is disabled and all Vulnerable marks are removed."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Blinding Assault",
@@ -86,6 +87,67 @@
       "Active: Quinn signals  Valor to fly forward in a line in the target direction, stopping upon colliding with an enemy unit, dealing physical damage to them and all nearby enemies and applying  nearsight to the target for 1.75 seconds, reducing their  sight radius to 330 units.",
       "Non-champion targets are  disarmed instead for the same duration.",
       "The nearsight persists through  death."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 20,
+            "ratio": 80,
+            "ratioType": "ad"
+          },
+          {
+            "base": 45,
+            "ratio": 90,
+            "ratioType": "ad"
+          },
+          {
+            "base": 70,
+            "ratio": 100,
+            "ratioType": "ad"
+          },
+          {
+            "base": 95,
+            "ratio": 110,
+            "ratioType": "ad"
+          },
+          {
+            "base": 120,
+            "ratio": 120,
+            "ratioType": "ad"
+          }
+        ],
+        "flatValues": [
+          20,
+          45,
+          70,
+          95,
+          120
+        ],
+        "ratios": [
+          {
+            "value": 80,
+            "type": "ad"
+          },
+          {
+            "value": 90,
+            "type": "ad"
+          },
+          {
+            "value": 100,
+            "type": "ad"
+          },
+          {
+            "value": 110,
+            "type": "ad"
+          },
+          {
+            "value": 120,
+            "type": "ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -126,7 +188,8 @@
       "Passive: Attacking a  Vulnerable target grants Quinn  bonus attack speed and  bonus movement speed for 2 seconds.",
       "Active: Quinn orders  Valor to  reveal the area around her for 2 seconds.",
       "Enemies spotted are  revealed for 2.75 seconds, reduced to 2 seconds for  champions."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Vault",
@@ -171,6 +234,51 @@
     ],
     "descriptions": [
       "Active: Quinn  dashes to the target enemy unit,  knocking them back, dealing them physical damage, and  slowing them by 50% which decays over 1.5 seconds, before  leaping back and landing 525 units away from them."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 40,
+            "ratio": 20,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 70,
+            "ratio": 20,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 100,
+            "ratio": 20,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 130,
+            "ratio": 20,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 160,
+            "ratio": 20,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          40,
+          70,
+          100,
+          130,
+          160
+        ],
+        "ratios": [
+          {
+            "value": 20,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -212,6 +320,7 @@
       "Taking damage from non-minions while Behind Enemy Lines is active causes Quinn to lose the  bonus movement speed for 3 seconds. Becoming  immobilized ends Behind Enemy Lines immediately and puts it on  cooldown without performing  Skystrike.",
       "Once Behind Enemy Lines has been learned, respawning or returning to the summoning platform will spawn  Valor instantly, but  Skystrike is disabled for 2.5 seconds upon uniting.",
       "Recast: Quinn cancels the  channel, placing Behind Enemy Lines on cooldown."
-    ]
+    ],
+    "damageEffects": null
   }
 ]

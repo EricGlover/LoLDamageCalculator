@@ -27,7 +27,8 @@
         "Innate - 12-Gauge: Graves' basic attacks spray 4 pellets in a cone, dealing 70% − 100% (based on level) AD physical damage plus「 a third of the damage 」「 23.33% − 33.33% (based on level) AD damage 」for each subsequent pellet, up to a maximum of 140% − 200% (based on level) AD physical damage. Pellets deal 25% reduced damage against  turrets.",
         " Critical strikes spray 6 pellets over a 50% wider cone, with each pellet dealing (40% +  10%) bonus physical damage.",
         "Innate - Buckshot: Pellets collide into the first enemy unit or structure they hit. Non-champion units hit by more than one pellet are  knocked back. Each pellet applies on-hit effects, but enemies are affected by them once per attack."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "End of the Line",
@@ -74,6 +75,51 @@
       "descriptions": [
         "Active: Graves fires a round in the target direction that deals physical damage to all enemies it passes through and leaves behind a powder trail.",
         "After 2 seconds or after 0.25 seconds upon colliding with terrain, the round detonates, dealing physical damage to all enemies in a wide perpendicular area and in a reverse wave along the powder trail."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 45,
+              "ratio": 80,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 60,
+              "ratio": 80,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 75,
+              "ratio": 80,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 90,
+              "ratio": 80,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 105,
+              "ratio": 80,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            45,
+            60,
+            75,
+            90,
+            105
+          ],
+          "ratios": [
+            {
+              "value": 80,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -124,6 +170,51 @@
       "descriptions": [
         "Active: Graves fires a smoke canister at the target location that, upon impact, deals magic damage to enemies in the area and  slows them by 50% for 0.5 seconds.",
         "The canister creates a cloud of smoke for 4 seconds that applies  nearsight of outside the area to all enemies within every 0.25 seconds, reducing their  sight radius to 250 units relative to the center."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 60,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 110,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 160,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 210,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 260,
+              "ratio": 60,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            60,
+            110,
+            160,
+            210,
+            260
+          ],
+          "ratios": [
+            {
+              "value": 60,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -165,7 +256,8 @@
         "Quickdraw's  cooldown is reduced by 0.5 seconds for every pellet impacting an enemy.",
         "True Grit: Graves gains  bonus armor. Attacks versus non-minions will refresh the duration of True Grit.",
         "If Graves dashes while reloading, he can cast his other abilities during the dash.*"
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Collateral Damage",
@@ -217,6 +309,94 @@
       "descriptions": [
         "Active: Graves fires an explosive shell in the target direction which deals physical damage to all enemies hit while also  recoiling in the opposite direction.",
         "After hitting an enemy champion or reaching the end of its range, the shell explodes to deal 80% of its original damage in a cone. The same unit cannot be damaged by both the shell and the explosion."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 250,
+              "ratio": 150,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 325,
+              "ratio": 150,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 400,
+              "ratio": 150,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 475,
+              "ratio": 150,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 550,
+              "ratio": 150,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            250,
+            325,
+            400,
+            475,
+            550
+          ],
+          "ratios": [
+            {
+              "value": 150,
+              "type": "bonus ad"
+            }
+          ]
+        },
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 200,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 260,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 320,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 380,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 440,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            200,
+            260,
+            320,
+            380,
+            440
+          ],
+          "ratios": [
+            {
+              "value": 120,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     }
   ],

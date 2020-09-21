@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Hitting an enemy with an ability grants Vi a  shield equal to  15% of her maximum health for 3 seconds.",
       "Blast Shield's  cooldown is reduced by 3 seconds for every trigger of  Denting Blows."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Vault Breaker",
@@ -83,6 +84,51 @@
       "Recast: Vi  dashes in the target direction, dealing physical damage to all enemies she passes through, increased by 0% − 100% (based on channel time).",
       "Vi stops upon colliding with an enemy champion,  knocking them back while non-champion enemies in her path are instead  pulled towards her.",
       "Vault Breaker will go on a 3-second  cooldown if the charge is canceled."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 55,
+            "ratio": 70,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 80,
+            "ratio": 70,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 105,
+            "ratio": 70,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 130,
+            "ratio": 70,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 155,
+            "ratio": 70,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          55,
+          80,
+          105,
+          130,
+          155
+        ],
+        "ratios": [
+          {
+            "value": 70,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -131,6 +177,55 @@
       "Passive: Vi's basic attacks on-hit and  Vault Breaker apply Denting Blows to enemies hit, stacking up to 3 times. At 3 stacks, Vi consumes them to deal bonus physical damage and  reduce the target's armor by 20%, with the bonus damage capped at 300 against non-champions.",
       "After triggering Denting Blows, Vi gains  bonus attack speed for 4 seconds, refreshing on subsequent triggers.",
       "The debuff is applied after the damage has been dealt."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 4,
+            "ratio": 1,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 5,
+            "ratio": 35,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 5,
+            "ratio": 2.86,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 5,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          4,
+          5
+        ],
+        "ratios": [
+          {
+            "value": 1,
+            "type": "bonus ad"
+          },
+          {
+            "value": 35,
+            "type": "bonus ad"
+          },
+          {
+            "value": 2.86,
+            "type": "bonus ad"
+          },
+          {
+            "value": 100,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -186,6 +281,51 @@
       "Active: Vi's next basic attack becomes  unstoppable, gains  50 bonus range and deals physical damage to all enemies in a cone in front of her. The damage can  critically strike for (100% +  25%) AD bonus physical damage.",
       "Excessive Force  resets Vi's basic attack timer.",
       "Excessive Force only affects  structures if they're the primary target."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 10,
+            "ratio": 110,
+            "ratioType": "ad"
+          },
+          {
+            "base": 30,
+            "ratio": 110,
+            "ratioType": "ad"
+          },
+          {
+            "base": 50,
+            "ratio": 110,
+            "ratioType": "ad"
+          },
+          {
+            "base": 70,
+            "ratio": 110,
+            "ratioType": "ad"
+          },
+          {
+            "base": 90,
+            "ratio": 110,
+            "ratioType": "ad"
+          }
+        ],
+        "flatValues": [
+          10,
+          30,
+          50,
+          70,
+          90
+        ],
+        "ratios": [
+          {
+            "value": 110,
+            "type": "ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -236,6 +376,33 @@
     "descriptions": [
       "Active: Vi  reveals the target enemy  champion and  dashes with  displacement immunity towards them, dealing physical damage and  knocking them up for 1.25 seconds upon arrival.",
       "Enemies along the way are dealt the same damage,  knocked aside by 350 units over 0.25 seconds, and simultaneously  stunned for 0.75 seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 150,
+            "ratio": 110,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 237,
+            "ratio": 110,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          150,
+          237
+        ],
+        "ratios": [
+          {
+            "value": 110,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   }
 ]

@@ -25,7 +25,8 @@
     "descriptions": [
       "Innate - Scarecrow Effigy: Fiddlesticks begins the game with an exclusive  Scarecrow Effigy, which permanently occupies the trinket slot. Fiddlesticks can pretend to be an Effigy, after standing still for 2 seconds, adjusting its body into a scarecrow and extending its arm out to expose its lantern. Its health bar is also hidden to enemies while idle, similarly to an Effigy. However, casting  Crowstorm will cancel it early.",
       "Innate - A Harmless Scarecrow: From level 6 onward, placing an  Effigy also summons a demonic eyeball at the location that grants  obscured vision of enemy units in the area for 6 seconds, which also  reveals and  disables enemy  wards and  stealthed traps."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Terrify",
@@ -70,7 +71,8 @@
       "Active: Fiddlesticks screeches at the target enemy, dealing magic damage and  fearing them. This has a minimum damage threshold and is capped at 400 against  monsters.",
       "Against targets with a cooldown, Terrify instead will have its damage and minimum threshold doubled.",
       " Minions are always feared if Fiddlesticks is not attacking them and there is no enemy champion in its view."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Bountiful Harvest",
@@ -122,7 +124,7 @@
           19.5,
           22
         ],
-        "type": ""
+        "type": null
       },
       {
         "value": [
@@ -138,7 +140,7 @@
           19.5,
           22
         ],
-        "type": ""
+        "type": null
       }
     ],
     "castTime": 0.25,
@@ -156,6 +158,51 @@
       "Fiddlesticks  heals itself for a percentage of the pre-mitigation damage dealt, reduced to 15% against minions.",
       "Bountiful Harvest ends if all targets have died or broken their tethers. If the channel was not interrupted, 60% of the remaining  cooldown is refunded.",
       "A target enemy is required to cast this ability. Fiddlesticks does not need  sight of the target to tether itself to them."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 120,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 180,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 240,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 300,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 360,
+            "ratio": 70,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          120,
+          180,
+          240,
+          300,
+          360
+        ],
+        "ratios": [
+          {
+            "value": 70,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -206,6 +253,51 @@
     "descriptions": [
       "Active: Fiddlesticks slashes all enemies in the target area with its scythe, dealing magic damage and  slowing enemies hit for 1.25 seconds.",
       "Enemies hit in the center of the area are also  silenced for 1.25 seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 105,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 140,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 175,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 210,
+            "ratio": 50,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          70,
+          105,
+          140,
+          175,
+          210
+        ],
+        "ratios": [
+          {
+            "value": 50,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -257,6 +349,51 @@
     ],
     "descriptions": [
       "Active: After  channeling for 1.5 seconds, Fiddlesticks  blinks to the target location with a murder of crows flying wildly around it for 5 seconds, dealing magic damage to nearby enemies every 0.25 seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 625,
+            "ratio": 225,
+            "ratioType": "ap"
+          },
+          {
+            "base": 875,
+            "ratio": 225,
+            "ratioType": "ap"
+          },
+          {
+            "base": 1125,
+            "ratio": 225,
+            "ratioType": "ap"
+          },
+          {
+            "base": 1375,
+            "ratio": 225,
+            "ratioType": "ap"
+          },
+          {
+            "base": 1625,
+            "ratio": 225,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          625,
+          875,
+          1125,
+          1375,
+          1625
+        ],
+        "ratios": [
+          {
+            "value": 225,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   }
 ]

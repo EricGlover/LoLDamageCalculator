@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Warwick deals 10 − 44 (based on level) bonus magic damage on-hit.",
       "While below  50% maximum health, Warwick also  heals for 100% of the post-mitigation damage dealt by Eternal Hunger, increased to 250% while below 25% maximum health."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Jaws of the Beast",
@@ -83,6 +84,27 @@
       "During the ability, Warwick is also  displacement immune.",
       "Jaws of the Beast applies on-hit and on-attack effects, and  life steal with 100% effectiveness.",
       "If the target dies prior to Warwick reaching them, the  cooldown is refunded unless the ability was held."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 120,
+            "ratio": 100,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          120
+        ],
+        "ratios": [
+          {
+            "value": 100,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -127,7 +149,8 @@
       "These bonuses are enhanced to 250% against targets below  20% of their maximum health.",
       "Upon entering combat with an enemy  champion, the  bonus movement speed is lost for 0.5 seconds, but builds up again every 0.25 seconds over the next 3.5 seconds.",
       "Active: Warwick briefly senses all nearby enemies within a large radius and marks the nearest enemy  champion as Blood Hunted for 8 seconds, regardless of their  current health."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Primal Howl",
@@ -168,7 +191,8 @@
       "Active: Warwick gains damage reduction for up to 2.5 seconds. Primal Howl can be recast after 1 second, and automatically does so when the effect ends.",
       "Recast: Warwick howls, ending Primal Howl's effects and causing all nearby enemies to  flee in terror for 1 second while being  slowed by 90%.",
       "Channeling  Infinite Duress while Primal Howl is active will initiate the recast without ending the damage reduction buff prematurely."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Infinite Duress",
@@ -216,6 +240,33 @@
       "If he collides with an enemy  champion, he  knocks them down and begins to  channel for 1.5 seconds, during which the target is  suppressed,  revealed, and dealt 6 instances of magic damage.",
       "Warwick is  healed for 100% of all post-mitigation damage he deals to his target during Infinite Duress.",
       "Infinite Duress applies on-hit and on-attack effects 3 times, and life steal with 100% effectiveness."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 175,
+            "ratio": 167,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 262,
+            "ratio": 167,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          175,
+          262
+        ],
+        "ratios": [
+          {
+            "value": 167,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   }
 ]

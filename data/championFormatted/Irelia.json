@@ -26,7 +26,8 @@
         "Innate: Irelia gains 1 Ionian Fervor stack for every enemy  champion hit by her abilities, or if she hits at least one non-champion, stacking up to 5 times. Ionian Fervor lasts for 6 seconds, with basic attacks against enemy champions and large and epic  monsters refreshing the duration.",
         "Ionian Fervor: Irelia gains 8% − 16% (based on level)  bonus attack speed per stack, up to 40% − 80% (based on level).",
         "At maximum stacks, Irelia's basic attacks deal 15 − 66 (based on level) (+ 25% bonus AD) bonus magic damage on-hit."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Bladesurge",
@@ -80,6 +81,51 @@
         "Passive: Enemy champions and large monsters hit by  Flawless Duet and  Vanguard's Edge's initial barrage are marked for 5 seconds.",
         "Active: Irelia  dashes through the target enemy's location, dealing physical damage, applying on-hit effects and  healing herself. Bladesurge deals increased damage to  minions.",
         "Bladesurge's  cooldown is reduced to 0.2 seconds upon consuming a mark, and resets if the target dies to or shortly after Bladesurge has completed."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 5,
+              "ratio": 60,
+              "ratioType": "ad"
+            },
+            {
+              "base": 25,
+              "ratio": 60,
+              "ratioType": "ad"
+            },
+            {
+              "base": 45,
+              "ratio": 60,
+              "ratioType": "ad"
+            },
+            {
+              "base": 65,
+              "ratio": 60,
+              "ratioType": "ad"
+            },
+            {
+              "base": 85,
+              "ratio": 60,
+              "ratioType": "ad"
+            }
+          ],
+          "flatValues": [
+            5,
+            25,
+            45,
+            65,
+            85
+          ],
+          "ratios": [
+            {
+              "value": 60,
+              "type": "ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -150,7 +196,8 @@
         "At the end of the duration, after a 0.07-second delay, Irelia swipes with her blades in the target direction, dealing physical damage to all enemies around her and in a line, increased by 0% − 100% (based on channel time).",
         "Recast: Irelia swipes with her blades early.",
         "Defiant Dance's recast can be used while affected by  crowd control."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Flawless Duet",
@@ -198,6 +245,51 @@
         "Once both blades have been placed, they fly toward each other after a 0.25-second delay, dealing magic damage, briefly  revealing and  stunning all enemies struck for 0.75 seconds after converging.",
         "Recast: Irelia sends out the second blade early to the target area.",
         "Flawless Duet's recast can be used while affected by  crowd control and during  Vanguard's Edge's cast time."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 125,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 170,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 215,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 260,
+              "ratio": 80,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            80,
+            125,
+            170,
+            215,
+            260
+          ],
+          "ratios": [
+            {
+              "value": 80,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -246,7 +338,8 @@
         "Active: Irelia launches a barrage of blades in the target direction, expanding outward upon hitting an enemy champion and dealing magic damage to all enemies hit.",
         "After expanding, the blades drop on the ground, knocking all enemy units away from them, though not rendering them  airborne, and forming a spade-shaped perimeter around the enemy champion hit for 2.5 seconds. Enemies that pass through the blades are dealt magic damage and are  slowed by 90% for 1.5 seconds.",
         "The perimeter will point at the same angle Irelia cast it from, but based on the target's center."
-      ]
+      ],
+      "damageEffects": null
     }
   ],
   "id": "Irelia",

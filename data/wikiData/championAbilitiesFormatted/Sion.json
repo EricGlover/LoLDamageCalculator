@@ -25,7 +25,8 @@
       "Innate: Upon taking  fatal damage, Sion goes into  stasis for 1.5 seconds, after which he  reanimates and enters a frenzy, restoring himself to  100% maximum health but losing 2 − 19 (based on level) health every 0.264 seconds, increasing by「 70% of the base value 」「 1.4 − 13.3 (based on level) health 」per subsequent tick.",
       "Sion can freely move and use basic attacks during this time, gaining  100% life steal, attacking at  1.75 attack speed, and dealing 10% of the target’s maximum health bonus physical damage on-hit, capped at 75 against non-champions.",
       "While Glory in Death is active, Sion's active abilities are replaced with  Death Surge."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Decimating Smash",
@@ -88,7 +89,8 @@
       "If the channel is  interrupted, Decimating Smash goes on a 2-second  cooldown.",
       "Recast: Sion flails his axe, dealing physical damage to all enemies in the target area and  slowing them by 50% for 0.25 seconds. Decimating Smash deals 60% damage against  minions.",
       "If Decimating Smash was charged for at least 1 second, Sion instead slams his axe down,  knocking up all enemies hit for 0.5 − 1 (based on channel time) seconds and  stunning them for 1.25 − 2.25 (based on channel time) seconds."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Soul Furnace",
@@ -154,7 +156,8 @@
       "Recast: Soul Furnace's shield is detonated to deal magic damage to enemies around Sion, capped at 400 against minions and monsters.",
       "Soul Furnace detonates automatically when the shield expires after 6 seconds.",
       "Both of Soul Furnace's casts can be activated during Sion's other abilities, other than the release of  Decimating Smash."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Roar of the Slayer",
@@ -204,6 +207,51 @@
     "descriptions": [
       "Active: Sion bellows in the target direction, dealing magic damage to the first enemy hit,  slowing them for 2.5 seconds as well as  reducing their armor by 20% for 4 seconds.",
       "If the target is a  minion or non-epic  monster, it is  stunned for 0.75 seconds and  knocked back, in the same line, up to 1300 units away from Sion, dealing the same damage and applying the same effects to all enemies it passes through as well as briefly  revealing the area it goes through. Projectile enemies are  invulnerable to minion damage and take their damage once they are stopped if they would die to the Bellow's Breath's damage, by either colliding with terrain, reaching the end of their trajectory, or being  knocked down."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 65,
+            "ratio": 55,
+            "ratioType": "ap"
+          },
+          {
+            "base": 100,
+            "ratio": 55,
+            "ratioType": "ap"
+          },
+          {
+            "base": 135,
+            "ratio": 55,
+            "ratioType": "ap"
+          },
+          {
+            "base": 170,
+            "ratio": 55,
+            "ratioType": "ap"
+          },
+          {
+            "base": 205,
+            "ratio": 55,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          65,
+          100,
+          135,
+          170,
+          205
+        ],
+        "ratios": [
+          {
+            "value": 55,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -258,6 +306,70 @@
       "Upon reaching the end of the duration, Sion  leaps forward 200-units, landing after 0.55 seconds and slamming the ground around him. Colliding with an enemy champion or terrain will stop Unstoppable Onslaught prematurely. Running into terrain will also self- stun Sion for 0.5 seconds.",
       "Both the charge and slam deal physical damage to all enemies and  turrets struck, with the base damage increasing by 0% − 166.67% (based on time since the initial cast), the  bonus AD ratio increasing by 0% − 100% (based on time since the initial cast), and  slowing them for 3 seconds.",
       "When colliding with at least one enemy champion, Sion will additionally  pull all enemies around him over 0.5 seconds, after which they're  stunned for 0.25 −  1.75 (based on time since the initial cast) seconds, increased to 0.75 −  1.75 (based on time since the initial cast) if hit by the leap."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 150,
+            "ratio": 40,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 300,
+            "ratio": 40,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 450,
+            "ratio": 40,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          150,
+          300,
+          450
+        ],
+        "ratios": [
+          {
+            "value": 40,
+            "type": "bonus ad"
+          }
+        ]
+      },
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 400,
+            "ratio": 80,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 800,
+            "ratio": 80,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 1200,
+            "ratio": 80,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          400,
+          800,
+          1200
+        ],
+        "ratios": [
+          {
+            "value": 80,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   }
 ]

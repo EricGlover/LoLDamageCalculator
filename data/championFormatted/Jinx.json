@@ -25,7 +25,8 @@
       "descriptions": [
         "Innate: Whenever an enemy  champion,  epic monster,  turret or inhibitor dies within 3 seconds of being damaged by Jinx, she gains  175% bonus movement speed which decays over 6 seconds.",
         "Additionally, she gains  15% total attack speed and is allowed to exceed the attack speed cap for the same duration."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Switcheroo!",
@@ -65,7 +66,8 @@
         "Pow-Pow:  Basic attacks with Pow-Pow grant her  Rev'd up for 2.5 seconds, stacking up to 3 times. Rev'd up grants  bonus attack speed, with the first stack being twice as potent as the others. Stacks decay one at a time as they time-out.",
         "Fishbones: Basic attacks with Fishbones cost  mana on-attack to deal 110% AD modified physical damage to the main target as well as splash the damage to all enemies within a 150-radius area. The damage is affected by  critical strike modifiers. While using Fishbones,  Jinx gains  bonus range but loses  25% of her bonus attack speed.",
         "Attacks with Fishbones will not refresh the stack timer on Rev'd up and only the first attack after switching to it will benefit from Rev'd up's bonus attack speed."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Zap!",
@@ -114,6 +116,51 @@
       ],
       "descriptions": [
         "Active: Jinx fires a shock blast in the target direction that deals physical damage to the first enemy it hits,  revealing and  slowing them for 2 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 10,
+              "ratio": 160,
+              "ratioType": "ad"
+            },
+            {
+              "base": 60,
+              "ratio": 160,
+              "ratioType": "ad"
+            },
+            {
+              "base": 110,
+              "ratio": 160,
+              "ratioType": "ad"
+            },
+            {
+              "base": 160,
+              "ratio": 160,
+              "ratioType": "ad"
+            },
+            {
+              "base": 210,
+              "ratio": 160,
+              "ratioType": "ad"
+            }
+          ],
+          "flatValues": [
+            10,
+            60,
+            110,
+            160,
+            210
+          ],
+          "ratios": [
+            {
+              "value": 160,
+              "type": "ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -167,6 +214,57 @@
       "descriptions": [
         "Active: Jinx tosses out 3 Chompers at the target location perpendicular to her facing, which arm after 0.7 seconds and explode after 5 seconds, dealing magic damage over 1.5 seconds to all enemies within a small area.",
         "Chompers prematurely explode on contact with an enemy  champion,  knocking down and  rooting them for 1.5 seconds. An enemy champion can only set off and be damaged by one Chomper."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 70,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 120,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 170,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 220,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 270,
+              "ratio": 100,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            70,
+            120,
+            170,
+            220,
+            270
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "ap"
+            }
+          ]
+        },
+        {
+          "type": "",
+          "abilityRanks": [],
+          "flatValues": [],
+          "ratios": []
+        }
       ]
     },
     {
@@ -207,7 +305,7 @@
             32.5,
             35
           ],
-          "type": ""
+          "type": null
         },
         {
           "value": [
@@ -223,7 +321,7 @@
             32.5,
             35
           ],
-          "type": ""
+          "type": null
         }
       ],
       "castTime": 0.6,
@@ -240,6 +338,94 @@
         "Active: Jinx fires a rocket in the target direction, granting brief  sight of the area it flies through. The rocket explodes upon colliding with an enemy champion, dealing physical damage to the champion and all enemies in an area around them and  revealing the area around them for 2 seconds.",
         "The rocket deals 10% − 100% (based on distance traveled) damage based on travel distance, the bonus damage based on missing health is retained.",
         "Enemies surrounding the main target take 80% damage. Bonus damage from missing health is based on each unit's own missing health."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 250,
+              "ratio": 150,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 300,
+              "ratio": 150,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 350,
+              "ratio": 150,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 400,
+              "ratio": 150,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 450,
+              "ratio": 150,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            250,
+            300,
+            350,
+            400,
+            450
+          ],
+          "ratios": [
+            {
+              "value": 150,
+              "type": "bonus ad"
+            }
+          ]
+        },
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 25,
+              "ratio": 15,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 30,
+              "ratio": 15,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 35,
+              "ratio": 15,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 40,
+              "ratio": 15,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 45,
+              "ratio": 15,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            25,
+            30,
+            35,
+            40,
+            45
+          ],
+          "ratios": [
+            {
+              "value": 15,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     }
   ],

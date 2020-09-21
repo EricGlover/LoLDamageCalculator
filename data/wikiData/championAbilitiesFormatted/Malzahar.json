@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Malzahar receives Void Shift if he hasn't taken non- minion damage nor been affected by  crowd control in the last 30 / 24 / 18 / 12 (based on level) seconds.",
       "Void Shift phases out Malzahar, making him  immune to crowd control and causing him to take 90% reduced damage, lingering for 0.25 seconds after taking damage or blocking a  crowd control effect."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Call of the Void",
@@ -65,6 +66,51 @@
     ],
     "descriptions": [
       "Active: Malzahar opens two portals that are each 200 units perpendicular from the target location, granting a small area of  sight around them. After a 0.4-second delay, all enemies between the portals take magic damage and are  silenced for a duration."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 65,
+            "ratioType": "ap"
+          },
+          {
+            "base": 105,
+            "ratio": 65,
+            "ratioType": "ap"
+          },
+          {
+            "base": 140,
+            "ratio": 65,
+            "ratioType": "ap"
+          },
+          {
+            "base": 175,
+            "ratio": 65,
+            "ratioType": "ap"
+          },
+          {
+            "base": 210,
+            "ratio": 65,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          70,
+          105,
+          140,
+          175,
+          210
+        ],
+        "ratios": [
+          {
+            "value": 65,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -106,7 +152,8 @@
       "Passive: Malzahar gains a stack of Zz'Rot Swarm when he casts another ability, up to a maximum of 2.",
       "Active: Malzahar consumes all Zz'Rot Swarm stacks and, after a 0.5-second delay, summons a  Voidling at the target location. Additional Voidlings are then summoned for each Zz'Rot Swarm stack consumed.",
       "Voidlings deal magic damage with their attacks. Voidlings deal 50% damage to epic monsters, and 300% damage against enemy  minions affected by  Malefic Visions."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Malefic Visions",
@@ -162,6 +209,57 @@
     "descriptions": [
       "Active: Malzahar infects the target enemy's mind, dealing them magic damage every half second over 4 seconds. Damaging a target with  Call of the Void or  Nether Grasp will refresh the duration of Malefic Visions.",
       "If the target dies during this time, they pass Malefic Visions onto the closest enemy, refreshing the duration and restoring  2% of Malzahar's maximum mana."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 80,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 115,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 150,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 185,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 220,
+            "ratio": 80,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          80,
+          115,
+          150,
+          185,
+          220
+        ],
+        "ratios": [
+          {
+            "value": 80,
+            "type": "ap"
+          }
+        ]
+      },
+      {
+        "type": "",
+        "abilityRanks": [],
+        "flatValues": [],
+        "ratios": []
+      }
     ]
   },
   {
@@ -218,6 +316,33 @@
       " Cleansing effects will not remove the tether and Malzahar will continue to channel and deal damage.",
       "A Null Zone is opened beneath the target that lasts 5 seconds, dealing magic damage every 0.5 seconds to all enemies within.",
       "Null Zone will persist even if the ability is interrupted."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 125,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 162,
+            "ratio": 80,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          125,
+          162
+        ],
+        "ratios": [
+          {
+            "value": 80,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   }
 ]

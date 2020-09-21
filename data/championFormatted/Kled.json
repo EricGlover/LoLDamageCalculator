@@ -29,7 +29,8 @@
         "Innate - Courage: Kled gains 15 Courage when basic attacking an enemy champion, 20 Courage whenever an enemy champion he damaged dies within 3 seconds, 4 Courage for  minion kills, and 5 Courage when basic attacking a structure or epic  monster. At 100 Courage, Skaarl returns with  50 / 60 / 70 / 80% (based on level) of Skaarl's maximum health.  Mounting up resets the  cooldowns of  Bear Trap on a Rope and  Jousting.",
         "While at the allied fountain, 25 Courage is generated every 0.25 seconds.  Recalling fully restores Skaarl's Courage and health. If reuniting outside of base, Skaarl gets Frayed Nerves, which prevents him from gaining Courage for 30 seconds.",
         "The current status of Kled's own health is preserved between subsequent dismounts. While mounted,  healing will first affect Skaarl's health and will only restore Kled's health while Skaarl is at full health."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Pocket Pistol",
@@ -78,6 +79,51 @@
         "Passive: Kled periodically stocks an ammo charge, up to a maximum of 2. Kled will store ammo even while  mounted.",
         "Active: Kled sprays a cone of five pellets in the target direction, dealing physical damage while  recoiling 250 units in the opposite direction.",
         "Pellets collide into the first enemy champion they hit, and deal 20% damage per pellet beyond the first. Each pellet that hits an enemy champion or epic monster restores  Courage, by 5 and 2.5 respectively."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 35,
+              "ratio": 80,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 50,
+              "ratio": 80,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 65,
+              "ratio": 80,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 80,
+              "ratio": 80,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 95,
+              "ratio": 80,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            35,
+            50,
+            65,
+            80,
+            95
+          ],
+          "ratios": [
+            {
+              "value": 80,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -130,6 +176,85 @@
       "descriptions": [
         "Passive: Kled periodically enters a frenzy that grants him  150% bonus attack speed on his next 4 basic attacks within 4 seconds after the first, with the final attack dealing bonus physical damage, capped against  monsters.",
         " Turrets are only affected by the base damage."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 20,
+              "ratio": 4.5,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 30,
+              "ratio": 5,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 40,
+              "ratio": 5.5,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 50,
+              "ratio": 6,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 60,
+              "ratio": 6.5,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 60,
+              "ratio": 5,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 60,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            20,
+            30,
+            40,
+            50,
+            60
+          ],
+          "ratios": [
+            {
+              "value": 4.5,
+              "type": "bonus ad"
+            },
+            {
+              "value": 5,
+              "type": "bonus ad"
+            },
+            {
+              "value": 5.5,
+              "type": "bonus ad"
+            },
+            {
+              "value": 6,
+              "type": "bonus ad"
+            },
+            {
+              "value": 6.5,
+              "type": "bonus ad"
+            },
+            {
+              "value": 5,
+              "type": "bonus ad"
+            },
+            {
+              "value": 100,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -156,7 +281,8 @@
       "levelings": [],
       "descriptions": [
         "This ability is unusable while  unmounted."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Unmounted Chaaaaaaaarge!!!",
@@ -182,7 +308,8 @@
       "levelings": [],
       "descriptions": [
         "This ability is unusable while  unmounted."
-      ]
+      ],
+      "damageEffects": []
     }
   ],
   "id": "Kled",

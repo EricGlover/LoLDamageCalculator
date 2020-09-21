@@ -27,7 +27,8 @@
         "Innate: Nocturne's basic attack is periodically enhanced, dealing 20% AD bonus physical damage to his target and 120% AD physical damage to surrounding enemies, while also  healing himself for 15 − 40 (based on level) (+ 15% AP) per enemy hit.",
         "Umbra Blades's damage to the primary target can  critically strike for  2.5% AD bonus physical damage.",
         "Basic attacks reduce Umbra Blades'   cooldown by 1 second, increased to 3 seconds against  monsters and enemy  champions."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Duskbringer",
@@ -74,6 +75,51 @@
       "descriptions": [
         "Active: Nocturne sends out a shadow blade in a line in the target direction that leaves a Dusk Trail on its path, dealing physical damage to enemies it passes through and causing enemy  champions hit to also leave a Dusk Trail behind their movement for 5 seconds.",
         "While on the Dusk Trail, Nocturne is  ghosted and gains  bonus movement speed and  bonus attack damage."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 65,
+              "ratio": 75,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 110,
+              "ratio": 75,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 155,
+              "ratio": 75,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 200,
+              "ratio": 75,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 245,
+              "ratio": 75,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            65,
+            110,
+            155,
+            200,
+            245
+          ],
+          "ratios": [
+            {
+              "value": 75,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -114,7 +160,8 @@
         "Passive: Nocturne permanently gains  bonus attack speed.",
         "Active: Nocturne gains a  spell shield for 1.5 seconds.",
         "Blocking an ability doubles Shroud of Darkness' passive bonus attack speed for 5 seconds."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Unspeakable Horror",
@@ -166,6 +213,51 @@
         "Passive: Nocturne gains  335 bonus movement speed when moving toward  fleeing targets.",
         "Active: Nocturne plants nightmares into the target enemy's mind, dealing magic damage to them over 2 seconds and forming a  tether between Nocturne and the target.",
         "If the tether is not broken by the end of the duration, the target is made to  flee from Nocturne for a short duration while being  slowed by 90%."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 125,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 170,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 215,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 260,
+              "ratio": 100,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            80,
+            125,
+            170,
+            215,
+            260
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -211,6 +303,39 @@
         "Recast: Nocturne  dashes with  displacement immunity to the target enemy  champion, dealing physical damage to them on arrival.",
         "If  Shroud of Darkness is active at the time of Paranoia's recast, its duration is maintained for the flight.",
         "The nearsight persists through  death."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 150,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 275,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 400,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            150,
+            275,
+            400
+          ],
+          "ratios": [
+            {
+              "value": 120,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     }
   ],

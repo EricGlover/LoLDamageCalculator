@@ -26,7 +26,8 @@
       "The second shot applies on-hits and on-attack effects at full effect and is affected by  critical strike modifiers.",
       "If Lucian's primary target is killed before the second shot can go off, he automatically shoots another enemy in range.",
       "Lightslinger is not consumed and does not trigger the second basic attack if Lucian is  silenced."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Piercing Light",
@@ -79,6 +80,67 @@
     ],
     "descriptions": [
       "Active: Lucian fires a laser in the direction of the target enemy, dealing physical damage to all enemies hit in a line."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 95,
+            "ratio": 60,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 130,
+            "ratio": 75,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 165,
+            "ratio": 90,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 200,
+            "ratio": 105,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 235,
+            "ratio": 120,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          95,
+          130,
+          165,
+          200,
+          235
+        ],
+        "ratios": [
+          {
+            "value": 60,
+            "type": "bonus ad"
+          },
+          {
+            "value": 75,
+            "type": "bonus ad"
+          },
+          {
+            "value": 90,
+            "type": "bonus ad"
+          },
+          {
+            "value": 105,
+            "type": "bonus ad"
+          },
+          {
+            "value": 120,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -129,6 +191,51 @@
       "Active: Lucian fires a shot in the target direction that explodes in a cross pattern upon hitting an enemy or reaching the end of its path, dealing magic damage and  revealing the area for 1 second.",
       "Enemies hit are marked for 6 seconds.",
       "Lucian gains  bonus movement speed for 1 second if he or allied champions damage a marked target."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 75,
+            "ratio": 90,
+            "ratioType": "ap"
+          },
+          {
+            "base": 110,
+            "ratio": 90,
+            "ratioType": "ap"
+          },
+          {
+            "base": 145,
+            "ratio": 90,
+            "ratioType": "ap"
+          },
+          {
+            "base": 180,
+            "ratio": 90,
+            "ratioType": "ap"
+          },
+          {
+            "base": 215,
+            "ratio": 90,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          75,
+          110,
+          145,
+          180,
+          215
+        ],
+        "ratios": [
+          {
+            "value": 90,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -166,7 +273,8 @@
       "Active: Lucian  dashes in the target direction.",
       "Relentless Pursuit  resets Lucian's basic attack timer.",
       "Relentless Pursuit can be cast during  The Culling and other abilities can be cast during Relentless Pursuit."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "The Culling",
@@ -271,6 +379,7 @@
       "Active: Lucian rapidly  fires shots in the target direction for 3 seconds, dealing physical damage to the first enemy they collide with. The damage is doubled against enemy  minions. The Culling can be recast after 0.75 seconds.",
       "While using The Culling, Lucian always faces in the casted direction and is  ghosted, and he fires the shots in the target direction from his current position.",
       "Recast: Lucian ends The Culling early."
-    ]
+    ],
+    "damageEffects": null
   }
 ]

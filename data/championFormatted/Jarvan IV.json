@@ -25,7 +25,8 @@
       "descriptions": [
         "Innate: Jarvan IV's basic attacks against non- structures deal 8% of the target's  current health physical damage, with a minimum threshold of 20 damage and a maximum threshold of 400 damage against non-champions.",
         "This effect cannot occur on the same target more than once every few seconds."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Dragon Strike",
@@ -75,6 +76,51 @@
       "descriptions": [
         "Active: Jarvan IV extends his lance in the target direction, dealing physical damage to all enemies and  reducing their armor for 3 seconds.",
         "If the lance connects with a deployed  Demacian Standard, Jarvan IV  dashes to its location,  knocking up nearby enemies along his path and at the destination for 0.75 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 90,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 130,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 170,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 210,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 250,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            90,
+            130,
+            170,
+            210,
+            250
+          ],
+          "ratios": [
+            {
+              "value": 120,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -111,7 +157,8 @@
       "descriptions": [
         "Active: Jarvan IV  slows all nearby enemies for 2 seconds.",
         "Jarvan IV also  shields himself for 5 seconds, increased by 1.5% of his maximum health for each enemy  champion hit by Golden Aegis."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Demacian Standard",
@@ -150,7 +197,8 @@
         "Active: Jarvan IV throws a Demacian flag to the target location, dealing magic damage to all nearby enemies.",
         "The flag then remains for 8 seconds, granting  sight of its surroundings and providing an aura that grants Demacian Standard's passive bonus attack speed to Jarvan IV and all nearby allied champions.",
         "Demacian Standard will cast at max range if cast beyond that."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Cataclysm",
@@ -197,6 +245,33 @@
         "Active: Jarvan IV  leaps with  displacement immunity to the target enemy champion's location over 0.35 seconds and deals physical damage to all nearby enemies upon arrival.",
         "Upon impact, he creates a circle of impassable terrain that initially pulls units inside it, though not rendering them  airborne. The terrain lasts for 3.5 seconds and grants  sight of the inside and surrounding area. Cataclysm can be recast after 1 second.",
         "Recast: Jarvan IV destroys the terrain created by Cataclysm."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 200,
+              "ratio": 150,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 262,
+              "ratio": 150,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            200,
+            262
+          ],
+          "ratios": [
+            {
+              "value": 150,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     }
   ],

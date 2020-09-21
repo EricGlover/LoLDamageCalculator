@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Taliyah gains up to 20% − 45% (based on level)  bonus movement speed, which builds up over 1 second if she had been near terrain or structures for at least 0.4 seconds and decays by the same amount if out of range for at least 0.8 seconds.",
       "Entering combat or casting an ability puts Rock Surfing on a 2 second  cooldown, which refreshes continuously while remaining in combat or casting abilities."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Threaded Volley",
@@ -88,6 +89,51 @@
       "Active: Taliyah unleashes 5 Stone Shards in quick succession in the target direction over 1.5 seconds, dealing magic damage to the first target hit. Enemies hit by multiple Stone Shards take 50% damage beyond the first.",
       "Taliyah can move and cast other abilities while launching Stone Shards. After launching the third Stone Shard she's also able to basic attack.",
       "Casting Threaded Volley creates an area of Worked Ground 450 units around Taliyah that lasts 45 seconds. While on Worked Ground, Threaded Volley's  mana cost is reduced to 1 and Taliyah only hurls one Stone Shard when casting."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 45,
+            "ratioType": "ap"
+          },
+          {
+            "base": 95,
+            "ratio": 45,
+            "ratioType": "ap"
+          },
+          {
+            "base": 120,
+            "ratio": 45,
+            "ratioType": "ap"
+          },
+          {
+            "base": 145,
+            "ratio": 45,
+            "ratioType": "ap"
+          },
+          {
+            "base": 170,
+            "ratio": 45,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          70,
+          95,
+          120,
+          145,
+          170
+        ],
+        "ratios": [
+          {
+            "value": 45,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -137,6 +183,51 @@
     ],
     "descriptions": [
       "Active: Taliyah marks the target location and selects a direction. After 1 second, the ground erupts, dealing magic damage to all enemies hit and  knocking them in the chosen direction for 1 second."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 60,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 80,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 100,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 120,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 140,
+            "ratio": 40,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          60,
+          80,
+          100,
+          120,
+          140
+        ],
+        "ratios": [
+          {
+            "value": 40,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -195,6 +286,94 @@
       "Active: Taliyah scatters 18 boulders over the ground in a cone before her in the target direction, dealing magic damage to all enemies hit.",
       "The boulders then remain for 4 seconds,  slowing all enemies within the area by 20% (+ 4% per 100 AP). At the end of their duration, all remaining boulders explode, dealing Unraveled Earth's initial damage once more.",
       "Enemies who  dash over or are  knocked through the boulders will detonate them instantly, each dealing magic damage. Enemies can detonate multiple boulders, but they will only take damage from a maximum of 4, reduced by 0% − 45% (based on boulders hit)."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 50,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 75,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 100,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 125,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 150,
+            "ratio": 40,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          50,
+          75,
+          100,
+          125,
+          150
+        ],
+        "ratios": [
+          {
+            "value": 40,
+            "type": "ap"
+          }
+        ]
+      },
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 100,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 150,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 200,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 250,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 300,
+            "ratio": 80,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          100,
+          150,
+          200,
+          250,
+          300
+        ],
+        "ratios": [
+          {
+            "value": 80,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -227,6 +406,7 @@
     "descriptions": [
       "Active: Taliyah summons a massive wall of spiraling rocks that tear through the battlefield in the target direction, creating impassable terrain for 5 seconds and  knocking aside allied and enemy units it passes through as it emerges. Taliyah also  channels and  reveals herself for the cast time of Weaver's Wall, during which Weaver's Wall can be recast. Weaver's Wall can also be recast while the wall has yet to expire after it has reached its maximum range.",
       "Recast: Taliyah  surfs the wall as it emerges upon completing the channel,  during which she  reveals herself to the enemies; taking damage during or after the cast time will force her off the wall or prevent her from surfing, which will continue along its path normally. After 0.75 seconds, she can input a movement command to manually jump off the wall. If recast after the wall has reached its maximum range, Taliyah manually destroys it. Taliyah can  surf the wall without having to destroy it early, and vice versa."
-    ]
+    ],
+    "damageEffects": []
   }
 ]

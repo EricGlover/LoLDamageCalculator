@@ -25,7 +25,8 @@
       "descriptions": [
         "Innate - Intent: Yasuo doubles his  total critical strike chance from all other sources, but his  critical strikes deal only (80% +  22.5%) AD bonus physical damage.",
         "Innate - Resolve: Yasuo generates  Flow for every 59 / 52.5 / 46 (based on level) units he travels by any means. At「 100 stacks 」「 5900 / 5250 / 4600 (based on level) units traveled 」and upon taking damage from enemy  champions or  monsters, Yasuo consumes all  Flow to  shield himself for 115 − 525 (based on level) for up to 1 second."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Steel Tempest",
@@ -72,6 +73,51 @@
         "While Yasuo has two stacks of Gathering Storm, Steel Tempest consumes the stacks to instead unleash a whirlwind that travels in the target direction, dealing the same damage and  knocking up all enemies hit for 1 second.",
         "Steel Tempest's thrust is  interrupted if Yasuo is affected by total crowd control during the cast time but its  cooldown is reset to 0.1 seconds.",
         "Casting Steel Tempest during  Sweeping Blade will instead affect enemies around Yasuo at the end of the dash, or doing so immediately at his landing location after  blinking while ending the dash prematurely. If Yasuo becomes unable to cast abilities during the dash after buffering, Steel Tempest will not cast, but will still go on cooldown. *"
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 20,
+              "ratio": 100,
+              "ratioType": "ad"
+            },
+            {
+              "base": 45,
+              "ratio": 100,
+              "ratioType": "ad"
+            },
+            {
+              "base": 70,
+              "ratio": 100,
+              "ratioType": "ad"
+            },
+            {
+              "base": 95,
+              "ratio": 100,
+              "ratioType": "ad"
+            },
+            {
+              "base": 120,
+              "ratio": 100,
+              "ratioType": "ad"
+            }
+          ],
+          "flatValues": [
+            20,
+            45,
+            70,
+            95,
+            120
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -110,7 +156,8 @@
       ],
       "descriptions": [
         "Active: Yasuo creates a gust of wind that travels in the target direction over 0.25 seconds to form a wall in front of him. The wall slowly drifts forward 50 units over 3.75 seconds, blocking all hostile non- turret  projectiles that attempt to pass through it."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Sweeping Blade",
@@ -178,6 +225,94 @@
         "Yasuo cannot dash to the same target more than once every few seconds.",
         "Yasuo will be  knocked down by any  immobilizing crowd control during Sweeping Blade.",
         " Last Breath can be cast during Sweeping Blade. If  Steel Tempest has been buffered,  Wind Wall may also be cast during it. *"
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 60,
+              "ratio": 20,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 70,
+              "ratio": 20,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 80,
+              "ratio": 20,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 90,
+              "ratio": 20,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 100,
+              "ratio": 20,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            60,
+            70,
+            80,
+            90,
+            100
+          ],
+          "ratios": [
+            {
+              "value": 20,
+              "type": "bonus ad"
+            }
+          ]
+        },
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 90,
+              "ratio": 20,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 105,
+              "ratio": 20,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 120,
+              "ratio": 20,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 135,
+              "ratio": 20,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 150,
+              "ratio": 20,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            90,
+            105,
+            120,
+            135,
+            150
+          ],
+          "ratios": [
+            {
+              "value": 20,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -223,6 +358,39 @@
         "Upon arrival, he  knocks up the target and all nearby  airborne enemy champions around it for 1 second,  revealing them and slashing them with his sword over the duration, dealing physical damage thereafter. Enemy champions around the target that become  airborne before the effects end will also be  knocked up for the remaining duration and dealt damage at its end.",
         "For the next 15 seconds, Yasuo's  critical strikes gain  50% bonus-armor penetration.",
         "If Yasuo would be placed inside a  turret's  attack range upon blinking, he will instead attempt to position himself outside it (does not apply to  Nexus Obelisk)."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 200,
+              "ratio": 150,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 350,
+              "ratio": 150,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 500,
+              "ratio": 150,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            200,
+            350,
+            500
+          ],
+          "ratios": [
+            {
+              "value": 150,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     }
   ],

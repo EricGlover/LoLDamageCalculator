@@ -24,7 +24,8 @@
       "levelings": [],
       "descriptions": [
         "Innate: Fizz is permanently  ghosted, and takes 4 (+ 1% AP) reduced pre-mitigation damage from each tick of damage, up to a maximum of 50% reduction."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Urchin Strike",
@@ -70,6 +71,51 @@
       "descriptions": [
         "Active: Fizz  dashes a fixed distance towards the target enemy, dealing them magic damage plus 100% AD physical damage if they are in range upon arrival.",
         "Urchin Strike applies on-hit effects."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 10,
+              "ratio": 55,
+              "ratioType": "ap"
+            },
+            {
+              "base": 25,
+              "ratio": 55,
+              "ratioType": "ap"
+            },
+            {
+              "base": 40,
+              "ratio": 55,
+              "ratioType": "ap"
+            },
+            {
+              "base": 55,
+              "ratio": 55,
+              "ratioType": "ap"
+            },
+            {
+              "base": 70,
+              "ratio": 55,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            10,
+            25,
+            40,
+            55,
+            70
+          ],
+          "ratios": [
+            {
+              "value": 55,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -130,6 +176,57 @@
         "Active: Fizz's next basic attack becomes  unstoppable, deals bonus magic damage and gains  50 bonus range.",
         "If Seastone Trident kills its target, its  cooldown is reduced to 1 second and refunds  mana. Otherwise, if Seastone Trident doesn't kill its target, Fizz's basic attacks deal bonus magic damage on-hit for 5 seconds.",
         "Seastone Trident  resets Fizz's basic attack timer."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 20,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 30,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 40,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 50,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 60,
+              "ratio": 40,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            20,
+            30,
+            40,
+            50,
+            60
+          ],
+          "ratios": [
+            {
+              "value": 40,
+              "type": "ap"
+            }
+          ]
+        },
+        {
+          "type": "",
+          "abilityRanks": [],
+          "flatValues": [],
+          "ratios": []
+        }
       ]
     },
     {
@@ -180,6 +277,51 @@
       "descriptions": [
         "Active: Fizz becomes  untargetable and  vaults toward the target location over 0.25 seconds while balancing on his trident. Fizz gains the ability to cast  Trickster after a 0.15-second delay until he begins to jump off the trident.",
         "Fizz then hops off his trident and splashes onto the ground below him over 0.75 seconds, becoming targetable again and dealing magic damage to nearby enemies and  slowing them for 2 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 70,
+              "ratio": 75,
+              "ratioType": "ap"
+            },
+            {
+              "base": 120,
+              "ratio": 75,
+              "ratioType": "ap"
+            },
+            {
+              "base": 170,
+              "ratio": 75,
+              "ratioType": "ap"
+            },
+            {
+              "base": 220,
+              "ratio": 75,
+              "ratioType": "ap"
+            },
+            {
+              "base": 270,
+              "ratio": 75,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            70,
+            120,
+            170,
+            220,
+            270
+          ],
+          "ratios": [
+            {
+              "value": 75,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -231,7 +373,8 @@
         "Chomper (455-910): 60% slow, 325 eruption radius and 250 unit knock back distance.",
         "Gigalodon (>910): 80% slow, 450 eruption radius and 350 unit knock back distance.",
         "Enemy  champions can intercept the lure while it is in flight, which attaches to them and causes the shark to emerge at their position. The lure's holder is  slowed and  revealed for the duration and  knocked up for 1 second instead of knocked back."
-      ]
+      ],
+      "damageEffects": null
     }
   ],
   "id": "Fizz",

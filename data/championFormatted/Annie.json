@@ -26,7 +26,8 @@
         "Innate - Pyromania: Annie gains a stack of Pyromania when she casts an ability, up to a maximum of 4, at which she gains Energized.",
         "Energized: When Annie succeeds in her next cast damaging ability, she consumes all Pyromania stacks and  stuns enemies hit for 1.25 / 1.5 / 1.75 (based on level) seconds.",
         "Annie loses Energized and all Pyromania stacks upon death."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Disintegrate",
@@ -72,6 +73,51 @@
       "descriptions": [
         "Active: Annie hurls a fireball at the target enemy, dealing magic damage.",
         "If Disintegrate kills its target, it refunds its  mana cost and half of its  cooldown is immediately refreshed."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 115,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 150,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 185,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 220,
+              "ratio": 80,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            80,
+            115,
+            150,
+            185,
+            220
+          ],
+          "ratios": [
+            {
+              "value": 80,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -117,6 +163,51 @@
       ],
       "descriptions": [
         "Active: Annie releases a cone of fire in the target direction, dealing magic damage to all enemies in the area."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 70,
+              "ratio": 85,
+              "ratioType": "ap"
+            },
+            {
+              "base": 115,
+              "ratio": 85,
+              "ratioType": "ap"
+            },
+            {
+              "base": 160,
+              "ratio": 85,
+              "ratioType": "ap"
+            },
+            {
+              "base": 205,
+              "ratio": 85,
+              "ratioType": "ap"
+            },
+            {
+              "base": 250,
+              "ratio": 85,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            70,
+            115,
+            160,
+            205,
+            250
+          ],
+          "ratios": [
+            {
+              "value": 85,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -157,7 +248,8 @@
       "descriptions": [
         "Active: Annie wraps herself and  Tibbers in a fiery aura, gaining  30% − 60% (based on level) bonus movement speed that decays over 1.5 seconds, and reducing damage taken for 3 seconds.",
         "Enemies that damage Annie or  Tibbers with basic attacks during this time are dealt magic damage."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Summon: Tibbers",
@@ -203,6 +295,33 @@
         "Active: Annie summons  Tibbers to the target location in a burst of flame, dealing magic damage to surrounding enemies.",
         "He then remains on the field as a controllable  pet for up to 45 seconds.",
         "Recast: Annie directs Tibbers to the target location."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 150,
+              "ratio": 75,
+              "ratioType": "ap"
+            },
+            {
+              "base": 212,
+              "ratio": 75,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            150,
+            212
+          ],
+          "ratios": [
+            {
+              "value": 75,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     }
   ],

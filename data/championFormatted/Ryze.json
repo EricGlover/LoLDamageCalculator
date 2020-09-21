@@ -24,7 +24,8 @@
       "levelings": [],
       "descriptions": [
         "Innate: Ryze gains (5% per 100 AP)  bonus mana."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Overload",
@@ -58,7 +59,7 @@
           "value": [
             3
           ],
-          "type": ""
+          "type": null
         }
       ],
       "castTime": 0.25,
@@ -77,6 +78,51 @@
         "Active: Ryze unleashes a runic blast in the target direction, dealing magic damage to the first enemy struck and consuming all of his  Runes.",
         "If Ryze consumes 2 Runes, he gains  bonus movement speed for 2 seconds.",
         " Flux: Overload deals 10 / 40 / 70 / 100% (based on  Realm Warp's rank)  increased damage, and spreads to all nearby enemies marked with Flux."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 65,
+              "ratio": 45,
+              "ratioType": "ap"
+            },
+            {
+              "base": 90,
+              "ratio": 45,
+              "ratioType": "ap"
+            },
+            {
+              "base": 115,
+              "ratio": 45,
+              "ratioType": "ap"
+            },
+            {
+              "base": 140,
+              "ratio": 45,
+              "ratioType": "ap"
+            },
+            {
+              "base": 165,
+              "ratio": 45,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            65,
+            90,
+            115,
+            140,
+            165
+          ],
+          "ratios": [
+            {
+              "value": 45,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -119,7 +165,7 @@
           "value": [
             4
           ],
-          "type": ""
+          "type": null
         }
       ],
       "castTime": 0.25,
@@ -133,6 +179,51 @@
       "descriptions": [
         "Active: Ryze instantly deals magic damage and  slows the target enemy by 35% for 1.5 seconds.",
         " Flux: Rune Prison's  slow is converted to a  root for the same duration."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 110,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 140,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 170,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 200,
+              "ratio": 60,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            80,
+            110,
+            140,
+            170,
+            200
+          ],
+          "ratios": [
+            {
+              "value": 60,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -175,7 +266,7 @@
           "value": [
             2
           ],
-          "type": ""
+          "type": null
         }
       ],
       "castTime": 0.25,
@@ -189,6 +280,51 @@
       "descriptions": [
         "Active: Ryze hurls an orb of runic energy at the target enemy, dealing magic damage to his target and marking them and nearby enemies with Flux for 3 seconds, causing his next basic ability against them to consume the mark and gain bonus effects.",
         " Flux: Spell Flux spreads further."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 60,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 80,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 100,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 120,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 140,
+              "ratio": 30,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            60,
+            80,
+            100,
+            120,
+            140
+          ],
+          "ratios": [
+            {
+              "value": 30,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -229,7 +365,8 @@
         "Passive: Increases  Overload's damage against targets marked with  Spell Flux.",
         "Active: Ryze opens a portal on the ground at his current location and begins  channeling. If Ryze successfully channels for 2 seconds, all allied units within the portal  blink to the target location and become  untargetable for 0.75 seconds. Realm Warp can affect untargetable units.",
         "Realm Warp casts at maximum range if cast beyond that."
-      ]
+      ],
+      "damageEffects": null
     }
   ],
   "id": "Ryze",

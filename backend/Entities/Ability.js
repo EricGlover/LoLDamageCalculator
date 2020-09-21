@@ -41,7 +41,7 @@ class Ratio {
 class Ability {
     constructor(name, cost, costType, coolDown, description,
                 leveling, skill, damageType, isProjectile, flatDamage, ratios, castTime, icon,
-                icons, levelings, descriptions) {
+                icons, levelings, descriptions, damageEffects) {
         this.name = name;
         this.cost = cost;
         this.costType = costType;
@@ -59,6 +59,7 @@ class Ability {
         this.icons = icons;
         this.levelings = levelings;
         this.descriptions = descriptions;
+        this.damageEffects = damageEffects;
     }
 
     static makeFromWikiData(obj) {
@@ -80,10 +81,12 @@ class Ability {
         if(v.leveling) leveling = v.leveling;
         let ratios = [];
         let flatDamage = [];
+        let damageEffects = [];
         if(!leveling) {
             // console.error("leveling null ? ", v);
             console.error("leveling null ? ");
         } else {
+            damageEffects = formatter.fuckingLevelDescription(leveling);
             let numberRgx = /\d+\.?\d*/g;
             // extract leveling data
             ratios = formatter.makeRatioFromLevelingDescription(leveling);
@@ -125,7 +128,8 @@ class Ability {
             v.icon,
             icons,
             levelings,
-            descriptions
+            descriptions,
+            damageEffects
         )
     }
 }

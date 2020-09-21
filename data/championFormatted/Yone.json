@@ -25,7 +25,8 @@
       "descriptions": [
         "Innate - Intent: Yone doubles his  total critical strike chance from all other sources, but his  critical strikes deal only (80% +  22.5%) AD bonus physical damage.",
         "Innate: Yone's  basic attacks alternate between using his Steel Sword and Azakana Sword on-attack. Yone begins attacking with his Steel Sword, and basic attacks with the Azakana Sword deal 50% AD physical damage and 50% AD magic damage."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Mortal Steel",
@@ -70,6 +71,51 @@
         "If Mortal Steel hits an enemy with the thrust, Yone gains a Gathering Storm stack for 6 seconds, which refreshes upon receiving the second stack.",
         "While Yone has two stacks of Gathering Storm, the effect of Mortal Steel changes: the stacks are consumed and Yone  dashes a fixed distance in the target direction and unleashes a whirlwind that moves in the same direction. The dash and the whirlwind both deal the same amount of damage and  knock up all the enemies hit in their path for 0.75 seconds but cannot affect the same target twice.",
         "Mortal Steel's thrust is  interrupted if Yone is affected by total crowd control during the cast time but its  cooldown is reset to 0.1 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 20,
+              "ratio": 100,
+              "ratioType": "ad"
+            },
+            {
+              "base": 40,
+              "ratio": 100,
+              "ratioType": "ad"
+            },
+            {
+              "base": 60,
+              "ratio": 100,
+              "ratioType": "ad"
+            },
+            {
+              "base": 80,
+              "ratio": 100,
+              "ratioType": "ad"
+            },
+            {
+              "base": 100,
+              "ratio": 100,
+              "ratioType": "ad"
+            }
+          ],
+          "flatValues": [
+            20,
+            40,
+            60,
+            80,
+            100
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -136,6 +182,126 @@
       "descriptions": [
         "Active: Yone cleaves with his Azakana Sword in the target direction, dealing equal parts physical and magic damage to enemies hit in a cone. The total mixed damage has a minimum threshold of 40 −  410 (based on level) against  minions and a maximum threshold of 150 −  320 (based on level) against  monsters.",
         "Yone  shields himself for 40 − 60 (based on level) (+ 60% bonus AD) for 1.5 seconds if Spirit Cleave hits an enemy, increased by 100% − 200% (based on number of enemy champions hit)."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 5,
+              "ratio": 5.5,
+              "ratioType": "maximum health"
+            },
+            {
+              "base": 10,
+              "ratio": 6,
+              "ratioType": "maximum health"
+            },
+            {
+              "base": 15,
+              "ratio": 6.5,
+              "ratioType": "maximum health"
+            },
+            {
+              "base": 20,
+              "ratio": 7,
+              "ratioType": "maximum health"
+            },
+            {
+              "base": 25,
+              "ratio": 7.5,
+              "ratioType": "maximum health"
+            }
+          ],
+          "flatValues": [
+            5,
+            10,
+            15,
+            20,
+            25
+          ],
+          "ratios": [
+            {
+              "value": 5.5,
+              "type": "maximum health"
+            },
+            {
+              "value": 6,
+              "type": "maximum health"
+            },
+            {
+              "value": 6.5,
+              "type": "maximum health"
+            },
+            {
+              "value": 7,
+              "type": "maximum health"
+            },
+            {
+              "value": 7.5,
+              "type": "maximum health"
+            }
+          ]
+        },
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 5,
+              "ratio": 5.5,
+              "ratioType": "maximum health"
+            },
+            {
+              "base": 10,
+              "ratio": 6,
+              "ratioType": "maximum health"
+            },
+            {
+              "base": 15,
+              "ratio": 6.5,
+              "ratioType": "maximum health"
+            },
+            {
+              "base": 20,
+              "ratio": 7,
+              "ratioType": "maximum health"
+            },
+            {
+              "base": 25,
+              "ratio": 7.5,
+              "ratioType": "maximum health"
+            }
+          ],
+          "flatValues": [
+            5,
+            10,
+            15,
+            20,
+            25
+          ],
+          "ratios": [
+            {
+              "value": 5.5,
+              "type": "maximum health"
+            },
+            {
+              "value": 6,
+              "type": "maximum health"
+            },
+            {
+              "value": 6.5,
+              "type": "maximum health"
+            },
+            {
+              "value": 7,
+              "type": "maximum health"
+            },
+            {
+              "value": 7.5,
+              "type": "maximum health"
+            }
+          ]
+        }
       ]
     },
     {
@@ -179,7 +345,8 @@
         "Activation resets  Way of the Hunter's current state.",
         "Recast: Yone casts for 0.25 seconds then  dashes back to his body, detonating the marks on each champion to deal true damage equal to the amount stored against them. Yone is  displacement immune from the point of re-activation until the dash is completed, and he will initially  cleanse himself from all  blinds,  cripples, and  drowsy effects as well as any  immobilizing effects that were applied to him during the cast time.",
         "After the duration ends, Soul Unbound will recast automatically. The automatic recast is delayed if Yone is unable to recast Soul Unbound under any circumstances, which includes if he cannot move or cast abilities. Soul Unbound will also immediately recast upon Yone's  death."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Fate Sealed",
@@ -239,6 +406,94 @@
         "After a further 0.125 seconds, wind rushes along the same line, dealing marked enemies that are within the area equal parts physical and magic damage while  pulling them towards Yone's blinking position and subsequently  knocking them up for 0.75 seconds.",
         "Yone is  locked out for a total of 0.3 seconds upon blinking.",
         "The  stun ends prematurely upon the knock up."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 100,
+              "ratio": 40,
+              "ratioType": "ad"
+            },
+            {
+              "base": 150,
+              "ratio": 40,
+              "ratioType": "ad"
+            },
+            {
+              "base": 200,
+              "ratio": 40,
+              "ratioType": "ad"
+            },
+            {
+              "base": 250,
+              "ratio": 40,
+              "ratioType": "ad"
+            },
+            {
+              "base": 300,
+              "ratio": 40,
+              "ratioType": "ad"
+            }
+          ],
+          "flatValues": [
+            100,
+            150,
+            200,
+            250,
+            300
+          ],
+          "ratios": [
+            {
+              "value": 40,
+              "type": "ad"
+            }
+          ]
+        },
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 100,
+              "ratio": 40,
+              "ratioType": "ad"
+            },
+            {
+              "base": 150,
+              "ratio": 40,
+              "ratioType": "ad"
+            },
+            {
+              "base": 200,
+              "ratio": 40,
+              "ratioType": "ad"
+            },
+            {
+              "base": 250,
+              "ratio": 40,
+              "ratioType": "ad"
+            },
+            {
+              "base": 300,
+              "ratio": 40,
+              "ratioType": "ad"
+            }
+          ],
+          "flatValues": [
+            100,
+            150,
+            200,
+            250,
+            300
+          ],
+          "ratios": [
+            {
+              "value": 40,
+              "type": "ad"
+            }
+          ]
+        }
       ]
     }
   ],

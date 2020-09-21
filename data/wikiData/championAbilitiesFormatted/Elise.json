@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate - Human Form: When Elise's abilities hit a target she gains one dormant Spiderling, up to 2 / 3 / 4 / 5 (based on  Human Form's Rank).",
       "Innate - Spider Form: Elise's basic attacks against non- structures deal 10 / 20 / 30 / 40 (based on  Spider Form's Rank) (+ 30% AP) bonus magic damage and  heal her for 4 / 6 / 8 / 10 (based on  Spider Form's Rank) (+ 10% AP) on-hit."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Neurotoxin",
@@ -71,6 +72,59 @@
     ],
     "descriptions": [
       "Active: Elise fires toxin at the target enemy, dealing magic damage, capped against  monsters."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 40,
+            "ratio": 4,
+            "ratioType": "ap"
+          },
+          {
+            "base": 75,
+            "ratio": 3,
+            "ratioType": "ap"
+          },
+          {
+            "base": 110,
+            "ratio": 100,
+            "ratioType": "ap"
+          },
+          {
+            "base": 145,
+            "ratio": 100,
+            "ratioType": "ap"
+          },
+          {
+            "base": 180,
+            "ratio": 100,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          40,
+          75,
+          110,
+          145,
+          180
+        ],
+        "ratios": [
+          {
+            "value": 4,
+            "type": "ap"
+          },
+          {
+            "value": 3,
+            "type": "ap"
+          },
+          {
+            "value": 100,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -118,6 +172,51 @@
       "Active: Elise summons an  untargetable venom-gorged spider for 3 seconds, which moves in the target direction and navigates its path upon encountering terrain.",
       "The spider explodes upon contact with an enemy unit or at the end of its lifespan, dealing magic damage to nearby enemies.",
       "If the spider does not hit an enemy before reaching the target location, it chases down a nearby enemy, prioritizing  champions. The spider gains  bonus movement speed based on its proximity to its target."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 60,
+            "ratio": 95,
+            "ratioType": "ap"
+          },
+          {
+            "base": 105,
+            "ratio": 95,
+            "ratioType": "ap"
+          },
+          {
+            "base": 150,
+            "ratio": 95,
+            "ratioType": "ap"
+          },
+          {
+            "base": 195,
+            "ratio": 95,
+            "ratioType": "ap"
+          },
+          {
+            "base": 240,
+            "ratio": 95,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          60,
+          105,
+          150,
+          195,
+          240
+        ],
+        "ratios": [
+          {
+            "value": 95,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -156,7 +255,8 @@
     ],
     "descriptions": [
       "Active: Elise fires a web in the target direction, granting  sight of the first enemy hit for 1 second and  stunning them."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Spider Form / Human Form",
@@ -185,6 +285,7 @@
       " Human Form - Active: Elise transforms into a menacing spider, gaining  25 bonus movement speed,  melee basic attacks with 125  range, and access to her arachnid abilities. Additionally, Elise unleashes all stored Spiderlings.",
       " Spider Form - Active: Elise transforms into her human form, gaining  ranged basic attacks, and access to her human abilities. Additionally, Elise stores all unleashed Spiderlings.",
       "Elise begins with one rank in Spider Form / Human Form and can increase it at levels 6, 11, and 16."
-    ]
+    ],
+    "damageEffects": []
   }
 ]

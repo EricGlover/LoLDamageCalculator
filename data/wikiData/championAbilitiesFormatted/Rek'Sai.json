@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Rek'Sai generates  25 Fury upon dealing damage with basic attack,  Prey Seeker,  Unburrow or  Furious Bite, and loses 20 Fury per second if she hasn't generated any in the last 5 seconds.",
       "While  burrowed, Rek'Sai consumes her current Fury over 3 seconds,  healing for up to 20 − 190 (based on level) at 100 Fury, stopping once she consumes it all or returns to  full health."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Queen's Wrath",
@@ -73,6 +74,51 @@
       " Unburrowed - Active: Rek'Sai's next three basic attacks within 5 seconds have a 0.25-second cast time and deal bonus physical damage to the target and all surrounding enemies. The damage to the primary target is affected by  critical strike modifiers.",
       "Queen's Wrath ends prematurely and goes on cooldown if Rek'Sai is  burrowed for more than 1.5 seconds.",
       "Queen's Wrath  resets Rek'Sai's basic attack timer."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 20,
+            "ratio": 50,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 25,
+            "ratio": 50,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 30,
+            "ratio": 50,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 35,
+            "ratio": 50,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 40,
+            "ratio": 50,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          20,
+          25,
+          30,
+          35,
+          40
+        ],
+        "ratios": [
+          {
+            "value": 50,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -101,7 +147,8 @@
       " Unburrowed - Active: Rek'Sai burrows into the ground, reducing her  sight radius to 250 units, but gaining 15 / 20 / 25 / 30 (based on level)  bonus movement speed, becoming  ghosted, accessing an alternate set of basic abilities, and activating Tremor Sense.",
       "Tremor Sense: Rek'Sai and her allies gain  obscured vision of nearby enemy units that are not  visible every 1.5 seconds if they are moving.",
       "Rek'Sai automatically burrows upon respawning once Burrow has been learned."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Furious Bite",
@@ -144,6 +191,51 @@
     "descriptions": [
       " Unburrowed - Active: Rek'Sai bites the target enemy, dealing physical damage.",
       "At maximum  Fury the damage is doubled and converted to  true damage."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 50,
+            "ratio": 85,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 60,
+            "ratio": 85,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 70,
+            "ratio": 85,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 80,
+            "ratio": 85,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 90,
+            "ratio": 85,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          50,
+          60,
+          70,
+          80,
+          90
+        ],
+        "ratios": [
+          {
+            "value": 85,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -186,7 +278,7 @@
           27.5,
           30
         ],
-        "type": ""
+        "type": null
       }
     ],
     "castTime": 0.25,
@@ -202,6 +294,51 @@
       "Passive: Rek'Sai applies Mark as Prey to enemy champions she damages, lasting 5 seconds.",
       "Active: Rek'Sai selects an enemy champion with Mark as Prey, becoming  displacement immune and  vanishing into the ground. After 1.5 seconds, she becomes targetable again and emerges from the ground as  Unburrowed near her target and  pounces a fixed distance in their direction to deal physical damage if she hits them.",
       "The damage can be dodged if the target moves 1500 or more units away. If the target dies or is too far away before Rek'Sai vanishes, Void Rush is canceled with a 10 second  cooldown."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 100,
+            "ratio": 175,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 175,
+            "ratio": 175,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 250,
+            "ratio": 175,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 325,
+            "ratio": 175,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 400,
+            "ratio": 175,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          100,
+          175,
+          250,
+          325,
+          400
+        ],
+        "ratios": [
+          {
+            "value": 175,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   }
 ]

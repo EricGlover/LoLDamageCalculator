@@ -25,7 +25,8 @@
     "descriptions": [
       "Innate: Teemo gains  invisibility after 1.5 seconds of not moving, taking damage, performing actions that break stealth, and being in  stasis. Teemo will remain invisible so long as he does not move or act, and is not  displaced. If within  brush, Teemo gains invisibility after 1.5 seconds even while moving and may do so freely within its boundaries without breaking stealth.",
       "Innate - Element of Surprise: When Teemo breaks stealth, he gains the Element of Surprise for 3 seconds, granting him  20 / 40 / 60 / 80% (based on level) bonus attack speed."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Blinding Dart",
@@ -70,6 +71,51 @@
     ],
     "descriptions": [
       "Active: Teemo shoots a dart at the target enemy, dealing them magic damage and  blinding them for a few seconds. The  blind's base duration is doubled against  minions and  monsters."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 80,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 125,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 170,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 215,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 260,
+            "ratio": 80,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          80,
+          125,
+          170,
+          215,
+          260
+        ],
+        "ratios": [
+          {
+            "value": 80,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -107,7 +153,8 @@
       "Passive: Teemo gains  bonus movement speed if he hasn't taken damage from enemy  champions or  turrets for 5 seconds.",
       "Active: Teemo doubles his bonus movement speed for 3 seconds and prevents it from being disabled by damage for the duration.",
       "Casting Move Quick does not break  Guerrilla Warfare's stealth nor reset its fade into it."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Toxic Shot",
@@ -151,6 +198,14 @@
       "Passive: Teemo's basic attacks deal bonus magic damage and  poison his target.",
       " Poisoned targets suffer magic damage for 4 seconds, with subsequent attacks refreshing the  poison's duration.",
       "The total damage is increased by 50% against  monsters."
+    ],
+    "damageEffects": [
+      {
+        "type": "",
+        "abilityRanks": [],
+        "flatValues": [],
+        "ratios": []
+      }
     ]
   },
   {
@@ -191,6 +246,7 @@
       "Active: Teemo tosses a  stealthed trap at the target location, which stealths and arms after 1 second, granting  sight of its surroundings and lasting for up to 5 minutes. Noxious Trap bounces forward if it lands on top of another.",
       "If an enemy steps on the trap, it detonates,  poisoning all nearby enemies,  slowing them,  revealing them, and dealing them magic damage over 4 seconds.",
       "Noxious Trap has  6 maximum health and can only be damaged by  champion basic attacks (2 damage from  ranged and 3 from  melee)."
-    ]
+    ],
+    "damageEffects": null
   }
 ]

@@ -1,4 +1,13 @@
 class Ratio {
+    static ad = 'ad';
+    static bonusAd = 'bonus ad';
+    static ap = 'ap';
+    static bonusAp = 'bonus ap';
+    static armor = 'armor';
+    static bonusArmor = 'bonus armor';
+    static mr = 'magic resistance';
+    static bonusMr = 'bonus magic resistance';
+    static maxHealth = 'maximum health';
     constructor(value, type) {
         this.value = value;
         this.type = type;

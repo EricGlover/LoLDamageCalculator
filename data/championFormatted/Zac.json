@@ -30,7 +30,8 @@
         "Both Zac and his enemies can interact with these chunks by being within 50 units of them: Zac can move over them to consume them, restoring 4 / 5 / 6 / 7% (based on  Let's Bounce!'s rank) of his maximum health; enemies can move over them to destroy them.",
         "Periodically, upon taking  fatal damage, Zac  dispels all  debuffs, sets his current health to 50%, and temporarily becomes  untargetable, creating 4 uncontrollable bloblets that are briefly  untargetable while splitting, each having 12% of Zac's maximum health, which move to Zac's final location over 8 / 7 / 6 / 5 / 4 (based on level) seconds. If any of these bloblets remain alive until the end of the duration, Zac  recombines and returns at 10 - 50% maximum health.",
         "Upon splitting, the bloblets stop upon colliding with terrain."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Stretching Strikes",
@@ -96,6 +97,94 @@
         "While his arm is attached, his next basic attack is replaced by a second Stretching Strike and gains  200 range, dealing the same magic damage and  slow after a 0.25-second cast time, but without being able to  critically strike.",
         "If the two Stretching Strikes affect different targets, he  roots both targets for 0.5 seconds and then  flings them towards each other for 300 range.",
         "If the two targets are near each other, they're instead slammed against each other, both taking the initial magic damage and applied the  slow again and also becoming  stunned for 0.25 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 40,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 55,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 70,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 85,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 100,
+              "ratio": 30,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            40,
+            55,
+            70,
+            85,
+            100
+          ],
+          "ratios": [
+            {
+              "value": 30,
+              "type": "ap"
+            }
+          ]
+        },
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 110,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 140,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 170,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 200,
+              "ratio": 60,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            80,
+            110,
+            140,
+            170,
+            200
+          ],
+          "ratios": [
+            {
+              "value": 60,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -145,6 +234,85 @@
         "Active: Zac's body explodes outward, dealing magic damage to all nearby enemies, capped against  minions and  monsters.",
         "Zac grants  ghosting to monsters hit for 5 seconds.",
         "Unstable Matter's  cooldown is reduced by 1 second every time Zac picks up a  Cell Division chunk."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 25,
+              "ratio": 4,
+              "ratioType": "ap"
+            },
+            {
+              "base": 40,
+              "ratio": 5,
+              "ratioType": "ap"
+            },
+            {
+              "base": 55,
+              "ratio": 6,
+              "ratioType": "ap"
+            },
+            {
+              "base": 70,
+              "ratio": 7,
+              "ratioType": "ap"
+            },
+            {
+              "base": 85,
+              "ratio": 8,
+              "ratioType": "ap"
+            },
+            {
+              "base": 85,
+              "ratio": 2,
+              "ratioType": "ap"
+            },
+            {
+              "base": 85,
+              "ratio": 100,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            25,
+            40,
+            55,
+            70,
+            85
+          ],
+          "ratios": [
+            {
+              "value": 4,
+              "type": "ap"
+            },
+            {
+              "value": 5,
+              "type": "ap"
+            },
+            {
+              "value": 6,
+              "type": "ap"
+            },
+            {
+              "value": 7,
+              "type": "ap"
+            },
+            {
+              "value": 8,
+              "type": "ap"
+            },
+            {
+              "value": 2,
+              "type": "ap"
+            },
+            {
+              "value": 100,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -186,7 +354,8 @@
         "Active: Zac  charges up to 4.5 seconds, increasing Elastic Slingshot's  range over a cone in the target direction. Elastic Slingshot can be recast at any time within its duration.",
         "If Zac cancels the channel himself, or the charge completes without reactivation, 50% of Elastic Slingshot's  health cost and  cooldown are refunded.",
         "Recast: Zac  dashes to the target location, dealing magic damage to all nearby enemies on impact and  knocking them up for 0.5 − 1 (based on duration of the charge) seconds."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Let's Bounce!",
@@ -228,7 +397,8 @@
         "Active: Zac bounces 4 times over 3 seconds, gaining 20% − 50% (based on duration)  bonus movement speed, but becoming unable to declare basic attacks and use  Stretching Strikes and  Elastic Slingshot for the duration. There is a 1-second delay between each bounce.",
         "Each bounce deals magic damage to all nearby enemies,  knocking them back for 1 second and subsequently  slowing them by 20% for the same duration.",
         "Enemies can be damaged by multiple bounces, with each beyond the first dealing 50% damage but not  displacing them."
-      ]
+      ],
+      "damageEffects": null
     }
   ],
   "id": "Zac",

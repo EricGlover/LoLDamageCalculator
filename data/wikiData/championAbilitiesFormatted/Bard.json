@@ -26,7 +26,8 @@
       "Innate - Ancient Chimes: Bard's presence causes sacred chimes to appear at random locations and linger for up to 10 minutes. Collecting a chime grants Bard  24% bonus movement speed out of combat for 7 seconds, stacking up to 5 times, with every other chime collected beyond the first granting an additional 14% bonus movement speed, up to a total of 80% bonus movement speed,  20 + (1 per minute after 5 minutes) experience, and  12% maximum mana. Bard empowers his  Meeps each time he collects 5 chimes.",
       "Innate - Meeps: Bard's presence attracts small spirits known as Meeps to his side. On-attack he consumes a Meep, dealing 40 (+ 12 per 5 chimes collected) (+ 30% AP) bonus magic damage.\n At 5 chimes, Meeps start  slowing damaged enemies by 25% − 75% (based on number of Chimes) for 1 second.\n At 15 chimes, Meeps deal splash damage to enemies within 150 units of his target as well as those in a cone behind them.\n At 35 chimes, the cone's radius increases.",
       "Meeps spawn every 8 − 4 (based on number of Chimes) seconds and Bard can keep up to 1 − 9 (based on number of Chimes) of them at a time."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Cosmic Binding",
@@ -72,6 +73,51 @@
     "descriptions": [
       "Active: Bard fires a burst of spirit energy in the target direction, dealing magic damage to the first enemy struck and  slowing them by 60% for a duration.",
       "After Cosmic Binding hits an enemy, the energy continues behind them for 300 units. If the burst hits terrain or a second enemy, it  stuns both targets for the same duration, dealing the same magic damage to the second target as well."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 80,
+            "ratio": 65,
+            "ratioType": "ap"
+          },
+          {
+            "base": 125,
+            "ratio": 65,
+            "ratioType": "ap"
+          },
+          {
+            "base": 170,
+            "ratio": 65,
+            "ratioType": "ap"
+          },
+          {
+            "base": 215,
+            "ratio": 65,
+            "ratioType": "ap"
+          },
+          {
+            "base": 260,
+            "ratio": 65,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          80,
+          125,
+          170,
+          215,
+          260
+        ],
+        "ratios": [
+          {
+            "value": 65,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -121,7 +167,8 @@
       "Active: Bard conjures a shrine at the target location that builds up in power over 10 seconds, granting  sight of a small area around it for 1.8 seconds. Up to 3 shrines can be active at once, which last until they are consumed by champions stepping on them.",
       "If the champion was an ally or Bard himself, they are  healed for an amount based on the shrine's power and gain  30% bonus movement speed that decays over 1.5 seconds.",
       "If the champion was an enemy, the shrine is destroyed."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Magical Journey",
@@ -153,7 +200,8 @@
       "Active: Bard opens a one-way magical corridor through a piece of terrain in the target direction for 10 seconds. Magical Journey will not cast unless it can open a corridor.",
       "Both allies and enemies can  pass through the corridor by clicking on it or its exit, with allies and Bard travelling at 33.3% increased speed.",
       "All units are  revealed while taking Magical Journey."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Tempered Fate",
@@ -182,6 +230,7 @@
     "descriptions": [
       "Active: Bard sends magical energy arcing to the target location,  revealing the area before putting all units inside into  stasis for 2.5 seconds upon impact. Enemies hit are  revealed for the duration.",
       "Despite normally being  crowd control immune,  epic monsters and  turrets also enter  stasis."
-    ]
+    ],
+    "damageEffects": []
   }
 ]

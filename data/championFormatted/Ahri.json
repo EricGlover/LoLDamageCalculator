@@ -26,7 +26,8 @@
       "descriptions": [
         "Innate: Whenever Ahri hits an enemy with one of her abilities, she gains a stack of Essence Theft, and can gain up to 3 stacks per ability cast.",
         "Upon reaching 9 stacks, her next ability  heals her for 3 / 5 / 9 / 18 (based on level) (+ 9% AP) for each enemy hit."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Orb of Deception",
@@ -77,7 +78,8 @@
       ],
       "descriptions": [
         "Active: Ahri sends her orb in the target direction, dealing magic damage to all enemies it passes through. At maximum range, it homes back to Ahri, dealing the same in true damage to enemies hit on its way back."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Fox-Fire",
@@ -132,6 +134,51 @@
         "After 0.25 seconds, each flame targets a  visible enemy, or after 0.4 seconds targets the closest visible enemy in range, dealing magic damage. The damage is doubled against  minions below 20% maximum health.",
         "Subsequent flames on a single target deal 30% damage.",
         "Flames prioritize enemy champions hit by  Charm, then enemy  champions, then low-health minions that can be killed with Fox-Fire, and then the target of Ahri's last basic attack within 3 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 40,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 65,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 90,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 115,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 140,
+              "ratio": 30,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            40,
+            65,
+            90,
+            115,
+            140
+          ],
+          "ratios": [
+            {
+              "value": 30,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -174,6 +221,51 @@
       "descriptions": [
         "Active: Ahri blows a kiss in the target direction that deals magic damage to the first enemy hit,  knocking them down and  charming and  slowing them by 65%.",
         "An enemy hit by Charm is rendered vulnerable for 3 seconds, taking 20% bonus damage from Ahri's abilities."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 60,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 90,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 120,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 150,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 180,
+              "ratio": 40,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            60,
+            90,
+            120,
+            150,
+            180
+          ],
+          "ratios": [
+            {
+              "value": 40,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -218,6 +310,39 @@
       "descriptions": [
         "Active: Ahri  dashes to the target location and then fires energy bolts to up to 3  visible targets, dealing magic damage. Spirit Rush can be recast twice more at a 1 second static cooldown between casts within 10 seconds of the activation at no additional cost.",
         "Recast: Ahri  dashes, mimicking the first cast's effects."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 60,
+              "ratio": 35,
+              "ratioType": "ap"
+            },
+            {
+              "base": 90,
+              "ratio": 35,
+              "ratioType": "ap"
+            },
+            {
+              "base": 120,
+              "ratio": 35,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            60,
+            90,
+            120
+          ],
+          "ratios": [
+            {
+              "value": 35,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     }
   ],

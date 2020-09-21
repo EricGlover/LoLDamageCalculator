@@ -25,7 +25,8 @@
       "descriptions": [
         "Innate: Aatrox periodically empowers his next basic attack on-attack to gain  50 bonus range and deal 5% − 12% (based on level) of the target's  maximum health as bonus physical damage, capped at 100 against monsters, and  heal him for 100% of the bonus damage dealt, reduced to 25% against  minions.",
         "Deathbringer Stance's  cooldown is reduced by 2 seconds whenever Aatrox hits at least one enemy  champion or large  monster with a basic attack on-hit or an ability. The cooldown is further reduced by 2 seconds if he hits with the Sweetspot of  The Darkin Blade."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "The Darkin Blade",
@@ -93,6 +94,67 @@
         "First Cast: Aatrox's first strike affects a 625 × 180-unit rectangular area in the target direction, with Aatrox centered on the back line and the Sweetspot at the farthest edge.",
         "Second Cast: Aatrox's second strike affects a trapezoidal area in the target direction, with the Sweetspot at the farthest edge. The hitbox begins 100-units behind Aatrox and extends 475-units in front of him, measuring between 300 and 500-units wide from behind to in front.",
         "Third Cast: Aatrox's third strike affects a 300-radius circular area centered on a target location 200 units in front of him, with a 180-radius Sweetspot within."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 10,
+              "ratio": 60,
+              "ratioType": "ad"
+            },
+            {
+              "base": 30,
+              "ratio": 65,
+              "ratioType": "ad"
+            },
+            {
+              "base": 50,
+              "ratio": 70,
+              "ratioType": "ad"
+            },
+            {
+              "base": 70,
+              "ratio": 75,
+              "ratioType": "ad"
+            },
+            {
+              "base": 90,
+              "ratio": 80,
+              "ratioType": "ad"
+            }
+          ],
+          "flatValues": [
+            10,
+            30,
+            50,
+            70,
+            90
+          ],
+          "ratios": [
+            {
+              "value": 60,
+              "type": "ad"
+            },
+            {
+              "value": 65,
+              "type": "ad"
+            },
+            {
+              "value": 70,
+              "type": "ad"
+            },
+            {
+              "value": 75,
+              "type": "ad"
+            },
+            {
+              "value": 80,
+              "type": "ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -146,6 +208,51 @@
       "descriptions": [
         "Active: Aatrox smashes the ground in the target direction, creating a chain that stops on the first enemy hit, dealing physical damage, doubled against  minions, and  slowing them by 25% for 1.5 seconds.",
         "If Infernal Chains hits an enemy  champion or large  monster, they are  revealed and are  chained to the impact area. If the chained enemy is still in the impact area after 1.5 seconds, they are  dragged to the center and take the same damage again."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 30,
+              "ratio": 40,
+              "ratioType": "ad"
+            },
+            {
+              "base": 40,
+              "ratio": 40,
+              "ratioType": "ad"
+            },
+            {
+              "base": 50,
+              "ratio": 40,
+              "ratioType": "ad"
+            },
+            {
+              "base": 60,
+              "ratio": 40,
+              "ratioType": "ad"
+            },
+            {
+              "base": 70,
+              "ratio": 40,
+              "ratioType": "ad"
+            }
+          ],
+          "flatValues": [
+            30,
+            40,
+            50,
+            60,
+            70
+          ],
+          "ratios": [
+            {
+              "value": 40,
+              "type": "ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -188,7 +295,8 @@
         "Umbral Dash  resets Aatrox's basic attack timer.",
         "Umbral Dash can be cast during his other abilities without cancelling them, and vice versa.",
         "Umbral Dash may cast across terrain with an increased dash range. This may upscale his dash speed so that the dash takes the same total time as the standard maximum-range dash."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "World Ender",
@@ -229,7 +337,8 @@
         "Active: Aatrox unleashes his true demonic form,  fearing nearby enemy  minions and  monsters and  slowing them by up to 99% for 3 seconds. For the next 10 seconds, Aatrox is  ghosted and gains  bonus movement speed, decaying by 10% of the current bonus every 0.25 seconds.",
         "While transformed, Aatrox gains  bonus attack damage and 5% increased size, and receives increased  self-healing from all sources, except  spell vamp. *",
         "With each enemy  champion  takedown, World Ender is extended by 5 seconds, refreshing its effects, up to the original amount."
-      ]
+      ],
+      "damageEffects": null
     }
   ],
   "id": "Aatrox",

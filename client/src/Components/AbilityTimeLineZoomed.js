@@ -2,7 +2,7 @@ import React from "react";
 import { Steps } from "antd";
 
 function AbilityTimeLineZoomed ({props}){
-    const {selectedAbilities, setSelectedAbilites, currentStep, setCurrentStep, onChange} = props;
+    const {selectedAbilities, currentStep, onChange} = props;
     const {Step} = Steps;
 
     return(

@@ -26,7 +26,8 @@
       "descriptions": [
         "Innate: Poppy periodically  throws her buckler as her next basic attack, gaining  350 bonus range and dealing 20 − 180 (based on level) bonus magic damage. The buckler then falls near her target, where it remains for up to 4 seconds.",
         "When Poppy picks up the buckler, she  shields herself for  15 / 17.5 / 20% (based on level) of her maximum health for 3 seconds. If the buckler kills its target, it bounces back to Poppy automatically. Enemy  champions can step on the buckler to destroy it."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Hammer Shock",
@@ -107,6 +108,94 @@
       "descriptions": [
         "Active: Poppy smashes the ground in front of her in the target direction, dealing physical damage to all enemies hit. Against  monsters, the damage based on their maximum health is capped.",
         "The impacted ground becomes unstable,  slowing enemies standing on it before erupting after 1 second, dealing the same physical damage to all enemies hit."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 40,
+              "ratio": 90,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 60,
+              "ratio": 90,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 80,
+              "ratio": 90,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 100,
+              "ratio": 90,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 120,
+              "ratio": 90,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            40,
+            60,
+            80,
+            100,
+            120
+          ],
+          "ratios": [
+            {
+              "value": 90,
+              "type": "bonus ad"
+            }
+          ]
+        },
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 180,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 120,
+              "ratio": 180,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 160,
+              "ratio": 180,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 200,
+              "ratio": 180,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 240,
+              "ratio": 180,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            80,
+            120,
+            160,
+            200,
+            240
+          ],
+          "ratios": [
+            {
+              "value": 180,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -155,6 +244,51 @@
         "Passive: Poppy's  total armor and  total magic resistance are both increased by 10%, doubled to 20% when she falls  below 40% maximum health.",
         "Active: Poppy gains  40% bonus movement speed for 2 seconds and generates an aura around herself for the duration, causing all enemies who attempt to  dash through it to be dealt magic damage,  knocked up for 0.5 seconds, and afterwards both  grounded and  slowed by 25% for 2 seconds.",
         "Steadfast Presence can only block a single dash per enemy per cast."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 70,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 110,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 150,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 190,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 230,
+              "ratio": 70,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            70,
+            110,
+            150,
+            190,
+            230
+          ],
+          "ratios": [
+            {
+              "value": 70,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -208,6 +342,94 @@
       "descriptions": [
         "Active: Poppy  dashes to the target enemy's location and, if they are in range upon arrival, she deals them physical damage and  carries them along with her for up to 300 units.",
         "If the target collides with terrain, she deals them the same physical damage again and  stuns them."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 60,
+              "ratio": 50,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 80,
+              "ratio": 50,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 100,
+              "ratio": 50,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 120,
+              "ratio": 50,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 140,
+              "ratio": 50,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            60,
+            80,
+            100,
+            120,
+            140
+          ],
+          "ratios": [
+            {
+              "value": 50,
+              "type": "bonus ad"
+            }
+          ]
+        },
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 120,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 160,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 200,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 240,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 280,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            120,
+            160,
+            200,
+            240,
+            280
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -255,6 +477,39 @@
         "Releasing the ability within 0.5 seconds of the activation ends the charge to instead launch the hammer upwards, dealing 50% damage and  knocking up all enemies around Poppy for 0.75 seconds.",
         "If Poppy is  interrupted during the charge, or the charge completes without reactivation, Keeper's Verdict is canceled and the ability is put on a 30-second  cooldown.",
         "Enemies knocked  airborne are  revealed and are rendered  untargetable while being displaced if Poppy charged Keeper's Verdict for more than 0.5 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 200,
+              "ratio": 90,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 300,
+              "ratio": 90,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 400,
+              "ratio": 90,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            200,
+            300,
+            400
+          ],
+          "ratios": [
+            {
+              "value": 90,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     }
   ],

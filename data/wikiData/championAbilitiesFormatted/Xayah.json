@@ -26,7 +26,8 @@
       "Innate: After casting an ability, Xayah's next 3 basic attacks penetrate through all enemies along a 900 range line, dealing 100% damage to her main target and 30 / 40 / 50% (based on level) pass-through damage to other enemies.  At the end of their path, a Feather will be left in the ground for 6 seconds.",
       "Xayah can store up to 5 empowered attacks for 8 seconds, refreshed with further ability use or upon attacking structures.",
       "Lover's Leap: If either Xayah or  Rakan is channeling  Recall, the other may move nearby and channel their own to join them. Both reach base at the time of which the initiator's recall ends."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Double Daggers",
@@ -79,7 +80,8 @@
     "descriptions": [
       "Active: Xayah throws two feather-blades in the target direction with quick succession, dealing physical damage to all enemies hit and leaving two Feathers on the ground.",
       "Targets hit after the first take 50% damage."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Deadly Plumage",
@@ -123,7 +125,8 @@
       "Active: Xayah creates a storm of blades for 4 seconds that grants her  bonus attack speed and causes her basic attacks to strike the target an additional time for 20% damage.",
       "If Deadly Plumage strikes an enemy  champion, Xayah gains  30% bonus movement speed for 1.5 seconds.",
       "If  Rakan is nearby he will also gain the effects of Deadly Plumage, while also gaining the  bonus movement speed when Xayah strikes an enemy champion."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Bladecaller",
@@ -176,7 +179,8 @@
       "Active: Xayah calls all Feathers back to her, dealing physical damage to enemies they pass through, increased by 0% − 50% (based on critical chance).  Minions take 50% damage. Bladecaller can only hit enemies once per Feather.",
       "Enemies take 100% −  10% (based on previous feathers hit) damage from a Feather.",
       "Enemies hit by at least 3 Feathers are  rooted for 1.25 seconds."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Featherstorm",
@@ -222,6 +226,33 @@
     "descriptions": [
       "Active: Xayah leaps into the air, becoming  untargetable and  ghosted for 1.5 seconds, then rains down daggers in a cone in the target direction which deal physical damage to enemies hit and leave behind a line of 5 Feathers.",
       "Xayah is unable to attack and cast her abilities during Featherstorm, but she can still move."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 125,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 187,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          125,
+          187
+        ],
+        "ratios": [
+          {
+            "value": 100,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   }
 ]

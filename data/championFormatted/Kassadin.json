@@ -24,7 +24,8 @@
       "levelings": [],
       "descriptions": [
         "Innate: Kassadin is permanently  ghosted and takes 15% reduced  magic damage."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Null Sphere",
@@ -75,6 +76,51 @@
       "descriptions": [
         "Active: Kassadin fires an orb of void energy at the target enemy, dealing magic damage and  disrupting their ongoing  channels.",
         "The excess energy forms around Kassadin, granting him a  shield that exclusively absorbs magic damage for 1.5 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 65,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 95,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 125,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 155,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 185,
+              "ratio": 70,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            65,
+            95,
+            125,
+            155,
+            185
+          ],
+          "ratios": [
+            {
+              "value": 70,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -118,6 +164,51 @@
         "Passive: Kassadin's basic attacks deal 20 (+ 10% AP) bonus magic damage.",
         "Active: Kassadin empowers his blade, causing his next basic attack within the next 5 seconds to become  unstoppable, gain  50 bonus range, deal increased bonus magic damage, and restore  mana, with the restoration amount quintupled against  champions.",
         "Nether Blade  resets Kassadin's basic attack timer."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 70,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 95,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 120,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 145,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 170,
+              "ratio": 80,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            70,
+            95,
+            120,
+            145,
+            170
+          ],
+          "ratios": [
+            {
+              "value": 80,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -164,6 +255,51 @@
       "descriptions": [
         "Passive: Kassadin gains a Void Energy stack each time a nearby champion, including himself, uses an ability, up to 6. At 6 stacks, Kassadin gains the ability to cast Force Pulse.",
         "Active: Kassadin emits a pulse of void energy, dealing magic damage to all enemies in a cone in the target direction and  slowing them for 1 second."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 105,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 130,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 155,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 180,
+              "ratio": 80,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            80,
+            105,
+            130,
+            155,
+            180
+          ],
+          "ratios": [
+            {
+              "value": 80,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -206,7 +342,7 @@
           "value": [
             2
           ],
-          "type": ""
+          "type": null
         }
       ],
       "castTime": 0.25,
@@ -221,6 +357,51 @@
       "descriptions": [
         "Active: Kassadin  blinks to the target location, dealing magic damage to all nearby enemies on arrival.",
         "Each subsequent Riftwalk cast within 15 seconds doubles its  mana cost and increases its damage, stacking up to 4 times."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 90,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 100,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 110,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 120,
+              "ratio": 40,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            80,
+            90,
+            100,
+            110,
+            120
+          ],
+          "ratios": [
+            {
+              "value": 40,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     }
   ],

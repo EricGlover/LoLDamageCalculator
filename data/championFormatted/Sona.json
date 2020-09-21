@@ -27,7 +27,8 @@
         "Innate - Aura: Sona's basic abilities each generate a unique aura for 3 seconds that empowers her and all allied  champions who enter its radius, also incurring a 0.5 seconds period during which she cannot cast her other basic abilities.",
         "Innate - Power Chord: After casting 3 basic abilities, Sona's next basic attack becomes  unstoppable, deals 20 −  240 (based on level) (+ 20% AP) bonus magic damage and applies an additional effect depending on the last basic ability cast.",
         "Power Chord  resets Sona's basic attack timer."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Hymn of Valor",
@@ -80,6 +81,51 @@
         "Aura: Sona and tagged allied champions deal bonus magic damage on their next basic attack within 3 seconds.",
         "Granting an ally (other than herself) the aura refunds 30 mana per cast.",
         " Power Chord – Staccato: Power Chord deals「 40% bonus magic damage. 」「 28 −  336 (based on level) (+ 28% AP) total magic damage. 」"
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 40,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 70,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 100,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 130,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 160,
+              "ratio": 40,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            40,
+            70,
+            100,
+            130,
+            160
+          ],
+          "ratios": [
+            {
+              "value": 40,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -133,7 +179,8 @@
         "Aura: Sona and tagged allied champions receive a  shield lasting up to 1.5 seconds.",
         "Granting an ally (other than herself) the aura refunds 30 mana per cast.",
         " Power Chord – Diminuendo: Power Chord reduces its target's size by 8% and damage output by 25% (+ 4% per 100 AP) for 3 seconds."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Song of Celerity",
@@ -182,7 +229,8 @@
         "Aura: Tagged allied champions gain bonus movement speed for 3 seconds.",
         "Granting an ally (other than herself) the aura refunds 30 mana per cast.",
         " Power Chord – Tempo: Power Chord  slows its target by 40% (+ 4% per 100 AP) for 2 seconds, capped at a maximum of 99%."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Crescendo",
@@ -219,7 +267,8 @@
       "descriptions": [
         "Passive: Reduces the base  cooldown of Sona's basic abilities.",
         "Active: Sona plays an irresistible chord in the target direction, dealing magic damage to all enemy champions struck and  stunning them for 1.5 seconds."
-      ]
+      ],
+      "damageEffects": null
     }
   ],
   "id": "Sona",

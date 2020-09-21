@@ -27,7 +27,8 @@
         "The grove matures over 40 − 1 (based on level) seconds. When fully matured, Ivern can interact with the camp again to free the monsters after a 0.5-second cast time, sending them away while receiving their  full gold and  full experience bounties.  Smiting a large monster within a grove will instantly free the camp's monsters, regardless of its maturity or the monsters' current health.",
         "If the camp's large monster has already been slain, Ivern will free the camp upon completing the channel at no cost. Similarly, the grove will instantly mature if the large monster is slain.",
         "Starting at level 5, freeing the  Red Brambleback or the  Blue Sentinel leaves behind a sapling for 1 minute that can be picked up by an allied champion to gain the camp's buff, consuming it in the process. If at least one allied champion is nearby, Ivern can pick up the sapling to transfer it to the nearest one in range. If an ally kills either monster, they also leave behind a sapling that only Ivern can consume."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Rootcaller",
@@ -74,6 +75,51 @@
         "Active: Ivern throws a vine in the target direction, dealing magic damage to the first enemy hit and  rooting and  revealing them for a short duration. Ivern can recast Rootcaller if it hits a target.",
         "Ivern and his allies can click on the target  rooted by Rootcaller to  dash to their location, with allies stopping at  their attack range and Ivern stopping at  125 range from the target.",
         "Recast: Ivern  dashes to the target."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 125,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 170,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 215,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 260,
+              "ratio": 70,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            80,
+            125,
+            170,
+            215,
+            260
+          ],
+          "ratios": [
+            {
+              "value": 70,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -118,6 +164,33 @@
         "Ivern periodically stocks a Brushmaker charge, up to a maximum of 3.",
         "Active: Ivern grows a patch of  brush at the target location for 30 seconds,  revealing the area within and around it for 3 seconds. Brushmaker spawns more brush if used near terrain or other brush.",
         " Brush grown in the line of  sight of enemy  turrets will cause Ivern and allied units within the brush to be  exposed."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 30,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 37,
+              "ratio": 30,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            30,
+            37
+          ],
+          "ratios": [
+            {
+              "value": 30,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -165,7 +238,8 @@
       "descriptions": [
         "Active: Ivern gifts a Triggerseed to the target allied champion, himself or  Daisy,  shielding them for 2 seconds.",
         "At the end of its duration, Triggerseed bursts, dealing magic damage to all nearby enemies and  slowing them for 2 seconds."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Daisy!",
@@ -197,7 +271,8 @@
       "descriptions": [
         "Active: Ivern summons his sentinel friend  Daisy at his side to the target location, who remains on the field for up to 60 seconds as a controllable  pet.",
         "Recast: Ivern commands Daisy! to move to the target location. If cast on Ivern,  Daisy will follow him."
-      ]
+      ],
+      "damageEffects": []
     }
   ],
   "id": "Ivern",

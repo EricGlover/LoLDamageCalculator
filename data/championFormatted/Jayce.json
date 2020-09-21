@@ -24,7 +24,8 @@
       "levelings": [],
       "descriptions": [
         "Innate: Each time Jayce switches between  Hammer Stance and  Cannon Stance he is  ghosted and gains  40 bonus movement speed for 1.25 seconds."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "To the Skies!",
@@ -70,6 +71,57 @@
       ],
       "descriptions": [
         "Active: Jayce  leaps to the target enemy's location and smashes his hammer on the ground upon arrival, dealing physical damage to all enemies in the area and  slowing them for 2 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 55,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 95,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 135,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 175,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 215,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 255,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            55,
+            95,
+            135,
+            175,
+            215,
+            255
+          ],
+          "ratios": [
+            {
+              "value": 120,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -106,7 +158,8 @@
       "descriptions": [
         "Passive: Jayce restores  mana each time he hits an enemy with a basic attack.",
         "Active: Jayce surrounds himself with an electric field for 4 seconds, dealing magic damage each second to all nearby enemies."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Thundering Blow",
@@ -152,6 +205,33 @@
       ],
       "descriptions": [
         "Active: Jayce swings his hammer at the target enemy, dealing magic damage, capped against  monsters, while also marking a location 500 units away from him in the direction of the target,  pulling them to it."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 8,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 10,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            8,
+            10
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -179,7 +259,8 @@
       "descriptions": [
         "Active: Jayce transforms the  Mercury Hammer into the Mercury Cannon, gaining access to its abilities, having  ranged attacks with 500  range, and causing his next basic attack to reduce his target's  armor and  magic resistance by 10 / 15 / 20 / 25% (based on level) for 5 seconds.",
         "Jayce begins the game with Transform but cannot increase its rank. Instead, his basic abilities each have 6 ranks."
-      ]
+      ],
+      "damageEffects": []
     }
   ],
   "id": "Jayce",

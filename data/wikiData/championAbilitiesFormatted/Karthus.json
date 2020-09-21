@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Upon taking  fatal damage, Karthus  remains active for 7 seconds, rendering himself unable to move, basic attack, use summoner spells, or activate items, but becoming  untargetable,  invulnerable, and  immune to crowd control for the duration as well as being able to use abilities at no cost.",
       "If  Defile has been learned, it will remain toggled on for Death Defied's entire duration."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Lay Waste",
@@ -78,6 +79,51 @@
       "Active: Karthus creates a blast at the target location, briefly  revealing the area and detonating after a 0.528 seconds to 0.759 seconds delay, dealing magic damage to all enemies within,  doubled when hitting only one target.",
       "Lay Waste's damage is reduced by 15% against  monsters.",
       "During  Death Defied, Lay Waste will cast at maximum range if cast beyond that."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 50,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 70,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 90,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 110,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 130,
+            "ratio": 30,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          50,
+          70,
+          90,
+          110,
+          130
+        ],
+        "ratios": [
+          {
+            "value": 30,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -115,7 +161,8 @@
       "Active: Karthus summons a passable wall of energy at the target location perpendicular to his facing for 5 seconds, granting  sight around its pillars and center.",
       "For the duration, any enemy unit whose  gameplay radius touches it is both  slowed for 4 seconds, decaying over its duration, and  loses 15% magic resistance for the same duration.",
       "Each unit can only be affected once per cast."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Defile",
@@ -156,7 +203,8 @@
       "Passive: Karthus restores  mana whenever he kills an enemy.",
       "Toggle: Karthus deals magic damage every 0.25 seconds to all nearby enemies. Toggling Defile off deals 1 tick's worth of damage.",
       "Defile cannot be toggled off during  Death Defied, but it can be while channeling  Requiem."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Requiem",
@@ -201,6 +249,51 @@
     ],
     "descriptions": [
       "Active: Karthus  channels for 3 seconds then deals magic damage to all targetable enemy  champions upon its completion."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 200,
+            "ratio": 75,
+            "ratioType": "ap"
+          },
+          {
+            "base": 275,
+            "ratio": 75,
+            "ratioType": "ap"
+          },
+          {
+            "base": 350,
+            "ratio": 75,
+            "ratioType": "ap"
+          },
+          {
+            "base": 425,
+            "ratio": 75,
+            "ratioType": "ap"
+          },
+          {
+            "base": 500,
+            "ratio": 75,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          200,
+          275,
+          350,
+          425,
+          500
+        ],
+        "ratios": [
+          {
+            "value": 75,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   }
 ]

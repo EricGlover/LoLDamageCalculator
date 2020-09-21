@@ -23,7 +23,8 @@
     "levelings": [],
     "descriptions": [
       "Innate: Lillia's abilities apply Dream Dust, dealing 5% of the target's  maximum health as magic damage over 3 seconds, capped at 40 − 100 (based on level) damage against  monsters."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Blooming Blows",
@@ -75,7 +76,8 @@
     "descriptions": [
       "Passive: Lillia gains a Prance stack for 5 seconds whenever she hits at least 1 enemy with her abilities, refreshing up to 5 stacks. Stacks are lost by one every 1 second. Each stack grants Lillia  bonus movement speed.",
       "Active: Lillia swings her censer around her, dealing magic damage to nearby enemies. Enemies hit within the outer edge of the area additionally take the same amount as bonus true damage."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Watch Out! Eep!",
@@ -128,6 +130,51 @@
     "descriptions": [
       "Active: Lillia  dashes to 150 units in front of the target area over 0.759 seconds, though not through terrain, and deals magic damage in an area around the target spot. Enemies hit within the center are dealt  200% increased damage.",
       "Watch Out! Eep! deals 50% damage to  minions."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 85,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 100,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 115,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 130,
+            "ratio": 30,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          70,
+          85,
+          100,
+          115,
+          130
+        ],
+        "ratios": [
+          {
+            "value": 30,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -170,6 +217,51 @@
     "descriptions": [
       "Active: Lillia lobs a seed at the target area that rolls forward indefinitely. The seed detonates upon colliding with an enemy or terrain upon landing or while rolling, dealing magic damage to enemies in a cone,  slowing them for 3 seconds and  revealing them for 2 seconds.",
       "Swirlseed will cast at max range if cast beyond that. The spot at which the seed will last collide with terrain is highlighted to Lillia while it is rolling."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 90,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 110,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 130,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 150,
+            "ratio": 40,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          70,
+          90,
+          110,
+          130,
+          150
+        ],
+        "ratios": [
+          {
+            "value": 40,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -211,6 +303,7 @@
     "descriptions": [
       "Active: Lillia casts a magical lullaby over all targetable enemy  champions affected by  Dream Dust, rendering them  drowsy for 1.5 seconds, which  slows them by 25% to 50% (increasing over the duration), after which they fall  asleep for a few seconds.",
       "The next non- persistent non- minion damage taken by the  sleeping targets consumes the debuff to deal additional magic damage."
-    ]
+    ],
+    "damageEffects": null
   }
 ]

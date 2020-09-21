@@ -49,6 +49,57 @@
     "descriptions": [
       "Active: Lulu and  Pix each fire a magic bolt towards the target point, dealing magic damage to the first enemy they pass through, reduced to 70% against enemies thereafter, and  slowing them by 80%, decaying over 2 seconds.",
       "If an enemy is hit by both bolts, the second bolt will deal no damage if the first bolt dealt full damage to them, or 30% damage if the first bolt hit another enemy before them. The second hit will refresh the  slow."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 80,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 125,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 170,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 215,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 260,
+            "ratio": 50,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          80,
+          125,
+          170,
+          215,
+          260
+        ],
+        "ratios": [
+          {
+            "value": 50,
+            "type": "ap"
+          }
+        ]
+      },
+      {
+        "type": "",
+        "abilityRanks": [],
+        "flatValues": [],
+        "ratios": []
+      }
     ]
   },
   {
@@ -90,7 +141,8 @@
       "Enemy Cast: Lulu launches a spell on the target enemy champion,  polymorphing them into a harmless critter.",
       "The polymorphed target is also  disarmed and has their base movement speed reduced by 60.",
       "Ally Cast: Lulu instantly casts erratic magic upon the target ally champion or herself, giving the target  bonus attack speed and  30% (+ 5% per 100 AP) bonus movement speed for the next few seconds."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Help, Pix!",
@@ -137,6 +189,51 @@
     "descriptions": [
       "Enemy Cast: Lulu sends  Pix to the target enemy for 4 seconds, dealing magic damage and  revealing them for the same duration.",
       "Ally Cast: Lulu sends  Pix to the target ally for 6 seconds,  shielding them for 2.5 seconds if they are a  champion."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 80,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 120,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 160,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 200,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 240,
+            "ratio": 40,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          80,
+          120,
+          160,
+          200,
+          240
+        ],
+        "ratios": [
+          {
+            "value": 40,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -181,6 +278,7 @@
     "descriptions": [
       "Active: Lulu enlarges the target allied  champion or herself for 7 seconds, granting them  bonus health, 40% increased size and an aura that  slows nearby enemies for the duration. On-activation, nearby enemies around the target are also  knocked up for 0.75 seconds.",
       "The slow persists for 0.25 seconds after the enemy leaves range or Wild Growth ends."
-    ]
+    ],
+    "damageEffects": null
   }
 ]

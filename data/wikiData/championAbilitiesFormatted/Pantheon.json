@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Pantheon gains a stack of Mortal Will when he lands a basic attack on-hit or casts an ability, up to a maximum of 5. At 5 stacks, Pantheon's next basic ability consume the stacks to grant bonus effects.",
       "Pantheon gains full stacks upon starting the game and upon respawning."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Comet Spear",
@@ -93,6 +94,70 @@
       "Releasing the ability within 0.35 seconds causes Pantheon to instead thrust his spear in the target direction, dealing the same physical damage to all enemies hit and refunding 50% of Comet Spear's  cooldown. The thrust's damage is not reduced against enemies beyond the first.",
       "If Pantheon is  interrupted during the charge, or the charge completes without reactivation, Comet Spear is cancelled and the ability is put on full cooldown but refunds  half the mana cost.",
       " Mortal Will: Deals an additional 20 − 240 (based on level) (+ 100% bonus AD) bonus physical damage, affected by the previous damage reductions, to all enemies hit and  slows them for 2.5 seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 75,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 110,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 145,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 180,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 215,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          75,
+          110,
+          145,
+          180,
+          215
+        ],
+        "ratios": [
+          {
+            "value": 100,
+            "type": "bonus ad"
+          }
+        ]
+      },
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 37,
+            "ratio": 50,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          37
+        ],
+        "ratios": [
+          {
+            "value": 50,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -143,6 +208,51 @@
       "Empowered Shield Vault  resets Pantheon's basic attack timer.",
       "The ability can be dodged if the target moves 800 units away.",
       "Pantheon will attempt to basic attack the target at the end of the leap."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 60,
+            "ratio": 100,
+            "ratioType": "ap"
+          },
+          {
+            "base": 80,
+            "ratio": 100,
+            "ratioType": "ap"
+          },
+          {
+            "base": 100,
+            "ratio": 100,
+            "ratioType": "ap"
+          },
+          {
+            "base": 120,
+            "ratio": 100,
+            "ratioType": "ap"
+          },
+          {
+            "base": 140,
+            "ratio": 100,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          60,
+          80,
+          100,
+          120,
+          140
+        ],
+        "ratios": [
+          {
+            "value": 100,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -193,7 +303,8 @@
       "At the end of the duration, Pantheon slams with his shield after a 0.25-second delay, dealing physical damage. Aegis Assault can be recast after 0.3 seconds.",
       "Recast: Pantheon slams with his shield early.",
       " Mortal Will: Aegis Assault's duration is increased to 2.5 seconds, dealing「 up to 166.6% AD physical damage over the duration. 」「 8.3% AD physical damage every 0.125 seconds. 」"
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Grand Starfall",
@@ -247,6 +358,51 @@
       "The landing deals magic damage to all enemies along the crashing path, decreased by up to 50% at the edges of the area.",
       "Grand Starfall is put on a 30 second  cooldown if the channel is canceled.",
       "Grand Starfall will cast at max range if cast beyond that."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 300,
+            "ratio": 100,
+            "ratioType": "ap"
+          },
+          {
+            "base": 400,
+            "ratio": 100,
+            "ratioType": "ap"
+          },
+          {
+            "base": 500,
+            "ratio": 100,
+            "ratioType": "ap"
+          },
+          {
+            "base": 600,
+            "ratio": 100,
+            "ratioType": "ap"
+          },
+          {
+            "base": 700,
+            "ratio": 100,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          300,
+          400,
+          500,
+          600,
+          700
+        ],
+        "ratios": [
+          {
+            "value": 100,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   }
 ]

@@ -23,7 +23,8 @@
     "levelings": [],
     "descriptions": [
       "Innate: Each of Syndra's abilities gain an additional effect at maximum rank."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Dark Sphere",
@@ -70,6 +71,51 @@
     "descriptions": [
       "Active: After 0.6 seconds, Syndra conjures a Dark Sphere at the target location, dealing magic damage to all enemies hit, which then remains for 6 seconds.",
       " Transcendent Bonus: Dark Sphere deals 25% bonus damage against champions."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 65,
+            "ratioType": "ap"
+          },
+          {
+            "base": 105,
+            "ratio": 65,
+            "ratioType": "ap"
+          },
+          {
+            "base": 140,
+            "ratio": 65,
+            "ratioType": "ap"
+          },
+          {
+            "base": 175,
+            "ratio": 65,
+            "ratioType": "ap"
+          },
+          {
+            "base": 210,
+            "ratio": 65,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          70,
+          105,
+          140,
+          175,
+          210
+        ],
+        "ratios": [
+          {
+            "value": 65,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -123,6 +169,51 @@
       "Active: Syndra telekinetically grabs the nearest  Dark Sphere, enemy  minion or non-epic  monster within 400 range from the target location for 5 seconds, or if not found it grabs the nearest Dark Sphere. If a Dark Sphere is grabbed, its duration is refreshed; if a minion or monster is grabbed, it is put in  stasis. Force of Will can be recast at no delay.",
       "Recast: Syndra throws the grabbed target towards the target area, granting  sight of the projectile's surroundings as they fall. Enemies struck, including the grabbed target, take magic damage and are  slowed for 1.5 seconds.",
       " Transcendent Bonus: Force of Will deals  20% bonus true damage."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 110,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 150,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 190,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 230,
+            "ratio": 70,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          70,
+          110,
+          150,
+          190,
+          230
+        ],
+        "ratios": [
+          {
+            "value": 70,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -170,6 +261,51 @@
       "Active: Syndra  knocks back all enemies in a cone in the target direction for 400 units and up to 800 units away from her based on proximity, dealing magic damage.",
       " Dark Spheres can also be knocked back for 1000 units and up to 1300 units away from Syndra based on proximity, knocking back all enemies they collide with for 100 units and  stunning and  revealing them for 1.5 seconds, and dealing Scatter the Weak's damage if they were not affected by the initial cast.",
       " Transcendent Bonus: Scatter the Weak's area of effect is 50% wider."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 85,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 130,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 175,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 220,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 265,
+            "ratio": 60,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          85,
+          130,
+          175,
+          220,
+          265
+        ],
+        "ratios": [
+          {
+            "value": 60,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -229,6 +365,14 @@
       "Active: Syndra grabs up to 4 nearby  Dark Spheres and the three orbiting around her and hurls them at the target enemy  champion, dealing magic damage per sphere.",
       "The  Dark Spheres will then remain on the ground for 6 seconds.",
       " Transcendent Bonus: Unleashed Power's cast range is increased."
+    ],
+    "damageEffects": [
+      {
+        "type": "",
+        "abilityRanks": [],
+        "flatValues": [],
+        "ratios": []
+      }
     ]
   }
 ]

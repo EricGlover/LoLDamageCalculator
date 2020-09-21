@@ -27,7 +27,8 @@
         "Pyke also stores 25% − 50% (based on level) of the damage he takes from enemy champions as Grey Health on his health bar, up to 80 (+ 800% bonus AD), with an upper cap of 60% of his maximum health.",
         "When Pyke is unseen by enemies, he rapidly consumes his Grey Health to  heal for the same amount.",
         "Hidden innate: Pyke gains 1 bonus movement speed while in the river."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Bone Skewer",
@@ -79,6 +80,51 @@
         "Recast: Pyke  hurls his harpoon in the target direction, dealing physical damage to the first enemy struck,  pulling them towards his direction,  slowing them by 90% for 1 second, and briefly  revealing them.",
         "Releasing the ability within 0.4 seconds causes Pyke to instead thrust his blade in the target direction, dealing  the same damage to the closest enemy  champion, or closest enemy if no champion is hit.",
         "If Pyke is  interrupted during the charge, or the charge completes without reactivation, Bone Skewer is cancelled and the ability is put on full  cooldown but refunds  half the mana cost."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 85,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 135,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 185,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 235,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 285,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            85,
+            135,
+            185,
+            235,
+            285
+          ],
+          "ratios": [
+            {
+              "value": 60,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -110,7 +156,8 @@
       "descriptions": [
         "Active: Pyke submerges into water, entering  camouflage for 5 seconds and gaining 40% (+ 1.5% per 1 Lethality)  bonus movement speed that decays over the duration. Enemies are notified if Pyke is within 1500 units of them.",
         "Attacking or casting abilities immediately ends Ghostwater Dive."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Phantom Undertow",
@@ -152,6 +199,51 @@
       "descriptions": [
         "Active: Pyke  dashes in the target direction, leaving behind a Phantom for 1 second.",
         "Afterwards, the Phantom returns to Pyke,  stunning enemies around it and those it passes through along the way for 1.25 (+ 0.1 per 10 Lethality) seconds. Enemy  champions also take physical damage."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 105,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 135,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 165,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 195,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 225,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            105,
+            135,
+            165,
+            195,
+            225
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -185,7 +277,8 @@
         "Active: Pyke marks the target area with an X before striking it,  executing enemy  champions below 250 −  550 (based on level) (+ 80% bonus AD) (+ 1.5 per 1 Lethality)  health while dealing「 50% of the amount as physical damage 」「 125 −  275 (based on level) (+ 40% bonus AD) (+ 0.75 per 1 Lethality) physical damage 」to non-champion enemy units and enemy champions not within the threshold for execution.",
         "If Death from Below hits an enemy  champion or one  dies inside it, Pyke will  blink to the center of the X. For the latter case Pyke also gains the ability to recast within 20 seconds at no cost.",
         "Each execution grants one  'Your Cut' to both Pyke and the last assisting ally, instead of its natural assist  gold. In addition, each enemy champion killed inside the X by an ally grants Pyke two stacks of  'Your Cut'."
-      ]
+      ],
+      "damageEffects": []
     }
   ],
   "id": "Pyke",

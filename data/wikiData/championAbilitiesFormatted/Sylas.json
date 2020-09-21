@@ -26,7 +26,8 @@
       "Unshackled: Sylas' next basic attack is modified to whirl his chains around him, becoming  unstoppable, dealing 130% AD (+ 25% AP) magic damage to his primary target and 40% AD (+ 20% AP) magic damage to nearby secondary targets and consuming an Unshackled stack.",
       "Damage to secondary targets executes  minions below 25 health.",
       "The empowered attack applies on-hit effects to the primary target but disables Sylas'  critical strikes' bonus damage. Spell effects only apply when there are secondary targets.*"
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Chain Lash",
@@ -77,6 +78,51 @@
     "descriptions": [
       "Active: Sylas lashes out two lines that converge to the target location and extend beyond it up to a maximum range, dealing magic damage and  slowing enemies hit for 1.5 seconds.",
       "After a 0.6-second delay, the chains' intersection detonates, dealing magic damage to enemies within. Against  minions and  monsters the detonation deals 60% reduced damage."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 40,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 60,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 80,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 100,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 120,
+            "ratio": 40,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          40,
+          60,
+          80,
+          100,
+          120
+        ],
+        "ratios": [
+          {
+            "value": 40,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -128,6 +174,51 @@
     "descriptions": [
       "Active: Sylas  rushes at the target enemy with a powerful strike, dealing magic damage.",
       "If Kingslayer damaged an enemy  champion, Sylas is also  healed, increased by 0% − 100% (based on Sylas' missing health)."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 65,
+            "ratio": 85,
+            "ratioType": "ap"
+          },
+          {
+            "base": 100,
+            "ratio": 85,
+            "ratioType": "ap"
+          },
+          {
+            "base": 135,
+            "ratio": 85,
+            "ratioType": "ap"
+          },
+          {
+            "base": 170,
+            "ratio": 85,
+            "ratioType": "ap"
+          },
+          {
+            "base": 205,
+            "ratio": 85,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          65,
+          100,
+          135,
+          170,
+          205
+        ],
+        "ratios": [
+          {
+            "value": 85,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -159,7 +250,8 @@
     "descriptions": [
       "Active: Sylas  dashes in the target direction.",
       "For the next 3.5 seconds, Sylas may cast  Abduct after a 0.2-second delay from casting Abscond."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Hijack",
@@ -191,6 +283,7 @@
       "Active: Sylas launches his chains towards the target enemy  champion to gain a copy of their ultimate ability. Sylas cannot select the same champion again for a set duration, and can hold the hijacked ultimate for 90 seconds, during which he can recast Hijack.",
       "Recast: Sylas can cast his hijacked ultimate ability at no cost, scaling based on Hijack's rank and his own statistics.",
       "All Hijacked ultimates and abilities that do not scale with  ability power have their  attack damage ratios converted to ability power ratios, scaling with 0.6% AP per 1% total AD, and 0.4% AP per 1% bonus AD respectively."
-    ]
+    ],
+    "damageEffects": []
   }
 ]

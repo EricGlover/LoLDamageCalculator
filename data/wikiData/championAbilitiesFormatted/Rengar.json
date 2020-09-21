@@ -26,7 +26,8 @@
       "Innate: Rengar generates 1 Ferocity whenever he casts a basic ability. Reaching 4 Ferocity makes his next basic ability empowered, granting an additional cast along with 30 / 40 / 50% (based on level)  bonus movement speed for 1.5 seconds at the cost of all Ferocity. Reaching 4 Ferocity with  Savagery or  Bola Strike locks its empowered version from use for 0.1 seconds before and after casting it. All Ferocity is lost after being out of combat for 8 seconds.",
       "While in  brush, Rengar's basic attacks have massively increased range and cause him to  leap to his target's location, attacking the target upon arrival and landing closer than his normal  melee range. This effect lingers for 0.25 seconds upon exiting brush but is lost immediately if Rengar casts  Flash or  Hexflash to do so. Leaping with 0 Ferocity generates 1 Ferocity.",
       "Innate - Bonetooth Necklace:  Takedowns within 1.5 seconds of being damaged by Rengar grant him a Trophy per unique enemy champion, up to 5. An  additional one is made available through the event The Hunt is On!. Trophies grant 1% − 36% (based on  trophies) bonus AD as  bonus attack damage."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Savagery",
@@ -79,6 +80,67 @@
       "Active: Rengar's next two basic attacks within 3 seconds gain  40% bonus attack speed, with the first also becoming  unstoppable, gaining  25 bonus range and dealing bonus physical damage.",
       "Empowered Active: Savagery's bonus physical damage is modified and grants Rengar 50% − 101% (based on level)  bonus attack speed for 5 seconds.",
       "Savagery  resets Rengar's basic attack timer."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 30,
+            "ratio": 0,
+            "ratioType": "ad"
+          },
+          {
+            "base": 60,
+            "ratio": 5,
+            "ratioType": "ad"
+          },
+          {
+            "base": 90,
+            "ratio": 10,
+            "ratioType": "ad"
+          },
+          {
+            "base": 120,
+            "ratio": 15,
+            "ratioType": "ad"
+          },
+          {
+            "base": 150,
+            "ratio": 20,
+            "ratioType": "ad"
+          }
+        ],
+        "flatValues": [
+          30,
+          60,
+          90,
+          120,
+          150
+        ],
+        "ratios": [
+          {
+            "value": 0,
+            "type": "ad"
+          },
+          {
+            "value": 5,
+            "type": "ad"
+          },
+          {
+            "value": 10,
+            "type": "ad"
+          },
+          {
+            "value": 15,
+            "type": "ad"
+          },
+          {
+            "value": 20,
+            "type": "ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -127,6 +189,51 @@
     "descriptions": [
       "Active: Rengar lets out a battle roar, dealing magic damage to nearby enemies and  healing himself for 50% of the damage he's taken in the last 1.5 seconds. This is increased to 75% of damage taken versus  monsters.",
       "Empowered Active: Battle Roar's magic damage is modified and additionally  cleanses Rengar of all  crowd control."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 50,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 80,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 110,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 140,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 170,
+            "ratio": 80,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          50,
+          80,
+          110,
+          140,
+          170
+        ],
+        "ratios": [
+          {
+            "value": 80,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -171,6 +278,51 @@
     "descriptions": [
       "Active: Rengar throws a bola in the target direction, dealing physical damage to the first enemy hit and  slowing them for 1.75 seconds.",
       "Empowered Active: Bola Strike's physical damage is modified and  roots its target for 1.75 seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 55,
+            "ratio": 80,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 100,
+            "ratio": 80,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 145,
+            "ratio": 80,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 190,
+            "ratio": 80,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 235,
+            "ratio": 80,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          55,
+          100,
+          145,
+          190,
+          235
+        ],
+        "ratios": [
+          {
+            "value": 80,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -213,6 +365,7 @@
       "The nearest enemy champion to Rengar alerts all of their allies within 1200 range about his presence, and they can sense him at 1600 range.",
       "Attacking or casting abilities, though not  Savagery, ends Thrill of the Hunt immediately.",
       "Enemy champions spotted by Thrill of the Hunt stay  revealed within Rengar's reveal range while the stealth persists."
-    ]
+    ],
+    "damageEffects": null
   }
 ]

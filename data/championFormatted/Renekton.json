@@ -26,7 +26,8 @@
         "Innate: Renekton generates  5 Fury each time he lands a basic attack on an enemy, and loses 4 Fury per second if he hasn't dealt or taken damage in the last 12 seconds.",
         "When at or above 50 Fury, Renekton's next basic ability consumes 50 Fury to enhance its effects. The enhanced ability does not generate Fury.",
         "Renekton generates 50% bonus Fury from all sources while  below 50% of his maximum health."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Cull the Meek",
@@ -90,6 +91,94 @@
         "Renekton generates  2.5 Fury for each non-champion hit and 10 Fury for each champion hit, with the Fury generated per cast capped at 30.",
         " Reign of Anger: Cull the Meek deals additional damage, increases the total healing by 200%, and the healing cap by 300%.",
         " Slice and  Dice cannot be cast for 0.25 seconds after Cull the Meek's activation."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 65,
+              "ratio": 80,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 100,
+              "ratio": 80,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 135,
+              "ratio": 80,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 170,
+              "ratio": 80,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 205,
+              "ratio": 80,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            65,
+            100,
+            135,
+            170,
+            205
+          ],
+          "ratios": [
+            {
+              "value": 80,
+              "type": "bonus ad"
+            }
+          ]
+        },
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 100,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 150,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 200,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 250,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 300,
+              "ratio": 120,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            100,
+            150,
+            200,
+            250,
+            300
+          ],
+          "ratios": [
+            {
+              "value": 120,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -144,6 +233,51 @@
         "Active: Renekton enhances his cleaver, causing his next basic attack within 7 seconds to have a 0.25-second cast time, gain  50 bonus range and strike his target twice, dealing modified physical damage and  stunning them for 0.75 seconds. Each slash applies on-hit effects and grants  Fury. Striking an enemy  champion grants 10 bonus Fury.",
         " Reign of Anger: Renekton destroys damage-mitigating  shields on the target before striking them 3 times, dealing 50% bonus damage and increasing the  stun duration to 1.5 seconds.",
         "Ruthless Predator  resets Renekton's basic attack timer."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 10,
+              "ratio": 150,
+              "ratioType": "ad"
+            },
+            {
+              "base": 30,
+              "ratio": 150,
+              "ratioType": "ad"
+            },
+            {
+              "base": 50,
+              "ratio": 150,
+              "ratioType": "ad"
+            },
+            {
+              "base": 70,
+              "ratio": 150,
+              "ratioType": "ad"
+            },
+            {
+              "base": 90,
+              "ratio": 150,
+              "ratioType": "ad"
+            }
+          ],
+          "flatValues": [
+            10,
+            30,
+            50,
+            70,
+            90
+          ],
+          "ratios": [
+            {
+              "value": 150,
+              "type": "ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -190,6 +324,51 @@
       "descriptions": [
         "Active: Renekton  dashes in the target direction, dealing physical damage to all enemies he passes through.",
         "Hitting an enemy allows Renekton to cast Dice within the next 4 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 40,
+              "ratio": 90,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 70,
+              "ratio": 90,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 100,
+              "ratio": 90,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 130,
+              "ratio": 90,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 160,
+              "ratio": 90,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            40,
+            70,
+            100,
+            130,
+            160
+          ],
+          "ratios": [
+            {
+              "value": 90,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -226,7 +405,8 @@
       "descriptions": [
         "Active: Renekton empowers himself for 15 seconds, gaining  bonus health, 20% increased size,  25 bonus range and  20 Fury.",
         "For the duration, he deals magic damage every 0.5 seconds to all nearby enemies and generates 5 Fury per second, up to a maximum of 75 Fury."
-      ]
+      ],
+      "damageEffects": null
     }
   ],
   "id": "Renekton",

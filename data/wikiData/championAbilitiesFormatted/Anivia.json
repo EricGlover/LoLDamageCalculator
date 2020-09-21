@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Periodically, upon taking  fatal damage, Anivia  dispels all  debuffs and transforms into Eggnivia, while also recovering all of her  health.",
       "Eggnivia cannot act but gains -40 − 20 (based on level)  bonus armor and  bonus magic resistance. After 6 seconds, if Eggnivia is still alive, Anivia is  reborn with Eggnivia's current health."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Flash Frost",
@@ -82,6 +83,51 @@
       "Active: Anivia launches a massive chunk of ice which flies toward the target location, dealing magic damage and  slowing all enemies it passes through by 20% − 40% (based on  Glacial Storm's Rank) for 3 seconds. Flash Frost can be recast after the cast time.",
       "Recast: Anivia shatters the orb, dealing the same damage to enemies within the detonation and  stunning them for a duration.",
       "At maximum range Flash Frost detonates automatically."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 60,
+            "ratio": 45,
+            "ratioType": "ap"
+          },
+          {
+            "base": 85,
+            "ratio": 45,
+            "ratioType": "ap"
+          },
+          {
+            "base": 110,
+            "ratio": 45,
+            "ratioType": "ap"
+          },
+          {
+            "base": 135,
+            "ratio": 45,
+            "ratioType": "ap"
+          },
+          {
+            "base": 160,
+            "ratio": 45,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          60,
+          85,
+          110,
+          135,
+          160
+        ],
+        "ratios": [
+          {
+            "value": 45,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -116,7 +162,8 @@
     ],
     "descriptions": [
       "Active: Anivia summons a wall of ice at the target location perpendicular to her facing,  knocking all units away from it. The wall lingers as impassible terrain for 5 seconds."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Frostbite",
@@ -163,6 +210,51 @@
     "descriptions": [
       "Active: Anivia blasts the target enemy with a freezing wind, dealing magic damage.",
       "If the target was hit by  Flash Frost or was inside a fully formed  Glacial Storm within the last 3 seconds, Frostbite's damage is  doubled."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 50,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 75,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 100,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 125,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 150,
+            "ratio": 50,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          50,
+          75,
+          100,
+          125,
+          150
+        ],
+        "ratios": [
+          {
+            "value": 50,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -213,6 +305,14 @@
       "The blizzard increases in size over 1.5 seconds. At maximum size, enemies within the area take 300% damage and suffer a 50% stronger slow which lasts 1.5 seconds.",
       "Glacial Storm deactivates if Anivia gets too far away or she does not have the sufficient amount of  mana to pay for the ability's cost. Additionally, Glacial Storm will be deactivated by all forms of  interrupting  crowd control.",
       "Recast: Anivia deactivates Glacial Storm, dealing one last tick of damage."
+    ],
+    "damageEffects": [
+      {
+        "type": "",
+        "abilityRanks": [],
+        "flatValues": [],
+        "ratios": []
+      }
     ]
   }
 ]

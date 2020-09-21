@@ -27,7 +27,8 @@
       "Each time Maokai casts an ability or is struck by an enemy's ability, Sap Magic's  cooldown is reduced by 4 seconds.",
       "Sap Magic will not activate if Maokai is above 95% maximum  health.",
       "Sap Magic  resets Maokai's basic attack timer."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Bramble Smash",
@@ -73,6 +74,51 @@
     "descriptions": [
       "Active: Maokai releases an arcane shockwave that travels forth in a line in the target direction, dealing magic damage to all enemies it passes through and  slowing them by 99% for 0.25 seconds.",
       "Enemies near Maokai are also  stunned for 0.5 seconds and  knocked back up to 300 units based on their proximity to him."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 115,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 160,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 205,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 250,
+            "ratio": 40,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          70,
+          115,
+          160,
+          205,
+          250
+        ],
+        "ratios": [
+          {
+            "value": 40,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -118,6 +164,51 @@
     ],
     "descriptions": [
       "Active: Maokai  dashes to the target enemy while being  untargetable, dealing magic damage on arrival and  rooting them for a duration."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 95,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 120,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 145,
+            "ratio": 40,
+            "ratioType": "ap"
+          },
+          {
+            "base": 170,
+            "ratio": 40,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          70,
+          95,
+          120,
+          145,
+          170
+        ],
+        "ratios": [
+          {
+            "value": 40,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -172,6 +263,85 @@
       "Active: Maokai flings an  untargetable Sapling to the target location, remaining there for 30 seconds and granting  sight around itself.",
       "Saplings react to the first nearby enemy, chasing it for up to 2.5 seconds, exploding upon colliding with any enemy or at the end of its duration, dealing magic damage to all nearby enemies upon detonation, capped at 300 against non-champions, and  slowing them by 35% for 2 seconds.",
       "Saplings placed in a  brush instead have a 30 (+ 2.5% bonus health) seconds duration and deal double damage over 2 seconds to all enemies hit, capped at 600 against non-champions."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 25,
+            "ratio": 7,
+            "ratioType": "ap"
+          },
+          {
+            "base": 50,
+            "ratio": 7.25,
+            "ratioType": "ap"
+          },
+          {
+            "base": 75,
+            "ratio": 7.5,
+            "ratioType": "ap"
+          },
+          {
+            "base": 100,
+            "ratio": 7.75,
+            "ratioType": "ap"
+          },
+          {
+            "base": 125,
+            "ratio": 8,
+            "ratioType": "ap"
+          },
+          {
+            "base": 125,
+            "ratio": 1,
+            "ratioType": "ap"
+          },
+          {
+            "base": 125,
+            "ratio": 100,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          25,
+          50,
+          75,
+          100,
+          125
+        ],
+        "ratios": [
+          {
+            "value": 7,
+            "type": "ap"
+          },
+          {
+            "value": 7.25,
+            "type": "ap"
+          },
+          {
+            "value": 7.5,
+            "type": "ap"
+          },
+          {
+            "value": 7.75,
+            "type": "ap"
+          },
+          {
+            "value": 8,
+            "type": "ap"
+          },
+          {
+            "value": 1,
+            "type": "ap"
+          },
+          {
+            "value": 100,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -215,6 +385,39 @@
     "descriptions": [
       "Active: Maokai summons a colossal wall of 5 thorny brambles that slowly advances in the target direction, accelerating over time, each stopping at the first enemy  champion they collide with.",
       "Each bramble deals magic damage and  roots enemies for 0.8 −  2.6 (based on distance traveled) seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 150,
+            "ratio": 75,
+            "ratioType": "ap"
+          },
+          {
+            "base": 225,
+            "ratio": 75,
+            "ratioType": "ap"
+          },
+          {
+            "base": 300,
+            "ratio": 75,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          150,
+          225,
+          300
+        ],
+        "ratios": [
+          {
+            "value": 75,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   }
 ]

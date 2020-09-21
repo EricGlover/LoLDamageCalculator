@@ -36,7 +36,8 @@
         "Aphelios begins the game with  Calibrum as his main weapon and  Severum in his off-hand, with  Gravitum,  Infernum, and  Crescendum queued in reserve. The queue order can be rearranged based on weapon usage.",
         "Innate - Moonlight: Weapons spawn with 50 Moonlight for ammunition, which is consumed on basic attacks or to cast his  abilities. Abilities that cause Aphelios to attack do not cost additional Moonlight on top of their ability cost. Once his main weapon is exhausted of Moonlight, it is moved to the end of the queue and Aphelios channels for 1 second to equip the next available weapon from his reserve.",
         "Innate - Weapon Master: Aphelios cannot improve his abilities with skill points. He starts the game with  Phase and gains access to  abilities at level 2. He gains access to  Moonlight Vigil at level 6, which improves automatically at levels 11 and 16. Instead, Aphelios may spend his skill points to gain  bonus attack damage,  bonus attack speed or  lethality."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Weapons of the Faithful",
@@ -63,7 +64,8 @@
       "descriptions": [
         "The active effect of Aphelios'  varies based on his current main hand weapon.",
         "The individual actives do not share a cooldown."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Phase",
@@ -89,7 +91,8 @@
       "levelings": [],
       "descriptions": [
         "Active: Aphelios switches between his main weapon and off-hand weapon over 0.25 seconds."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Weapon Queue System",
@@ -116,7 +119,8 @@
       "descriptions": [
         "The icon of this ability reflects the next weapon that is in reserve.",
         "Active: Aphelios receives a text prompt of the weapon Alune will create next."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Moonlight Vigil",
@@ -145,7 +149,8 @@
       "descriptions": [
         "Active: Aphelios casts forth a lunar spotlight in the target direction that stops upon illuminating an enemy  champion. Alune smites the area centered on the illuminated enemy, dealing 125 / 175 / 225 (based on level) (+ 20% bonus AD) (+ 100% AP) physical damage and locking-on to each enemy hit.",
         "After 0.3 seconds of the illumination, attacks will begin raining from the sky based on Aphelios'  current main weapon, dealing 100% AD physical damage and applying on-hit effects upon each enemy locked-on by Moonlight Vigil. These attacks can  critically strike for (20% +  25%) AD bonus physical damage. There is no  range limit for locked-on targets.\n Calibrum: Applies an empowered mark that deals 20 / 45 / 70 (based on level) additional physical damage per mark.\n\n Severum: If at least one enemy is hit, Aphelios  heals for 200 / 300 / 400 (based on level).\n\n Gravitum: The initial  slow is increased to 99%.\n\n Infernum: The initial blast deals an additional 50 / 100 / 150 (based on level) (+ 25% bonus AD) physical damage. Attacks  splash in a 400 unit circle instead of a cone, dealing 75% of that damage. Enemies will take damage from overlapping areas.\n\n Crescendum: 3 additional spectral chakrams return to Aphelios from the first enemy hit, for a total of 4, on top of those from other enemies hit."
-      ]
+      ],
+      "damageEffects": []
     }
   ],
   "id": "Aphelios",

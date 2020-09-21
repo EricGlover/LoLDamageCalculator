@@ -28,7 +28,8 @@
       "Innate: Samira's basic attacks against targets in  200 range use her blade, becoming  non-projectile. Basic attacks on-hit within this range and  Blade Whirl,  Wild Rush, and the slash and explosives of  Flair deal 2 −  19 (based on level) (+ 10% bonus AD) bonus magic damage, increased by 0% −  100% (based on target's missing health).",
       "Additionally, Samira's basic attacks against  immobilized enemies deal the attack's damage over 6 rapid attacks and  knock up the target for 0.5 seconds. This causes her basic attack timer to  reset and the attack to become  unstoppable. If the target is not within  attack range, Samira will  dash into it from a certain distance and then attack. This effect cannot occur on the same target more than once every 10 seconds.",
       "The empowered attack can  critically strike. On-hit effects are only applied once."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Flair",
@@ -76,6 +77,51 @@
       "If a targetable enemy is in front of Samira, she will slash with her blade instead, dealing the same damage to all enemies hit in a cone.",
       "Casting Flair during  Wild Rush will cause Samira to deploy explosives along her path which detonate upon the end of the dash, dealing the same damage to enemies within the covered distance. This can be done while performing  Blade Whirl and  Inferno Trigger.",
       "Flair can  critically strike for (25% +  25%) bonus physical damage and both the shot and slash apply  life steal at full effectiveness."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 0,
+            "ratio": 100,
+            "ratioType": "ad"
+          },
+          {
+            "base": 5,
+            "ratio": 100,
+            "ratioType": "ad"
+          },
+          {
+            "base": 10,
+            "ratio": 100,
+            "ratioType": "ad"
+          },
+          {
+            "base": 15,
+            "ratio": 100,
+            "ratioType": "ad"
+          },
+          {
+            "base": 20,
+            "ratio": 100,
+            "ratioType": "ad"
+          }
+        ],
+        "flatValues": [
+          0,
+          5,
+          10,
+          15,
+          20
+        ],
+        "ratios": [
+          {
+            "value": 100,
+            "type": "ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -129,7 +175,8 @@
       "Active: Samira slashes around herself twice over 1.25 seconds, the first slash occurring immediately and the second being performed 0.25 seconds before the duration ends, each one dealing physical damage to nearby enemies.",
       "Samira destroys all hostile non- turret  projectiles that enter or are in her vicinity during this time.",
       "Samira cannot attack nor cast  Flair during Blade Whirl. Casting  Inferno Trigger will end Blade Whirl early without performing the second slash."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Wild Rush",
@@ -175,6 +222,51 @@
     "descriptions": [
       "Active: Samira  dashes in the direction of the target allied or enemy unit and slashes all enemies in her path, dealing magic damage and gaining  bonus attack speed for 3 seconds.",
       " Takedowns on enemy  champions reset Wild Rush's  cooldown."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 50,
+            "ratio": 20,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 60,
+            "ratio": 20,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 70,
+            "ratio": 20,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 80,
+            "ratio": 20,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 90,
+            "ratio": 20,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          50,
+          60,
+          70,
+          80,
+          90
+        ],
+        "ratios": [
+          {
+            "value": 20,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -242,6 +334,7 @@
       "Each shot can  critically strike for (100% +  25%) bonus physical damage and applies  life steal at full effectiveness.",
       "Inferno Trigger cannot be cast unless the   Style cost is satisfied, and will reset the grade back to 0 stacks when the effect ends.",
       "Samira cannot attack nor cast  Flair or  Blade Whirl during Inferno Trigger, but she is still able to move. Inferno Trigger will end prematurely by all forms of  interrupting  crowd control."
-    ]
+    ],
+    "damageEffects": null
   }
 ]

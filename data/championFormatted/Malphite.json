@@ -26,7 +26,8 @@
       "descriptions": [
         "Innate- Shard of the Monolith: Malphite gains increased percentage size equal to 8% of his total armor, capped at 35% increased size at 437.5 armor.",
         "Innate: Malphite  shields himself for  10% of his maximum health.\nThe shield lasts until it is broken, and refreshes if he has not taken damage in the last few seconds."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Seismic Shard",
@@ -71,6 +72,51 @@
       ],
       "descriptions": [
         "Active: Malphite sends a rock rolling to the target enemy, dealing magic damage to them upon impact,  slowing them for 3 seconds and gaining  bonus movement speed equal to the raw amount the target lost."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 70,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 120,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 170,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 220,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 270,
+              "ratio": 60,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            70,
+            120,
+            170,
+            220,
+            270
+          ],
+          "ratios": [
+            {
+              "value": 60,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -112,7 +158,8 @@
         "Passive: Malphite gains  bonus armor, tripled while  Granite Shield is active.",
         "Active: Malphite's next  basic attack within 6 seconds gains  50 bonus attack range and deals bonus physical damage on-hit. It and other basic attacks for the next 5 seconds also trigger a cone on-hit in the direction of the target, dealing physical damage to all enemies hit.",
         "Thunderclap  resets Malphite's basic attack timer."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Ground Slam",
@@ -163,6 +210,51 @@
       ],
       "descriptions": [
         "Active: Malphite slams the ground, dealing magic damage to all nearby enemies and  crippling them for 3 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 60,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 95,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 130,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 165,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 200,
+              "ratio": 60,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            60,
+            95,
+            130,
+            165,
+            200
+          ],
+          "ratios": [
+            {
+              "value": 60,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -206,6 +298,39 @@
       "descriptions": [
         "Active: Malphite  dashes with  displacement immunity to the target location and, upon impact, deals magic damage to all nearby enemies and  knocks them up for 1.5 seconds.",
         "Unstoppable Force will cast at max range if cast beyond that."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 200,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 300,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 400,
+              "ratio": 80,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            200,
+            300,
+            400
+          ],
+          "ratios": [
+            {
+              "value": 80,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     }
   ],

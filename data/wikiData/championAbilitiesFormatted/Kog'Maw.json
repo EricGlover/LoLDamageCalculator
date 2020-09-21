@@ -23,7 +23,8 @@
     "levelings": [],
     "descriptions": [
       "Innate: Upon taking  fatal damage, Kog'Maw  remains active for 4 seconds, becoming unable to basic attack, cast abilities, use summoner spells or activate items while being  invulnerable,  untargetable, and  immune to crowd control and gaining up to  40% bonus movement speed over the duration. At the end of the duration he explodes, dealing 125 − 550 (based on level)  true damage to all nearby enemies."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Caustic Spittle",
@@ -59,7 +60,8 @@
     "descriptions": [
       "Passive: Kog'Maw gains  bonus attack speed.",
       "Active: Kog'Maw launches a corrosive ball of spit in the target direction, dealing magic damage to the first enemy it hits and reducing their  armor and  magic resistance for 4 seconds."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Bio-Arcane Barrage",
@@ -101,6 +103,37 @@
     ],
     "descriptions": [
       "Active: For the next 8 seconds, Kog'Maw's basic attacks gain  bonus range and deal bonus magic damage on-hit against non- structures, capped at 100 against  minions and  monsters."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 3,
+            "ratio": 1,
+            "ratioType": "ap"
+          },
+          {
+            "base": 3,
+            "ratio": 100,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          3,
+          3
+        ],
+        "ratios": [
+          {
+            "value": 1,
+            "type": "ap"
+          },
+          {
+            "value": 100,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -147,6 +180,51 @@
     "descriptions": [
       "Active: Kog'Maw spews a ball of ooze in the target direction, dealing magic damage to enemies hit.",
       "The ooze lingers for 4 seconds,  slowing all enemies within the area every 0.25 seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 75,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 120,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 165,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 210,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 255,
+            "ratio": 50,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          75,
+          120,
+          165,
+          210,
+          255
+        ],
+        "ratios": [
+          {
+            "value": 50,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -223,6 +301,137 @@
     "descriptions": [
       "Active: Kog'Maw launches a ball of acid into the air that drops after 0.6 seconds at the target location, dealing magic damage, increased by 0% − 50% (based on target's missing health), and  revealing enemies hit for 2 seconds.",
       "Living Artillery's damage is  doubled against enemies below  40% maximum health. Each subsequent Living Artillery within the next 8 seconds costs an additional  40 mana, capping at 400 per cast."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 100,
+            "ratio": 65,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 120,
+            "ratio": 65,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 140,
+            "ratio": 65,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 160,
+            "ratio": 65,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 180,
+            "ratio": 65,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          100,
+          120,
+          140,
+          160,
+          180
+        ],
+        "ratios": [
+          {
+            "value": 65,
+            "type": "bonus ad"
+          }
+        ]
+      },
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 150,
+            "ratio": 97.5,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 180,
+            "ratio": 97.5,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 210,
+            "ratio": 97.5,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 240,
+            "ratio": 97.5,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 270,
+            "ratio": 97.5,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          150,
+          180,
+          210,
+          240,
+          270
+        ],
+        "ratios": [
+          {
+            "value": 97.5,
+            "type": "bonus ad"
+          }
+        ]
+      },
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 200,
+            "ratio": 130,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 240,
+            "ratio": 130,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 280,
+            "ratio": 130,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 320,
+            "ratio": 130,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 360,
+            "ratio": 130,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          200,
+          240,
+          280,
+          320,
+          360
+        ],
+        "ratios": [
+          {
+            "value": 130,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   }
 ]

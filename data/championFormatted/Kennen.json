@@ -25,7 +25,8 @@
       "descriptions": [
         "Innate: Enemies hit by Kennen's abilities receive a Mark of the Storm for 6 seconds, stacking up to 3 times. At three stacks, the marks consume themselves to  stun the target for 1.25 seconds and restore  25 energy.",
         "If the  stun is applied more than once within 6 seconds, its duration is reduced to 0.5 seconds."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Thundering Shuriken",
@@ -74,6 +75,51 @@
       ],
       "descriptions": [
         "Active: Kennen throws a charged shuriken in the target direction, dealing magic damage to the first enemy it hits."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 75,
+              "ratio": 75,
+              "ratioType": "ap"
+            },
+            {
+              "base": 115,
+              "ratio": 75,
+              "ratioType": "ap"
+            },
+            {
+              "base": 155,
+              "ratio": 75,
+              "ratioType": "ap"
+            },
+            {
+              "base": 195,
+              "ratio": 75,
+              "ratioType": "ap"
+            },
+            {
+              "base": 235,
+              "ratio": 75,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            75,
+            115,
+            155,
+            195,
+            235
+          ],
+          "ratios": [
+            {
+              "value": 75,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -132,6 +178,67 @@
         "Passive: Basic attacks grant a stack of Electrical Surge on-attack. Upon reaching 4 stacks Kennen's next basic attack against non- structures is empowered to deal bonus magic damage, apply a Mark of the Storm and consume all Electrical Surge stacks on-hit.",
         "Active: Kennen sends out a surge of electricity to all nearby enemies afflicted by Mark of the Storm or caught in  Slicing Maelstrom, dealing magic damage.",
         "Electrical Surge does not require  sight of targets to be cast."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 10,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 20,
+              "ratio": 70,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 30,
+              "ratio": 80,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 40,
+              "ratio": 90,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 50,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            10,
+            20,
+            30,
+            40,
+            50
+          ],
+          "ratios": [
+            {
+              "value": 60,
+              "type": "bonus ad"
+            },
+            {
+              "value": 70,
+              "type": "bonus ad"
+            },
+            {
+              "value": 80,
+              "type": "bonus ad"
+            },
+            {
+              "value": 90,
+              "type": "bonus ad"
+            },
+            {
+              "value": 100,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -192,6 +299,51 @@
         "Kennen gains  bonus attack speed for 4 seconds upon exiting Lightning Rush.",
         "Recast: Kennen ends Lightning Rush early.",
         "Lightning Rush's recast can be used while affected by  crowd control."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 120,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 160,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 200,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 240,
+              "ratio": 80,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            80,
+            120,
+            160,
+            200,
+            240
+          ],
+          "ratios": [
+            {
+              "value": 80,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -236,6 +388,14 @@
         "Active: Kennen summons Shuriken Storm, a magical storm around himself for 3 seconds, gaining  bonus armor and  bonus magic resistance and striking bolts of lightning down on all enemies within range every 0.5 seconds, each bolt dealing magic damage.",
         "Each maelstrom hit applies a Mark of the Storm, up to a maximum of 3.",
         "Slicing Maelstrom deals 10% increased damage with each successive strike against a target, up to a maximum of 150% damage with one strike."
+      ],
+      "damageEffects": [
+        {
+          "type": "",
+          "abilityRanks": [],
+          "flatValues": [],
+          "ratios": []
+        }
       ]
     }
   ],

@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Jax's basic attacks on-attack grant him  3.5% − 11% (based on level) bonus attack speed for 2.5 seconds, stacking up to 8 times for a maximum of  28% − 88% (based on level) bonus attack speed.",
       "Stacks are deducted one at a time every 0.25 seconds after not attacking for 2.5 seconds."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Leap Strike",
@@ -77,6 +78,51 @@
       "Active: Jax  dashes to the target unit's location.",
       "If the target is an enemy and they are in range upon arrival, Jax deals physical damage to them.",
       "Jax will attempt to automatically basic attack his target at the end of the dash."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 65,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 105,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 145,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 185,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 225,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          65,
+          105,
+          145,
+          185,
+          225
+        ],
+        "ratios": [
+          {
+            "value": 100,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -123,6 +169,51 @@
     "descriptions": [
       "Active: Jax's next basic attack on non- structures or  Leap Strike within 10 seconds deals bonus magic damage. If Empower is used on a basic attack, it will have  50 bonus range.",
       "Empower  resets Jax's basic attack timer."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 40,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 75,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 110,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 145,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 180,
+            "ratio": 60,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          40,
+          75,
+          110,
+          145,
+          180
+        ],
+        "ratios": [
+          {
+            "value": 60,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -180,6 +271,94 @@
       "Active: Jax enters Evasion, a defensive stance, for 2 seconds, causing all non- turret basic attacks against him to be  dodged. Jax also takes 25% reduced damage from all champion area of effect abilities. Counter Strike can be recast after 1 second.",
       "At the end of the duration, Jax  stuns all nearby enemies for 1 second and deals physical damage to them, increased by 20% for each attack dodged, up to a 100% increase.",
       "Recast: Jax ends Counter Strike early."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 55,
+            "ratio": 50,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 80,
+            "ratio": 50,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 105,
+            "ratio": 50,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 130,
+            "ratio": 50,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 155,
+            "ratio": 50,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          55,
+          80,
+          105,
+          130,
+          155
+        ],
+        "ratios": [
+          {
+            "value": 50,
+            "type": "bonus ad"
+          }
+        ]
+      },
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 110,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 160,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 210,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 260,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 310,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          110,
+          160,
+          210,
+          260,
+          310
+        ],
+        "ratios": [
+          {
+            "value": 100,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -222,6 +401,39 @@
     "descriptions": [
       "Passive: Jax's basic attacks on-hit grant a stack for 2.5 seconds. At 2 stacks, Jax's next basic attack on-hit deals bonus magic damage, consuming all stacks.",
       "Active: Jax gains bonus  armor and  magic resistance for 8 seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 100,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 140,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 180,
+            "ratio": 70,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          100,
+          140,
+          180
+        ],
+        "ratios": [
+          {
+            "value": 70,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   }
 ]

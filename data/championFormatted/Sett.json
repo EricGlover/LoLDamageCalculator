@@ -26,7 +26,8 @@
         "Innate - Heavy Hands: Sett's basic attacks alternate between a Left Punch and a Right Punch on-attack. Sett begins attacking with a Left Punch, and will reset back to it after 2 seconds of not performing a Right Punch.",
         "Sett's Right Punch gains  50 bonus range, attacks at 8 times the Left Punch's attack speed, and deals 5 − 90 (based on level) (+ 50% bonus AD) bonus physical damage.",
         "Innate - Heart of the Half-Beast: Sett regenerates 0.25 / 0.5 / 1 / 2 (based on level) health per second for every 5% of his  missing health."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Knuckle Down",
@@ -92,6 +93,85 @@
         "Active: Sett gains Looking for a Fight for 1.5 seconds and empowers his next two basic attacks within 5 seconds to deal bonus physical damage. The empowered attacks are guaranteed to be a Left Punch followed by a Right Punch, resetting his current  Pit Grit state (if applicable) and ignoring the usual time-out period for a follow-up Right Punch.",
         "Activation will  reset Sett's basic attack timer.",
         "Looking for a Fight: Sett gains  30% bonus movement speed when he moves towards a  visible enemy champion within 2000 units."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 10,
+              "ratio": 1,
+              "ratioType": "ad"
+            },
+            {
+              "base": 20,
+              "ratio": 1,
+              "ratioType": "ad"
+            },
+            {
+              "base": 30,
+              "ratio": 1.5,
+              "ratioType": "ad"
+            },
+            {
+              "base": 40,
+              "ratio": 2,
+              "ratioType": "ad"
+            },
+            {
+              "base": 50,
+              "ratio": 2.5,
+              "ratioType": "ad"
+            },
+            {
+              "base": 50,
+              "ratio": 3,
+              "ratioType": "ad"
+            },
+            {
+              "base": 50,
+              "ratio": 100,
+              "ratioType": "ad"
+            }
+          ],
+          "flatValues": [
+            10,
+            20,
+            30,
+            40,
+            50
+          ],
+          "ratios": [
+            {
+              "value": 1,
+              "type": "ad"
+            },
+            {
+              "value": 1,
+              "type": "ad"
+            },
+            {
+              "value": 1.5,
+              "type": "ad"
+            },
+            {
+              "value": 2,
+              "type": "ad"
+            },
+            {
+              "value": 2.5,
+              "type": "ad"
+            },
+            {
+              "value": 3,
+              "type": "ad"
+            },
+            {
+              "value": 100,
+              "type": "ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -141,7 +221,8 @@
         "Passive: Sett stores 100% of post-mitigation damage taken as Grit on his secondary resource bar, up to 50% of his  maximum health. Each instance of stored Grit decays by 30% every second after 4 seconds.",
         "Active: Sett blasts the area in the target direction, dealing physical damage to enemies hit. Enemies hit through the center take  true damage instead.",
         "Sett also gains a rapidly decaying  shield for 3 seconds equal to the Grit expended."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Facebreaker",
@@ -187,6 +268,51 @@
       "descriptions": [
         "Active: Sett  pulls in enemies at his front and back in the target direction, dealing them physical damage and  slowing them by 50% for 0.5 seconds.",
         "If Facebreaker affects at least one enemy on each side, all enemies are  stunned for 1 second upon landing."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 50,
+              "ratio": 60,
+              "ratioType": "ad"
+            },
+            {
+              "base": 70,
+              "ratio": 60,
+              "ratioType": "ad"
+            },
+            {
+              "base": 90,
+              "ratio": 60,
+              "ratioType": "ad"
+            },
+            {
+              "base": 110,
+              "ratio": 60,
+              "ratioType": "ad"
+            },
+            {
+              "base": 130,
+              "ratio": 60,
+              "ratioType": "ad"
+            }
+          ],
+          "flatValues": [
+            50,
+            70,
+            90,
+            110,
+            130
+          ],
+          "ratios": [
+            {
+              "value": 60,
+              "type": "ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -229,7 +355,7 @@
             55,
             60
           ],
-          "type": ""
+          "type": null
         },
         {
           "value": [
@@ -245,7 +371,7 @@
             33,
             36
           ],
-          "type": ""
+          "type": null
         }
       ],
       "castTime": null,
@@ -260,6 +386,94 @@
         "Active: Sett  suppresses the target enemy  champion and  dashes with  displacement immunity a fixed distance toward and past them,  attaching the target to him when he reaches them and carrying them for 1.5 seconds before slamming them into the ground.",
         "Enemies within the impact area take physical damage, reduced by up to 40% at the edge, and are  slowed by 99% for 1 second.",
         "The dash will prematurely end upon reaching a wall that cannot be dashed through."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 200,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 250,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 300,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 350,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 400,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            200,
+            250,
+            300,
+            350,
+            400
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "bonus ad"
+            }
+          ]
+        },
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 120,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 150,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 180,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 210,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 240,
+              "ratio": 60,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            120,
+            150,
+            180,
+            210,
+            240
+          ],
+          "ratios": [
+            {
+              "value": 60,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     }
   ],

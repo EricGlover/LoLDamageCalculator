@@ -26,7 +26,8 @@
         "Innate: Enemy  champions, large  minions and large  monsters that die near Thresh drop a Soul for 8 seconds. Epic monsters drop 2 Souls instead. Small minions and lesser monsters have a 33.33% chance to drop a Soul.",
         "Thresh autonomously collects Souls near him or a placed  Dark Passage.",
         "Each collected Soul grants Thresh  0.75 ability power and  0.75 bonus armor."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Death Sentence",
@@ -75,6 +76,51 @@
         "The scythe stops with the first enemy it hits, dealing magic damage,  revealing them, and  stunning them for 1.5 seconds while also forming a  tether between Thresh and them for the duration. Hitting an enemy reduces Death Sentence's  cooldown by 3 seconds and  slows Thresh by 20% for 1 second.",
         "While the tether persists, Thresh is unable to declare basic attacks and periodically tugs at his scythe's chain,  pulling the target a short distance towards himself. After 0.5 seconds of hitting an enemy or instantly after hitting a  minion or  monster, Thresh can recast the ability to cast Deathly Leap, doing so will cause him to stop tugging.",
         "Recast: Thresh  dashes to the tethered enemy, becoming able to attack again upon arrival. Thresh can cast any of his abilities while in flight with the exception of  The Box."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 50,
+              "ratioType": "ap"
+            },
+            {
+              "base": 120,
+              "ratio": 50,
+              "ratioType": "ap"
+            },
+            {
+              "base": 160,
+              "ratio": 50,
+              "ratioType": "ap"
+            },
+            {
+              "base": 200,
+              "ratio": 50,
+              "ratioType": "ap"
+            },
+            {
+              "base": 240,
+              "ratio": 50,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            80,
+            120,
+            160,
+            200,
+            240
+          ],
+          "ratios": [
+            {
+              "value": 50,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -117,7 +163,7 @@
             20,
             20
           ],
-          "type": ""
+          "type": null
         }
       ],
       "castTime": null,
@@ -132,7 +178,8 @@
         "Active: Thresh throws his lantern to the target location which lands after 0.5 seconds, lasting for 6 seconds or until he moves too far away from it,  revealing its surroundings.",
         "Thresh and the first allied champion to come near the lantern are granted a  shield for 4 seconds. An ally can select the lantern while in proximity of it,  dashing to Thresh's current location and gaining the shield.",
         "An ally cannot select the lantern while  silenced,  grounded or  immobilized."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Flay",
@@ -190,6 +237,82 @@
       "descriptions": [
         "Passive: Thresh's basic attacks deal bonus magic damage, with the  AD ratio increasing based on the time spent not basic attacking enemies, up to 10 seconds.",
         "Active: Thresh sweeps his chain around him and in a broad line towards the target direction, dealing magic damage to enemies hit,  knocking them in the chain's direction, and afterwards  slowing them for 1 second."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 1,
+              "ratio": 0,
+              "ratioType": "ad"
+            }
+          ],
+          "flatValues": [
+            1
+          ],
+          "ratios": [
+            {
+              "value": 0,
+              "type": "ad"
+            }
+          ]
+        },
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 1,
+              "ratio": 100,
+              "ratioType": "ad"
+            },
+            {
+              "base": 1,
+              "ratio": 125,
+              "ratioType": "ad"
+            },
+            {
+              "base": 1,
+              "ratio": 150,
+              "ratioType": "ad"
+            },
+            {
+              "base": 1,
+              "ratio": 175,
+              "ratioType": "ad"
+            },
+            {
+              "base": 1,
+              "ratio": 200,
+              "ratioType": "ad"
+            }
+          ],
+          "flatValues": [
+            1
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "ad"
+            },
+            {
+              "value": 125,
+              "type": "ad"
+            },
+            {
+              "value": 150,
+              "type": "ad"
+            },
+            {
+              "value": 175,
+              "type": "ad"
+            },
+            {
+              "value": 200,
+              "type": "ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -233,6 +356,39 @@
       "descriptions": [
         "Active: Thresh surrounds himself with a pentagon of spectral walls, each one lasting for up to 5 seconds. Walls break upon contact with an enemy champion, dealing magic damage to the target and  slowing them by 99% for 2 seconds.",
         "Enemy champions hitting any wall beyond the first take no damage and are  slowed for only 1 second."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 250,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 400,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 550,
+              "ratio": 100,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            250,
+            400,
+            550
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     }
   ],

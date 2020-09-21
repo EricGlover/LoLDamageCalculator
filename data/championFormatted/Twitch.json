@@ -25,7 +25,8 @@
       "descriptions": [
         "Innate: Twitch's basic attacks  poison his target with Deadly Venom, each attack adding one stack and refreshing its duration on-hit.",
         "Each Deadly Venom stack deals 1 / 2 / 3 / 4 / 5 (based on level)  true damage per second over 6 seconds, stacking up to 6 times for a maximum of 6 / 12 / 18 / 24 / 30 (based on level) true damage per second."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Ambush",
@@ -65,7 +66,8 @@
         "While stealthed, Twitch gains  10% bonus movement speed, increased to 30% when he moves toward enemy  champions within a 1000-range radius who cannot see him.",
         "Upon breaking stealth Twitch gains  bonus attack speed for 5 seconds.",
         "Ambush's  cooldown is reset if an enemy champion dies while poisoned by  Deadly Venom."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Venom Cask",
@@ -104,7 +106,8 @@
       "descriptions": [
         "Active: Twitch hurls a cask of venom at the target location, infecting all enemies hit with a  Deadly Venom stack and  revealing the area.",
         "The area then becomes contaminated for 3 seconds, applying a  Deadly Venom stack each second and  slowing all enemies within."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Contaminate",
@@ -184,6 +187,51 @@
       "descriptions": [
         "Active: Twitch sends out a lethal toxin to each nearby enemy afflicted by  Deadly Venom, dealing physical damage, increased for each stack on the target.",
         "Contaminate can be cast regardless of having  sight of targets or not."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 20,
+              "ratio": 35,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 30,
+              "ratio": 35,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 40,
+              "ratio": 35,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 50,
+              "ratio": 35,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 60,
+              "ratio": 35,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            20,
+            30,
+            40,
+            50,
+            60
+          ],
+          "ratios": [
+            {
+              "value": 35,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -219,7 +267,8 @@
       "descriptions": [
         "Active: Twitch gains  bonus attack damage and  300 bonus attack range for 5 seconds, during which his  basic attacks are replaced by bolts that travel slightly further than his attack range in a straight line, damaging every enemy in their path.",
         "The bolts deal 100% − 60% (based on enemy hit)  physical damage, apply on-hit effects to and can  critically strike against each individual target."
-      ]
+      ],
+      "damageEffects": null
     }
   ],
   "id": "Twitch",

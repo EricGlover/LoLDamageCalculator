@@ -25,7 +25,8 @@
       "descriptions": [
         "Innate: Lux's damaging abilities mark enemies with light energy for 6 seconds.",
         "Lux's basic attacks and  Final Spark consume the mark to deal 20 − 190 (based on level) (+ 20% AP) bonus magic damage."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Light Binding",
@@ -70,6 +71,51 @@
       ],
       "descriptions": [
         "Active: Lux releases a sphere of light in the target direction that deals magic damage to the first two enemies hit and  roots them for 2 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 125,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 170,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 215,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 260,
+              "ratio": 60,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            80,
+            125,
+            170,
+            215,
+            260
+          ],
+          "ratios": [
+            {
+              "value": 60,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -123,7 +169,8 @@
         "Lux and allied  champions touched by the outgoing wand are  shielded for 2.5 seconds.",
         "Allied champions near the return location and those touched by the returning wand are shielded for the same amount and for the same duration, stacking with the previous shield and resetting its remaining duration.",
         "The shields can only stack up to 2 times. Additional shields will neither reset the duration nor strengthen it."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Lucent Singularity",
@@ -169,7 +216,8 @@
         "At the end of the duration or if Lucent Singularity is reactivated, the area detonates, dealing magic damage.",
         "Recast: Lux detonates Lucent Singularity early. If recast while in flight, the ability will detonate on arrival.",
         "The slow lingers for 1 second after leaving the area. Enemies hit by Lucent Singularity are slowed for 1 second."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Final Spark",
@@ -214,6 +262,51 @@
       ],
       "descriptions": [
         "Active: Lux fires a massive laser of light in a line in the target direction that deals magic damage to all enemies hit, briefly  revealing enemies as well as the surrounding area."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 300,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 350,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 400,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 450,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 500,
+              "ratio": 100,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            300,
+            350,
+            400,
+            450,
+            500
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     }
   ],

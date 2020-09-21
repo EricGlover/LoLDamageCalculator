@@ -25,7 +25,8 @@
       "Innate: Nunu's and Willump's next instance of damage dealt to an enemy  champion, large  monster or  structure grants both Willump and the nearest allied champion within range Call of the Freljord for 4 seconds, prioritizing the ally with  highest attack speed.",
       "Call of the Freljord: Gain  20% bonus attack speed and  10% bonus movement speed. Additionally, Willump gains splash damage on his basic attacks, dealing 30% AD physical damage in a cone to enemies behind the target.",
       "Nunu and Willump cannot trigger Call of the Freljord from the same enemy again for a time. Successive triggers of Call of the Freljord will stack the duration."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Consume",
@@ -63,7 +64,7 @@
         "value": [
           5
         ],
-        "type": ""
+        "type": null
       },
       {
         "value": [
@@ -75,7 +76,7 @@
         "value": [
           8
         ],
-        "type": ""
+        "type": null
       },
       {
         "value": [
@@ -87,7 +88,7 @@
         "value": [
           12
         ],
-        "type": ""
+        "type": null
       }
     ],
     "castTime": 0.3,
@@ -102,7 +103,8 @@
     "descriptions": [
       "Active: Willump takes a bite out of the target enemy, dealing magic damage and  healing himself. The heal is increased by 50% when below  50% of maximum health.",
       "Against  minions and  monsters he deals  true damage instead, and restores 25% more health."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Biggest Snowball Ever!",
@@ -159,7 +161,8 @@
       "The snowball explodes upon colliding with an enemy  champion,  large pet, medium-large  monster or terrain, dealing magic damage to surrounding enemies, increased by 0% − 400% (based on charge time),  knocking them up for 0.5 − 0.75 (based on charge time) seconds and subsequently  stunning them for 0 − 0.5 (based on charge time) seconds.",
       "The snowball rolls over enemy  minions and small monsters in its path dealing 33.3% of the damage as magic damage.",
       "After 10 seconds, or if the duo is  interrupted, they will let loose the snowball, sending it rolling forward for an additional 750 − 1750 (based on charge time) units during which it will not grow any larger and will explode upon colliding with any enemy unit. Biggest Snowball Ever! can be recast after 0.5 seconds."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Snowball Barrage",
@@ -221,6 +224,51 @@
       "Enemies hit 3 times are  slowed for 1 second. Champions and large monsters hit once are also Snowbound for 4 seconds, refreshing on each hit. Snowball Barrage can be recast twice within 3 seconds at no additional cost.",
       "Recast: Nunu hurls another volley of snowballs, mimicking the first cast's effects. An enemy may only be  slowed once for being hit by 3 snowballs.",
       "After 3 seconds of the first cast, Snowbound enemies around Willump take magic damage and are  rooted for 0.5 − 1.5 (based on level) seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 144,
+            "ratio": 54,
+            "ratioType": "ap"
+          },
+          {
+            "base": 216,
+            "ratio": 54,
+            "ratioType": "ap"
+          },
+          {
+            "base": 288,
+            "ratio": 54,
+            "ratioType": "ap"
+          },
+          {
+            "base": 360,
+            "ratio": 54,
+            "ratioType": "ap"
+          },
+          {
+            "base": 432,
+            "ratio": 54,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          144,
+          216,
+          288,
+          360,
+          432
+        ],
+        "ratios": [
+          {
+            "value": 54,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -263,7 +311,7 @@
           45,
           50
         ],
-        "type": ""
+        "type": null
       }
     ],
     "castTime": null,
@@ -280,6 +328,7 @@
       "Active: Nunu and Willump start  channeling, sapping heat from the surrounding area for 3 seconds,  slowing enemies within by 0% − 95% (based on channel time), as well as gaining a  shield. The affected area is hidden if the duo is not  visible to the enemy team. Absolute Zero can be recast after 0.5 seconds.",
       "At the end of the duration, or if the channel is  interrupted, surrounding enemies take 0% −  100% (based on channel time) of its damage as magic damage. Once the channel ends, affected enemies will remain  slowed for 0 − 3 (based on channel time) seconds and any remaining shield will decay over 3 seconds.",
       "Recast: Nunu and Willump end the  channel early."
-    ]
+    ],
+    "damageEffects": null
   }
 ]

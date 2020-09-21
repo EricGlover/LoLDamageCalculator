@@ -28,7 +28,8 @@
       "Enemy units that die near Senna have a chance to spawn a Mist Wraith for 8 seconds, increased to 2 Mist Wraiths for epic monsters. Senna can basic attack a Mist Wraith to destroy it, gaining  3 and collecting its Mist.\n Enemy  champions, large and epic  monsters are guaranteed.\n  Minions and lesser  monsters that Senna kills have a 4.166% chance.\n Large  minions that Senna doesn't kill are guaranteed, while lesser  minions and lesser  monsters that Senna doesn't kill have a 22% chance.",
       "Innate - Absolution: Each stack of Mist grants Senna  0.75 bonus attack damage. For every 20 stacks, Senna also gains  25 bonus range and  15% critical strike chance. Upon exceeding 100% critical strike chance, Senna converts 35% of the excess into  life steal.",
       "Innate - Relic Cannon: Senna's basic attacks deal 20% AD bonus physical damage on-hit and grant 10 / 15 / 20% of the target's movement speed as  bonus movement speed for 0.5 seconds on-hit."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Piercing Darkness",
@@ -87,6 +88,51 @@
       "Active: Senna fires a spectral laser in the direction of the target unit,  healing herself and allied  champions in a line, and dealing physical damage to enemies in a thinner line.",
       "Upon being struck, enemy  turrets,  wards, jungle plants,  Mist Wraiths and any other attack-interactive units are considered basic attacked once, while  champions and  turrets take on-hit effects (with all turret-specific rules applied).",
       "Basic attacks reduce Piercing Darkness'   cooldown by 1 second on-hit."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 40,
+            "ratio": 40,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 70,
+            "ratio": 40,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 100,
+            "ratio": 40,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 130,
+            "ratio": 40,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 160,
+            "ratio": 40,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          40,
+          70,
+          100,
+          130,
+          160
+        ],
+        "ratios": [
+          {
+            "value": 40,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -134,6 +180,51 @@
     "descriptions": [
       "Active: Senna throws a globule of Black Mist in the target direction, dealing physical damage and sticking onto the first enemy hit for 1 second.",
       "After the duration or when the target dies, the Black Mist spreads out of the target,  rooting them and nearby enemies for a few seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 70,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 115,
+            "ratio": 70,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 160,
+            "ratio": 70,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 205,
+            "ratio": 70,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 250,
+            "ratio": 70,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          70,
+          115,
+          160,
+          205,
+          250
+        ],
+        "ratios": [
+          {
+            "value": 70,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -176,7 +267,8 @@
       "Allied champions who enter the mist gain Wraith Form for a duration equal to the remaining duration.",
       "Wraith Form: Gain  camouflage. Enemies will have  obscured vision of Wraiths moving outside of the mist. Wraith Form can be regained if lost by breaking the camouflage after 1.75 seconds of not performing actions that break stealth. Wraith Form ends immediately upon Senna's  death.",
       "Senna and allies camouflaged by Curse of the Black Mist also gain  20% bonus movement speed."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Dawning Shadow",
@@ -230,6 +322,33 @@
     "descriptions": [
       "Active: Senna  reveals herself before firing two beams of spectral light in the target direction, granting  sight of the area briefly along its path. The center beam deals physical damage to enemy  champions hit.",
       "The broad beam  shields Senna and allied champions hit for 3 seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 250,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 312,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          250,
+          312
+        ],
+        "ratios": [
+          {
+            "value": 100,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   }
 ]

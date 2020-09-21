@@ -26,7 +26,8 @@
         "Innate: Xin Zhao gains a Determination I and Determination II stack for every  Wind Becomes Lightning strike or basic attack on-hit, up to a maximum of two.",
         "At two Determination I stacks, Xin Zhao's next  Wind Becomes Lightning strike or basic attack on-hit consumes the stacks to  heal him for 10 − 112 (based on level) (+ 10% AD) (+ 40% AP).",
         "At two Determination II stacks, Xin Zhao's next  Wind Becomes Lightning strike or basic attack on-attack consumes the stacks to deal 15 / 25 / 35 / 45% (based on level) AD bonus physical damage."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Three Talon Strike",
@@ -80,6 +81,51 @@
         "The third basic attack  knocks up the target for 0.75 seconds and consumes the buff.",
         "Three Talon Strike  resets Xin Zhao's basic attack timer.",
         "Talon Strike is affected by  critical strike modifiers."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 20,
+              "ratio": 40,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 28,
+              "ratio": 40,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 36,
+              "ratio": 40,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 44,
+              "ratio": 40,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 52,
+              "ratio": 40,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            20,
+            28,
+            36,
+            44,
+            52
+          ],
+          "ratios": [
+            {
+              "value": 40,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -135,7 +181,8 @@
         "Active: Xin Zhao performs two strikes in the target direction and delays the durations of his other abilities relative to Wind Becomes Lightning's cast time after 0.2 seconds of the activation.",
         "The first deals physical damage to all enemies in an arc, and the second deals physical damage in a line,  slowing all enemies hit by 50% for 1.5 seconds.",
         "Both strikes deal 50% reduced damage against  minions, benefit from 33.3% of Xin Zhao's  life steal."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Audacious Charge",
@@ -179,6 +226,51 @@
         "Active: Xin Zhao  dashes to the target enemy's location, dealing magic damage to all enemies around the primary target and  slowing them by 30% for 0.5 seconds.",
         "Xin Zhao then gains  bonus attack speed for 5 seconds.",
         "Xin Zhao cannot cast  Wind Becomes Lightning while dashing, but he may still buffer it.  Three Talon Strike and  Crescent Guard can both be cast during the dash."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 50,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 75,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 100,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 125,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 150,
+              "ratio": 60,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            50,
+            75,
+            100,
+            125,
+            150
+          ],
+          "ratios": [
+            {
+              "value": 60,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -217,7 +309,7 @@
           "value": [
             15
           ],
-          "type": ""
+          "type": null
         }
       ],
       "castTime": 0.35,
@@ -233,6 +325,51 @@
         "Passive - Challenge: The last enemy champion hit by Xin Zhao's basic attacks or  Audacious Charge is  Challenged for 3 seconds.",
         "Active: Xin Zhao sweeps his spear around him, dealing physical damage to enemies hit, capped at 600 (+ 100% bonus AD) against  monsters, while also  knocking back all non- Challenged enemies hit.",
         "For the next 3 seconds, Xin Zhao is  invulnerable to enemy  champions more than 450-units away from him. His basic attacks and other ability casts extend the duration by 0.3 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 75,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 125,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 175,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 225,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 275,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            75,
+            125,
+            175,
+            225,
+            275
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     }
   ],

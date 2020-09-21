@@ -24,7 +24,8 @@
       "levelings": [],
       "descriptions": [
         "Innate: After using an ability, Lee Sin's next 2 basic attacks within 3 seconds gain  40% bonus attack speed, returning  20 / 30 / 40 (based on level) energy on the first attack and 「 half of that 」「  10 / 15 / 20 (based on level) energy 」 on the second."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Sonic Wave",
@@ -70,6 +71,51 @@
       "descriptions": [
         "Active: Lee Sin fires a sonic blast in the target direction, dealing physical damage to the first enemy it hits and  revealing them for 3 seconds.",
         "If Sonic Wave hits, Lee Sin can cast  Resonating Strike within the next 3 seconds at no delay."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 55,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 80,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 105,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 130,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 155,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            55,
+            80,
+            105,
+            130,
+            155
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -113,7 +159,8 @@
         "Active: Lee Sin  dashes to the target allied unit's location. If the ally is a  champion, both they and Lee Sin are granted a  shield for 2 seconds upon his arrival and Safeguard's  cooldown is halved. Lee Sin can self-cast Safeguard to shield himself.",
         "If Safeguard is used, Lee Sin can cast  Iron Will within the next 3 seconds at no delay.",
         "If Safeguard's  dash interrupts  Resonating Strike,  Tempest and  Dragon's Rage may also be cast while dashing."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Tempest",
@@ -155,6 +202,51 @@
       "descriptions": [
         "Active: Lee Sin smashes the ground, dealing magic damage to nearby enemies and  revealing them for 4 seconds.",
         "If Tempest hits an enemy, Lee Sin can cast  Cripple within the next 3 seconds after a 0.1-second delay."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 120,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 160,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 200,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 240,
+              "ratio": 100,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            80,
+            120,
+            160,
+            200,
+            240
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -202,6 +294,33 @@
       "descriptions": [
         "Active: Lee Sin  roots the target enemy champion during the cast time after which he roundhouse kicks them, dealing physical damage and  knocking them back 1200 units over 1 second.",
         "Enemies that collide with the displaced enemy receive bonus physical damage and are  knocked up for 1 second."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 175,
+              "ratio": 200,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 287,
+              "ratio": 200,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            175,
+            287
+          ],
+          "ratios": [
+            {
+              "value": 200,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     }
   ],

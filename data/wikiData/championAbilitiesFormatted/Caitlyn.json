@@ -26,7 +26,8 @@
       "Innate: Caitlyn's basic attacks generate a stack of Headshot on-attack, doubled when attacking from  brush. At 6 stacks, or 5 while in brush, Caitlyn's next basic attack becomes  unstoppable and deals (50 / 75 / 100% (based on level) + (125% +  15.625%) critical strike chance) AD  bonus physical damage, increased to (100% + (125% +  15.625%) critical strike chance) AD against non-champions.",
       "Caitlyn may fire other empowered basic attacks until Headshot hits a target, which consumes all stacks.",
       "Enemies that step over a  Yordle Snap Trap or are hit by  90 Caliber Net can grant an additional headshot at  1300 range for 1.8 seconds, without consuming stacks of Headshot."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Piltover Peacemaker",
@@ -90,6 +91,73 @@
     "descriptions": [
       "Active: Caitlyn fires a projectile in the target direction that deals physical damage to the first enemy it passes through, after which it expands in width but deals only 60% damage to all enemies it passes thereafter.",
       "Enemies  revealed by  Yordle Snap Trap always take full damage from Piltover Peacemaker."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 50,
+            "ratio": 130,
+            "ratioType": "ad"
+          },
+          {
+            "base": 90,
+            "ratio": 140,
+            "ratioType": "ad"
+          },
+          {
+            "base": 130,
+            "ratio": 150,
+            "ratioType": "ad"
+          },
+          {
+            "base": 170,
+            "ratio": 160,
+            "ratioType": "ad"
+          },
+          {
+            "base": 210,
+            "ratio": 170,
+            "ratioType": "ad"
+          }
+        ],
+        "flatValues": [
+          50,
+          90,
+          130,
+          170,
+          210
+        ],
+        "ratios": [
+          {
+            "value": 130,
+            "type": "ad"
+          },
+          {
+            "value": 140,
+            "type": "ad"
+          },
+          {
+            "value": 150,
+            "type": "ad"
+          },
+          {
+            "value": 160,
+            "type": "ad"
+          },
+          {
+            "value": 170,
+            "type": "ad"
+          }
+        ]
+      },
+      {
+        "type": "",
+        "abilityRanks": [],
+        "flatValues": [],
+        "ratios": []
+      }
     ]
   },
   {
@@ -129,7 +197,8 @@
       "Active: Caitlyn sets a visible  untargetable trap at the target location which briefly grants  sight of the area and arms after 1 second, lasting for a duration. After the maximum amount of traps is laid down, deploying another immediately destroys the oldest one.",
       "The next enemy champion that springs the trap is  rooted for 1.5 seconds,  revealed for 3 seconds, takes additional damage from  Headshot, and becomes immune to Yordle Snap Traps for 3 seconds.",
       "Yordle Snap Traps trigger simultaneously if stacked on top of each other, granting additional  Headshots for each one beyond the first, but only increasing the damage for the first one."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "90 Caliber Net",
@@ -174,6 +243,51 @@
     ],
     "descriptions": [
       "Active: Caitlyn fires a net in the target direction and  recoils 400 units in the opposite direction, dealing magic damage to the first enemy hit and  slowing them by 50% for 1 second."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 110,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 150,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 190,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 230,
+            "ratio": 80,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          70,
+          110,
+          150,
+          190,
+          230
+        ],
+        "ratios": [
+          {
+            "value": 80,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -221,6 +335,33 @@
       "Active: Caitlyn locks onto the target enemy  champion and  channels for 1 second,  revealing them and  revealing herself to enemies.",
       "Ace in the Hole is placed on a 5-second  cooldown if canceled.",
       "Once Caitlyn completes the channel, she fires a homing bullet toward the target that deals physical damage to the first enemy champion it hits."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 300,
+            "ratio": 200,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 412,
+            "ratio": 200,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          300,
+          412
+        ],
+        "ratios": [
+          {
+            "value": 200,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   }
 ]

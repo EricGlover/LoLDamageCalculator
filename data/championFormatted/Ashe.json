@@ -26,7 +26,8 @@
       "descriptions": [
         "Innate - Frost Shot: Ashe's  basic attacks and abilities apply Frost to enemies,  slowing them by 20% −  30% (based on level) for 2 seconds. Basic attacks against enemies with Frost deal 110% (+ (100% +  25%) of critical strike chance) modified damage.",
         "Innate - Critical Slow: Ashe's  critical strikes deal no extra damage, instead they double Frost's slow strength to 40% −  60% (based on level), decaying over 1 second to its normal strength."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Ranger's Focus",
@@ -66,7 +67,8 @@
         "Active: Ashe gains  bonus attack speed for 4 seconds and causes each of her basic attacks to fire a flurry of five arrows.",
         "Flurries trigger on-hit effects only once, and each arrow deals modified physical damage that benefits from  Frost Shots and  life steal.",
         "Ranger's Focus  resets Ashe's basic attack timer."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Volley",
@@ -112,6 +114,51 @@
       "descriptions": [
         "Active: Ashe fires 9 arrows in a cone in the target direction, each dealing physical damage to the first enemy struck, and applying  Critical Slow to enemy  champions.",
         "Enemies do not take damage from arrows beyond the first."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 20,
+              "ratio": 100,
+              "ratioType": "ad"
+            },
+            {
+              "base": 35,
+              "ratio": 100,
+              "ratioType": "ad"
+            },
+            {
+              "base": 50,
+              "ratio": 100,
+              "ratioType": "ad"
+            },
+            {
+              "base": 65,
+              "ratio": 100,
+              "ratioType": "ad"
+            },
+            {
+              "base": 80,
+              "ratio": 100,
+              "ratioType": "ad"
+            }
+          ],
+          "flatValues": [
+            20,
+            35,
+            50,
+            65,
+            80
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -139,7 +186,8 @@
       "descriptions": [
         "Passive: Ashe periodically stocks a Hawkshot charge, up to a maximum of 2.",
         "Active: Ashe sends a hawk spirit toward the target location,  revealing the area along its path「 repeatedly for 0.5 seconds after every 100 units traveled 」「 for effectively up-to 1.8 seconds at any location 」and at its destination for 5 seconds."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Enchanted Crystal Arrow",
@@ -187,6 +235,51 @@
       "descriptions": [
         "Active: Ashe fires a massive arrow of ice in the target direction, granting brief  sight of the area it flies through every 1 second. The arrow shatters upon hitting an enemy  champion, dealing magic damage,  stunning them for 1 − 3.5 (based on distance traveled) seconds, and revealing the area around them for 1 second.",
         "Enemies surrounding the main target are struck for 50% damage, but only slowed by  Frost Shot."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 200,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 300,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 400,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 500,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 600,
+              "ratio": 100,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            200,
+            300,
+            400,
+            500,
+            600
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     }
   ],

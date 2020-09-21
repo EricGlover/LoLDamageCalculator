@@ -26,7 +26,8 @@
         "Innate: Udyr gains  5 bonus movement speed and  10% bonus attack speed for 5 seconds every time he uses an ability, stacking up to 3 times, up to a maximum of  15 bonus movement speed and  30% bonus attack speed. The duration refreshes on subsequent ability casts.",
         "Innate - Four Stances: Udyr has no ultimate ability and instead has 4 basic abilities. Each of his abilities provides a passive effect that lasts until he activates a different ability, called his current Stance. Activating any of his abilities will prevent his previous Stance from triggering any more on-hit effects, and will prevent him from activating another ability for 2 seconds.",
         "Starting at level 16, all abilities can gain a 6th rank."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Tiger Stance",
@@ -85,6 +86,77 @@
       "descriptions": [
         "Stance: Udyr's basic attacks generate Tiger stacks on-hit, up to 3. At maximum stacks, Udyr's next basic attack is a Tiger Strike, which deals bonus physical damage over 2 seconds as well as instantly dealing any remaining damage from any previous Tiger Strikes on the target.",
         "Active: Udyr gains  bonus attack speed for 5 seconds, and instantly generates 3 Tiger stacks."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 30,
+              "ratio": 110,
+              "ratioType": "ad"
+            },
+            {
+              "base": 60,
+              "ratio": 125,
+              "ratioType": "ad"
+            },
+            {
+              "base": 90,
+              "ratio": 140,
+              "ratioType": "ad"
+            },
+            {
+              "base": 120,
+              "ratio": 155,
+              "ratioType": "ad"
+            },
+            {
+              "base": 150,
+              "ratio": 170,
+              "ratioType": "ad"
+            },
+            {
+              "base": 180,
+              "ratio": 185,
+              "ratioType": "ad"
+            }
+          ],
+          "flatValues": [
+            30,
+            60,
+            90,
+            120,
+            150,
+            180
+          ],
+          "ratios": [
+            {
+              "value": 110,
+              "type": "ad"
+            },
+            {
+              "value": 125,
+              "type": "ad"
+            },
+            {
+              "value": 140,
+              "type": "ad"
+            },
+            {
+              "value": 155,
+              "type": "ad"
+            },
+            {
+              "value": 170,
+              "type": "ad"
+            },
+            {
+              "value": 185,
+              "type": "ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -127,7 +199,8 @@
       "descriptions": [
         "Stance: Udyr's basic attacks generate Turtle stacks on-hit, up to 3. At maximum stacks, Udyr's next basic attack  heals him for  2.5% − 5% (based on missing health) of his maximum health.",
         "Active: Udyr  shields himself for up to 5 seconds, and instantly generates 3 Turtle stacks."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Bear Stance",
@@ -162,7 +235,8 @@
       "descriptions": [
         "Stance: Udyr's basic attacks are  unstoppable and they  stun his target for 1 second. The stun cannot occur on the same target more than once every few seconds.",
         "Active: Udyr gains  bonus movement speed and is  ghosted for the next few seconds. Additionally, his next basic attack gains  50 bonus range and has him  lunge at his target."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Phoenix Stance",
@@ -205,7 +279,8 @@
       "descriptions": [
         "Stance: Udyr's basic attacks generate Phoenix stacks on-hit, up to 3. At maximum stacks, Udyr's next basic attack unleashes fire in a cone in front of him that deals magic damage to all enemies hit.",
         "Active: Udyr unleashes an aura of pulsing waves of fire around himself for 4 seconds, dealing magic damage each second to all nearby enemies for the duration, as well as instantly generating 3 Phoenix stacks."
-      ]
+      ],
+      "damageEffects": null
     }
   ],
   "id": "Udyr",

@@ -25,7 +25,8 @@
       "descriptions": [
         "Innate: Aurelion Sol is constantly orbited by three Stars, each doing a full circumference in 5.25 seconds, and beyond them exists an Outer Limit affecting his damaging abilities.",
         "The Stars deal 12 −  120 (based on level) (+ 5 / 10 / 15 / 20 / 25 (based on  Celestial Expansion's Rank) (+ 25% AP) magic damage to enemies that come in contact with them as well as execute enemy  minions that have less than  25 health, including if they are brought to or below that threshold."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Starsurge",
@@ -78,6 +79,51 @@
         "Upon traveling beyond the Outer Limit, the core detonates, dealing magic damage to all enemies caught within and  stunning them for a duration, increased by 0% − 300% (based on time traveled).",
         "Recast: Aurelion Sol detonates the core early.",
         "If Aurelion Sol is faster than the missile, the missile speed will increase to keep up."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 70,
+              "ratio": 65,
+              "ratioType": "ap"
+            },
+            {
+              "base": 110,
+              "ratio": 65,
+              "ratioType": "ap"
+            },
+            {
+              "base": 150,
+              "ratio": 65,
+              "ratioType": "ap"
+            },
+            {
+              "base": 190,
+              "ratio": 65,
+              "ratioType": "ap"
+            },
+            {
+              "base": 230,
+              "ratio": 65,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            70,
+            110,
+            150,
+            190,
+            230
+          ],
+          "ratios": [
+            {
+              "value": 65,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -127,7 +173,8 @@
         "After 3 seconds or immediately after casting  Comet of Legend, the stars retract and Aurelion Sol gains 40% bonus movement speed, decaying over 1.5 seconds.",
         "Recast: Aurelion Sol commands the stars to retract early.",
         "Celestial Expansion's recast can be used while affected by  crowd control."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Comet of Legend",
@@ -169,7 +216,8 @@
         "If Aurelion Sol takes damage from enemy  champions or  turrets, Comet of Legend ends instantly and is placed on a 4 second  static cooldown.",
         "Recast: Aurelion Sol ends Comet of Legend early.",
         "The spot at which the flight will reach maximum range is highlighted to Aurelion Sol during Comet of Legend."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Voice of Light",
@@ -216,6 +264,51 @@
         "Active: Aurelion Sol exhales a wave of star fire in a line in the target direction, dealing magic damage to all enemies hit,  slowing them for 2 seconds and  knocking them back to the Outer Limit if they are within.",
         "Aurelion Sol  channels over 0.3 seconds until the star fire reaches maximum range. Voice of Light cannot be  interrupted by  crowd control.",
         " Celestial Expansion can be cast during Voice of Light."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 150,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 200,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 250,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 300,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 350,
+              "ratio": 70,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            150,
+            200,
+            250,
+            300,
+            350
+          ],
+          "ratios": [
+            {
+              "value": 70,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     }
   ],

@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Evelynn gains Demon Shade after not performing actions that break stealth for 4 seconds. Taking damage from enemy  champions or  turrets ends Demon Shade immediately and puts it on a 1.5 second static cooldown.",
       "Demon Shade: While below  250 − 590 (based on level) (+ 250% AP) health, Evelynn  heals herself for 15 − 75 (based on level) every second. From level 6 onward, Demon Shade also grants  camouflage."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Hate Spike",
@@ -75,7 +76,8 @@
       "For the next 4 seconds, the enemy hit takes bonus magic damage from her next 3 basic attacks and abilities.",
       "Hate Spike may be re-cast up to 3 times at no cost until the ability comes off cooldown.",
       "Recast: Evelynn unleashes a line of deadly spikes in the direction of her attack target if they are in range, dealing magic damage to all enemies struck. Hate Spike will first prioritize Evelynn's attack target, then the nearest enemy champion."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Allure",
@@ -122,7 +124,8 @@
       "Expunging a target will refund Allure's  mana cost. If the target is cursed for at least 2.5 seconds she also  charms them, as well as applying additional effects based on the target type.",
       "Against champions, the expunge also  reduces their magic resistance for 4 seconds.Against monsters, the expunge deals bonus magic damage and the  charm lasts 2 seconds longer.",
       "Casting Allure does not break  Demon Shade."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Whiplash",
@@ -172,6 +175,59 @@
       "Active: Evelynn whips the target enemy with her lashers, applying on-hit effects and dealing magic damage.",
       "Evelynn also gains  30% bonus movement speed for 2 seconds.",
       "Gaining  Demon Shade resets Whiplash's  cooldown and  empowers its next cast."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 55,
+            "ratio": 3,
+            "ratioType": "ap"
+          },
+          {
+            "base": 70,
+            "ratio": 1.5,
+            "ratioType": "ap"
+          },
+          {
+            "base": 85,
+            "ratio": 100,
+            "ratioType": "ap"
+          },
+          {
+            "base": 100,
+            "ratio": 100,
+            "ratioType": "ap"
+          },
+          {
+            "base": 115,
+            "ratio": 100,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          55,
+          70,
+          85,
+          100,
+          115
+        ],
+        "ratios": [
+          {
+            "value": 3,
+            "type": "ap"
+          },
+          {
+            "value": 1.5,
+            "type": "ap"
+          },
+          {
+            "value": 100,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -225,6 +281,33 @@
     "descriptions": [
       "Active: Evelynn becomes  untargetable as she reveals her true form to all enemies in front of her in the target direction, before  blinking 700 units in the opposite direction and becoming targetable again.",
       "Enemies caught in her reveal are devastated, taking magic damage, with enemies below  30% of their maximum health receiving  140% bonus damage."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 125,
+            "ratio": 75,
+            "ratioType": "ap"
+          },
+          {
+            "base": 187,
+            "ratio": 75,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          125,
+          187
+        ],
+        "ratios": [
+          {
+            "value": 75,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   }
 ]

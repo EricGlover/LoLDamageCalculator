@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Nautilus's basic attacks deal 8 − 110 (based on level) bonus physical damage and  root his target for 0.75 − 1.5 (based on level) seconds.",
       "This effect cannot occur on the same target more than once every few seconds."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Dredge Line",
@@ -71,6 +72,51 @@
       "Active: Nautilus hurls his anchor forward in a line in the target direction. If it hits an enemy, it simultaneously  drags them towards Nautilus while he  dashes towards them within 0.9 seconds, during which the target is  revealed, and dealing magic damage and  rooting them for 0.1 seconds.",
       "If the anchor hits terrain instead, Nautilus dashes to that location entirely and Dredge Line refunds 50% of its  cooldown and  mana cost.",
       "Nautilus is unable to move or attack while Dredge Line is in flight."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 90,
+            "ratioType": "ap"
+          },
+          {
+            "base": 115,
+            "ratio": 90,
+            "ratioType": "ap"
+          },
+          {
+            "base": 160,
+            "ratio": 90,
+            "ratioType": "ap"
+          },
+          {
+            "base": 205,
+            "ratio": 90,
+            "ratioType": "ap"
+          },
+          {
+            "base": 250,
+            "ratio": 90,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          70,
+          115,
+          160,
+          205,
+          250
+        ],
+        "ratios": [
+          {
+            "value": 90,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -119,7 +165,8 @@
       "Active: Nautilus  shields himself for up to 6 seconds.",
       "While the shield holds, his basic attacks deal bonus magic damage over 2 seconds to his target and all enemies around them.",
       "Titan's Wrath  resets Nautilus'  basic attack timer."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Riptide",
@@ -170,6 +217,14 @@
     "descriptions": [
       "Active: Nautilus creates 3 waves of explosions that radiate from him over 0.561 seconds, each dealing magic damage to all enemies hit and  slowing them by an amount that decays over 1.5 seconds.",
       "Enemies hit by subsequent waves beyond the first are dealt half damage."
+    ],
+    "damageEffects": [
+      {
+        "type": "",
+        "abilityRanks": [],
+        "flatValues": [],
+        "ratios": []
+      }
     ]
   },
   {
@@ -216,6 +271,33 @@
     "descriptions": [
       "Active: Nautilus  reveals himself before sending out a  Depth Charge that chases the target enemy champion. Upon reaching the target, the charge erupts from beneath them, dealing magic damage and  knocking them up for 1 second as well as  stunning them for a duration.",
       "All enemies hit along the way and those within the eruption are dealt reduced damage,  knocked up for 1 second, and are also  stunned."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 150,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 212,
+            "ratio": 80,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          150,
+          212
+        ],
+        "ratios": [
+          {
+            "value": 80,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   }
 ]

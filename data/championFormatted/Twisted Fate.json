@@ -25,7 +25,8 @@
       "descriptions": [
         "Innate: Every time Twisted Fate kills an enemy, he gains 1 − 6 (based on probability).",
         "Since his dice is loaded, Twisted Fate has an increased chance of gaining  6."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Wild Cards",
@@ -71,6 +72,51 @@
       "descriptions": [
         "Active: Twisted Fate unleashes three cards in a cone in the target direction, dealing magic damage to all enemies they pass through.",
         "Enemies can only be damaged once by Wild Cards."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 60,
+              "ratio": 65,
+              "ratioType": "ap"
+            },
+            {
+              "base": 105,
+              "ratio": 65,
+              "ratioType": "ap"
+            },
+            {
+              "base": 150,
+              "ratio": 65,
+              "ratioType": "ap"
+            },
+            {
+              "base": 195,
+              "ratio": 65,
+              "ratioType": "ap"
+            },
+            {
+              "base": 240,
+              "ratio": 65,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            60,
+            105,
+            150,
+            195,
+            240
+          ],
+          "ratios": [
+            {
+              "value": 65,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -135,6 +181,51 @@
         "Recast -  Red Card: Deals magic damage around the target and  slows all enemies hit for 2.5 seconds.",
         "Recast -  Gold Card:  Stuns the target.",
         "Pick a Card's recast can be used while affected by  crowd control."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 40,
+              "ratio": 100,
+              "ratioType": "ad"
+            },
+            {
+              "base": 60,
+              "ratio": 100,
+              "ratioType": "ad"
+            },
+            {
+              "base": 80,
+              "ratio": 100,
+              "ratioType": "ad"
+            },
+            {
+              "base": 100,
+              "ratio": 100,
+              "ratioType": "ad"
+            },
+            {
+              "base": 120,
+              "ratio": 100,
+              "ratioType": "ad"
+            }
+          ],
+          "flatValues": [
+            40,
+            60,
+            80,
+            100,
+            120
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -172,7 +263,8 @@
         "Passive: Twisted Fate gains  bonus attack speed.",
         "Twisted Fate gains a stack of Stacked Deck on-hit, up to a maximum of three.",
         "At 3 stacks, his next basic attack against  non-structures consumes the stacks on-hit to deal bonus magic damage."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Destiny",
@@ -212,7 +304,8 @@
       "descriptions": [
         "Active: Twisted Fate summons an identifying eyeball above all targetable enemy  champions for a few seconds,  revealing them for the duration. Destiny can be recast after 0.5 seconds.",
         "Recast: Twisted Fate  channels for 1.5 seconds and then  blinks to the target location upon completion,  destroying all  projectiles targeting him in the process."
-      ]
+      ],
+      "damageEffects": null
     }
   ],
   "id": "TwistedFate",

@@ -25,7 +25,8 @@
       "descriptions": [
         "Innate: Xerath periodically empowers his next basic attack to restore 30 − 195 (based on level)  mana, doubled to 60 − 390 (based on level) against enemy champions.",
         "Mana Surge does not trigger if Xerath would restore above his maximum mana."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Arcanopulse",
@@ -70,7 +71,8 @@
         "Active: Xerath  charges for up to 3 seconds to increase Arcanopulse's  range while being gradually  slowed over the duration, by up to 50%. Arcanopulse can be recast at any time within its duration.",
         "If the charge completes without reactivation, Arcanopulse is cancelled, refunding  half of the mana cost.",
         "Recast: After a 0.5-second delay, Xerath fires a beam of energy in the target direction, dealing magic damage to all enemies hit."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Eye of Destruction",
@@ -121,6 +123,51 @@
       "descriptions": [
         "Active: Xerath calls down a blast of arcane energy upon the target location which strikes after a 0.5-second delay,  revealing the area, and dealing magic damage to all enemies within and  slowing them by 25% for 2.5 seconds.",
         "Enemies in the center of the blast take 66.7% increased damage and are  slowed by a greater amount, decaying down to 25% over the duration."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 60,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 90,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 120,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 150,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 180,
+              "ratio": 60,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            60,
+            90,
+            120,
+            150,
+            180
+          ],
+          "ratios": [
+            {
+              "value": 60,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -170,6 +217,51 @@
       ],
       "descriptions": [
         "Active: Xerath fires an orb of energy in the target direction, dealing magic damage to the first enemy hit and  stunning them for 0.5 − 2 (based on distance the orb traveled) seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 45,
+              "ratioType": "ap"
+            },
+            {
+              "base": 110,
+              "ratio": 45,
+              "ratioType": "ap"
+            },
+            {
+              "base": 140,
+              "ratio": 45,
+              "ratioType": "ap"
+            },
+            {
+              "base": 170,
+              "ratio": 45,
+              "ratioType": "ap"
+            },
+            {
+              "base": 200,
+              "ratio": 45,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            80,
+            110,
+            140,
+            170,
+            200
+          ],
+          "ratios": [
+            {
+              "value": 45,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -212,7 +304,8 @@
         "Recast: Xerath launches a blast of arcane energy to the target location which strikes after 0.5 seconds, dealing magic damage and briefly granting  sight of the area. Each cast has a static cooldown of 0.8 seconds.",
         "If none of the recasts were used and Rite of the Arcane's channel times out or Xerath manually interrupts it, half of the ability's  cooldown is refunded.",
         "Rite of the Arcane's recast will cast at max range cast if cast beyond that."
-      ]
+      ],
+      "damageEffects": null
     }
   ],
   "id": "Xerath",

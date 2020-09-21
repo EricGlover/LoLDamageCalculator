@@ -24,7 +24,8 @@
       "levelings": [],
       "descriptions": [
         "Innate: Gragas periodically  heals for  6% of his maximum health upon using an ability."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Barrel Roll",
@@ -94,6 +95,180 @@
         "Active: Gragas rolls a cask to the target location, granting  sight around it and fermenting over 2 seconds, increasing its damage and  slow strength, up to a maximum of  150%. Barrel Roll can be recast after the cask has fully travelled.",
         "After 4 seconds the cask detonates, dealing magic damage to all surrounding enemies, reduced by 30% against  minions, and  slowing them for 2 seconds.",
         "Recast: Gragas detonates the cask early."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 120,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 160,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 200,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 240,
+              "ratio": 70,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            80,
+            120,
+            160,
+            200,
+            240
+          ],
+          "ratios": [
+            {
+              "value": 70,
+              "type": "ap"
+            }
+          ]
+        },
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 120,
+              "ratio": 105,
+              "ratioType": "ap"
+            },
+            {
+              "base": 180,
+              "ratio": 105,
+              "ratioType": "ap"
+            },
+            {
+              "base": 240,
+              "ratio": 105,
+              "ratioType": "ap"
+            },
+            {
+              "base": 300,
+              "ratio": 105,
+              "ratioType": "ap"
+            },
+            {
+              "base": 360,
+              "ratio": 105,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            120,
+            180,
+            240,
+            300,
+            360
+          ],
+          "ratios": [
+            {
+              "value": 105,
+              "type": "ap"
+            }
+          ]
+        },
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 56,
+              "ratio": 49,
+              "ratioType": "ap"
+            },
+            {
+              "base": 84,
+              "ratio": 49,
+              "ratioType": "ap"
+            },
+            {
+              "base": 112,
+              "ratio": 49,
+              "ratioType": "ap"
+            },
+            {
+              "base": 140,
+              "ratio": 49,
+              "ratioType": "ap"
+            },
+            {
+              "base": 168,
+              "ratio": 49,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            56,
+            84,
+            112,
+            140,
+            168
+          ],
+          "ratios": [
+            {
+              "value": 49,
+              "type": "ap"
+            }
+          ]
+        },
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 84,
+              "ratio": 73.5,
+              "ratioType": "ap"
+            },
+            {
+              "base": 126,
+              "ratio": 73.5,
+              "ratioType": "ap"
+            },
+            {
+              "base": 168,
+              "ratio": 73.5,
+              "ratioType": "ap"
+            },
+            {
+              "base": 210,
+              "ratio": 73.5,
+              "ratioType": "ap"
+            },
+            {
+              "base": 252,
+              "ratio": 73.5,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            84,
+            126,
+            168,
+            210,
+            252
+          ],
+          "ratios": [
+            {
+              "value": 73.5,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -139,7 +314,8 @@
       "descriptions": [
         "Active: Gragas  channels for 0.75 seconds, drinking out of his brew, and reducing incoming damage for 2.5 seconds.",
         "Upon completing the channel, Gragas'  next basic attack within 5 seconds becomes  unstoppable, gains  50 bonus range and deals bonus magic damage to the target and nearby enemies, capped at 300 against  monsters."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Body Slam",
@@ -186,6 +362,51 @@
         "Active: Gragas  charges forward, dealing magic damage to all nearby enemies upon colliding with one as well as  knocking them back and  stunning them for 1 second.",
         "Body Slam's  cooldown is reduced by 3 seconds if Gragas hits an enemy.",
         " Barrel Roll and  Explosive Cask can be cast during the  charge."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 130,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 180,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 230,
+              "ratio": 60,
+              "ratioType": "ap"
+            },
+            {
+              "base": 280,
+              "ratio": 60,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            80,
+            130,
+            180,
+            230,
+            280
+          ],
+          "ratios": [
+            {
+              "value": 60,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -231,6 +452,51 @@
       ],
       "descriptions": [
         "Active: Gragas hurls a cask that travels to the target location over 0.55 seconds and explodes on impact, dealing magic damage to all nearby enemies and  knocking them back 900 units (but not through terrain) from the epicenter of the explosion, while also briefly granting  sight of the nearby surroundings."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 200,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 250,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 300,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 350,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 400,
+              "ratio": 80,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            200,
+            250,
+            300,
+            350,
+            400
+          ],
+          "ratios": [
+            {
+              "value": 80,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     }
   ],

@@ -1,10 +1,12 @@
 import { Progress } from "antd";
 import React from "react";
+import findHP from "../Helpers/findHP";
 function EnemyHP ({props}){
     const {selectedAbilities,
         enemy,
         damageWithCurrentItems,
-        damageWithOptimalItems} = props;
+        damageWithOptimalItems, 
+        levels} = props;
     const hpToPercent = (hp, outofHP)=>{
         console.log(hp/outofHP*100);
         return hp/outofHP*100
@@ -13,13 +15,15 @@ function EnemyHP ({props}){
     //todo add css tooltip hover
     return(<div style={{paddingRight: "60px"}}>
         Combo Damage
+<div>{enemy.name} LVL:{levels.enemyChampion}</div>
        <Progress
        strokeLinecap="square"
        strokeColor="lightGreen"
        percent={hpToPercent(enemy.currentHP, enemy.maxHP)}
        trailColor="Black" 
        format={(percent, succesPercent)=>{
-           return damageWithCurrentItems +"/" + enemy.currentHP +" HP"
+           console.log('ran formatting')
+           return damageWithCurrentItems +"/" + findHP(enemy, levels) +" HP"
        }}
        success={{ 
            percent: hpToPercent(damageWithCurrentItems,enemy.maxHP),

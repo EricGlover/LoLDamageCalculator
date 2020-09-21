@@ -24,7 +24,8 @@
       "levelings": [],
       "descriptions": [
         "Innate: Periodically, when Blitzcrank is damaged to  30% of his maximum health, a  shield is automatically generated that is equal to  30% of maximum mana, lasting up to 10 seconds."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Rocket Grab",
@@ -70,6 +71,51 @@
       "descriptions": [
         "Active: Blitzcrank fires the right hand in the target direction that catches the first enemy struck, dealing magic damage while  pulling them to Blitzcrank, then  stunning them for 0.5 seconds.",
         "Blitzcrank is unable to move or attack while Rocket Grab is in flight."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 70,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 120,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 170,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 220,
+              "ratio": 100,
+              "ratioType": "ap"
+            },
+            {
+              "base": 270,
+              "ratio": 100,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            70,
+            120,
+            170,
+            220,
+            270
+          ],
+          "ratios": [
+            {
+              "value": 100,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -105,7 +151,8 @@
       "descriptions": [
         "Active: Blitzcrank shifts into overdrive, gaining  bonus attack speed for 5 seconds and  bonus movement speed that decays to 10% after 2.5 seconds.",
         "When Overdrive ends, Blitzcrank is  slowed by 30% for 1.5 seconds."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Power Fist",
@@ -136,7 +183,8 @@
       "descriptions": [
         "Active: Blitzcrank's next basic attack within 5 seconds becomes  unstoppable, deals 200% AD modified physical damage and  knocks up the target for 1 second.",
         "Power Fist  resets Blitzcrank's basic attack timer."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Static Field",
@@ -183,6 +231,51 @@
       "descriptions": [
         "Passive: While Static Field is available, Blitzcrank's basic attacks apply a mark that stacks up to 3 times. After every 1 second, 1 mark is consumed to deal magic damage.",
         "Active: Blitzcrank detonates a static field, destroying damage-mitigating  shields of nearby enemies before dealing magic damage and  silencing them for 0.5 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 50,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 75,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 100,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 125,
+              "ratio": 30,
+              "ratioType": "ap"
+            },
+            {
+              "base": 150,
+              "ratio": 30,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            50,
+            75,
+            100,
+            125,
+            150
+          ],
+          "ratios": [
+            {
+              "value": 30,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     }
   ],

@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Vel'Koz's abilities apply a Deconstruction stack for 7 seconds, stacking up to 3 times. Basic attacks refresh the duration on-hit.",
       "The third stack consumes them all, dealing 33 − 169 (based on level) (+ 50% AP)  bonus true damage."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Plasma Fission",
@@ -74,6 +75,51 @@
       "At the end of its range or upon colliding with an enemy, the bolt splits in half, each part firing in opposite directions perpendicular to the primary bolt's trajectory, both dealing the same damage and applying the same  slow to the first enemy they collide with.",
       "Recast: Vel'Koz splits Plasma Fission early.",
       "Plasma Fission restores  mana per target killed."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 80,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 120,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 160,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 200,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 240,
+            "ratio": 80,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          80,
+          120,
+          160,
+          200,
+          240
+        ],
+        "ratios": [
+          {
+            "value": 80,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -122,6 +168,51 @@
       "Passive: Vel'Koz periodically stocks a Void Rift charge, up to a maximum of 2.",
       "Active: Vel'Koz opens a rift to the void that cuts through the ground in a line in the target direction over 1 second, dealing magic damage to enemies hit and leaving behind a trail.",
       "After 0.75 seconds, the trail detonates, dealing magic damage to enemies within."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 30,
+            "ratio": 15,
+            "ratioType": "ap"
+          },
+          {
+            "base": 50,
+            "ratio": 15,
+            "ratioType": "ap"
+          },
+          {
+            "base": 70,
+            "ratio": 15,
+            "ratioType": "ap"
+          },
+          {
+            "base": 90,
+            "ratio": 15,
+            "ratioType": "ap"
+          },
+          {
+            "base": 110,
+            "ratio": 15,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          30,
+          50,
+          70,
+          90,
+          110
+        ],
+        "ratios": [
+          {
+            "value": 15,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -171,6 +262,51 @@
     ],
     "descriptions": [
       "Active: Vel'Koz hurls a disruptive anomaly that reaches the target location after 0.75 seconds, briefly providing  sight, dealing magic damage and  knocking up and  stunning enemies in the area for 0.75 seconds. If the area is created close to Vel'Koz, enemies hit are also slightly  knocked back in the direction of the cast."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 100,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 130,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 160,
+            "ratio": 30,
+            "ratioType": "ap"
+          },
+          {
+            "base": 190,
+            "ratio": 30,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          70,
+          100,
+          130,
+          160,
+          190
+        ],
+        "ratios": [
+          {
+            "value": 30,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -226,6 +362,7 @@
       "Active: After a 0.2-second delay, Vel'Koz  reveals himself and  channels for 2.6 seconds to project an energy beam in a line. The ray's trajectory updates itself over the duration to face the target direction. After 1 second, Life Form Disintegration Ray can be recast.",
       "The ray deals magic damage to enemies within in 0.2-second intervals, and  slows them by 20%, lingering for 1 second.  Deconstruction is applied every 0.7 seconds to enemies hit.  Researched enemies take true damage instead.",
       "Recast: Vel'Koz ends Life Form Disintegration Ray early."
-    ]
+    ],
+    "damageEffects": null
   }
 ]

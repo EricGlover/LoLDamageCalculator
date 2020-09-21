@@ -30,7 +30,8 @@
         "The transformation type is decided based on the highest amount of damage dealt to the respective range type. If the two forms are within 8% of each other, the last champion range type hit will determine the transformation. If both types are hit at the same time the trasformation will default to  Rhaast. The transformation will permanently empower some of Kayn's abilities and grant him Homeguard.",
         " Shadow Assassin: If Kayn has been out of champion combat for over 8 seconds, or he casts  Umbral Trespass, he deals 12% − 44% (based on level) of post-mitigation damage dealt against enemy champions as  bonus magic damage, lasting for 3 seconds upon entering combat and also applying on the first instance of damage dealt. If this ability is ready, it will not go on cooldown by receiving damage.",
         " Darkin: Rhaast  heals for 30% − 40% (based on level) of the post-mitigation  physical damage that he deals to enemy champions with his abilities."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Reaping Slash",
@@ -87,6 +88,51 @@
         "Both instances of Reaping Slash deal 40 bonus damage against  minions and  monsters.",
         " Darkin: Reaping Slash's damage is modified to deal 55% AD (+ 5% (+ 4% per 100 bonus AD) of the target's maximum health) physical damage for both instances. This damage is capped against monsters but does not include the bonus damage.",
         "The dash's speed scales with Kayn's  total movement speed."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 75,
+              "ratio": 65,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 95,
+              "ratio": 65,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 115,
+              "ratio": 65,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 135,
+              "ratio": 65,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 155,
+              "ratio": 65,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            75,
+            95,
+            115,
+            135,
+            155
+          ],
+          "ratios": [
+            {
+              "value": 65,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -140,6 +186,51 @@
         "Active: Kayn performs an upwards sweep with his scythe, dealing physical damage to all enemies hit in a line in the target direction and  slowing them by 90% decaying over 1.5 seconds.",
         " Shadow Assassin: Blade's Reach's range is increased by 200. Additionally, Kayn conjures an  untargetable living shadow at the casting position to perform Blade's Reach in his stead, reducing the ability's cast time to 0 but applying its effects after a 0.55-second delay.",
         " Darkin: Blade's Reach also  knocks up enemies hit for 1 second."
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 90,
+              "ratio": 130,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 135,
+              "ratio": 130,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 180,
+              "ratio": 130,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 225,
+              "ratio": 130,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 270,
+              "ratio": 130,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            90,
+            135,
+            180,
+            225,
+            270
+          ],
+          "ratios": [
+            {
+              "value": 130,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     },
     {
@@ -189,7 +280,8 @@
         "Kayn  heals himself upon moving through terrain for the first time and, if he's not in combat with enemy champions, Shadow Step's duration is increased. While inside terrain, Kayn has  unobstructed vision.",
         "Receiving damage from an enemy  champion or dealing damage to them reduces the remaining duration to 1.5 seconds. The effect also cannot remain active out of terrain for longer than 1.5 seconds and will cancel completely if Kayn uses a basic attack.",
         " Shadow Assassin: Shadow Step's  cooldown is reduced to 8 seconds at all ranks. Additionally, Kayn gains 100%  slow resist and, upon entering terrain, increases the bonus movement speed to 80% for the remaining duration."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Umbral Trespass",
@@ -240,6 +332,51 @@
         "Recast: After a 0.75-second delay, Kayn  dashes out from their body in the target direction while still being  untargetable and deals physical damage to the target.",
         " Shadow Assassin: Umbral Trespass gains up to 200 bonus cast range and emerge range. Additionally, emerging will reset  The Darkin Scythe's  cooldown.",
         " Darkin: Umbral Trespass is modified to deal 10% (+ 13% per 100 bonus AD) of the target's  maximum health physical damage, and  heals him for「 70% of the pre-mitigation damage. 」「 7% (+ 9.1% per 100 bonus AD) of target's maximum health. 」"
+      ],
+      "damageEffects": [
+        {
+          "type": "physical",
+          "abilityRanks": [
+            {
+              "base": 150,
+              "ratio": 175,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 200,
+              "ratio": 175,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 250,
+              "ratio": 175,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 300,
+              "ratio": 175,
+              "ratioType": "bonus ad"
+            },
+            {
+              "base": 350,
+              "ratio": 175,
+              "ratioType": "bonus ad"
+            }
+          ],
+          "flatValues": [
+            150,
+            200,
+            250,
+            300,
+            350
+          ],
+          "ratios": [
+            {
+              "value": 175,
+              "type": "bonus ad"
+            }
+          ]
+        }
       ]
     }
   ],

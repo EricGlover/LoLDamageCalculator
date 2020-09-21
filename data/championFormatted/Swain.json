@@ -26,7 +26,8 @@
         "Innate - Ravenous: Swain can periodically target a nearby  immobilized enemy  champion to rip out a Soul Fragment from them, dealing them 20 − 105 (based on level) (+ 30% AP) magic damage and  pulling them 290-units towards him over a 0.25-second cast time. If the target would be brought past Swain, they are instead  knocked back the excess distance.",
         "Enemy champions also leave behind a Soul Fragment for 16 seconds upon their  death, which can be harvested after 1 second if Swain is near them.",
         "Innate - Flock: Swain's ravens bring nearby Soul Fragments to him,  healing him for 4 / 5.5 / 7% (based on level) of his maximum health. Each Soul Fragment collected permanently increases his maximum health by 5."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Death's Hand",
@@ -85,6 +86,57 @@
       ],
       "descriptions": [
         "Active: Swain unleashes five bolts of eldritch power in the target direction, dealing magic damage to all enemies in a cone. Enemies can be hit by multiple bolts, taking bonus magic damage."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 55,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 75,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 95,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 115,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 135,
+              "ratio": 40,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            55,
+            75,
+            95,
+            115,
+            135
+          ],
+          "ratios": [
+            {
+              "value": 40,
+              "type": "ap"
+            }
+          ]
+        },
+        {
+          "type": "",
+          "abilityRanks": [],
+          "flatValues": [],
+          "ratios": []
+        }
       ]
     },
     {
@@ -142,6 +194,57 @@
       "descriptions": [
         "Active: Swain summons a demonic eye at the target location,  revealing it for 2 seconds, which explodes after 1.5 seconds, dealing magic damage to all enemies hit, halved against  minions, and  slowing them for 2.5 seconds.",
         "Enemy champions hit are also  revealed for a duration and have a Soul Fragment ripped from them."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 120,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 160,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 200,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 240,
+              "ratio": 70,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            80,
+            120,
+            160,
+            200,
+            240
+          ],
+          "ratios": [
+            {
+              "value": 70,
+              "type": "ap"
+            }
+          ]
+        },
+        {
+          "type": "",
+          "abilityRanks": [],
+          "flatValues": [],
+          "ratios": []
+        }
       ]
     },
     {
@@ -185,6 +288,51 @@
       "descriptions": [
         "Active: Swain launches a demonic wave in the target direction, dealing magic damage to enemies it passes through.",
         "Upon reaching its maximum distance, the wave returns to Swain, detonating at the first enemy hit, dealing magic damage to all nearby enemies and  rooting them for 1.5 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 35,
+              "ratio": 25,
+              "ratioType": "ap"
+            },
+            {
+              "base": 70,
+              "ratio": 25,
+              "ratioType": "ap"
+            },
+            {
+              "base": 105,
+              "ratio": 25,
+              "ratioType": "ap"
+            },
+            {
+              "base": 140,
+              "ratio": 25,
+              "ratioType": "ap"
+            },
+            {
+              "base": 175,
+              "ratio": 25,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            35,
+            70,
+            105,
+            140,
+            175
+          ],
+          "ratios": [
+            {
+              "value": 25,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -223,7 +371,8 @@
         "While Demonic Ascension is active, Swain drains all nearby enemies, dealing magic damage each second and  healing himself for each enemy hit, reduced by 90% against  minions and  monsters.",
         "After a 0.5-second delay, Swain can end Demonic Ascension's effects early to cast  Demonflare, and automatically does so at the end of its duration.",
         "Demonic Ascension drains enemies regardless of having  sight of them or not."
-      ]
+      ],
+      "damageEffects": null
     }
   ],
   "id": "Swain",

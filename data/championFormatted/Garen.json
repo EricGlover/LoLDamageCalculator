@@ -25,7 +25,8 @@
       "descriptions": [
         "Innate: Garen regenerates「 1.5% −  10.1% (based on level) of his  maximum health every 5 seconds. 」「 0.15% −  1.01% (based on level) of his  maximum health every 0.5 seconds. 」",
         "Garen loses Perseverance for 8 seconds if he takes damage from epic  monsters, enemy  turrets, or enemy  champions, or if he is hit by an enemy ability or affected by an enemy summoner spell, refreshing on subsequent damage or ability hits against Garen."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Decisive Strike",
@@ -62,7 +63,8 @@
         "Active: Garen  cleanses himself of all  slows and gains  30% bonus movement speed for a few seconds.",
         "Additionally, Garen's next basic attack within 4.5 seconds becomes  unstoppable,  lunges at his target, deals bonus physical damage, and  silences the target for 1.5 seconds.",
         "Decisive Strike  resets Garen's basic attack timer."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Courage",
@@ -94,7 +96,7 @@
           "value": [
             20
           ],
-          "type": ""
+          "type": null
         }
       ],
       "castTime": null,
@@ -109,7 +111,8 @@
         "Passive: Garen permanently gains  0.25 bonus armor and  0.25 bonus magic resistance every time he kills an enemy, up to a maximum of 30 bonus resistances at 120 unit kills.",
         "After reaching maximum stacks, increases bonus armor by 10% and bonus magic resistance by 10%.",
         "Active: Garen reduces incoming damage by 30% for a few seconds. For the first 0.75 seconds, Garen additionally gains a  shield and 60%  Tenacity."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Judgment",
@@ -138,7 +141,7 @@
             0,
             8.2
           ],
-          "type": ""
+          "type": null
         },
         {
           "value": [
@@ -167,7 +170,8 @@
         "The nearest enemy is dealt 25% bonus damage.",
         "Recast: Garen ends Judgment early, reducing its  cooldown by its remaining duration.",
         "Judgment can  critically strike for  (33% +  25%) bonus physical damage. Additionally, the total damage is increased by 50% against non-epic  monsters."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Demacian Justice",
@@ -203,7 +207,7 @@
             27.5,
             30
           ],
-          "type": ""
+          "type": null
         }
       ],
       "castTime": 0.435,
@@ -217,7 +221,8 @@
       "descriptions": [
         "Active: Garen calls upon the might of Demacia onto the target enemy  champion, dealing them  true damage.",
         "The target is  revealed for 1 second starting from the beginning of the cast time."
-      ]
+      ],
+      "damageEffects": null
     }
   ],
   "id": "Garen",

@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Wukong gains 5 − 9 (based on level)  bonus armor and regenerates 0.5% of his maximum health per 5 seconds.",
       "These effects are increased by 50% for 5 seconds whenever Wukong or his  clone damage an enemy  champion or  monster. Bonuses stack up to 10 times to a maximum of 30 − 54 (based on level) bonus armor and 3% maximum health regeneration."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Crushing Blow",
@@ -72,6 +73,51 @@
       "Crushing Blow's  cooldown is reduced by 0.5 seconds whenever Wukong or his  clone damages an enemy.",
       "Crushing Blow  resets Wukong and his  clone's basic attack timer.",
       "Other abilities can be used during the attack's animation."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 20,
+            "ratio": 50,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 45,
+            "ratio": 50,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 70,
+            "ratio": 50,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 95,
+            "ratio": 50,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 120,
+            "ratio": 50,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          20,
+          45,
+          70,
+          95,
+          120
+        ],
+        "ratios": [
+          {
+            "value": 50,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -117,7 +163,8 @@
       "The clone can basic attack autonomously, prioritizing the last enemy Wukong damaged. It can also gain  Crushing Blow,  Nimbus Strike's bonus attack speed, and  Cyclone.",
       "The clone deals reduced outgoing damage.",
       "Wukong can cast any of his abilities during Warrior Trickster's dash."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Nimbus Strike",
@@ -169,6 +216,51 @@
       "Active: Wukong  dashes on a cloud to the target enemy's location and sends out  untargetable clones to attack up to two additional enemies near the target's location, dealing magic damage to each enemy struck. The clones can block non-targeted attacks or abilities for 0.25 seconds after hitting their targets.",
       "Upon hitting his target, Wukong and his  clone gain  bonus attack speed for 5 seconds.",
       "Wukong cannot cast  Warrior Trickster nor  Cyclone while dashing, but he may still buffer them.  Crushing Blow can be used."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 80,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 110,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 140,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 170,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 200,
+            "ratio": 80,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          80,
+          110,
+          140,
+          170,
+          200
+        ],
+        "ratios": [
+          {
+            "value": 80,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -225,6 +317,7 @@
       "The clone's Cyclone will not  knock up enemies who were already hit by Wukong's active Cyclone.",
       " Nimbus Strike's bonus attack speed duration is continuously refreshed while spinning.",
       "Cyclone's damage is capped at 200 / 400 / 600 (based on level) per second against  monsters."
-    ]
+    ],
+    "damageEffects": null
   }
 ]

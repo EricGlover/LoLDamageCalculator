@@ -23,7 +23,8 @@
     "levelings": [],
     "descriptions": [
       "Innate: Cassiopeia cannot purchase boots and instead gains 4 − 72 (based on level)  bonus movement speed, for a total of 332 − 400 (based on level)  movement speed."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Noxious Blast",
@@ -76,6 +77,51 @@
     "descriptions": [
       "Active: After a 0.4-second delay, Cassiopeia blasts the target area with  Noxious Poison, dealing magic damage every second for 3 seconds to all enemies it hits.",
       "Cassiopeia gains  bonus movement speed that decays over 3 seconds if Noxious Blast hits an enemy  champion."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 75,
+            "ratio": 90,
+            "ratioType": "ap"
+          },
+          {
+            "base": 110,
+            "ratio": 90,
+            "ratioType": "ap"
+          },
+          {
+            "base": 145,
+            "ratio": 90,
+            "ratioType": "ap"
+          },
+          {
+            "base": 180,
+            "ratio": 90,
+            "ratioType": "ap"
+          },
+          {
+            "base": 215,
+            "ratio": 90,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          75,
+          110,
+          145,
+          180,
+          215
+        ],
+        "ratios": [
+          {
+            "value": 90,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -133,7 +179,8 @@
       "Active: Cassiopeia spits forth eight bolts of venom in an arc at the target area, leaving toxic clouds of  Debilitating Poison where they hit the ground for 5 seconds.",
       " Debilitating Poison deals magic damage to enemies standing upon it every second, also  grounding them and applying a  slow that decays over the area's duration.",
       "Miasma will cast at max range if cast beyond that."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Twin Fang",
@@ -175,6 +222,51 @@
     "descriptions": [
       "Active: Cassiopeia launches her fangs at the target enemy, dealing 52 − 120 (based on level) (+ 10% AP) magic damage. If Twin Fang kills its target, or the target is killed mid-flight, its  mana cost is refunded.",
       "If the target is  poisoned, Twin Fang deals bonus magic damage and  heals Cassiopeia. The heal is only 25% as effective against  minions and small  monsters."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 10,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 30,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 50,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 70,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 90,
+            "ratio": 60,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          10,
+          30,
+          50,
+          70,
+          90
+        ],
+        "ratios": [
+          {
+            "value": 60,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -221,6 +313,51 @@
     "descriptions": [
       "Active: Cassiopeia blasts enemies in a cone in the target direction, dealing magic damage to all enemies hit.",
       "Enemies facing Cassiopeia are  stunned for 2 seconds upon being hit by Petrifying Gaze, and all other affected enemies are instead  slowed by 40% for the same duration."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 150,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 200,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 250,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 300,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 350,
+            "ratio": 50,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          150,
+          200,
+          250,
+          300,
+          350
+        ],
+        "ratios": [
+          {
+            "value": 50,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   }
 ]

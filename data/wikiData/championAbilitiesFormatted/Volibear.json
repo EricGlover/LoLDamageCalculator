@@ -25,7 +25,8 @@
       "Innate: Volibear gains 1 stack of The Relentless Storm whenever he damages an enemy with  basic attacks on-hit and abilities, up to a maximum of 5. The Relentless Storm lasts for 6 seconds, refreshing whenever Volibear gains a stack. At maximum stacks, he gains Lightning Claws.",
       "The Relentless Storm: Volibear gains  5% bonus attack speed per stack, up to 25% bonus attack speed.",
       "Lightning Claws: Volibear's claws ignite with lightning, causing his basic attacks on-hit to deal 11 −  60 (based on level) (+ 40% AP) bonus magic damage to the target and the closest  visible enemy within 450 units of the target, chaining up to 4 subsequent targets."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Thundering Smash",
@@ -67,7 +68,8 @@
       "While active, Volibear's next basic attack within the duration becomes  unstoppable,  pounces on the target, deals bonus physical damage, and  stuns the target for 1 second.",
       "If Volibear becomes  immobilized while Thundering Smash is active, the effect ends prematurely and the  cooldown is reset.",
       "Thundering Smash  resets Volibear's basic attack timer, benefits from  life steal and is affected by  critical strike modifiers."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Frenzied Maul",
@@ -105,7 +107,7 @@
         "value": [
           6
         ],
-        "type": ""
+        "type": null
       },
       {
         "value": [
@@ -117,7 +119,7 @@
         "value": [
           9
         ],
-        "type": ""
+        "type": null
       }
     ],
     "castTime": 0.25,
@@ -133,6 +135,51 @@
       "Active: Volibear strikes the target enemy, dealing physical damage, applying on-hit and on-attack effects, and Wounding them for 8 seconds.",
       "Against a Wounded enemy, Volibear instead bites the target, dealing  50% increased damage, and  healing himself. The heal is halved against  minions and  monsters.",
       "Frenzied Maul also benefits from  life steal."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 10,
+            "ratio": 100,
+            "ratioType": "ad"
+          },
+          {
+            "base": 35,
+            "ratio": 100,
+            "ratioType": "ad"
+          },
+          {
+            "base": 60,
+            "ratio": 100,
+            "ratioType": "ad"
+          },
+          {
+            "base": 85,
+            "ratio": 100,
+            "ratioType": "ad"
+          },
+          {
+            "base": 110,
+            "ratio": 100,
+            "ratioType": "ad"
+          }
+        ],
+        "flatValues": [
+          10,
+          35,
+          60,
+          85,
+          110
+        ],
+        "ratios": [
+          {
+            "value": 100,
+            "type": "ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -186,6 +233,51 @@
     "descriptions": [
       "Active: Volibear summons a lightning bolt to strike at the target location after a 2-second delay. Enemies can see the cast location indicator after a 1-second delay. If Volibear is within the lightning strike, he  shields himself for 15% of his maximum health (+ 80% AP) for 3 seconds.",
       "The lightning bolt deals magic damage to all enemies struck, capped against non-champions,  slowing them by 40% for 2 seconds, and grants  sight of the area for 1 second."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 80,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 110,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 140,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 170,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 200,
+            "ratio": 80,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          80,
+          110,
+          140,
+          170,
+          200
+        ],
+        "ratios": [
+          {
+            "value": 80,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -228,6 +320,7 @@
       "Volibear impacts after a 1 second delay,  slowing all enemies in an area by 50%, decaying over 1 second. Enemies in the epicenter are also dealt physical damage.",
       "Volibear also disables enemy  turrets (including  untargetable ones and those in  stasis, excluding  Nexus Obelisk) in an area for a few seconds, rendering them unable to attack, as well as dealing them the same physical damage.*",
       "Stormbringer will cast at max range if cast beyond that."
-    ]
+    ],
+    "damageEffects": null
   }
 ]

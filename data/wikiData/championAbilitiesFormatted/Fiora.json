@@ -25,7 +25,8 @@
     "descriptions": [
       "Innate: Fiora identifies the Vitals of nearby  visible enemy champions, marked as an arc around themselves. Vitals take 1.75 seconds to become targetable and linger for 13.25 seconds afterwards while Fiora remains near the target. After a Vital is triggered or times out, Fiora identifies a new one on her target.",
       "Fiora's successful basic attacks and damaging abilities against a Vital trigger it to deal 2.5% (+ 4.5% per 100 bonus AD) of target's maximum health  bonus true damage,  heal Fiora for 40 − 115 (based on level) and grant her 20 / 30 / 40 / 50% (based on  Grand Challenge's Rank)  bonus movement speed that decays over 1.5 seconds."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Lunge",
@@ -81,6 +82,67 @@
       "The stab deals physical damage and applies on-hit effects.",
       "Lunge hits enemies regardless of having  sight of them or not.",
       "Fiora's other abilities can be cast during the dash without cancelling it."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 95,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 80,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 90,
+            "ratio": 105,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 100,
+            "ratio": 110,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 110,
+            "ratio": 115,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          70,
+          80,
+          90,
+          100,
+          110
+        ],
+        "ratios": [
+          {
+            "value": 95,
+            "type": "bonus ad"
+          },
+          {
+            "value": 100,
+            "type": "bonus ad"
+          },
+          {
+            "value": 105,
+            "type": "bonus ad"
+          },
+          {
+            "value": 110,
+            "type": "bonus ad"
+          },
+          {
+            "value": 115,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -128,6 +190,51 @@
       "Active: Fiora poises to strike in the target direction for 0.75 seconds, during which she's unable to act but parries any incoming sources of non-turret damage as well as gains  crowd control immunity and  debuff immunity.",
       "After the duration, Fiora sends a shock forward with her sword, dealing magic damage to enemies in a line.",
       "The first enemy champion struck is also  slowed and  crippled by 50% for 2 seconds. If Fiora parries at least one  immobilizing effect, Riposte  stuns the target for the same duration instead."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 110,
+            "ratio": 100,
+            "ratioType": "ap"
+          },
+          {
+            "base": 150,
+            "ratio": 100,
+            "ratioType": "ap"
+          },
+          {
+            "base": 190,
+            "ratio": 100,
+            "ratioType": "ap"
+          },
+          {
+            "base": 230,
+            "ratio": 100,
+            "ratioType": "ap"
+          },
+          {
+            "base": 270,
+            "ratio": 100,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          110,
+          150,
+          190,
+          230,
+          270
+        ],
+        "ratios": [
+          {
+            "value": 100,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -169,7 +276,8 @@
       "Active: Fiora's next two basic attacks on-attack within 4 seconds gain  25 bonus range and  bonus attack speed.",
       "The first attack  slows the target by 30% for 1 second but cannot  critically strike. The second attack will  critically strike for  reduced critical damage (including to  structures).",
       "Bladework  resets Fiora's basic attack timer."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Grand Challenge",
@@ -214,6 +322,7 @@
       "While near the target, Fiora gains  Duelist's Dance's  bonus movement speed.",
       "If she triggers at least one Vital before her target  dies, or triggers all four, she creates a  Victory Zone that  heals all allied units within it for 2 − 5 (based on Vitals hit) seconds.",
       "Unlike  Duelist's Dance, the Vitals will keep on lingering even if Fiora is not nearby."
-    ]
+    ],
+    "damageEffects": null
   }
 ]

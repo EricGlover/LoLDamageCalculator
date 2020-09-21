@@ -25,7 +25,8 @@
       "descriptions": [
         "Innate: Amumu's basic attacks and  Curse of the Sad Mummy apply a Curse for 3 seconds, refreshing with each subsequent basic attack.",
         "Cursed targets receive  10% bonus true damage from all incoming pre-mitigation magic damage."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Bandage Toss",
@@ -75,6 +76,51 @@
       "descriptions": [
         "Active: Amumu tosses a bandage in the target direction that  stuns the first enemy it hits for 1 second, dealing magic damage and  pulling him to them.",
         "Amumu follows his target for up to 2000 units from the cast position."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 80,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 130,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 180,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 230,
+              "ratio": 70,
+              "ratioType": "ap"
+            },
+            {
+              "base": 280,
+              "ratio": 70,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            80,
+            130,
+            180,
+            230,
+            280
+          ],
+          "ratios": [
+            {
+              "value": 70,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -122,6 +168,14 @@
       ],
       "descriptions": [
         "Toggle: Amumu cries a continuous pool of tears, refreshing Curse and dealing magic damage every 0.5 seconds to nearby enemies."
+      ],
+      "damageEffects": [
+        {
+          "type": "",
+          "abilityRanks": [],
+          "flatValues": [],
+          "ratios": []
+        }
       ]
     },
     {
@@ -177,7 +231,8 @@
         "Passive: Amumu takes reduced post-mitigation damage from each instance of physical damage.",
         "Active: Amumu releases his anger, dealing magic damage to nearby enemies.",
         "Tantrum's  cooldown is reduced by 0.5 seconds every time Amumu is hit by a basic attack."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Curse of the Sad Mummy",
@@ -226,6 +281,51 @@
       ],
       "descriptions": [
         "Active: Amumu entangles surrounding enemy units in bandages,  knocking them down,  rooting and  disarming them for 2 seconds, while also dealing magic damage and applying his Curse."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 150,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 200,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 250,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 300,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 350,
+              "ratio": 80,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            150,
+            200,
+            250,
+            300,
+            350
+          ],
+          "ratios": [
+            {
+              "value": 80,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     }
   ],

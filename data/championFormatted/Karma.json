@@ -24,7 +24,8 @@
       "levelings": [],
       "descriptions": [
         "Innate: Karma reduces  Mantra's  cooldown by 2 / 3 / 4 (based on level) seconds every time she damages an enemy  champion with an ability, or by 1 / 1.5 / 2 (based on level) with her basic attacks on-hit."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Inner Flame",
@@ -69,6 +70,51 @@
       ],
       "descriptions": [
         "Active: Karma fires a burst of spiritual energy in the target direction that detonates with the first enemy hit, dealing magic damage to all enemies around the target and  slowing affected enemies by 35% for 1.5 seconds."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 90,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 135,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 180,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 225,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 270,
+              "ratio": 40,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            90,
+            135,
+            180,
+            225,
+            270
+          ],
+          "ratios": [
+            {
+              "value": 40,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -116,6 +162,51 @@
       "descriptions": [
         "Active: Karma exerts her will over the target enemy champion or monster, dealing them magic damage and forming a  tether between them and her for up to 2 seconds, during which the target is  revealed.",
         "If the tether persists for the duration, the target is dealt the same magic damage and is  revealed and  rooted for a duration."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 40,
+              "ratio": 45,
+              "ratioType": "ap"
+            },
+            {
+              "base": 65,
+              "ratio": 45,
+              "ratioType": "ap"
+            },
+            {
+              "base": 90,
+              "ratio": 45,
+              "ratioType": "ap"
+            },
+            {
+              "base": 115,
+              "ratio": 45,
+              "ratioType": "ap"
+            },
+            {
+              "base": 140,
+              "ratio": 45,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            40,
+            65,
+            90,
+            115,
+            140
+          ],
+          "ratios": [
+            {
+              "value": 45,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -165,7 +256,8 @@
       ],
       "descriptions": [
         "Active: Karma  shields the target allied  champion or herself for 2.5 seconds, granting the target  bonus movement speed for 1.5 seconds."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Mantra",
@@ -196,7 +288,8 @@
         "Active: Karma empowers her next basic ability within 8 seconds for an additional effect.",
         "Karma begins the game with one rank in Mantra.",
         "Mantra can be used while affected by  crowd control."
-      ]
+      ],
+      "damageEffects": []
     }
   ],
   "id": "Karma",

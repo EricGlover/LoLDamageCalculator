@@ -25,7 +25,8 @@
     "descriptions": [
       "Innate - Isolation: Kha'Zix marks any enemy unit that does not have one of their allies within 425 units as Isolated.  Taste Their Fear,  Evolved Reaper Claws, and  Evolved Spike Racks have special interactions against Isolated targets.",
       "Innate: Kha'Zix gains Unseen Threat whenever the enemy loses  sight of him or he activates  Void Assault. Unseen Threat causes his next basic attack against an enemy champion to deal 14 −  116 (based on level) (+ 40% bonus AD) bonus magic damage and  slow them by 25% for 2 seconds. Once gained, the empowered attack lasts until used."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Taste Their Fear",
@@ -72,6 +73,76 @@
     ],
     "descriptions": [
       "Active: Kha'Zix slashes the target enemy, dealing physical damage, increased by 110% against Isolated targets."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 60,
+            "ratio": 130,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 85,
+            "ratio": 130,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 110,
+            "ratio": 130,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 135,
+            "ratio": 130,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 160,
+            "ratio": 130,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          60,
+          85,
+          110,
+          135,
+          160
+        ],
+        "ratios": [
+          {
+            "value": 130,
+            "type": "bonus ad"
+          }
+        ]
+      },
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 126,
+            "ratio": 273,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 178,
+            "ratio": 273,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          126,
+          178
+        ],
+        "ratios": [
+          {
+            "value": 273,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -119,6 +190,51 @@
     "descriptions": [
       "Active: Kha'Zix fires a cluster of spikes in the target direction that detonates upon hitting an enemy, dealing them physical damage.",
       "Kha'Zix  heals himself if he is within the detonation radius."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 85,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 115,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 145,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 175,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 205,
+            "ratio": 100,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          85,
+          115,
+          145,
+          175,
+          205
+        ],
+        "ratios": [
+          {
+            "value": 100,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -165,6 +281,51 @@
     "descriptions": [
       "Active: Kha'Zix  leaps to the target location, dealing physical damage to enemies in the area upon landing.",
       " Taste Their Fear may be used mid-dash."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 65,
+            "ratio": 20,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 100,
+            "ratio": 20,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 135,
+            "ratio": 20,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 170,
+            "ratio": 20,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 205,
+            "ratio": 20,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          65,
+          100,
+          135,
+          170,
+          205
+        ],
+        "ratios": [
+          {
+            "value": 20,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -198,6 +359,7 @@
       "Active: Kha'Zix enters  invisibility for 1.25 seconds, gaining  40% bonus movement speed while stealthed.",
       "After 2 seconds of leaving  invisibility, and for the next 10 seconds, Void Assault can be cast a second time at no additional cost.",
       "Recast: Kha'Zix mimics the first cast's effects."
-    ]
+    ],
+    "damageEffects": []
   }
 ]

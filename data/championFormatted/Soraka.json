@@ -24,7 +24,8 @@
       "levelings": [],
       "descriptions": [
         "Innate: Soraka gains  70% bonus movement speed when moving towards allied champions below  40% of their maximum health."
-      ]
+      ],
+      "damageEffects": []
     },
     {
       "name": "Starcall",
@@ -76,6 +77,51 @@
         "Active: Soraka calls down a star upon the target area, granting  sight over it before landing after 0.25 − 1 (based on target range) seconds, dealing magic damage to enemies hit and  slowing them by 30% for 1.5 seconds.",
         "Hitting at least one enemy  champion returns the star dust toward Soraka, granting her Rejuvenation for 2.5 seconds,  healing her every 0.5 seconds and granting her  bonus movement speed, decaying over the duration.",
         "While Soraka is Rejuvenated she can Rejuvenate other allies with  Astral Infusion, granting them the same effects for the same duration."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 85,
+              "ratio": 35,
+              "ratioType": "ap"
+            },
+            {
+              "base": 120,
+              "ratio": 35,
+              "ratioType": "ap"
+            },
+            {
+              "base": 155,
+              "ratio": 35,
+              "ratioType": "ap"
+            },
+            {
+              "base": 190,
+              "ratio": 35,
+              "ratioType": "ap"
+            },
+            {
+              "base": 225,
+              "ratio": 35,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            85,
+            120,
+            155,
+            190,
+            225
+          ],
+          "ratios": [
+            {
+              "value": 35,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -124,7 +170,8 @@
         "Active: Soraka  heals the target ally champion (excluding herself).",
         "If cast while  Rejuvenated, the health cost will be reduced by a percentage.",
         "Astral Infusion cannot be cast if Soraka is  below 5% of her maximum health."
-      ]
+      ],
+      "damageEffects": null
     },
     {
       "name": "Equinox",
@@ -181,6 +228,94 @@
       "descriptions": [
         "Active: Soraka creates a celestial zone at the target location, dealing magic damage to enemy champions that were inside it upon creation. The zone then persists for 1.5 seconds,  silencing all enemy champions within it every 0.25 seconds.",
         "After the duration, the zone detonates, dealing the same magic damage to all enemy champions within and briefly  rooting them."
+      ],
+      "damageEffects": [
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 70,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 95,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 120,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 145,
+              "ratio": 40,
+              "ratioType": "ap"
+            },
+            {
+              "base": 170,
+              "ratio": 40,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            70,
+            95,
+            120,
+            145,
+            170
+          ],
+          "ratios": [
+            {
+              "value": 40,
+              "type": "ap"
+            }
+          ]
+        },
+        {
+          "type": "magic",
+          "abilityRanks": [
+            {
+              "base": 140,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 190,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 240,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 290,
+              "ratio": 80,
+              "ratioType": "ap"
+            },
+            {
+              "base": 340,
+              "ratio": 80,
+              "ratioType": "ap"
+            }
+          ],
+          "flatValues": [
+            140,
+            190,
+            240,
+            290,
+            340
+          ],
+          "ratios": [
+            {
+              "value": 80,
+              "type": "ap"
+            }
+          ]
+        }
       ]
     },
     {
@@ -230,7 +365,8 @@
       ],
       "descriptions": [
         "Active: Soraka calls upon the stars, instantly  healing all allied champions, and herself, which is increased by 50% on targets below  40% of their maximum health."
-      ]
+      ],
+      "damageEffects": null
     }
   ],
   "id": "Soraka",

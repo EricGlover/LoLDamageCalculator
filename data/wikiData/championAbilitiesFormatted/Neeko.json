@@ -25,7 +25,8 @@
       "Innate: Neeko is offered a selection of allied  champions to take their appearance. Once selected, there's a 2.5-second delay before another champion can be selected.",
       "While disguised, Neeko can use basic attacks while keeping her form. Taking damage from enemy champions, or casting either  Blooming Burst or  Tangle-Barbs or leaping by  Pop Blossom breaks the illusion and puts Inherent Glamour on  cooldown.",
       "When disguised, Neeko can select herself to deactivate her disguise, putting Inherent Glamour on a 2-second  cooldown."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Blooming Burst",
@@ -72,6 +73,51 @@
     "descriptions": [
       "Active: Neeko propels a seed into the target area that deals magic damage to enemies hit.",
       "If the seed kills an enemy or damages a champion or large  monster, it will bloom again after a 0.75-second delay to deal magic damage. This cannot happen more than twice per Blooming Burst."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 80,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 125,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 170,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 215,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 260,
+            "ratio": 50,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          80,
+          125,
+          170,
+          215,
+          260
+        ],
+        "ratios": [
+          {
+            "value": 50,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -120,6 +166,51 @@
       "Passive: Basic attacks on-hit grant Neeko a stack of Shapesplitter. At 2 stacks, Neeko's next basic attack on-attack consumes the stacks to turn her attack into a  non-projectile, deal bonus magic damage and grant her  bonus movement speed for 1 second.",
       "Active: Neeko becomes  invisible for 0.5 seconds, sending a temporary  clone of her  current form sprinting in the target direction for 3 seconds and up to 900 units away until it encounters terrain, at which it stops and remains idle. The clone is  untargetable for the first 0.5 seconds.",
       "Both Neeko and the clone gain bonus movement speed for 3 seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 50,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 70,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 90,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 110,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 130,
+            "ratio": 60,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          50,
+          70,
+          90,
+          110,
+          130
+        ],
+        "ratios": [
+          {
+            "value": 60,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -171,6 +262,51 @@
     "descriptions": [
       "Active: Neeko slings a magical spiral in the target direction, dealing magic damage and  rooting enemies it passes through.",
       "If Tangle-Barbs hits at least one enemy, it thereafter grows in size and speed, with the root duration increased."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 80,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 115,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 150,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 185,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 220,
+            "ratio": 60,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          80,
+          115,
+          150,
+          185,
+          220
+        ],
+        "ratios": [
+          {
+            "value": 60,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -227,6 +363,7 @@
       "Active: Neeko sprouts a blossom over 1.25 seconds, marking an area around her that is invisible to enemies while she is  disguised.",
       "Neeko then  shields herself for 2 seconds, increased for each enemy  champion nearby, as she leaps into the air for 0.6 seconds, causing  Shapesplitter clones to disappear in the process.",
       "Upon landing, the blossom bursts, dealing magic damage and  stunning nearby enemies for 1.25 seconds."
-    ]
+    ],
+    "damageEffects": null
   }
 ]

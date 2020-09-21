@@ -26,7 +26,8 @@
       "The second strike applies on-attack and on-hit effects at full effect and is affected by  critical strike modifiers.",
       "If Master Yi's primary target is killed before the second strike, he automatically attacks another enemy within 300 range.",
       "The second strike can  critically strike  structures."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Alpha Strike",
@@ -86,6 +87,51 @@
       "If there are no other un-marked enemies in range, he may strike the same enemies again, dealing 25% damage instantly.",
       "Alpha Strike's primary and lesser damage can  critically strike for (60% +  15%) AD bonus physical damage and (15% +  3.75%) AD bonus physical damage respectively.",
       "Basic attacks reduce Alpha Strike's  cooldown by 1 second."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 25,
+            "ratio": 100,
+            "ratioType": "ad"
+          },
+          {
+            "base": 60,
+            "ratio": 100,
+            "ratioType": "ad"
+          },
+          {
+            "base": 95,
+            "ratio": 100,
+            "ratioType": "ad"
+          },
+          {
+            "base": 130,
+            "ratio": 100,
+            "ratioType": "ad"
+          },
+          {
+            "base": 165,
+            "ratio": 100,
+            "ratioType": "ad"
+          }
+        ],
+        "flatValues": [
+          25,
+          60,
+          95,
+          130,
+          165
+        ],
+        "ratios": [
+          {
+            "value": 100,
+            "type": "ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -150,7 +196,8 @@
       "While channeling, Master Yi reduces incoming damage, halved against turrets, pauses  Wuju Style's and  Highlander's duration, and grants one stack of  Double Strike per second.",
       "After the channel ends, Master Yi reduces incoming damage for another 0.25 seconds, with lesser effectiveness against non-turret damage but greater effectiveness vs turret damage. *",
       "Meditate  resets Master Yi's basic attack timer."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Wuju Style",
@@ -195,7 +242,8 @@
     ],
     "descriptions": [
       "Active: Master Yi empowers his sword, causing his basic attacks to deal  bonus true damage for 5 seconds."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Highlander",
@@ -232,6 +280,7 @@
       "Passive: Champion  takedowns reduce the current  cooldown of Master Yi's basic abilities by 70%.",
       "Active: Master Yi  cleanses himself of all  slows and  cripples. For the next 7 seconds, he is  ghosted, gains  bonus attack speed and  bonus movement speed, and becomes  slow-immune and immune to  cripples.",
       "While active, champion  takedowns extend the duration of Highlander by 7 seconds."
-    ]
+    ],
+    "damageEffects": null
   }
 ]

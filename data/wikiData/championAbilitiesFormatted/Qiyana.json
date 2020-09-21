@@ -25,7 +25,8 @@
       "Innate: Qiyana's basic attacks and damaging abilities deal 15 − 83 (based on level) (+ 55% bonus AD) (+ 30% AP) bonus physical damage to affected enemies.",
       "This effect cannot occur on the same target more than once every few seconds.",
       "Royal Privilege's  cooldown is reset on all targets upon gathering or changing an  Element."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Edge of Ixtal",
@@ -73,6 +74,57 @@
     "descriptions": [
       "Active: Qiyana slashes forward in the target direction, dealing physical damage to enemies in a line, reduced to 75% damage against targets beyond the first.",
       "Upon gathering an element with  Terrashape, Edge of Ixtal is upgraded to Elemental Wrath and its  cooldown is reset."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 60,
+            "ratio": 90,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 85,
+            "ratio": 90,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 110,
+            "ratio": 90,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 135,
+            "ratio": 90,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 160,
+            "ratio": 90,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          60,
+          85,
+          110,
+          135,
+          160
+        ],
+        "ratios": [
+          {
+            "value": 90,
+            "type": "bonus ad"
+          }
+        ]
+      },
+      {
+        "type": "",
+        "abilityRanks": [],
+        "flatValues": [],
+        "ratios": []
+      }
     ]
   },
   {
@@ -127,6 +179,51 @@
       "Active: Qiyana  dashes towards the target location while gathering an Element of the nearest  Brush,  River or  Terrain she targeted, enchanting her blade.",
       "A target Element is required to cast this ability.",
       "Once Terrashape has been learned, Qiyana is automatically given the  Terrain element upon respawning."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 8,
+            "ratio": 10,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 16,
+            "ratio": 10,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 24,
+            "ratio": 10,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 32,
+            "ratio": 10,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 40,
+            "ratio": 10,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          8,
+          16,
+          24,
+          32,
+          40
+        ],
+        "ratios": [
+          {
+            "value": 10,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -177,6 +274,51 @@
     "descriptions": [
       "Active: Qiyana  dashes a fixed distance towards the target enemy, dealing physical damage.",
       "Qiyana can cast any of her abilities during Audacity. Casting  Edge of Ixtal during Audacity will autonomously aim at the dash target."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 60,
+            "ratio": 70,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 90,
+            "ratio": 70,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 120,
+            "ratio": 70,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 150,
+            "ratio": 70,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 180,
+            "ratio": 70,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          60,
+          90,
+          120,
+          150,
+          180
+        ],
+        "ratios": [
+          {
+            "value": 70,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   },
   {
@@ -225,6 +367,51 @@
     "descriptions": [
       "Active: Qiyana sends a windblast in the target direction that  knocks back enemies. The windblast stops upon hitting terrain.",
       "The windblast then creates an erupting shockwave across any River or Brush it passes through, as well as around the borders of terrain it reaches, dealing physical damage, with the percentage damage capped against  monsters and  stunning enemies for 1 − 0.5 (based on proximity) seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 100,
+            "ratio": 170,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 135,
+            "ratio": 170,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 170,
+            "ratio": 170,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 205,
+            "ratio": 170,
+            "ratioType": "bonus ad"
+          },
+          {
+            "base": 240,
+            "ratio": 170,
+            "ratioType": "bonus ad"
+          }
+        ],
+        "flatValues": [
+          100,
+          135,
+          170,
+          205,
+          240
+        ],
+        "ratios": [
+          {
+            "value": 170,
+            "type": "bonus ad"
+          }
+        ]
+      }
     ]
   }
 ]

@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: After completing an ability's effects, Shen  shields himself from 60 − 111 (based on level) (+ 14% bonus health) damage for 2.5 seconds. If the triggering ability successfully affected at least one  champion, Ki Barrier's  cooldown is reduced by 4 − 7.5 (based on level) seconds.",
       "Shen's power manifests as a Spirit Blade that he can control with his abilities."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Twilight Assault",
@@ -74,7 +75,8 @@
       "Once it arrives, Shen empowers his next 3 basic attacks within 8 seconds to gain  75 bonus range and deal bonus magic damage.",
       "If the Spirit Blade collides with at least one enemy  champion on its way to Shen, the empowerment is enhanced, dealing increased bonus magic damage and granting Shen  50% bonus attack speed while it is active.",
       "Empowered attacks against  monsters instead deal 100% bonus damage, but their total damage is capped."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "Spirit's Refuge",
@@ -104,7 +106,8 @@
     "levelings": [],
     "descriptions": [
       "Active: Shen primes his Spirit Blade, creating an area around it. If Shen or an allied champion enter or are within the area, or after 2 seconds, the Spirit Blade creates a protective zone around it for 1.75 seconds,  blocking all non- turret basic attacks that hit Shen or allied champions in the area."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Shadow Dash",
@@ -136,7 +139,7 @@
         "value": [
           15
         ],
-        "type": ""
+        "type": null
       }
     ],
     "castTime": null,
@@ -150,6 +153,51 @@
     "descriptions": [
       "Passive: Damage from Shadow Dash and  Twilight Assault recovers  30 / 35 / 40 (based on level) energy.",
       "Active: Shen  dashes in the target direction, dealing physical damage to all enemy champions and  monsters in his path and  taunting them for 1.5 seconds."
+    ],
+    "damageEffects": [
+      {
+        "type": "physical",
+        "abilityRanks": [
+          {
+            "base": 60,
+            "ratio": 15,
+            "ratioType": null
+          },
+          {
+            "base": 85,
+            "ratio": 15,
+            "ratioType": null
+          },
+          {
+            "base": 110,
+            "ratio": 15,
+            "ratioType": null
+          },
+          {
+            "base": 135,
+            "ratio": 15,
+            "ratioType": null
+          },
+          {
+            "base": 160,
+            "ratio": 15,
+            "ratioType": null
+          }
+        ],
+        "flatValues": [
+          60,
+          85,
+          110,
+          135,
+          160
+        ],
+        "ratios": [
+          {
+            "value": 15,
+            "type": null
+          }
+        ]
+      }
     ]
   },
   {
@@ -203,6 +251,7 @@
     "descriptions": [
       "Active: Shen  channels for 3 seconds,  shielding the target allied champion at the time of cast for up to 5 seconds, increased by 0% − 60% (based on target's missing health).",
       "Upon completing the channel, Shen and his Spirit Blade  blink to the target ally's location, placing himself and his Spirit Blade between them and the nearest enemy champion. Shen also  destroys any  projectiles targeting him at the time of completion."
-    ]
+    ],
+    "damageEffects": null
   }
 ]

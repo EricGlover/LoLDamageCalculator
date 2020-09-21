@@ -26,7 +26,8 @@
       "Innate: Rakan periodically generates a 33 − 254 (based on level) (+ 90% AP)  shield that lasts until broken. If the shield is damaged, but not destroyed after being out of combat for 5 seconds, it will regenerate 10% of its maximum value every second.",
       "Basic attacks and abilities reduce Fey Feathers'  cooldown by 1 second for each enemy  champion hit.",
       "Innate - Lover's Leap: If either Rakan or  Xayah is channeling  Recall, the other may move nearby and channel their own to join them. Both reach base at the time of which the initiator's recall ends."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Gleaming Quill",
@@ -73,6 +74,51 @@
       "Active: Rakan slings an enchanted feather in the target direction, dealing magic damage to the first enemy hit.",
       "If the target was an enemy  champion or  epic monster, an area is marked around Rakan.",
       "After 3 seconds or if an ally champion comes within the marked area, Rakan  heals himself and surrounding allies for 18 − 120 (based on level) (+ 70% AP)."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 115,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 160,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 205,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 250,
+            "ratio": 60,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          70,
+          115,
+          160,
+          205,
+          250
+        ],
+        "ratios": [
+          {
+            "value": 60,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -125,6 +171,51 @@
       "After a 0.35-second delay upon arrival, he leaps into the air, dealing magic damage and  knocking up surrounding enemies for 1 second.",
       "Rakan will be  knocked down by any  immobilizing crowd control during Grand Entrance.",
       "Grand Entrance will cast at max range if cast beyond that."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 125,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 180,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 235,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 290,
+            "ratio": 70,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          70,
+          125,
+          180,
+          235,
+          290
+        ],
+        "ratios": [
+          {
+            "value": 70,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -178,7 +269,8 @@
       "Recast: Rakan mimics the first cast's effects.",
       "Rakan will be  knocked down by any  immobilizing crowd control during Battle Dance.",
       "If  Xayah is the target, Battle Dance can be cast from an increased range."
-    ]
+    ],
+    "damageEffects": null
   },
   {
     "name": "The Quickness",
@@ -224,6 +316,39 @@
       "When Rakan collides with his first enemy  champion he gains an additional  75% bonus movement speed, which starts decaying after 0.5 seconds by 20% every 0.5 seconds and then by 15% after decaying by 60% over 1.5 seconds.",
       "During the first 0.5 seconds of The Quickness, Rakan is in cast time.",
       "During The Quickness, Rakan cannot basic attack enemy champions if he did not charm them, unless the attack command was inputted before the ability was activated."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 100,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 200,
+            "ratio": 50,
+            "ratioType": "ap"
+          },
+          {
+            "base": 300,
+            "ratio": 50,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          100,
+          200,
+          300
+        ],
+        "ratios": [
+          {
+            "value": 50,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   }
 ]

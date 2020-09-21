@@ -24,7 +24,8 @@
     "descriptions": [
       "Innate: Whenever an enemy champion dies while Lissandra is near, she spawns a Frozen Thrall from their corpse.",
       "Frozen Thralls are  invulnerable and  untargetable ice spirits that chase nearby  visible enemies, prioritizing  champions,  slowing nearby enemies by 25% and shattering after 4 seconds, dealing 120 − 520 (based on level) (+ 50% AP)  magic damage. Frozen Thralls initially have a slow movement speed, which increases over the duration."
-    ]
+    ],
+    "damageEffects": []
   },
   {
     "name": "Ice Shard",
@@ -74,6 +75,51 @@
     "descriptions": [
       "Active: Lissandra hurls a spear of ice in a line in the target direction which deals magic damage to the first enemy it hits and  slows them for 1.5 seconds.",
       "If the spear hits an enemy, it then shatters, gaining increased range and dealing the same damage to other enemies hit, but applying no slow."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 100,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 130,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 160,
+            "ratio": 80,
+            "ratioType": "ap"
+          },
+          {
+            "base": 190,
+            "ratio": 80,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          70,
+          100,
+          130,
+          160,
+          190
+        ],
+        "ratios": [
+          {
+            "value": 80,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -119,6 +165,51 @@
     ],
     "descriptions": [
       "Active: Lissandra freezes all nearby enemies, dealing them magic damage and briefly  rooting them."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 105,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 140,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 175,
+            "ratio": 70,
+            "ratioType": "ap"
+          },
+          {
+            "base": 210,
+            "ratio": 70,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          70,
+          105,
+          140,
+          175,
+          210
+        ],
+        "ratios": [
+          {
+            "value": 70,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -169,6 +260,51 @@
     "descriptions": [
       "Active: Lissandra casts a claw of ice in the target direction that moves forward in a line, decelerating over 1.25 seconds, dealing magic damage to all enemies it passes through. Glacial Path can be recast after 0.5 seconds while the claw is still traveling.",
       "Recast: Lissandra consumes the claw and  blinks to its location."
+    ],
+    "damageEffects": [
+      {
+        "type": "magic",
+        "abilityRanks": [
+          {
+            "base": 70,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 105,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 140,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 175,
+            "ratio": 60,
+            "ratioType": "ap"
+          },
+          {
+            "base": 210,
+            "ratio": 60,
+            "ratioType": "ap"
+          }
+        ],
+        "flatValues": [
+          70,
+          105,
+          140,
+          175,
+          210
+        ],
+        "ratios": [
+          {
+            "value": 60,
+            "type": "ap"
+          }
+        ]
+      }
     ]
   },
   {
@@ -223,6 +359,7 @@
       "Enemy Cast: Lissandra freezes the target enemy  champion,  knocking them down and  stunning them for 1.5 seconds.",
       "Self Cast: Lissandra instantly entombs herself, placing herself in  stasis for 2.5 seconds while  healing herself over the duration, with the heal increased by 0% − 100% (based on missing health) at time of cast.",
       "Black ice spreads from Frozen Tomb's target and lasts for 3 seconds, dealing magic damage to all unique enemies entering the area, and  slowing them while they remain within."
-    ]
+    ],
+    "damageEffects": null
   }
 ]
